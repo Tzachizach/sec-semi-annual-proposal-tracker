@@ -37,22 +37,17 @@ h2 { font-size: 16px; font-weight: 500; margin: 0 0 12px; }
 .stance-list .lbl { display: inline-flex; align-items: center; gap: 8px; }
 .stance-list .num { font-variant-numeric: tabular-nums; color: #555; }
 .stance-list .num strong { color: #1a1a1a; font-weight: 500; }
-.row {
-  display: grid; grid-template-columns: 36px 90px 1fr 110px 60px;
+.row { display: grid; grid-template-columns: 36px 90px 1fr 110px 60px;
   align-items: baseline; gap: 12px; padding: 10px 12px;
   border: 0.5px solid rgba(0,0,0,0.1); border-radius: 8px; font-size: 13px;
-  margin-bottom: 6px;
-}
+  margin-bottom: 6px; }
 .row .num { color: #888; font-variant-numeric: tabular-nums; }
 .row .date { color: #666; font-variant-numeric: tabular-nums; }
 .row .name a { color: #1a1a1a; font-weight: 500; text-decoration: none; }
 .row .name a:hover { text-decoration: underline; }
 .row .role { color: #777; font-size: 12px; display: block; margin-top: 2px; }
 .row .words { color: #555; font-variant-numeric: tabular-nums; font-size: 12px; text-align: right; }
-.row .pill {
-  font-size: 11px; padding: 2px 8px; border-radius: 999px;
-  text-align: center; font-weight: 500; white-space: nowrap;
-}
+.row .pill { font-size: 11px; padding: 2px 8px; border-radius: 999px; text-align: center; font-weight: 500; white-space: nowrap; }
 .pill.Oppose { background: #FCEBEB; color: #791F1F; }
 .pill.Support { background: #EAF3DE; color: #27500A; }
 .pill.Conditional { background: #FAEEDA; color: #633806; }
@@ -109,16 +104,12 @@ table.full a:hover { text-decoration: underline; }
 <div class="section">
   <h2>Letters per day</h2>
   <div class="legend" id="legend"></div>
-  <div class="chart-wrap">
-    <canvas id="byDayChart" role="img" aria-label="Stacked bar chart of comment letters received per day, broken down by stance"></canvas>
-  </div>
+  <div class="chart-wrap"><canvas id="byDayChart" role="img" aria-label="Stacked bar chart of comment letters received per day, broken down by stance"></canvas></div>
 </div>
 
 <div class="section">
   <h2>Stance totals</h2>
-  <div class="chart-wrap short">
-    <canvas id="stanceChart" role="img" aria-label="Horizontal bar chart of letters by stance with percentages"></canvas>
-  </div>
+  <div class="chart-wrap short"><canvas id="stanceChart" role="img" aria-label="Horizontal bar chart of letters by stance with percentages"></canvas></div>
   <ul class="stance-list" id="stance-list"></ul>
 </div>
 
