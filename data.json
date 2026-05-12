@@ -845,5 +845,203 @@
     "stance": "Oppose",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2356514.htm",
     "words": 165
+  },
+  {
+    "n": 78,
+    "page": 1,
+    "date": "2026-05-08",
+    "name": "Diane Aaby",
+    "role": "Individual",
+    "entity": "Individual investor",
+    "stance": "Oppose",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-771907-2362654.html",
+    "words": 2
+  },
+  {
+    "n": 79,
+    "page": 1,
+    "date": "2026-05-09",
+    "name": "Anonymous",
+    "role": "Individual (anonymous)",
+    "entity": "Individual investor",
+    "stance": "Oppose",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-772207-2363374.html",
+    "words": 224
+  },
+  {
+    "n": 80,
+    "page": 1,
+    "date": "2026-05-09",
+    "name": "Bayo Olabisi",
+    "role": "University of Pennsylvania Wharton School Alumni",
+    "entity": "Individual investor",
+    "stance": "Oppose",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-771987-2362814.html",
+    "words": 278
+  },
+  {
+    "n": 81,
+    "page": 1,
+    "date": "2026-05-09",
+    "name": "Marc Steinberg",
+    "role": "Radford Chair in Law and Professor of Law, SMU Dedman School of Law; former SEC attorney (Division of Enforcement and Of",
+    "entity": "Academic / Tech expert",
+    "stance": "Conditional",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2363994.htm",
+    "words": 281
+  },
+  {
+    "n": 82,
+    "page": 1,
+    "date": "2026-05-09",
+    "name": "Mike Dattilo",
+    "role": "Senior Financial Manager, FP&A, NBCUniversal",
+    "entity": "Issuer / Corporate",
+    "stance": "Conditional",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-772307-2363854.html",
+    "words": 256
+  },
+  {
+    "n": 83,
+    "page": 1,
+    "date": "2026-05-09",
+    "name": "Vladimir Samarin",
+    "role": "Individual",
+    "entity": "Individual investor",
+    "stance": "Oppose",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-772407-2364054.html",
+    "words": 23
+  },
+  {
+    "n": 84,
+    "page": 1,
+    "date": "2026-05-10",
+    "name": "Adam Sawyers",
+    "role": "CEO, Rito Labs",
+    "entity": "Issuer / Corporate",
+    "stance": "Oppose",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-772907-2365094.html",
+    "words": 49
+  },
+  {
+    "n": 85,
+    "page": 1,
+    "date": "2026-05-10",
+    "name": "Anonymous",
+    "role": "Individual (anonymous)",
+    "entity": "Individual investor",
+    "stance": "Oppose",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-772607-2364376.html",
+    "words": 125
+  },
+  {
+    "n": 86,
+    "page": 1,
+    "date": "2026-05-10",
+    "name": "Anthony Sirica",
+    "role": "CPA and investor (AAPL, NVDA, BXSL, ARES, JPM, MOB, etc.)",
+    "entity": "Accountant (CPA)",
+    "stance": "Conditional",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-772067-2363095.html",
+    "words": 116
+  },
+  {
+    "n": 87,
+    "page": 1,
+    "date": "2026-05-10",
+    "name": "Michael Mosquera",
+    "role": "Private investor (more than half a lifetime)",
+    "entity": "Individual investor",
+    "stance": "Conditional",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-772687-2364754.html",
+    "words": 293
+  },
+  {
+    "n": 88,
+    "page": 1,
+    "date": "2026-05-11",
+    "name": "Alex Matache",
+    "role": "Individual",
+    "entity": "Individual investor",
+    "stance": "Oppose",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-773747-2366674.html",
+    "words": 190
+  },
+  {
+    "n": 89,
+    "page": 1,
+    "date": "2026-05-11",
+    "name": "Benjamin Esper",
+    "role": "Individual",
+    "entity": "Individual investor",
+    "stance": "Oppose",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-773867-2366736.html",
+    "words": 84
+  },
+  {
+    "n": 90,
+    "page": 1,
+    "date": "2026-05-11",
+    "name": "Blake Webb",
+    "role": "Retail investor",
+    "entity": "Individual investor",
+    "stance": "Oppose",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-773487-2366215.html",
+    "words": 98
+  },
+  {
+    "n": 91,
+    "page": 1,
+    "date": "2026-05-11",
+    "name": "Brian Wang",
+    "role": "Investor",
+    "entity": "Individual investor",
+    "stance": "Oppose",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-773087-2365614.html",
+    "words": 21
+  },
+  {
+    "n": 92,
+    "page": 1,
+    "date": "2026-05-11",
+    "name": "Christine Morton",
+    "role": "Individual Retail Investor (US citizen residing in UK)",
+    "entity": "Individual investor",
+    "stance": "Oppose",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-773207-2365854.html",
+    "words": 126
+  },
+  {
+    "n": 93,
+    "page": 1,
+    "date": "2026-05-11",
+    "name": "Kenneth I Kornbluh",
+    "role": "CEO, Kambio Partners LLC (hedge fund managing five funds, hundreds of millions in assets)",
+    "entity": "Investment professional",
+    "stance": "Oppose",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-773107-2365734.html",
+    "words": 538
+  },
+  {
+    "n": 94,
+    "page": 1,
+    "date": "2026-05-11",
+    "name": "Nathan Powers",
+    "role": "Owner, Good Faith Co",
+    "entity": "Issuer / Corporate",
+    "stance": "Oppose",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-773727-2366614.html",
+    "words": 321
+  },
+  {
+    "n": 95,
+    "page": 1,
+    "date": "2026-05-11",
+    "name": "Oscar Meade",
+    "role": "Individual",
+    "entity": "Individual investor",
+    "stance": "Oppose",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-773887-2366754.html",
+    "words": 48
   }
 ]
