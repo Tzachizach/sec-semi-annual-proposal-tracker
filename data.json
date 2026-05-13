@@ -12,7 +12,13 @@
     "skeptic": "Conditional",
     "agreement": "majority",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-771407-2361815.html",
-    "words": 410
+    "words": 410,
+    "rationales": [
+      "LE",
+      "IP",
+      "IA",
+      "FR"
+    ]
   },
   {
     "n": 2,
@@ -27,7 +33,13 @@
     "skeptic": "Conditional",
     "agreement": "majority",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-771447-2361874.html",
-    "words": 314
+    "words": 314,
+    "rationales": [
+      "CB",
+      "ST",
+      "OP",
+      "ICs"
+    ]
   },
   {
     "n": 3,
@@ -42,7 +54,10 @@
     "skeptic": "Support",
     "agreement": "majority",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-770687-2360434.html",
-    "words": 151
+    "words": 151,
+    "rationales": [
+      "ST"
+    ]
   },
   {
     "n": 4,
@@ -57,7 +72,10 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-771067-2361035.html",
-    "words": 11
+    "words": 11,
+    "rationales": [
+      "NR"
+    ]
   },
   {
     "n": 5,
@@ -72,7 +90,11 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-770607-2360294.html",
-    "words": 57
+    "words": 57,
+    "rationales": [
+      "IP",
+      "ICc"
+    ]
   },
   {
     "n": 6,
@@ -87,7 +109,11 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-771007-2360834.html",
-    "words": 257
+    "words": 257,
+    "rationales": [
+      "IP",
+      "IA"
+    ]
   },
   {
     "n": 7,
@@ -102,7 +128,12 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-770790-2360654.html",
-    "words": 502
+    "words": 502,
+    "rationales": [
+      "AU",
+      "EX",
+      "CB"
+    ]
   },
   {
     "n": 8,
@@ -117,7 +148,11 @@
     "skeptic": "Support",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-771107-2361077.html",
-    "words": 31
+    "words": 31,
+    "rationales": [
+      "ST",
+      "OP"
+    ]
   },
   {
     "n": 9,
@@ -132,7 +167,12 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2359955.htm",
-    "words": 155
+    "words": 155,
+    "rationales": [
+      "IP",
+      "FR",
+      "CB"
+    ]
   },
   {
     "n": 10,
@@ -147,7 +187,11 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-771047-2360934.html",
-    "words": 135
+    "words": 135,
+    "rationales": [
+      "IP",
+      "FR"
+    ]
   },
   {
     "n": 11,
@@ -162,7 +206,10 @@
     "skeptic": "Conditional",
     "agreement": "majority",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-770967-2360817.html",
-    "words": 331
+    "words": 331,
+    "rationales": [
+      "AL"
+    ]
   },
   {
     "n": 12,
@@ -177,7 +224,12 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2359974.htm",
-    "words": 95
+    "words": 95,
+    "rationales": [
+      "FR",
+      "MF",
+      "IP"
+    ]
   },
   {
     "n": 13,
@@ -192,7 +244,11 @@
     "skeptic": "Conditional",
     "agreement": "majority",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-770827-2360674.html",
-    "words": 331
+    "words": 331,
+    "rationales": [
+      "IP",
+      "AU"
+    ]
   },
   {
     "n": 14,
@@ -207,7 +263,14 @@
     "skeptic": "Support",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-771207-2361214.pdf",
-    "words": 6962
+    "words": 6962,
+    "rationales": [
+      "ST",
+      "CB",
+      "OP",
+      "ICs",
+      "EX"
+    ]
   },
   {
     "n": 15,
@@ -222,7 +285,12 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769347-2358434.html",
-    "words": 73
+    "words": 73,
+    "rationales": [
+      "IP",
+      "IA",
+      "FR"
+    ]
   },
   {
     "n": 16,
@@ -237,7 +305,11 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768988-2357774.html",
-    "words": 54
+    "words": 54,
+    "rationales": [
+      "IA",
+      "IP"
+    ]
   },
   {
     "n": 17,
@@ -252,7 +324,11 @@
     "skeptic": "Conditional",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769427-2358574_0.html",
-    "words": 691
+    "words": 691,
+    "rationales": [
+      "AL",
+      "AU"
+    ]
   },
   {
     "n": 18,
@@ -267,7 +343,10 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769527-2358714.html",
-    "words": 78
+    "words": 78,
+    "rationales": [
+      "IP"
+    ]
   },
   {
     "n": 19,
@@ -282,7 +361,10 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2359154.htm",
-    "words": 41
+    "words": 41,
+    "rationales": [
+      "RI"
+    ]
   },
   {
     "n": 20,
@@ -297,7 +379,11 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769167-2358174.html",
-    "words": 37
+    "words": 37,
+    "rationales": [
+      "IP",
+      "FR"
+    ]
   },
   {
     "n": 21,
@@ -312,7 +398,10 @@
     "skeptic": "Conditional",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769907-2359135.html",
-    "words": 107
+    "words": 107,
+    "rationales": [
+      "AL"
+    ]
   },
   {
     "n": 22,
@@ -327,7 +416,11 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769947-2359194.html",
-    "words": 39
+    "words": 39,
+    "rationales": [
+      "MF",
+      "FR"
+    ]
   },
   {
     "n": 23,
@@ -342,7 +435,10 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769230-2358254.html",
-    "words": 75
+    "words": 75,
+    "rationales": [
+      "IP"
+    ]
   },
   {
     "n": 24,
@@ -357,7 +453,10 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769887-2359114.html",
-    "words": 35
+    "words": 35,
+    "rationales": [
+      "IP"
+    ]
   },
   {
     "n": 25,
@@ -372,7 +471,10 @@
     "skeptic": "Conditional",
     "agreement": "majority",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2359534_1.htm",
-    "words": 500
+    "words": 500,
+    "rationales": [
+      "OP"
+    ]
   },
   {
     "n": 26,
@@ -387,7 +489,14 @@
     "skeptic": "Conditional",
     "agreement": "majority",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769587-2358754.html",
-    "words": 397
+    "words": 397,
+    "rationales": [
+      "IP",
+      "IA",
+      "AU",
+      "MF",
+      "US"
+    ]
   },
   {
     "n": 27,
@@ -402,7 +511,11 @@
     "skeptic": "Conditional",
     "agreement": "majority",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-770207-2359474.html",
-    "words": 86
+    "words": 86,
+    "rationales": [
+      "AL",
+      "IP"
+    ]
   },
   {
     "n": 28,
@@ -417,7 +530,10 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2359155.htm",
-    "words": 83
+    "words": 83,
+    "rationales": [
+      "IP"
+    ]
   },
   {
     "n": 29,
@@ -432,7 +548,14 @@
     "skeptic": "Conditional",
     "agreement": "majority",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768967-2357714.html",
-    "words": 430
+    "words": 430,
+    "rationales": [
+      "IP",
+      "IA",
+      "FR",
+      "CMP",
+      "EX"
+    ]
   },
   {
     "n": 30,
@@ -447,7 +570,10 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769187-2358214.html",
-    "words": 214
+    "words": 214,
+    "rationales": [
+      "RI"
+    ]
   },
   {
     "n": 31,
@@ -462,7 +588,10 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-770007-2359234.html",
-    "words": 90
+    "words": 90,
+    "rationales": [
+      "IA"
+    ]
   },
   {
     "n": 32,
@@ -477,7 +606,11 @@
     "skeptic": "Conditional",
     "agreement": "majority",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2359614.htm",
-    "words": 133
+    "words": 133,
+    "rationales": [
+      "AL",
+      "CB"
+    ]
   },
   {
     "n": 33,
@@ -492,7 +625,10 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769291-2358334.html",
-    "words": 72
+    "words": 72,
+    "rationales": [
+      "IP"
+    ]
   },
   {
     "n": 34,
@@ -507,7 +643,10 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769367-2358454.html",
-    "words": 36
+    "words": 36,
+    "rationales": [
+      "IP"
+    ]
   },
   {
     "n": 35,
@@ -522,7 +661,11 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769087-2358094.html",
-    "words": 43
+    "words": 43,
+    "rationales": [
+      "US",
+      "MF"
+    ]
   },
   {
     "n": 36,
@@ -537,7 +680,11 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769467-2358654.html",
-    "words": 187
+    "words": 187,
+    "rationales": [
+      "IP",
+      "FR"
+    ]
   },
   {
     "n": 37,
@@ -552,7 +699,11 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769647-2358834.html",
-    "words": 70
+    "words": 70,
+    "rationales": [
+      "IP",
+      "CB"
+    ]
   },
   {
     "n": 38,
@@ -567,7 +718,13 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769627-2358814_1.html",
-    "words": 423
+    "words": 423,
+    "rationales": [
+      "CB",
+      "IA",
+      "MF",
+      "ICc"
+    ]
   },
   {
     "n": 39,
@@ -582,7 +739,11 @@
     "skeptic": "Conditional",
     "agreement": "majority",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2357834.htm",
-    "words": 344
+    "words": 344,
+    "rationales": [
+      "MF",
+      "AL"
+    ]
   },
   {
     "n": 40,
@@ -597,7 +758,17 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-770167-2359454.pdf",
-    "words": 494
+    "words": 494,
+    "rationales": [
+      "IP",
+      "MF",
+      "IA",
+      "FR",
+      "CB",
+      "CMP",
+      "ST",
+      "US"
+    ]
   },
   {
     "n": 41,
@@ -612,7 +783,10 @@
     "skeptic": "Conditional",
     "agreement": "majority",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-770227-2359514.html",
-    "words": 127
+    "words": 127,
+    "rationales": [
+      "IP"
+    ]
   },
   {
     "n": 42,
@@ -627,7 +801,11 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769067-2358074.html",
-    "words": 74
+    "words": 74,
+    "rationales": [
+      "IP",
+      "ST"
+    ]
   },
   {
     "n": 43,
@@ -642,7 +820,12 @@
     "skeptic": "Conditional",
     "agreement": "majority",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769027-2357974.html",
-    "words": 345
+    "words": 345,
+    "rationales": [
+      "IP",
+      "FR",
+      "US"
+    ]
   },
   {
     "n": 44,
@@ -657,7 +840,12 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769407-2358554.html",
-    "words": 255
+    "words": 255,
+    "rationales": [
+      "IA",
+      "IP",
+      "FR"
+    ]
   },
   {
     "n": 45,
@@ -672,7 +860,10 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769428-2358575.html",
-    "words": 53
+    "words": 53,
+    "rationales": [
+      "IP"
+    ]
   },
   {
     "n": 46,
@@ -687,7 +878,11 @@
     "skeptic": "Conditional",
     "agreement": "majority",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769047-2358034.html",
-    "words": 178
+    "words": 178,
+    "rationales": [
+      "AL",
+      "IP"
+    ]
   },
   {
     "n": 47,
@@ -702,7 +897,14 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/s7-2026-15/s7202615-768447-2357054.html",
-    "words": 375
+    "words": 375,
+    "rationales": [
+      "IP",
+      "MF",
+      "EX",
+      "CB",
+      "FR"
+    ]
   },
   {
     "n": 48,
@@ -717,7 +919,11 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768567-2357154.html",
-    "words": 251
+    "words": 251,
+    "rationales": [
+      "IP",
+      "RI"
+    ]
   },
   {
     "n": 49,
@@ -732,7 +938,11 @@
     "skeptic": "Conditional",
     "agreement": "majority",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768767-2357394.html",
-    "words": 117
+    "words": 117,
+    "rationales": [
+      "IP",
+      "IA"
+    ]
   },
   {
     "n": 50,
@@ -747,7 +957,10 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768467-2357074.html",
-    "words": 78
+    "words": 78,
+    "rationales": [
+      "IP"
+    ]
   },
   {
     "n": 51,
@@ -762,7 +975,11 @@
     "skeptic": "Conditional",
     "agreement": "majority",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768747-2357376.html",
-    "words": 64
+    "words": 64,
+    "rationales": [
+      "IP",
+      "FR"
+    ]
   },
   {
     "n": 52,
@@ -777,7 +994,10 @@
     "skeptic": "Conditional",
     "agreement": "majority",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768367-2356874.html",
-    "words": 110
+    "words": 110,
+    "rationales": [
+      "AL"
+    ]
   },
   {
     "n": 53,
@@ -792,7 +1012,12 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2356474.htm",
-    "words": 121
+    "words": 121,
+    "rationales": [
+      "ICc",
+      "IA",
+      "US"
+    ]
   },
   {
     "n": 54,
@@ -807,7 +1032,11 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2356635.htm",
-    "words": 60
+    "words": 60,
+    "rationales": [
+      "IP",
+      "US"
+    ]
   },
   {
     "n": 55,
@@ -822,7 +1051,11 @@
     "skeptic": "Conditional",
     "agreement": "majority",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768387-2356954.html",
-    "words": 148
+    "words": 148,
+    "rationales": [
+      "ST",
+      "OP"
+    ]
   },
   {
     "n": 56,
@@ -837,7 +1070,11 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768147-2356714.html",
-    "words": 67
+    "words": 67,
+    "rationales": [
+      "MF",
+      "IP"
+    ]
   },
   {
     "n": 57,
@@ -852,7 +1089,13 @@
     "skeptic": "Conditional",
     "agreement": "majority",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768847-2357514.html",
-    "words": 274
+    "words": 274,
+    "rationales": [
+      "IP",
+      "IA",
+      "MF",
+      "US"
+    ]
   },
   {
     "n": 58,
@@ -867,7 +1110,15 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2356554.htm",
-    "words": 634
+    "words": 634,
+    "rationales": [
+      "IP",
+      "ICc",
+      "MF",
+      "IA",
+      "EX",
+      "ST"
+    ]
   },
   {
     "n": 59,
@@ -882,7 +1133,13 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768827-2357494.html",
-    "words": 195
+    "words": 195,
+    "rationales": [
+      "US",
+      "IP",
+      "IA",
+      "MF"
+    ]
   },
   {
     "n": 60,
@@ -897,7 +1154,11 @@
     "skeptic": "Conditional",
     "agreement": "majority",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768807-2357454.html",
-    "words": 83
+    "words": 83,
+    "rationales": [
+      "CB",
+      "IP"
+    ]
   },
   {
     "n": 61,
@@ -912,7 +1173,10 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768887-2357594.html",
-    "words": 35
+    "words": 35,
+    "rationales": [
+      "IP"
+    ]
   },
   {
     "n": 62,
@@ -927,7 +1191,11 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2356694.htm",
-    "words": 84
+    "words": 84,
+    "rationales": [
+      "IP",
+      "ST"
+    ]
   },
   {
     "n": 63,
@@ -942,7 +1210,14 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768687-2357254.html",
-    "words": 203
+    "words": 203,
+    "rationales": [
+      "IA",
+      "IP",
+      "MF",
+      "US",
+      "ST"
+    ]
   },
   {
     "n": 64,
@@ -957,7 +1232,10 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768727-2357314.html",
-    "words": 68
+    "words": 68,
+    "rationales": [
+      "IP"
+    ]
   },
   {
     "n": 65,
@@ -972,7 +1250,10 @@
     "skeptic": "Conditional",
     "agreement": "majority",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768707-2357274.html",
-    "words": 204
+    "words": 204,
+    "rationales": [
+      "AL"
+    ]
   },
   {
     "n": 66,
@@ -987,7 +1268,10 @@
     "skeptic": "Support",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768347-2356854.html",
-    "words": 38
+    "words": 38,
+    "rationales": [
+      "OP"
+    ]
   },
   {
     "n": 67,
@@ -1002,7 +1286,10 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768427-2357034.html",
-    "words": 50
+    "words": 50,
+    "rationales": [
+      "IP"
+    ]
   },
   {
     "n": 68,
@@ -1017,7 +1304,10 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2356674.htm",
-    "words": 28
+    "words": 28,
+    "rationales": [
+      "RI"
+    ]
   },
   {
     "n": 69,
@@ -1032,7 +1322,10 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-767967-2356454.html",
-    "words": 34
+    "words": 34,
+    "rationales": [
+      "IA"
+    ]
   },
   {
     "n": 70,
@@ -1047,7 +1340,11 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768487-2357094.html",
-    "words": 107
+    "words": 107,
+    "rationales": [
+      "FR",
+      "IP"
+    ]
   },
   {
     "n": 71,
@@ -1062,7 +1359,11 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768787-2357434.html",
-    "words": 39
+    "words": 39,
+    "rationales": [
+      "IP",
+      "NR"
+    ]
   },
   {
     "n": 72,
@@ -1077,7 +1378,13 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768488-2357114.html",
-    "words": 298
+    "words": 298,
+    "rationales": [
+      "MF",
+      "IP",
+      "RI",
+      "EX"
+    ]
   },
   {
     "n": 73,
@@ -1092,7 +1399,10 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768287-2356814.html",
-    "words": 20
+    "words": 20,
+    "rationales": [
+      "NR"
+    ]
   },
   {
     "n": 74,
@@ -1107,7 +1417,10 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768187-2356734.html",
-    "words": 47
+    "words": 47,
+    "rationales": [
+      "IA"
+    ]
   },
   {
     "n": 75,
@@ -1122,7 +1435,10 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768407-2356975.html",
-    "words": 76
+    "words": 76,
+    "rationales": [
+      "IP"
+    ]
   },
   {
     "n": 76,
@@ -1137,7 +1453,11 @@
     "skeptic": "Conditional",
     "agreement": "majority",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2356614.htm",
-    "words": 93
+    "words": 93,
+    "rationales": [
+      "AL",
+      "IP"
+    ]
   },
   {
     "n": 77,
@@ -1152,7 +1472,11 @@
     "skeptic": "Conditional",
     "agreement": "majority",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2356514.htm",
-    "words": 165
+    "words": 165,
+    "rationales": [
+      "MF",
+      "RI"
+    ]
   },
   {
     "n": 78,
@@ -1167,7 +1491,10 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-771907-2362654.html",
-    "words": 2
+    "words": 2,
+    "rationales": [
+      "NR"
+    ]
   },
   {
     "n": 79,
@@ -1182,7 +1509,13 @@
     "skeptic": "Conditional",
     "agreement": "majority",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-772207-2363374.html",
-    "words": 224
+    "words": 224,
+    "rationales": [
+      "IP",
+      "CMP",
+      "IA",
+      "AU"
+    ]
   },
   {
     "n": 80,
@@ -1197,7 +1530,13 @@
     "skeptic": "Conditional",
     "agreement": "majority",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-771987-2362814.html",
-    "words": 278
+    "words": 278,
+    "rationales": [
+      "US",
+      "FR",
+      "CMP",
+      "IP"
+    ]
   },
   {
     "n": 81,
@@ -1212,7 +1551,11 @@
     "skeptic": "Conditional",
     "agreement": "majority",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2363994.htm",
-    "words": 281
+    "words": 281,
+    "rationales": [
+      "AL",
+      "IP"
+    ]
   },
   {
     "n": 82,
@@ -1227,7 +1570,12 @@
     "skeptic": "Conditional",
     "agreement": "majority",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-772307-2363854.html",
-    "words": 256
+    "words": 256,
+    "rationales": [
+      "AL",
+      "IP",
+      "US"
+    ]
   },
   {
     "n": 83,
@@ -1242,7 +1590,10 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-772407-2364054.html",
-    "words": 23
+    "words": 23,
+    "rationales": [
+      "IP"
+    ]
   },
   {
     "n": 84,
@@ -1257,7 +1608,11 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-772907-2365094.html",
-    "words": 49
+    "words": 49,
+    "rationales": [
+      "IP",
+      "LE"
+    ]
   },
   {
     "n": 85,
@@ -1272,7 +1627,11 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-772607-2364376.html",
-    "words": 125
+    "words": 125,
+    "rationales": [
+      "FR",
+      "IP"
+    ]
   },
   {
     "n": 86,
@@ -1287,7 +1646,10 @@
     "skeptic": "Conditional",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-772067-2363095.html",
-    "words": 116
+    "words": 116,
+    "rationales": [
+      "AL"
+    ]
   },
   {
     "n": 87,
@@ -1302,7 +1664,11 @@
     "skeptic": "Conditional",
     "agreement": "majority",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-772687-2364754.html",
-    "words": 293
+    "words": 293,
+    "rationales": [
+      "AL",
+      "ST"
+    ]
   },
   {
     "n": 88,
@@ -1317,7 +1683,11 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-773747-2366674.html",
-    "words": 190
+    "words": 190,
+    "rationales": [
+      "IP",
+      "FR"
+    ]
   },
   {
     "n": 89,
@@ -1332,7 +1702,11 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-773867-2366736.html",
-    "words": 84
+    "words": 84,
+    "rationales": [
+      "FR",
+      "IP"
+    ]
   },
   {
     "n": 90,
@@ -1347,7 +1721,11 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-773487-2366215.html",
-    "words": 98
+    "words": 98,
+    "rationales": [
+      "IP",
+      "MF"
+    ]
   },
   {
     "n": 91,
@@ -1362,7 +1740,10 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-773087-2365614.html",
-    "words": 21
+    "words": 21,
+    "rationales": [
+      "CB"
+    ]
   },
   {
     "n": 92,
@@ -1377,7 +1758,11 @@
     "skeptic": "Conditional",
     "agreement": "majority",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-773207-2365854.html",
-    "words": 126
+    "words": 126,
+    "rationales": [
+      "IP",
+      "US"
+    ]
   },
   {
     "n": 93,
@@ -1392,7 +1777,13 @@
     "skeptic": "Conditional",
     "agreement": "majority",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-773107-2365734.html",
-    "words": 538
+    "words": 538,
+    "rationales": [
+      "RI",
+      "IA",
+      "MF",
+      "US"
+    ]
   },
   {
     "n": 94,
@@ -1407,7 +1798,12 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-773727-2366614.html",
-    "words": 321
+    "words": 321,
+    "rationales": [
+      "FR",
+      "IP",
+      "MF"
+    ]
   },
   {
     "n": 95,
@@ -1422,7 +1818,10 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-773887-2366754.html",
-    "words": 48
+    "words": 48,
+    "rationales": [
+      "IP"
+    ]
   },
   {
     "n": 96,
@@ -1437,7 +1836,10 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-774227-2367254.html",
-    "words": 50
+    "words": 50,
+    "rationales": [
+      "IP"
+    ]
   },
   {
     "n": 97,
@@ -1452,7 +1854,11 @@
     "skeptic": "Conditional",
     "agreement": "majority",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-774187-2367174.html",
-    "words": 74
+    "words": 74,
+    "rationales": [
+      "AL",
+      "CB"
+    ]
   },
   {
     "n": 98,
@@ -1467,22 +1873,35 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-774127-2367054.html",
-    "words": 72
+    "words": 72,
+    "rationales": [
+      "FR",
+      "IP",
+      "US"
+    ]
   },
   {
     "n": 99,
     "page": 1,
     "date": "2026-05-12",
     "name": "Andrew Parker",
-    "role": "Individual (PDF attachment)",
+    "role": "Individual",
     "entity": "Individual",
-    "stance": "PDF (not auto-classified)",
-    "primary": "PDF (not auto-classified)",
-    "literalist": "PDF (not auto-classified)",
-    "skeptic": "PDF (not auto-classified)",
+    "stance": "Conditional",
+    "primary": "Conditional",
+    "literalist": "Conditional",
+    "skeptic": "Conditional",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-774528-2367854.html",
-    "words": 19
+    "words": 1223,
+    "rationales": [
+      "AU",
+      "AL",
+      "IP",
+      "IA",
+      "FR",
+      "CMP"
+    ]
   },
   {
     "n": 100,
@@ -1497,7 +1916,10 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-774807-2368134.html",
-    "words": 19
+    "words": 19,
+    "rationales": [
+      "NR"
+    ]
   },
   {
     "n": 101,
@@ -1512,7 +1934,11 @@
     "skeptic": "Conditional",
     "agreement": "majority",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775107-2368375_0.html",
-    "words": 122
+    "words": 122,
+    "rationales": [
+      "FR",
+      "IP"
+    ]
   },
   {
     "n": 102,
@@ -1527,7 +1953,11 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-774787-2368095_0.html",
-    "words": 47
+    "words": 47,
+    "rationales": [
+      "IP",
+      "CB"
+    ]
   },
   {
     "n": 103,
@@ -1542,7 +1972,11 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775127-2368394.html",
-    "words": 97
+    "words": 97,
+    "rationales": [
+      "ICc",
+      "US"
+    ]
   },
   {
     "n": 104,
@@ -1557,7 +1991,11 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775147-2368415.html",
-    "words": 61
+    "words": 61,
+    "rationales": [
+      "IA",
+      "IP"
+    ]
   },
   {
     "n": 105,
@@ -1572,7 +2010,11 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-774567-2367894.html",
-    "words": 49
+    "words": 49,
+    "rationales": [
+      "IA",
+      "IP"
+    ]
   },
   {
     "n": 106,
@@ -1587,7 +2029,10 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-774767-2368094.html",
-    "words": 19
+    "words": 19,
+    "rationales": [
+      "IP"
+    ]
   },
   {
     "n": 107,
@@ -1602,7 +2047,15 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775527-2368994.html",
-    "words": 770
+    "words": 770,
+    "rationales": [
+      "IA",
+      "IP",
+      "ST",
+      "US",
+      "CB",
+      "LE"
+    ]
   },
   {
     "n": 108,
@@ -1617,7 +2070,10 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775227-2368515.html",
-    "words": 22
+    "words": 22,
+    "rationales": [
+      "IP"
+    ]
   },
   {
     "n": 109,
@@ -1632,7 +2088,11 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2368554.htm",
-    "words": 48
+    "words": 48,
+    "rationales": [
+      "IP",
+      "FR"
+    ]
   },
   {
     "n": 110,
@@ -1647,7 +2107,10 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775647-2369114.html",
-    "words": 22
+    "words": 22,
+    "rationales": [
+      "NR"
+    ]
   },
   {
     "n": 111,
@@ -1662,7 +2125,11 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775507-2368974.html",
-    "words": 120
+    "words": 120,
+    "rationales": [
+      "IP",
+      "IA"
+    ]
   },
   {
     "n": 112,
@@ -1677,7 +2144,12 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775169-2368495.html",
-    "words": 51
+    "words": 51,
+    "rationales": [
+      "IA",
+      "IP",
+      "CB"
+    ]
   },
   {
     "n": 113,
@@ -1692,7 +2164,11 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2368574.htm",
-    "words": 31
+    "words": 31,
+    "rationales": [
+      "MF",
+      "IP"
+    ]
   },
   {
     "n": 114,
@@ -1707,7 +2183,10 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775187-2368434.html",
-    "words": 19
+    "words": 19,
+    "rationales": [
+      "NR"
+    ]
   },
   {
     "n": 115,
@@ -1722,7 +2201,10 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2368595.htm",
-    "words": 66
+    "words": 66,
+    "rationales": [
+      "LE"
+    ]
   },
   {
     "n": 116,
@@ -1737,7 +2219,11 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2368575.htm",
-    "words": 80
+    "words": 80,
+    "rationales": [
+      "IP",
+      "FR"
+    ]
   },
   {
     "n": 117,
@@ -1752,7 +2238,11 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775667-2369134.html",
-    "words": 35
+    "words": 35,
+    "rationales": [
+      "IA",
+      "IP"
+    ]
   },
   {
     "n": 118,
@@ -1767,7 +2257,10 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2368675.htm",
-    "words": 12
+    "words": 12,
+    "rationales": [
+      "NR"
+    ]
   },
   {
     "n": 119,
@@ -1782,7 +2275,11 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775627-2369094.html",
-    "words": 16
+    "words": 16,
+    "rationales": [
+      "RI",
+      "IA"
+    ]
   },
   {
     "n": 120,
@@ -1797,7 +2294,10 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775547-2369054.html",
-    "words": 21
+    "words": 21,
+    "rationales": [
+      "IP"
+    ]
   },
   {
     "n": 121,
@@ -1812,7 +2312,10 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2368594.htm",
-    "words": 46
+    "words": 46,
+    "rationales": [
+      "NR"
+    ]
   },
   {
     "n": 122,
@@ -1827,6 +2330,10 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775207-2368474.pdf",
-    "words": 1818
+    "words": 1818,
+    "rationales": [
+      "LE",
+      "RI"
+    ]
   }
 ]
