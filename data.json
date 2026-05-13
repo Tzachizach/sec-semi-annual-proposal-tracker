@@ -14,10 +14,10 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-771407-2361815.html",
     "words": 410,
     "rationales": [
-      "LE",
-      "IP",
       "IA",
-      "FR"
+      "FR",
+      "LE",
+      "IP"
     ]
   },
   {
@@ -92,8 +92,8 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-770607-2360294.html",
     "words": 57,
     "rationales": [
-      "IP",
-      "ICc"
+      "ICc",
+      "IP"
     ]
   },
   {
@@ -111,8 +111,8 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-771007-2360834.html",
     "words": 257,
     "rationales": [
-      "IP",
-      "IA"
+      "IA",
+      "IP"
     ]
   },
   {
@@ -169,9 +169,9 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2359955.htm",
     "words": 155,
     "rationales": [
-      "IP",
       "FR",
-      "CB"
+      "CB",
+      "IP"
     ]
   },
   {
@@ -189,8 +189,9 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-771047-2360934.html",
     "words": 135,
     "rationales": [
-      "IP",
-      "FR"
+      "FR",
+      "ST",
+      "IP"
     ]
   },
   {
@@ -246,8 +247,8 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-770827-2360674.html",
     "words": 331,
     "rationales": [
-      "IP",
-      "AU"
+      "AU",
+      "IP"
     ]
   },
   {
@@ -265,11 +266,18 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-771207-2361214.pdf",
     "words": 6962,
     "rationales": [
-      "ST",
+      "IA",
+      "FR",
+      "MF",
+      "EX",
+      "CMP",
       "CB",
+      "ST",
       "OP",
+      "OV",
       "ICs",
-      "EX"
+      "AL",
+      "LE"
     ]
   },
   {
@@ -287,9 +295,9 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769347-2358434.html",
     "words": 73,
     "rationales": [
-      "IP",
       "IA",
-      "FR"
+      "FR",
+      "IP"
     ]
   },
   {
@@ -326,8 +334,8 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769427-2358574_0.html",
     "words": 691,
     "rationales": [
-      "AL",
-      "AU"
+      "AU",
+      "AL"
     ]
   },
   {
@@ -381,8 +389,8 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769167-2358174.html",
     "words": 37,
     "rationales": [
-      "IP",
-      "FR"
+      "FR",
+      "IP"
     ]
   },
   {
@@ -418,8 +426,8 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769947-2359194.html",
     "words": 39,
     "rationales": [
-      "MF",
-      "FR"
+      "FR",
+      "MF"
     ]
   },
   {
@@ -437,6 +445,7 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769230-2358254.html",
     "words": 75,
     "rationales": [
+      "FR",
       "IP"
     ]
   },
@@ -491,10 +500,10 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769587-2358754.html",
     "words": 397,
     "rationales": [
-      "IP",
       "IA",
-      "AU",
       "MF",
+      "AU",
+      "IP",
       "US"
     ]
   },
@@ -550,11 +559,11 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768967-2357714.html",
     "words": 430,
     "rationales": [
-      "IP",
       "IA",
       "FR",
+      "EX",
       "CMP",
-      "EX"
+      "IP"
     ]
   },
   {
@@ -608,8 +617,8 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2359614.htm",
     "words": 133,
     "rationales": [
-      "AL",
-      "CB"
+      "CB",
+      "AL"
     ]
   },
   {
@@ -645,7 +654,8 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769367-2358454.html",
     "words": 36,
     "rationales": [
-      "IP"
+      "IP",
+      "RI"
     ]
   },
   {
@@ -663,8 +673,8 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769087-2358094.html",
     "words": 43,
     "rationales": [
-      "US",
-      "MF"
+      "MF",
+      "US"
     ]
   },
   {
@@ -682,8 +692,8 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769467-2358654.html",
     "words": 187,
     "rationales": [
-      "IP",
-      "FR"
+      "FR",
+      "IP"
     ]
   },
   {
@@ -701,8 +711,8 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769647-2358834.html",
     "words": 70,
     "rationales": [
-      "IP",
-      "CB"
+      "CB",
+      "IP"
     ]
   },
   {
@@ -720,10 +730,10 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769627-2358814_1.html",
     "words": 423,
     "rationales": [
-      "CB",
       "IA",
       "MF",
-      "ICc"
+      "ICc",
+      "CB"
     ]
   },
   {
@@ -760,13 +770,13 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-770167-2359454.pdf",
     "words": 494,
     "rationales": [
-      "IP",
-      "MF",
       "IA",
       "FR",
-      "CB",
+      "MF",
       "CMP",
+      "CB",
       "ST",
+      "IP",
       "US"
     ]
   },
@@ -785,6 +795,7 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-770227-2359514.html",
     "words": 127,
     "rationales": [
+      "ST",
       "IP"
     ]
   },
@@ -803,8 +814,8 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769067-2358074.html",
     "words": 74,
     "rationales": [
-      "IP",
-      "ST"
+      "ST",
+      "IP"
     ]
   },
   {
@@ -822,8 +833,8 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769027-2357974.html",
     "words": 345,
     "rationales": [
-      "IP",
       "FR",
+      "IP",
       "US"
     ]
   },
@@ -843,8 +854,8 @@
     "words": 255,
     "rationales": [
       "IA",
-      "IP",
-      "FR"
+      "FR",
+      "IP"
     ]
   },
   {
@@ -899,11 +910,11 @@
     "url": "https://www.sec.gov/comments/s7-2026-15/s7202615-768447-2357054.html",
     "words": 375,
     "rationales": [
-      "IP",
+      "FR",
       "MF",
       "EX",
       "CB",
-      "FR"
+      "IP"
     ]
   },
   {
@@ -940,8 +951,11 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768767-2357394.html",
     "words": 117,
     "rationales": [
+      "IA",
+      "MF",
+      "ST",
       "IP",
-      "IA"
+      "US"
     ]
   },
   {
@@ -977,8 +991,8 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768747-2357376.html",
     "words": 64,
     "rationales": [
-      "IP",
-      "FR"
+      "FR",
+      "IP"
     ]
   },
   {
@@ -1014,8 +1028,8 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2356474.htm",
     "words": 121,
     "rationales": [
-      "ICc",
       "IA",
+      "ICc",
       "US"
     ]
   },
@@ -1091,9 +1105,9 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768847-2357514.html",
     "words": 274,
     "rationales": [
-      "IP",
       "IA",
       "MF",
+      "IP",
       "US"
     ]
   },
@@ -1112,12 +1126,12 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2356554.htm",
     "words": 634,
     "rationales": [
-      "IP",
-      "ICc",
-      "MF",
       "IA",
+      "MF",
+      "ICc",
       "EX",
-      "ST"
+      "ST",
+      "IP"
     ]
   },
   {
@@ -1135,10 +1149,10 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768827-2357494.html",
     "words": 195,
     "rationales": [
-      "US",
-      "IP",
       "IA",
-      "MF"
+      "MF",
+      "IP",
+      "US"
     ]
   },
   {
@@ -1193,8 +1207,8 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2356694.htm",
     "words": 84,
     "rationales": [
-      "IP",
-      "ST"
+      "ST",
+      "IP"
     ]
   },
   {
@@ -1213,10 +1227,10 @@
     "words": 203,
     "rationales": [
       "IA",
-      "IP",
       "MF",
-      "US",
-      "ST"
+      "ST",
+      "IP",
+      "US"
     ]
   },
   {
@@ -1252,7 +1266,8 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768707-2357274.html",
     "words": 204,
     "rationales": [
-      "AL"
+      "AL",
+      "IP"
     ]
   },
   {
@@ -1381,9 +1396,9 @@
     "words": 298,
     "rationales": [
       "MF",
+      "EX",
       "IP",
-      "RI",
-      "EX"
+      "RI"
     ]
   },
   {
@@ -1511,10 +1526,10 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-772207-2363374.html",
     "words": 224,
     "rationales": [
-      "IP",
-      "CMP",
       "IA",
-      "AU"
+      "AU",
+      "CMP",
+      "IP"
     ]
   },
   {
@@ -1532,10 +1547,10 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-771987-2362814.html",
     "words": 278,
     "rationales": [
-      "US",
       "FR",
       "CMP",
-      "IP"
+      "IP",
+      "US"
     ]
   },
   {
@@ -1554,6 +1569,7 @@
     "words": 281,
     "rationales": [
       "AL",
+      "LE",
       "IP"
     ]
   },
@@ -1610,8 +1626,8 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-772907-2365094.html",
     "words": 49,
     "rationales": [
-      "IP",
-      "LE"
+      "LE",
+      "IP"
     ]
   },
   {
@@ -1666,8 +1682,8 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-772687-2364754.html",
     "words": 293,
     "rationales": [
-      "AL",
-      "ST"
+      "ST",
+      "AL"
     ]
   },
   {
@@ -1685,8 +1701,8 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-773747-2366674.html",
     "words": 190,
     "rationales": [
-      "IP",
-      "FR"
+      "FR",
+      "IP"
     ]
   },
   {
@@ -1723,8 +1739,8 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-773487-2366215.html",
     "words": 98,
     "rationales": [
-      "IP",
-      "MF"
+      "MF",
+      "IP"
     ]
   },
   {
@@ -1779,10 +1795,10 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-773107-2365734.html",
     "words": 538,
     "rationales": [
-      "RI",
       "IA",
       "MF",
-      "US"
+      "US",
+      "RI"
     ]
   },
   {
@@ -1801,8 +1817,8 @@
     "words": 321,
     "rationales": [
       "FR",
-      "IP",
-      "MF"
+      "MF",
+      "IP"
     ]
   },
   {
@@ -1856,8 +1872,8 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-774187-2367174.html",
     "words": 74,
     "rationales": [
-      "AL",
-      "CB"
+      "CB",
+      "AL"
     ]
   },
   {
@@ -1895,12 +1911,12 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-774528-2367854.html",
     "words": 1223,
     "rationales": [
-      "AU",
-      "AL",
-      "IP",
       "IA",
       "FR",
-      "CMP"
+      "AU",
+      "CMP",
+      "AL",
+      "IP"
     ]
   },
   {
@@ -1955,8 +1971,8 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-774787-2368095_0.html",
     "words": 47,
     "rationales": [
-      "IP",
-      "CB"
+      "CB",
+      "IP"
     ]
   },
   {
@@ -2012,8 +2028,7 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-774567-2367894.html",
     "words": 49,
     "rationales": [
-      "IA",
-      "IP"
+      "IA"
     ]
   },
   {
@@ -2050,11 +2065,11 @@
     "words": 770,
     "rationales": [
       "IA",
-      "IP",
-      "ST",
-      "US",
       "CB",
-      "LE"
+      "ST",
+      "LE",
+      "IP",
+      "US"
     ]
   },
   {
@@ -2090,8 +2105,8 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2368554.htm",
     "words": 48,
     "rationales": [
-      "IP",
-      "FR"
+      "FR",
+      "IP"
     ]
   },
   {
@@ -2127,8 +2142,8 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775507-2368974.html",
     "words": 120,
     "rationales": [
-      "IP",
-      "IA"
+      "IA",
+      "IP"
     ]
   },
   {
@@ -2147,8 +2162,8 @@
     "words": 51,
     "rationales": [
       "IA",
-      "IP",
-      "CB"
+      "CB",
+      "IP"
     ]
   },
   {
@@ -2221,8 +2236,9 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2368575.htm",
     "words": 80,
     "rationales": [
-      "IP",
-      "FR"
+      "FR",
+      "CB",
+      "IP"
     ]
   },
   {
@@ -2277,8 +2293,8 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775627-2369094.html",
     "words": 16,
     "rationales": [
-      "RI",
-      "IA"
+      "IA",
+      "RI"
     ]
   },
   {
@@ -2296,7 +2312,8 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775547-2369054.html",
     "words": 21,
     "rationales": [
-      "IP"
+      "IP",
+      "RI"
     ]
   },
   {
@@ -2332,8 +2349,312 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775207-2368474.pdf",
     "words": 1818,
     "rationales": [
+      "AL",
       "LE",
       "RI"
+    ]
+  },
+  {
+    "n": 123,
+    "page": 1,
+    "date": "2026-05-12",
+    "name": "Anonymous",
+    "role": "Individual (anonymous)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775787-2369314.html",
+    "words": 230,
+    "rationales": [
+      "IA",
+      "FR",
+      "IP"
+    ]
+  },
+  {
+    "n": 124,
+    "page": 1,
+    "date": "2026-05-12",
+    "name": "Christ Fisk",
+    "role": "Retail investor",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775727-2369234.html",
+    "words": 74,
+    "rationales": [
+      "IA",
+      "FR",
+      "IP"
+    ]
+  },
+  {
+    "n": 125,
+    "page": 1,
+    "date": "2026-05-12",
+    "name": "David Long",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775747-2369254.html",
+    "words": 15,
+    "rationales": [
+      "NR"
+    ]
+  },
+  {
+    "n": 126,
+    "page": 1,
+    "date": "2026-05-12",
+    "name": "James Wiebe",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775688-2369175_0.html",
+    "words": 86,
+    "rationales": [
+      "FR",
+      "IP"
+    ]
+  },
+  {
+    "n": 127,
+    "page": 1,
+    "date": "2026-05-12",
+    "name": "Lisa Copenhaver",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775767-2369274.html",
+    "words": 25,
+    "rationales": [
+      "FR",
+      "IP"
+    ]
+  },
+  {
+    "n": 128,
+    "page": 1,
+    "date": "2026-05-12",
+    "name": "Munir Hakim",
+    "role": "Retail investor",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775707-2369214.html",
+    "words": 136,
+    "rationales": [
+      "FR",
+      "EX",
+      "IP"
+    ]
+  },
+  {
+    "n": 129,
+    "page": 1,
+    "date": "2026-05-12",
+    "name": "Theo",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775687-2369174.html",
+    "words": 59,
+    "rationales": [
+      "FR",
+      "ICc",
+      "IP"
+    ]
+  },
+  {
+    "n": 130,
+    "page": 1,
+    "date": "2026-05-13",
+    "name": "C. Allshouse",
+    "role": "Attorney",
+    "entity": "Industry practitioner / technologist",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-776267-2370354.html",
+    "words": 10,
+    "rationales": [
+      "IP"
+    ]
+  },
+  {
+    "n": 131,
+    "page": 1,
+    "date": "2026-05-13",
+    "name": "Katherine Winfield",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-776187-2370234.html",
+    "words": 82,
+    "rationales": [
+      "FR",
+      "IP"
+    ]
+  },
+  {
+    "n": 132,
+    "page": 1,
+    "date": "2026-05-13",
+    "name": "Lawrence Rand",
+    "role": "Visiting Professor of Economics, Brown University (advisor on submitted 2018 undergraduate thesis by Rosen, Shire, Winst",
+    "entity": "Academic researcher",
+    "stance": "Conditional",
+    "primary": "Conditional",
+    "literalist": "Conditional",
+    "skeptic": "Conditional",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-776308-2370196.pdf",
+    "words": 7800,
+    "rationales": [
+      "IA",
+      "FR",
+      "MF",
+      "CB",
+      "ST",
+      "ICs",
+      "AL"
+    ]
+  },
+  {
+    "n": 133,
+    "page": 1,
+    "date": "2026-05-13",
+    "name": "Matt Marino",
+    "role": "Individual investor",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775927-2369694.html",
+    "words": 110,
+    "rationales": [
+      "MF",
+      "IP",
+      "US"
+    ]
+  },
+  {
+    "n": 134,
+    "page": 1,
+    "date": "2026-05-13",
+    "name": "MWM",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-776287-2370357.html",
+    "words": 61,
+    "rationales": [
+      "IA",
+      "IP"
+    ]
+  },
+  {
+    "n": 135,
+    "page": 1,
+    "date": "2026-05-13",
+    "name": "Nikolay",
+    "role": "Individual investor",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775947-2369695.html",
+    "words": 96,
+    "rationales": [
+      "IA",
+      "FR",
+      "MF",
+      "CB",
+      "RI"
+    ]
+  },
+  {
+    "n": 136,
+    "page": 1,
+    "date": "2026-05-13",
+    "name": "Noah Kerchner",
+    "role": "Individual (webform)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2370056.htm",
+    "words": 599,
+    "rationales": [
+      "IA",
+      "FR",
+      "MF",
+      "AU",
+      "CMP",
+      "CB",
+      "AL",
+      "IP",
+      "US"
+    ]
+  },
+  {
+    "n": 137,
+    "page": 1,
+    "date": "2026-05-13",
+    "name": "Varad Kandadai",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775992-2369754.html",
+    "words": 31,
+    "rationales": [
+      "IP",
+      "US"
     ]
   }
 ]
