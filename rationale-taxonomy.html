@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Rationale taxonomy — SEC S7-2026-15</title>
+<meta name="description" content="Argument taxonomy used by the SEC S7-2026-15 tracker. Codes anchored to the SEC's proposing release with verbatim quotes." />
+<style>
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 24px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  background: #ffffff; color: #1a1a1a; line-height: 1.55; font-size: 14px;
+  max-width: 920px; margin-left: auto; margin-right: auto;
+}
+h1 { font-size: 24px; font-weight: 500; margin: 0 0 4px; }
+h2 { font-size: 18px; font-weight: 500; margin: 28px 0 10px; padding-top: 12px; border-top: 0.5px solid rgba(0,0,0,0.1); }
+h3 { font-size: 15px; font-weight: 500; margin: 16px 0 6px; color: #1a1a1a; }
+.lede { color: #555; font-size: 13px; margin: 0 0 16px; }
+.back { font-size: 12px; color: #185fa5; text-decoration: none; }
+.back:hover { text-decoration: underline; }
+table { border-collapse: collapse; width: 100%; margin: 8px 0 18px; font-size: 13px; }
+th, td { padding: 8px 10px; border-bottom: 0.5px solid rgba(0,0,0,0.12); text-align: left; vertical-align: top; }
+th { font-weight: 500; color: #555; font-size: 12px; background: #f7f5ef; }
+.code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-weight: 700; color: #fff; padding: 2px 8px; border-radius: 6px; font-size: 11px; letter-spacing: 0.03em; display: inline-block; }
+.code-IP  { background: #993c1d; }
+.code-IA  { background: #ad4624; }
+.code-FR  { background: #c1502b; }
+.code-MF  { background: #d55a32; }
+.code-AU  { background: #b06037; }
+.code-ICc { background: #7a2a14; }
+.code-EX  { background: #8a3320; }
+.code-CMP { background: #c97058; }
+.code-CC  { background: #663020; }
+.code-SG  { background: #94483a; }
+.code-US  { background: #b85542; }
+.code-RI  { background: #a8625a; }
+.code-CB  { background: #3b6d11; }
+.code-ST  { background: #487a1a; }
+.code-OP  { background: #559524; }
+.code-OV  { background: #6ba83c; }
+.code-ICs { background: #2c5d22; }
+.code-AL  { background: #854f0b; }
+.code-LE  { background: #185fa5; }
+.code-NR  { background: #888780; }
+.quote { color: #444; font-style: italic; }
+.page { color: #888; font-size: 12px; white-space: nowrap; }
+.footer { font-size: 12px; color: #888; margin-top: 32px; padding-top: 16px; border-top: 0.5px solid rgba(0,0,0,0.1); }
+.note { background: #fbf9f3; border-left: 3px solid #185fa5; border-radius: 6px; padding: 12px 16px; margin: 12px 0; font-size: 13px; }
+.commenter { background: #faf4f4; border-left: 3px solid #993c1d; }
+a { color: #185fa5; }
+</style>
+</head>
+<body>
+
+<p><a class="back" href="./">← Back to the tracker</a></p>
+
+<h1>Rationale taxonomy — SEC S7-2026-15</h1>
+<p class="lede">Each comment letter in the tracker can invoke one or more of these argument families. The taxonomy is anchored on the SEC's own framing in the proposing release (Release Nos. 33-11414; 34-105368; File No. S7-2026-15), with two commenter-distinctive codes added for arguments the SEC does not engage with as standalone justifications. <strong>20 codes total: 16 SEC-engaged, 3 commenter-distinctive, 1 "no substantive rationale."</strong></p>
+
+<h2>SEC-engaged arguments — anti-proposal</h2>
+
+<table>
+<thead><tr><th style="width:50px;">Code</th><th>Family</th><th>SEC framing — verbatim quote</th><th class="page">Source</th></tr></thead>
+<tbody>
+<tr><td><span class="code code-IA">IA</span></td><td>Information asymmetry / retail vs institutional</td><td class="quote">"Such effects may disproportionately affect less sophisticated or less resourced investors who may rely more heavily on periodic reports for their investment decisions."</td><td class="page">p. 110</td></tr>
+<tr><td><span class="code code-FR">FR</span></td><td>Fraud / insider-trading risk</td><td class="quote">"A potential additional cost may arise if insiders engage in trading on the information that has not yet been released or if investors perceive that to be more likely…"</td><td class="page">p. 114</td></tr>
+<tr><td><span class="code code-MF">MF</span></td><td>Market function / price discovery</td><td class="quote">"Less frequent periodic disclosures may also result in securities prices that deviate for longer periods of time from their issuers' fundamental value… These pricing effects may also result in increased 'jump' volatility…"</td><td class="page">p. 73</td></tr>
+<tr><td><span class="code code-AU">AU</span></td><td>Audit / verification</td><td class="quote">"…the independent auditors may be slower to identify certain accounting misstatements and deficiencies in internal control, which could negatively impact the timeliness and reliability of the audited annual financial statements."</td><td class="page">p. 76</td></tr>
+<tr><td><span class="code code-ICc">ICc</span></td><td>International evidence — cautionary read</td><td class="quote">Commenter framing of the same UK / Singapore experience as evidence semiannual reporting hides malfeasance and lowers trading volumes. The SEC reads this evidence as null (see ICs); commenters read it cautionarily.</td><td class="page">commenter framing</td></tr>
+<tr><td><span class="code code-EX">EX</span></td><td>Externality / spillover</td><td class="quote">"…there could also be related spillover effects, including on the companies that would continue to report at a quarterly frequency… which could decrease the informational efficiency of share prices even for companies that would continue to file quarterly reports."</td><td class="page">pp. 131-132</td></tr>
+<tr><td><span class="code code-CMP">CMP</span></td><td>Comparability / granularity</td><td class="quote">"…there would be a loss in the granularity of financial information across time. Financial statements would no longer provide accounting information at the quarterly level, instead aggregating two quarters into a single semiannual number."</td><td class="page">p. 112</td></tr>
+<tr><td><span class="code code-CC">CC</span></td><td>Contractual constraints (savings won't materialize)</td><td class="quote">"Debt agreements, lending arrangements, and other creditor contracts frequently require the provision of quarterly or even monthly financial information to the lender, often irrespective of the frequency of mandatory reporting under the Federal securities laws."</td><td class="page">p. 109</td></tr>
+<tr><td><span class="code code-SG">SG</span></td><td>Signaling commitment to transparency</td><td class="quote">"…if some competitors reduce reporting frequency, issuers that continue quarterly reporting may differentiate themselves by signaling a commitment to transparency, which could be valued by investors."</td><td class="page">p. 116</td></tr>
+</tbody>
+</table>
+
+<h2>SEC-engaged arguments — pro-proposal</h2>
+
+<table>
+<thead><tr><th style="width:50px;">Code</th><th>Family</th><th>SEC framing — verbatim quote</th><th class="page">Source</th></tr></thead>
+<tbody>
+<tr><td><span class="code code-CB">CB</span></td><td>Compliance burden / issuer cost</td><td class="quote">"…on average, for each issuer that switches to semiannual reporting, we estimate annual direct compliance costs per issuer associated with filing three Form 10-Q's to be $330,000 and the annual compliance costs per issuer associated with filing one Form 10-S to be $132,000."</td><td class="page">p. 105</td></tr>
+<tr><td><span class="code code-ST">ST</span></td><td>Short-termism / managerial focus</td><td class="quote">"If less frequent disclosure reduces scrutiny of issuers as discussed above, then this could reduce potential managerial incentives to overly focus on short-term outcomes to the detriment of long-term performance."</td><td class="page">p. 76</td></tr>
+<tr><td><span class="code code-OP">OP</span></td><td>Optionality / flexibility</td><td class="quote">"Providing such regulatory flexibility could reduce the regulatory burden of being a reporting company, which could potentially influence a company's decision to become or remain a reporting company…"</td><td class="page">p. 7</td></tr>
+<tr><td><span class="code code-OV">OV</span></td><td>Option value for non-switchers</td><td class="quote">"The availability of flexibility… may have value even if it is not exercised immediately."</td><td class="page">p. 116</td></tr>
+<tr><td><span class="code code-ICs">ICs</span></td><td>International evidence — supportive read</td><td class="quote">"…studies using data from the UK and Singapore find little evidence that changes in reporting frequency materially affect firms' investment decisions."</td><td class="page">p. 102</td></tr>
+</tbody>
+</table>
+
+<h2>Conditional / structural alternatives</h2>
+
+<table>
+<thead><tr><th style="width:50px;">Code</th><th>Family</th><th>SEC framing</th><th class="page">Source</th></tr></thead>
+<tbody>
+<tr><td><span class="code code-AL">AL</span></td><td>Alternative cadence / hybrid</td><td class="quote">SEC explicitly considered: mandatory semiannual (UK-style), scaled relief (EGCs/SRCs only), Form 8-K change-trigger, longer Form 10-S deadline, Form 10-Q content streamlining.</td><td class="page">pp. 134-140</td></tr>
+</tbody>
+</table>
+
+<h2>Procedural / legal</h2>
+
+<table>
+<thead><tr><th style="width:50px;">Code</th><th>Family</th><th>SEC framing</th><th class="page">Source</th></tr></thead>
+<tbody>
+<tr><td><span class="code code-LE">LE</span></td><td>Legal / administrative-law framing</td><td class="quote">Section 3(f) public-interest analysis; Section 23(a)(2) competition/efficiency/capital-formation analysis; Executive Order 14192 deregulatory-action designation.</td><td class="page">pp. 64-65</td></tr>
+</tbody>
+</table>
+
+<h2>Commenter-distinctive arguments</h2>
+
+<div class="note commenter">These three codes capture arguments that <strong>commenters raise but the SEC does not engage with as standalone justifications or concerns in the proposing release</strong>. They are the rationales that bring new ground to the comment period rather than responding to what the SEC already framed.</div>
+
+<table>
+<thead><tr><th style="width:50px;">Code</th><th>Family</th><th>Description</th></tr></thead>
+<tbody>
+<tr><td><span class="code code-IP">IP</span></td><td>Investor protection / transparency</td><td>Commenters argue the proposal will sacrifice investor protection — that the SEC's investor-protection mandate weighs against reducing disclosure frequency. The release <em>asserts</em> investor protection will not be undermined (e.g., p. 7: <span class="quote">"…without undermining fundamental investor protections"</span>) and asks commenters about it (Request for Comment 18), but does not engage the affirmative argument that investor protection might be sacrificed as a freestanding concern. The specific mechanisms the SEC does engage with (delayed disclosure, monitoring loss, reduced analyst coverage, insider-trading risk) are captured under <span class="code code-MF">MF</span>, <span class="code code-IA">IA</span>, <span class="code code-FR">FR</span>, and <span class="code code-AU">AU</span>.</td></tr>
+<tr><td><span class="code code-US">US</span></td><td>US capital market leadership / global trust</td><td>Commenters argue quarterly reporting underpins the global reputation of US capital markets and that loosening it harms US competitiveness. The release touches the topic only obliquely (Q 33 asks about US-vs-foreign-issuer competitiveness; brief reference on p. 132). Not treated as a load-bearing justification or concern.</td></tr>
+<tr><td><span class="code code-RI">RI</span></td><td>Reliance interests (investor side)</td><td>Commenters argue that analysts, mutual-fund pricing services, ETFs, credit committees, rating agencies, and counterparty risk groups have built workflows around quarterly cadence. The release discusses switching costs <em>for issuers</em> but not reliance <em>for investors</em>.</td></tr>
+</tbody>
+</table>
+
+<h2>Other</h2>
+
+<table>
+<thead><tr><th style="width:50px;">Code</th><th>Family</th><th>Description</th></tr></thead>
+<tbody>
+<tr><td><span class="code code-NR">NR</span></td><td>No substantive rationale</td><td>Letter states a position without engaging any of the above. Typical examples: <em>"This is a really bad idea."</em> / <em>"Keep it quarterly."</em> / <em>"I oppose."</em></td></tr>
+</tbody>
+</table>
+
+<h2>Notes on the IC split</h2>
+
+<p>The SEC frames the UK / Singapore evidence as <em>null</em> — i.e., reporting frequency does not materially affect investment decisions — and treats it as supporting the proposal (code <span class="code code-ICs">ICs</span>). Several commenter letters cite the same international experience as <em>cautionary</em>: Singapore is reverting toward more frequent reporting, UK semiannual is associated with hidden malfeasance and lower trading volumes (code <span class="code code-ICc">ICc</span>). The codes label both directions explicitly so the directional asymmetry shows up in the data.</p>
+
+<p class="footer">
+Source proposing release: <a href="https://www.sec.gov/files/rules/proposed/2026/33-11414.pdf" target="_blank" rel="noopener">SEC Release No. 33-11414</a>.
+Methodology context: <a href="./">tracker home</a>.
+Built by <a href="https://fisher.osu.edu/people/zach.7" target="_blank" rel="noopener">Tzachi Zach</a> (OSU Fisher).
+</p>
+
+</body>
+</html>
