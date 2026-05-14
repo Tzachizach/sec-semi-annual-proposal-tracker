@@ -3027,5 +3027,60 @@
     "rationales": [
       "NR"
     ]
+  },
+  {
+    "n": 157,
+    "page": 1,
+    "date": "2026-05-14",
+    "name": "Antolin (Tony) Saiz",
+    "role": "CPA, InnTech Consultant",
+    "entity": "Accountant (CPA)",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-777607-2372374.html",
+    "words": 129,
+    "rationales": [
+      "IA",
+      "IP"
+    ]
+  },
+  {
+    "n": 158,
+    "page": 1,
+    "date": "2026-05-14",
+    "name": "Arthur Lyssenko",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-777527-2372294.html",
+    "words": 7,
+    "rationales": [
+      "NR"
+    ]
+  },
+  {
+    "n": 159,
+    "page": 1,
+    "date": "2026-05-14",
+    "name": "Kimberly O'Brien",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-777407-2372154.html",
+    "words": 17,
+    "rationales": [
+      "IP"
+    ]
   }
 ]
