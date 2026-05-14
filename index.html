@@ -183,13 +183,13 @@ table.full a:hover { text-decoration: underline; }
 <details class="methodology">
   <summary>How stances are classified (three-rater LLM ensemble)</summary>
   <div class="body">
-    Each letter is independently classified under three different rubrics, and the headline stance shown on this site is the <strong>majority vote</strong> across the three. The literature on LLM-based annotation (Carlson, Rahmani &amp; Chatterji, <em>SMJ</em> 2026; rubric-conditioned LLM labeling, <em>CHB</em> 2026) recommends multi-prompt validation rather than a single classifier call, and that is what we do here.
+    Three raters classify each letter independently. The headline stance shown here is the <strong>majority vote</strong> across the three. The LLM-annotation literature (Carlson, Rahmani &amp; Chatterji, <em>SMJ</em> 2026; rubric-conditioned LLM labeling, <em>CHB</em> 2026) recommends multi-prompt validation over a single classifier call. This design implements that.
 
     <dl>
       <dt>Rater 1 — Primary</dt>
       <dd>Balanced read of the whole letter. Assigns Support / Oppose / Conditional based on the dominant position.</dd>
       <dt>Rater 2 — Literalist</dt>
-      <dd>Defaults to Oppose unless the letter contains explicit, unconditional endorsement language ("I support…", "I urge the Commission to adopt…"). Conditional reserved for explicit "if X then yes" structure.</dd>
+      <dd>Defaults to Oppose. Flips to Support only on explicit, unconditional endorsement language ("I support…", "I urge the Commission to adopt…"). Conditional only fires on explicit "if X then yes" structure.</dd>
       <dt>Rater 3 — Skeptic</dt>
       <dd>Defaults to Conditional unless the letter is unambiguous. Any qualification, concession, or alternative proposal flips the call to Conditional.</dd>
     </dl>
@@ -221,7 +221,7 @@ table.full a:hover { text-decoration: underline; }
 <details class="methodology">
   <summary>How commenters are classified by entity (three-rater LLM ensemble)</summary>
   <div class="body">
-    Letters are bucketed by <strong>who is writing</strong>, across eight categories. The taxonomy was refined with input from a colleague drawing on FASB comment-letter experience. As with stance, each letter is independently classified under three rubrics and the headline bucket is the <strong>majority of three</strong>.
+    Letters fall into one of eight buckets by <strong>who is writing</strong>. As with stance, three rubrics classify each letter independently, and the headline bucket is the <strong>majority of three</strong>. A colleague with FASB comment-letter experience helped refine the taxonomy.
 
     <div style="margin-top: 10px;"><strong>The eight buckets:</strong></div>
     <ol style="margin: 6px 0 14px 18px; padding: 0; color: #444;">
@@ -237,7 +237,7 @@ table.full a:hover { text-decoration: underline; }
 
     <dl>
       <dt>Rater 1 — Primary</dt>
-      <dd>Balanced read. Uses the "follow the letterhead" principle as a tiebreaker — classify by the affiliation under which the writer is <em>speaking</em>, inferring institutional vs. personal voice from register, length, substance, and whether the institution is named for credibility or for attribution.</dd>
+      <dd>Balanced read. Uses the "follow the letterhead" principle as a tiebreaker: classify by the affiliation under which the writer is <em>speaking</em>. The institutional-vs-personal call comes from register, length, substance, and whether the institution is named for credibility or for attribution.</dd>
       <dt>Rater 2 — Self-described</dt>
       <dd>Takes the literal first identifier the writer offers. "CPA and retail investor" → Accountant; "Individual investor and former CFO" → Individual. No override based on context.</dd>
       <dt>Rater 3 — Letterhead / functional</dt>
@@ -251,7 +251,7 @@ table.full a:hover { text-decoration: underline; }
         <li>2-of-3 majority: 12 (8.8%)</li>
         <li>Fleiss' κ: 0.880</li>
       </ul>
-      <p style="margin: 8px 0 0; color: #666; font-size: 12px;">Substantial agreement, notably higher than the stance ensemble (κ = 0.503). Majority headline distribution: Individual 94 / Accountant (CPA) 9 / Investment professional 8 / Issuer-current 8 / Industry practitioner 7 / Issuer-former 5 / Academic researcher 4 / Student 2.</p>
+      <p style="margin: 8px 0 0; color: #666; font-size: 12px;">Substantially higher agreement than the stance ensemble (κ = 0.503). Majority headline distribution: Individual 94 / Accountant (CPA) 9 / Investment professional 8 / Issuer-current 8 / Industry practitioner 7 / Issuer-former 5 / Academic researcher 4 / Student 2.</p>
     </div>
   </div>
 </details>
@@ -259,19 +259,19 @@ table.full a:hover { text-decoration: underline; }
 <details class="methodology">
   <summary>How rationales are classified (argument taxonomy anchored on the SEC release; three-rater LLM ensemble)</summary>
   <div class="body">
-    Each comment letter can invoke one or more argument families. The taxonomy is anchored on the SEC's own framing in the proposing release (Release Nos. 33-11414; 34-105368; File No. S7-2026-15), with three commenter-distinctive codes added for arguments the SEC does not engage with as standalone justifications. <strong>20 codes total:</strong> 16 SEC-engaged (9 anti-proposal, 5 pro-proposal, 1 conditional, 1 procedural), 3 commenter-distinctive (<em>IP</em> investor protection; <em>US</em> capital-market leadership; <em>RI</em> investor reliance interests), and 1 "no substantive rationale" for letters that state a position without engaging an argument.
+    Each letter can invoke one or more argument families. The taxonomy starts from the SEC's framing in the proposing release (Release Nos. 33-11414; 34-105368; File No. S7-2026-15). Three commenter-distinctive codes cover arguments the SEC does not engage as standalone justifications. <strong>20 codes total:</strong> 16 SEC-engaged (9 anti-proposal, 5 pro-proposal, 1 conditional, 1 procedural), 3 commenter-distinctive (<em>IP</em> investor protection; <em>US</em> capital-market leadership; <em>RI</em> investor reliance interests), and 1 "no substantive rationale" for letters that state a position without engaging an argument.
 
-    <p style="margin: 12px 0 0;">Each anti-proposal code is rendered in a red shade and each pro-proposal code in a green shade so the directional balance is legible at a glance. Each SEC-engaged code is documented with a verbatim quote from the proposing release showing how the SEC itself frames that argument.</p>
+    <p style="margin: 12px 0 0;">Anti-proposal codes use a red shade and pro-proposal codes a green shade, so the directional balance reads at a glance. Every SEC-engaged code carries a verbatim quote from the proposing release. The quote shows how the SEC itself frames the argument.</p>
 
     <div style="margin-top: 16px; padding-top: 14px; border-top: 0.5px solid rgba(0,0,0,0.08);">
-      <strong>Three-rater LLM ensemble.</strong> Rationale coding is multi-label (a letter can invoke 0+ codes). Each letter is independently classified under three rubrics; the public-facing code list is the per-(letter, code) <strong>majority vote</strong> across the three.
+      <strong>Three-rater LLM ensemble.</strong> Rationale coding is multi-label: a letter can invoke 0+ codes. Three rubrics classify each letter independently, and the public-facing code list is the per-(letter, code) <strong>majority vote</strong> across the three.
       <dl style="margin-top: 10px;">
         <dt>Rater 1 — Primary</dt>
         <dd>Balanced read. Codes the rationale families the writer substantively argues, even when not framed in the SEC's exact language.</dd>
         <dt>Rater 2 — Literalist</dt>
         <dd>Strict. Codes a family <em>only</em> when the letter explicitly invokes that framing in surface text.</dd>
         <dt>Rater 3 — Inclusive</dt>
-        <dd>Expansive. Codes a family whenever plausibly invoked — including allusive references and arguments the writer relies on without fully developing.</dd>
+        <dd>Expansive. Codes a family whenever plausibly invoked, including allusive references and arguments the writer relies on without fully developing.</dd>
       </dl>
     </div>
 
@@ -281,20 +281,20 @@ table.full a:hover { text-decoration: underline; }
         <li>Unanimous (all three raters produced identical code sets): 75 (54.7%)</li>
         <li>2-of-3 majority: 54 (39.4%)</li>
         <li>Split (three different code sets): 8 (5.8%)</li>
-        <li>Mean per-code Cohen's κ across pairs: <strong>0.818</strong> — substantial agreement, in line with multi-prompt LLM-annotation benchmarks</li>
+        <li>Mean per-code Cohen's κ across pairs: <strong>0.818</strong>. Substantial agreement, in line with multi-prompt LLM-annotation benchmarks.</li>
       </ul>
     </div>
 
     <div style="margin-top: 14px;">
-      <strong>Per-code Cohen's κ</strong> (binary code-present vs absent, mean across the three pairwise comparisons). Surface-readable codes have high κ; inferential codes have lower κ — that's the methodology surfacing the structure of the taxonomy.
+      <strong>Per-code Cohen's κ</strong> (binary code-present vs absent, mean across the three pairwise comparisons). Surface-readable codes have high κ; inferential codes have lower κ. The methodology surfaces the structure of the taxonomy.
       <div style="margin: 8px 0 0; padding: 10px 12px; background: #f7f5ef; border-radius: 6px; font-size: 12px; line-height: 1.6; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; color: #2a2a2a;">
         ICc&nbsp;1.00 · CC&nbsp;1.00 · ICs&nbsp;1.00 · US&nbsp;0.94 · FR&nbsp;0.93 · AL&nbsp;0.92 · IA&nbsp;0.90 · OP&nbsp;0.88 · LE&nbsp;0.88 · NR&nbsp;0.88 · EX&nbsp;0.86 · ST&nbsp;0.86 · IP&nbsp;0.85 · MF&nbsp;0.85 · AU&nbsp;0.81 · CB&nbsp;0.78 · RI&nbsp;0.75 · CMP&nbsp;0.71 · SG&nbsp;0.33 · OV&nbsp;0.22
       </div>
-      <p style="margin: 8px 0 0; color: #666; font-size: 12px;">SG (signaling) and OV (option value) sit at floor κ because they are SEC-engaged codes that virtually no commenter actually cites — the floor reflects rarity, not unreliable coding.</p>
+      <p style="margin: 8px 0 0; color: #666; font-size: 12px;">SG (signaling) and OV (option value) sit at floor κ. Virtually no commenter cites these codes, so the floor reflects how rare they are in the data.</p>
     </div>
 
     <div style="margin-top: 14px; color: #666; font-size: 12px;">
-      <em>Model sensitivity:</em> all three raters are independent passes of Claude Opus 4.7 with different rubric prompts. This is an intra-model multi-prompt ensemble — agreement statistics are conditional on the model, not cross-model robust. A cross-model validation (running the same rubrics through a second model family) is parked as a methodological follow-up.
+      <em>Model sensitivity:</em> all three raters are independent passes of Claude Opus 4.7 with different rubric prompts. This is an intra-model multi-prompt ensemble, so the agreement statistics are conditional on Claude. A cross-model validation (running the same rubrics through a second model family) is parked as a methodological follow-up.
     </div>
 
     <p style="margin: 14px 0 0;">
