@@ -204,6 +204,20 @@ table.full a:hover { text-decoration: underline; }
       <p style="margin: 8px 0 0; color: #666; font-size: 12px;">Each letter card in the table below carries an agreement badge (Unanimous / 2-of-3) and shows all three rater calls on hover.</p>
     </div>
 
+    <div style="margin-top:14px; padding-top:12px; border-top: 0.5px solid rgba(0,0,0,0.08);">
+      <strong>Cross-model validation (ChatGPT-5.5, n = 137 overlap).</strong>
+      <p style="margin: 6px 0 0;">The same 3 rubric prompts ran through ChatGPT-5.5 as an independent second ensemble. The goal: test whether the stance calls hold up under a different model family. Carlson, Rahmani &amp; Chatterji (<em>SMJ</em> 2026) recommend this where feasible.</p>
+      <p style="margin: 10px 0 0;"><strong>GPT-Majority vs Claude-Majority: 132 / 137 = 96.4% raw, Cohen's κ = 0.886.</strong> Substantial cross-model agreement on the aggregated label.</p>
+      <p style="margin: 10px 0 4px;">Per-rubric agreement varies:</p>
+      <ul style="margin: 0 0 0; padding-left: 20px; color: #444;">
+        <li>GPT-Primary vs Claude-Primary: κ = 0.816 (substantial)</li>
+        <li>GPT-Literalist vs Claude-Literalist: κ = 0.635 (moderate-substantial)</li>
+        <li>GPT-Skeptic vs Claude-Skeptic: κ = 0.400 (moderate)</li>
+      </ul>
+      <p style="margin: 10px 0 0;">The Skeptic divergence reflects a rubric-conditioning effect. The same "default to Conditional unless unambiguous" instruction yielded 83 Conditional calls in GPT-5.5 versus 36 in Claude Opus 4.7. Same prompt, different operationalization across model families. Aggregate agreement on the majority vote holds; per-rubric agreement is more model-dependent.</p>
+      <p style="margin: 10px 0 0;">5 letters fall outside the cross-model majority match: #2 Fardeen Irani, #13 Skyler Mathis, #43 Steven A. Collazo, #80 Bayo Olabisi, #122 Tal Madison. All 5 push from Claude's Support or Oppose call into GPT's Conditional call. 4 of the 5 already had at least one Claude rater calling Conditional, so the cross-model disagreement concentrates on the hedge-boundary letters Claude's own ensemble was already split on.</p>
+    </div>
+
     <div style="margin-top:14px;">
       <strong>Stance label conventions:</strong>
       <dl style="margin-top: 6px;">
