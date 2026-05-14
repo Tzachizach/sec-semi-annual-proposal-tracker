@@ -322,8 +322,18 @@ table.full a:hover { text-decoration: underline; }
       <p style="margin: 8px 0 0; color: #666; font-size: 12px;">SG (signaling) and OV (option value) sit at floor κ. Virtually no commenter cites these codes, so the floor reflects how rare they are in the data.</p>
     </div>
 
-    <div style="margin-top: 14px; color: #666; font-size: 12px;">
-      <em>Model sensitivity:</em> all three raters are independent passes of Claude Opus 4.7 with different rubric prompts. This is an intra-model multi-prompt ensemble, so the agreement statistics are conditional on Claude. A cross-model validation (running the same rubrics through a second model family) is parked as a methodological follow-up.
+    <div style="margin-top:14px; padding-top:12px; border-top: 0.5px solid rgba(0,0,0,0.08);">
+      <strong>Cross-model validation (ChatGPT-5.5, n = 137 overlap).</strong>
+      <p style="margin: 6px 0 0;">The same 3 rubric prompts ran through ChatGPT-5.5 as an independent second ensemble.</p>
+      <p style="margin: 10px 0 0;"><strong>GPT-Majority vs Claude-Majority: mean per-code Cohen's κ = 0.477.</strong> Moderate cross-model agreement, lower than the stance ensemble (κ = 0.886) and the entity ensemble (κ = 0.621). The ranking is consistent with rationale being the most inferential and multi-label of the three ensembles. Set-level exact match (GPT majority code set identical to Claude majority code set): 34 of 137 letters, 24.8%. Mean Jaccard similarity between the two majority sets: 0.52.</p>
+      <p style="margin: 10px 0 4px;">Per-rubric mean κ across the 20 codes:</p>
+      <ul style="margin: 0 0 0; padding-left: 20px; color: #444;">
+        <li>GPT-Primary vs Claude-Primary: κ = 0.483</li>
+        <li>GPT-Literalist vs Claude-Literalist: κ = 0.365</li>
+        <li>GPT-Inclusive vs Claude-Inclusive: κ = 0.361</li>
+      </ul>
+      <p style="margin: 10px 0 0;">Surface-readable codes converge across model families: MF (κ = 0.79), CMP (κ = 0.76), FR (κ = 0.70), LE (κ = 0.70), NR (κ = 0.60). Inferential or umbrella codes diverge: EX (κ = 0.20), IP (κ = 0.32), OP (κ = 0.32), AU (κ = 0.39).</p>
+      <p style="margin: 10px 0 0;">The rubric-conditioning pattern visible in the stance and entity ensembles shows up again. GPT-Inclusive fires 4.50 codes per letter; Claude-Inclusive fires 2.84. Same "code whenever plausibly invoked" instruction, very different operationalization. Claude's three rationale raters stay within a 25% spread of each other (2.25 to 2.84 codes per letter); GPT's three span nearly 2x (2.44 to 4.50). The 3-rater majority κ (0.477) is higher than two of the three matched-rubric κs, which shows that aggregation dampens cross-model variance just as it does within-model.</p>
     </div>
 
     <p style="margin: 14px 0 0;">
