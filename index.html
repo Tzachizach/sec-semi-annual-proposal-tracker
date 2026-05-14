@@ -183,7 +183,7 @@ table.full a:hover { text-decoration: underline; }
 <details class="methodology">
   <summary>How stances are classified (three-rater LLM ensemble)</summary>
   <div class="body">
-    Three raters classify each letter independently. The headline stance shown here is the <strong>majority vote</strong> across the three. The LLM-annotation literature (Carlson, Rahmani &amp; Chatterji, <em>SMJ</em> 2026; rubric-conditioned LLM labeling, <em>CHB</em> 2026) recommends multi-prompt validation over a single classifier call. This design implements that.
+    Three raters classify each letter independently. The headline stance shown here is the <strong>majority vote</strong> across the three. The LLM-annotation literature (Carlson &amp; Burbano, <em>SMJ</em> 2026; rubric-conditioned LLM labeling, <em>CHB</em> 2026) recommends multi-prompt validation over a single classifier call. This design implements that.
 
     <dl>
       <dt>Rater 1 — Primary</dt>
@@ -206,7 +206,7 @@ table.full a:hover { text-decoration: underline; }
 
     <div style="margin-top:14px; padding-top:12px; border-top: 0.5px solid rgba(0,0,0,0.08);">
       <strong>Cross-model validation (ChatGPT-5.5, n = 137 overlap).</strong>
-      <p style="margin: 6px 0 0;">The same 3 rubric prompts ran through ChatGPT-5.5 as an independent second ensemble. The goal: test whether the stance calls hold up under a different model family. Carlson, Rahmani &amp; Chatterji (<em>SMJ</em> 2026) recommend this where feasible.</p>
+      <p style="margin: 6px 0 0;">The same 3 rubric prompts ran through ChatGPT-5.5 as an independent second ensemble. The goal: test whether the stance calls hold up under a different model family. Carlson &amp; Burbano (<em>SMJ</em> 2026) recommend this where feasible.</p>
       <p style="margin: 10px 0 0;"><strong>GPT-Majority vs Claude-Majority: 132 / 137 = 96.4% raw, Cohen's κ = 0.886.</strong> Substantial cross-model agreement on the aggregated label.</p>
       <p style="margin: 10px 0 4px;">Per-rubric agreement varies:</p>
       <ul style="margin: 0 0 0; padding-left: 20px; color: #444;">
