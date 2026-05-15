@@ -3082,5 +3082,439 @@
     "rationales": [
       "IP"
     ]
+  },
+  {
+    "n": 160,
+    "page": 1,
+    "date": "2026-05-15",
+    "name": "Dennis Newell",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778347-2373514.html",
+    "words": 11,
+    "rationales": [
+      "NR"
+    ]
+  },
+  {
+    "n": 161,
+    "page": 1,
+    "date": "2026-05-15",
+    "name": "Desiree",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778307-2373474.html",
+    "words": 280,
+    "rationales": [
+      "CB",
+      "EX",
+      "FR",
+      "IA",
+      "OP"
+    ]
+  },
+  {
+    "n": 162,
+    "page": 1,
+    "date": "2026-05-15",
+    "name": "J R Merrill",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778267-2373454.html",
+    "words": 19,
+    "rationales": [
+      "NR"
+    ]
+  },
+  {
+    "n": 163,
+    "page": 1,
+    "date": "2026-05-15",
+    "name": "James Medici",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778227-2373394.html",
+    "words": 16,
+    "rationales": [
+      "IP"
+    ]
+  },
+  {
+    "n": 164,
+    "page": 1,
+    "date": "2026-05-15",
+    "name": "Jeremy Brown",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778747-2374134.html",
+    "words": 17,
+    "rationales": [
+      "NR"
+    ]
+  },
+  {
+    "n": 165,
+    "page": 1,
+    "date": "2026-05-15",
+    "name": "Justin Smith",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Support",
+    "primary": "Support",
+    "literalist": "Support",
+    "skeptic": "Support",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778487-2373934.html",
+    "words": 123,
+    "rationales": [
+      "ST"
+    ]
+  },
+  {
+    "n": 166,
+    "page": 1,
+    "date": "2026-05-15",
+    "name": "Kerri Pinkston",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778687-2374094.html",
+    "words": 85,
+    "rationales": [
+      "IP"
+    ]
+  },
+  {
+    "n": 167,
+    "page": 1,
+    "date": "2026-05-15",
+    "name": "Michael Turyn",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778567-2374014.html",
+    "words": 113,
+    "rationales": [
+      "FR",
+      "IP"
+    ]
+  },
+  {
+    "n": 168,
+    "page": 1,
+    "date": "2026-05-15",
+    "name": "Noah G",
+    "role": "Registered Person, Operations",
+    "entity": "Investment professional",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778467-2373894.html",
+    "words": 22,
+    "rationales": [
+      "IP"
+    ]
+  },
+  {
+    "n": 169,
+    "page": 1,
+    "date": "2026-05-15",
+    "name": "Rebecca Wieser",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778287-2373456.html",
+    "words": 13,
+    "rationales": [
+      "IP"
+    ]
+  },
+  {
+    "n": 170,
+    "page": 1,
+    "date": "2026-05-15",
+    "name": "Sherri",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778327-2373494.html",
+    "words": 12,
+    "rationales": [
+      "IP"
+    ]
+  },
+  {
+    "n": 171,
+    "page": 1,
+    "date": "2026-05-15",
+    "name": "Tim Mulligan",
+    "role": "attorney",
+    "entity": "Industry practitioner / technologist",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778507-2373954.html",
+    "words": 71,
+    "rationales": [
+      "US"
+    ]
+  },
+  {
+    "n": 172,
+    "page": 1,
+    "date": "2026-05-14",
+    "name": "Angela Schneider",
+    "role": "Citizen",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-777827-2372814.html",
+    "words": 31,
+    "rationales": [
+      "IP"
+    ]
+  },
+  {
+    "n": 173,
+    "page": 1,
+    "date": "2026-05-14",
+    "name": "Anthony C Miller",
+    "role": "United States Citizen",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778047-2373078.html",
+    "words": 99,
+    "rationales": [
+      "IP",
+      "MF"
+    ]
+  },
+  {
+    "n": 174,
+    "page": 1,
+    "date": "2026-05-14",
+    "name": "Ben Brown",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-777807-2372794.html",
+    "words": 216,
+    "rationales": [
+      "AU",
+      "CB",
+      "FR",
+      "IA",
+      "MF",
+      "ST"
+    ]
+  },
+  {
+    "n": 175,
+    "page": 1,
+    "date": "2026-05-14",
+    "name": "Brian",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778027-2373074.html",
+    "words": 14,
+    "rationales": [
+      "IP"
+    ]
+  },
+  {
+    "n": 176,
+    "page": 1,
+    "date": "2026-05-14",
+    "name": "Christian Kritas",
+    "role": "Licensed investment banking representative and Associate - Model Risk",
+    "entity": "Investment professional",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778087-2373154.html",
+    "words": 168,
+    "rationales": [
+      "IA"
+    ]
+  },
+  {
+    "n": 177,
+    "page": 1,
+    "date": "2026-05-14",
+    "name": "James",
+    "role": "Activist, business owner, tutor and student",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778007-2373055.html",
+    "words": 11,
+    "rationales": [
+      "IP"
+    ]
+  },
+  {
+    "n": 178,
+    "page": 1,
+    "date": "2026-05-14",
+    "name": "Joseph d suh",
+    "role": "Chef",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-777847-2372834.html",
+    "words": 3,
+    "rationales": [
+      "NR"
+    ]
+  },
+  {
+    "n": 179,
+    "page": 1,
+    "date": "2026-05-14",
+    "name": "Matthew Jubinsky",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-777967-2373034.html",
+    "words": 10,
+    "rationales": [
+      "NR"
+    ]
+  },
+  {
+    "n": 180,
+    "page": 1,
+    "date": "2026-05-14",
+    "name": "Paul Bussman",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778067-2373080.html",
+    "words": 31,
+    "rationales": [
+      "IA",
+      "MF"
+    ]
+  },
+  {
+    "n": 181,
+    "page": 2,
+    "date": "2026-05-14",
+    "name": "Richard Thompson",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-777987-2373054.html",
+    "words": 77,
+    "rationales": [
+      "IA",
+      "IP",
+      "MF"
+    ]
+  },
+  {
+    "n": 182,
+    "page": 2,
+    "date": "2026-05-14",
+    "name": "Timothy A. Mann",
+    "role": "self",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778187-2373294.html",
+    "words": 283,
+    "rationales": [
+      "FR",
+      "IA",
+      "IP",
+      "MF",
+      "RI",
+      "ST",
+      "US"
+    ]
   }
 ]
