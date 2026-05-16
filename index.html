@@ -55,7 +55,7 @@ h2 { font-size: 16px; font-weight: 500; margin: 0 0 12px; }
 .methodology { background: #faf8f2; border: 0.5px solid rgba(0,0,0,0.08); border-radius: 10px; padding: 16px 20px; margin: 0 0 18px; font-size: 13px; line-height: 1.55; }
 .methodology summary { cursor: pointer; list-style: none; font-size: 17px; font-weight: 600; color: #1a1a1a; display: flex; align-items: center; gap: 8px; padding: 4px 0; }
 .methodology summary::-webkit-details-marker { display: none; }
-.methodology summary::after { content: "▾"; font-size: 14px; color: #185fa5; transition: transform 0.15s ease; margin-left: auto; }
+.methodology summary::after { content: "▾"; font-size: 17px; font-weight: 600; color: #185fa5; transition: transform 0.15s ease; margin-left: auto; }
 .methodology[open] summary::after { transform: rotate(180deg); }
 .methodology summary .accordion-meta { font-size: 13px; color: #888; font-weight: 400; }
 .methodology summary .kw-stance     { color: #185fa5; }
@@ -114,8 +114,18 @@ table.full td.num { font-variant-numeric: tabular-nums; }
 table.full td.right { text-align: right; }
 table.full a { color: #185fa5; text-decoration: none; }
 table.full a:hover { text-decoration: underline; }
+table.full tr.date-header td { background: #f0eee7; padding: 10px 14px; cursor: pointer; user-select: none; border-top: 1px solid rgba(0,0,0,0.15); border-bottom: 0.5px solid rgba(0,0,0,0.08); }
+table.full tr.date-header .chevron { display: inline-block; width: 18px; color: #185fa5; font-size: 17px; font-weight: 600; transition: transform 0.15s ease; }
+table.full tr.date-header.open .chevron { transform: rotate(0deg); }
+table.full tr.date-header .group-date { font-weight: 600; color: #1a1a1a; font-size: 14px; margin-left: 4px; }
+table.full tr.date-header .group-count { font-weight: 400; color: #777; font-size: 12px; margin-left: 10px; }
+table.full tr.collapsed-row { display: none; }
+.search-row { display: flex; align-items: center; gap: 10px; margin: 8px 0 12px; }
+.search-row .search { flex: 1; margin: 0; }
 .search { margin: 8px 0 12px; }
 .search input { width: 100%; padding: 8px 12px; border: 0.5px solid rgba(0,0,0,0.2); border-radius: 8px; font-size: 14px; }
+.expand-toggle { padding: 8px 14px; border: 0.5px solid rgba(0,0,0,0.2); border-radius: 8px; background: #fff; font-size: 12px; color: #444; cursor: pointer; white-space: nowrap; }
+.expand-toggle:hover { background: #faf8f2; }
 .footer { font-size: 12px; color: #888; margin-top: 32px; padding-top: 16px; border-top: 0.5px solid rgba(0,0,0,0.1); }
 .footer a { color: #185fa5; text-decoration: none; }
 .footer a:hover { text-decoration: underline; }
@@ -256,7 +266,7 @@ details.lr-test .lr-body { font-size: 12px; color: #555; padding: 8px 0 4px; lin
 </details>
 
 <details class="methodology">
-  <summary>How <span class="kw-commenters">commenters</span> are classified by entity <span class="accordion-meta">(three-rater LLM ensemble)</span></summary>
+  <summary>How <span class="kw-commenters">commenters</span> <span class="accordion-meta">(entity)</span> are classified <span class="accordion-meta">(three-rater LLM ensemble)</span></summary>
   <div class="body">
     Letters fall into one of eight buckets by <strong>who is writing</strong>. As with stance, three rubrics classify each letter independently, and the headline bucket is the <strong>majority of three</strong>. A colleague with FASB comment-letter experience helped refine the taxonomy.
 
@@ -482,7 +492,10 @@ details.lr-test .lr-body { font-size: 12px; color: #555; padding: 8px 0 4px; lin
 <div class="section">
   <h2>All letters</h2>
   
-  <div class="search"><input id="q" type="search" placeholder="Search by name, role, or stance…" /></div>
+  <div class="search-row">
+    <div class="search"><input id="q" type="search" placeholder="Search by name, role, or stance…" /></div>
+    <button id="expand-toggle" class="expand-toggle" type="button">Expand all</button>
+  </div>
   <table class="full" id="full">
     <thead><tr>
       <th data-k="n">#</th>
@@ -1034,20 +1047,15 @@ function rationaleBadges(r) {
 }
 /*DEV_ONLY:END*/
 
-let sortKey = 'n', sortAsc = true;
-function renderTable() {
-  const q = (document.getElementById('q').value||'').toLowerCase().trim();
-  let rows = RECORDS.slice();
-  if (q) rows = rows.filter(r => (r.name+' '+r.role+' '+r.stance).toLowerCase().includes(q));
-  rows.sort((a,b)=>{
-    const av=a[sortKey], bv=b[sortKey];
-    if (av==null && bv==null) return 0;
-    if (av==null) return 1; if (bv==null) return -1;
-    if (typeof av === 'number' && typeof bv === 'number') return sortAsc ? av-bv : bv-av;
-    return sortAsc ? String(av).localeCompare(String(bv)) : String(bv).localeCompare(String(av));
-  });
-  document.getElementById('full-body').innerHTML = rows.map(r => (
-    '<tr>' +
+// Default: newest letters first, grouped by date. First group open, rest collapsed.
+let sortKey = 'date', sortAsc = false;
+let expandAll = false;             // user-toggled via "Expand all" button
+const collapsedGroups = new Set(); // explicitly-collapsed dates when not in expandAll
+const openedGroups = new Set();    // explicitly-opened dates when not in expandAll
+
+function rowHtml(r, groupKey) {
+  return (
+    '<tr data-group="'+(groupKey||'')+'">' +
       '<td class="num">'+r.n+'</td>' +
       '<td class="num">'+fmtMonthDay(r.date)+'</td>' +
       '<td>'+(r.url ? '<a href="'+escape(r.url)+'" target="_blank" rel="noopener">'+escape(r.name)+'</a>' : escape(r.name))+'</td>' +
@@ -1057,12 +1065,84 @@ function renderTable() {
       /*DEV_ONLY:BEGIN*/'<td class="rat-cell">'+rationaleBadges(r)+'</td>' +/*DEV_ONLY:END*/
       
     '</tr>'
-  )).join('');
+  );
+}
+
+function fmtFullDate(iso) {
+  // 2026-05-15 -> "May 15, 2026"
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso||'');
+  if (!m) return iso || '';
+  const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  return months[parseInt(m[2],10)-1] + ' ' + parseInt(m[3],10) + ', ' + m[1];
+}
+
+function renderTable() {
+  const q = (document.getElementById('q').value||'').toLowerCase().trim();
+  const searching = q.length > 0;
+  let rows = RECORDS.slice();
+  if (q) rows = rows.filter(r => (r.name+' '+r.role+' '+r.stance).toLowerCase().includes(q));
+  rows.sort((a,b)=>{
+    const av=a[sortKey], bv=b[sortKey];
+    if (av==null && bv==null) return 0;
+    if (av==null) return 1; if (bv==null) return -1;
+    if (typeof av === 'number' && typeof bv === 'number') return sortAsc ? av-bv : bv-av;
+    return sortAsc ? String(av).localeCompare(String(bv)) : String(bv).localeCompare(String(av));
+  });
+
+  const groupBy = (sortKey === 'date' || sortKey === 'n');
+  const colCount = document.querySelectorAll('table.full thead th').length;
+  const body = document.getElementById('full-body');
+
+  if (!groupBy) {
+    // Flat render for non-date sorts
+    body.innerHTML = rows.map(r => rowHtml(r)).join('');
+  } else {
+    // Group rows by date, preserving sort order within and across groups
+    const groups = [];
+    const groupIndex = new Map();
+    rows.forEach(r => {
+      const key = r.date || '(no date)';
+      if (!groupIndex.has(key)) { groupIndex.set(key, groups.length); groups.push({ key, rows: [] }); }
+      groups[groupIndex.get(key)].rows.push(r);
+    });
+    let html = '';
+    groups.forEach((g, idx) => {
+      // Decide open/collapsed for this group
+      let isOpen;
+      if (searching || expandAll) {
+        isOpen = true;
+      } else if (openedGroups.has(g.key)) {
+        isOpen = true;
+      } else if (collapsedGroups.has(g.key)) {
+        isOpen = false;
+      } else {
+        // Default: only the first (top) group is open
+        isOpen = (idx === 0);
+      }
+      const headerClass = 'date-header' + (isOpen ? ' open' : '');
+      const rowClass    = isOpen ? '' : ' class="collapsed-row"';
+      html += '<tr class="'+headerClass+'" data-group="'+escape(g.key)+'">' +
+              '<td colspan="'+colCount+'">' +
+                '<span class="chevron">'+(isOpen ? '▾' : '▸')+'</span>' +
+                '<span class="group-date">'+escape(fmtFullDate(g.key))+'</span>' +
+                '<span class="group-count">'+g.rows.length+' letter'+(g.rows.length===1?'':'s')+'</span>' +
+              '</td></tr>';
+      html += g.rows.map(r => rowHtml(r, g.key).replace('<tr ', '<tr'+(isOpen?'':' class="collapsed-row"')+' ')).join('');
+    });
+    body.innerHTML = html;
+  }
+
+  // Update sort-arrow display on column headers
   document.querySelectorAll('table.full th').forEach(th => {
     th.classList.remove('sorted','asc');
     if (th.dataset.k === sortKey) { th.classList.add('sorted'); if (sortAsc) th.classList.add('asc'); }
   });
+
+  // Update Expand all / Collapse all button label
+  const btn = document.getElementById('expand-toggle');
+  if (btn) btn.textContent = expandAll ? 'Collapse all' : 'Expand all';
 }
+
 document.querySelectorAll('table.full th').forEach(th => {
   th.addEventListener('click', () => {
     const k = th.dataset.k;
@@ -1071,6 +1151,33 @@ document.querySelectorAll('table.full th').forEach(th => {
   });
 });
 document.getElementById('q').addEventListener('input', renderTable);
+
+// Click a date-header row → toggle that group
+document.getElementById('full-body').addEventListener('click', (e) => {
+  const header = e.target.closest('tr.date-header');
+  if (!header) return;
+  const key = header.dataset.group;
+  // Determine current state: explicit override > default-by-position
+  let currentlyOpen = header.classList.contains('open');
+  if (currentlyOpen) {
+    collapsedGroups.add(key);
+    openedGroups.delete(key);
+  } else {
+    openedGroups.add(key);
+    collapsedGroups.delete(key);
+  }
+  renderTable();
+});
+
+// Expand all / Collapse all toggle
+document.getElementById('expand-toggle').addEventListener('click', () => {
+  expandAll = !expandAll;
+  // Wipe per-group overrides so the toggle is authoritative
+  collapsedGroups.clear();
+  openedGroups.clear();
+  renderTable();
+});
+
 renderTable();
 
 /* ======================================================================
