@@ -868,7 +868,7 @@ if (ratInactive.length) {
   if (noteEl) {
     noteEl.innerHTML = '<strong>SEC-anticipated rationales with 0 commenter mentions:</strong> ' +
       ratInactive.map(c => '<span class="rat-badge" data-rat-code="'+c+'" style="background:'+RATIONALE_META[c][2]+'; color:#fff;">'+c+'</span> ' + RATIONALE_META[c][0]).join(' &nbsp;·&nbsp; ') +
-      '. These arguments appear in the SEC\'s own proposing release but no commenter has invoked them yet — the SEC is debating itself on these points.';
+      '. These arguments appear in the SEC\'s own proposing release but no commenter has invoked them yet.';
   }
 }
 
