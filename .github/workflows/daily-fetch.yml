@@ -1,0 +1,91 @@
+name: SEC docket fetch (twice daily)
+
+# Runs twice daily at 10 AM ET and 7 PM ET. cron is always in UTC and does not
+# auto-adjust for DST. Current schedule is EDT-correct (UTC-4) and will need a
+# shift to 15:00 / 00:00 UTC when standard time resumes in early November.
+# The comment period closes in early July, so EDT holds for the project's
+# live window.
+#
+# Replaces the Cowork-scheduled `sec-s7-2026-15-daily-fetch` task (suspended)
+# and the macOS launchd push job. Manually triggerable from the Actions tab
+# via "Run workflow".
+
+on:
+  schedule:
+    - cron: '0 14 * * *'  # 10 AM ET
+    - cron: '0 23 * * *'  # 7 PM ET
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-and-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          # Need full history so the regression-compare script can git-blame if needed
+          # (not strictly required today, but cheap insurance).
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 statsmodels pandas numpy scipy
+
+      - name: Fetch new letters from SEC
+        run: python3 _scripts/daily_fetch.py
+        env:
+          PYTHONUNBUFFERED: '1'
+
+      - name: Regenerate Letters_for_models mirror
+        run: python3 _scripts/build_letters_for_models.py
+        # Safe to run even when no letters were added — produces a no-op mirror at the same N.
+
+      - name: Re-run regression comparison (Logit / LPM / Ordinal)
+        run: python3 _scripts/run_regression_compare.py
+        # Writes _meta/regression_compare.json + .md. Build step below reads the JSON.
+        continue-on-error: true
+        # `continue-on-error` because the ordinal optimizer can occasionally fail on
+        # pathological sample compositions. If it does, the build still proceeds with
+        # the previous-day regression numbers and we investigate next session.
+
+      - name: Build production site (no push)
+        run: python3 _scripts/build_and_push.py --no-push
+        # `--no-push` because the Action commits directly via the Git CLI below,
+        # not via the GitHub Contents API path that build_and_push.py uses when run
+        # locally. The build still writes public_site/index.html, data.json,
+        # bodies.json, and rationale-taxonomy.html.
+
+      - name: Mirror public_site/* to repo root for GitHub Pages
+        run: |
+          # GitHub Pages on this repo serves from the root of main (legacy setup
+          # from the Contents-API push days). Copy the freshly-built public_site/*
+          # files to root so the live site stays in sync after each Action run.
+          cp public_site/index.html              ./index.html
+          cp public_site/data.json               ./data.json
+          cp public_site/bodies.json             ./bodies.json
+          cp public_site/rationale-taxonomy.html ./rationale-taxonomy.html
+
+      - name: Commit and push back to main
+        run: |
+          git config user.name 'sec-tracker-bot'
+          git config user.email 'sec-tracker-bot@users.noreply.github.com'
+          git add -A
+          if git diff --staged --quiet; then
+            echo "[done] No file changes today. Nothing to commit."
+          else
+            DATE_TAG=$(date -u +%Y-%m-%d)
+            git commit -m "Daily fetch ${DATE_TAG}: SEC docket sync + build refresh"
+            git push
+          fi
