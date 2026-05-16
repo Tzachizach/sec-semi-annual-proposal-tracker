@@ -52,12 +52,16 @@ h2 { font-size: 16px; font-weight: 500; margin: 0 0 12px; }
 .pill.Support { background: #EAF3DE; color: #27500A; }
 .pill.Conditional { background: #FAEEDA; color: #633806; }
 .pill.PDF { background: #F1EFE8; color: #444441; }
-.methodology { background: #faf8f2; border: 0.5px solid rgba(0,0,0,0.08); border-radius: 10px; padding: 14px 16px; margin: 0 0 24px; font-size: 13px; line-height: 1.55; }
-.methodology summary { cursor: pointer; list-style: none; font-weight: 500; color: #1a1a1a; display: flex; align-items: center; gap: 6px; }
+.methodology { background: #faf8f2; border: 0.5px solid rgba(0,0,0,0.08); border-radius: 10px; padding: 16px 20px; margin: 0 0 18px; font-size: 13px; line-height: 1.55; }
+.methodology summary { cursor: pointer; list-style: none; font-size: 17px; font-weight: 600; color: #1a1a1a; display: flex; align-items: center; gap: 8px; padding: 4px 0; }
 .methodology summary::-webkit-details-marker { display: none; }
-.methodology summary::after { content: "▾"; font-size: 11px; color: #888; transition: transform 0.15s ease; margin-left: 4px; }
+.methodology summary::after { content: "▾"; font-size: 14px; color: #185fa5; transition: transform 0.15s ease; margin-left: auto; }
 .methodology[open] summary::after { transform: rotate(180deg); }
-.methodology .body { margin-top: 10px; color: #444; }
+.methodology summary .accordion-meta { font-size: 13px; color: #888; font-weight: 400; }
+.methodology summary .kw-stance     { color: #185fa5; }
+.methodology summary .kw-commenters { color: #6b3d8a; }
+.methodology summary .kw-rationales { color: #2a7d6b; }
+.methodology .body { margin-top: 12px; color: #444; font-size: 13px; }
 .methodology dl { margin: 8px 0 0; display: grid; grid-template-columns: 110px 1fr; column-gap: 14px; row-gap: 10px; }
 .methodology dt { font-weight: 500; color: #1a1a1a; }
 .methodology dt .dot { display: inline-block; width: 8px; height: 8px; border-radius: 999px; margin-right: 6px; vertical-align: middle; }
@@ -148,6 +152,8 @@ details.lr-test .lr-body { font-size: 12px; color: #555; padding: 8px 0 4px; lin
 <body>
 <h1>SEC Semi-Annual Reporting Proposal Tracker <span style="color:#777; font-weight:400;">(S7-2026-15)</span></h1>
 
+
+
 <div class="intro">
   <p>In <strong>May 2026</strong> the SEC issued a proposal that would allow public companies to switch from quarterly (Form 10-Q) to semi-annual financial reporting (a new Form 10-S). From the date of publication, the public has <strong>60 days</strong> to comment on the proposal.</p>
   <p>This site was produced by <a href="https://fisher.osu.edu/people/zach.7" target="_blank" rel="noopener">Professor Tzachi Zach</a> at The Ohio State University Fisher College of Business as a public service to track the comment letters as they arrive, classify their positions, and surface patterns in the docket. A number of methodological decisions had to be made along the way — how to classify stance, how to bucket commenters by entity type, how to handle hedged or conditional letters — those decisions are explained below.</p>
@@ -198,7 +204,7 @@ details.lr-test .lr-body { font-size: 12px; color: #555; padding: 8px 0 4px; lin
 </details>
 
 <details class="methodology">
-  <summary>How stances are classified (three-rater LLM ensemble)</summary>
+  <summary>How <span class="kw-stance">stances</span> are classified <span class="accordion-meta">(three-rater LLM ensemble)</span></summary>
   <div class="body">
     I had three Claude raters classify each letter independently. The headline stance shown here is the <strong>majority vote</strong> across the three. The LLM-annotation literature (Carlson &amp; Burbano, <em>SMJ</em> 2026; Liu, <em>CHB</em> 2026) recommends multi-prompt validation over a single classifier call, and that is what this design does.
 
@@ -250,7 +256,7 @@ details.lr-test .lr-body { font-size: 12px; color: #555; padding: 8px 0 4px; lin
 </details>
 
 <details class="methodology">
-  <summary>How commenters are classified by entity (three-rater LLM ensemble)</summary>
+  <summary>How <span class="kw-commenters">commenters</span> are classified by entity <span class="accordion-meta">(three-rater LLM ensemble)</span></summary>
   <div class="body">
     Letters fall into one of eight buckets by <strong>who is writing</strong>. As with stance, three rubrics classify each letter independently, and the headline bucket is the <strong>majority of three</strong>. A colleague with FASB comment-letter experience helped refine the taxonomy.
 
@@ -303,7 +309,7 @@ details.lr-test .lr-body { font-size: 12px; color: #555; padding: 8px 0 4px; lin
 </details>
 
 <details class="methodology">
-  <summary>How rationales are classified (argument taxonomy anchored on the SEC release; three-rater LLM ensemble)</summary>
+  <summary>How <span class="kw-rationales">rationales</span> are classified <span class="accordion-meta">(argument taxonomy anchored on the SEC release; three-rater LLM ensemble)</span></summary>
   <div class="body">
     Each letter can invoke one or more argument families. The taxonomy starts from the SEC's framing in the proposing release (Release Nos. 33-11414; 34-105368; File No. S7-2026-15). Three commenter-distinctive codes cover arguments the SEC does not engage as standalone justifications. <strong>20 codes total:</strong> 16 SEC-engaged (9 anti-proposal, 5 pro-proposal, 1 conditional, 1 procedural), 3 commenter-distinctive (<em>IP</em> investor protection; <em>US</em> capital-market leadership; <em>RI</em> investor reliance interests), and 1 "no substantive rationale" for letters that state a position without engaging an argument.
 
@@ -1157,6 +1163,6 @@ document.getElementById('feedback-overlay').addEventListener('click', (e) => {
 
 
 </script>
-
+<script data-goatcounter="https://s7-2026-15.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
