@@ -74,8 +74,7 @@ jobs:
           cp public_site/index.html              ./index.html
           cp public_site/data.json               ./data.json
           cp public_site/bodies.json             ./bodies.json
-          cp public_site/rationale-taxonomy.html ./rationale-taxonomy.html
-
+      
       - name: Commit and push back to main
         run: |
           git config user.name 'sec-tracker-bot'
