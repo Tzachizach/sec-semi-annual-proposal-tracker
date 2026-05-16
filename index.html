@@ -151,7 +151,7 @@ details.lr-test .lr-body { font-size: 12px; color: #555; padding: 8px 0 4px; lin
 <div class="intro">
   <p>In <strong>May 2026</strong> the SEC issued a proposal that would allow public companies to switch from quarterly (Form 10-Q) to semi-annual financial reporting (a new Form 10-S). From the date of publication, the public has <strong>60 days</strong> to comment on the proposal.</p>
   <p>This site was produced by <a href="https://fisher.osu.edu/people/zach.7" target="_blank" rel="noopener">Professor Tzachi Zach</a> at The Ohio State University Fisher College of Business as a public service to track the comment letters as they arrive, classify their positions, and surface patterns in the docket. A number of methodological decisions had to be made along the way — how to classify stance, how to bucket commenters by entity type, how to handle hedged or conditional letters — those decisions are explained below.</p>
-  <p>The project has two goals beyond the tracker itself. First, to encourage discussion among accounting academics about the proposal. The economic-analysis questions it raises (short-termism, fraud risk, compliance burden, retail-investor protection) sit at the center of what our field studies, and the comment period is the right moment to bring that expertise to bear. Second, to test how well language-model classifiers handle regulatory text. A few hundred letters and fast iteration, with the hope of converging on classifier design choices that scale to future research. The site will be most relevant to accounting academics, auditors, preparers, financial analysts, IR professionals, and anyone who follows the SEC docket professionally.</p>
+  <p>Beyond the tracker itself, the project has two other goals. First, I hope it will encourage discussion among accounting academics about the proposal. The economic-analysis questions the proposal raises (short-termism, fraud risk, compliance burden, retail-investor protection) are central to what we study, and the comment period is a good moment to bring our expertise to bear. Second, it is quite interesting to test how well language-model classifiers handle regulatory text. With a few hundred letters and fast iteration, can we converge on classifier design choices that scale to future research? The site will be most relevant to accounting academics, auditors, preparers, financial analysts, IR professionals, and anyone who follows the SEC docket professionally.</p>
   <p>Comments, suggestions, or corrections welcome — <a href="#" id="feedback-open">send feedback here</a> or email <a href="mailto:zach.7@osu.edu?subject=S7-2026-15%20tracker%20feedback">zach.7@osu.edu</a>.</p>
 </div>
 
@@ -200,7 +200,7 @@ details.lr-test .lr-body { font-size: 12px; color: #555; padding: 8px 0 4px; lin
 <details class="methodology">
   <summary>How stances are classified (three-rater LLM ensemble)</summary>
   <div class="body">
-    Three raters classify each letter independently. The headline stance shown here is the <strong>majority vote</strong> across the three. The LLM-annotation literature (Carlson &amp; Burbano, <em>SMJ</em> 2026; Liu, <em>CHB</em> 2026) recommends multi-prompt validation over a single classifier call. This design implements that.
+    I had three Claude raters classify each letter independently. The headline stance shown here is the <strong>majority vote</strong> across the three. The LLM-annotation literature (Carlson &amp; Burbano, <em>SMJ</em> 2026; Liu, <em>CHB</em> 2026) recommends multi-prompt validation over a single classifier call, and that is what this design does.
 
     <dl>
       <dt>Rater 1 — Primary</dt>
@@ -223,7 +223,7 @@ details.lr-test .lr-body { font-size: 12px; color: #555; padding: 8px 0 4px; lin
 
     <div style="margin-top:14px; padding-top:12px; border-top: 0.5px solid rgba(0,0,0,0.08);">
       <strong>Cross-model validation (ChatGPT-5.5, n = 137 overlap).</strong>
-      <p style="margin: 6px 0 0;">The same 3 rubric prompts ran through ChatGPT-5.5 as an independent second ensemble. The goal: test whether the stance calls hold up under a different model family. Carlson &amp; Burbano (<em>SMJ</em> 2026) recommend this where feasible.</p>
+      <p style="margin: 6px 0 0;">I then ran the same 3 rubric prompts through ChatGPT-5.5 as an independent second ensemble. The question I wanted to answer: would the stance calls hold up under a different model family? Carlson &amp; Burbano (<em>SMJ</em> 2026) recommend this kind of cross-model check where feasible.</p>
       <p style="margin: 10px 0 0;"><strong>GPT-Majority vs Claude-Majority: 132 / 137 = 96.4% raw, Cohen's κ = 0.886.</strong> Substantial cross-model agreement on the aggregated label.</p>
       <p style="margin: 10px 0 4px;">Per-rubric agreement varies:</p>
       <ul style="margin: 0 0 0; padding-left: 20px; color: #444;">
@@ -242,7 +242,7 @@ details.lr-test .lr-body { font-size: 12px; color: #555; padding: 8px 0 4px; lin
         <dd>Author argues against adoption.</dd>
         <dt><span class="dot" style="background:#3b6d11"></span>Support</dt>
         <dd>Author explicitly endorses the proposal.</dd>
-        <dt><span class="dot" style="background:#854f0b"></span>Conditional</dt>
+        <dt><span class="dot" style="background:#854f0b"></span>Conditional <span style="color:#777; font-weight:400;">(in-between / mixed)</span></dt>
         <dd>Author wants modifications or alternatives (e.g. enhanced auditor assurance, monthly revenue disclosure, every-4-months cadence, qualifying-criteria framework). Would not vote yes on the rule as written.</dd>
       </dl>
     </div>
