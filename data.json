@@ -22,6 +22,25 @@
       "FR",
       "LE",
       "IP"
+    ],
+    "rationale_agreement": "split",
+    "rationales_primary": [
+      "LE",
+      "IP",
+      "IA",
+      "FR"
+    ],
+    "rationales_literalist": [
+      "LE",
+      "FR",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "LE",
+      "FR",
+      "IP",
+      "IA",
+      "AU"
     ]
   },
   {
@@ -47,6 +66,26 @@
       "ST",
       "OP",
       "ICs"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "CB",
+      "ST",
+      "OP",
+      "ICs"
+    ],
+    "rationales_literalist": [
+      "CB",
+      "ST",
+      "OP",
+      "ICs"
+    ],
+    "rationales_inclusive": [
+      "CB",
+      "ST",
+      "OP",
+      "ICs",
+      "MF"
     ]
   },
   {
@@ -69,6 +108,16 @@
     "words": 151,
     "rationales": [
       "ST"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "ST"
+    ],
+    "rationales_literalist": [
+      "ST"
+    ],
+    "rationales_inclusive": [
+      "ST"
     ]
   },
   {
@@ -90,6 +139,16 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-771067-2361035.html",
     "words": 11,
     "rationales": [
+      "NR"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "NR"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
       "NR"
     ]
   },
@@ -114,6 +173,20 @@
     "rationales": [
       "ICc",
       "IP"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IP",
+      "ICc"
+    ],
+    "rationales_literalist": [
+      "ICc",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "ICc",
+      "IP",
+      "CB"
     ]
   },
   {
@@ -137,6 +210,20 @@
     "rationales": [
       "IA",
       "IP"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IP",
+      "IA"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "IP",
+      "MF"
     ]
   },
   {
@@ -161,6 +248,23 @@
       "AU",
       "EX",
       "CB"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "AU",
+      "EX",
+      "CB"
+    ],
+    "rationales_literalist": [
+      "AU",
+      "EX",
+      "CB"
+    ],
+    "rationales_inclusive": [
+      "AU",
+      "EX",
+      "CB",
+      "FR"
     ]
   },
   {
@@ -182,6 +286,18 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-771107-2361077.html",
     "words": 31,
     "rationales": [
+      "ST",
+      "OP"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "ST",
+      "OP"
+    ],
+    "rationales_literalist": [
+      "ST"
+    ],
+    "rationales_inclusive": [
       "ST",
       "OP"
     ]
@@ -208,6 +324,22 @@
       "FR",
       "CB",
       "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP",
+      "FR",
+      "CB"
+    ],
+    "rationales_literalist": [
+      "CB",
+      "FR",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "CB",
+      "FR",
+      "IP"
     ]
   },
   {
@@ -232,6 +364,21 @@
       "FR",
       "ST",
       "IP"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IP",
+      "FR"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "FR",
+      "ST"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "FR",
+      "ST"
     ]
   },
   {
@@ -254,6 +401,18 @@
     "words": 331,
     "rationales": [
       "AL"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "AL"
+    ],
+    "rationales_literalist": [
+      "AL"
+    ],
+    "rationales_inclusive": [
+      "AL",
+      "CB",
+      "CMP"
     ]
   },
   {
@@ -278,6 +437,23 @@
       "FR",
       "MF",
       "IP"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "FR",
+      "MF",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "FR",
+      "MF",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "FR",
+      "MF",
+      "IP",
+      "RI"
     ]
   },
   {
@@ -301,6 +477,21 @@
     "rationales": [
       "AU",
       "IP"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IP",
+      "AU"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "AU"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "AU",
+      "CMP",
+      "CB"
     ]
   },
   {
@@ -334,6 +525,43 @@
       "ICs",
       "AL",
       "LE"
+    ],
+    "rationale_agreement": "split",
+    "rationales_primary": [
+      "ST",
+      "CB",
+      "OP",
+      "ICs",
+      "EX"
+    ],
+    "rationales_literalist": [
+      "CB",
+      "ST",
+      "OP",
+      "ICs",
+      "MF",
+      "CMP",
+      "FR",
+      "IA",
+      "LE",
+      "OV",
+      "AL"
+    ],
+    "rationales_inclusive": [
+      "CB",
+      "ST",
+      "OP",
+      "ICs",
+      "MF",
+      "CMP",
+      "FR",
+      "IA",
+      "LE",
+      "OV",
+      "AL",
+      "SG",
+      "EX",
+      "RI"
     ]
   },
   {
@@ -358,6 +586,23 @@
       "IA",
       "FR",
       "IP"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IP",
+      "IA",
+      "FR"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "IA",
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "IA",
+      "FR",
+      "EX"
     ]
   },
   {
@@ -379,6 +624,19 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768988-2357774.html",
     "words": 54,
     "rationales": [
+      "IA",
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IA",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "IP"
+    ],
+    "rationales_inclusive": [
       "IA",
       "IP"
     ]
@@ -404,6 +662,21 @@
     "rationales": [
       "AU",
       "AL"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "AL",
+      "AU"
+    ],
+    "rationales_literalist": [
+      "AL",
+      "AU"
+    ],
+    "rationales_inclusive": [
+      "AL",
+      "AU",
+      "IP",
+      "CMP"
     ]
   },
   {
@@ -426,6 +699,16 @@
     "words": 78,
     "rationales": [
       "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IP"
     ]
   },
   {
@@ -447,6 +730,16 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2359154.htm",
     "words": 41,
     "rationales": [
+      "RI"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "RI"
+    ],
+    "rationales_literalist": [
+      "RI"
+    ],
+    "rationales_inclusive": [
       "RI"
     ]
   },
@@ -471,6 +764,19 @@
     "rationales": [
       "FR",
       "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP",
+      "FR"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "FR"
     ]
   },
   {
@@ -493,6 +799,17 @@
     "words": 107,
     "rationales": [
       "AL"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "AL"
+    ],
+    "rationales_literalist": [
+      "AL"
+    ],
+    "rationales_inclusive": [
+      "AL",
+      "MF"
     ]
   },
   {
@@ -516,6 +833,19 @@
     "rationales": [
       "FR",
       "MF"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "MF",
+      "FR"
+    ],
+    "rationales_literalist": [
+      "MF",
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "MF",
+      "FR"
     ]
   },
   {
@@ -539,6 +869,18 @@
     "rationales": [
       "FR",
       "IP"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "FR"
     ]
   },
   {
@@ -560,6 +902,16 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769887-2359114.html",
     "words": 35,
     "rationales": [
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
       "IP"
     ]
   },
@@ -583,6 +935,18 @@
     "words": 500,
     "rationales": [
       "OP"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "OP"
+    ],
+    "rationales_literalist": [
+      "OP"
+    ],
+    "rationales_inclusive": [
+      "OP",
+      "CB",
+      "AL"
     ]
   },
   {
@@ -609,6 +973,29 @@
       "AU",
       "IP",
       "US"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IP",
+      "IA",
+      "AU",
+      "MF",
+      "US"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "IA",
+      "AU",
+      "MF",
+      "US"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "IA",
+      "AU",
+      "MF",
+      "US",
+      "CMP"
     ]
   },
   {
@@ -632,6 +1019,20 @@
     "rationales": [
       "AL",
       "IP"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "AL",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "AL",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "AL",
+      "IP",
+      "AU"
     ]
   },
   {
@@ -653,6 +1054,16 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2359155.htm",
     "words": 83,
     "rationales": [
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
       "IP"
     ]
   },
@@ -680,6 +1091,29 @@
       "EX",
       "CMP",
       "IP"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IP",
+      "IA",
+      "FR",
+      "CMP",
+      "EX"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "IA",
+      "FR",
+      "CMP",
+      "EX"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "IA",
+      "FR",
+      "CMP",
+      "EX",
+      "AU"
     ]
   },
   {
@@ -702,6 +1136,17 @@
     "words": 214,
     "rationales": [
       "RI"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "RI"
+    ],
+    "rationales_literalist": [
+      "RI"
+    ],
+    "rationales_inclusive": [
+      "RI",
+      "IP"
     ]
   },
   {
@@ -723,6 +1168,16 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-770007-2359234.html",
     "words": 90,
     "rationales": [
+      "IA"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IA"
+    ],
+    "rationales_literalist": [
+      "IA"
+    ],
+    "rationales_inclusive": [
       "IA"
     ]
   },
@@ -747,6 +1202,19 @@
     "rationales": [
       "CB",
       "AL"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "AL",
+      "CB"
+    ],
+    "rationales_literalist": [
+      "AL",
+      "CB"
+    ],
+    "rationales_inclusive": [
+      "AL",
+      "CB"
     ]
   },
   {
@@ -769,6 +1237,16 @@
     "words": 72,
     "rationales": [
       "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IP"
     ]
   },
   {
@@ -790,6 +1268,18 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769367-2358454.html",
     "words": 36,
     "rationales": [
+      "IP",
+      "RI"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "RI"
+    ],
+    "rationales_inclusive": [
       "IP",
       "RI"
     ]
@@ -815,6 +1305,20 @@
     "rationales": [
       "MF",
       "US"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "US",
+      "MF"
+    ],
+    "rationales_literalist": [
+      "MF",
+      "US"
+    ],
+    "rationales_inclusive": [
+      "MF",
+      "US",
+      "ST"
     ]
   },
   {
@@ -838,6 +1342,19 @@
     "rationales": [
       "FR",
       "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP",
+      "FR"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "FR"
     ]
   },
   {
@@ -861,6 +1378,19 @@
     "rationales": [
       "CB",
       "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP",
+      "CB"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "CB"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "CB"
     ]
   },
   {
@@ -886,6 +1416,26 @@
       "MF",
       "ICc",
       "CB"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "CB",
+      "IA",
+      "MF",
+      "ICc"
+    ],
+    "rationales_literalist": [
+      "CB",
+      "IA",
+      "MF",
+      "ICc"
+    ],
+    "rationales_inclusive": [
+      "CB",
+      "IA",
+      "MF",
+      "ICc",
+      "EX"
     ]
   },
   {
@@ -909,6 +1459,20 @@
     "rationales": [
       "MF",
       "AL"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "MF",
+      "AL"
+    ],
+    "rationales_literalist": [
+      "MF",
+      "AL"
+    ],
+    "rationales_inclusive": [
+      "MF",
+      "AL",
+      "IP"
     ]
   },
   {
@@ -938,6 +1502,37 @@
       "ST",
       "IP",
       "US"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP",
+      "MF",
+      "IA",
+      "FR",
+      "CB",
+      "CMP",
+      "ST",
+      "US"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "MF",
+      "IA",
+      "FR",
+      "CB",
+      "CMP",
+      "ST",
+      "US"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "MF",
+      "IA",
+      "FR",
+      "CB",
+      "CMP",
+      "ST",
+      "US"
     ]
   },
   {
@@ -961,6 +1556,18 @@
     "rationales": [
       "ST",
       "IP"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "ST"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "ST"
     ]
   },
   {
@@ -984,6 +1591,19 @@
     "rationales": [
       "ST",
       "IP"
+    ],
+    "rationale_agreement": "split",
+    "rationales_primary": [
+      "IP",
+      "ST"
+    ],
+    "rationales_literalist": [
+      "ST"
+    ],
+    "rationales_inclusive": [
+      "ST",
+      "IP",
+      "AU"
     ]
   },
   {
@@ -1007,6 +1627,22 @@
     "rationales": [
       "FR",
       "IP",
+      "US"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP",
+      "FR",
+      "US"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "FR",
+      "US"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "FR",
       "US"
     ]
   },
@@ -1032,6 +1668,22 @@
       "IA",
       "FR",
       "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IA",
+      "IP",
+      "FR"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "IP",
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "IP",
+      "FR"
     ]
   },
   {
@@ -1053,6 +1705,16 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769428-2358575.html",
     "words": 53,
     "rationales": [
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
       "IP"
     ]
   },
@@ -1077,6 +1739,20 @@
     "rationales": [
       "AL",
       "IP"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "AL",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "AL",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "AL",
+      "IP",
+      "CB"
     ]
   },
   {
@@ -1103,6 +1779,28 @@
       "EX",
       "CB",
       "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP",
+      "MF",
+      "EX",
+      "CB",
+      "FR"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "MF",
+      "EX",
+      "FR",
+      "CB"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "MF",
+      "EX",
+      "FR",
+      "CB"
     ]
   },
   {
@@ -1124,6 +1822,19 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768567-2357154.html",
     "words": 251,
     "rationales": [
+      "IP",
+      "RI"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP",
+      "RI"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "RI"
+    ],
+    "rationales_inclusive": [
       "IP",
       "RI"
     ]
@@ -1152,6 +1863,25 @@
       "ST",
       "IP",
       "US"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IP",
+      "IA"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "IA",
+      "MF",
+      "ST",
+      "US"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "IA",
+      "MF",
+      "ST",
+      "US"
     ]
   },
   {
@@ -1173,6 +1903,16 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768467-2357074.html",
     "words": 78,
     "rationales": [
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
       "IP"
     ]
   },
@@ -1197,6 +1937,19 @@
     "rationales": [
       "FR",
       "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP",
+      "FR"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "FR"
     ]
   },
   {
@@ -1219,6 +1972,17 @@
     "words": 110,
     "rationales": [
       "AL"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "AL"
+    ],
+    "rationales_literalist": [
+      "AL"
+    ],
+    "rationales_inclusive": [
+      "AL",
+      "IP"
     ]
   },
   {
@@ -1243,6 +2007,23 @@
       "IA",
       "ICc",
       "US"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "ICc",
+      "IA",
+      "US"
+    ],
+    "rationales_literalist": [
+      "ICc",
+      "IA",
+      "US"
+    ],
+    "rationales_inclusive": [
+      "ICc",
+      "IA",
+      "US",
+      "IP"
     ]
   },
   {
@@ -1266,6 +2047,20 @@
     "rationales": [
       "IP",
       "US"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IP",
+      "US"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "US"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "US",
+      "IA"
     ]
   },
   {
@@ -1289,6 +2084,20 @@
     "rationales": [
       "ST",
       "OP"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "ST",
+      "OP"
+    ],
+    "rationales_literalist": [
+      "ST",
+      "OP"
+    ],
+    "rationales_inclusive": [
+      "ST",
+      "OP",
+      "FR"
     ]
   },
   {
@@ -1310,6 +2119,19 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768147-2356714.html",
     "words": 67,
     "rationales": [
+      "MF",
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "MF",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "MF",
+      "IP"
+    ],
+    "rationales_inclusive": [
       "MF",
       "IP"
     ]
@@ -1336,6 +2158,25 @@
       "IA",
       "MF",
       "IP",
+      "US"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP",
+      "IA",
+      "MF",
+      "US"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "IA",
+      "MF",
+      "US"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "IA",
+      "MF",
       "US"
     ]
   },
@@ -1364,6 +2205,33 @@
       "EX",
       "ST",
       "IP"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IP",
+      "ICc",
+      "MF",
+      "IA",
+      "EX",
+      "ST"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "ICc",
+      "MF",
+      "IA",
+      "EX",
+      "ST"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "ICc",
+      "MF",
+      "IA",
+      "EX",
+      "ST",
+      "CMP",
+      "RI"
     ]
   },
   {
@@ -1389,6 +2257,25 @@
       "MF",
       "IP",
       "US"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "US",
+      "IP",
+      "IA",
+      "MF"
+    ],
+    "rationales_literalist": [
+      "US",
+      "IP",
+      "IA",
+      "MF"
+    ],
+    "rationales_inclusive": [
+      "US",
+      "IP",
+      "IA",
+      "MF"
     ]
   },
   {
@@ -1410,6 +2297,19 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768807-2357454.html",
     "words": 83,
     "rationales": [
+      "CB",
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "CB",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "CB",
+      "IP"
+    ],
+    "rationales_inclusive": [
       "CB",
       "IP"
     ]
@@ -1434,6 +2334,16 @@
     "words": 35,
     "rationales": [
       "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IP"
     ]
   },
   {
@@ -1457,6 +2367,19 @@
     "rationales": [
       "ST",
       "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP",
+      "ST"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "ST"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "ST"
     ]
   },
   {
@@ -1483,6 +2406,28 @@
       "ST",
       "IP",
       "US"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IA",
+      "IP",
+      "MF",
+      "US",
+      "ST"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "IP",
+      "MF",
+      "US",
+      "ST"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "IP",
+      "MF",
+      "US",
+      "ST"
     ]
   },
   {
@@ -1504,6 +2449,16 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768727-2357314.html",
     "words": 68,
     "rationales": [
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
       "IP"
     ]
   },
@@ -1528,6 +2483,20 @@
     "rationales": [
       "AL",
       "IP"
+    ],
+    "rationale_agreement": "split",
+    "rationales_primary": [
+      "AL"
+    ],
+    "rationales_literalist": [
+      "AL",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "AL",
+      "IP",
+      "CB",
+      "FR"
     ]
   },
   {
@@ -1550,6 +2519,17 @@
     "words": 38,
     "rationales": [
       "OP"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "OP"
+    ],
+    "rationales_literalist": [
+      "OP"
+    ],
+    "rationales_inclusive": [
+      "OP",
+      "CB"
     ]
   },
   {
@@ -1572,6 +2552,17 @@
     "words": 50,
     "rationales": [
       "IP"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "AU"
     ]
   },
   {
@@ -1593,6 +2584,16 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2356674.htm",
     "words": 28,
     "rationales": [
+      "RI"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "RI"
+    ],
+    "rationales_literalist": [
+      "RI"
+    ],
+    "rationales_inclusive": [
       "RI"
     ]
   },
@@ -1616,6 +2617,16 @@
     "words": 34,
     "rationales": [
       "IA"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IA"
+    ],
+    "rationales_literalist": [
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "IA"
     ]
   },
   {
@@ -1637,6 +2648,19 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768487-2357094.html",
     "words": 107,
     "rationales": [
+      "FR",
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "FR",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "FR",
+      "IP"
+    ],
+    "rationales_inclusive": [
       "FR",
       "IP"
     ]
@@ -1662,6 +2686,17 @@
     "rationales": [
       "IP",
       "NR"
+    ],
+    "rationale_agreement": "split",
+    "rationales_primary": [
+      "IP",
+      "NR"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
+      "IP"
     ]
   },
   {
@@ -1687,6 +2722,26 @@
       "EX",
       "IP",
       "RI"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "MF",
+      "IP",
+      "RI",
+      "EX"
+    ],
+    "rationales_literalist": [
+      "MF",
+      "IP",
+      "RI",
+      "EX"
+    ],
+    "rationales_inclusive": [
+      "MF",
+      "IP",
+      "RI",
+      "EX",
+      "IA"
     ]
   },
   {
@@ -1709,6 +2764,16 @@
     "words": 20,
     "rationales": [
       "NR"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "NR"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
+      "IP"
     ]
   },
   {
@@ -1731,6 +2796,17 @@
     "words": 47,
     "rationales": [
       "IA"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IA"
+    ],
+    "rationales_literalist": [
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "IP"
     ]
   },
   {
@@ -1753,6 +2829,16 @@
     "words": 76,
     "rationales": [
       "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IP"
     ]
   },
   {
@@ -1774,6 +2860,19 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2356614.htm",
     "words": 93,
     "rationales": [
+      "AL",
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "AL",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "AL",
+      "IP"
+    ],
+    "rationales_inclusive": [
       "AL",
       "IP"
     ]
@@ -1799,6 +2898,20 @@
     "rationales": [
       "MF",
       "RI"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "MF",
+      "RI"
+    ],
+    "rationales_literalist": [
+      "MF",
+      "RI"
+    ],
+    "rationales_inclusive": [
+      "MF",
+      "RI",
+      "IA"
     ]
   },
   {
@@ -1820,6 +2933,16 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-771907-2362654.html",
     "words": 2,
     "rationales": [
+      "NR"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "NR"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
       "NR"
     ]
   },
@@ -1846,6 +2969,26 @@
       "AU",
       "CMP",
       "IP"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IP",
+      "CMP",
+      "IA",
+      "AU"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "CMP",
+      "IA",
+      "AU"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "CMP",
+      "IA",
+      "AU",
+      "MF"
     ]
   },
   {
@@ -1871,6 +3014,26 @@
       "CMP",
       "IP",
       "US"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "US",
+      "FR",
+      "CMP",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "US",
+      "FR",
+      "CMP",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "US",
+      "FR",
+      "CMP",
+      "IP",
+      "MF"
     ]
   },
   {
@@ -1895,6 +3058,21 @@
       "AL",
       "LE",
       "IP"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "AL",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "AL",
+      "IP",
+      "LE"
+    ],
+    "rationales_inclusive": [
+      "AL",
+      "IP",
+      "LE"
     ]
   },
   {
@@ -1916,6 +3094,22 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-772307-2363854.html",
     "words": 256,
     "rationales": [
+      "AL",
+      "IP",
+      "US"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "AL",
+      "IP",
+      "US"
+    ],
+    "rationales_literalist": [
+      "AL",
+      "IP",
+      "US"
+    ],
+    "rationales_inclusive": [
       "AL",
       "IP",
       "US"
@@ -1941,6 +3135,16 @@
     "words": 23,
     "rationales": [
       "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IP"
     ]
   },
   {
@@ -1964,6 +3168,19 @@
     "rationales": [
       "LE",
       "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP",
+      "LE"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "LE"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "LE"
     ]
   },
   {
@@ -1985,6 +3202,19 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-772607-2364376.html",
     "words": 125,
     "rationales": [
+      "FR",
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "FR",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "FR",
+      "IP"
+    ],
+    "rationales_inclusive": [
       "FR",
       "IP"
     ]
@@ -2009,6 +3239,18 @@
     "words": 116,
     "rationales": [
       "AL"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "AL"
+    ],
+    "rationales_literalist": [
+      "AL"
+    ],
+    "rationales_inclusive": [
+      "AL",
+      "CB",
+      "OP"
     ]
   },
   {
@@ -2032,6 +3274,20 @@
     "rationales": [
       "ST",
       "AL"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "AL",
+      "ST"
+    ],
+    "rationales_literalist": [
+      "AL",
+      "ST"
+    ],
+    "rationales_inclusive": [
+      "AL",
+      "ST",
+      "FR"
     ]
   },
   {
@@ -2055,6 +3311,20 @@
     "rationales": [
       "FR",
       "IP"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IP",
+      "FR"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "FR",
+      "US"
     ]
   },
   {
@@ -2076,6 +3346,19 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-773867-2366736.html",
     "words": 84,
     "rationales": [
+      "FR",
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "FR",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "FR",
+      "IP"
+    ],
+    "rationales_inclusive": [
       "FR",
       "IP"
     ]
@@ -2101,6 +3384,20 @@
     "rationales": [
       "MF",
       "IP"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IP",
+      "MF"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "MF"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "MF",
+      "IA"
     ]
   },
   {
@@ -2123,6 +3420,16 @@
     "words": 21,
     "rationales": [
       "CB"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "CB"
+    ],
+    "rationales_literalist": [
+      "CB"
+    ],
+    "rationales_inclusive": [
+      "CB"
     ]
   },
   {
@@ -2144,6 +3451,19 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-773207-2365854.html",
     "words": 126,
     "rationales": [
+      "IP",
+      "US"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP",
+      "US"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "US"
+    ],
+    "rationales_inclusive": [
       "IP",
       "US"
     ]
@@ -2171,6 +3491,26 @@
       "MF",
       "US",
       "RI"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "RI",
+      "IA",
+      "MF",
+      "US"
+    ],
+    "rationales_literalist": [
+      "RI",
+      "IA",
+      "MF",
+      "US"
+    ],
+    "rationales_inclusive": [
+      "RI",
+      "IA",
+      "MF",
+      "US",
+      "AL"
     ]
   },
   {
@@ -2195,6 +3535,22 @@
       "FR",
       "MF",
       "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "FR",
+      "IP",
+      "MF"
+    ],
+    "rationales_literalist": [
+      "FR",
+      "IP",
+      "MF"
+    ],
+    "rationales_inclusive": [
+      "FR",
+      "IP",
+      "MF"
     ]
   },
   {
@@ -2217,6 +3573,16 @@
     "words": 48,
     "rationales": [
       "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IP"
     ]
   },
   {
@@ -2238,6 +3604,16 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-774227-2367254.html",
     "words": 50,
     "rationales": [
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
       "IP"
     ]
   },
@@ -2262,6 +3638,19 @@
     "rationales": [
       "CB",
       "AL"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "AL",
+      "CB"
+    ],
+    "rationales_literalist": [
+      "AL",
+      "CB"
+    ],
+    "rationales_inclusive": [
+      "AL",
+      "CB"
     ]
   },
   {
@@ -2283,6 +3672,22 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-774127-2367054.html",
     "words": 72,
     "rationales": [
+      "FR",
+      "IP",
+      "US"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "FR",
+      "IP",
+      "US"
+    ],
+    "rationales_literalist": [
+      "FR",
+      "IP",
+      "US"
+    ],
+    "rationales_inclusive": [
       "FR",
       "IP",
       "US"
@@ -2313,6 +3718,29 @@
       "CMP",
       "AL",
       "IP"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "AU",
+      "AL",
+      "IP",
+      "IA",
+      "FR",
+      "CMP"
+    ],
+    "rationales_literalist": [
+      "AU",
+      "AL",
+      "FR",
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "AU",
+      "AL",
+      "FR",
+      "IA",
+      "IP",
+      "CMP"
     ]
   },
   {
@@ -2335,6 +3763,16 @@
     "words": 19,
     "rationales": [
       "NR"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "NR"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
+      "NR"
     ]
   },
   {
@@ -2356,6 +3794,19 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775107-2368375_0.html",
     "words": 122,
     "rationales": [
+      "FR",
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "FR",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "FR",
+      "IP"
+    ],
+    "rationales_inclusive": [
       "FR",
       "IP"
     ]
@@ -2381,6 +3832,19 @@
     "rationales": [
       "CB",
       "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP",
+      "CB"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "CB"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "CB"
     ]
   },
   {
@@ -2402,6 +3866,19 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775127-2368394.html",
     "words": 97,
     "rationales": [
+      "ICc",
+      "US"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "ICc",
+      "US"
+    ],
+    "rationales_literalist": [
+      "ICc",
+      "US"
+    ],
+    "rationales_inclusive": [
       "ICc",
       "US"
     ]
@@ -2427,6 +3904,19 @@
     "rationales": [
       "IA",
       "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IA",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "IP"
     ]
   },
   {
@@ -2449,6 +3939,18 @@
     "words": 49,
     "rationales": [
       "IA"
+    ],
+    "rationale_agreement": "split",
+    "rationales_primary": [
+      "IA",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "RI"
     ]
   },
   {
@@ -2470,6 +3972,16 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-774767-2368094.html",
     "words": 19,
     "rationales": [
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
       "IP"
     ]
   },
@@ -2498,6 +4010,33 @@
       "LE",
       "IP",
       "US"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IA",
+      "IP",
+      "ST",
+      "US",
+      "CB",
+      "LE"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "IP",
+      "ST",
+      "US",
+      "CB",
+      "LE"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "IP",
+      "ST",
+      "US",
+      "CB",
+      "LE",
+      "RI",
+      "MF"
     ]
   },
   {
@@ -2520,6 +4059,17 @@
     "words": 22,
     "rationales": [
       "IP"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "IA"
     ]
   },
   {
@@ -2543,6 +4093,19 @@
     "rationales": [
       "FR",
       "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP",
+      "FR"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "FR"
     ]
   },
   {
@@ -2564,6 +4127,16 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775647-2369114.html",
     "words": 22,
     "rationales": [
+      "NR"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "NR"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
       "NR"
     ]
   },
@@ -2588,6 +4161,20 @@
     "rationales": [
       "IA",
       "IP"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IP",
+      "IA"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "IA",
+      "MF"
     ]
   },
   {
@@ -2612,6 +4199,22 @@
       "IA",
       "CB",
       "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IA",
+      "IP",
+      "CB"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "IP",
+      "CB"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "IP",
+      "CB"
     ]
   },
   {
@@ -2633,6 +4236,19 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2368574.htm",
     "words": 31,
     "rationales": [
+      "MF",
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "MF",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "MF",
+      "IP"
+    ],
+    "rationales_inclusive": [
       "MF",
       "IP"
     ]
@@ -2657,6 +4273,16 @@
     "words": 19,
     "rationales": [
       "NR"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "NR"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
+      "IP"
     ]
   },
   {
@@ -2678,6 +4304,16 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2368595.htm",
     "words": 66,
     "rationales": [
+      "LE"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "LE"
+    ],
+    "rationales_literalist": [
+      "LE"
+    ],
+    "rationales_inclusive": [
       "LE"
     ]
   },
@@ -2703,6 +4339,21 @@
       "FR",
       "CB",
       "IP"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IP",
+      "FR"
+    ],
+    "rationales_literalist": [
+      "CB",
+      "FR",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "CB",
+      "FR",
+      "IP"
     ]
   },
   {
@@ -2724,6 +4375,19 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775667-2369134.html",
     "words": 35,
     "rationales": [
+      "IA",
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IA",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "IP"
+    ],
+    "rationales_inclusive": [
       "IA",
       "IP"
     ]
@@ -2748,6 +4412,16 @@
     "words": 12,
     "rationales": [
       "NR"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "NR"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
+      "NR"
     ]
   },
   {
@@ -2771,6 +4445,19 @@
     "rationales": [
       "IA",
       "RI"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "RI",
+      "IA"
+    ],
+    "rationales_literalist": [
+      "RI",
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "RI",
+      "IA"
     ]
   },
   {
@@ -2794,6 +4481,18 @@
     "rationales": [
       "IP",
       "RI"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "RI",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "RI",
+      "IP"
     ]
   },
   {
@@ -2815,6 +4514,16 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2368594.htm",
     "words": 46,
     "rationales": [
+      "NR"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "NR"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
       "NR"
     ]
   },
@@ -2840,6 +4549,24 @@
       "AL",
       "LE",
       "RI"
+    ],
+    "rationale_agreement": "split",
+    "rationales_primary": [
+      "LE",
+      "RI"
+    ],
+    "rationales_literalist": [
+      "LE",
+      "RI",
+      "AL"
+    ],
+    "rationales_inclusive": [
+      "LE",
+      "RI",
+      "AL",
+      "MF",
+      "ST",
+      "IA"
     ]
   },
   {
@@ -2864,6 +4591,22 @@
       "IA",
       "FR",
       "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP",
+      "IA",
+      "FR"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "IA",
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "IA",
+      "FR"
     ]
   },
   {
@@ -2888,6 +4631,22 @@
       "IA",
       "FR",
       "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP",
+      "IA",
+      "FR"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "IA",
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "IA",
+      "FR"
     ]
   },
   {
@@ -2909,6 +4668,16 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775747-2369254.html",
     "words": 15,
     "rationales": [
+      "NR"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "NR"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
       "NR"
     ]
   },
@@ -2933,6 +4702,19 @@
     "rationales": [
       "FR",
       "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP",
+      "FR"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "FR"
     ]
   },
   {
@@ -2954,6 +4736,19 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775767-2369274.html",
     "words": 25,
     "rationales": [
+      "FR",
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP",
+      "FR"
+    ],
+    "rationales_literalist": [
+      "FR",
+      "IP"
+    ],
+    "rationales_inclusive": [
       "FR",
       "IP"
     ]
@@ -2980,6 +4775,22 @@
       "FR",
       "EX",
       "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP",
+      "FR",
+      "EX"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "FR",
+      "EX"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "FR",
+      "EX"
     ]
   },
   {
@@ -3004,6 +4815,22 @@
       "FR",
       "ICc",
       "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP",
+      "FR",
+      "ICc"
+    ],
+    "rationales_literalist": [
+      "FR",
+      "IP",
+      "ICc"
+    ],
+    "rationales_inclusive": [
+      "FR",
+      "IP",
+      "ICc"
     ]
   },
   {
@@ -3025,6 +4852,16 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-776267-2370354.html",
     "words": 10,
     "rationales": [
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
       "IP"
     ]
   },
@@ -3049,6 +4886,19 @@
     "rationales": [
       "FR",
       "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP",
+      "FR"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "FR"
     ]
   },
   {
@@ -3077,6 +4927,37 @@
       "ST",
       "ICs",
       "AL"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "AL",
+      "ST",
+      "CB",
+      "IA",
+      "FR",
+      "MF",
+      "ICs"
+    ],
+    "rationales_literalist": [
+      "AL",
+      "ST",
+      "CB",
+      "ICs",
+      "IA",
+      "FR",
+      "MF"
+    ],
+    "rationales_inclusive": [
+      "AL",
+      "ST",
+      "CB",
+      "ICs",
+      "IA",
+      "FR",
+      "MF",
+      "OV",
+      "RI",
+      "US"
     ]
   },
   {
@@ -3101,6 +4982,23 @@
       "MF",
       "IP",
       "US"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IP",
+      "MF",
+      "US"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "MF",
+      "US"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "MF",
+      "US",
+      "CB"
     ]
   },
   {
@@ -3124,6 +5022,19 @@
     "rationales": [
       "IA",
       "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP",
+      "IA"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "IA"
     ]
   },
   {
@@ -3150,6 +5061,26 @@
       "MF",
       "CB",
       "RI"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "MF",
+      "FR",
+      "IA"
+    ],
+    "rationales_literalist": [
+      "RI",
+      "MF",
+      "FR",
+      "IA",
+      "CB"
+    ],
+    "rationales_inclusive": [
+      "RI",
+      "MF",
+      "FR",
+      "IA",
+      "CB"
     ]
   },
   {
@@ -3180,6 +5111,40 @@
       "AL",
       "IP",
       "US"
+    ],
+    "rationale_agreement": "split",
+    "rationales_primary": [
+      "IP",
+      "IA",
+      "FR",
+      "MF",
+      "US",
+      "AL",
+      "CMP",
+      "AU"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "IA",
+      "FR",
+      "MF",
+      "US",
+      "AL",
+      "CMP",
+      "AU",
+      "CB"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "IA",
+      "FR",
+      "MF",
+      "US",
+      "AL",
+      "CMP",
+      "AU",
+      "CB",
+      "ST"
     ]
   },
   {
@@ -3203,6 +5168,19 @@
     "rationales": [
       "IP",
       "US"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "US",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "US",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "US",
+      "IP"
     ]
   },
   {
@@ -3225,6 +5203,17 @@
     "words": 26,
     "rationales": [
       "IP"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "IA"
     ]
   },
   {
@@ -3254,6 +5243,38 @@
       "MF",
       "ST",
       "US"
+    ],
+    "rationale_agreement": "split",
+    "rationales_primary": [
+      "US",
+      "IP",
+      "IA",
+      "FR",
+      "ICc",
+      "ST",
+      "MF",
+      "CB"
+    ],
+    "rationales_literalist": [
+      "US",
+      "IP",
+      "IA",
+      "FR",
+      "ICc",
+      "ST",
+      "CB"
+    ],
+    "rationales_inclusive": [
+      "US",
+      "IP",
+      "IA",
+      "FR",
+      "ICc",
+      "ST",
+      "MF",
+      "CB",
+      "AL",
+      "OP"
     ]
   },
   {
@@ -3275,6 +5296,19 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-776367-2370434.html",
     "words": 123,
     "rationales": [
+      "IA",
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IA",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "IP"
+    ],
+    "rationales_inclusive": [
       "IA",
       "IP"
     ]
@@ -3302,6 +5336,25 @@
       "IA",
       "IP",
       "MF"
+    ],
+    "rationale_agreement": "split",
+    "rationales_primary": [
+      "IA",
+      "IP",
+      "FR",
+      "MF"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "IP",
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "IP",
+      "FR",
+      "MF",
+      "CB"
     ]
   },
   {
@@ -3325,6 +5378,21 @@
     "rationales": [
       "AL",
       "IP"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IP",
+      "AL"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "AL"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "AL",
+      "MF",
+      "IA"
     ]
   },
   {
@@ -3347,6 +5415,17 @@
     "words": 62,
     "rationales": [
       "IP"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "IA"
     ]
   },
   {
@@ -3370,6 +5449,19 @@
     "rationales": [
       "IA",
       "IP"
+    ],
+    "rationale_agreement": "split",
+    "rationales_primary": [
+      "IA",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "IP",
+      "CMP"
     ]
   },
   {
@@ -3395,6 +5487,24 @@
       "IP",
       "MF",
       "ST"
+    ],
+    "rationale_agreement": "split",
+    "rationales_primary": [
+      "IA",
+      "IP",
+      "ST",
+      "MF"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "ST"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "IP",
+      "ST",
+      "MF",
+      "FR"
     ]
   },
   {
@@ -3417,6 +5527,16 @@
     "words": 10,
     "rationales": [
       "NR"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "NR"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
+      "IP"
     ]
   },
   {
@@ -3441,6 +5561,22 @@
       "FR",
       "IA",
       "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP",
+      "FR",
+      "IA"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "FR",
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "FR",
+      "IA"
     ]
   },
   {
@@ -3464,6 +5600,19 @@
     "rationales": [
       "IA",
       "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP",
+      "IA"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "IA"
     ]
   },
   {
@@ -3485,6 +5634,16 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-776947-2371674.html",
     "words": 11,
     "rationales": [
+      "NR"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "NR"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
       "NR"
     ]
   },
@@ -3511,6 +5670,24 @@
       "IP",
       "MF",
       "US"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IP",
+      "US",
+      "CB",
+      "MF"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "US",
+      "CB"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "US",
+      "CB",
+      "MF"
     ]
   },
   {
@@ -3534,6 +5711,19 @@
     "rationales": [
       "FR",
       "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP",
+      "FR"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "FR"
     ]
   },
   {
@@ -3555,6 +5745,16 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-776907-2371354.html",
     "words": 15,
     "rationales": [
+      "IP"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
       "IP"
     ]
   },
@@ -3582,6 +5782,28 @@
       "FR",
       "IA",
       "OP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "EX",
+      "CB",
+      "IA",
+      "FR",
+      "OP"
+    ],
+    "rationales_literalist": [
+      "EX",
+      "CB",
+      "IA",
+      "FR",
+      "OP"
+    ],
+    "rationales_inclusive": [
+      "EX",
+      "CB",
+      "IA",
+      "FR",
+      "OP"
     ]
   },
   {
@@ -3605,6 +5827,20 @@
     "rationales": [
       "IP",
       "MF"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "MF",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "MF",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "MF",
+      "IP",
+      "IA"
     ]
   },
   {
@@ -3628,6 +5864,19 @@
     "rationales": [
       "FR",
       "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP",
+      "FR"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "FR"
     ]
   },
   {
@@ -3649,6 +5898,16 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-777307-2372094.html",
     "words": 27,
     "rationales": [
+      "NR"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "NR"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
       "NR"
     ]
   },
@@ -3673,6 +5932,19 @@
     "rationales": [
       "IA",
       "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IA",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "IP"
     ]
   },
   {
@@ -3694,6 +5966,16 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-777527-2372294.html",
     "words": 7,
     "rationales": [
+      "NR"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "NR"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
       "NR"
     ]
   },
@@ -3717,6 +5999,16 @@
     "words": 17,
     "rationales": [
       "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IP"
     ]
   },
   {
@@ -3738,6 +6030,16 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778347-2373514.html",
     "words": 11,
     "rationales": [
+      "NR"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "NR"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
       "NR"
     ]
   },
@@ -3765,6 +6067,29 @@
       "FR",
       "IA",
       "OP"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IA",
+      "FR",
+      "OP",
+      "EX",
+      "CB"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "FR",
+      "OP",
+      "EX",
+      "CB"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "FR",
+      "OP",
+      "EX",
+      "CB",
+      "IP"
     ]
   },
   {
@@ -3786,6 +6111,16 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778267-2373454.html",
     "words": 19,
     "rationales": [
+      "NR"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "NR"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
       "NR"
     ]
   },
@@ -3809,6 +6144,16 @@
     "words": 16,
     "rationales": [
       "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IP"
     ]
   },
   {
@@ -3830,6 +6175,16 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778747-2374134.html",
     "words": 17,
     "rationales": [
+      "NR"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "NR"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
       "NR"
     ]
   },
@@ -3853,6 +6208,16 @@
     "words": 123,
     "rationales": [
       "ST"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "ST"
+    ],
+    "rationales_literalist": [
+      "ST"
+    ],
+    "rationales_inclusive": [
+      "ST"
     ]
   },
   {
@@ -3874,6 +6239,16 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778687-2374094.html",
     "words": 85,
     "rationales": [
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
       "IP"
     ]
   },
@@ -3898,6 +6273,18 @@
     "rationales": [
       "FR",
       "IP"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "FR",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "FR",
+      "IP"
     ]
   },
   {
@@ -3919,6 +6306,16 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778467-2373894.html",
     "words": 22,
     "rationales": [
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
       "IP"
     ]
   },
@@ -3942,6 +6339,16 @@
     "words": 13,
     "rationales": [
       "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IP"
     ]
   },
   {
@@ -3963,6 +6370,16 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778327-2373494.html",
     "words": 12,
     "rationales": [
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
       "IP"
     ]
   },
@@ -3986,6 +6403,16 @@
     "words": 71,
     "rationales": [
       "US"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "US"
+    ],
+    "rationales_literalist": [
+      "US"
+    ],
+    "rationales_inclusive": [
+      "US"
     ]
   },
   {
@@ -4007,6 +6434,16 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-777827-2372814.html",
     "words": 31,
     "rationales": [
+      "IP"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
       "IP"
     ]
   },
@@ -4031,6 +6468,20 @@
     "rationales": [
       "IP",
       "MF"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IP",
+      "MF"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "MF"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "MF",
+      "FR"
     ]
   },
   {
@@ -4058,6 +6509,31 @@
       "IA",
       "MF",
       "ST"
+    ],
+    "rationale_agreement": "split",
+    "rationales_primary": [
+      "IA",
+      "FR",
+      "AU",
+      "MF",
+      "CB",
+      "ST"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "FR",
+      "MF",
+      "CB",
+      "ST"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "FR",
+      "AU",
+      "MF",
+      "CB",
+      "ST",
+      "IP"
     ]
   },
   {
@@ -4079,6 +6555,16 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778027-2373074.html",
     "words": 14,
     "rationales": [
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
       "IP"
     ]
   },
@@ -4102,6 +6588,17 @@
     "words": 168,
     "rationales": [
       "IA"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IA"
+    ],
+    "rationales_literalist": [
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "AL"
     ]
   },
   {
@@ -4123,6 +6620,16 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778007-2373055.html",
     "words": 11,
     "rationales": [
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
       "IP"
     ]
   },
@@ -4146,6 +6653,16 @@
     "words": 3,
     "rationales": [
       "NR"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "NR"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
+      "IP"
     ]
   },
   {
@@ -4167,6 +6684,16 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-777967-2373034.html",
     "words": 10,
     "rationales": [
+      "NR"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "NR"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
       "NR"
     ]
   },
@@ -4191,6 +6718,18 @@
     "rationales": [
       "IA",
       "MF"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "MF",
+      "IA"
+    ],
+    "rationales_literalist": [
+      "MF"
+    ],
+    "rationales_inclusive": [
+      "MF",
+      "IA"
     ]
   },
   {
@@ -4215,6 +6754,23 @@
       "IA",
       "IP",
       "MF"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IA",
+      "MF",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "MF",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "MF",
+      "IP",
+      "FR"
     ]
   },
   {
@@ -4243,6 +6799,33 @@
       "RI",
       "ST",
       "US"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "ST",
+      "FR",
+      "IA",
+      "IP",
+      "MF",
+      "US",
+      "RI"
+    ],
+    "rationales_literalist": [
+      "ST",
+      "FR",
+      "IA",
+      "IP",
+      "MF",
+      "US"
+    ],
+    "rationales_inclusive": [
+      "ST",
+      "FR",
+      "IA",
+      "IP",
+      "MF",
+      "US",
+      "RI"
     ]
   }
 ]
