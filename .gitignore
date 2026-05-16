@@ -1,0 +1,28 @@
+# Repo-level ignores. The Action's `git add -A` respects this file.
+# Anything listed here stays in the local Dropbox folder but never reaches GitHub.
+
+# --- Project documentation kept private ---
+STATUS.md                              # internal working doc, plans, decisions log
+
+# --- Credentials and tokens (defense in depth; these are also in _meta/.* paths) ---
+_meta/.github_token
+_meta/.supabase_credentials
+_meta/.goatcounter_code
+_meta/.env
+*_token
+*_credentials
+
+# --- macOS / editor noise ---
+.DS_Store
+.~lock.*
+*.swp
+
+# --- Local-only working files ---
+_backups/                              # snapshot tarballs from backup_snapshot.sh
+public_site_dev/                       # dev mirror with voting widget — local preview only
+.~*
+
+# --- Coding sheets and outputs that are personal-use ---
+_meta/expert_coding_sheet.md           # gold-standard coding sheet (in progress)
+_meta/expert_coding_form.html          # interactive coding form
+_meta/expert_coding_*.json             # exported coding answers
