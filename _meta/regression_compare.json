@@ -1,0 +1,232 @@
+{
+  "as_of": "2026-05-15",
+  "n_records": 182,
+  "logit": {
+    "n": 164,
+    "ll": -22.422867201520123,
+    "mcfadden": 0.2248231651536129,
+    "n_support": 7,
+    "n_oppose": 157,
+    "by_var": {
+      "const": {
+        "coef": -5.160174774194909,
+        "se": 1.8237352656058818,
+        "p": 0.004662752382620266,
+        "separated": false
+      },
+      "ent_Accountant_CPA": {
+        "coef": -9.211184909764153,
+        "se": 194.83465281553504,
+        "p": 0.9622925119829373,
+        "separated": true
+      },
+      "ent_Issuer_Corporate_\u2014_current": {
+        "coef": 1.6870074225123781,
+        "se": 1.2739373801312854,
+        "p": 0.18542111250644344,
+        "separated": false
+      },
+      "ent_Issuer_Corporate_\u2014_former": {
+        "coef": -7.980363970563941,
+        "se": 147.99507118353952,
+        "p": 0.9569963733632039,
+        "separated": true
+      },
+      "ent_Investment_professional": {
+        "coef": -10.982140147256455,
+        "se": 387.33097277214137,
+        "p": 0.9773803109510889,
+        "separated": true
+      },
+      "ent_Academic_researcher": {
+        "coef": 2.135884636368316,
+        "se": 1.917434529775035,
+        "p": 0.2653099362131436,
+        "separated": false
+      },
+      "ent_Industry_practitioner_technologist": {
+        "coef": -11.615676392889432,
+        "se": 553.3006820991571,
+        "p": 0.9832509005812352,
+        "separated": true
+      },
+      "ent_Student": {
+        "coef": 3.289564291722775,
+        "se": 1.5418543919077452,
+        "p": 0.032882777854955705,
+        "separated": false
+      },
+      "log_words": {
+        "coef": 0.40171066817451373,
+        "se": 0.38250324417813536,
+        "p": 0.2936192462403754,
+        "separated": false
+      }
+    }
+  },
+  "lpm": {
+    "n": 164,
+    "r2": 0.15969189350565027,
+    "adj_r2": 0.11632115252529684,
+    "cov_type": "HC1",
+    "by_var": {
+      "const": {
+        "coef": -0.02902762229162282,
+        "se": 0.051560572786438136,
+        "p": 0.5734478290195579,
+        "separated": false
+      },
+      "ent_Accountant_CPA": {
+        "coef": -0.03200559991842165,
+        "se": 0.01688942916498874,
+        "p": 0.05809136899455494,
+        "separated": true
+      },
+      "ent_Issuer_Corporate_\u2014_current": {
+        "coef": 0.15443418433435063,
+        "se": 0.19543746137083717,
+        "p": 0.42941246286350143,
+        "separated": false
+      },
+      "ent_Issuer_Corporate_\u2014_former": {
+        "coef": -0.03554354304087802,
+        "se": 0.018738090264636915,
+        "p": 0.0578463535085827,
+        "separated": true
+      },
+      "ent_Investment_professional": {
+        "coef": -0.03797977013642127,
+        "se": 0.02142805062087769,
+        "p": 0.07632281560563228,
+        "separated": true
+      },
+      "ent_Academic_researcher": {
+        "coef": 0.41808115119880335,
+        "se": 0.35511857636029914,
+        "p": 0.2390757293439224,
+        "separated": false
+      },
+      "ent_Industry_practitioner_technologist": {
+        "coef": -0.043066602864780146,
+        "se": 0.026085328614409865,
+        "p": 0.09874072505578209,
+        "separated": true
+      },
+      "ent_Student": {
+        "coef": 0.4603929200941165,
+        "se": 0.3770873870688172,
+        "p": 0.22211692626703228,
+        "separated": false
+      },
+      "log_words": {
+        "coef": 0.014740853682804568,
+        "se": 0.014912009731172876,
+        "p": 0.32289693414133813,
+        "separated": false
+      }
+    }
+  },
+  "ordinal": {
+    "n": 182,
+    "ll": -69.3410057241877,
+    "mcfadden": 0.20889263671607483,
+    "n_oppose": 157,
+    "n_conditional": 18,
+    "n_support": 7,
+    "cutpoints": [
+      5.535995662759396,
+      7.214136164588159
+    ],
+    "by_var": {
+      "ent_Accountant_CPA": {
+        "coef": 0.8504173766712366,
+        "se": 0.8633627801356015,
+        "p": 0.32462120452640986,
+        "separated": false
+      },
+      "ent_Issuer_Corporate_\u2014_current": {
+        "coef": 1.8193399079237818,
+        "se": 0.7160570752926491,
+        "p": 0.011060707635803236,
+        "separated": false
+      },
+      "ent_Issuer_Corporate_\u2014_former": {
+        "coef": 0.6125646727965535,
+        "se": 1.1589004022680125,
+        "p": 0.5971009696333633,
+        "separated": false
+      },
+      "ent_Investment_professional": {
+        "coef": -10.94031671874173,
+        "se": 199.62254390465114,
+        "p": 0.9562938041963163,
+        "separated": true
+      },
+      "ent_Academic_researcher": {
+        "coef": 1.0247153023238524,
+        "se": 1.1270024373616145,
+        "p": 0.36322363861483287,
+        "separated": false
+      },
+      "ent_Industry_practitioner_technologist": {
+        "coef": -11.275586921846433,
+        "se": 233.3163536085009,
+        "p": 0.9614552696022584,
+        "separated": true
+      },
+      "ent_Student": {
+        "coef": 3.005795007489551,
+        "se": 1.9889314194440917,
+        "p": 0.13072189941311407,
+        "separated": false
+      },
+      "log_words": {
+        "coef": 0.7232919087968742,
+        "se": 0.2257659710537135,
+        "p": 0.001356623588472669,
+        "separated": false
+      },
+      "0/1": {
+        "coef": 5.535995662759396,
+        "se": 1.147453536404804,
+        "p": 1.4028983694804223e-06,
+        "separated": false
+      },
+      "1/2": {
+        "coef": 0.5176863362612609,
+        "se": 0.2338139416102478,
+        "p": 0.026822227693347564,
+        "separated": false
+      }
+    }
+  },
+  "po_lr_test": {
+    "lr": 7.606239300109593,
+    "df": 8,
+    "p": 0.47284680953592795,
+    "ordinal_ll": -69.3410057241877,
+    "multinomial_ll": -65.5378860741329
+  },
+  "var_order": [
+    "const",
+    "ent_Accountant_CPA",
+    "ent_Issuer_Corporate_\u2014_current",
+    "ent_Issuer_Corporate_\u2014_former",
+    "ent_Investment_professional",
+    "ent_Academic_researcher",
+    "ent_Industry_practitioner_technologist",
+    "ent_Student",
+    "log_words"
+  ],
+  "labels": {
+    "const": "Constant",
+    "log_words": "log(words+1)",
+    "ent_Accountant_CPA": "Accountant CPA",
+    "ent_Issuer_Corporate_\u2014_current": "Issuer-current",
+    "ent_Issuer_Corporate_\u2014_former": "Issuer-former",
+    "ent_Investment_professional": "Investment prof.",
+    "ent_Academic_researcher": "Academic",
+    "ent_Industry_practitioner_technologist": "Industry pract.",
+    "ent_Student": "Student"
+  }
+}
