@@ -6,10 +6,6 @@
     "name": "Anonymous, CPA, Corporate Accounting, Retail Investor",
     "role": "CPA, retail investor; Big 4 + Fortune 500 background",
     "entity": "Accountant (CPA)",
-    "entity_agreement": "majority",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Accountant (CPA)",
-    "entity_letterhead": "Accountant (CPA)",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -22,25 +18,6 @@
       "FR",
       "LE",
       "IP"
-    ],
-    "rationale_agreement": "split",
-    "rationales_primary": [
-      "LE",
-      "IP",
-      "IA",
-      "FR"
-    ],
-    "rationales_literalist": [
-      "LE",
-      "FR",
-      "IP"
-    ],
-    "rationales_inclusive": [
-      "LE",
-      "FR",
-      "IP",
-      "IA",
-      "AU"
     ]
   },
   {
@@ -50,10 +27,6 @@
     "name": "Fardeen Irani",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Support",
     "primary": "Support",
     "literalist": "Support",
@@ -66,26 +39,6 @@
       "ST",
       "OP",
       "ICs"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "CB",
-      "ST",
-      "OP",
-      "ICs"
-    ],
-    "rationales_literalist": [
-      "CB",
-      "ST",
-      "OP",
-      "ICs"
-    ],
-    "rationales_inclusive": [
-      "CB",
-      "ST",
-      "OP",
-      "ICs",
-      "MF"
     ]
   },
   {
@@ -95,10 +48,6 @@
     "name": "Anonymous",
     "role": "Individual; former large-bank employee",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Support",
     "primary": "Support",
     "literalist": "Oppose",
@@ -107,16 +56,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-770687-2360434.html",
     "words": 151,
     "rationales": [
-      "ST"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "ST"
-    ],
-    "rationales_literalist": [
-      "ST"
-    ],
-    "rationales_inclusive": [
       "ST"
     ]
   },
@@ -127,10 +66,6 @@
     "name": "Anonymous",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -139,16 +74,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-771067-2361035.html",
     "words": 11,
     "rationales": [
-      "NR"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "NR"
-    ],
-    "rationales_literalist": [
-      "NR"
-    ],
-    "rationales_inclusive": [
       "NR"
     ]
   },
@@ -159,10 +84,6 @@
     "name": "Arturo Zuniga",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -173,20 +94,6 @@
     "rationales": [
       "ICc",
       "IP"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "IP",
-      "ICc"
-    ],
-    "rationales_literalist": [
-      "ICc",
-      "IP"
-    ],
-    "rationales_inclusive": [
-      "ICc",
-      "IP",
-      "CB"
     ]
   },
   {
@@ -196,10 +103,6 @@
     "name": "Derek White",
     "role": "Individual investor; former hotel real-estate manager (sole-income from portfolio)",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -210,20 +113,6 @@
     "rationales": [
       "IA",
       "IP"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "IP",
-      "IA"
-    ],
-    "rationales_literalist": [
-      "IA",
-      "IP"
-    ],
-    "rationales_inclusive": [
-      "IA",
-      "IP",
-      "MF"
     ]
   },
   {
@@ -233,10 +122,6 @@
     "name": "Jason Couchman",
     "role": "ISC2 CISSP; IT/IS audit and assurance professional",
     "entity": "Industry practitioner / technologist",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Industry practitioner / technologist",
-    "entity_selfdescribed": "Industry practitioner / technologist",
-    "entity_letterhead": "Industry practitioner / technologist",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -248,23 +133,6 @@
       "AU",
       "EX",
       "CB"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "AU",
-      "EX",
-      "CB"
-    ],
-    "rationales_literalist": [
-      "AU",
-      "EX",
-      "CB"
-    ],
-    "rationales_inclusive": [
-      "AU",
-      "EX",
-      "CB",
-      "FR"
     ]
   },
   {
@@ -274,10 +142,6 @@
     "name": "Jeanne James",
     "role": "MBA Candidate, University of Oklahoma",
     "entity": "Student",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Student",
-    "entity_selfdescribed": "Student",
-    "entity_letterhead": "Student",
     "stance": "Support",
     "primary": "Support",
     "literalist": "Support",
@@ -286,18 +150,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-771107-2361077.html",
     "words": 31,
     "rationales": [
-      "ST",
-      "OP"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "ST",
-      "OP"
-    ],
-    "rationales_literalist": [
-      "ST"
-    ],
-    "rationales_inclusive": [
       "ST",
       "OP"
     ]
@@ -309,10 +161,6 @@
     "name": "L. Abott",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -324,22 +172,6 @@
       "FR",
       "CB",
       "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP",
-      "FR",
-      "CB"
-    ],
-    "rationales_literalist": [
-      "CB",
-      "FR",
-      "IP"
-    ],
-    "rationales_inclusive": [
-      "CB",
-      "FR",
-      "IP"
     ]
   },
   {
@@ -349,10 +181,6 @@
     "name": "Michael Gower, CPA",
     "role": "CPA",
     "entity": "Accountant (CPA)",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Accountant (CPA)",
-    "entity_selfdescribed": "Accountant (CPA)",
-    "entity_letterhead": "Accountant (CPA)",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -364,21 +192,6 @@
       "FR",
       "ST",
       "IP"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "IP",
-      "FR"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "FR",
-      "ST"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "FR",
-      "ST"
     ]
   },
   {
@@ -388,10 +201,6 @@
     "name": "REITup Advisers",
     "role": "Former CFO, CAO and partner at firm leading SEC reporting",
     "entity": "Issuer / Corporate \u2014 former",
-    "entity_agreement": "majority",
-    "entity_primary": "Industry practitioner / technologist",
-    "entity_selfdescribed": "Issuer / Corporate \u2014 former",
-    "entity_letterhead": "Issuer / Corporate \u2014 former",
     "stance": "Conditional",
     "primary": "Conditional",
     "literalist": "Oppose",
@@ -401,18 +210,6 @@
     "words": 331,
     "rationales": [
       "AL"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "AL"
-    ],
-    "rationales_literalist": [
-      "AL"
-    ],
-    "rationales_inclusive": [
-      "AL",
-      "CB",
-      "CMP"
     ]
   },
   {
@@ -422,10 +219,6 @@
     "name": "Roy Howard",
     "role": "Equity trader; former financial analyst",
     "entity": "Investment professional",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Investment professional",
-    "entity_selfdescribed": "Investment professional",
-    "entity_letterhead": "Investment professional",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -437,23 +230,6 @@
       "FR",
       "MF",
       "IP"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "FR",
-      "MF",
-      "IP"
-    ],
-    "rationales_literalist": [
-      "FR",
-      "MF",
-      "IP"
-    ],
-    "rationales_inclusive": [
-      "FR",
-      "MF",
-      "IP",
-      "RI"
     ]
   },
   {
@@ -463,10 +239,6 @@
     "name": "Skyler Mathis",
     "role": "Texas CPA, Financial Reporting Manager at Par Pacific Holdings",
     "entity": "Issuer / Corporate \u2014 current",
-    "entity_agreement": "majority",
-    "entity_primary": "Issuer / Corporate \u2014 current",
-    "entity_selfdescribed": "Accountant (CPA)",
-    "entity_letterhead": "Issuer / Corporate \u2014 current",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -477,21 +249,6 @@
     "rationales": [
       "AU",
       "IP"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "IP",
-      "AU"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "AU"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "AU",
-      "CMP",
-      "CB"
     ]
   },
   {
@@ -501,10 +258,6 @@
     "name": "Stephen Bainbridge",
     "role": "William D. Warren Distinguished Professor of Law, UCLA School of Law (individual capacity)",
     "entity": "Academic researcher",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Academic researcher",
-    "entity_selfdescribed": "Academic researcher",
-    "entity_letterhead": "Academic researcher",
     "stance": "Support",
     "primary": "Support",
     "literalist": "Support",
@@ -525,43 +278,6 @@
       "ICs",
       "AL",
       "LE"
-    ],
-    "rationale_agreement": "split",
-    "rationales_primary": [
-      "ST",
-      "CB",
-      "OP",
-      "ICs",
-      "EX"
-    ],
-    "rationales_literalist": [
-      "CB",
-      "ST",
-      "OP",
-      "ICs",
-      "MF",
-      "CMP",
-      "FR",
-      "IA",
-      "LE",
-      "OV",
-      "AL"
-    ],
-    "rationales_inclusive": [
-      "CB",
-      "ST",
-      "OP",
-      "ICs",
-      "MF",
-      "CMP",
-      "FR",
-      "IA",
-      "LE",
-      "OV",
-      "AL",
-      "SG",
-      "EX",
-      "RI"
     ]
   },
   {
@@ -571,10 +287,6 @@
     "name": "Aidan",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -586,23 +298,6 @@
       "IA",
       "FR",
       "IP"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "IP",
-      "IA",
-      "FR"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "IA",
-      "FR"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "IA",
-      "FR",
-      "EX"
     ]
   },
   {
@@ -612,10 +307,6 @@
     "name": "Anonymous",
     "role": "Individual (anonymous)",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -624,19 +315,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768988-2357774.html",
     "words": 54,
     "rationales": [
-      "IA",
-      "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IA",
-      "IP"
-    ],
-    "rationales_literalist": [
-      "IA",
-      "IP"
-    ],
-    "rationales_inclusive": [
       "IA",
       "IP"
     ]
@@ -648,10 +326,6 @@
     "name": "Anonymous",
     "role": "Individual (anonymous)",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Conditional",
     "primary": "Conditional",
     "literalist": "Conditional",
@@ -662,21 +336,6 @@
     "rationales": [
       "AU",
       "AL"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "AL",
-      "AU"
-    ],
-    "rationales_literalist": [
-      "AL",
-      "AU"
-    ],
-    "rationales_inclusive": [
-      "AL",
-      "AU",
-      "IP",
-      "CMP"
     ]
   },
   {
@@ -686,10 +345,6 @@
     "name": "Anonymous",
     "role": "Individual (anonymous)",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -698,16 +353,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769527-2358714.html",
     "words": 78,
     "rationales": [
-      "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP"
-    ],
-    "rationales_literalist": [
-      "IP"
-    ],
-    "rationales_inclusive": [
       "IP"
     ]
   },
@@ -718,10 +363,6 @@
     "name": "Chris Ridder",
     "role": "Investment firm (uses quarterly reports for analysis)",
     "entity": "Investment professional",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Investment professional",
-    "entity_selfdescribed": "Investment professional",
-    "entity_letterhead": "Investment professional",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -730,16 +371,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2359154.htm",
     "words": 41,
     "rationales": [
-      "RI"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "RI"
-    ],
-    "rationales_literalist": [
-      "RI"
-    ],
-    "rationales_inclusive": [
       "RI"
     ]
   },
@@ -750,10 +381,6 @@
     "name": "Conor M.",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -764,19 +391,6 @@
     "rationales": [
       "FR",
       "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP",
-      "FR"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "FR"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "FR"
     ]
   },
   {
@@ -786,10 +400,6 @@
     "name": "Dakshesh Patel",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Conditional",
     "primary": "Conditional",
     "literalist": "Conditional",
@@ -799,17 +409,6 @@
     "words": 107,
     "rationales": [
       "AL"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "AL"
-    ],
-    "rationales_literalist": [
-      "AL"
-    ],
-    "rationales_inclusive": [
-      "AL",
-      "MF"
     ]
   },
   {
@@ -819,10 +418,6 @@
     "name": "Daniel Gopalan, CPA",
     "role": "CPA",
     "entity": "Accountant (CPA)",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Accountant (CPA)",
-    "entity_selfdescribed": "Accountant (CPA)",
-    "entity_letterhead": "Accountant (CPA)",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -833,19 +428,6 @@
     "rationales": [
       "FR",
       "MF"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "MF",
-      "FR"
-    ],
-    "rationales_literalist": [
-      "MF",
-      "FR"
-    ],
-    "rationales_inclusive": [
-      "MF",
-      "FR"
     ]
   },
   {
@@ -855,10 +437,6 @@
     "name": "Daniel O'Donnell",
     "role": "Retired, Former Strategic Planning Executive",
     "entity": "Issuer / Corporate \u2014 former",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Issuer / Corporate \u2014 former",
-    "entity_selfdescribed": "Issuer / Corporate \u2014 former",
-    "entity_letterhead": "Issuer / Corporate \u2014 former",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -869,18 +447,6 @@
     "rationales": [
       "FR",
       "IP"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "IP"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "FR"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "FR"
     ]
   },
   {
@@ -890,10 +456,6 @@
     "name": "Eugene Stranch",
     "role": "Private Investor",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -902,16 +464,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769887-2359114.html",
     "words": 35,
     "rationales": [
-      "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP"
-    ],
-    "rationales_literalist": [
-      "IP"
-    ],
-    "rationales_inclusive": [
       "IP"
     ]
   },
@@ -922,10 +474,6 @@
     "name": "Isaiah Owolabi",
     "role": "Founder and CEO, ESGine; LL.M. (FinTech Law & Regulation); Originator, ESG-as-Code",
     "entity": "Issuer / Corporate \u2014 current",
-    "entity_agreement": "majority",
-    "entity_primary": "Industry practitioner / technologist",
-    "entity_selfdescribed": "Issuer / Corporate \u2014 current",
-    "entity_letterhead": "Issuer / Corporate \u2014 current",
     "stance": "Conditional",
     "primary": "Support",
     "literalist": "Conditional",
@@ -935,18 +483,6 @@
     "words": 500,
     "rationales": [
       "OP"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "OP"
-    ],
-    "rationales_literalist": [
-      "OP"
-    ],
-    "rationales_inclusive": [
-      "OP",
-      "CB",
-      "AL"
     ]
   },
   {
@@ -956,10 +492,6 @@
     "name": "J R",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -973,29 +505,6 @@
       "AU",
       "IP",
       "US"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "IP",
-      "IA",
-      "AU",
-      "MF",
-      "US"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "IA",
-      "AU",
-      "MF",
-      "US"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "IA",
-      "AU",
-      "MF",
-      "US",
-      "CMP"
     ]
   },
   {
@@ -1005,10 +514,6 @@
     "name": "Jack Pieper",
     "role": "Retail investor",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Conditional",
     "primary": "Conditional",
     "literalist": "Oppose",
@@ -1019,20 +524,6 @@
     "rationales": [
       "AL",
       "IP"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "AL",
-      "IP"
-    ],
-    "rationales_literalist": [
-      "AL",
-      "IP"
-    ],
-    "rationales_inclusive": [
-      "AL",
-      "IP",
-      "AU"
     ]
   },
   {
@@ -1042,10 +533,6 @@
     "name": "James Hastings",
     "role": "Small investor",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -1054,16 +541,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2359155.htm",
     "words": 83,
     "rationales": [
-      "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP"
-    ],
-    "rationales_literalist": [
-      "IP"
-    ],
-    "rationales_inclusive": [
       "IP"
     ]
   },
@@ -1074,10 +551,6 @@
     "name": "Jennifer R",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -1091,29 +564,6 @@
       "EX",
       "CMP",
       "IP"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "IP",
-      "IA",
-      "FR",
-      "CMP",
-      "EX"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "IA",
-      "FR",
-      "CMP",
-      "EX"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "IA",
-      "FR",
-      "CMP",
-      "EX",
-      "AU"
     ]
   },
   {
@@ -1123,10 +573,6 @@
     "name": "Jennifer Robespierre",
     "role": "Financial Advisor",
     "entity": "Investment professional",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Investment professional",
-    "entity_selfdescribed": "Investment professional",
-    "entity_letterhead": "Investment professional",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -1136,17 +582,6 @@
     "words": 214,
     "rationales": [
       "RI"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "RI"
-    ],
-    "rationales_literalist": [
-      "RI"
-    ],
-    "rationales_inclusive": [
-      "RI",
-      "IP"
     ]
   },
   {
@@ -1156,10 +591,6 @@
     "name": "Joseph Adair",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -1168,16 +599,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-770007-2359234.html",
     "words": 90,
     "rationales": [
-      "IA"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IA"
-    ],
-    "rationales_literalist": [
-      "IA"
-    ],
-    "rationales_inclusive": [
       "IA"
     ]
   },
@@ -1188,10 +609,6 @@
     "name": "Joshua Maddox, CPA",
     "role": "CPA",
     "entity": "Accountant (CPA)",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Accountant (CPA)",
-    "entity_selfdescribed": "Accountant (CPA)",
-    "entity_letterhead": "Accountant (CPA)",
     "stance": "Conditional",
     "primary": "Support",
     "literalist": "Conditional",
@@ -1202,19 +619,6 @@
     "rationales": [
       "CB",
       "AL"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "AL",
-      "CB"
-    ],
-    "rationales_literalist": [
-      "AL",
-      "CB"
-    ],
-    "rationales_inclusive": [
-      "AL",
-      "CB"
     ]
   },
   {
@@ -1224,10 +628,6 @@
     "name": "Kent Slocum",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -1236,16 +636,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769291-2358334.html",
     "words": 72,
     "rationales": [
-      "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP"
-    ],
-    "rationales_literalist": [
-      "IP"
-    ],
-    "rationales_inclusive": [
       "IP"
     ]
   },
@@ -1256,10 +646,6 @@
     "name": "Lee Michael Tomko",
     "role": "Individual (uses the information)",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -1268,18 +654,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769367-2358454.html",
     "words": 36,
     "rationales": [
-      "IP",
-      "RI"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "IP"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "RI"
-    ],
-    "rationales_inclusive": [
       "IP",
       "RI"
     ]
@@ -1291,10 +665,6 @@
     "name": "Manish D",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -1305,20 +675,6 @@
     "rationales": [
       "MF",
       "US"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "US",
-      "MF"
-    ],
-    "rationales_literalist": [
-      "MF",
-      "US"
-    ],
-    "rationales_inclusive": [
-      "MF",
-      "US",
-      "ST"
     ]
   },
   {
@@ -1328,10 +684,6 @@
     "name": "Matthew Truty",
     "role": "Individual investor and compliance professional",
     "entity": "Industry practitioner / technologist",
-    "entity_agreement": "majority",
-    "entity_primary": "Industry practitioner / technologist",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Industry practitioner / technologist",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -1342,19 +694,6 @@
     "rationales": [
       "FR",
       "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP",
-      "FR"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "FR"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "FR"
     ]
   },
   {
@@ -1364,10 +703,6 @@
     "name": "Mike Sumrow",
     "role": "Private investor",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -1378,19 +713,6 @@
     "rationales": [
       "CB",
       "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP",
-      "CB"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "CB"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "CB"
     ]
   },
   {
@@ -1400,10 +722,6 @@
     "name": "Morten Hansen",
     "role": "Software developer (financial transparency infrastructure), Tampere, Finland",
     "entity": "Industry practitioner / technologist",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Industry practitioner / technologist",
-    "entity_selfdescribed": "Industry practitioner / technologist",
-    "entity_letterhead": "Industry practitioner / technologist",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -1416,26 +734,6 @@
       "MF",
       "ICc",
       "CB"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "CB",
-      "IA",
-      "MF",
-      "ICc"
-    ],
-    "rationales_literalist": [
-      "CB",
-      "IA",
-      "MF",
-      "ICc"
-    ],
-    "rationales_inclusive": [
-      "CB",
-      "IA",
-      "MF",
-      "ICc",
-      "EX"
     ]
   },
   {
@@ -1445,10 +743,6 @@
     "name": "Neil P. Osnato",
     "role": "Individual (sector-focused commenter)",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Conditional",
     "primary": "Conditional",
     "literalist": "Oppose",
@@ -1459,20 +753,6 @@
     "rationales": [
       "MF",
       "AL"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "MF",
-      "AL"
-    ],
-    "rationales_literalist": [
-      "MF",
-      "AL"
-    ],
-    "rationales_inclusive": [
-      "MF",
-      "AL",
-      "IP"
     ]
   },
   {
@@ -1482,10 +762,6 @@
     "name": "Omer Yousif, PhD",
     "role": "Academic (PhD)",
     "entity": "Academic researcher",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Academic researcher",
-    "entity_selfdescribed": "Academic researcher",
-    "entity_letterhead": "Academic researcher",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -1502,37 +778,6 @@
       "ST",
       "IP",
       "US"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP",
-      "MF",
-      "IA",
-      "FR",
-      "CB",
-      "CMP",
-      "ST",
-      "US"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "MF",
-      "IA",
-      "FR",
-      "CB",
-      "CMP",
-      "ST",
-      "US"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "MF",
-      "IA",
-      "FR",
-      "CB",
-      "CMP",
-      "ST",
-      "US"
     ]
   },
   {
@@ -1542,10 +787,6 @@
     "name": "Oscar L. Perez",
     "role": "Retail investor",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -1556,18 +797,6 @@
     "rationales": [
       "ST",
       "IP"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "IP"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "ST"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "ST"
     ]
   },
   {
@@ -1577,10 +806,6 @@
     "name": "Patricia Joseph",
     "role": "Former Fortune 500 senior management (ops and finance)",
     "entity": "Issuer / Corporate \u2014 former",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Issuer / Corporate \u2014 former",
-    "entity_selfdescribed": "Issuer / Corporate \u2014 former",
-    "entity_letterhead": "Issuer / Corporate \u2014 former",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -1591,19 +816,6 @@
     "rationales": [
       "ST",
       "IP"
-    ],
-    "rationale_agreement": "split",
-    "rationales_primary": [
-      "IP",
-      "ST"
-    ],
-    "rationales_literalist": [
-      "ST"
-    ],
-    "rationales_inclusive": [
-      "ST",
-      "IP",
-      "AU"
     ]
   },
   {
@@ -1613,10 +825,6 @@
     "name": "Steven A. Collazo",
     "role": "BBA Student at UPR Cayey; Individual Investor",
     "entity": "Student",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Student",
-    "entity_selfdescribed": "Student",
-    "entity_letterhead": "Student",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -1628,22 +836,6 @@
       "FR",
       "IP",
       "US"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP",
-      "FR",
-      "US"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "FR",
-      "US"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "FR",
-      "US"
     ]
   },
   {
@@ -1653,10 +845,6 @@
     "name": "Tan Banh",
     "role": "Retail investor",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -1668,22 +856,6 @@
       "IA",
       "FR",
       "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IA",
-      "IP",
-      "FR"
-    ],
-    "rationales_literalist": [
-      "IA",
-      "IP",
-      "FR"
-    ],
-    "rationales_inclusive": [
-      "IA",
-      "IP",
-      "FR"
     ]
   },
   {
@@ -1693,10 +865,6 @@
     "name": "Thomas M. Stoops",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -1705,16 +873,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-769428-2358575.html",
     "words": 53,
     "rationales": [
-      "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP"
-    ],
-    "rationales_literalist": [
-      "IP"
-    ],
-    "rationales_inclusive": [
       "IP"
     ]
   },
@@ -1725,10 +883,6 @@
     "name": "Udayan J. Parikh",
     "role": "Retail investor",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Conditional",
     "primary": "Conditional",
     "literalist": "Oppose",
@@ -1739,20 +893,6 @@
     "rationales": [
       "AL",
       "IP"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "AL",
-      "IP"
-    ],
-    "rationales_literalist": [
-      "AL",
-      "IP"
-    ],
-    "rationales_inclusive": [
-      "AL",
-      "IP",
-      "CB"
     ]
   },
   {
@@ -1762,10 +902,6 @@
     "name": "Adam",
     "role": "Technical Program Manager, AI & Clinical Technology MBA",
     "entity": "Industry practitioner / technologist",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Industry practitioner / technologist",
-    "entity_selfdescribed": "Industry practitioner / technologist",
-    "entity_letterhead": "Industry practitioner / technologist",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -1779,28 +915,6 @@
       "EX",
       "CB",
       "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP",
-      "MF",
-      "EX",
-      "CB",
-      "FR"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "MF",
-      "EX",
-      "FR",
-      "CB"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "MF",
-      "EX",
-      "FR",
-      "CB"
     ]
   },
   {
@@ -1810,10 +924,6 @@
     "name": "Andrew Neumeier",
     "role": "Individual investor (with spouse)",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -1822,19 +932,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768567-2357154.html",
     "words": 251,
     "rationales": [
-      "IP",
-      "RI"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP",
-      "RI"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "RI"
-    ],
-    "rationales_inclusive": [
       "IP",
       "RI"
     ]
@@ -1846,10 +943,6 @@
     "name": "Andy Black",
     "role": "Investor",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -1863,25 +956,6 @@
       "ST",
       "IP",
       "US"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "IP",
-      "IA"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "IA",
-      "MF",
-      "ST",
-      "US"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "IA",
-      "MF",
-      "ST",
-      "US"
     ]
   },
   {
@@ -1891,10 +965,6 @@
     "name": "Anonymous",
     "role": "Individual (anonymous)",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -1903,16 +973,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768467-2357074.html",
     "words": 78,
     "rationales": [
-      "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP"
-    ],
-    "rationales_literalist": [
-      "IP"
-    ],
-    "rationales_inclusive": [
       "IP"
     ]
   },
@@ -1923,10 +983,6 @@
     "name": "Anonymous, Individual Investor",
     "role": "Individual Investor",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -1937,19 +993,6 @@
     "rationales": [
       "FR",
       "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP",
-      "FR"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "FR"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "FR"
     ]
   },
   {
@@ -1959,10 +1002,6 @@
     "name": "Bill Korn",
     "role": "Board Member and Audit Chair, Jerash Holdings (US) Inc.; Board Member and former CFO of CareCloud, Inc.",
     "entity": "Issuer / Corporate \u2014 current",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Issuer / Corporate \u2014 current",
-    "entity_selfdescribed": "Issuer / Corporate \u2014 current",
-    "entity_letterhead": "Issuer / Corporate \u2014 current",
     "stance": "Conditional",
     "primary": "Conditional",
     "literalist": "Oppose",
@@ -1972,17 +1011,6 @@
     "words": 110,
     "rationales": [
       "AL"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "AL"
-    ],
-    "rationales_literalist": [
-      "AL"
-    ],
-    "rationales_inclusive": [
-      "AL",
-      "IP"
     ]
   },
   {
@@ -1992,10 +1020,6 @@
     "name": "CH Young",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -2007,23 +1031,6 @@
       "IA",
       "ICc",
       "US"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "ICc",
-      "IA",
-      "US"
-    ],
-    "rationales_literalist": [
-      "ICc",
-      "IA",
-      "US"
-    ],
-    "rationales_inclusive": [
-      "ICc",
-      "IA",
-      "US",
-      "IP"
     ]
   },
   {
@@ -2033,10 +1040,6 @@
     "name": "Chris Curnan",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -2047,20 +1050,6 @@
     "rationales": [
       "IP",
       "US"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "IP",
-      "US"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "US"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "US",
-      "IA"
     ]
   },
   {
@@ -2070,10 +1059,6 @@
     "name": "Daniel Plowman",
     "role": "Individual investor",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Support",
     "primary": "Support",
     "literalist": "Support",
@@ -2084,20 +1069,6 @@
     "rationales": [
       "ST",
       "OP"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "ST",
-      "OP"
-    ],
-    "rationales_literalist": [
-      "ST",
-      "OP"
-    ],
-    "rationales_inclusive": [
-      "ST",
-      "OP",
-      "FR"
     ]
   },
   {
@@ -2107,10 +1078,6 @@
     "name": "David Bach",
     "role": "Bach Financial Literacy Consulting",
     "entity": "Industry practitioner / technologist",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Industry practitioner / technologist",
-    "entity_selfdescribed": "Industry practitioner / technologist",
-    "entity_letterhead": "Industry practitioner / technologist",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -2119,19 +1086,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768147-2356714.html",
     "words": 67,
     "rationales": [
-      "MF",
-      "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "MF",
-      "IP"
-    ],
-    "rationales_literalist": [
-      "MF",
-      "IP"
-    ],
-    "rationales_inclusive": [
       "MF",
       "IP"
     ]
@@ -2143,10 +1097,6 @@
     "name": "Erik Swanson",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -2159,25 +1109,6 @@
       "MF",
       "IP",
       "US"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP",
-      "IA",
-      "MF",
-      "US"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "IA",
-      "MF",
-      "US"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "IA",
-      "MF",
-      "US"
     ]
   },
   {
@@ -2187,10 +1118,6 @@
     "name": "Henggao Cai",
     "role": "Individual investor and member of the public",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -2205,33 +1132,6 @@
       "EX",
       "ST",
       "IP"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "IP",
-      "ICc",
-      "MF",
-      "IA",
-      "EX",
-      "ST"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "ICc",
-      "MF",
-      "IA",
-      "EX",
-      "ST"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "ICc",
-      "MF",
-      "IA",
-      "EX",
-      "ST",
-      "CMP",
-      "RI"
     ]
   },
   {
@@ -2241,10 +1141,6 @@
     "name": "Jeremiah Schuur",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -2257,25 +1153,6 @@
       "MF",
       "IP",
       "US"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "US",
-      "IP",
-      "IA",
-      "MF"
-    ],
-    "rationales_literalist": [
-      "US",
-      "IP",
-      "IA",
-      "MF"
-    ],
-    "rationales_inclusive": [
-      "US",
-      "IP",
-      "IA",
-      "MF"
     ]
   },
   {
@@ -2285,10 +1162,6 @@
     "name": "Joe Beverly",
     "role": "Former Business Owner; current investor in publicly owned securities",
     "entity": "Issuer / Corporate \u2014 former",
-    "entity_agreement": "majority",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Issuer / Corporate \u2014 former",
-    "entity_letterhead": "Issuer / Corporate \u2014 former",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -2297,19 +1170,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768807-2357454.html",
     "words": 83,
     "rationales": [
-      "CB",
-      "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "CB",
-      "IP"
-    ],
-    "rationales_literalist": [
-      "CB",
-      "IP"
-    ],
-    "rationales_inclusive": [
       "CB",
       "IP"
     ]
@@ -2321,10 +1181,6 @@
     "name": "John Boyar, CPA",
     "role": "CPA",
     "entity": "Accountant (CPA)",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Accountant (CPA)",
-    "entity_selfdescribed": "Accountant (CPA)",
-    "entity_letterhead": "Accountant (CPA)",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -2333,16 +1189,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768887-2357594.html",
     "words": 35,
     "rationales": [
-      "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP"
-    ],
-    "rationales_literalist": [
-      "IP"
-    ],
-    "rationales_inclusive": [
       "IP"
     ]
   },
@@ -2353,10 +1199,6 @@
     "name": "John Cheppo",
     "role": "Retired (decades in companies)",
     "entity": "Issuer / Corporate \u2014 former",
-    "entity_agreement": "majority",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Issuer / Corporate \u2014 former",
-    "entity_letterhead": "Issuer / Corporate \u2014 former",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -2367,19 +1209,6 @@
     "rationales": [
       "ST",
       "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP",
-      "ST"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "ST"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "ST"
     ]
   },
   {
@@ -2389,10 +1218,6 @@
     "name": "John Flynn Jr.",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -2406,28 +1231,6 @@
       "ST",
       "IP",
       "US"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IA",
-      "IP",
-      "MF",
-      "US",
-      "ST"
-    ],
-    "rationales_literalist": [
-      "IA",
-      "IP",
-      "MF",
-      "US",
-      "ST"
-    ],
-    "rationales_inclusive": [
-      "IA",
-      "IP",
-      "MF",
-      "US",
-      "ST"
     ]
   },
   {
@@ -2437,10 +1240,6 @@
     "name": "Jose G. Martinez",
     "role": "Private Investor",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -2449,16 +1248,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768727-2357314.html",
     "words": 68,
     "rationales": [
-      "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP"
-    ],
-    "rationales_literalist": [
-      "IP"
-    ],
-    "rationales_inclusive": [
       "IP"
     ]
   },
@@ -2469,10 +1258,6 @@
     "name": "Ken Stack",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Conditional",
     "primary": "Conditional",
     "literalist": "Oppose",
@@ -2483,20 +1268,6 @@
     "rationales": [
       "AL",
       "IP"
-    ],
-    "rationale_agreement": "split",
-    "rationales_primary": [
-      "AL"
-    ],
-    "rationales_literalist": [
-      "AL",
-      "IP"
-    ],
-    "rationales_inclusive": [
-      "AL",
-      "IP",
-      "CB",
-      "FR"
     ]
   },
   {
@@ -2506,10 +1277,6 @@
     "name": "Lora Jones",
     "role": "CFO, National Bankshares, Inc.",
     "entity": "Issuer / Corporate \u2014 current",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Issuer / Corporate \u2014 current",
-    "entity_selfdescribed": "Issuer / Corporate \u2014 current",
-    "entity_letterhead": "Issuer / Corporate \u2014 current",
     "stance": "Support",
     "primary": "Support",
     "literalist": "Support",
@@ -2519,17 +1286,6 @@
     "words": 38,
     "rationales": [
       "OP"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "OP"
-    ],
-    "rationales_literalist": [
-      "OP"
-    ],
-    "rationales_inclusive": [
-      "OP",
-      "CB"
     ]
   },
   {
@@ -2539,10 +1295,6 @@
     "name": "Mark Hyman, CPA",
     "role": "CPA; investor",
     "entity": "Accountant (CPA)",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Accountant (CPA)",
-    "entity_selfdescribed": "Accountant (CPA)",
-    "entity_letterhead": "Accountant (CPA)",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -2552,17 +1304,6 @@
     "words": 50,
     "rationales": [
       "IP"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "IP"
-    ],
-    "rationales_literalist": [
-      "IP"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "AU"
     ]
   },
   {
@@ -2572,10 +1313,6 @@
     "name": "Mark Patterson",
     "role": "Retail trader",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -2584,16 +1321,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2356674.htm",
     "words": 28,
     "rationales": [
-      "RI"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "RI"
-    ],
-    "rationales_literalist": [
-      "RI"
-    ],
-    "rationales_inclusive": [
       "RI"
     ]
   },
@@ -2604,10 +1331,6 @@
     "name": "Marly Reese",
     "role": "Investor & CPA",
     "entity": "Accountant (CPA)",
-    "entity_agreement": "majority",
-    "entity_primary": "Accountant (CPA)",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Accountant (CPA)",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -2616,16 +1339,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-767967-2356454.html",
     "words": 34,
     "rationales": [
-      "IA"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IA"
-    ],
-    "rationales_literalist": [
-      "IA"
-    ],
-    "rationales_inclusive": [
       "IA"
     ]
   },
@@ -2636,10 +1349,6 @@
     "name": "Michael Shore",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -2648,19 +1357,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768487-2357094.html",
     "words": 107,
     "rationales": [
-      "FR",
-      "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "FR",
-      "IP"
-    ],
-    "rationales_literalist": [
-      "FR",
-      "IP"
-    ],
-    "rationales_inclusive": [
       "FR",
       "IP"
     ]
@@ -2672,10 +1368,6 @@
     "name": "Peter Cwik",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -2686,17 +1378,6 @@
     "rationales": [
       "IP",
       "NR"
-    ],
-    "rationale_agreement": "split",
-    "rationales_primary": [
-      "IP",
-      "NR"
-    ],
-    "rationales_literalist": [
-      "NR"
-    ],
-    "rationales_inclusive": [
-      "IP"
     ]
   },
   {
@@ -2706,10 +1387,6 @@
     "name": "Peter Ford",
     "role": "Investment professional / advisor",
     "entity": "Investment professional",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Investment professional",
-    "entity_selfdescribed": "Investment professional",
-    "entity_letterhead": "Investment professional",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -2722,26 +1399,6 @@
       "EX",
       "IP",
       "RI"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "MF",
-      "IP",
-      "RI",
-      "EX"
-    ],
-    "rationales_literalist": [
-      "MF",
-      "IP",
-      "RI",
-      "EX"
-    ],
-    "rationales_inclusive": [
-      "MF",
-      "IP",
-      "RI",
-      "EX",
-      "IA"
     ]
   },
   {
@@ -2751,10 +1408,6 @@
     "name": "Ronney Davis",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -2764,16 +1417,6 @@
     "words": 20,
     "rationales": [
       "NR"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "NR"
-    ],
-    "rationales_literalist": [
-      "NR"
-    ],
-    "rationales_inclusive": [
-      "IP"
     ]
   },
   {
@@ -2783,10 +1426,6 @@
     "name": "Sig Hardester",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -2796,17 +1435,6 @@
     "words": 47,
     "rationales": [
       "IA"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "IA"
-    ],
-    "rationales_literalist": [
-      "IA"
-    ],
-    "rationales_inclusive": [
-      "IA",
-      "IP"
     ]
   },
   {
@@ -2816,10 +1444,6 @@
     "name": "Susan Davis",
     "role": "Investor",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -2828,16 +1452,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768407-2356975.html",
     "words": 76,
     "rationales": [
-      "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP"
-    ],
-    "rationales_literalist": [
-      "IP"
-    ],
-    "rationales_inclusive": [
       "IP"
     ]
   },
@@ -2848,10 +1462,6 @@
     "name": "Thomas Lupinacci, Sr.",
     "role": "Individual Investor",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Conditional",
     "primary": "Conditional",
     "literalist": "Oppose",
@@ -2860,19 +1470,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2356614.htm",
     "words": 93,
     "rationales": [
-      "AL",
-      "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "AL",
-      "IP"
-    ],
-    "rationales_literalist": [
-      "AL",
-      "IP"
-    ],
-    "rationales_inclusive": [
       "AL",
       "IP"
     ]
@@ -2884,10 +1481,6 @@
     "name": "Vincent Jansen",
     "role": "Artificial Alpha Investments (small independent RIA)",
     "entity": "Investment professional",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Investment professional",
-    "entity_selfdescribed": "Investment professional",
-    "entity_letterhead": "Investment professional",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -2898,20 +1491,6 @@
     "rationales": [
       "MF",
       "RI"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "MF",
-      "RI"
-    ],
-    "rationales_literalist": [
-      "MF",
-      "RI"
-    ],
-    "rationales_inclusive": [
-      "MF",
-      "RI",
-      "IA"
     ]
   },
   {
@@ -2921,10 +1500,6 @@
     "name": "Diane Aaby",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -2933,16 +1508,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-771907-2362654.html",
     "words": 2,
     "rationales": [
-      "NR"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "NR"
-    ],
-    "rationales_literalist": [
-      "NR"
-    ],
-    "rationales_inclusive": [
       "NR"
     ]
   },
@@ -2953,10 +1518,6 @@
     "name": "Anonymous",
     "role": "Individual (anonymous)",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -2969,26 +1530,6 @@
       "AU",
       "CMP",
       "IP"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "IP",
-      "CMP",
-      "IA",
-      "AU"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "CMP",
-      "IA",
-      "AU"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "CMP",
-      "IA",
-      "AU",
-      "MF"
     ]
   },
   {
@@ -2998,10 +1539,6 @@
     "name": "Bayo Olabisi",
     "role": "University of Pennsylvania Wharton School Alumni",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -3014,26 +1551,6 @@
       "CMP",
       "IP",
       "US"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "US",
-      "FR",
-      "CMP",
-      "IP"
-    ],
-    "rationales_literalist": [
-      "US",
-      "FR",
-      "CMP",
-      "IP"
-    ],
-    "rationales_inclusive": [
-      "US",
-      "FR",
-      "CMP",
-      "IP",
-      "MF"
     ]
   },
   {
@@ -3043,10 +1560,6 @@
     "name": "Marc Steinberg",
     "role": "Radford Chair in Law and Professor of Law, SMU Dedman School of Law; former SEC attorney (Division of Enforcement and Of",
     "entity": "Academic researcher",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Academic researcher",
-    "entity_selfdescribed": "Academic researcher",
-    "entity_letterhead": "Academic researcher",
     "stance": "Conditional",
     "primary": "Conditional",
     "literalist": "Oppose",
@@ -3058,21 +1571,6 @@
       "AL",
       "LE",
       "IP"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "AL",
-      "IP"
-    ],
-    "rationales_literalist": [
-      "AL",
-      "IP",
-      "LE"
-    ],
-    "rationales_inclusive": [
-      "AL",
-      "IP",
-      "LE"
     ]
   },
   {
@@ -3082,10 +1580,6 @@
     "name": "Mike Dattilo",
     "role": "Senior Financial Manager, FP&A, NBCUniversal",
     "entity": "Issuer / Corporate \u2014 current",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Issuer / Corporate \u2014 current",
-    "entity_selfdescribed": "Issuer / Corporate \u2014 current",
-    "entity_letterhead": "Issuer / Corporate \u2014 current",
     "stance": "Conditional",
     "primary": "Conditional",
     "literalist": "Oppose",
@@ -3094,22 +1588,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-772307-2363854.html",
     "words": 256,
     "rationales": [
-      "AL",
-      "IP",
-      "US"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "AL",
-      "IP",
-      "US"
-    ],
-    "rationales_literalist": [
-      "AL",
-      "IP",
-      "US"
-    ],
-    "rationales_inclusive": [
       "AL",
       "IP",
       "US"
@@ -3122,10 +1600,6 @@
     "name": "Vladimir Samarin",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -3134,16 +1608,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-772407-2364054.html",
     "words": 23,
     "rationales": [
-      "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP"
-    ],
-    "rationales_literalist": [
-      "IP"
-    ],
-    "rationales_inclusive": [
       "IP"
     ]
   },
@@ -3154,10 +1618,6 @@
     "name": "Adam Sawyers",
     "role": "CEO, Rito Labs",
     "entity": "Issuer / Corporate \u2014 current",
-    "entity_agreement": "majority",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Issuer / Corporate \u2014 current",
-    "entity_letterhead": "Issuer / Corporate \u2014 current",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -3168,19 +1628,6 @@
     "rationales": [
       "LE",
       "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP",
-      "LE"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "LE"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "LE"
     ]
   },
   {
@@ -3190,10 +1637,6 @@
     "name": "Anonymous",
     "role": "Individual (anonymous)",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -3202,19 +1645,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-772607-2364376.html",
     "words": 125,
     "rationales": [
-      "FR",
-      "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "FR",
-      "IP"
-    ],
-    "rationales_literalist": [
-      "FR",
-      "IP"
-    ],
-    "rationales_inclusive": [
       "FR",
       "IP"
     ]
@@ -3226,10 +1656,6 @@
     "name": "Anthony Sirica",
     "role": "CPA and investor (AAPL, NVDA, BXSL, ARES, JPM, MOB, etc.)",
     "entity": "Accountant (CPA)",
-    "entity_agreement": "majority",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Accountant (CPA)",
-    "entity_letterhead": "Accountant (CPA)",
     "stance": "Conditional",
     "primary": "Conditional",
     "literalist": "Conditional",
@@ -3239,18 +1665,6 @@
     "words": 116,
     "rationales": [
       "AL"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "AL"
-    ],
-    "rationales_literalist": [
-      "AL"
-    ],
-    "rationales_inclusive": [
-      "AL",
-      "CB",
-      "OP"
     ]
   },
   {
@@ -3260,10 +1674,6 @@
     "name": "Michael Mosquera",
     "role": "Private investor (more than half a lifetime)",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Conditional",
     "primary": "Conditional",
     "literalist": "Oppose",
@@ -3274,20 +1684,6 @@
     "rationales": [
       "ST",
       "AL"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "AL",
-      "ST"
-    ],
-    "rationales_literalist": [
-      "AL",
-      "ST"
-    ],
-    "rationales_inclusive": [
-      "AL",
-      "ST",
-      "FR"
     ]
   },
   {
@@ -3297,10 +1693,6 @@
     "name": "Alex Matache",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -3311,20 +1703,6 @@
     "rationales": [
       "FR",
       "IP"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "IP",
-      "FR"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "FR"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "FR",
-      "US"
     ]
   },
   {
@@ -3334,10 +1712,6 @@
     "name": "Benjamin Esper",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -3346,19 +1720,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-773867-2366736.html",
     "words": 84,
     "rationales": [
-      "FR",
-      "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "FR",
-      "IP"
-    ],
-    "rationales_literalist": [
-      "FR",
-      "IP"
-    ],
-    "rationales_inclusive": [
       "FR",
       "IP"
     ]
@@ -3370,10 +1731,6 @@
     "name": "Blake Webb",
     "role": "Retail investor",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -3384,20 +1741,6 @@
     "rationales": [
       "MF",
       "IP"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "IP",
-      "MF"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "MF"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "MF",
-      "IA"
     ]
   },
   {
@@ -3407,10 +1750,6 @@
     "name": "Brian Wang",
     "role": "Investor",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -3419,16 +1758,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-773087-2365614.html",
     "words": 21,
     "rationales": [
-      "CB"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "CB"
-    ],
-    "rationales_literalist": [
-      "CB"
-    ],
-    "rationales_inclusive": [
       "CB"
     ]
   },
@@ -3439,10 +1768,6 @@
     "name": "Christine Morton",
     "role": "Individual Retail Investor (US citizen residing in UK)",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -3451,19 +1776,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-773207-2365854.html",
     "words": 126,
     "rationales": [
-      "IP",
-      "US"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP",
-      "US"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "US"
-    ],
-    "rationales_inclusive": [
       "IP",
       "US"
     ]
@@ -3475,10 +1787,6 @@
     "name": "Kenneth I Kornbluh",
     "role": "CEO, Kambio Partners LLC (hedge fund managing five funds, hundreds of millions in assets)",
     "entity": "Investment professional",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Investment professional",
-    "entity_selfdescribed": "Investment professional",
-    "entity_letterhead": "Investment professional",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -3491,26 +1799,6 @@
       "MF",
       "US",
       "RI"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "RI",
-      "IA",
-      "MF",
-      "US"
-    ],
-    "rationales_literalist": [
-      "RI",
-      "IA",
-      "MF",
-      "US"
-    ],
-    "rationales_inclusive": [
-      "RI",
-      "IA",
-      "MF",
-      "US",
-      "AL"
     ]
   },
   {
@@ -3520,10 +1808,6 @@
     "name": "Nathan Powers",
     "role": "Owner, Good Faith Co",
     "entity": "Issuer / Corporate \u2014 current",
-    "entity_agreement": "majority",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Issuer / Corporate \u2014 current",
-    "entity_letterhead": "Issuer / Corporate \u2014 current",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -3535,22 +1819,6 @@
       "FR",
       "MF",
       "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "FR",
-      "IP",
-      "MF"
-    ],
-    "rationales_literalist": [
-      "FR",
-      "IP",
-      "MF"
-    ],
-    "rationales_inclusive": [
-      "FR",
-      "IP",
-      "MF"
     ]
   },
   {
@@ -3560,10 +1828,6 @@
     "name": "Oscar Meade",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -3572,16 +1836,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-773887-2366754.html",
     "words": 48,
     "rationales": [
-      "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP"
-    ],
-    "rationales_literalist": [
-      "IP"
-    ],
-    "rationales_inclusive": [
       "IP"
     ]
   },
@@ -3592,10 +1846,6 @@
     "name": "Anonymous",
     "role": "Individual (anonymous)",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -3604,16 +1854,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-774227-2367254.html",
     "words": 50,
     "rationales": [
-      "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP"
-    ],
-    "rationales_literalist": [
-      "IP"
-    ],
-    "rationales_inclusive": [
       "IP"
     ]
   },
@@ -3624,10 +1864,6 @@
     "name": "Creighton Early",
     "role": "CFO, Willdan Group, Inc.",
     "entity": "Issuer / Corporate \u2014 current",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Issuer / Corporate \u2014 current",
-    "entity_selfdescribed": "Issuer / Corporate \u2014 current",
-    "entity_letterhead": "Issuer / Corporate \u2014 current",
     "stance": "Conditional",
     "primary": "Conditional",
     "literalist": "Oppose",
@@ -3638,19 +1874,6 @@
     "rationales": [
       "CB",
       "AL"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "AL",
-      "CB"
-    ],
-    "rationales_literalist": [
-      "AL",
-      "CB"
-    ],
-    "rationales_inclusive": [
-      "AL",
-      "CB"
     ]
   },
   {
@@ -3660,10 +1883,6 @@
     "name": "Lawrence",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -3672,22 +1891,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-774127-2367054.html",
     "words": 72,
     "rationales": [
-      "FR",
-      "IP",
-      "US"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "FR",
-      "IP",
-      "US"
-    ],
-    "rationales_literalist": [
-      "FR",
-      "IP",
-      "US"
-    ],
-    "rationales_inclusive": [
       "FR",
       "IP",
       "US"
@@ -3700,10 +1903,6 @@
     "name": "Andrew Parker",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Conditional",
     "primary": "Conditional",
     "literalist": "Conditional",
@@ -3718,29 +1917,6 @@
       "CMP",
       "AL",
       "IP"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "AU",
-      "AL",
-      "IP",
-      "IA",
-      "FR",
-      "CMP"
-    ],
-    "rationales_literalist": [
-      "AU",
-      "AL",
-      "FR",
-      "IA"
-    ],
-    "rationales_inclusive": [
-      "AU",
-      "AL",
-      "FR",
-      "IA",
-      "IP",
-      "CMP"
     ]
   },
   {
@@ -3750,10 +1926,6 @@
     "name": "Davis Sego",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -3762,16 +1934,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-774807-2368134.html",
     "words": 19,
     "rationales": [
-      "NR"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "NR"
-    ],
-    "rationales_literalist": [
-      "NR"
-    ],
-    "rationales_inclusive": [
       "NR"
     ]
   },
@@ -3782,10 +1944,6 @@
     "name": "Jose Sainz",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -3794,19 +1952,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775107-2368375_0.html",
     "words": 122,
     "rationales": [
-      "FR",
-      "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "FR",
-      "IP"
-    ],
-    "rationales_literalist": [
-      "FR",
-      "IP"
-    ],
-    "rationales_inclusive": [
       "FR",
       "IP"
     ]
@@ -3818,10 +1963,6 @@
     "name": "Paul Kalenak",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -3832,19 +1973,6 @@
     "rationales": [
       "CB",
       "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP",
-      "CB"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "CB"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "CB"
     ]
   },
   {
@@ -3854,10 +1982,6 @@
     "name": "Robert Burlando",
     "role": "Individual investor",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -3866,19 +1990,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775127-2368394.html",
     "words": 97,
     "rationales": [
-      "ICc",
-      "US"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "ICc",
-      "US"
-    ],
-    "rationales_literalist": [
-      "ICc",
-      "US"
-    ],
-    "rationales_inclusive": [
       "ICc",
       "US"
     ]
@@ -3890,10 +2001,6 @@
     "name": "Rodrigo Cabrera",
     "role": "Individual investor",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -3902,19 +2009,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775147-2368415.html",
     "words": 61,
     "rationales": [
-      "IA",
-      "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IA",
-      "IP"
-    ],
-    "rationales_literalist": [
-      "IA",
-      "IP"
-    ],
-    "rationales_inclusive": [
       "IA",
       "IP"
     ]
@@ -3926,10 +2020,6 @@
     "name": "Shane Dalton",
     "role": "Retail investor",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -3939,18 +2029,6 @@
     "words": 49,
     "rationales": [
       "IA"
-    ],
-    "rationale_agreement": "split",
-    "rationales_primary": [
-      "IA",
-      "IP"
-    ],
-    "rationales_literalist": [
-      "IA"
-    ],
-    "rationales_inclusive": [
-      "IA",
-      "RI"
     ]
   },
   {
@@ -3960,10 +2038,6 @@
     "name": "Tommy Brumfield",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -3972,16 +2046,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-774767-2368094.html",
     "words": 19,
     "rationales": [
-      "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP"
-    ],
-    "rationales_literalist": [
-      "IP"
-    ],
-    "rationales_inclusive": [
       "IP"
     ]
   },
@@ -3992,10 +2056,6 @@
     "name": "/r/wallstreetbets",
     "role": "Reddit community (\u224818M retail investors)",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -4010,33 +2070,6 @@
       "LE",
       "IP",
       "US"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "IA",
-      "IP",
-      "ST",
-      "US",
-      "CB",
-      "LE"
-    ],
-    "rationales_literalist": [
-      "IA",
-      "IP",
-      "ST",
-      "US",
-      "CB",
-      "LE"
-    ],
-    "rationales_inclusive": [
-      "IA",
-      "IP",
-      "ST",
-      "US",
-      "CB",
-      "LE",
-      "RI",
-      "MF"
     ]
   },
   {
@@ -4046,10 +2079,6 @@
     "name": "Brian Pina",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -4059,17 +2088,6 @@
     "words": 22,
     "rationales": [
       "IP"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "IP"
-    ],
-    "rationales_literalist": [
-      "IP"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "IA"
     ]
   },
   {
@@ -4079,10 +2097,6 @@
     "name": "Ian Ross",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -4093,19 +2107,6 @@
     "rationales": [
       "FR",
       "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP",
-      "FR"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "FR"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "FR"
     ]
   },
   {
@@ -4115,10 +2116,6 @@
     "name": "James Mellor",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -4127,16 +2124,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775647-2369114.html",
     "words": 22,
     "rationales": [
-      "NR"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "NR"
-    ],
-    "rationales_literalist": [
-      "NR"
-    ],
-    "rationales_inclusive": [
       "NR"
     ]
   },
@@ -4147,10 +2134,6 @@
     "name": "Jonathin Kennedy",
     "role": "Kennedy ConsultX LLC",
     "entity": "Industry practitioner / technologist",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Industry practitioner / technologist",
-    "entity_selfdescribed": "Industry practitioner / technologist",
-    "entity_letterhead": "Industry practitioner / technologist",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -4161,20 +2144,6 @@
     "rationales": [
       "IA",
       "IP"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "IP",
-      "IA"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "IA"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "IA",
-      "MF"
     ]
   },
   {
@@ -4184,10 +2153,6 @@
     "name": "Kimberly Carnahan",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -4199,22 +2164,6 @@
       "IA",
       "CB",
       "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IA",
-      "IP",
-      "CB"
-    ],
-    "rationales_literalist": [
-      "IA",
-      "IP",
-      "CB"
-    ],
-    "rationales_inclusive": [
-      "IA",
-      "IP",
-      "CB"
     ]
   },
   {
@@ -4224,10 +2173,6 @@
     "name": "Matthew Sing",
     "role": "BA in Economics",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -4236,19 +2181,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2368574.htm",
     "words": 31,
     "rationales": [
-      "MF",
-      "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "MF",
-      "IP"
-    ],
-    "rationales_literalist": [
-      "MF",
-      "IP"
-    ],
-    "rationales_inclusive": [
       "MF",
       "IP"
     ]
@@ -4260,10 +2192,6 @@
     "name": "Noel King",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -4273,16 +2201,6 @@
     "words": 19,
     "rationales": [
       "NR"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "NR"
-    ],
-    "rationales_literalist": [
-      "NR"
-    ],
-    "rationales_inclusive": [
-      "IP"
     ]
   },
   {
@@ -4292,10 +2210,6 @@
     "name": "Pat Meehan",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -4304,16 +2218,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2368595.htm",
     "words": 66,
     "rationales": [
-      "LE"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "LE"
-    ],
-    "rationales_literalist": [
-      "LE"
-    ],
-    "rationales_inclusive": [
       "LE"
     ]
   },
@@ -4324,10 +2228,6 @@
     "name": "Patrick Ryan",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -4339,21 +2239,6 @@
       "FR",
       "CB",
       "IP"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "IP",
-      "FR"
-    ],
-    "rationales_literalist": [
-      "CB",
-      "FR",
-      "IP"
-    ],
-    "rationales_inclusive": [
-      "CB",
-      "FR",
-      "IP"
     ]
   },
   {
@@ -4363,10 +2248,6 @@
     "name": "Peter Van Flein",
     "role": "Financial Advisor, Geneos Wealth Management",
     "entity": "Investment professional",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Investment professional",
-    "entity_selfdescribed": "Investment professional",
-    "entity_letterhead": "Investment professional",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -4375,19 +2256,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775667-2369134.html",
     "words": 35,
     "rationales": [
-      "IA",
-      "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IA",
-      "IP"
-    ],
-    "rationales_literalist": [
-      "IA",
-      "IP"
-    ],
-    "rationales_inclusive": [
       "IA",
       "IP"
     ]
@@ -4399,10 +2267,6 @@
     "name": "Rob Bardy",
     "role": "Association of Professional Accountants",
     "entity": "Accountant (CPA)",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Accountant (CPA)",
-    "entity_selfdescribed": "Accountant (CPA)",
-    "entity_letterhead": "Accountant (CPA)",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -4411,16 +2275,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2368675.htm",
     "words": 12,
     "rationales": [
-      "NR"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "NR"
-    ],
-    "rationales_literalist": [
-      "NR"
-    ],
-    "rationales_inclusive": [
       "NR"
     ]
   },
@@ -4431,10 +2285,6 @@
     "name": "Scott Lundstrom",
     "role": "Market Analyst",
     "entity": "Investment professional",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Investment professional",
-    "entity_selfdescribed": "Investment professional",
-    "entity_letterhead": "Investment professional",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -4445,19 +2295,6 @@
     "rationales": [
       "IA",
       "RI"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "RI",
-      "IA"
-    ],
-    "rationales_literalist": [
-      "RI",
-      "IA"
-    ],
-    "rationales_inclusive": [
-      "RI",
-      "IA"
     ]
   },
   {
@@ -4467,10 +2304,6 @@
     "name": "Sonia Woldow",
     "role": "Retail investor",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -4481,18 +2314,6 @@
     "rationales": [
       "IP",
       "RI"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "IP"
-    ],
-    "rationales_literalist": [
-      "RI",
-      "IP"
-    ],
-    "rationales_inclusive": [
-      "RI",
-      "IP"
     ]
   },
   {
@@ -4502,10 +2323,6 @@
     "name": "Suzanne Gallant",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -4514,16 +2331,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2368594.htm",
     "words": 46,
     "rationales": [
-      "NR"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "NR"
-    ],
-    "rationales_literalist": [
-      "NR"
-    ],
-    "rationales_inclusive": [
       "NR"
     ]
   },
@@ -4534,10 +2341,6 @@
     "name": "Tal Madison",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -4549,24 +2352,6 @@
       "AL",
       "LE",
       "RI"
-    ],
-    "rationale_agreement": "split",
-    "rationales_primary": [
-      "LE",
-      "RI"
-    ],
-    "rationales_literalist": [
-      "LE",
-      "RI",
-      "AL"
-    ],
-    "rationales_inclusive": [
-      "LE",
-      "RI",
-      "AL",
-      "MF",
-      "ST",
-      "IA"
     ]
   },
   {
@@ -4576,10 +2361,6 @@
     "name": "Anonymous",
     "role": "Individual (anonymous)",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -4591,22 +2372,6 @@
       "IA",
       "FR",
       "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP",
-      "IA",
-      "FR"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "IA",
-      "FR"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "IA",
-      "FR"
     ]
   },
   {
@@ -4616,10 +2381,6 @@
     "name": "Christ Fisk",
     "role": "Retail investor",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -4631,22 +2392,6 @@
       "IA",
       "FR",
       "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP",
-      "IA",
-      "FR"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "IA",
-      "FR"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "IA",
-      "FR"
     ]
   },
   {
@@ -4656,10 +2401,6 @@
     "name": "David Long",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -4668,16 +2409,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775747-2369254.html",
     "words": 15,
     "rationales": [
-      "NR"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "NR"
-    ],
-    "rationales_literalist": [
-      "NR"
-    ],
-    "rationales_inclusive": [
       "NR"
     ]
   },
@@ -4688,10 +2419,6 @@
     "name": "James Wiebe",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -4702,19 +2429,6 @@
     "rationales": [
       "FR",
       "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP",
-      "FR"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "FR"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "FR"
     ]
   },
   {
@@ -4724,10 +2438,6 @@
     "name": "Lisa Copenhaver",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -4736,19 +2446,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775767-2369274.html",
     "words": 25,
     "rationales": [
-      "FR",
-      "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP",
-      "FR"
-    ],
-    "rationales_literalist": [
-      "FR",
-      "IP"
-    ],
-    "rationales_inclusive": [
       "FR",
       "IP"
     ]
@@ -4760,10 +2457,6 @@
     "name": "Munir Hakim",
     "role": "Retail investor",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -4775,22 +2468,6 @@
       "FR",
       "EX",
       "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP",
-      "FR",
-      "EX"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "FR",
-      "EX"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "FR",
-      "EX"
     ]
   },
   {
@@ -4800,10 +2477,6 @@
     "name": "Theo",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -4815,22 +2488,6 @@
       "FR",
       "ICc",
       "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP",
-      "FR",
-      "ICc"
-    ],
-    "rationales_literalist": [
-      "FR",
-      "IP",
-      "ICc"
-    ],
-    "rationales_inclusive": [
-      "FR",
-      "IP",
-      "ICc"
     ]
   },
   {
@@ -4840,10 +2497,6 @@
     "name": "C. Allshouse",
     "role": "Attorney",
     "entity": "Industry practitioner / technologist",
-    "entity_agreement": "majority",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Industry practitioner / technologist",
-    "entity_letterhead": "Industry practitioner / technologist",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -4852,16 +2505,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-776267-2370354.html",
     "words": 10,
     "rationales": [
-      "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP"
-    ],
-    "rationales_literalist": [
-      "IP"
-    ],
-    "rationales_inclusive": [
       "IP"
     ]
   },
@@ -4872,10 +2515,6 @@
     "name": "Katherine Winfield",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -4886,19 +2525,6 @@
     "rationales": [
       "FR",
       "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP",
-      "FR"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "FR"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "FR"
     ]
   },
   {
@@ -4908,10 +2534,6 @@
     "name": "Lawrence Rand",
     "role": "Visiting Professor of Economics, Brown University (advisor on submitted 2018 undergraduate thesis by Rosen, Shire, Winst",
     "entity": "Academic researcher",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Academic researcher",
-    "entity_selfdescribed": "Academic researcher",
-    "entity_letterhead": "Academic researcher",
     "stance": "Conditional",
     "primary": "Conditional",
     "literalist": "Conditional",
@@ -4927,37 +2549,6 @@
       "ST",
       "ICs",
       "AL"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "AL",
-      "ST",
-      "CB",
-      "IA",
-      "FR",
-      "MF",
-      "ICs"
-    ],
-    "rationales_literalist": [
-      "AL",
-      "ST",
-      "CB",
-      "ICs",
-      "IA",
-      "FR",
-      "MF"
-    ],
-    "rationales_inclusive": [
-      "AL",
-      "ST",
-      "CB",
-      "ICs",
-      "IA",
-      "FR",
-      "MF",
-      "OV",
-      "RI",
-      "US"
     ]
   },
   {
@@ -4967,10 +2558,6 @@
     "name": "Matt Marino",
     "role": "Individual investor",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -4982,23 +2569,6 @@
       "MF",
       "IP",
       "US"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "IP",
-      "MF",
-      "US"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "MF",
-      "US"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "MF",
-      "US",
-      "CB"
     ]
   },
   {
@@ -5008,10 +2578,6 @@
     "name": "MWM",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -5022,19 +2588,6 @@
     "rationales": [
       "IA",
       "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP",
-      "IA"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "IA"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "IA"
     ]
   },
   {
@@ -5044,10 +2597,6 @@
     "name": "Nikolay",
     "role": "Individual investor",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -5061,26 +2610,6 @@
       "MF",
       "CB",
       "RI"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "MF",
-      "FR",
-      "IA"
-    ],
-    "rationales_literalist": [
-      "RI",
-      "MF",
-      "FR",
-      "IA",
-      "CB"
-    ],
-    "rationales_inclusive": [
-      "RI",
-      "MF",
-      "FR",
-      "IA",
-      "CB"
     ]
   },
   {
@@ -5090,10 +2619,6 @@
     "name": "Noah Kerchner",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -5111,40 +2636,6 @@
       "AL",
       "IP",
       "US"
-    ],
-    "rationale_agreement": "split",
-    "rationales_primary": [
-      "IP",
-      "IA",
-      "FR",
-      "MF",
-      "US",
-      "AL",
-      "CMP",
-      "AU"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "IA",
-      "FR",
-      "MF",
-      "US",
-      "AL",
-      "CMP",
-      "AU",
-      "CB"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "IA",
-      "FR",
-      "MF",
-      "US",
-      "AL",
-      "CMP",
-      "AU",
-      "CB",
-      "ST"
     ]
   },
   {
@@ -5154,10 +2645,6 @@
     "name": "Varad Kandadai",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -5168,19 +2655,6 @@
     "rationales": [
       "IP",
       "US"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "US",
-      "IP"
-    ],
-    "rationales_literalist": [
-      "US",
-      "IP"
-    ],
-    "rationales_inclusive": [
-      "US",
-      "IP"
     ]
   },
   {
@@ -5190,10 +2664,6 @@
     "name": "Anonymous",
     "role": "Anonymous (webform)",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -5203,17 +2673,6 @@
     "words": 26,
     "rationales": [
       "IP"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "IP"
-    ],
-    "rationales_literalist": [
-      "IP"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "IA"
     ]
   },
   {
@@ -5223,10 +2682,6 @@
     "name": "David Bolling Wells",
     "role": "Former CFO Netflix; Board Chair Wise; Lead Independent Director HIMS",
     "entity": "Issuer / Corporate \u2014 current",
-    "entity_agreement": "majority",
-    "entity_primary": "Issuer / Corporate \u2014 current",
-    "entity_selfdescribed": "Issuer / Corporate \u2014 former",
-    "entity_letterhead": "Issuer / Corporate \u2014 current",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -5243,38 +2698,6 @@
       "MF",
       "ST",
       "US"
-    ],
-    "rationale_agreement": "split",
-    "rationales_primary": [
-      "US",
-      "IP",
-      "IA",
-      "FR",
-      "ICc",
-      "ST",
-      "MF",
-      "CB"
-    ],
-    "rationales_literalist": [
-      "US",
-      "IP",
-      "IA",
-      "FR",
-      "ICc",
-      "ST",
-      "CB"
-    ],
-    "rationales_inclusive": [
-      "US",
-      "IP",
-      "IA",
-      "FR",
-      "ICc",
-      "ST",
-      "MF",
-      "CB",
-      "AL",
-      "OP"
     ]
   },
   {
@@ -5284,10 +2707,6 @@
     "name": "Debra Frost",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -5296,19 +2715,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-776367-2370434.html",
     "words": 123,
     "rationales": [
-      "IA",
-      "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IA",
-      "IP"
-    ],
-    "rationales_literalist": [
-      "IA",
-      "IP"
-    ],
-    "rationales_inclusive": [
       "IA",
       "IP"
     ]
@@ -5320,10 +2726,6 @@
     "name": "Kyle Hedden",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -5336,25 +2738,6 @@
       "IA",
       "IP",
       "MF"
-    ],
-    "rationale_agreement": "split",
-    "rationales_primary": [
-      "IA",
-      "IP",
-      "FR",
-      "MF"
-    ],
-    "rationales_literalist": [
-      "IA",
-      "IP",
-      "FR"
-    ],
-    "rationales_inclusive": [
-      "IA",
-      "IP",
-      "FR",
-      "MF",
-      "CB"
     ]
   },
   {
@@ -5364,10 +2747,6 @@
     "name": "Levi Lentz",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -5378,21 +2757,6 @@
     "rationales": [
       "AL",
       "IP"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "IP",
-      "AL"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "AL"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "AL",
-      "MF",
-      "IA"
     ]
   },
   {
@@ -5402,10 +2766,6 @@
     "name": "Masey Moshref",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -5415,17 +2775,6 @@
     "words": 62,
     "rationales": [
       "IP"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "IP"
-    ],
-    "rationales_literalist": [
-      "IP"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "IA"
     ]
   },
   {
@@ -5435,10 +2784,6 @@
     "name": "Chad L.",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -5449,19 +2794,6 @@
     "rationales": [
       "IA",
       "IP"
-    ],
-    "rationale_agreement": "split",
-    "rationales_primary": [
-      "IA",
-      "IP"
-    ],
-    "rationales_literalist": [
-      "IA"
-    ],
-    "rationales_inclusive": [
-      "IA",
-      "IP",
-      "CMP"
     ]
   },
   {
@@ -5471,10 +2803,6 @@
     "name": "David C.",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -5487,24 +2815,6 @@
       "IP",
       "MF",
       "ST"
-    ],
-    "rationale_agreement": "split",
-    "rationales_primary": [
-      "IA",
-      "IP",
-      "ST",
-      "MF"
-    ],
-    "rationales_literalist": [
-      "IA",
-      "ST"
-    ],
-    "rationales_inclusive": [
-      "IA",
-      "IP",
-      "ST",
-      "MF",
-      "FR"
     ]
   },
   {
@@ -5514,10 +2824,6 @@
     "name": "Monica Braman",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -5527,16 +2833,6 @@
     "words": 10,
     "rationales": [
       "NR"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "NR"
-    ],
-    "rationales_literalist": [
-      "NR"
-    ],
-    "rationales_inclusive": [
-      "IP"
     ]
   },
   {
@@ -5546,10 +2842,6 @@
     "name": "Andreas Jensen",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -5561,22 +2853,6 @@
       "FR",
       "IA",
       "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP",
-      "FR",
-      "IA"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "FR",
-      "IA"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "FR",
-      "IA"
     ]
   },
   {
@@ -5586,10 +2862,6 @@
     "name": "Brian",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -5600,19 +2872,6 @@
     "rationales": [
       "IA",
       "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP",
-      "IA"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "IA"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "IA"
     ]
   },
   {
@@ -5622,10 +2881,6 @@
     "name": "David",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -5634,16 +2889,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-776947-2371674.html",
     "words": 11,
     "rationales": [
-      "NR"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "NR"
-    ],
-    "rationales_literalist": [
-      "NR"
-    ],
-    "rationales_inclusive": [
       "NR"
     ]
   },
@@ -5654,10 +2899,6 @@
     "name": "Edward Dennison",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -5670,24 +2911,6 @@
       "IP",
       "MF",
       "US"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "IP",
-      "US",
-      "CB",
-      "MF"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "US",
-      "CB"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "US",
-      "CB",
-      "MF"
     ]
   },
   {
@@ -5697,10 +2920,6 @@
     "name": "Garrett Beery",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -5711,19 +2930,6 @@
     "rationales": [
       "FR",
       "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP",
-      "FR"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "FR"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "FR"
     ]
   },
   {
@@ -5733,10 +2939,6 @@
     "name": "Mike Wong",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -5745,16 +2947,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-776907-2371354.html",
     "words": 15,
     "rationales": [
-      "IP"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "IP"
-    ],
-    "rationales_literalist": [
-      "NR"
-    ],
-    "rationales_inclusive": [
       "IP"
     ]
   },
@@ -5765,10 +2957,6 @@
     "name": "Robert Andrews",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -5782,28 +2970,6 @@
       "FR",
       "IA",
       "OP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "EX",
-      "CB",
-      "IA",
-      "FR",
-      "OP"
-    ],
-    "rationales_literalist": [
-      "EX",
-      "CB",
-      "IA",
-      "FR",
-      "OP"
-    ],
-    "rationales_inclusive": [
-      "EX",
-      "CB",
-      "IA",
-      "FR",
-      "OP"
     ]
   },
   {
@@ -5813,10 +2979,6 @@
     "name": "Ryan Foli",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -5827,20 +2989,6 @@
     "rationales": [
       "IP",
       "MF"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "MF",
-      "IP"
-    ],
-    "rationales_literalist": [
-      "MF",
-      "IP"
-    ],
-    "rationales_inclusive": [
-      "MF",
-      "IP",
-      "IA"
     ]
   },
   {
@@ -5850,10 +2998,6 @@
     "name": "Sean Brady",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -5864,19 +3008,6 @@
     "rationales": [
       "FR",
       "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP",
-      "FR"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "FR"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "FR"
     ]
   },
   {
@@ -5886,10 +3017,6 @@
     "name": "Steve Coston",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -5898,16 +3025,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-777307-2372094.html",
     "words": 27,
     "rationales": [
-      "NR"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "NR"
-    ],
-    "rationales_literalist": [
-      "NR"
-    ],
-    "rationales_inclusive": [
       "NR"
     ]
   },
@@ -5918,10 +3035,6 @@
     "name": "Antolin (Tony) Saiz",
     "role": "CPA, InnTech Consultant",
     "entity": "Accountant (CPA)",
-    "entity_agreement": "majority",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Accountant (CPA)",
-    "entity_letterhead": "Accountant (CPA)",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -5930,19 +3043,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-777607-2372374.html",
     "words": 129,
     "rationales": [
-      "IA",
-      "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IA",
-      "IP"
-    ],
-    "rationales_literalist": [
-      "IA",
-      "IP"
-    ],
-    "rationales_inclusive": [
       "IA",
       "IP"
     ]
@@ -5954,10 +3054,6 @@
     "name": "Arthur Lyssenko",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -5966,16 +3062,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-777527-2372294.html",
     "words": 7,
     "rationales": [
-      "NR"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "NR"
-    ],
-    "rationales_literalist": [
-      "NR"
-    ],
-    "rationales_inclusive": [
       "NR"
     ]
   },
@@ -5986,10 +3072,6 @@
     "name": "Kimberly O'Brien",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -5998,16 +3080,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-777407-2372154.html",
     "words": 17,
     "rationales": [
-      "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP"
-    ],
-    "rationales_literalist": [
-      "IP"
-    ],
-    "rationales_inclusive": [
       "IP"
     ]
   },
@@ -6018,10 +3090,6 @@
     "name": "Dennis Newell",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -6030,16 +3098,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778347-2373514.html",
     "words": 11,
     "rationales": [
-      "NR"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "NR"
-    ],
-    "rationales_literalist": [
-      "NR"
-    ],
-    "rationales_inclusive": [
       "NR"
     ]
   },
@@ -6050,10 +3108,6 @@
     "name": "Desiree",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -6067,29 +3121,6 @@
       "FR",
       "IA",
       "OP"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "IA",
-      "FR",
-      "OP",
-      "EX",
-      "CB"
-    ],
-    "rationales_literalist": [
-      "IA",
-      "FR",
-      "OP",
-      "EX",
-      "CB"
-    ],
-    "rationales_inclusive": [
-      "IA",
-      "FR",
-      "OP",
-      "EX",
-      "CB",
-      "IP"
     ]
   },
   {
@@ -6099,10 +3130,6 @@
     "name": "J R Merrill",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -6111,16 +3138,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778267-2373454.html",
     "words": 19,
     "rationales": [
-      "NR"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "NR"
-    ],
-    "rationales_literalist": [
-      "NR"
-    ],
-    "rationales_inclusive": [
       "NR"
     ]
   },
@@ -6131,10 +3148,6 @@
     "name": "James Medici",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -6143,16 +3156,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778227-2373394.html",
     "words": 16,
     "rationales": [
-      "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP"
-    ],
-    "rationales_literalist": [
-      "IP"
-    ],
-    "rationales_inclusive": [
       "IP"
     ]
   },
@@ -6163,10 +3166,6 @@
     "name": "Jeremy Brown",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -6175,16 +3174,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778747-2374134.html",
     "words": 17,
     "rationales": [
-      "NR"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "NR"
-    ],
-    "rationales_literalist": [
-      "NR"
-    ],
-    "rationales_inclusive": [
       "NR"
     ]
   },
@@ -6195,10 +3184,6 @@
     "name": "Justin Smith",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Support",
     "primary": "Support",
     "literalist": "Support",
@@ -6207,16 +3192,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778487-2373934.html",
     "words": 123,
     "rationales": [
-      "ST"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "ST"
-    ],
-    "rationales_literalist": [
-      "ST"
-    ],
-    "rationales_inclusive": [
       "ST"
     ]
   },
@@ -6227,10 +3202,6 @@
     "name": "Kerri Pinkston",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -6239,16 +3210,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778687-2374094.html",
     "words": 85,
     "rationales": [
-      "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP"
-    ],
-    "rationales_literalist": [
-      "IP"
-    ],
-    "rationales_inclusive": [
       "IP"
     ]
   },
@@ -6259,10 +3220,6 @@
     "name": "Michael Turyn",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -6271,18 +3228,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778567-2374014.html",
     "words": 113,
     "rationales": [
-      "FR",
-      "IP"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "FR",
-      "IP"
-    ],
-    "rationales_literalist": [
-      "FR"
-    ],
-    "rationales_inclusive": [
       "FR",
       "IP"
     ]
@@ -6294,10 +3239,6 @@
     "name": "Noah G",
     "role": "Registered Person, Operations",
     "entity": "Investment professional",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Investment professional",
-    "entity_selfdescribed": "Investment professional",
-    "entity_letterhead": "Investment professional",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -6306,16 +3247,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778467-2373894.html",
     "words": 22,
     "rationales": [
-      "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP"
-    ],
-    "rationales_literalist": [
-      "IP"
-    ],
-    "rationales_inclusive": [
       "IP"
     ]
   },
@@ -6326,10 +3257,6 @@
     "name": "Rebecca Wieser",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -6338,16 +3265,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778287-2373456.html",
     "words": 13,
     "rationales": [
-      "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP"
-    ],
-    "rationales_literalist": [
-      "IP"
-    ],
-    "rationales_inclusive": [
       "IP"
     ]
   },
@@ -6358,10 +3275,6 @@
     "name": "Sherri",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -6370,16 +3283,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778327-2373494.html",
     "words": 12,
     "rationales": [
-      "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP"
-    ],
-    "rationales_literalist": [
-      "IP"
-    ],
-    "rationales_inclusive": [
       "IP"
     ]
   },
@@ -6390,10 +3293,6 @@
     "name": "Tim Mulligan",
     "role": "attorney",
     "entity": "Industry practitioner / technologist",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Industry practitioner / technologist",
-    "entity_selfdescribed": "Industry practitioner / technologist",
-    "entity_letterhead": "Industry practitioner / technologist",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -6402,16 +3301,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778507-2373954.html",
     "words": 71,
     "rationales": [
-      "US"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "US"
-    ],
-    "rationales_literalist": [
-      "US"
-    ],
-    "rationales_inclusive": [
       "US"
     ]
   },
@@ -6422,10 +3311,6 @@
     "name": "Angela Schneider",
     "role": "Citizen",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -6434,16 +3319,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-777827-2372814.html",
     "words": 31,
     "rationales": [
-      "IP"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "IP"
-    ],
-    "rationales_literalist": [
-      "NR"
-    ],
-    "rationales_inclusive": [
       "IP"
     ]
   },
@@ -6454,10 +3329,6 @@
     "name": "Anthony C Miller",
     "role": "United States Citizen",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -6468,20 +3339,6 @@
     "rationales": [
       "IP",
       "MF"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "IP",
-      "MF"
-    ],
-    "rationales_literalist": [
-      "IP",
-      "MF"
-    ],
-    "rationales_inclusive": [
-      "IP",
-      "MF",
-      "FR"
     ]
   },
   {
@@ -6491,10 +3348,6 @@
     "name": "Ben Brown",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -6509,31 +3362,6 @@
       "IA",
       "MF",
       "ST"
-    ],
-    "rationale_agreement": "split",
-    "rationales_primary": [
-      "IA",
-      "FR",
-      "AU",
-      "MF",
-      "CB",
-      "ST"
-    ],
-    "rationales_literalist": [
-      "IA",
-      "FR",
-      "MF",
-      "CB",
-      "ST"
-    ],
-    "rationales_inclusive": [
-      "IA",
-      "FR",
-      "AU",
-      "MF",
-      "CB",
-      "ST",
-      "IP"
     ]
   },
   {
@@ -6543,10 +3371,6 @@
     "name": "Brian",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -6555,16 +3379,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778027-2373074.html",
     "words": 14,
     "rationales": [
-      "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP"
-    ],
-    "rationales_literalist": [
-      "IP"
-    ],
-    "rationales_inclusive": [
       "IP"
     ]
   },
@@ -6575,10 +3389,6 @@
     "name": "Christian Kritas",
     "role": "Licensed investment banking representative and Associate - Model Risk",
     "entity": "Investment professional",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Investment professional",
-    "entity_selfdescribed": "Investment professional",
-    "entity_letterhead": "Investment professional",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -6588,17 +3398,6 @@
     "words": 168,
     "rationales": [
       "IA"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "IA"
-    ],
-    "rationales_literalist": [
-      "IA"
-    ],
-    "rationales_inclusive": [
-      "IA",
-      "AL"
     ]
   },
   {
@@ -6608,10 +3407,6 @@
     "name": "James",
     "role": "Activist, business owner, tutor and student",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -6620,16 +3415,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778007-2373055.html",
     "words": 11,
     "rationales": [
-      "IP"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "IP"
-    ],
-    "rationales_literalist": [
-      "IP"
-    ],
-    "rationales_inclusive": [
       "IP"
     ]
   },
@@ -6640,10 +3425,6 @@
     "name": "Joseph d suh",
     "role": "Chef",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -6653,16 +3434,6 @@
     "words": 3,
     "rationales": [
       "NR"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "NR"
-    ],
-    "rationales_literalist": [
-      "NR"
-    ],
-    "rationales_inclusive": [
-      "IP"
     ]
   },
   {
@@ -6672,10 +3443,6 @@
     "name": "Matthew Jubinsky",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -6684,16 +3451,6 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-777967-2373034.html",
     "words": 10,
     "rationales": [
-      "NR"
-    ],
-    "rationale_agreement": "unanimous",
-    "rationales_primary": [
-      "NR"
-    ],
-    "rationales_literalist": [
-      "NR"
-    ],
-    "rationales_inclusive": [
       "NR"
     ]
   },
@@ -6704,10 +3461,6 @@
     "name": "Paul Bussman",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -6718,18 +3471,6 @@
     "rationales": [
       "IA",
       "MF"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "MF",
-      "IA"
-    ],
-    "rationales_literalist": [
-      "MF"
-    ],
-    "rationales_inclusive": [
-      "MF",
-      "IA"
     ]
   },
   {
@@ -6739,10 +3480,6 @@
     "name": "Richard Thompson",
     "role": "Individual",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -6754,23 +3491,6 @@
       "IA",
       "IP",
       "MF"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "IA",
-      "MF",
-      "IP"
-    ],
-    "rationales_literalist": [
-      "IA",
-      "MF",
-      "IP"
-    ],
-    "rationales_inclusive": [
-      "IA",
-      "MF",
-      "IP",
-      "FR"
     ]
   },
   {
@@ -6780,10 +3500,6 @@
     "name": "Timothy A. Mann",
     "role": "self",
     "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -6799,33 +3515,6 @@
       "RI",
       "ST",
       "US"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "ST",
-      "FR",
-      "IA",
-      "IP",
-      "MF",
-      "US",
-      "RI"
-    ],
-    "rationales_literalist": [
-      "ST",
-      "FR",
-      "IA",
-      "IP",
-      "MF",
-      "US"
-    ],
-    "rationales_inclusive": [
-      "ST",
-      "FR",
-      "IA",
-      "IP",
-      "MF",
-      "US",
-      "RI"
     ]
   }
 ]
