@@ -5099,5 +5099,121 @@
       "CB",
       "IP"
     ]
+  },
+  {
+    "n": 264,
+    "page": 1,
+    "date": "2026-05-19",
+    "name": "Andrew Dempsey",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-782967-2381174.html",
+    "words": 51,
+    "rationales": [
+      "IP",
+      "IA",
+      "MF"
+    ]
+  },
+  {
+    "n": 265,
+    "page": 1,
+    "date": "2026-05-19",
+    "name": "Anonymous",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-782947-2381154_0.html",
+    "words": 19,
+    "rationales": [
+      "NR"
+    ]
+  },
+  {
+    "n": 266,
+    "page": 1,
+    "date": "2026-05-19",
+    "name": "Benjamin Wynne",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-783007-2381234_0.html",
+    "words": 44,
+    "rationales": [
+      "IA",
+      "IP"
+    ]
+  },
+  {
+    "n": 267,
+    "page": 1,
+    "date": "2026-05-19",
+    "name": "Michael S. Cook",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-783027-2381254.html",
+    "words": 29,
+    "rationales": [
+      "IP",
+      "FR"
+    ]
+  },
+  {
+    "n": 268,
+    "page": 1,
+    "date": "2026-05-19",
+    "name": "Robert Dunning",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-782987-2381194.html",
+    "words": 62,
+    "rationales": [
+      "FR",
+      "IA",
+      "IP"
+    ]
+  },
+  {
+    "n": 269,
+    "page": 1,
+    "date": "2026-05-19",
+    "name": "William T. McKinzie",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Support",
+    "primary": "Support",
+    "literalist": "Support",
+    "skeptic": "Support",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-782948-2381155.html",
+    "words": 61,
+    "rationales": [
+      "ST",
+      "ICs",
+      "CB"
+    ]
   }
 ]
