@@ -4878,5 +4878,226 @@
       "IP",
       "LE"
     ]
+  },
+  {
+    "n": 253,
+    "page": 1,
+    "date": "2026-05-19",
+    "name": "Anthony Langenstein",
+    "role": "Individual Investor",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-782827-2380954.pdf",
+    "words": 450,
+    "rationales": [
+      "IA",
+      "MF",
+      "CMP",
+      "OP",
+      "US",
+      "LE",
+      "IP",
+      "EX"
+    ]
+  },
+  {
+    "n": 254,
+    "page": 1,
+    "date": "2026-05-19",
+    "name": "Brad Deaner",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-782667-2380674.html",
+    "words": 28,
+    "rationales": [
+      "IP"
+    ]
+  },
+  {
+    "n": 255,
+    "page": 1,
+    "date": "2026-05-19",
+    "name": "Jermiah Dockery",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-782587-2380274.html",
+    "words": 23,
+    "rationales": [
+      "IA"
+    ]
+  },
+  {
+    "n": 256,
+    "page": 1,
+    "date": "2026-05-19",
+    "name": "Kenneth Fahndrick",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-782548-2380235.html",
+    "words": 61,
+    "rationales": [
+      "IP",
+      "IA"
+    ]
+  },
+  {
+    "n": 257,
+    "page": 1,
+    "date": "2026-05-19",
+    "name": "Lance Graven",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-782727-2380834_0.html",
+    "words": 340,
+    "rationales": [
+      "IA",
+      "IP",
+      "MF",
+      "OP",
+      "CMP"
+    ]
+  },
+  {
+    "n": 258,
+    "page": 1,
+    "date": "2026-05-19",
+    "name": "Owen Murphy",
+    "role": "Data Analyst",
+    "entity": "Industry practitioner / technologist",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-782787-2380914.html",
+    "words": 35,
+    "rationales": [
+      "IP"
+    ]
+  },
+  {
+    "n": 259,
+    "page": 1,
+    "date": "2026-05-19",
+    "name": "Rei Takashi",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-782747-2380874_1.html",
+    "words": 340,
+    "rationales": [
+      "IA",
+      "MF",
+      "CMP",
+      "OP",
+      "LE",
+      "IP",
+      "EX"
+    ]
+  },
+  {
+    "n": 260,
+    "page": 1,
+    "date": "2026-05-19",
+    "name": "Richard Norelli",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-782687-2380814.html",
+    "words": 88,
+    "rationales": [
+      "IP",
+      "FR",
+      "CB"
+    ]
+  },
+  {
+    "n": 261,
+    "page": 1,
+    "date": "2026-05-19",
+    "name": "Robin Moylan",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-782547-2380234.html",
+    "words": 29,
+    "rationales": [
+      "NR"
+    ]
+  },
+  {
+    "n": 262,
+    "page": 1,
+    "date": "2026-05-18",
+    "name": "Tyler Dirks",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-782507-2380074.html",
+    "words": 48,
+    "rationales": [
+      "IP",
+      "IA"
+    ]
+  },
+  {
+    "n": 263,
+    "page": 2,
+    "date": "2026-05-15",
+    "name": "Scott Parker",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-780007-2375354.html",
+    "words": 74,
+    "rationales": [
+      "IA",
+      "CB",
+      "IP"
+    ]
   }
 ]
