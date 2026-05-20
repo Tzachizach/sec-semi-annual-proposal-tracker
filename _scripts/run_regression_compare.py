@@ -323,7 +323,7 @@ def main():
         "",
         "## Notes on separation",
         "",
-        "Binary specs (Logit, LPM): the same 4 entity buckets carry zero Support letters and are flagged separated — Accountant CPA, Issuer-former, Investment professional, Industry practitioner.",
+        f"Binary specs (Logit, LPM): {len(logit_sep)} entity buckets carry zero Support letters and are flagged separated: {[short(e) for e in ENTITY_ORDER if e != REF and col_name(e) in logit_sep]}.",
         "Ordinal spec: separation is defined differently — a bucket with all letters in one ordinal class. ",
         f"Buckets with single-class variation only: {[short(e) for e in ENTITY_ORDER if e != REF and col_name(e) in ord_sep]}.",
         "",
