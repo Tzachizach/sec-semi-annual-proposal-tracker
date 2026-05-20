@@ -503,13 +503,13 @@ __TRAVEL_NOTICE__
     </dl>
 
     <div style="margin-top:14px; padding-top:12px; border-top: 0.5px solid rgba(0,0,0,0.08);">
-      <strong>Agreement across the three raters (N = 283):</strong>
+      <strong>Agreement across the three raters (N = 287):</strong>
       <ul style="margin: 6px 0 0; padding-left: 20px; color: #444;">
-        <li>Unanimous: 264 (93.3%)</li>
-        <li>2-of-3 majority: 19 (6.7%)</li>
-        <li>Fleiss' κ: 0.873</li>
+        <li>Unanimous: 267 (93.0%)</li>
+        <li>2-of-3 majority: 20 (7.0%)</li>
+        <li>Fleiss' κ: 0.870</li>
       </ul>
-      <p style="margin: 8px 0 0; color: #666; font-size: 12px;">Substantially higher agreement than the stance ensemble (κ = 0.587). Majority headline distribution: Individual 222 / Accountant (CPA) 13 / Industry practitioner 12 / Investment professional 11 / Issuer-current 10 / Academic researcher 7 / Issuer-former 6 / Student 2.</p>
+      <p style="margin: 8px 0 0; color: #666; font-size: 12px;">Substantially higher agreement than the stance ensemble (κ = 0.590). Majority headline distribution: Individual 224 / Accountant (CPA) 13 / Industry practitioner 13 / Investment professional 11 / Issuer-current 10 / Academic researcher 7 / Issuer-former 7 / Student 2.</p>
     </div>
 
     <div style="margin-top:14px; padding-top:12px; border-top: 0.5px solid rgba(0,0,0,0.08);">
@@ -549,19 +549,19 @@ __TRAVEL_NOTICE__
     </div>
 
     <div style="margin-top: 14px;">
-      <strong>Agreement across the three raters (N = 283):</strong>
+      <strong>Agreement across the three raters (N = 287):</strong>
       <ul style="margin: 6px 0 0; padding-left: 20px; color: #444;">
-        <li>Unanimous (all three raters produced identical code sets): 156 (55.1%)</li>
-        <li>2-of-3 majority: 108 (38.2%)</li>
-        <li>Split (three different code sets): 19 (6.7%)</li>
-        <li>Mean per-code Cohen's κ across pairs: <strong>0.843</strong>. Substantial agreement, in line with multi-prompt LLM-annotation benchmarks.</li>
+        <li>Unanimous (all three raters produced identical code sets): 157 (54.7%)</li>
+        <li>2-of-3 majority: 110 (38.3%)</li>
+        <li>Split (three different code sets): 20 (7.0%)</li>
+        <li>Mean per-code Cohen's κ across pairs: <strong>0.844</strong>. Substantial agreement, in line with multi-prompt LLM-annotation benchmarks.</li>
       </ul>
     </div>
 
     <div style="margin-top: 14px;">
       <strong>Per-code Cohen's κ</strong> (binary code-present vs absent, mean across the three pairwise comparisons). Surface-readable codes have high κ; inferential codes have lower κ. The methodology surfaces the structure of the taxonomy.
       <div style="margin: 8px 0 0; padding: 10px 12px; background: #f7f5ef; border-radius: 6px; font-size: 12px; line-height: 1.6; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; color: #2a2a2a;">
-        ICc&nbsp;1.00 · CC&nbsp;1.00 · ICs&nbsp;1.00 · US&nbsp;0.93 · FR&nbsp;0.93 · EX&nbsp;0.93 · OP&nbsp;0.92 · AL&nbsp;0.92 · ST&nbsp;0.91 · NR&nbsp;0.88 · LE&nbsp;0.88 · CB&nbsp;0.87 · MF&nbsp;0.86 · IP&nbsp;0.84 · IA&nbsp;0.84 · CMP&nbsp;0.82 · AU&nbsp;0.78 · RI&nbsp;0.69 · SG&nbsp;0.65 · OV&nbsp;0.22
+        ICc&nbsp;1.00 · CC&nbsp;1.00 · ICs&nbsp;1.00 · US&nbsp;0.94 · FR&nbsp;0.93 · AL&nbsp;0.92 · OP&nbsp;0.92 · EX&nbsp;0.91 · ST&nbsp;0.91 · LE&nbsp;0.89 · CB&nbsp;0.87 · NR&nbsp;0.87 · MF&nbsp;0.86 · IP&nbsp;0.84 · CMP&nbsp;0.83 · IA&nbsp;0.83 · AU&nbsp;0.79 · RI&nbsp;0.70 · SG&nbsp;0.65 · OV&nbsp;0.22
       </div>
       <p style="margin: 8px 0 0; color: #666; font-size: 12px;">OV (option value) sits near the floor on only 2 invocations across the corpus. SG (signaling) also has only 2 invocations. CC (contractual constraints) has 3. The taxonomy's reliability scales with code frequency.</p>
     </div>
