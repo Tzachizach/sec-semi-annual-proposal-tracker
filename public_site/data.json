@@ -1577,15 +1577,15 @@
     "n": 82,
     "page": 1,
     "date": "2026-05-09",
-    "name": "Mike Dattilo",
-    "role": "Senior Financial Manager, FP&A, NBCUniversal",
-    "entity": "Issuer / Corporate \u2014 current",
+    "name": "Anonymous",
+    "role": "Individual",
+    "entity": "Individual",
     "stance": "Conditional",
     "primary": "Conditional",
     "literalist": "Oppose",
     "skeptic": "Conditional",
     "agreement": "majority",
-    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-772307-2363854.html",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-772307-2363854_0.html",
     "words": 256,
     "rationales": [
       "AL",
@@ -5214,6 +5214,128 @@
       "ST",
       "ICs",
       "CB"
+    ]
+  },
+  {
+    "n": 270,
+    "page": 1,
+    "date": "2026-05-19",
+    "name": "Walter",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Conditional",
+    "agreement": "majority",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-783287-2381614.html",
+    "words": 118,
+    "rationales": [
+      "IP",
+      "MF",
+      "AL",
+      "CB"
+    ]
+  },
+  {
+    "n": 271,
+    "page": 2,
+    "date": "2026-05-17",
+    "name": "Thomas Bourveau",
+    "role": "Professor of Accounting, Sa\u00efd Business School, University of Oxford",
+    "entity": "Academic researcher",
+    "stance": "Conditional",
+    "primary": "Support",
+    "literalist": "Conditional",
+    "skeptic": "Conditional",
+    "agreement": "majority",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-780907-2377334.pdf",
+    "words": 1160,
+    "rationales": [
+      "IA",
+      "EX",
+      "CB",
+      "IP",
+      "AL",
+      "OP",
+      "ICs"
+    ]
+  },
+  {
+    "n": 272,
+    "page": 2,
+    "date": "2026-05-17",
+    "name": "Susanna Maria Harper",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-780887-2377274.html",
+    "words": 97,
+    "rationales": [
+      "FR",
+      "IP"
+    ]
+  },
+  {
+    "n": 273,
+    "page": 2,
+    "date": "2026-05-17",
+    "name": "Theresa winbush",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-780827-2377094.html",
+    "words": 11,
+    "rationales": [
+      "NR"
+    ]
+  },
+  {
+    "n": 274,
+    "page": 2,
+    "date": "2026-05-17",
+    "name": "Zachary Luzier",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-780647-2376814.html",
+    "words": 35,
+    "rationales": [
+      "IA",
+      "IP"
+    ]
+  },
+  {
+    "n": 275,
+    "page": 9,
+    "date": "2026-05-06",
+    "name": "Chris Kearns",
+    "role": "Self-directed retail investor and software developer (RigidBody Tech LLC)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-770147-2359394.pdf",
+    "words": 330,
+    "rationales": [
+      "IA",
+      "IP",
+      "CB",
+      "MF"
     ]
   }
 ]
