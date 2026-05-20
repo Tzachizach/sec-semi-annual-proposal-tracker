@@ -5337,5 +5337,196 @@
       "CB",
       "MF"
     ]
+  },
+  {
+    "n": 276,
+    "page": 1,
+    "date": "2026-05-20",
+    "name": "Bonnie Sears",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-783667-2382295.html",
+    "words": 10,
+    "rationales": [
+      "NR"
+    ]
+  },
+  {
+    "n": 277,
+    "page": 1,
+    "date": "2026-05-20",
+    "name": "David N. Abernathy",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-783787-2382674.html",
+    "words": 22,
+    "rationales": [
+      "IP"
+    ]
+  },
+  {
+    "n": 278,
+    "page": 1,
+    "date": "2026-05-20",
+    "name": "Fred Scialabba",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-783607-2382195.html",
+    "words": 10,
+    "rationales": [
+      "NR"
+    ]
+  },
+  {
+    "n": 279,
+    "page": 1,
+    "date": "2026-05-20",
+    "name": "James Parker",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-783747-2382634.pdf",
+    "words": 410,
+    "rationales": [
+      "FR",
+      "IA",
+      "IP",
+      "MF"
+    ]
+  },
+  {
+    "n": 280,
+    "page": 1,
+    "date": "2026-05-20",
+    "name": "Shawn Lyon",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Conditional",
+    "agreement": "majority",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-783587-2382194.html",
+    "words": 34,
+    "rationales": [
+      "MF"
+    ]
+  },
+  {
+    "n": 281,
+    "page": 1,
+    "date": "2026-05-19",
+    "name": "Daniel Flatley",
+    "role": "Retired Managing Director DLJ and Credit Suisse, Retired Partner Masthead Investment Partners, Retired Chairman, Lumeta ",
+    "entity": "Investment professional",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Conditional",
+    "agreement": "majority",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-783547-2382074.html",
+    "words": 48,
+    "rationales": [
+      "AL",
+      "CB",
+      "IP"
+    ]
+  },
+  {
+    "n": 282,
+    "page": 1,
+    "date": "2026-05-19",
+    "name": "Dr. Fahim Mazumdar",
+    "role": "Professor of Accounting, Yavapai College",
+    "entity": "Academic researcher",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-783467-2381954.html",
+    "words": 283,
+    "rationales": [
+      "FR",
+      "IA",
+      "IP",
+      "MF"
+    ]
+  },
+  {
+    "n": 283,
+    "page": 1,
+    "date": "2026-05-19",
+    "name": "Josh Miller",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-783447-2381794.html",
+    "words": 55,
+    "rationales": [
+      "CB",
+      "RI"
+    ]
+  },
+  {
+    "n": 284,
+    "page": 1,
+    "date": "2026-05-19",
+    "name": "Russ Nickel",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-783347-2381714_0.html",
+    "words": 4,
+    "rationales": [
+      "NR"
+    ]
+  },
+  {
+    "n": 285,
+    "page": 1,
+    "date": "2026-05-19",
+    "name": "William Martin",
+    "role": "Individual",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-783427-2381774.html",
+    "words": 20,
+    "rationales": [
+      "AU",
+      "IP",
+      "MF"
+    ]
   }
 ]
