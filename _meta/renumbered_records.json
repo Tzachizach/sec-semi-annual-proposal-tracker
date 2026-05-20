@@ -487,16 +487,16 @@
     "page": 1,
     "old_n": 41,
     "words": 331,
-    "entity": "Issuer / Corporate \u2014 former",
+    "entity": "Issuer / Corporate — former",
     "primary_stance": "Conditional",
     "literalist_stance": "Oppose",
     "skeptic_stance": "Conditional",
     "majority_stance": "Conditional",
     "agreement": "majority",
     "entity_primary": "Industry practitioner / technologist",
-    "entity_selfdescribed": "Issuer / Corporate \u2014 former",
-    "entity_letterhead": "Issuer / Corporate \u2014 former",
-    "entity_majority": "Issuer / Corporate \u2014 former",
+    "entity_selfdescribed": "Issuer / Corporate — former",
+    "entity_letterhead": "Issuer / Corporate — former",
+    "entity_majority": "Issuer / Corporate — former",
     "entity_agreement": "majority",
     "rationales": [
       "AL"
@@ -580,16 +580,16 @@
     "page": 1,
     "old_n": 43,
     "words": 331,
-    "entity": "Issuer / Corporate \u2014 current",
+    "entity": "Issuer / Corporate — current",
     "primary_stance": "Oppose",
     "literalist_stance": "Oppose",
     "skeptic_stance": "Conditional",
     "majority_stance": "Oppose",
     "agreement": "majority",
-    "entity_primary": "Issuer / Corporate \u2014 current",
+    "entity_primary": "Issuer / Corporate — current",
     "entity_selfdescribed": "Accountant (CPA)",
-    "entity_letterhead": "Issuer / Corporate \u2014 current",
-    "entity_majority": "Issuer / Corporate \u2014 current",
+    "entity_letterhead": "Issuer / Corporate — current",
+    "entity_majority": "Issuer / Corporate — current",
     "entity_agreement": "majority",
     "rationales": [
       "AU",
@@ -623,7 +623,7 @@
     "role": "William D. Warren Distinguished Professor of Law, UCLA School of Law (individual capacity)",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-771207-2361214.pdf",
     "stance": "Support",
-    "summary": "Substantive scholarly support letter from William D. Warren Distinguished Professor of Law at UCLA (writing in individual capacity), based on decades of research on corporate governance and the mandatory-disclosure system. Supports the optional 10-S framework. Core arguments: (1) the theoretical foundation for mandatory quarterly reporting is weak \u2014 the public-goods, externalities, and information-asymmetry rationales are all contested; (2) market and reputational forces produce substantial voluntary disclosure even without mandates (private placements, foreign issuers); (3) the Adyen case demonstrates that companies whose investors genuinely want quarterly information will provide it voluntarily \u2014 investor pressure forced Adyen back from semi-annual to quarterly updates without any mandate; (4) a universal semi-annual mandate would override that market signal and impose investor welfare losses; (5) European semi-annual experience does not show the stigma or adverse-selection signaling effect critics warn about; (6) optionality functions as a useful natural experiment for the Commission to observe.",
+    "summary": "Substantive scholarly support letter from William D. Warren Distinguished Professor of Law at UCLA (writing in individual capacity), based on decades of research on corporate governance and the mandatory-disclosure system. Supports the optional 10-S framework. Core arguments: (1) the theoretical foundation for mandatory quarterly reporting is weak — the public-goods, externalities, and information-asymmetry rationales are all contested; (2) market and reputational forces produce substantial voluntary disclosure even without mandates (private placements, foreign issuers); (3) the Adyen case demonstrates that companies whose investors genuinely want quarterly information will provide it voluntarily — investor pressure forced Adyen back from semi-annual to quarterly updates without any mandate; (4) a universal semi-annual mandate would override that market signal and impose investor welfare losses; (5) European semi-annual experience does not show the stigma or adverse-selection signaling effect critics warn about; (6) optionality functions as a useful natural experiment for the Commission to observe.",
     "page": 1,
     "old_n": 44,
     "words": 6962,
@@ -1079,16 +1079,16 @@
     "page": 1,
     "old_n": 9,
     "words": 75,
-    "entity": "Issuer / Corporate \u2014 former",
+    "entity": "Issuer / Corporate — former",
     "primary_stance": "Oppose",
     "literalist_stance": "Oppose",
     "skeptic_stance": "Oppose",
     "majority_stance": "Oppose",
     "agreement": "unanimous",
-    "entity_primary": "Issuer / Corporate \u2014 former",
-    "entity_selfdescribed": "Issuer / Corporate \u2014 former",
-    "entity_letterhead": "Issuer / Corporate \u2014 former",
-    "entity_majority": "Issuer / Corporate \u2014 former",
+    "entity_primary": "Issuer / Corporate — former",
+    "entity_selfdescribed": "Issuer / Corporate — former",
+    "entity_letterhead": "Issuer / Corporate — former",
+    "entity_majority": "Issuer / Corporate — former",
     "entity_agreement": "unanimous",
     "rationales": [
       "FR",
@@ -1164,16 +1164,16 @@
     "page": 1,
     "old_n": 45,
     "words": 500,
-    "entity": "Issuer / Corporate \u2014 current",
+    "entity": "Issuer / Corporate — current",
     "primary_stance": "Support",
     "literalist_stance": "Conditional",
     "skeptic_stance": "Conditional",
     "majority_stance": "Conditional",
     "agreement": "majority",
     "entity_primary": "Industry practitioner / technologist",
-    "entity_selfdescribed": "Issuer / Corporate \u2014 current",
-    "entity_letterhead": "Issuer / Corporate \u2014 current",
-    "entity_majority": "Issuer / Corporate \u2014 current",
+    "entity_selfdescribed": "Issuer / Corporate — current",
+    "entity_letterhead": "Issuer / Corporate — current",
+    "entity_majority": "Issuer / Corporate — current",
     "entity_agreement": "majority",
     "rationales": [
       "OP"
@@ -1870,8 +1870,8 @@
     "role": "Academic (PhD)",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-770167-2359454.pdf",
     "stance": "Oppose",
-    "summary": "Long structured opposition with five points: (1) quarterly reporting is the market's 'heartbeat' and semiannual would create informational dead zones, raising volatility; (2) larger gaps advantage insiders/institutions and raise insider-trading risk; (3) the regulatory-burden argument is technologically obsolete in 2026 (generative AI, XBRL automation, real-time ERP); (4) an 'optional' framework bifurcates the market and creates a transparency discount that raises cost of capital for semiannual filers; (5) no empirical evidence that lower cadence improves long-termism \u2014 that's driven by corporate culture and exec comp.",
-    "body": "[PDF letter \u2014 content not extracted via fetch.]",
+    "summary": "Long structured opposition with five points: (1) quarterly reporting is the market's 'heartbeat' and semiannual would create informational dead zones, raising volatility; (2) larger gaps advantage insiders/institutions and raise insider-trading risk; (3) the regulatory-burden argument is technologically obsolete in 2026 (generative AI, XBRL automation, real-time ERP); (4) an 'optional' framework bifurcates the market and creates a transparency discount that raises cost of capital for semiannual filers; (5) no empirical evidence that lower cadence improves long-termism — that's driven by corporate culture and exec comp.",
+    "body": "[PDF letter — content not extracted via fetch.]",
     "n": 40,
     "page": 2,
     "old_n": "P2N",
@@ -1997,16 +1997,16 @@
     "page": 2,
     "old_n": 22,
     "words": 74,
-    "entity": "Issuer / Corporate \u2014 former",
+    "entity": "Issuer / Corporate — former",
     "primary_stance": "Oppose",
     "literalist_stance": "Oppose",
     "skeptic_stance": "Oppose",
     "majority_stance": "Oppose",
     "agreement": "unanimous",
-    "entity_primary": "Issuer / Corporate \u2014 former",
-    "entity_selfdescribed": "Issuer / Corporate \u2014 former",
-    "entity_letterhead": "Issuer / Corporate \u2014 former",
-    "entity_majority": "Issuer / Corporate \u2014 former",
+    "entity_primary": "Issuer / Corporate — former",
+    "entity_selfdescribed": "Issuer / Corporate — former",
+    "entity_letterhead": "Issuer / Corporate — former",
+    "entity_majority": "Issuer / Corporate — former",
     "entity_agreement": "unanimous",
     "rationales": [
       "ST",
@@ -2229,7 +2229,7 @@
     "url": "https://www.sec.gov/comments/s7-2026-15/s7202615-768447-2357054.html",
     "stance": "Oppose",
     "summary": "Long structured opposition. Six points: SEC mandate is investor protection and the proposal moves the wrong way; less frequency causes overreaction and more volatility (cites academic research); 2008 lessons argue for more disclosure not less; 'optional' becomes the floor as larger firms adopt and smaller firms follow; cost-burden argument shifts risk from issuers to investors; quarterly reporting shortens the window for fraud to go undetected.",
-    "body": "I am submitting this comment in strong opposition to the proposed amendments that would allow public companies to file semiannual reports in lieu of quarterly reports on Form 10-Q.\n\nThe SEC's mandate is investor protection. This proposal moves in the opposite direction.\nReduced transparency increases investor risk. Quarterly reporting gives investors, analysts, and the market timely signals to price risk accurately.\n\nMoving to semiannual reporting creates a six-month information vacuum. Academic research has documented that reduced reporting frequency leads investors to overreact to peer-company earnings, overcorrect when reports do arrive, and experience greater price volatility \u2014 not less. Less transparency does not produce more efficient markets. It produces less efficient ones.\n\nThe 2008 financial crisis is not ancient history. The systemic failures that nearly collapsed the global economy were enabled by opacity, inadequate disclosure, and insufficient oversight of corporate financial conditions. The regulatory response to that crisis was built on the premise that investors need more information, more frequently \u2014 not less. We have not resolved the structural vulnerabilities that made that crisis possible. Loosening disclosure requirements now is not reform. It is regression.\n\n\"Optional\" frameworks erode in practice. Framing this as voluntary flexibility understates the real-world dynamics. When large-cap companies adopt semiannual reporting, smaller firms face pressure to follow to reduce compliance costs. What begins as an option becomes the floor. Investor protections are weakened for the entire market, not just the companies that elect the new cadence.\n\nCompliance cost arguments do not justify the tradeoff. The burden-reduction case rests on the costs to companies. The SEC's obligation runs to investors, not issuers. Shifting that cost onto investors \u2014 in the form of information asymmetry, increased risk, and reduced ability to make informed decisions \u2014 is not a net regulatory benefit. It is a transfer of risk from corporations to the public.\n\nThe SEC should be strengthening oversight, not contracting it. Bad actors exist in public markets. They always have. Quarterly reporting does not prevent fraud, but it shortens the window in which fraud can go undetected. Extending that window by six months is a gift to those who exploit information gaps.\n\nI urge the Commission to reject this proposal and reaffirm its commitment to the transparency standards that have distinguished U.S. capital markets for over five decades.",
+    "body": "I am submitting this comment in strong opposition to the proposed amendments that would allow public companies to file semiannual reports in lieu of quarterly reports on Form 10-Q.\n\nThe SEC's mandate is investor protection. This proposal moves in the opposite direction.\nReduced transparency increases investor risk. Quarterly reporting gives investors, analysts, and the market timely signals to price risk accurately.\n\nMoving to semiannual reporting creates a six-month information vacuum. Academic research has documented that reduced reporting frequency leads investors to overreact to peer-company earnings, overcorrect when reports do arrive, and experience greater price volatility — not less. Less transparency does not produce more efficient markets. It produces less efficient ones.\n\nThe 2008 financial crisis is not ancient history. The systemic failures that nearly collapsed the global economy were enabled by opacity, inadequate disclosure, and insufficient oversight of corporate financial conditions. The regulatory response to that crisis was built on the premise that investors need more information, more frequently — not less. We have not resolved the structural vulnerabilities that made that crisis possible. Loosening disclosure requirements now is not reform. It is regression.\n\n\"Optional\" frameworks erode in practice. Framing this as voluntary flexibility understates the real-world dynamics. When large-cap companies adopt semiannual reporting, smaller firms face pressure to follow to reduce compliance costs. What begins as an option becomes the floor. Investor protections are weakened for the entire market, not just the companies that elect the new cadence.\n\nCompliance cost arguments do not justify the tradeoff. The burden-reduction case rests on the costs to companies. The SEC's obligation runs to investors, not issuers. Shifting that cost onto investors — in the form of information asymmetry, increased risk, and reduced ability to make informed decisions — is not a net regulatory benefit. It is a transfer of risk from corporations to the public.\n\nThe SEC should be strengthening oversight, not contracting it. Bad actors exist in public markets. They always have. Quarterly reporting does not prevent fraud, but it shortens the window in which fraud can go undetected. Extending that window by six months is a gift to those who exploit information gaps.\n\nI urge the Commission to reject this proposal and reaffirm its commitment to the transparency standards that have distinguished U.S. capital markets for over five decades.",
     "page": 2,
     "old_n": 27,
     "words": 375,
@@ -2479,22 +2479,22 @@
     "role": "Board Member and Audit Chair, Jerash Holdings (US) Inc.; Board Member and former CFO of CareCloud, Inc.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768367-2356874.html",
     "stance": "Conditional",
-    "summary": "Notable issuer-side voice \u2014 public-company audit chair and former CFO. Acknowledges the appeal of semiannual for many issuers but says investors are better served, and boards do a more effective job, with quarterly. If the rule passes, proposes relaxing the quarterly filing deadline (60 days post-quarter rather than 40-45 days) to encourage smaller filers to stay quarterly rather than elect 10-S.",
+    "summary": "Notable issuer-side voice — public-company audit chair and former CFO. Acknowledges the appeal of semiannual for many issuers but says investors are better served, and boards do a more effective job, with quarterly. If the rule passes, proposes relaxing the quarterly filing deadline (60 days post-quarter rather than 40-45 days) to encourage smaller filers to stay quarterly rather than elect 10-S.",
     "body": "Subject: File No. S7-2026-15\nFrom: Bill Korn\n\nWhile I see the appeal for many issuers of only reporting twice a year, investors are better served with quarterly reporting, and the Board can do a more effective job of assessing performance with quarterly reports.\n\nIf we allow issuers the option of choosing semi-annual reporting, it would be helpful to relax the timeframe for reporting if they choose to stay with quarterly. I would rather see a quarterly report 60 days after quarter-end then wait for a semiannual report 40 or 45 days after the end of the half. Especially for smaller reporting companies, a little extra time might encourage them to stay with quarterly reports.",
     "n": 52,
     "page": 2,
     "old_n": "P2N",
     "words": 110,
-    "entity": "Issuer / Corporate \u2014 current",
+    "entity": "Issuer / Corporate — current",
     "primary_stance": "Conditional",
     "literalist_stance": "Oppose",
     "skeptic_stance": "Conditional",
     "majority_stance": "Conditional",
     "agreement": "majority",
-    "entity_primary": "Issuer / Corporate \u2014 current",
-    "entity_selfdescribed": "Issuer / Corporate \u2014 current",
-    "entity_letterhead": "Issuer / Corporate \u2014 current",
-    "entity_majority": "Issuer / Corporate \u2014 current",
+    "entity_primary": "Issuer / Corporate — current",
+    "entity_selfdescribed": "Issuer / Corporate — current",
+    "entity_letterhead": "Issuer / Corporate — current",
+    "entity_majority": "Issuer / Corporate — current",
     "entity_agreement": "unanimous",
     "rationales": [
       "AL"
@@ -2521,7 +2521,7 @@
     "role": "Individual",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2356474.htm",
     "stance": "Oppose",
-    "summary": "Cites Singapore as a cautionary tale: after implementing semiannual reporting years ago, disclosure quality and transparency suffered, trading volume dwindled, and valuations fell \u2014 Singapore is now trying to encourage quarterly updates again. Frames easier reporting as 'a loser mentality' and rejects the framing that companies can't cope. Also flags information-flow asymmetry favoring institutions with direct executive access.",
+    "summary": "Cites Singapore as a cautionary tale: after implementing semiannual reporting years ago, disclosure quality and transparency suffered, trading volume dwindled, and valuations fell — Singapore is now trying to encourage quarterly updates again. Frames easier reporting as 'a loser mentality' and rejects the framing that companies can't cope. Also flags information-flow asymmetry favoring institutions with direct executive access.",
     "body": "Subject: S7-2026-15: Webform Comments from CH Young\nFrom: CH Young\n\nThis is a very bad idea. Singapore implemented semiannual reporting years ago. The result is company's disclosure became worse, transparency suffered, trading volume dwindled and valuations suffered. Now it is trying to encourage quarterly updates. Making it easy for companies is finding a wrong shortcut and a loser mentality. Companies are well aware of all obligations as public companies. They shouldn't list if they find it onerous. Don't come into the game if they can't cope. You don't get good players by making things easier. Also, it will skew the information dissemination to institutional investors who have direct access to key executives of companies, which is to the disadvantage of retail investors.",
     "n": 53,
     "page": 2,
@@ -2667,7 +2667,7 @@
     "role": "Bach Financial Literacy Consulting",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768147-2356714.html",
     "stance": "Oppose",
-    "summary": "Two-point opposition from a financial-literacy consultant. (1) Less transparency increases uncertainty, leading to less trading and greater volatility, which lowers stock prices and creates a downward cycle. (2) Companies should not bite the hand that feeds them \u2014 upset investors may not support future financing needs.",
+    "summary": "Two-point opposition from a financial-literacy consultant. (1) Less transparency increases uncertainty, leading to less trading and greater volatility, which lowers stock prices and creates a downward cycle. (2) Companies should not bite the hand that feeds them — upset investors may not support future financing needs.",
     "body": "Subject: File No. S7-2026-15\nFrom: David Bach\n\nSir or Madam: Two reasons to avoid semi-annual reporting. (1) Less transparency leads to more uncertainly, which leads to less trading and greater volatility. This increased risk will lower stock prices. That upsets investors, leading to further less trading. The downward cycle continues. (2) Companies should not bite the hand that feeds them. Upset investors may not support the companies' future funding needs.",
     "n": 56,
     "page": 2,
@@ -2769,7 +2769,7 @@
     "role": "Individual investor and member of the public",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2356554.htm",
     "stance": "Oppose",
-    "summary": "Long structured opposition with five points. Frames the proposal as inverting SEC priorities (corporate convenience over investor access). Cites academic research on UK/EU semiannual experiments showing increased volatility, investor overreaction in absence of own-firm disclosures, and overcorrection when reports finally arrive. Argues retail investors bear the cost (institutions have alternative channels). Says Form 8-K is not an adequate substitute (management-discretionary, non-standardized). And argues 'optional' framing obscures aggregate harm \u2014 companies most likely to elect 10-S are smaller, less-covered firms where retail exposure is highest. Suggests targeted alternatives like streamlining 10-Q content or extending non-accelerated-filer deadlines.",
+    "summary": "Long structured opposition with five points. Frames the proposal as inverting SEC priorities (corporate convenience over investor access). Cites academic research on UK/EU semiannual experiments showing increased volatility, investor overreaction in absence of own-firm disclosures, and overcorrection when reports finally arrive. Argues retail investors bear the cost (institutions have alternative channels). Says Form 8-K is not an adequate substitute (management-discretionary, non-standardized). And argues 'optional' framing obscures aggregate harm — companies most likely to elect 10-S are smaller, less-covered firms where retail exposure is highest. Suggests targeted alternatives like streamlining 10-Q content or extending non-accelerated-filer deadlines.",
     "body": "Subject: S7-2026-15: Webform Comments from Henggao Cai\nFrom: Henggao Cai\n\nI am submitting this comment as an individual investor and member of the public. I write in strong opposition to this proposal. While framed as a modernization of an outdated framework, this rule would, in practice, reduce the flow of standardized financial information that retail investors depend on to make decisions and it would do so for the primary benefit of corporate management teams, not the investors the Commission is charged with protecting.\n\nThe SEC's core mandate under the Securities Exchange Act is to protect investors, maintain fair and orderly markets, and facilitate capital formation. This proposal inverts that priority. It privileges corporate convenience over investor access, and it does so without credible evidence that quarterly reporting is actually causing the harms its critics claim.\n\nThe short-term argument does not hold up. The central justification for this rule is that quarterly reporting forces managers into short-term decision-making. This argument has been repeated for years by executives and lobbyists, but the empirical record does not support it. Academic research examining companies that shifted to semiannual reporting in the UK and EU found no meaningful improvement in long-term investment behavior. What it did find was increased stock price volatility, investor overreaction in the absence of own-firm disclosures, and overcorrection when semiannual reports finally arrived. The Commission is proposing to restructure a 50-year disclosure regime based on a premise that peer-reviewed research has already substantially undermined.\n\nRetail investors will bear the cost of this rule. Institutional investors, hedge funds, and company insiders do not depend on quarterly 10-Q filings the way retail investors do. They have access to earnings calls, analyst relationships, roadshows, and proprietary data services. Retail investors, the people this agency exists to protect, rely on standardized, mandatory disclosures as their primary window into how a company is actually performing. Doubling the gap between those disclosures from three months to six creates a structural information advantage for sophisticated participants and leaves ordinary investors operating on assumptions for longer periods. This is not a theoretical concern. It is a predictable and documented outcome.\n\nThe Form 8-K backstop is not an adequate substitute. The proposal appears to rely on current-event 8-K filings to bridge the information gap between semiannual reports. But 8-K filings are management-discretionary, non-standardized, and cannot substitute for the systematic financial data, such as revenue, earnings, cash flow, balance sheet changes that Form 10-Q requires. A company that elects semiannual reporting could go six months without giving investors a standardized, auditable view of its financial condition, entirely within the rules as proposed.\n\nThe \"optional\" framing obscures the aggregate harm. Because this is presented as a voluntary election, proponents argue that market forces will discipline companies that reduce disclosure. That argument fails for several reasons. First, retail investors often cannot easily identify which companies have switched to semiannual reporting or understand the implications when they do. Second, the companies most likely to elect semiannual reporting are smaller, less-covered firms where information is already scarce, which is precisely where retail investors are most exposed. Third, once semiannual reporting becomes normalized, investor expectations will adjust downward and the transparency premium will erode.\n\nI urge the Commission to withdraw this proposal. If the Commission is genuinely concerned about compliance costs for smaller issuers, there are targeted ways to address that and streamlining the content requirements of Form 10-Q, extending filing deadlines for non-accelerated filers, or providing technical assistance without eliminating the quarterly disclosure cadence that has underpinned market confidence for over half a century.\n\nFlexibility is not a regulatory virtue when the costs fall on those with the least access to alternative information. I ask the Commission to reject this rule and reaffirm its commitment to investor protection as its primary obligation.\n\nThank you for considering this comment.\nHenggao Cai",
     "n": 58,
     "page": 2,
@@ -2899,16 +2899,16 @@
     "page": 2,
     "old_n": "P2N",
     "words": 83,
-    "entity": "Issuer / Corporate \u2014 former",
+    "entity": "Issuer / Corporate — former",
     "primary_stance": "Oppose",
     "literalist_stance": "Oppose",
     "skeptic_stance": "Conditional",
     "majority_stance": "Oppose",
     "agreement": "majority",
     "entity_primary": "Individual",
-    "entity_selfdescribed": "Issuer / Corporate \u2014 former",
-    "entity_letterhead": "Issuer / Corporate \u2014 former",
-    "entity_majority": "Issuer / Corporate \u2014 former",
+    "entity_selfdescribed": "Issuer / Corporate — former",
+    "entity_letterhead": "Issuer / Corporate — former",
+    "entity_majority": "Issuer / Corporate — former",
     "entity_agreement": "majority",
     "rationales": [
       "CB",
@@ -2986,16 +2986,16 @@
     "page": 3,
     "old_n": "P3",
     "words": 84,
-    "entity": "Issuer / Corporate \u2014 former",
+    "entity": "Issuer / Corporate — former",
     "primary_stance": "Oppose",
     "literalist_stance": "Oppose",
     "skeptic_stance": "Oppose",
     "majority_stance": "Oppose",
     "agreement": "unanimous",
     "entity_primary": "Individual",
-    "entity_selfdescribed": "Issuer / Corporate \u2014 former",
-    "entity_letterhead": "Issuer / Corporate \u2014 former",
-    "entity_majority": "Issuer / Corporate \u2014 former",
+    "entity_selfdescribed": "Issuer / Corporate — former",
+    "entity_letterhead": "Issuer / Corporate — former",
+    "entity_majority": "Issuer / Corporate — former",
     "entity_agreement": "majority",
     "rationales": [
       "ST",
@@ -3181,16 +3181,16 @@
     "page": 3,
     "old_n": "P3",
     "words": 38,
-    "entity": "Issuer / Corporate \u2014 current",
+    "entity": "Issuer / Corporate — current",
     "primary_stance": "Support",
     "literalist_stance": "Support",
     "skeptic_stance": "Support",
     "majority_stance": "Support",
     "agreement": "unanimous",
-    "entity_primary": "Issuer / Corporate \u2014 current",
-    "entity_selfdescribed": "Issuer / Corporate \u2014 current",
-    "entity_letterhead": "Issuer / Corporate \u2014 current",
-    "entity_majority": "Issuer / Corporate \u2014 current",
+    "entity_primary": "Issuer / Corporate — current",
+    "entity_selfdescribed": "Issuer / Corporate — current",
+    "entity_letterhead": "Issuer / Corporate — current",
+    "entity_majority": "Issuer / Corporate — current",
     "entity_agreement": "unanimous",
     "rationales": [
       "OP"
@@ -3432,8 +3432,8 @@
     "role": "Investment professional / advisor",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768488-2357114.html",
     "stance": "Oppose",
-    "summary": "Long structured opposition with four points. (1) Information gaps create pricing inefficiencies and risk; six months without auditor-reviewed data is 'blind flying' for individuals. (2) 'Optional' won't stay optional and the wrong companies will opt in: adverse selection \u2014 companies with deteriorating margins or rising debt are most motivated to elect 10-S, skewing the universe toward elevated opacity risk. (3) Undermines earnings-based risk management \u2014 working capital trends, debt covenant headroom, segment performance, and management guidance credibility all become harder. (4) Market-efficiency argument cuts the other way: a two-tier system fragments information flow; semiannual filers will likely trade at a permanent information-risk discount.",
-    "body": "Subject: File No. S7-2026-15\nFrom: Peter Ford\n\n1. Information gaps create pricing inefficiencies and risk. Quarterly earnings have been the bedrock of fundamental analysis for decades. Cutting reporting to twice a year means investors go six months without an auditor-reviewed financial picture of a company. For individual investors, that's blind flying. For advisors managing client portfolios, it means extended periods where you simply don't know if the thesis on a position has changed. Professional advisors who rely on 10-Q data for position monitoring, valuation updates, and risk flagging would face a material degradation in signal quality.\n\n2. \"Optional\" won't stay optional for long and the wrong companies will opt in. The framing as optional makes this sound benign. But in practice, companies with something to hide between periods. Those with deteriorating margins, rising debt, operational problems are the most motivated to elect semiannual filing. High-quality, stable businesses have little to gain. This creates adverse selection: the universe of semiannual filers will be skewed toward companies with elevated opacity risk, right at the moment investors have less visibility.\n\n3. It undermines earnings-based risk management. Professional advisors use quarterly filings for far more than earnings: they track working capital trends, debt covenant headroom, revenue seasonality, segment-level performance, and management guidance credibility. A six-month gap makes all of this harder. Sector-sensitive portfolios where conditions shift materially quarter to quarter would be particularly exposed.\n\n4. The market efficiency argument cuts the other way. Proponents (echoing Chairman Atkins' language about companies determining \"the interim reporting frequency that best serves their business needs\") frame this as reducing burden. But capital markets are efficient because information flows continuously and uniformly. Allowing a two-tier system fragments that. Stocks of semiannual filers would likely trade at a discount \u2014 a permanent information-risk premium, which ironically hurts the very companies that elect the option.",
+    "summary": "Long structured opposition with four points. (1) Information gaps create pricing inefficiencies and risk; six months without auditor-reviewed data is 'blind flying' for individuals. (2) 'Optional' won't stay optional and the wrong companies will opt in: adverse selection — companies with deteriorating margins or rising debt are most motivated to elect 10-S, skewing the universe toward elevated opacity risk. (3) Undermines earnings-based risk management — working capital trends, debt covenant headroom, segment performance, and management guidance credibility all become harder. (4) Market-efficiency argument cuts the other way: a two-tier system fragments information flow; semiannual filers will likely trade at a permanent information-risk discount.",
+    "body": "Subject: File No. S7-2026-15\nFrom: Peter Ford\n\n1. Information gaps create pricing inefficiencies and risk. Quarterly earnings have been the bedrock of fundamental analysis for decades. Cutting reporting to twice a year means investors go six months without an auditor-reviewed financial picture of a company. For individual investors, that's blind flying. For advisors managing client portfolios, it means extended periods where you simply don't know if the thesis on a position has changed. Professional advisors who rely on 10-Q data for position monitoring, valuation updates, and risk flagging would face a material degradation in signal quality.\n\n2. \"Optional\" won't stay optional for long and the wrong companies will opt in. The framing as optional makes this sound benign. But in practice, companies with something to hide between periods. Those with deteriorating margins, rising debt, operational problems are the most motivated to elect semiannual filing. High-quality, stable businesses have little to gain. This creates adverse selection: the universe of semiannual filers will be skewed toward companies with elevated opacity risk, right at the moment investors have less visibility.\n\n3. It undermines earnings-based risk management. Professional advisors use quarterly filings for far more than earnings: they track working capital trends, debt covenant headroom, revenue seasonality, segment-level performance, and management guidance credibility. A six-month gap makes all of this harder. Sector-sensitive portfolios where conditions shift materially quarter to quarter would be particularly exposed.\n\n4. The market efficiency argument cuts the other way. Proponents (echoing Chairman Atkins' language about companies determining \"the interim reporting frequency that best serves their business needs\") frame this as reducing burden. But capital markets are efficient because information flows continuously and uniformly. Allowing a two-tier system fragments that. Stocks of semiannual filers would likely trade at a discount — a permanent information-risk premium, which ironically hurts the very companies that elect the option.",
     "page": 3,
     "old_n": "P3",
     "words": 298,
@@ -3454,7 +3454,7 @@
       "IP",
       "RI"
     ],
-    "rationale_evidence": "blind flying for individual investors; adverse selection \u2014 opaque companies most motivated to elect; bifurcated market; semiannual filers trade at transparency discount",
+    "rationale_evidence": "blind flying for individual investors; adverse selection — opaque companies most motivated to elect; bifurcated market; semiannual filers trade at transparency discount",
     "rationales_primary": [
       "MF",
       "IP",
@@ -3572,7 +3572,7 @@
     "role": "Investor",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-768407-2356975.html",
     "stance": "Oppose",
-    "summary": "Quotes the SEC's stated mission verbatim \u2014 protect investors, maintain fair and efficient markets, facilitate capital formation, enforce against market manipulation \u2014 and concludes 'The stated purpose of the SEC is NOT to make life easier for corporations.'",
+    "summary": "Quotes the SEC's stated mission verbatim — protect investors, maintain fair and efficient markets, facilitate capital formation, enforce against market manipulation — and concludes 'The stated purpose of the SEC is NOT to make life easier for corporations.'",
     "body": "Subject: File No. S7-2026-15\nFrom: Susan Davis\n\nNo, no, a thousand times NO.\n\nHere is the stated purpose of the Securities and Exchange Commission:\n\nThe Securities and Exchange Commission (SEC) is primarily tasked with protecting investors, maintaining fair and efficient markets, and facilitating capital formation. It enforces laws against market manipulation and ensures that companies provide truthful information about their business and securities.\n\nThe stated purpose of the SEC is NOT to make life easier for corporations....",
     "page": 3,
     "old_n": "P3",
@@ -3803,7 +3803,7 @@
     "role": "University of Pennsylvania Wharton School Alumni",
     "entity": "Individual",
     "stance": "Oppose",
-    "summary": "Wharton alum opposing the proposal. Argues the quarterly system has worked for decades and isn't broken; AI is making reporting easier, so burden arguments are weak. Worries about volatility from delayed information (analogous to delayed government releases). Suggests if the Commission insists, it should run an experimental trial with a small group of investment companies before opening the option market-wide \u2014 without a careful dry run, risks outweigh rewards.",
+    "summary": "Wharton alum opposing the proposal. Argues the quarterly system has worked for decades and isn't broken; AI is making reporting easier, so burden arguments are weak. Worries about volatility from delayed information (analogous to delayed government releases). Suggests if the Commission insists, it should run an experimental trial with a small group of investment companies before opening the option market-wide — without a careful dry run, risks outweigh rewards.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-771987-2362814.html",
     "words": 278,
     "letter_id": "771987-2362814",
@@ -3859,7 +3859,7 @@
     "role": "Radford Chair in Law and Professor of Law, SMU Dedman School of Law; former SEC attorney (Division of Enforcement and Office of General Counsel)",
     "entity": "Academic researcher",
     "stance": "Conditional",
-    "summary": "Substantive academic letter. Former SEC attorney (Enforcement, Office of General Counsel), Radford Chair in Law at SMU Dedman, author of the 2021 Oxford University Press book Rethinking Securities Law (American Book Fest 'best law book' award). Opposes the proposal outright, but argues if the Commission proceeds in its deregulatory mode, it must \u2014 at minimum \u2014 amend Form 8-K to require timely disclosure of additional important developments. Specific example: current Form 8-K does not require prompt disclosure of the loss of a material contract; under semiannual reporting that fact would not reach investors for six months, which he calls 'clearly unacceptable.'",
+    "summary": "Substantive academic letter. Former SEC attorney (Enforcement, Office of General Counsel), Radford Chair in Law at SMU Dedman, author of the 2021 Oxford University Press book Rethinking Securities Law (American Book Fest 'best law book' award). Opposes the proposal outright, but argues if the Commission proceeds in its deregulatory mode, it must — at minimum — amend Form 8-K to require timely disclosure of additional important developments. Specific example: current Form 8-K does not require prompt disclosure of the loss of a material contract; under semiannual reporting that fact would not reach investors for six months, which he calls 'clearly unacceptable.'",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2363994.htm",
     "words": 281,
     "letter_id": "2363994",
@@ -3908,7 +3908,7 @@
     "role": "Individual",
     "entity": "Individual",
     "stance": "Conditional",
-    "summary": "Anonymous commenter opposes the proposal but offers a fallback. Argues quarterly data is critical for both institutional and retail investors. If changes are made, companies must still provide the core financial statements quarterly: cash flow statement, balance sheet, income statement, share count, segment revenues, and debt disclosures. Rejects the smaller-company carve-out \u2014 smaller companies need MORE frequent reporting, not less, because they undergo more rapid structural change. (Docket lists as Anonymous; an early-pass 'Mike Dattilo / NBCUniversal' attribution was removed 2026-05-19 to match the docket and the unsigned body.)",
+    "summary": "Anonymous commenter opposes the proposal but offers a fallback. Argues quarterly data is critical for both institutional and retail investors. If changes are made, companies must still provide the core financial statements quarterly: cash flow statement, balance sheet, income statement, share count, segment revenues, and debt disclosures. Rejects the smaller-company carve-out — smaller companies need MORE frequent reporting, not less, because they undergo more rapid structural change. (Docket lists as Anonymous; an early-pass 'Mike Dattilo / NBCUniversal' attribution was removed 2026-05-19 to match the docket and the unsigned body.)",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-772307-2363854_0.html",
     "words": 256,
     "letter_id": "772307-2363854_0",
@@ -3996,7 +3996,7 @@
     "date": "2026-05-10",
     "name": "Adam Sawyers",
     "role": "CEO, Rito Labs",
-    "entity": "Issuer / Corporate \u2014 current",
+    "entity": "Issuer / Corporate — current",
     "stance": "Oppose",
     "summary": "Notable issuer-side voice: a startup CEO opposing the proposal. Two sentences. Argues this would erode investor confidence in an already fragile system, and frames the change as corporations puppeteering politicians to work in their favor at the expense of democracy.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-772907-2365094.html",
@@ -4008,9 +4008,9 @@
     "majority_stance": "Oppose",
     "agreement": "unanimous",
     "entity_primary": "Individual",
-    "entity_selfdescribed": "Issuer / Corporate \u2014 current",
-    "entity_letterhead": "Issuer / Corporate \u2014 current",
-    "entity_majority": "Issuer / Corporate \u2014 current",
+    "entity_selfdescribed": "Issuer / Corporate — current",
+    "entity_letterhead": "Issuer / Corporate — current",
+    "entity_majority": "Issuer / Corporate — current",
     "entity_agreement": "majority",
     "rationales": [
       "LE",
@@ -4088,7 +4088,7 @@
     "role": "CPA and investor (AAPL, NVDA, BXSL, ARES, JPM, MOB, etc.)",
     "entity": "Accountant (CPA)",
     "stance": "Conditional",
-    "summary": "Conditional proposal from a CPA-investor. Suggests structuring the option like SOX Section 404(b): available only to Smaller Reporting Companies (SRCs), not large-cap issuers. Cites Apple as an example \u2014 the earnings release has only 4 short paragraphs, but the 10-Q contains substantially more useful information that investors in large-caps would lose under semiannual.",
+    "summary": "Conditional proposal from a CPA-investor. Suggests structuring the option like SOX Section 404(b): available only to Smaller Reporting Companies (SRCs), not large-cap issuers. Cites Apple as an example — the earnings release has only 4 short paragraphs, but the 10-Q contains substantially more useful information that investors in large-caps would lose under semiannual.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-772067-2363095.html",
     "words": 116,
     "letter_id": "772067-2363095",
@@ -4105,7 +4105,7 @@
     "rationales": [
       "AL"
     ],
-    "rationale_evidence": "structure like SOX 404(b) \u2014 available to SRCs only, not large caps",
+    "rationale_evidence": "structure like SOX 404(b) — available to SRCs only, not large caps",
     "rationales_primary": [
       "AL"
     ],
@@ -4130,7 +4130,7 @@
     "role": "Private investor (more than half a lifetime)",
     "entity": "Individual",
     "stance": "Conditional",
-    "summary": "Thoughtful conditional proposal from a long-tenured private investor. Identifies two systemic problems: short-termism and weak board oversight. Proposes shareholders vote every three years between two options: (1) status quo, or (2) annual reporting paired with significant governance enhancements \u2014 CEO/CFO/COO barred from board, personal liability for board negligence, mandatory fiduciary-actions section in annual report, reduced public reporting overall. Trades reporting frequency for stronger board accountability.",
+    "summary": "Thoughtful conditional proposal from a long-tenured private investor. Identifies two systemic problems: short-termism and weak board oversight. Proposes shareholders vote every three years between two options: (1) status quo, or (2) annual reporting paired with significant governance enhancements — CEO/CFO/COO barred from board, personal liability for board negligence, mandatory fiduciary-actions section in annual report, reduced public reporting overall. Trades reporting frequency for stronger board accountability.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-772687-2364754.html",
     "words": 293,
     "letter_id": "772687-2364754",
@@ -4353,7 +4353,7 @@
     "role": "Individual Retail Investor (US citizen residing in UK)",
     "entity": "Individual",
     "stance": "Oppose",
-    "summary": "Retail investor opposing the proposal. Acknowledges the compliance burden but asks how investors can hold boards accountable without timely reporting. Frames the proposal as a threat to US global market standing \u2014 global investors may pull money out if they cannot verify investment safety via regular reporting.",
+    "summary": "Retail investor opposing the proposal. Acknowledges the compliance burden but asks how investors can hold boards accountable without timely reporting. Frames the proposal as a threat to US global market standing — global investors may pull money out if they cannot verify investment safety via regular reporting.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-773207-2365854.html",
     "words": 126,
     "letter_id": "773207-2365854",
@@ -4398,7 +4398,7 @@
     "role": "CEO, Kambio Partners LLC (hedge fund managing five funds, hundreds of millions in assets)",
     "entity": "Investment professional",
     "stance": "Oppose",
-    "summary": "Substantive opposition from a hedge fund CEO managing five funds with hundreds of millions in client assets. Quarterly earnings and forward guidance are central to portfolio construction; semiannual would double the information gap and dramatically widen the existing insider-public asymmetry. Argues the Commission should move toward MORE frequent disclosure \u2014 proposes mandatory monthly disclosure of key performance metrics \u2014 not less. Also emphasizes the irreplaceable value of quarterly earnings calls (tone, confidence, command of detail) for assessing management quality.",
+    "summary": "Substantive opposition from a hedge fund CEO managing five funds with hundreds of millions in client assets. Quarterly earnings and forward guidance are central to portfolio construction; semiannual would double the information gap and dramatically widen the existing insider-public asymmetry. Argues the Commission should move toward MORE frequent disclosure — proposes mandatory monthly disclosure of key performance metrics — not less. Also emphasizes the irreplaceable value of quarterly earnings calls (tone, confidence, command of detail) for assessing management quality.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-773107-2365734.html",
     "words": 538,
     "letter_id": "773107-2365734",
@@ -4452,9 +4452,9 @@
     "date": "2026-05-11",
     "name": "Nathan Powers",
     "role": "Owner, Good Faith Co",
-    "entity": "Issuer / Corporate \u2014 current",
+    "entity": "Issuer / Corporate — current",
     "stance": "Oppose",
-    "summary": "Small business owner writing on behalf of retail investors. References the canonical large frauds (Enron, WorldCom, Nikola, Wirecard) plus recent smaller shareholder-misleading settlements (Alphabet, Under Armour, Wells Fargo) to argue that a 6-month dark period would let minor fraud grow undetected. Also worries about volatility \u2014 concentrated earnings releases would cause share prices to 'collapse or soar.' Asks for status quo.",
+    "summary": "Small business owner writing on behalf of retail investors. References the canonical large frauds (Enron, WorldCom, Nikola, Wirecard) plus recent smaller shareholder-misleading settlements (Alphabet, Under Armour, Wells Fargo) to argue that a 6-month dark period would let minor fraud grow undetected. Also worries about volatility — concentrated earnings releases would cause share prices to 'collapse or soar.' Asks for status quo.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-773727-2366614.html",
     "words": 321,
     "letter_id": "773727-2366614",
@@ -4464,9 +4464,9 @@
     "majority_stance": "Oppose",
     "agreement": "unanimous",
     "entity_primary": "Individual",
-    "entity_selfdescribed": "Issuer / Corporate \u2014 current",
-    "entity_letterhead": "Issuer / Corporate \u2014 current",
-    "entity_majority": "Issuer / Corporate \u2014 current",
+    "entity_selfdescribed": "Issuer / Corporate — current",
+    "entity_letterhead": "Issuer / Corporate — current",
+    "entity_majority": "Issuer / Corporate — current",
     "entity_agreement": "majority",
     "rationales": [
       "FR",
@@ -4582,9 +4582,9 @@
     "date": "2026-05-11",
     "name": "Creighton Early",
     "role": "CFO, Willdan Group, Inc.",
-    "entity": "Issuer / Corporate \u2014 current",
+    "entity": "Issuer / Corporate — current",
     "stance": "Conditional",
-    "summary": "Issuer-side voice (CFO at Willdan Group, a public company). Welcomes regulatory relief but rejects the proposed cadence change as the wrong lever. Argues the actual burden is the depth/quantity of footnotes, acquisitions, tax, and financing disclosures \u2014 not the frequency of filing. Says quarterly reporting itself is good for investors and the company; relief should come from reducing arcane disclosure requirements instead.",
+    "summary": "Issuer-side voice (CFO at Willdan Group, a public company). Welcomes regulatory relief but rejects the proposed cadence change as the wrong lever. Argues the actual burden is the depth/quantity of footnotes, acquisitions, tax, and financing disclosures — not the frequency of filing. Says quarterly reporting itself is good for investors and the company; relief should come from reducing arcane disclosure requirements instead.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-774187-2367174.html",
     "words": 74,
     "letter_id": "774187-2367174",
@@ -4593,10 +4593,10 @@
     "skeptic_stance": "Conditional",
     "majority_stance": "Conditional",
     "agreement": "majority",
-    "entity_primary": "Issuer / Corporate \u2014 current",
-    "entity_selfdescribed": "Issuer / Corporate \u2014 current",
-    "entity_letterhead": "Issuer / Corporate \u2014 current",
-    "entity_majority": "Issuer / Corporate \u2014 current",
+    "entity_primary": "Issuer / Corporate — current",
+    "entity_selfdescribed": "Issuer / Corporate — current",
+    "entity_letterhead": "Issuer / Corporate — current",
+    "entity_majority": "Issuer / Corporate — current",
     "entity_agreement": "unanimous",
     "rationales": [
       "CB",
@@ -5041,10 +5041,10 @@
     "page": 1,
     "date": "2026-05-12",
     "name": "/r/wallstreetbets",
-    "role": "Reddit community (\u224818M retail investors)",
+    "role": "Reddit community (≈18M retail investors)",
     "entity": "Individual",
     "stance": "Oppose",
-    "summary": "Long structured opposition letter from r/wallstreetbets, framed as the collective voice of retail. Frames the 10-Q as the single most important leveling mechanism between retail and institutional investors \u2014 institutions have expert networks, alt-data, satellite imagery, credit-card panels, and direct management access; retail has the 10-Q. Argues the proposal partially unwinds one of the foundational compromises of the 1934 Act. Closes by asking the SEC not to spend this rulemaking making it harder for retail to participate on fair terms.",
+    "summary": "Long structured opposition letter from r/wallstreetbets, framed as the collective voice of retail. Frames the 10-Q as the single most important leveling mechanism between retail and institutional investors — institutions have expert networks, alt-data, satellite imagery, credit-card panels, and direct management access; retail has the 10-Q. Argues the proposal partially unwinds one of the foundational compromises of the 1934 Act. Closes by asking the SEC not to spend this rulemaking making it harder for retail to participate on fair terms.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775527-2368994.html",
     "words": 770,
     "letter_id": "775527-2368994",
@@ -5721,7 +5721,7 @@
     "role": "Individual",
     "entity": "Individual",
     "stance": "Oppose",
-    "summary": "Six-page lawyer-quality letter arguing the proposal will not survive judicial review. Four problems: (1) post-Loper Bright (2024), the SEC bears the full interpretive burden under \u00a713(a) and cannot rely on Chevron deference \u2014 the statutory text references 'quarterly reports' in the alternative, posing a serious textual problem; (2) the major-questions doctrine (West Virginia v. EPA; Biden v. Nebraska) applies because eliminating quarterly disclosure is a structural change to ~4,000 reporting companies' information environment, not a technical adjustment; (3) under State Farm and Regents, the Commission has not provided a reasoned explanation for departing from the 1970 quarterly regime, has not credited the contested academic literature on short-termism, and has not catalogued investor reliance interests; (4) the cost-benefit analysis fails the D.C. Circuit standard (Chamber of Commerce v. SEC; Business Roundtable v. SEC) \u2014 must quantify issuer savings and investor costs, address bid-ask spreads and cost of equity capital, and consider less restrictive alternatives. Concludes the SEC has not carried the interpretive, statutory, or administrative-law burden required to finalize the rule as proposed.",
+    "summary": "Six-page lawyer-quality letter arguing the proposal will not survive judicial review. Four problems: (1) post-Loper Bright (2024), the SEC bears the full interpretive burden under §13(a) and cannot rely on Chevron deference — the statutory text references 'quarterly reports' in the alternative, posing a serious textual problem; (2) the major-questions doctrine (West Virginia v. EPA; Biden v. Nebraska) applies because eliminating quarterly disclosure is a structural change to ~4,000 reporting companies' information environment, not a technical adjustment; (3) under State Farm and Regents, the Commission has not provided a reasoned explanation for departing from the 1970 quarterly regime, has not credited the contested academic literature on short-termism, and has not catalogued investor reliance interests; (4) the cost-benefit analysis fails the D.C. Circuit standard (Chamber of Commerce v. SEC; Business Roundtable v. SEC) — must quantify issuer savings and investor costs, address bid-ask spreads and cost of equity capital, and consider less restrictive alternatives. Concludes the SEC has not carried the interpretive, statutory, or administrative-law burden required to finalize the rule as proposed.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775207-2368474.pdf",
     "words": 1818,
     "letter_id": "775207-2368474",
@@ -5792,7 +5792,7 @@
       "FR",
       "IP"
     ],
-    "rationale_evidence": "'Enron and WorldCom... insiders feast on information asymmetry' \u2014 FR+IA+IP.",
+    "rationale_evidence": "'Enron and WorldCom... insiders feast on information asymmetry' — FR+IA+IP.",
     "rationales_primary": [
       "IP",
       "IA",
@@ -5842,7 +5842,7 @@
       "FR",
       "IP"
     ],
-    "rationale_evidence": "'retail investor don't stand a chance to insiders' \u2014 IA+FR.",
+    "rationale_evidence": "'retail investor don't stand a chance to insiders' — IA+FR.",
     "rationales_primary": [
       "IP",
       "IA",
@@ -5931,7 +5931,7 @@
       "FR",
       "IP"
     ],
-    "rationale_evidence": "'less scrutiny and therefore less likely to behave according to the law' \u2014 FR+IP.",
+    "rationale_evidence": "'less scrutiny and therefore less likely to behave according to the law' — FR+IP.",
     "rationales_primary": [
       "IP",
       "FR"
@@ -5976,7 +5976,7 @@
       "FR",
       "IP"
     ],
-    "rationale_evidence": "'Fraud can be hidden in 6 months' \u2014 explicit FR+IP.",
+    "rationale_evidence": "'Fraud can be hidden in 6 months' — explicit FR+IP.",
     "rationales_primary": [
       "IP",
       "FR"
@@ -6003,7 +6003,7 @@
     "role": "Retail investor",
     "entity": "Individual",
     "stance": "Oppose",
-    "summary": "Retail-investor opposition with seatbelt analogy. Argues 'optional' won't stay optional \u2014 if big players switch, smaller ones follow until semiannual becomes the industry standard. Worries about retirement savings; fraud going undetected.",
+    "summary": "Retail-investor opposition with seatbelt analogy. Argues 'optional' won't stay optional — if big players switch, smaller ones follow until semiannual becomes the industry standard. Worries about retirement savings; fraud going undetected.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775707-2369214.html",
     "words": 136,
     "letter_id": "775707-2369214",
@@ -6022,7 +6022,7 @@
       "EX",
       "IP"
     ],
-    "rationale_evidence": "'If all the big players change... smaller players will follow suit and become the standard' \u2014 explicit EX (spillover).",
+    "rationale_evidence": "'If all the big players change... smaller players will follow suit and become the standard' — explicit EX (spillover).",
     "rationales_primary": [
       "IP",
       "FR",
@@ -6072,7 +6072,7 @@
       "ICc",
       "IP"
     ],
-    "rationale_evidence": "'UK and South Korea... ineffective across the world stage' \u2014 ICc (note: South Korea is a new international comparison in the docket).",
+    "rationale_evidence": "'UK and South Korea... ineffective across the world stage' — ICc (note: South Korea is a new international comparison in the docket).",
     "rationales_primary": [
       "IP",
       "FR",
@@ -6120,7 +6120,7 @@
     "rationales": [
       "IP"
     ],
-    "rationale_evidence": "'no benefit to investors at 6 months' \u2014 IP framing in one line.",
+    "rationale_evidence": "'no benefit to investors at 6 months' — IP framing in one line.",
     "rationales_primary": [
       "IP"
     ],
@@ -6161,7 +6161,7 @@
       "FR",
       "IP"
     ],
-    "rationale_evidence": "'companies could avoid penalties for disallowed activities' \u2014 fraud/IP framing.",
+    "rationale_evidence": "'companies could avoid penalties for disallowed activities' — fraud/IP framing.",
     "rationales_primary": [
       "IP",
       "FR"
@@ -6188,7 +6188,7 @@
     "role": "Visiting Professor of Economics, Brown University (advisor on submitted 2018 undergraduate thesis by Rosen, Shire, Winston)",
     "entity": "Academic researcher",
     "stance": "Conditional",
-    "summary": "Submitted as the comment letter is a 28-page December 2018 Brown University undergraduate thesis (authors Theodore Rosen, Ethan Shire, Benjamin Winston; primary advisor Lawrence A. Rand; secondary advisor David Weil). The paper recommends a bifurcated reporting system in which smaller companies would be allowed to report on a semiannual basis while mid- and large-cap companies continue quarterly disclosure \u2014 explicitly endorsing the SEC's scaled-relief alternative rather than the proposal's universal optionality. The paper also recommends companies issuing earnings guidance consider ending the practice. Acknowledges the transparency and cost-of-capital benefits of quarterly reporting (Stanford / Arif-De George spillover evidence; Reg FD; Fu-Kraft-Zhang cost-of-equity findings) but argues these are outweighed for small caps by short-termism (Nooyi, Musk, Shaich, Fink, Lutz) and disproportionate compliance costs ($541 vs $3,345 per $1M revenue audit-fee disparity from Audit Analytics; ~4.5 days to close per PwC). Cites Pozen's UK study as evidence that frequency change did not materially affect reinvestment, but flags Pozen's concern that bifurcation could reduce small-cap liquidity. Concludes a one-size-fits-all rule is suboptimal and that scaled relief based on annual revenue (per JOBS Act framework) is the most defensible structure.",
+    "summary": "Submitted as the comment letter is a 28-page December 2018 Brown University undergraduate thesis (authors Theodore Rosen, Ethan Shire, Benjamin Winston; primary advisor Lawrence A. Rand; secondary advisor David Weil). The paper recommends a bifurcated reporting system in which smaller companies would be allowed to report on a semiannual basis while mid- and large-cap companies continue quarterly disclosure — explicitly endorsing the SEC's scaled-relief alternative rather than the proposal's universal optionality. The paper also recommends companies issuing earnings guidance consider ending the practice. Acknowledges the transparency and cost-of-capital benefits of quarterly reporting (Stanford / Arif-De George spillover evidence; Reg FD; Fu-Kraft-Zhang cost-of-equity findings) but argues these are outweighed for small caps by short-termism (Nooyi, Musk, Shaich, Fink, Lutz) and disproportionate compliance costs ($541 vs $3,345 per $1M revenue audit-fee disparity from Audit Analytics; ~4.5 days to close per PwC). Cites Pozen's UK study as evidence that frequency change did not materially affect reinvestment, but flags Pozen's concern that bifurcation could reduce small-cap liquidity. Concludes a one-size-fits-all rule is suboptimal and that scaled relief based on annual revenue (per JOBS Act framework) is the most defensible structure.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-776308-2370196.pdf",
     "words": 7800,
     "letter_id": "776308-2370196",
@@ -6280,7 +6280,7 @@
       "IP",
       "US"
     ],
-    "rationale_evidence": "'trust is diminished with less visibility' \u2014 IP+MF+US.",
+    "rationale_evidence": "'trust is diminished with less visibility' — IP+MF+US.",
     "rationales_primary": [
       "IP",
       "MF",
@@ -6330,7 +6330,7 @@
       "IA",
       "IP"
     ],
-    "rationale_evidence": "'funnels more power to the powerful... takes away information from the average Joe' \u2014 explicit IA.",
+    "rationale_evidence": "'funnels more power to the powerful... takes away information from the average Joe' — explicit IA.",
     "rationales_primary": [
       "IP",
       "IA"
@@ -6378,7 +6378,7 @@
       "CB",
       "RI"
     ],
-    "rationale_evidence": "'corporate insider trading to gain significantly more unfair advantage' \u2014 FR+IA+MF.",
+    "rationale_evidence": "'corporate insider trading to gain significantly more unfair advantage' — FR+IA+MF.",
     "rationales_primary": [
       "MF",
       "FR",
@@ -6415,7 +6415,7 @@
     "role": "Individual",
     "entity": "Individual",
     "stance": "Oppose",
-    "summary": "Long structured opposition (~750 words). Four core objections: (1) reduced transparency / increased information asymmetry favoring insiders, institutions, sophisticated analysts; (2) heightened misconduct risk \u2014 earnings management, channel stuffing, delayed problem recognition; (3) damage to market efficiency and liquidity, fragmenting the market into a two-tiered system; (4) weak justification \u2014 compliance costs haven't prevented capital formation, 'optional' won't stay optional. Proposes the SEC move in the opposite direction: more frequent disclosures, shorter deadlines, broader auditor review, KPI disclosure, real-time XBRL.",
+    "summary": "Long structured opposition (~750 words). Four core objections: (1) reduced transparency / increased information asymmetry favoring insiders, institutions, sophisticated analysts; (2) heightened misconduct risk — earnings management, channel stuffing, delayed problem recognition; (3) damage to market efficiency and liquidity, fragmenting the market into a two-tiered system; (4) weak justification — compliance costs haven't prevented capital formation, 'optional' won't stay optional. Proposes the SEC move in the opposite direction: more frequent disclosures, shorter deadlines, broader auditor review, KPI disclosure, real-time XBRL.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2370056.htm",
     "words": 599,
     "letter_id": "2370056",
@@ -6513,7 +6513,7 @@
       "IP",
       "US"
     ],
-    "rationale_evidence": "'transparency is what makes our system... attractive to many countries' \u2014 US.",
+    "rationale_evidence": "'transparency is what makes our system... attractive to many countries' — US.",
     "rationales_primary": [
       "US",
       "IP"
@@ -6579,7 +6579,7 @@
     "date": "2026-05-13",
     "name": "David Bolling Wells",
     "role": "Former CFO Netflix; Board Chair Wise; Lead Independent Director HIMS",
-    "entity": "Issuer / Corporate \u2014 current",
+    "entity": "Issuer / Corporate — current",
     "stance": "Oppose",
     "summary": "Substantive opposition from a former Netflix CFO and current board chair of Wise (which reported semiannually as a UK company before its 5/11/26 Nasdaq listing). Acknowledges the burden of the four-quarter cycle but argues on balance it is the best compromise: it drives discipline and rigor, gives long investors four annual check-ins, and underpins US capital markets' trust premium and \"democratic\" playing field versus institutions. Predicts an opt-in would attract a mixed bag of less-disciplined companies, breeding fraud, slower impairments, greater insider information value, and longer-lived bad strategy. Urges the SEC not to confuse the need for securities litigation reform (loser pays) with changes to the reporting cycle.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-776427-2370495.html",
@@ -6590,10 +6590,10 @@
     "skeptic_stance": "Conditional",
     "majority_stance": "Oppose",
     "agreement": "majority",
-    "entity_primary": "Issuer / Corporate \u2014 current",
-    "entity_selfdescribed": "Issuer / Corporate \u2014 former",
-    "entity_letterhead": "Issuer / Corporate \u2014 current",
-    "entity_majority": "Issuer / Corporate \u2014 current",
+    "entity_primary": "Issuer / Corporate — current",
+    "entity_selfdescribed": "Issuer / Corporate — former",
+    "entity_letterhead": "Issuer / Corporate — current",
+    "entity_majority": "Issuer / Corporate — current",
     "entity_agreement": "majority",
     "rationales_primary": [
       "US",
@@ -6757,7 +6757,7 @@
     "role": "Individual",
     "entity": "Individual",
     "stance": "Oppose",
-    "summary": "Investor opposition citing transparency as the key for all investors to make decisions. Argues automation should drive disclosure in the OPPOSITE direction \u2014 more frequent (e.g., monthly) reporting, not less.",
+    "summary": "Investor opposition citing transparency as the key for all investors to make decisions. Argues automation should drive disclosure in the OPPOSITE direction — more frequent (e.g., monthly) reporting, not less.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-776387-2370454.html",
     "words": 62,
     "letter_id": "776387-2370454",
@@ -8106,7 +8106,7 @@
       "IP"
     ],
     "rationale_agreement": "majority",
-    "summary": "Brief framing of opposition as fairness \u2014 citizens should not have laws slanted against them.",
+    "summary": "Brief framing of opposition as fairness — citizens should not have laws slanted against them.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-777827-2372814.html",
     "words": 31,
     "letter_id": "777827-2372814"
@@ -8217,7 +8217,7 @@
       "ST"
     ],
     "rationale_agreement": "split",
-    "summary": "Retail investor opposing. Substantive engagement with the full SEC argument map \u2014 rebuts both the short-termism and compliance-cost claims, then makes the retail information-gap, fraud, market-discipline, and cost-of-capital arguments.",
+    "summary": "Retail investor opposing. Substantive engagement with the full SEC argument map — rebuts both the short-termism and compliance-cost claims, then makes the retail information-gap, fraud, market-discipline, and cost-of-capital arguments.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-777807-2372794.html",
     "words": 216,
     "letter_id": "777807-2372794"
@@ -8283,7 +8283,7 @@
     "rationales": [
       "IA"
     ],
-    "rationale_evidence": "'Put those without access to be expensive private market data at a disadvantage' (IA); 'alternatives available such as Reg D for companies where going fully public does not make sense' (AL \u2014 alternative structural framing).",
+    "rationale_evidence": "'Put those without access to be expensive private market data at a disadvantage' (IA); 'alternatives available such as Reg D for companies where going fully public does not make sense' (AL — alternative structural framing).",
     "rationales_primary": [
       "IA"
     ],
@@ -8364,7 +8364,7 @@
     "rationales": [
       "NR"
     ],
-    "rationale_evidence": "'Please protect us.' Three-word plea \u2014 no substantive argument (NR / IP inclusive only).",
+    "rationale_evidence": "'Please protect us.' Three-word plea — no substantive argument (NR / IP inclusive only).",
     "rationales_primary": [
       "NR"
     ],
@@ -8649,7 +8649,7 @@
     "rationales": [
       "CB"
     ],
-    "rationale_evidence": "'modern technology allows for near immediate reporting at lower costs than ever before' \u2014 directly rebuts the CB premise for the proposal.",
+    "rationale_evidence": "'modern technology allows for near immediate reporting at lower costs than ever before' — directly rebuts the CB premise for the proposal.",
     "rationales_primary": [
       "CB"
     ],
@@ -8693,7 +8693,7 @@
       "EX",
       "MF"
     ],
-    "rationale_evidence": "EX: 'net information spillovers to peer firms are 70-99% higher on earnings announcement dates' / 'semi-public good' / 'underproduction of socially valuable information'. MF: 'price discovery and efficiency' / 'capital markets as a whole'. CMP: 'comparability, capital allocation, and market efficiency'. AL: Recommendation 4 \u2014 'Consider allowing optional semi-annual reporting only for smaller firms'. CB: 'cost of quarterly reporting is also likely to be more burdensome for smaller firms'. IP (inclusive only): 'socially valuable information' framing as implied investor-protection mandate.",
+    "rationale_evidence": "EX: 'net information spillovers to peer firms are 70-99% higher on earnings announcement dates' / 'semi-public good' / 'underproduction of socially valuable information'. MF: 'price discovery and efficiency' / 'capital markets as a whole'. CMP: 'comparability, capital allocation, and market efficiency'. AL: Recommendation 4 — 'Consider allowing optional semi-annual reporting only for smaller firms'. CB: 'cost of quarterly reporting is also likely to be more burdensome for smaller firms'. IP (inclusive only): 'socially valuable information' framing as implied investor-protection mandate.",
     "rationales_primary": [
       "AL",
       "CB",
@@ -8724,7 +8724,7 @@
       "MF"
     ],
     "rationale_agreement": "majority",
-    "summary": "Academic finance letter from Cai (Drexel), Demers and Nguyen (Waterloo) attaching their working paper. Central evidence: quarterly earnings announcements generate net peer-firm information spillovers of 70-99% \u2014 a 'semi-public good' externality the SEC's economic analysis understates. Recommends scaled relief for smaller firms only (AL).",
+    "summary": "Academic finance letter from Cai (Drexel), Demers and Nguyen (Waterloo) attaching their working paper. Central evidence: quarterly earnings announcements generate net peer-firm information spillovers of 70-99% — a 'semi-public good' externality the SEC's economic analysis understates. Recommends scaled relief for smaller firms only (AL).",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-779387-2374754.pdf",
     "words": 0,
     "letter_id": "s7202615-779387-2374754.pdf"
@@ -8750,7 +8750,7 @@
     "rationales": [
       "SG"
     ],
-    "rationale_evidence": "SG: 'one brave lad or lassie will do it right and thump the competition' \u2014 the SG mechanism that firms maintaining quarterly reporting differentiate themselves. RI (inclusive): 'the investment consumer will go elsewhere' implies investor reliance on the existing cadence.",
+    "rationale_evidence": "SG: 'one brave lad or lassie will do it right and thump the competition' — the SG mechanism that firms maintaining quarterly reporting differentiate themselves. RI (inclusive): 'the investment consumer will go elsewhere' implies investor reliance on the existing cadence.",
     "rationales_primary": [
       "SG"
     ],
@@ -8902,7 +8902,7 @@
     "rationales": [
       "FR"
     ],
-    "rationale_evidence": "FR: 'Why would insiders need one more advantage?' \u2014 insider trading framing.",
+    "rationale_evidence": "FR: 'Why would insiders need one more advantage?' — insider trading framing.",
     "rationales_primary": [
       "FR"
     ],
@@ -8942,7 +8942,7 @@
     "rationales": [
       "IA"
     ],
-    "rationale_evidence": "IA: 'uneven playing field among investors' \u2014 surface IA framing. AU (inclusive only) on CPA letterhead.",
+    "rationale_evidence": "IA: 'uneven playing field among investors' — surface IA framing. AU (inclusive only) on CPA letterhead.",
     "rationales_primary": [
       "IA"
     ],
@@ -8984,7 +8984,7 @@
       "IA",
       "IP"
     ],
-    "rationale_evidence": "IP: 'More transparentcy. Not less. More accountability.' \u2014 explicit transparency framing. IA (Primary/Inclusive): 'reckoning for the ruling class' + 'middle class has been abused' invokes the retail-vs-institutional distinction.",
+    "rationale_evidence": "IP: 'More transparentcy. Not less. More accountability.' — explicit transparency framing. IA (Primary/Inclusive): 'reckoning for the ruling class' + 'middle class has been abused' invokes the retail-vs-institutional distinction.",
     "rationales_primary": [
       "IA",
       "IP"
@@ -9106,7 +9106,7 @@
       "RI"
     ],
     "rationale_agreement": "majority",
-    "summary": "Substantive 175-word retail Oppose with multiple rationale codes. Cites the Chinese stock market as a cautionary international comparison (ICc \u2014 new). Frames pension fund oversight (RI) as the constituency harmed.",
+    "summary": "Substantive 175-word retail Oppose with multiple rationale codes. Cites the Chinese stock market as a cautionary international comparison (ICc — new). Frames pension fund oversight (RI) as the constituency harmed.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-780067-2375414.html",
     "words": 175,
     "letter_id": "780067-2375414"
@@ -9117,17 +9117,17 @@
     "date": "2026-05-15",
     "name": "Colleen Wold",
     "role": "Finance and governance executive (public-company reporting, IPO readiness, SOX/internal controls, Audit Committee engagement, operational finance leadership)",
-    "entity": "Issuer / Corporate \u2014 current",
+    "entity": "Issuer / Corporate — current",
     "stance": "Conditional",
     "primary_stance": "Conditional",
     "literalist_stance": "Conditional",
     "skeptic_stance": "Conditional",
     "majority_stance": "Conditional",
     "agreement": "unanimous",
-    "entity_primary": "Issuer / Corporate \u2014 current",
-    "entity_selfdescribed": "Issuer / Corporate \u2014 current",
-    "entity_letterhead": "Issuer / Corporate \u2014 current",
-    "entity_majority": "Issuer / Corporate \u2014 current",
+    "entity_primary": "Issuer / Corporate — current",
+    "entity_selfdescribed": "Issuer / Corporate — current",
+    "entity_letterhead": "Issuer / Corporate — current",
+    "entity_majority": "Issuer / Corporate — current",
     "entity_agreement": "unanimous",
     "rationales": [
       "AL",
@@ -9141,7 +9141,7 @@
       "RI",
       "ST"
     ],
-    "rationale_evidence": "OP: 'I support the Commission's effort to provide flexibility in reporting cadence'. CB: 'quarterly reporting can create significant organizational burden... Management attention, finance resources, auditor coordination'. ST: 'this cadence can unintentionally reinforce short-term decision-making and near-term performance management at the expense of longer-term strategic execution'. IA: 'reducing reporting frequency may further widen the information gap between institutional and non-institutional investors'. IP: 'retail and non-institutional investors rely more heavily on periodic SEC disclosures as a primary source of transparent, comparable, and decision-useful information'. CMP: 'reduced comparability between issuers'. AL: explicit eligibility-criteria framework \u2014 'no material weaknesses in ICFR... no significant restatements... independent Audit Committee oversight'. AU: 'no material weaknesses in internal control over financial reporting' + 'auditor coordination'. CC: 'debt covenants... market discipline'. RI: 'investor expectations... analyst coverage'. MF + OV (inclusive only): 'broader market transparency' + 'providing conditional optionality may particularly benefit issuers'.",
+    "rationale_evidence": "OP: 'I support the Commission's effort to provide flexibility in reporting cadence'. CB: 'quarterly reporting can create significant organizational burden... Management attention, finance resources, auditor coordination'. ST: 'this cadence can unintentionally reinforce short-term decision-making and near-term performance management at the expense of longer-term strategic execution'. IA: 'reducing reporting frequency may further widen the information gap between institutional and non-institutional investors'. IP: 'retail and non-institutional investors rely more heavily on periodic SEC disclosures as a primary source of transparent, comparable, and decision-useful information'. CMP: 'reduced comparability between issuers'. AL: explicit eligibility-criteria framework — 'no material weaknesses in ICFR... no significant restatements... independent Audit Committee oversight'. AU: 'no material weaknesses in internal control over financial reporting' + 'auditor coordination'. CC: 'debt covenants... market discipline'. RI: 'investor expectations... analyst coverage'. MF + OV (inclusive only): 'broader market transparency' + 'providing conditional optionality may particularly benefit issuers'.",
     "rationales_primary": [
       "AL",
       "AU",
@@ -9193,7 +9193,7 @@
       "ST"
     ],
     "rationale_agreement": "majority",
-    "summary": "Substantive 800-word governance-executive letter supporting flexibility with explicit gate-keeping eligibility (no recent ICFR material weaknesses, timely filing history, independent Audit Committee, etc.). Conditional unanimous, 10-code letter \u2014 the most rationale-rich letter in the corpus.",
+    "summary": "Substantive 800-word governance-executive letter supporting flexibility with explicit gate-keeping eligibility (no recent ICFR material weaknesses, timely filing history, independent Audit Committee, etc.). Conditional unanimous, 10-code letter — the most rationale-rich letter in the corpus.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-779067-2374374.pdf",
     "words": 681,
     "letter_id": "s7202615-779067-2374374.pdf"
@@ -9262,7 +9262,7 @@
       "OP",
       "RI"
     ],
-    "rationale_evidence": "FR: 'unfair advantage for corporate insiders... increase the presence and likelihood of insider trading'. OP: '\"optional\" statement doesn't fix the problem because companies that opt in are often the ones whose investors most need frequent updates' \u2014 substantively engages and rebuts the OP rationale. IA (Primary/Inclusive): 'I rely on... longer gaps create an unfair advantage'. RI (Primary/Inclusive): personal-reliance framing on quarterly cadence.",
+    "rationale_evidence": "FR: 'unfair advantage for corporate insiders... increase the presence and likelihood of insider trading'. OP: '\"optional\" statement doesn't fix the problem because companies that opt in are often the ones whose investors most need frequent updates' — substantively engages and rebuts the OP rationale. IA (Primary/Inclusive): 'I rely on... longer gaps create an unfair advantage'. RI (Primary/Inclusive): personal-reliance framing on quarterly cadence.",
     "rationales_primary": [
       "FR",
       "IA",
@@ -9286,7 +9286,7 @@
       "RI"
     ],
     "rationale_agreement": "majority",
-    "summary": "Substantive 119-word Oppose. Notable for explicitly rebutting the proposal's optionality argument \u2014 opt-in self-selection makes the rule worse, not better.",
+    "summary": "Substantive 119-word Oppose. Notable for explicitly rebutting the proposal's optionality argument — opt-in self-selection makes the rule worse, not better.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778987-2374334.html",
     "words": 119,
     "letter_id": "778987-2374334"
@@ -9337,17 +9337,17 @@
     "date": "2026-05-15",
     "name": "Garen Sarafian",
     "role": "Vice President, Investor Relations, Bausch Health (BHC)",
-    "entity": "Issuer / Corporate \u2014 current",
+    "entity": "Issuer / Corporate — current",
     "stance": "Conditional",
     "primary_stance": "Conditional",
     "literalist_stance": "Conditional",
     "skeptic_stance": "Conditional",
     "majority_stance": "Conditional",
     "agreement": "unanimous",
-    "entity_primary": "Issuer / Corporate \u2014 current",
-    "entity_selfdescribed": "Issuer / Corporate \u2014 current",
-    "entity_letterhead": "Issuer / Corporate \u2014 current",
-    "entity_majority": "Issuer / Corporate \u2014 current",
+    "entity_primary": "Issuer / Corporate — current",
+    "entity_selfdescribed": "Issuer / Corporate — current",
+    "entity_letterhead": "Issuer / Corporate — current",
+    "entity_majority": "Issuer / Corporate — current",
     "entity_agreement": "unanimous",
     "rationales": [
       "AL",
@@ -9360,7 +9360,7 @@
       "RI",
       "SG"
     ],
-    "rationale_evidence": "OP: 'We support the Commission's effort to provide greater flexibility'. CB: 'reduce administrative burden and modestly lower external auditor quarterly review procedures and related fees'. AL: 'broader structural changes would likely be necessary, such as extended filing deadlines and/or streamlined reporting requirements similar to certain European reporting frameworks'. ICs: 'similar to certain European reporting frameworks' \u2014 international evidence read as a constructive supportive model. CC: 'Investor expectations, lender requirements... continue to drive quarterly reporting discipline'. SG: 'peer companies may also elect to continue quarterly reporting practices, reinforcing market expectations for quarterly transparency and comparability' \u2014 peer-signaling mechanism. CMP: 'reinforcing market expectations for quarterly transparency and comparability'. AU (primary/inclusive only): 'external auditor quarterly review procedures and related fees'. RI (primary/inclusive only): 'Investor expectations... analyst coverage' framing.",
+    "rationale_evidence": "OP: 'We support the Commission's effort to provide greater flexibility'. CB: 'reduce administrative burden and modestly lower external auditor quarterly review procedures and related fees'. AL: 'broader structural changes would likely be necessary, such as extended filing deadlines and/or streamlined reporting requirements similar to certain European reporting frameworks'. ICs: 'similar to certain European reporting frameworks' — international evidence read as a constructive supportive model. CC: 'Investor expectations, lender requirements... continue to drive quarterly reporting discipline'. SG: 'peer companies may also elect to continue quarterly reporting practices, reinforcing market expectations for quarterly transparency and comparability' — peer-signaling mechanism. CMP: 'reinforcing market expectations for quarterly transparency and comparability'. AU (primary/inclusive only): 'external auditor quarterly review procedures and related fees'. RI (primary/inclusive only): 'Investor expectations... analyst coverage' framing.",
     "rationales_primary": [
       "AL",
       "AU",
@@ -9404,7 +9404,7 @@
       "SG"
     ],
     "rationale_agreement": "majority",
-    "summary": "First NYSE-listed public-issuer letter in the corpus. Bausch Health Companies (NYSE:BHC) supports the flexibility goal but argues the proposal as drafted will not deliver meaningful cost savings \u2014 investor expectations, lender requirements, Board oversight, and peer comparability will keep quarterly close cycles intact. Calls for extended filing deadlines + streamlined reporting (European-style) as the real reform. First substantive ICs invocation in the corpus.",
+    "summary": "First NYSE-listed public-issuer letter in the corpus. Bausch Health Companies (NYSE:BHC) supports the flexibility goal but argues the proposal as drafted will not deliver meaningful cost savings — investor expectations, lender requirements, Board oversight, and peer comparability will keep quarterly close cycles intact. Calls for extended filing deadlines + streamlined reporting (European-style) as the real reform. First substantive ICs invocation in the corpus.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778927-2374294.pdf",
     "words": 513,
     "letter_id": "s7202615-778927-2374294.pdf"
@@ -9431,7 +9431,7 @@
       "FR",
       "MF"
     ],
-    "rationale_evidence": "FR: 'allow greater amounts of insider trading'. MF: 'make accurately valuing companies harder' \u2014 explicit price-discovery framing.",
+    "rationale_evidence": "FR: 'allow greater amounts of insider trading'. MF: 'make accurately valuing companies harder' — explicit price-discovery framing.",
     "rationales_primary": [
       "FR",
       "MF"
@@ -9476,7 +9476,7 @@
       "FR",
       "IP"
     ],
-    "rationale_evidence": "FR: 'The Mice play when the Cat is away' + 'hide what they are Doing' \u2014 fraud/manipulation framing on reduced disclosure. IP (Primary/Inclusive): 'Without Responsibility... bailing them out' invokes investor-protection mandate.",
+    "rationale_evidence": "FR: 'The Mice play when the Cat is away' + 'hide what they are Doing' — fraud/manipulation framing on reduced disclosure. IP (Primary/Inclusive): 'Without Responsibility... bailing them out' invokes investor-protection mandate.",
     "rationales_primary": [
       "FR",
       "IP"
@@ -9522,7 +9522,7 @@
       "LE",
       "MF"
     ],
-    "rationale_evidence": "MF: 'security prices adjust quickly to new information' + 'full and fair price discovery will be negatively impacted'. IA: 'benefit institutional investors at the expense of individual investors' \u2014 explicit. IP: 'mission of the SEC is to protect investors'. LE: invokes 'mission of the Commission' and lists the Section 3(f) and 23(a)(2) statutory factors verbatim ('protect investors; maintain fair, orderly, and efficient markets; and facilitate capital formation').",
+    "rationale_evidence": "MF: 'security prices adjust quickly to new information' + 'full and fair price discovery will be negatively impacted'. IA: 'benefit institutional investors at the expense of individual investors' — explicit. IP: 'mission of the SEC is to protect investors'. LE: invokes 'mission of the Commission' and lists the Section 3(f) and 23(a)(2) statutory factors verbatim ('protect investors; maintain fair, orderly, and efficient markets; and facilitate capital formation').",
     "rationales_primary": [
       "IA",
       "IP",
@@ -9574,7 +9574,7 @@
     "rationales": [
       "IP"
     ],
-    "rationale_evidence": "IP: 'let public [access] company's quarterly report so [they] can make investment decision' \u2014 transparency framing despite broken syntax.",
+    "rationale_evidence": "IP: 'let public [access] company's quarterly report so [they] can make investment decision' — transparency framing despite broken syntax.",
     "rationales_primary": [
       "IP"
     ],
@@ -9914,7 +9914,7 @@
       "FR",
       "IP"
     ],
-    "rationale_evidence": "FR: 'encouraging more insider trading' \u2014 explicit insider-trading framing. IP (P/I): 'main window into the financial health' transparency framing.",
+    "rationale_evidence": "FR: 'encouraging more insider trading' — explicit insider-trading framing. IP (P/I): 'main window into the financial health' transparency framing.",
     "rationales_primary": [
       "FR",
       "IP"
@@ -10000,7 +10000,7 @@
       "FR",
       "IP"
     ],
-    "rationale_evidence": "FR: 'companies misrepresenting their financial performance... much easier to mislead'. CMP: 'much harder for an investor to compare companies with half the information'. CB: 'save money or remove pressure' \u2014 engages and rebuts the cost-burden rationale. IP: 'undeserving gift to corporations at investor expense'.",
+    "rationale_evidence": "FR: 'companies misrepresenting their financial performance... much easier to mislead'. CMP: 'much harder for an investor to compare companies with half the information'. CB: 'save money or remove pressure' — engages and rebuts the cost-burden rationale. IP: 'undeserving gift to corporations at investor expense'.",
     "rationales_primary": [
       "CB",
       "CMP",
@@ -10142,7 +10142,7 @@
     "rationales": [
       "IA"
     ],
-    "rationale_evidence": "IA: 'average/small investors' vs 'corporations and the rich' \u2014 explicit retail-vs-institutional framing.",
+    "rationale_evidence": "IA: 'average/small investors' vs 'corporations and the rich' — explicit retail-vs-institutional framing.",
     "rationales_primary": [
       "IA"
     ],
@@ -10184,7 +10184,7 @@
       "IP",
       "RI"
     ],
-    "rationale_evidence": "IP: 'Please consider not taking transparency away'. IA: 'retail investors... at a disadvantage'. RI (P/I): 'our window into making smart financial decisions and planning where to best allocate our money' \u2014 personal reliance framing.",
+    "rationale_evidence": "IP: 'Please consider not taking transparency away'. IA: 'retail investors... at a disadvantage'. RI (P/I): 'our window into making smart financial decisions and planning where to best allocate our money' — personal reliance framing.",
     "rationales_primary": [
       "IA",
       "IP",
@@ -10236,7 +10236,7 @@
       "OP",
       "RI"
     ],
-    "rationale_evidence": "FR: 'insiders to quietly sell their shares... before the bad news tanks the stock' + 'Enron. WorldCom. Madoff. The run-up to 2008'. OP: '\"Optional\" is a trick' + 'What started as a choice quietly becomes the new normal' \u2014 explicit rebuttal of the OP rationale. EX: 'Once large companies start filing twice a year, smaller competitors face pressure to follow' \u2014 explicit spillover/externality mechanism. CB: 'supposed savings are a miniscule... Companies still have to keep their books. They still have to brief their boards' \u2014 engages and rebuts the CB rationale. IA: 'you, the person whose 401(k), IRA, or college fund holds the stock'. RI: '(or your ETF)' \u2014 explicit ETF-reliance language.",
+    "rationale_evidence": "FR: 'insiders to quietly sell their shares... before the bad news tanks the stock' + 'Enron. WorldCom. Madoff. The run-up to 2008'. OP: '\"Optional\" is a trick' + 'What started as a choice quietly becomes the new normal' — explicit rebuttal of the OP rationale. EX: 'Once large companies start filing twice a year, smaller competitors face pressure to follow' — explicit spillover/externality mechanism. CB: 'supposed savings are a miniscule... Companies still have to keep their books. They still have to brief their boards' — engages and rebuts the CB rationale. IA: 'you, the person whose 401(k), IRA, or college fund holds the stock'. RI: '(or your ETF)' — explicit ETF-reliance language.",
     "rationales_primary": [
       "CB",
       "EX",
@@ -10335,7 +10335,7 @@
       "RI"
     ],
     "rationale_agreement": "unanimous",
-    "summary": "Substantive 305-word retail Oppose. NEAR-IDENTICAL TEMPLATE to #218 Jennifer Simpson \u2014 same 4-point structured argument with one-word substitution ('miniscule' \u2192 'nothing burger'). Looks like coordinated household or template advocacy.",
+    "summary": "Substantive 305-word retail Oppose. NEAR-IDENTICAL TEMPLATE to #218 Jennifer Simpson — same 4-point structured argument with one-word substitution ('miniscule' → 'nothing burger'). Looks like coordinated household or template advocacy.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-780387-2376374.html",
     "words": 305,
     "letter_id": "780387-2376374"
@@ -10361,7 +10361,7 @@
     "rationales": [
       "IA"
     ],
-    "rationale_evidence": "IA (P/I): 'regular American investors' \u2014 gestural retail framing. Literalist skips; no explicit retail-vs-institutional contrast.",
+    "rationale_evidence": "IA (P/I): 'regular American investors' — gestural retail framing. Literalist skips; no explicit retail-vs-institutional contrast.",
     "rationales_primary": [
       "IA"
     ],
@@ -10402,7 +10402,7 @@
       "AL",
       "FR"
     ],
-    "rationale_evidence": "FR: 'make insider trading and fraud easier'. AL: 'Make reporting monthly' \u2014 maximalist alternative cadence proposal.",
+    "rationale_evidence": "FR: 'make insider trading and fraud easier'. AL: 'Make reporting monthly' — maximalist alternative cadence proposal.",
     "rationales_primary": [
       "AL",
       "FR"
@@ -10449,7 +10449,7 @@
       "OP",
       "ST"
     ],
-    "rationale_evidence": "IP: 'reduces transparency'. IA: 'individual or retail investors who do not have access to the same tools or resources as institutional investors' \u2014 textbook IA framing. OP: 'I am against allowing any opt-in to an alternative reporting' \u2014 explicit rebuttal of optionality. ST: 'Companies should be focused on long term strategy regardless'.",
+    "rationale_evidence": "IP: 'reduces transparency'. IA: 'individual or retail investors who do not have access to the same tools or resources as institutional investors' — textbook IA framing. OP: 'I am against allowing any opt-in to an alternative reporting' — explicit rebuttal of optionality. ST: 'Companies should be focused on long term strategy regardless'.",
     "rationales_primary": [
       "IA",
       "IP",
@@ -10501,7 +10501,7 @@
     "rationales": [
       "IA"
     ],
-    "rationale_evidence": "IA: 'Retail investors are already at a huge disadvantage compared to institutional investors' \u2014 textbook IA framing.",
+    "rationale_evidence": "IA: 'Retail investors are already at a huge disadvantage compared to institutional investors' — textbook IA framing.",
     "rationales_primary": [
       "IA"
     ],
@@ -10586,7 +10586,7 @@
       "CB",
       "IP"
     ],
-    "rationale_evidence": "IP: 'reduce corporate transparency' + 'erode investor confidence'. CB: 'marginal savings companies may find from this proposed change' \u2014 engages and rebuts the CB rationale.",
+    "rationale_evidence": "IP: 'reduce corporate transparency' + 'erode investor confidence'. CB: 'marginal savings companies may find from this proposed change' — engages and rebuts the CB rationale.",
     "rationales_primary": [
       "CB",
       "IP"
@@ -10695,7 +10695,7 @@
     "date": "2026-05-18",
     "name": "Daniel Platt",
     "role": "Retired AT&T",
-    "entity": "Issuer / Corporate \u2014 former",
+    "entity": "Issuer / Corporate — former",
     "stance": "Oppose",
     "primary_stance": "Oppose",
     "literalist_stance": "Oppose",
@@ -10703,14 +10703,14 @@
     "majority_stance": "Oppose",
     "agreement": "unanimous",
     "entity_primary": "Individual",
-    "entity_selfdescribed": "Issuer / Corporate \u2014 former",
-    "entity_letterhead": "Issuer / Corporate \u2014 former",
-    "entity_majority": "Issuer / Corporate \u2014 former",
+    "entity_selfdescribed": "Issuer / Corporate — former",
+    "entity_letterhead": "Issuer / Corporate — former",
+    "entity_majority": "Issuer / Corporate — former",
     "entity_agreement": "majority",
     "rationales": [
       "RI"
     ],
-    "rationale_evidence": "RI (P/I): 'My life savings are tied up in investments & I base my portfolio partly on those quarterly reports' \u2014 personal-reliance framing. Literalist needs institutional reliance (analyst/ETF/credit) which is not invoked here.",
+    "rationale_evidence": "RI (P/I): 'My life savings are tied up in investments & I base my portfolio partly on those quarterly reports' — personal-reliance framing. Literalist needs institutional reliance (analyst/ETF/credit) which is not invoked here.",
     "rationales_primary": [
       "RI"
     ],
@@ -10784,7 +10784,7 @@
       "IP",
       "RI"
     ],
-    "rationale_evidence": "CB: 'I have never worked for a company where providing this information to investors was a burden' \u2014 engages and rebuts CB. IP: 'regular quarterly reports... easily accessible'. IA: 'no matter the size of the investment'. RI: 'I have personally used this information in the past to decide whether or not to buy, sell, or hold'.",
+    "rationale_evidence": "CB: 'I have never worked for a company where providing this information to investors was a burden' — engages and rebuts CB. IP: 'regular quarterly reports... easily accessible'. IA: 'no matter the size of the investment'. RI: 'I have personally used this information in the past to decide whether or not to buy, sell, or hold'.",
     "rationales_primary": [
       "CB",
       "IA",
@@ -10933,7 +10933,7 @@
       "AU",
       "CB"
     ],
-    "rationale_evidence": "AU: 'As an external auditor, the quarterly reporting requirement acts as a disruption to our overall audit procedures' + 'More time to focus on the audit will allow for better audit quality'. CB: 'gives back audit teams two additional months'. Pro-proposal AU invocation \u2014 unique direction in the corpus.",
+    "rationale_evidence": "AU: 'As an external auditor, the quarterly reporting requirement acts as a disruption to our overall audit procedures' + 'More time to focus on the audit will allow for better audit quality'. CB: 'gives back audit teams two additional months'. Pro-proposal AU invocation — unique direction in the corpus.",
     "rationales_primary": [
       "AU",
       "CB"
@@ -10983,7 +10983,7 @@
       "OP",
       "US"
     ],
-    "rationale_evidence": "US: 'US markets are far and away the largest, most liquid and most attractive in the world' + 'Other lower tier markets (London, Hong Kong, etc.) will certainly gain'. ICc: 'Look at European markets for the results that will follow'. MF: 'weaker, smaller and less liquid'. CB: 'time commitment of quarterly reporting for public companies is minimal'. OP: 'private tech companies are choosing to stay private longer' \u2014 engages the proposal's stated optionality goal. IA (P/I): 'Public investors absolutely need the information'. IP (P/I): 'make informed investment decisions'.",
+    "rationale_evidence": "US: 'US markets are far and away the largest, most liquid and most attractive in the world' + 'Other lower tier markets (London, Hong Kong, etc.) will certainly gain'. ICc: 'Look at European markets for the results that will follow'. MF: 'weaker, smaller and less liquid'. CB: 'time commitment of quarterly reporting for public companies is minimal'. OP: 'private tech companies are choosing to stay private longer' — engages the proposal's stated optionality goal. IA (P/I): 'Public investors absolutely need the information'. IP (P/I): 'make informed investment decisions'.",
     "rationales_primary": [
       "CB",
       "IA",
@@ -11045,7 +11045,7 @@
     "rationales": [
       "CB"
     ],
-    "rationale_evidence": "CB: 'We have internet, should be quicker not longer' \u2014 rebuts the cost-burden premise of the proposal.",
+    "rationale_evidence": "CB: 'We have internet, should be quicker not longer' — rebuts the cost-burden premise of the proposal.",
     "rationales_primary": [
       "CB"
     ],
@@ -11146,7 +11146,7 @@
       "RI"
     ],
     "rationale_agreement": "split",
-    "summary": "Nine-page legal memo from Margaret Rosenfeld (Founder, Zukunft Advisory, LLC), a 27-year corporate/securities lawyer with partner experience at Freshfields, Paul Weiss, K&L Gates, Smith Anderson, and senior in-house CLO roles. Conditional: does not oppose but proposes a four-component operational framework + three specific recommendations to address the 'disclosure liability gap' the proposal creates for issuers that elect semiannual and continue quarterly market communications (the substantial majority, in her view). 11 rationale codes \u2014 new corpus record. Substantial LE invocation: cites Sections 302/906 SOX, Items 307/308 Regulation S-K, Section 18, Section 11, PCAOB AS 4105, AU-C 930, Rule 10b-5, Reg FD, Rule 10b5-1. Notable framing: bifurcation between large-cap quarterly filers (overwhelmingly non-electing) and smaller semiannual electors, and the 'on-ramp question' for emerging issuers \u2014 neither maps cleanly to existing codes.",
+    "summary": "Nine-page legal memo from Margaret Rosenfeld (Founder, Zukunft Advisory, LLC), a 27-year corporate/securities lawyer with partner experience at Freshfields, Paul Weiss, K&L Gates, Smith Anderson, and senior in-house CLO roles. Conditional: does not oppose but proposes a four-component operational framework + three specific recommendations to address the 'disclosure liability gap' the proposal creates for issuers that elect semiannual and continue quarterly market communications (the substantial majority, in her view). 11 rationale codes — new corpus record. Substantial LE invocation: cites Sections 302/906 SOX, Items 307/308 Regulation S-K, Section 18, Section 11, PCAOB AS 4105, AU-C 930, Rule 10b-5, Reg FD, Rule 10b5-1. Notable framing: bifurcation between large-cap quarterly filers (overwhelmingly non-electing) and smaller semiannual electors, and the 'on-ramp question' for emerging issuers — neither maps cleanly to existing codes.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-781927-2379414.pdf",
     "words": 2715,
     "letter_id": "s7202615-781927-2379414.pdf"
@@ -11213,7 +11213,7 @@
       "AL",
       "AU"
     ],
-    "rationale_evidence": "AL: 'first report of the year for four months... after 7 months instead of semi-annual... another report after 10 months' \u2014 explicit every-4-months alternative cadence (3 reports/year). AU: 'extra month to recover from annual and year end audits' \u2014 engages auditor-burden framing.",
+    "rationale_evidence": "AL: 'first report of the year for four months... after 7 months instead of semi-annual... another report after 10 months' — explicit every-4-months alternative cadence (3 reports/year). AU: 'extra month to recover from annual and year end audits' — engages auditor-burden framing.",
     "rationales_primary": [
       "AL",
       "AU"
@@ -11231,7 +11231,7 @@
       "AU"
     ],
     "rationale_agreement": "unanimous",
-    "summary": "Conditional with explicit alternative cadence proposal (every 4 months, 3 reports/year) framed around audit-team workload smoothing. Unusual AL invocation \u2014 most AL letters propose scaled relief or longer 10-S deadlines; Williams proposes a different middle-ground cadence.",
+    "summary": "Conditional with explicit alternative cadence proposal (every 4 months, 3 reports/year) framed around audit-team workload smoothing. Unusual AL invocation — most AL letters propose scaled relief or longer 10-S deadlines; Williams proposes a different middle-ground cadence.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-781888-2379395.html",
     "words": 72,
     "letter_id": "781888-2379395"
@@ -11513,7 +11513,7 @@
       "IA",
       "RI"
     ],
-    "rationale_evidence": "FR: extensive Enron retelling \u2014 'Kenneth Lay... knew they company was going bust, all given the heads up to sell off all their soon to be totally worthless stocks' + 'corruption to flourish'. IA: 'single mother working diligently... WE THE CONTRACTORS hired by Enron' vs 'top tier employees, politicians in the know, as well as other elite billionaires'. RI (P/I): personal-financial-reliance via lost commissions and stolen 401k framing.",
+    "rationale_evidence": "FR: extensive Enron retelling — 'Kenneth Lay... knew they company was going bust, all given the heads up to sell off all their soon to be totally worthless stocks' + 'corruption to flourish'. IA: 'single mother working diligently... WE THE CONTRACTORS hired by Enron' vs 'top tier employees, politicians in the know, as well as other elite billionaires'. RI (P/I): personal-financial-reliance via lost commissions and stolen 401k framing.",
     "rationales_primary": [
       "FR",
       "IA",
@@ -11642,7 +11642,7 @@
       "IA",
       "IP"
     ],
-    "rationale_evidence": "CB: 'savings are actually minimal' \u2014 rebuts CB rationale. IA: 'only benefit the company and the executives, not the shareholders or the public'. IP: 'a matter of transparency'.",
+    "rationale_evidence": "CB: 'savings are actually minimal' — rebuts CB rationale. IA: 'only benefit the company and the executives, not the shareholders or the public'. IP: 'a matter of transparency'.",
     "rationales_primary": [
       "CB",
       "IA",
@@ -11694,7 +11694,7 @@
       "OP",
       "RI"
     ],
-    "rationale_evidence": "IA: 'retail investors such as myself would have access to less timely information'. IP: 'verify the information via quarterly financial statements'. OP: 'naive to believe that making this policy \"optional\" is nothing more than a smokescreen' \u2014 explicit OP rebuttal. CB: 'notion that it will generate significant savings for the corporation' \u2014 CB rebuttal. FR (P/I): 'close the information window on investors'. RI (P/I): 'no notion of whether to buy or sell' \u2014 personal reliance.",
+    "rationale_evidence": "IA: 'retail investors such as myself would have access to less timely information'. IP: 'verify the information via quarterly financial statements'. OP: 'naive to believe that making this policy \"optional\" is nothing more than a smokescreen' — explicit OP rebuttal. CB: 'notion that it will generate significant savings for the corporation' — CB rebuttal. FR (P/I): 'close the information window on investors'. RI (P/I): 'no notion of whether to buy or sell' — personal reliance.",
     "rationales_primary": [
       "CB",
       "FR",
@@ -11726,7 +11726,7 @@
       "RI"
     ],
     "rationale_agreement": "majority",
-    "summary": "164-word retail Oppose. Explicit OP rebuttal ('optional is a smokescreen') + CB rebuttal in one letter \u2014 full structural critique of the proposal's stated benefits.",
+    "summary": "164-word retail Oppose. Explicit OP rebuttal ('optional is a smokescreen') + CB rebuttal in one letter — full structural critique of the proposal's stated benefits.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-780947-2377454.html",
     "words": 164,
     "letter_id": "780947-2377454"
@@ -11800,7 +11800,7 @@
       "FR",
       "IA"
     ],
-    "rationale_evidence": "AL: 'Quarterly filing should be monthly' \u2014 maximalist alternative. FR: 'more chance for manipulation' + 'Less chance of fraud and deception'. IA: 'Us little guys are getting smoked now'. CB: 'There truly is little savings by going every six months' + 'at very little cost' \u2014 CB rebuttal.",
+    "rationale_evidence": "AL: 'Quarterly filing should be monthly' — maximalist alternative. FR: 'more chance for manipulation' + 'Less chance of fraud and deception'. IA: 'Us little guys are getting smoked now'. CB: 'There truly is little savings by going every six months' + 'at very little cost' — CB rebuttal.",
     "rationales_primary": [
       "AL",
       "CB",
@@ -11854,7 +11854,7 @@
       "IP",
       "LE"
     ],
-    "rationale_evidence": "IP: 'reduces transparency'. IA (P/I): 'competitive advantage for large public companies' (small-business vs large-issuer framing). LE (P/I): 'contrary to the purpose of the SEC' \u2014 gestural statutory-mission framing.",
+    "rationale_evidence": "IP: 'reduces transparency'. IA (P/I): 'competitive advantage for large public companies' (small-business vs large-issuer framing). LE (P/I): 'contrary to the purpose of the SEC' — gestural statutory-mission framing.",
     "rationales_primary": [
       "IA",
       "IP",
@@ -11907,7 +11907,7 @@
       "IP",
       "EX"
     ],
-    "rationale_evidence": "IA: 'reducing reporting frequency directly increases information asymmetry'. MF: 'degrade market efficiency, elevate cost of capital'; 'continuous, incremental price discovery'; 'idiosyncratic volatility and severe price gaps'. CMP: 'diminishes comparability across peers... cognitive processing burden on market analysts'. OP: Form 8-K rebuttal \u2014 'structurally flawed', 'inadequate'. US: 'U.S. capital markets are globally recognized as the gold standard'; foreign direct investment framing. LE: 'Exchange Act Rules 13a-13 and 15d-13'. IP: 'individual retail investors do not' have proprietary data streams. EX: 'negative externalities imposed on capital allocation efficiency, market transparency, and global competitiveness'.",
+    "rationale_evidence": "IA: 'reducing reporting frequency directly increases information asymmetry'. MF: 'degrade market efficiency, elevate cost of capital'; 'continuous, incremental price discovery'; 'idiosyncratic volatility and severe price gaps'. CMP: 'diminishes comparability across peers... cognitive processing burden on market analysts'. OP: Form 8-K rebuttal — 'structurally flawed', 'inadequate'. US: 'U.S. capital markets are globally recognized as the gold standard'; foreign direct investment framing. LE: 'Exchange Act Rules 13a-13 and 15d-13'. IP: 'individual retail investors do not' have proprietary data streams. EX: 'negative externalities imposed on capital allocation efficiency, market transparency, and global competitiveness'.",
     "rationales_primary": [
       "IA",
       "MF",
@@ -11949,7 +11949,7 @@
       "EX"
     ],
     "rationale_agreement": "unanimous",
-    "summary": "Substantive Oppose PDF from a self-described Individual Investor. 6-vector technical argument (US gold standard, operational risks, IA, price discovery, Form 8-K critique, agency costs). Structurally near-identical template to #259 Rei Takashi (coordinated advocacy). 8 rationale codes \u2014 among the most rationale-rich letters in the corpus.",
+    "summary": "Substantive Oppose PDF from a self-described Individual Investor. 6-vector technical argument (US gold standard, operational risks, IA, price discovery, Form 8-K critique, agency costs). Structurally near-identical template to #259 Rei Takashi (coordinated advocacy). 8 rationale codes — among the most rationale-rich letters in the corpus.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-782827-2380954.pdf",
     "words": 450,
     "letter_id": "782827-2380954"
@@ -11975,7 +11975,7 @@
     "rationales": [
       "IP"
     ],
-    "rationale_evidence": "IP: 'wealth gap... hurts normal Americans while helping businesses and private investors' \u2014 distributional investor-protection framing.",
+    "rationale_evidence": "IP: 'wealth gap... hurts normal Americans while helping businesses and private investors' — distributional investor-protection framing.",
     "rationales_primary": [
       "IP"
     ],
@@ -12015,7 +12015,7 @@
     "rationales": [
       "IA"
     ],
-    "rationale_evidence": "IA: 'retail investor are going to be the last to know about a company if this law pass' \u2014 retail-vs-institutional information-timing framing.",
+    "rationale_evidence": "IA: 'retail investor are going to be the last to know about a company if this law pass' — retail-vs-institutional information-timing framing.",
     "rationales_primary": [
       "IA"
     ],
@@ -12103,7 +12103,7 @@
       "OP",
       "CMP"
     ],
-    "rationale_evidence": "IA: 'Increased Information Asymmetry' section header; 'retail investors at a severe disadvantage'. IP: same section, retail-investor focus. MF: 'Heightened Market Volatility'; 'Reduced Management Accountability'. OP: 'Ineffectiveness of Voluntary Updates' \u2014 Form 8-K critique. CMP: 'difficult for investors to accurately compare performance across companies or sectors'.",
+    "rationale_evidence": "IA: 'Increased Information Asymmetry' section header; 'retail investors at a severe disadvantage'. IP: same section, retail-investor focus. MF: 'Heightened Market Volatility'; 'Reduced Management Accountability'. OP: 'Ineffectiveness of Voluntary Updates' — Form 8-K critique. CMP: 'difficult for investors to accurately compare performance across companies or sectors'.",
     "rationales_primary": [
       "IA",
       "IP",
@@ -12243,7 +12243,7 @@
       "EX"
     ],
     "rationale_agreement": "unanimous",
-    "summary": "Substantive 4-vector technical Oppose with explicit information-asymmetry, price-discovery, Form 8-K, and agency-cost framing. Near-identical structural template to #253 Anthony Langenstein \u2014 coordinated advocacy pattern, similar to Simpson pair at #218/#219.",
+    "summary": "Substantive 4-vector technical Oppose with explicit information-asymmetry, price-discovery, Form 8-K, and agency-cost framing. Near-identical structural template to #253 Anthony Langenstein — coordinated advocacy pattern, similar to Simpson pair at #218/#219.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-782747-2380874_1.html",
     "words": 340,
     "letter_id": "782747-2380874_1"
@@ -12271,7 +12271,7 @@
       "FR",
       "CB"
     ],
-    "rationale_evidence": "IP: 'small guy', 'retirement funds', 'I rely on the fairness of the SEC'. FR: 'corporate manipulation and privileged executives'. CB: 'does very little to reduce costs' \u2014 direct CB rebuttal. PP-watch: 'corporate/government cronyism' \u2014 substantive capture framing.",
+    "rationale_evidence": "IP: 'small guy', 'retirement funds', 'I rely on the fairness of the SEC'. FR: 'corporate manipulation and privileged executives'. CB: 'does very little to reduce costs' — direct CB rebuttal. PP-watch: 'corporate/government cronyism' — substantive capture framing.",
     "rationales_primary": [
       "IP",
       "FR",
@@ -12359,7 +12359,7 @@
       "IP",
       "IA"
     ],
-    "rationale_evidence": "IP: 'As a retail investor, quarterly earnings are my only real data point'. IA: same plus 'asks for more data, not less' \u2014 retail data-access framing.",
+    "rationale_evidence": "IP: 'As a retail investor, quarterly earnings are my only real data point'. IA: same plus 'asks for more data, not less' — retail data-access framing.",
     "rationales_primary": [
       "IP",
       "IA"
@@ -12405,7 +12405,7 @@
       "CB",
       "IP"
     ],
-    "rationale_evidence": "IA: 'information flowing to all investors in a timely manner'. CB: 'actual savings... are modest legal and accounting fees' \u2014 direct minimization. IP: 'cost of worse information falls on the investors'.",
+    "rationale_evidence": "IA: 'information flowing to all investors in a timely manner'. CB: 'actual savings... are modest legal and accounting fees' — direct minimization. IP: 'cost of worse information falls on the investors'.",
     "rationales_primary": [
       "IA",
       "CB",
@@ -12427,7 +12427,7 @@
       "IP"
     ],
     "rationale_agreement": "unanimous",
-    "summary": "Brief Oppose. Quarterly preserves timely information flow (IA); argues cost-savings claim is overstated because internal recordkeeping and board reporting remain (CB); distributional framing \u2014 savings flow to companies and executives, information costs fall on investors (IP). Backfill from 2026-05-15 \u2014 Action skipped twice via CDN staleness on page 2.",
+    "summary": "Brief Oppose. Quarterly preserves timely information flow (IA); argues cost-savings claim is overstated because internal recordkeeping and board reporting remain (CB); distributional framing — savings flow to companies and executives, information costs fall on investors (IP). Backfill from 2026-05-15 — Action skipped twice via CDN staleness on page 2.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-780007-2375354.html",
     "words": 74,
     "letter_id": "780007-2375354"
@@ -12455,7 +12455,7 @@
       "IA",
       "MF"
     ],
-    "rationale_evidence": "IP: 'Investors deserve more transparency, not less'. IA: 'allows investors to monitor patterns and keep a pulse on how the company is performing'. MF: 'share price volatility on announcement days' \u2014 direct jump-volatility framing.",
+    "rationale_evidence": "IP: 'Investors deserve more transparency, not less'. IA: 'allows investors to monitor patterns and keep a pulse on how the company is performing'. MF: 'share price volatility on announcement days' — direct jump-volatility framing.",
     "rationales_primary": [
       "IP",
       "IA",
@@ -12588,7 +12588,7 @@
       "IP",
       "FR"
     ],
-    "rationale_evidence": "IP: 'maintain an informed investor community'. FR: 'reduce the potential for securities fraud' \u2014 direct fraud framing.",
+    "rationale_evidence": "IP: 'maintain an informed investor community'. FR: 'reduce the potential for securities fraud' — direct fraud framing.",
     "rationales_primary": [
       "IP",
       "FR"
@@ -12685,7 +12685,7 @@
       "ICs",
       "CB"
     ],
-    "rationale_evidence": "ST: 'Semi-annual reporting is adequate for the long-term investor' \u2014 short-termism framing. ICs: 'data from foreign markets supports this assertion' \u2014 international evidence supportive read. CB: 'reduce the burden of being a public company with the hoped for salutary effect of increasing the number of public companies available'.",
+    "rationale_evidence": "ST: 'Semi-annual reporting is adequate for the long-term investor' — short-termism framing. ICs: 'data from foreign markets supports this assertion' — international evidence supportive read. CB: 'reduce the burden of being a public company with the hoped for salutary effect of increasing the number of public companies available'.",
     "rationales_primary": [
       "ST",
       "ICs",
@@ -12737,7 +12737,7 @@
       "AL",
       "CB"
     ],
-    "rationale_evidence": "IP: 'greater performance transparency', 'investment democratization', 'Hiding information feels very third world'. MF: 'efficient markets, price stability'. AL: alternative-regime proposal \u2014 'live reporting information daily', 'Loosen the legal requirements and allow companies to publish easy to understand metrics'. CB: 'Companies already have live data reporting dashboards' \u2014 argues low marginal cost of more-frequent reporting. Skeptic flips to Conditional on the alternative-regime proposal; Primary and Literalist read Oppose (wrong-direction framing).",
+    "rationale_evidence": "IP: 'greater performance transparency', 'investment democratization', 'Hiding information feels very third world'. MF: 'efficient markets, price stability'. AL: alternative-regime proposal — 'live reporting information daily', 'Loosen the legal requirements and allow companies to publish easy to understand metrics'. CB: 'Companies already have live data reporting dashboards' — argues low marginal cost of more-frequent reporting. Skeptic flips to Conditional on the alternative-regime proposal; Primary and Literalist read Oppose (wrong-direction framing).",
     "rationales_primary": [
       "IP",
       "MF",
@@ -12771,7 +12771,7 @@
     "n": 271,
     "name": "Thomas Bourveau",
     "date": "2026-05-17",
-    "role": "Professor of Accounting, Sa\u00efd Business School, University of Oxford",
+    "role": "Professor of Accounting, Saïd Business School, University of Oxford",
     "page": 2,
     "entity": "Academic researcher",
     "stance": "Conditional",
@@ -12794,7 +12794,7 @@
       "OP",
       "ICs"
     ],
-    "rationale_evidence": "IA: engages and rebuts the information-asymmetry market-failure argument (Grossman/Milgrom unraveling; own RFS 2025 streetcar paper, 72%->95% voluntary disclosure). EX: engages and rebuts the externality market-failure argument (Breuer JAR 2021, European private firms). CB: compliance/preparation costs, higher for smaller high-growth issuers; modest aggregate savings. IP: 'must balance investor protection with the goal of facilitating capital formation'; 'does not necessarily mean diminished investor protection'. AL: hybrid reporters (voluntary Q1/Q3 info); incorporate reporting frequency into risk-based oversight framework. OP: central theme \u2014 'potential benefits of a flexible reporting regime', 'allow issuers to reveal their preferences'. ICs: European (Breuer) and Chinese comply-or-explain (Bourveau et al JAE 2025) international evidence, supportive direction. Stance: Primary=Support (dominant pro-flexibility position); Literalist=Conditional (no explicit endorsement verb); Skeptic=Conditional (risk-based-oversight refinement is a qualification) -> majority Conditional. Classified by the 3-rater algorithm without human override per project methodology.",
+    "rationale_evidence": "IA: engages and rebuts the information-asymmetry market-failure argument (Grossman/Milgrom unraveling; own RFS 2025 streetcar paper, 72%->95% voluntary disclosure). EX: engages and rebuts the externality market-failure argument (Breuer JAR 2021, European private firms). CB: compliance/preparation costs, higher for smaller high-growth issuers; modest aggregate savings. IP: 'must balance investor protection with the goal of facilitating capital formation'; 'does not necessarily mean diminished investor protection'. AL: hybrid reporters (voluntary Q1/Q3 info); incorporate reporting frequency into risk-based oversight framework. OP: central theme — 'potential benefits of a flexible reporting regime', 'allow issuers to reveal their preferences'. ICs: European (Breuer) and Chinese comply-or-explain (Bourveau et al JAE 2025) international evidence, supportive direction. Stance: Primary=Support (dominant pro-flexibility position); Literalist=Conditional (no explicit endorsement verb); Skeptic=Conditional (risk-based-oversight refinement is a qualification) -> majority Conditional. Classified by the 3-rater algorithm without human override per project methodology.",
     "rationales_primary": [
       "IA",
       "EX",
@@ -12947,7 +12947,7 @@
       "IA",
       "IP"
     ],
-    "rationale_evidence": "IP: 'must keep Quarterly Reports available for traders'. IA: access-equity framing \u2014 'We have daily reports available to our State and Federal Representatives, we MUST keep this available at the very least' (representatives get daily; investors should keep at least quarterly).",
+    "rationale_evidence": "IP: 'must keep Quarterly Reports available for traders'. IA: access-equity framing — 'We have daily reports available to our State and Federal Representatives, we MUST keep this available at the very least' (representatives get daily; investors should keep at least quarterly).",
     "rationales_primary": [
       "IA",
       "IP"
@@ -12993,7 +12993,7 @@
       "CB",
       "MF"
     ],
-    "rationale_evidence": "IA: 'Institutional Information Asymmetry' \u2014 institutions proxy company health via satellite imagery/credit-card scrapes/supply-chain tracking; retail relies on SEC filings as the only 'level playing field'. IP: 'unfair advantage to institutions and hedge funds', 'American retail investor'. CB: 'The Cost Savings Fallacy' \u2014 same accounting systems, audit teams, compliance staff regardless of frequency; savings negligible. MF: 'The Risk of Information Shocks' \u2014 180-day windows cause destabilizing gap-downs/gap-ups (jump volatility).",
+    "rationale_evidence": "IA: 'Institutional Information Asymmetry' — institutions proxy company health via satellite imagery/credit-card scrapes/supply-chain tracking; retail relies on SEC filings as the only 'level playing field'. IP: 'unfair advantage to institutions and hedge funds', 'American retail investor'. CB: 'The Cost Savings Fallacy' — same accounting systems, audit teams, compliance staff regardless of frequency; savings negligible. MF: 'The Risk of Information Shocks' — 180-day windows cause destabilizing gap-downs/gap-ups (jump volatility).",
     "rationales_primary": [
       "IA",
       "IP",
@@ -13023,5 +13023,305 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-770147-2359394.pdf",
     "words": 330,
     "letter_id": "770147-2359394"
+  },
+  {
+    "n": 276,
+    "page": 1,
+    "date": "2026-05-20",
+    "name": "Bonnie Sears",
+    "role": "Individual",
+    "entity": "Unclassified",
+    "stance": "Unclassified",
+    "primary_stance": "Unclassified",
+    "literalist_stance": "Unclassified",
+    "skeptic_stance": "Unclassified",
+    "majority_stance": "Unclassified",
+    "agreement": "",
+    "entity_primary": "Unclassified",
+    "entity_selfdescribed": "Unclassified",
+    "entity_letterhead": "Unclassified",
+    "entity_majority": "Unclassified",
+    "entity_agreement": "",
+    "rationales": [],
+    "rationale_evidence": "",
+    "rationales_primary": [],
+    "rationales_literalist": [],
+    "rationales_inclusive": [],
+    "rationales_majority": [],
+    "rationale_agreement": "",
+    "summary": "(Awaiting Claude classification.)",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-783667-2382295.html",
+    "words": 10,
+    "letter_id": "783667-2382295"
+  },
+  {
+    "n": 277,
+    "page": 1,
+    "date": "2026-05-20",
+    "name": "David N. Abernathy",
+    "role": "Jr.",
+    "entity": "Unclassified",
+    "stance": "Unclassified",
+    "primary_stance": "Unclassified",
+    "literalist_stance": "Unclassified",
+    "skeptic_stance": "Unclassified",
+    "majority_stance": "Unclassified",
+    "agreement": "",
+    "entity_primary": "Unclassified",
+    "entity_selfdescribed": "Unclassified",
+    "entity_letterhead": "Unclassified",
+    "entity_majority": "Unclassified",
+    "entity_agreement": "",
+    "rationales": [],
+    "rationale_evidence": "",
+    "rationales_primary": [],
+    "rationales_literalist": [],
+    "rationales_inclusive": [],
+    "rationales_majority": [],
+    "rationale_agreement": "",
+    "summary": "(Awaiting Claude classification.)",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-783787-2382674.html",
+    "words": 22,
+    "letter_id": "783787-2382674"
+  },
+  {
+    "n": 278,
+    "page": 1,
+    "date": "2026-05-20",
+    "name": "Fred Scialabba",
+    "role": "Individual",
+    "entity": "Unclassified",
+    "stance": "Unclassified",
+    "primary_stance": "Unclassified",
+    "literalist_stance": "Unclassified",
+    "skeptic_stance": "Unclassified",
+    "majority_stance": "Unclassified",
+    "agreement": "",
+    "entity_primary": "Unclassified",
+    "entity_selfdescribed": "Unclassified",
+    "entity_letterhead": "Unclassified",
+    "entity_majority": "Unclassified",
+    "entity_agreement": "",
+    "rationales": [],
+    "rationale_evidence": "",
+    "rationales_primary": [],
+    "rationales_literalist": [],
+    "rationales_inclusive": [],
+    "rationales_majority": [],
+    "rationale_agreement": "",
+    "summary": "(Awaiting Claude classification.)",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-783607-2382195.html",
+    "words": 10,
+    "letter_id": "783607-2382195"
+  },
+  {
+    "n": 279,
+    "page": 1,
+    "date": "2026-05-20",
+    "name": "James Parker",
+    "role": "Individual",
+    "entity": "Unclassified",
+    "stance": "Unclassified",
+    "primary_stance": "Unclassified",
+    "literalist_stance": "Unclassified",
+    "skeptic_stance": "Unclassified",
+    "majority_stance": "Unclassified",
+    "agreement": "",
+    "entity_primary": "Unclassified",
+    "entity_selfdescribed": "Unclassified",
+    "entity_letterhead": "Unclassified",
+    "entity_majority": "Unclassified",
+    "entity_agreement": "",
+    "rationales": [],
+    "rationale_evidence": "",
+    "rationales_primary": [],
+    "rationales_literalist": [],
+    "rationales_inclusive": [],
+    "rationales_majority": [],
+    "rationale_agreement": "",
+    "summary": "(PDF — awaiting manual processing.)",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-783747-2382634.pdf",
+    "words": 0,
+    "letter_id": "s7202615-783747-2382634.pdf"
+  },
+  {
+    "n": 280,
+    "page": 1,
+    "date": "2026-05-20",
+    "name": "Shawn Lyon",
+    "role": "Individual",
+    "entity": "Unclassified",
+    "stance": "Unclassified",
+    "primary_stance": "Unclassified",
+    "literalist_stance": "Unclassified",
+    "skeptic_stance": "Unclassified",
+    "majority_stance": "Unclassified",
+    "agreement": "",
+    "entity_primary": "Unclassified",
+    "entity_selfdescribed": "Unclassified",
+    "entity_letterhead": "Unclassified",
+    "entity_majority": "Unclassified",
+    "entity_agreement": "",
+    "rationales": [],
+    "rationale_evidence": "",
+    "rationales_primary": [],
+    "rationales_literalist": [],
+    "rationales_inclusive": [],
+    "rationales_majority": [],
+    "rationale_agreement": "",
+    "summary": "(Awaiting Claude classification.)",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-783587-2382194.html",
+    "words": 34,
+    "letter_id": "783587-2382194"
+  },
+  {
+    "n": 281,
+    "page": 1,
+    "date": "2026-05-19",
+    "name": "Daniel Flatley",
+    "role": "Retired Managing Director DLJ and Credit Suisse, Retired Partner Masthead Investment Partners, Retired Chairman, Lumeta Holdings",
+    "entity": "Unclassified",
+    "stance": "Unclassified",
+    "primary_stance": "Unclassified",
+    "literalist_stance": "Unclassified",
+    "skeptic_stance": "Unclassified",
+    "majority_stance": "Unclassified",
+    "agreement": "",
+    "entity_primary": "Unclassified",
+    "entity_selfdescribed": "Unclassified",
+    "entity_letterhead": "Unclassified",
+    "entity_majority": "Unclassified",
+    "entity_agreement": "",
+    "rationales": [],
+    "rationale_evidence": "",
+    "rationales_primary": [],
+    "rationales_literalist": [],
+    "rationales_inclusive": [],
+    "rationales_majority": [],
+    "rationale_agreement": "",
+    "summary": "(Awaiting Claude classification.)",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-783547-2382074.html",
+    "words": 48,
+    "letter_id": "783547-2382074"
+  },
+  {
+    "n": 282,
+    "page": 1,
+    "date": "2026-05-19",
+    "name": "Dr. Fahim Mazumdar",
+    "role": "Professor of Accounting, Yavapai College",
+    "entity": "Unclassified",
+    "stance": "Unclassified",
+    "primary_stance": "Unclassified",
+    "literalist_stance": "Unclassified",
+    "skeptic_stance": "Unclassified",
+    "majority_stance": "Unclassified",
+    "agreement": "",
+    "entity_primary": "Unclassified",
+    "entity_selfdescribed": "Unclassified",
+    "entity_letterhead": "Unclassified",
+    "entity_majority": "Unclassified",
+    "entity_agreement": "",
+    "rationales": [],
+    "rationale_evidence": "",
+    "rationales_primary": [],
+    "rationales_literalist": [],
+    "rationales_inclusive": [],
+    "rationales_majority": [],
+    "rationale_agreement": "",
+    "summary": "(Awaiting Claude classification.)",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-783467-2381954.html",
+    "words": 283,
+    "letter_id": "783467-2381954"
+  },
+  {
+    "n": 283,
+    "page": 1,
+    "date": "2026-05-19",
+    "name": "Josh Miller",
+    "role": "Individual",
+    "entity": "Unclassified",
+    "stance": "Unclassified",
+    "primary_stance": "Unclassified",
+    "literalist_stance": "Unclassified",
+    "skeptic_stance": "Unclassified",
+    "majority_stance": "Unclassified",
+    "agreement": "",
+    "entity_primary": "Unclassified",
+    "entity_selfdescribed": "Unclassified",
+    "entity_letterhead": "Unclassified",
+    "entity_majority": "Unclassified",
+    "entity_agreement": "",
+    "rationales": [],
+    "rationale_evidence": "",
+    "rationales_primary": [],
+    "rationales_literalist": [],
+    "rationales_inclusive": [],
+    "rationales_majority": [],
+    "rationale_agreement": "",
+    "summary": "(Awaiting Claude classification.)",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-783447-2381794.html",
+    "words": 55,
+    "letter_id": "783447-2381794"
+  },
+  {
+    "n": 284,
+    "page": 1,
+    "date": "2026-05-19",
+    "name": "Russ Nickel",
+    "role": "Individual",
+    "entity": "Unclassified",
+    "stance": "Unclassified",
+    "primary_stance": "Unclassified",
+    "literalist_stance": "Unclassified",
+    "skeptic_stance": "Unclassified",
+    "majority_stance": "Unclassified",
+    "agreement": "",
+    "entity_primary": "Unclassified",
+    "entity_selfdescribed": "Unclassified",
+    "entity_letterhead": "Unclassified",
+    "entity_majority": "Unclassified",
+    "entity_agreement": "",
+    "rationales": [],
+    "rationale_evidence": "",
+    "rationales_primary": [],
+    "rationales_literalist": [],
+    "rationales_inclusive": [],
+    "rationales_majority": [],
+    "rationale_agreement": "",
+    "summary": "(Awaiting Claude classification.)",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-783347-2381714_0.html",
+    "words": 4,
+    "letter_id": "783347-2381714_0"
+  },
+  {
+    "n": 285,
+    "page": 1,
+    "date": "2026-05-19",
+    "name": "William Martin",
+    "role": "Individual",
+    "entity": "Unclassified",
+    "stance": "Unclassified",
+    "primary_stance": "Unclassified",
+    "literalist_stance": "Unclassified",
+    "skeptic_stance": "Unclassified",
+    "majority_stance": "Unclassified",
+    "agreement": "",
+    "entity_primary": "Unclassified",
+    "entity_selfdescribed": "Unclassified",
+    "entity_letterhead": "Unclassified",
+    "entity_majority": "Unclassified",
+    "entity_agreement": "",
+    "rationales": [],
+    "rationale_evidence": "",
+    "rationales_primary": [],
+    "rationales_literalist": [],
+    "rationales_inclusive": [],
+    "rationales_majority": [],
+    "rationale_agreement": "",
+    "summary": "(Awaiting Claude classification.)",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-783427-2381774.html",
+    "words": 20,
+    "letter_id": "783427-2381774"
   }
 ]
