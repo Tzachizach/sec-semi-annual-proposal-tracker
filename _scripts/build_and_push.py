@@ -56,12 +56,26 @@ PUBLIC_DEV_BODIES = PUBLIC_DEV_DIR / "bodies.json"
 # Controlled by --dev CLI flag; default off so launchd-driven runs only update production.
 BUILD_DEV_MIRROR = False
 
-# Files to upload (path on GitHub  ->  local path)
+# Files to upload (path on GitHub  ->  local path).
+#
+# The first four are the public site itself. `_meta/renumbered_records.json` is
+# the canonical dataset: it MUST also be pushed so the Cowork classification
+# work survives the next Action run. Without this, daily_fetch.py reads the
+# stale GitHub copy on its next run and the subsequent sync overwrites the
+# Mac-side classifications with placeholders. See STATUS log 2026-05-18 evening.
 FILES_TO_PUSH = {
     "index.html": PUBLIC_HTML,
     "data.json": PUBLIC_JSON,
     "bodies.json": PUBLIC_BODIES,
     "rationale-taxonomy.html": PUBLIC_DIR / "rationale-taxonomy.html",
+    "_meta/renumbered_records.json": RECORDS_PATH,
+    # Build scripts the GitHub Action runs. These MUST be pushed too, otherwise the
+    # Action rebuilds the live site with a stale copy of build_and_push.py and reverts
+    # local presentation work (amber Conditional color, longest-letters accordion,
+    # off-topic filtering / in-corpus count). See STATUS log 2026-05-20.
+    "_scripts/build_and_push.py": SCRIPT_DIR / "build_and_push.py",
+    "_scripts/run_regression_compare.py": SCRIPT_DIR / "run_regression_compare.py",
+    "_scripts/build_letters_for_models.py": SCRIPT_DIR / "build_letters_for_models.py",
 }
 
 
@@ -154,7 +168,7 @@ h2 { font-size: 16px; font-weight: 500; margin: 0 0 12px; }
 .card .pct { font-size: 12px; color: #777; margin: 4px 0 0; }
 .card.support .value { color: #3b6d11; }
 .card.oppose .value { color: #993c1d; }
-.card.conditional .value { color: #854f0b; }
+.card.conditional .value { color: #a8830d; }
 .section { margin-bottom: 28px; }
 .chart-wrap { position: relative; width: 100%; height: 240px; }
 .chart-wrap.short { height: 200px; }
@@ -179,14 +193,37 @@ h2 { font-size: 16px; font-weight: 500; margin: 0 0 12px; }
 .row .pill { font-size: 11px; padding: 2px 8px; border-radius: 999px; text-align: center; font-weight: 500; white-space: nowrap; }
 .pill.Oppose { background: #FCEBEB; color: #791F1F; }
 .pill.Support { background: #EAF3DE; color: #27500A; }
-.pill.Conditional { background: #FAEEDA; color: #633806; }
+.pill.Conditional { background: #fcf2c0; color: #6b4f0a; }
 .pill.PDF { background: #F1EFE8; color: #444441; }
-.methodology { background: #faf8f2; border: 0.5px solid rgba(0,0,0,0.08); border-radius: 10px; padding: 14px 16px; margin: 0 0 24px; font-size: 13px; line-height: 1.55; }
-.methodology summary { cursor: pointer; list-style: none; font-weight: 500; color: #1a1a1a; display: flex; align-items: center; gap: 6px; }
+.longest-row { display: grid; grid-template-columns: 36px 70px 1.2fr 100px 56px 1.4fr;
+  align-items: baseline; gap: 12px; padding: 10px 12px;
+  border: 0.5px solid rgba(0,0,0,0.1); border-radius: 8px; font-size: 13px;
+  margin-bottom: 6px; }
+.longest-row .num { color: #888; font-variant-numeric: tabular-nums; }
+.longest-row .date { color: #666; font-variant-numeric: tabular-nums; }
+.longest-row .name a { color: #1a1a1a; font-weight: 500; text-decoration: none; }
+.longest-row .name a:hover { text-decoration: underline; }
+.longest-row .role { color: #777; font-size: 12px; display: block; margin-top: 2px; }
+.longest-row .words { color: #555; font-variant-numeric: tabular-nums; font-size: 12px; text-align: right; }
+.longest-row .pill { font-size: 11px; padding: 2px 8px; border-radius: 999px; text-align: center; font-weight: 500; white-space: nowrap; }
+.longest-row .rat-cell { display: flex; flex-wrap: wrap; gap: 3px; align-items: center; }
+.stance-block { background: #faf8f2; border: 0.5px solid rgba(0,0,0,0.08); border-radius: 10px; padding: 12px 18px; margin: 0 0 10px; font-size: 13px; }
+.stance-block summary { cursor: pointer; list-style: none; font-size: 14px; font-weight: 600; display: flex; align-items: center; gap: 8px; padding: 4px 0; letter-spacing: 0.02em; }
+.stance-block summary::-webkit-details-marker { display: none; }
+.stance-block summary::after { content: "▾"; font-size: 14px; font-weight: 600; color: inherit; transition: transform 0.15s ease; margin-left: auto; }
+.stance-block[open] summary::after { transform: rotate(180deg); }
+.stance-block summary .bucket-meta { font-size: 12px; color: #888; font-weight: 400; letter-spacing: 0; }
+.stance-block .stance-rows { margin-top: 10px; }
+.methodology { background: #faf8f2; border: 0.5px solid rgba(0,0,0,0.08); border-radius: 10px; padding: 16px 20px; margin: 0 0 18px; font-size: 13px; line-height: 1.55; }
+.methodology summary { cursor: pointer; list-style: none; font-size: 17px; font-weight: 600; color: #1a1a1a; display: flex; align-items: center; gap: 8px; padding: 4px 0; }
 .methodology summary::-webkit-details-marker { display: none; }
-.methodology summary::after { content: "▾"; font-size: 11px; color: #888; transition: transform 0.15s ease; margin-left: 4px; }
+.methodology summary::after { content: "▾"; font-size: 17px; font-weight: 600; color: #185fa5; transition: transform 0.15s ease; margin-left: auto; }
 .methodology[open] summary::after { transform: rotate(180deg); }
-.methodology .body { margin-top: 10px; color: #444; }
+.methodology summary .accordion-meta { font-size: 13px; color: #888; font-weight: 400; }
+.methodology summary .kw-stance     { color: #185fa5; }
+.methodology summary .kw-commenters { color: #6b3d8a; }
+.methodology summary .kw-rationales { color: #2a7d6b; }
+.methodology .body { margin-top: 12px; color: #444; font-size: 13px; }
 .methodology dl { margin: 8px 0 0; display: grid; grid-template-columns: 110px 1fr; column-gap: 14px; row-gap: 10px; }
 .methodology dt { font-weight: 500; color: #1a1a1a; }
 .methodology dt .dot { display: inline-block; width: 8px; height: 8px; border-radius: 999px; margin-right: 6px; vertical-align: middle; }
@@ -239,8 +276,18 @@ table.full td.num { font-variant-numeric: tabular-nums; }
 table.full td.right { text-align: right; }
 table.full a { color: #185fa5; text-decoration: none; }
 table.full a:hover { text-decoration: underline; }
+table.full tr.date-header td { background: #f0eee7; padding: 10px 14px; cursor: pointer; user-select: none; border-top: 1px solid rgba(0,0,0,0.15); border-bottom: 0.5px solid rgba(0,0,0,0.08); }
+table.full tr.date-header .chevron { display: inline-block; width: 18px; color: #185fa5; font-size: 17px; font-weight: 600; transition: transform 0.15s ease; }
+table.full tr.date-header.open .chevron { transform: rotate(0deg); }
+table.full tr.date-header .group-date { font-weight: 600; color: #1a1a1a; font-size: 14px; margin-left: 4px; }
+table.full tr.date-header .group-count { font-weight: 400; color: #777; font-size: 12px; margin-left: 10px; }
+table.full tr.collapsed-row { display: none; }
+.search-row { display: flex; align-items: center; gap: 10px; margin: 8px 0 12px; }
+.search-row .search { flex: 1; margin: 0; }
 .search { margin: 8px 0 12px; }
 .search input { width: 100%; padding: 8px 12px; border: 0.5px solid rgba(0,0,0,0.2); border-radius: 8px; font-size: 14px; }
+.expand-toggle { padding: 8px 14px; border: 0.5px solid rgba(0,0,0,0.2); border-radius: 8px; background: #fff; font-size: 12px; color: #444; cursor: pointer; white-space: nowrap; }
+.expand-toggle:hover { background: #faf8f2; }
 .footer { font-size: 12px; color: #888; margin-top: 32px; padding-top: 16px; border-top: 0.5px solid rgba(0,0,0,0.1); }
 .footer a { color: #185fa5; text-decoration: none; }
 .footer a:hover { text-decoration: underline; }
@@ -325,6 +372,8 @@ details.lr-test .lr-body { font-size: 12px; color: #555; padding: 8px 0 4px; lin
 <body>
 <h1>SEC Semi-Annual Reporting Proposal Tracker <span style="color:#777; font-weight:400;">(S7-2026-15)</span></h1>
 
+__TRAVEL_NOTICE__
+
 <div class="intro">
   <p>In <strong>May 2026</strong> the SEC issued a proposal that would allow public companies to switch from quarterly (Form 10-Q) to semi-annual financial reporting (a new Form 10-S). From the date of publication, the public has <strong>60 days</strong> to comment on the proposal.</p>
   <p>This site was produced by <a href="https://fisher.osu.edu/people/zach.7" target="_blank" rel="noopener">Professor Tzachi Zach</a> at The Ohio State University Fisher College of Business as a public service to track the comment letters as they arrive, classify their positions, and surface patterns in the docket. A number of methodological decisions had to be made along the way — how to classify stance, how to bucket commenters by entity type, how to handle hedged or conditional letters — those decisions are explained below.</p>
@@ -375,7 +424,7 @@ details.lr-test .lr-body { font-size: 12px; color: #555; padding: 8px 0 4px; lin
 </details>
 
 <details class="methodology">
-  <summary>How stances are classified (three-rater LLM ensemble)</summary>
+  <summary>How <span class="kw-stance">stances</span> are classified <span class="accordion-meta">(three-rater LLM ensemble)</span></summary>
   <div class="body">
     I had three Claude raters classify each letter independently. The headline stance shown here is the <strong>majority vote</strong> across the three. The LLM-annotation literature (Carlson &amp; Burbano, <em>SMJ</em> 2026; Liu, <em>CHB</em> 2026) recommends multi-prompt validation over a single classifier call, and that is what this design does.
 
@@ -410,6 +459,7 @@ details.lr-test .lr-body { font-size: 12px; color: #555; padding: 8px 0 4px; lin
       </ul>
       <p style="margin: 10px 0 0;">The Skeptic divergence reflects a rubric-conditioning effect. The same "default to Conditional unless unambiguous" instruction yielded 83 Conditional calls in GPT-5.5 versus 36 in Claude Opus 4.7. Same prompt, different operationalization across model families. Aggregate agreement on the majority vote holds; per-rubric agreement is more model-dependent.</p>
       <p style="margin: 10px 0 0;">5 letters fall outside the cross-model majority match: #2 Fardeen Irani, #13 Skyler Mathis, #43 Steven A. Collazo, #80 Bayo Olabisi, #122 Tal Madison. All 5 push from Claude's Support or Oppose call into GPT's Conditional call. 4 of the 5 already had at least one Claude rater calling Conditional, so the cross-model disagreement concentrates on the hedge-boundary letters Claude's own ensemble was already split on.</p>
+      <p style="margin: 10px 0 0;">I read all 5 of these letters by hand. On every one, Claude-Majority is the call I would have made; GPT-Majority is not. The uniform GPT failure mode: it treats any structural alternative or rhetorical hedge in the letter body as evidence of conditionality, even when the author's stated position is unambiguous. Five letters is a small validation set, but the direction is one-sided.</p>
     </div>
 
     <div style="margin-top:14px;">
@@ -419,7 +469,7 @@ details.lr-test .lr-body { font-size: 12px; color: #555; padding: 8px 0 4px; lin
         <dd>Author argues against adoption.</dd>
         <dt><span class="dot" style="background:#3b6d11"></span>Support</dt>
         <dd>Author explicitly endorses the proposal.</dd>
-        <dt><span class="dot" style="background:#854f0b"></span>Conditional <span style="color:#777; font-weight:400;">(in-between / mixed)</span></dt>
+        <dt><span class="dot" style="background:#a8830d"></span>Conditional <span style="color:#777; font-weight:400;">(in-between / mixed)</span></dt>
         <dd>Author wants modifications or alternatives (e.g. enhanced auditor assurance, monthly revenue disclosure, every-4-months cadence, qualifying-criteria framework). Would not vote yes on the rule as written.</dd>
       </dl>
     </div>
@@ -427,7 +477,7 @@ details.lr-test .lr-body { font-size: 12px; color: #555; padding: 8px 0 4px; lin
 </details>
 
 <details class="methodology">
-  <summary>How commenters are classified by entity (three-rater LLM ensemble)</summary>
+  <summary>How <span class="kw-commenters">commenters</span> <span class="accordion-meta">(entity)</span> are classified <span class="accordion-meta">(three-rater LLM ensemble)</span></summary>
   <div class="body">
     Letters fall into one of eight buckets by <strong>who is writing</strong>. As with stance, three rubrics classify each letter independently, and the headline bucket is the <strong>majority of three</strong>. A colleague with FASB comment-letter experience helped refine the taxonomy.
 
@@ -453,13 +503,13 @@ details.lr-test .lr-body { font-size: 12px; color: #555; padding: 8px 0 4px; lin
     </dl>
 
     <div style="margin-top:14px; padding-top:12px; border-top: 0.5px solid rgba(0,0,0,0.08);">
-      <strong>Agreement across the three raters (N = 182):</strong>
+      <strong>Agreement across the three raters (N = 283):</strong>
       <ul style="margin: 6px 0 0; padding-left: 20px; color: #444;">
-        <li>Unanimous: 168 (92.3%)</li>
-        <li>2-of-3 majority: 14 (7.7%)</li>
-        <li>Fleiss' κ: 0.878</li>
+        <li>Unanimous: 264 (93.3%)</li>
+        <li>2-of-3 majority: 19 (6.7%)</li>
+        <li>Fleiss' κ: 0.873</li>
       </ul>
-      <p style="margin: 8px 0 0; color: #666; font-size: 12px;">Substantially higher agreement than the stance ensemble (κ = 0.514). Majority headline distribution: Individual 134 / Accountant (CPA) 10 / Investment professional 10 / Issuer-current 9 / Industry practitioner 8 / Issuer-former 5 / Academic researcher 4 / Student 2.</p>
+      <p style="margin: 8px 0 0; color: #666; font-size: 12px;">Substantially higher agreement than the stance ensemble (κ = 0.587). Majority headline distribution: Individual 222 / Accountant (CPA) 13 / Industry practitioner 12 / Investment professional 11 / Issuer-current 10 / Academic researcher 7 / Issuer-former 6 / Student 2.</p>
     </div>
 
     <div style="margin-top:14px; padding-top:12px; border-top: 0.5px solid rgba(0,0,0,0.08);">
@@ -480,7 +530,7 @@ details.lr-test .lr-body { font-size: 12px; color: #555; padding: 8px 0 4px; lin
 </details>
 
 <details class="methodology">
-  <summary>How rationales are classified (argument taxonomy anchored on the SEC release; three-rater LLM ensemble)</summary>
+  <summary>How <span class="kw-rationales">rationales</span> are classified <span class="accordion-meta">(argument taxonomy anchored on the SEC release; three-rater LLM ensemble)</span></summary>
   <div class="body">
     Each letter can invoke one or more argument families. The taxonomy starts from the SEC's framing in the proposing release (Release Nos. 33-11414; 34-105368; File No. S7-2026-15). Three commenter-distinctive codes cover arguments the SEC does not engage as standalone justifications. <strong>20 codes total:</strong> 16 SEC-engaged (9 anti-proposal, 5 pro-proposal, 1 conditional, 1 procedural), 3 commenter-distinctive (<em>IP</em> investor protection; <em>US</em> capital-market leadership; <em>RI</em> investor reliance interests), and 1 "no substantive rationale" for letters that state a position without engaging an argument.
 
@@ -499,21 +549,21 @@ details.lr-test .lr-body { font-size: 12px; color: #555; padding: 8px 0 4px; lin
     </div>
 
     <div style="margin-top: 14px;">
-      <strong>Agreement across the three raters (N = 182):</strong>
+      <strong>Agreement across the three raters (N = 283):</strong>
       <ul style="margin: 6px 0 0; padding-left: 20px; color: #444;">
-        <li>Unanimous (all three raters produced identical code sets): 99 (54.4%)</li>
-        <li>2-of-3 majority: 70 (38.5%)</li>
-        <li>Split (three different code sets): 13 (7.1%)</li>
-        <li>Mean per-code Cohen's κ across pairs: <strong>0.804</strong>. Substantial agreement, in line with multi-prompt LLM-annotation benchmarks.</li>
+        <li>Unanimous (all three raters produced identical code sets): 156 (55.1%)</li>
+        <li>2-of-3 majority: 108 (38.2%)</li>
+        <li>Split (three different code sets): 19 (6.7%)</li>
+        <li>Mean per-code Cohen's κ across pairs: <strong>0.843</strong>. Substantial agreement, in line with multi-prompt LLM-annotation benchmarks.</li>
       </ul>
     </div>
 
     <div style="margin-top: 14px;">
       <strong>Per-code Cohen's κ</strong> (binary code-present vs absent, mean across the three pairwise comparisons). Surface-readable codes have high κ; inferential codes have lower κ. The methodology surfaces the structure of the taxonomy.
       <div style="margin: 8px 0 0; padding: 10px 12px; background: #f7f5ef; border-radius: 6px; font-size: 12px; line-height: 1.6; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; color: #2a2a2a;">
-        ICc&nbsp;1.00 · ICs&nbsp;1.00 · US&nbsp;0.95 · FR&nbsp;0.92 · AL&nbsp;0.90 · ST&nbsp;0.89 · EX&nbsp;0.89 · IA&nbsp;0.89 · LE&nbsp;0.89 · OP&nbsp;0.88 · NR&nbsp;0.85 · MF&nbsp;0.83 · IP&nbsp;0.82 · CB&nbsp;0.81 · AU&nbsp;0.79 · RI&nbsp;0.74 · CMP&nbsp;0.69 · SG&nbsp;0.33 · OV&nbsp;0.22
+        ICc&nbsp;1.00 · CC&nbsp;1.00 · ICs&nbsp;1.00 · US&nbsp;0.93 · FR&nbsp;0.93 · EX&nbsp;0.93 · OP&nbsp;0.92 · AL&nbsp;0.92 · ST&nbsp;0.91 · NR&nbsp;0.88 · LE&nbsp;0.88 · CB&nbsp;0.87 · MF&nbsp;0.86 · IP&nbsp;0.84 · IA&nbsp;0.84 · CMP&nbsp;0.82 · AU&nbsp;0.78 · RI&nbsp;0.69 · SG&nbsp;0.65 · OV&nbsp;0.22
       </div>
-      <p style="margin: 8px 0 0; color: #666; font-size: 12px;">SG (signaling) and OV (option value) sit at floor κ. Virtually no commenter cites these codes, so the floor reflects how rare they are in the data.</p>
+      <p style="margin: 8px 0 0; color: #666; font-size: 12px;">OV (option value) sits near the floor on only 2 invocations across the corpus. SG (signaling) also has only 2 invocations. CC (contractual constraints) has 3. The taxonomy's reliability scales with code frequency.</p>
     </div>
 
     <div style="margin-top:14px; padding-top:12px; border-top: 0.5px solid rgba(0,0,0,0.08);">
@@ -581,7 +631,7 @@ __REGRESSION_PANEL__
   <div style="display: flex; flex-wrap: wrap; gap: 14px; font-size: 11px; color: #555; margin-top: 10px;">
     <span style="display:inline-flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;background:#993c1d;border-radius:2px;"></span>Anti-proposal (red scale)</span>
     <span style="display:inline-flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;background:#3b6d11;border-radius:2px;"></span>Pro-proposal (green scale)</span>
-    <span style="display:inline-flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;background:#854f0b;border-radius:2px;"></span>Conditional</span>
+    <span style="display:inline-flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;background:#a8830d;border-radius:2px;"></span>Conditional</span>
     <span style="display:inline-flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;background:#185fa5;border-radius:2px;"></span>Procedural / legal</span>
     <span style="display:inline-flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;background:#888780;border-radius:2px;"></span>No rationale</span>
   </div>
@@ -599,7 +649,8 @@ __REGRESSION_PANEL__
 <!--DEV_ONLY:END-->
 
 <div class="section">
-  <h2>Longest letters</h2>
+  <h2>Longest letters by stance</h2>
+  <p class="lede" style="margin: 0 0 14px; font-size: 13px; color: #555;">Top 5 longest letters within each stance bucket. The substantive intellectual center of each side reads at a glance.</p>
   <div id="longest"></div>
 </div>
 
@@ -614,7 +665,13 @@ __REGRESSION_PANEL__
     </div>
   </div>
   <!--VOTING:END-->
-  <div class="search"><input id="q" type="search" placeholder="Search by name, role, or stance…" /></div>
+  <p class="lede" style="margin: 0 0 10px; font-size: 13px; color: #555;">
+    Each letter is classified three times for stance, entity, and rationales, each time by a different Claude rubric. The small pill next to each value shows whether the three raters agreed: <strong>Unanimous</strong> (all three matched), <strong>2 of 3</strong> (majority match), or <strong>Split</strong> (all three differed, rationales only). See the methodology sections above for the rubric details.
+  </p>
+  <div class="search-row">
+    <div class="search"><input id="q" type="search" placeholder="Search by name, role, or stance…" /></div>
+    <button id="expand-toggle" class="expand-toggle" type="button">Expand all</button>
+  </div>
   <table class="full" id="full">
     <thead><tr>
       <th data-k="n">#</th>
@@ -730,7 +787,7 @@ function markVoted(n) {
   try { localStorage.setItem('sec_voted_on', JSON.stringify([...s])); } catch(e) {}
 }
 /*VOTING:END*/
-const STANCE_COLORS = { 'Oppose':'#993c1d', 'Support':'#3b6d11', 'Conditional':'#854f0b', 'PDF — not parsed':'#888780' };
+const STANCE_COLORS = { 'Oppose':'#993c1d', 'Support':'#3b6d11', 'Conditional':'#a8830d', 'PDF — not parsed':'#888780' };
 const STANCE_ORDER = ['Oppose','Conditional','Support','PDF — not parsed'];
 
 function pct(n,t) { return t===0?'0%':Math.round(n/t*100)+'%'; }
@@ -763,6 +820,38 @@ function stanceCell(r) {
   }
   /*VOTING:END*/
   return stanceCellRevealed(r);
+}
+
+// Entity agreement badge (parallel to the stance one). Shows Unanimous / 2 of 3
+// next to the entity bucket; tooltip on hover lists the three rater calls.
+function entityBadge(r) {
+  if (!r.entity_agreement) return '';
+  const agree = r.entity_agreement === 'unanimous' ? 'Unanimous' : '2 of 3';
+  const badgeBg    = r.entity_agreement === 'unanimous' ? '#e8eee0' : '#f4eedb';
+  const badgeColor = r.entity_agreement === 'unanimous' ? '#3b6d11' : '#854f0b';
+  const tooltip = 'Entity (majority): ' + (r.entity || '—')
+    + ' | Primary: ' + (r.entity_primary || '—')
+    + ' | Self-described: ' + (r.entity_selfdescribed || '—')
+    + ' | Letterhead: ' + (r.entity_letterhead || '—');
+  return '<span class="agreement-badge" title="' + escape(tooltip)
+    + '" style="display:inline-block; font-size:10px; padding:1px 6px; margin-left:6px; border-radius:8px; background:'
+    + badgeBg + '; color:' + badgeColor + '; vertical-align:middle;">' + agree + '</span>';
+}
+
+// Role cell — shows the writer's self-described role on top, the entity bucket
+// (with agreement badge) underneath in small gray. If role and entity are the
+// same string, we render just one line + the badge to avoid duplication.
+function roleCell(r) {
+  const role   = escape(r.role || '');
+  const entity = escape(r.entity || '');
+  const badge  = entityBadge(r);
+  if (!entity || role === entity) {
+    return role + badge;
+  }
+  return role
+    + '<div style="font-size:11px; color:#777; margin-top:3px;">'
+    + entity + badge
+    + '</div>';
 }
 
 function aggregate(records) {
@@ -845,17 +934,6 @@ document.getElementById('stance-list').innerHTML = sLabels.map((s,i)=>
   '<li><span class="lbl"><span class="swatch" style="background:'+sColors[i]+'"></span>'+s+'</span>'+
   '<span class="num"><strong>'+sData[i]+'</strong> · '+pct(sData[i], agg.total)+'</span></li>'
 ).join('');
-
-const longest = RECORDS.slice().filter(r=>(r.words||0)>0).sort((a,b)=>(b.words||0)-(a.words||0)).slice(0,5);
-document.getElementById('longest').innerHTML = longest.map(r => (
-  '<div class="row">' +
-    '<span class="num">#'+r.n+'</span>' +
-    '<span class="date">'+fmtMonthDay(r.date)+'</span>' +
-    '<span><span class="name">'+(r.url ? '<a href="'+escape(r.url)+'" target="_blank" rel="noopener">'+escape(r.name)+'</a>' : escape(r.name))+'</span><span class="role">'+escape(r.role||'')+'</span></span>' +
-    '<span class="pill '+pillClass(r.stance)+'">'+r.stance+'</span>' +
-    '<span class="words">'+(r.words||0).toLocaleString()+'w</span>' +
-  '</div>'
-)).join('');
 
 const ENTITY_ORDER = ['Individual','Accountant (CPA)','Issuer / Corporate — current','Issuer / Corporate — former','Investment professional','Academic researcher','Industry practitioner / technologist','Student','Other / Anonymous'];
 const entityCounts = STANCE_ORDER.map(s => ENTITY_ORDER.map(_ => 0));
@@ -1082,13 +1160,13 @@ if (ratInactive.length) {
   if (noteEl) {
     noteEl.innerHTML = '<strong>SEC-anticipated rationales with 0 commenter mentions:</strong> ' +
       ratInactive.map(c => '<span class="rat-badge" data-rat-code="'+c+'" style="background:'+RATIONALE_META[c][2]+'; color:#fff;">'+c+'</span> ' + RATIONALE_META[c][0]).join(' &nbsp;·&nbsp; ') +
-      '. These arguments appear in the SEC\'s own proposing release but no commenter has invoked them yet — the SEC is debating itself on these points.';
+      '. These arguments appear in the SEC\'s own proposing release but no commenter has invoked them yet.';
   }
 }
 
 // Stacked-by-stance chart: which rationales are cited by Oppose vs Conditional vs Support letters
 const STANCES_FOR_RAT = ['Oppose','Conditional','Support'];
-const STANCE_COLORS_RAT = { 'Oppose':'#993c1d', 'Conditional':'#854f0b', 'Support':'#3b6d11' };
+const STANCE_COLORS_RAT = { 'Oppose':'#993c1d', 'Conditional':'#a8830d', 'Support':'#3b6d11' };
 const ratByStance = {};
 ratActive.forEach(c => { ratByStance[c] = {Oppose:0, Conditional:0, Support:0}; });
 RECORDS.forEach(r => {
@@ -1259,37 +1337,172 @@ function rationaleBadges(r) {
     return '<span class="rat-badge" data-rat-code="'+c+'" style="background:'+m[2]+'; color:#fff;">'+c+'</span>';
   }).join(' ');
 }
+
+// Rationale agreement badge — parallel to stance/entity, but rationale is
+// multi-label so it has THREE possible states (unanimous / majority / split)
+// rather than two. Split gets a muted red to signal "no clear consensus."
+function rationaleAgreementBadge(r) {
+  if (!r.rationale_agreement) return '';
+  const a = r.rationale_agreement;
+  let label, badgeBg, badgeColor;
+  if (a === 'unanimous')      { label = 'Unanimous'; badgeBg = '#e8eee0'; badgeColor = '#3b6d11'; }
+  else if (a === 'majority')  { label = '2 of 3';    badgeBg = '#f4eedb'; badgeColor = '#854f0b'; }
+  else                         { label = 'Split';     badgeBg = '#f4dbdb'; badgeColor = '#8b2c2c'; }
+  const fmt = arr => (arr && arr.length) ? arr.join(', ') : '—';
+  const tooltip = 'Primary: ' + fmt(r.rationales_primary)
+    + ' | Literalist: ' + fmt(r.rationales_literalist)
+    + ' | Inclusive: ' + fmt(r.rationales_inclusive);
+  return '<span class="agreement-badge" title="' + escape(tooltip)
+    + '" style="display:inline-block; font-size:10px; padding:1px 6px; margin-left:6px; border-radius:8px; background:'
+    + badgeBg + '; color:' + badgeColor + '; vertical-align:middle;">' + label + '</span>';
+}
+
+// Rationale cell — pills first, then the agreement badge at the end.
+function rationaleCell(r) {
+  const pills = rationaleBadges(r);
+  const badge = rationaleAgreementBadge(r);
+  if (!pills && !badge) return '';
+  return pills + badge;
+}
 /*DEV_ONLY:END*/
 
-let sortKey = 'n', sortAsc = true;
+// Longest letters by stance — top 5 per stance in collapsible accordions.
+// Lives here (after RATIONALE_META and rationaleCell) because the rows render
+// rationale pills via rationaleCell, and RATIONALE_META is declared as const
+// (TDZ) further up. Running this block before line 1108 throws ReferenceError
+// and kills every script that follows.
+const LONGEST_STANCES = ['Oppose','Conditional','Support'];
+const LONGEST_HEADER_COLOR = { 'Oppose':'#993c1d', 'Conditional':'#a8830d', 'Support':'#3b6d11' };
+const longestRow = r => (
+  '<div class="longest-row">' +
+    '<span class="num">#'+r.n+'</span>' +
+    '<span class="date">'+fmtMonthDay(r.date)+'</span>' +
+    '<span><span class="name">'+(r.url ? '<a href="'+escape(r.url)+'" target="_blank" rel="noopener">'+escape(r.name)+'</a>' : escape(r.name))+'</span><span class="role">'+escape(r.role||'')+'</span></span>' +
+    '<span class="pill '+pillClass(r.stance)+'">'+r.stance+'</span>' +
+    '<span class="words">'+(r.words||0).toLocaleString()+'w</span>' +
+    '<span class="rat-cell">'+rationaleCell(r)+'</span>' +
+  '</div>'
+);
+document.getElementById('longest').innerHTML = LONGEST_STANCES.map(s => {
+  const sub = RECORDS.filter(r => r.stance===s && (r.words||0)>0)
+                     .sort((a,b)=>(b.words||0)-(a.words||0))
+                     .slice(0,5);
+  const bucketCount = RECORDS.filter(r => r.stance===s).length;
+  return (
+    '<details class="stance-block">' +
+      '<summary style="color: '+LONGEST_HEADER_COLOR[s]+';">' +
+        s + ' <span class="bucket-meta">(top 5 of ' + bucketCount + ')</span>' +
+      '</summary>' +
+      '<div class="stance-rows">' +
+        sub.map(longestRow).join('') +
+      '</div>' +
+    '</details>'
+  );
+}).join('');
+
+// Default: newest letters first, grouped by date. First group open, rest collapsed.
+let sortKey = 'date', sortAsc = false;
+let expandAll = false;             // user-toggled via "Expand all" button
+const collapsedGroups = new Set(); // explicitly-collapsed dates when not in expandAll
+const openedGroups = new Set();    // explicitly-opened dates when not in expandAll
+
+function rowHtml(r, groupKey) {
+  return (
+    '<tr data-group="'+(groupKey||'')+'">' +
+      '<td class="num">'+r.n+'</td>' +
+      '<td class="num">'+fmtMonthDay(r.date)+'</td>' +
+      '<td>'+(r.url ? '<a href="'+escape(r.url)+'" target="_blank" rel="noopener">'+escape(r.name)+'</a>' : escape(r.name))+'</td>' +
+      '<td>'+roleCell(r)+'</td>' +
+      '<td>'+stanceCell(r)+'</td>' +
+      '<td class="num right">'+(r.words||0).toLocaleString()+'</td>' +
+      /*DEV_ONLY:BEGIN*/'<td class="rat-cell">'+rationaleCell(r)+'</td>' +/*DEV_ONLY:END*/
+      /*VOTING:BEGIN*/'<td>'+voteButton(r)+'</td>' +/*VOTING:END*/
+    '</tr>'
+  );
+}
+
+function fmtFullDate(iso) {
+  // 2026-05-15 -> "May 15, 2026"
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso||'');
+  if (!m) return iso || '';
+  const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  return months[parseInt(m[2],10)-1] + ' ' + parseInt(m[3],10) + ', ' + m[1];
+}
+
 function renderTable() {
   const q = (document.getElementById('q').value||'').toLowerCase().trim();
+  const searching = q.length > 0;
   let rows = RECORDS.slice();
   if (q) rows = rows.filter(r => (r.name+' '+r.role+' '+r.stance).toLowerCase().includes(q));
   rows.sort((a,b)=>{
     const av=a[sortKey], bv=b[sortKey];
-    if (av==null && bv==null) return 0;
-    if (av==null) return 1; if (bv==null) return -1;
-    if (typeof av === 'number' && typeof bv === 'number') return sortAsc ? av-bv : bv-av;
-    return sortAsc ? String(av).localeCompare(String(bv)) : String(bv).localeCompare(String(av));
+    let cmp = 0;
+    if (av==null && bv==null) cmp = 0;
+    else if (av==null) cmp = 1;
+    else if (bv==null) cmp = -1;
+    else if (typeof av === 'number' && typeof bv === 'number') cmp = sortAsc ? av-bv : bv-av;
+    else cmp = sortAsc ? String(av).localeCompare(String(bv)) : String(bv).localeCompare(String(av));
+    if (cmp !== 0) return cmp;
+    // Tiebreaker: when sorting by date, fall back to descending letter number
+    // so the newest n within each date group sits at the top.
+    if (sortKey === 'date') return (b.n||0) - (a.n||0);
+    return 0;
   });
-  document.getElementById('full-body').innerHTML = rows.map(r => (
-    '<tr>' +
-      '<td class="num">'+r.n+'</td>' +
-      '<td class="num">'+fmtMonthDay(r.date)+'</td>' +
-      '<td>'+(r.url ? '<a href="'+escape(r.url)+'" target="_blank" rel="noopener">'+escape(r.name)+'</a>' : escape(r.name))+'</td>' +
-      '<td>'+escape(r.role||'')+'</td>' +
-      '<td>'+stanceCell(r)+'</td>' +
-      '<td class="num right">'+(r.words||0).toLocaleString()+'</td>' +
-      /*DEV_ONLY:BEGIN*/'<td class="rat-cell">'+rationaleBadges(r)+'</td>' +/*DEV_ONLY:END*/
-      /*VOTING:BEGIN*/'<td>'+voteButton(r)+'</td>' +/*VOTING:END*/
-    '</tr>'
-  )).join('');
+
+  const groupBy = (sortKey === 'date' || sortKey === 'n');
+  const colCount = document.querySelectorAll('table.full thead th').length;
+  const body = document.getElementById('full-body');
+
+  if (!groupBy) {
+    // Flat render for non-date sorts
+    body.innerHTML = rows.map(r => rowHtml(r)).join('');
+  } else {
+    // Group rows by date, preserving sort order within and across groups
+    const groups = [];
+    const groupIndex = new Map();
+    rows.forEach(r => {
+      const key = r.date || '(no date)';
+      if (!groupIndex.has(key)) { groupIndex.set(key, groups.length); groups.push({ key, rows: [] }); }
+      groups[groupIndex.get(key)].rows.push(r);
+    });
+    let html = '';
+    groups.forEach((g, idx) => {
+      // Decide open/collapsed for this group
+      let isOpen;
+      if (searching || expandAll) {
+        isOpen = true;
+      } else if (openedGroups.has(g.key)) {
+        isOpen = true;
+      } else if (collapsedGroups.has(g.key)) {
+        isOpen = false;
+      } else {
+        // Default: only the first (top) group is open
+        isOpen = (idx === 0);
+      }
+      const headerClass = 'date-header' + (isOpen ? ' open' : '');
+      const rowClass    = isOpen ? '' : ' class="collapsed-row"';
+      html += '<tr class="'+headerClass+'" data-group="'+escape(g.key)+'">' +
+              '<td colspan="'+colCount+'">' +
+                '<span class="chevron">'+(isOpen ? '▾' : '▸')+'</span>' +
+                '<span class="group-date">'+escape(fmtFullDate(g.key))+'</span>' +
+                '<span class="group-count">'+g.rows.length+' letter'+(g.rows.length===1?'':'s')+'</span>' +
+              '</td></tr>';
+      html += g.rows.map(r => rowHtml(r, g.key).replace('<tr ', '<tr'+(isOpen?'':' class="collapsed-row"')+' ')).join('');
+    });
+    body.innerHTML = html;
+  }
+
+  // Update sort-arrow display on column headers
   document.querySelectorAll('table.full th').forEach(th => {
     th.classList.remove('sorted','asc');
     if (th.dataset.k === sortKey) { th.classList.add('sorted'); if (sortAsc) th.classList.add('asc'); }
   });
+
+  // Update Expand all / Collapse all button label
+  const btn = document.getElementById('expand-toggle');
+  if (btn) btn.textContent = expandAll ? 'Collapse all' : 'Expand all';
 }
+
 document.querySelectorAll('table.full th').forEach(th => {
   th.addEventListener('click', () => {
     const k = th.dataset.k;
@@ -1298,6 +1511,33 @@ document.querySelectorAll('table.full th').forEach(th => {
   });
 });
 document.getElementById('q').addEventListener('input', renderTable);
+
+// Click a date-header row → toggle that group
+document.getElementById('full-body').addEventListener('click', (e) => {
+  const header = e.target.closest('tr.date-header');
+  if (!header) return;
+  const key = header.dataset.group;
+  // Determine current state: explicit override > default-by-position
+  let currentlyOpen = header.classList.contains('open');
+  if (currentlyOpen) {
+    collapsedGroups.add(key);
+    openedGroups.delete(key);
+  } else {
+    openedGroups.add(key);
+    collapsedGroups.delete(key);
+  }
+  renderTable();
+});
+
+// Expand all / Collapse all toggle
+document.getElementById('expand-toggle').addEventListener('click', () => {
+  expandAll = !expandAll;
+  // Wipe per-group overrides so the toggle is authoritative
+  collapsedGroups.clear();
+  openedGroups.clear();
+  renderTable();
+});
+
 renderTable();
 
 /* ======================================================================
@@ -1693,17 +1933,25 @@ __GOATCOUNTER__
 def build_snapshot(records):
     """Compress to just what the dashboard needs.
 
-    Headline stance is majority-of-3 if present. Letters with stance == "Unclassified"
-    are filtered out — those are letters that the daily GitHub Actions fetch picked up
-    but Claude has not yet classified. They stay in renumbered_records.json (for the
-    Cowork session to pick up) but stay invisible on the public site until classified.
+    Headline stance is majority-of-3 if present. Two sentinels are filtered out:
+      - "Unclassified" — letters the daily GitHub Actions fetch picked up but Claude
+        has not yet classified. They stay in renumbered_records.json (for the Cowork
+        session to pick up) but stay invisible on the public site until classified.
+      - "Off-topic" — letters filed under the S7-2026-15 docket by submission error
+        but addressing a different rulemaking entirely. Kept in renumbered_records.json
+        so the daily fetch does not re-pull them, but excluded from the site, the
+        rater statistics, and the regression.
     """
     out = []
     skipped_unclassified = 0
+    skipped_offtopic = 0
     for r in records:
         headline = r.get("majority_stance") or r.get("stance", "")
         if headline == "Unclassified":
             skipped_unclassified += 1
+            continue
+        if headline == "Off-topic":
+            skipped_offtopic += 1
             continue
         out.append({
             "n": r["n"],
@@ -1712,6 +1960,10 @@ def build_snapshot(records):
             "name": r.get("name", ""),
             "role": (r.get("role", "") or "")[:120],
             "entity": r.get("entity", ""),
+            "entity_agreement": r.get("entity_agreement", ""),
+            "entity_primary": r.get("entity_primary", ""),
+            "entity_selfdescribed": r.get("entity_selfdescribed", ""),
+            "entity_letterhead": r.get("entity_letterhead", ""),
             "stance": headline,
             "primary": r.get("primary_stance", r.get("stance", "")),
             "literalist": r.get("literalist_stance", ""),
@@ -1720,9 +1972,15 @@ def build_snapshot(records):
             "url": r.get("url", ""),
             "words": r.get("words", 0),
             "rationales": r.get("rationales", []),
+            "rationale_agreement": r.get("rationale_agreement", ""),
+            "rationales_primary": r.get("rationales_primary", []),
+            "rationales_literalist": r.get("rationales_literalist", []),
+            "rationales_inclusive": r.get("rationales_inclusive", []),
         })
     if skipped_unclassified:
         print(f"[build] {skipped_unclassified} unclassified letter(s) held out of the public snapshot.")
+    if skipped_offtopic:
+        print(f"[build] {skipped_offtopic} off-topic letter(s) held out of the public snapshot.")
     return out
 
 
@@ -1791,6 +2049,14 @@ def compute_method_stats(records):
 
 
 REG_JSON_PATH = META_DIR / "regression_compare.json"
+
+# Travel notice banner. Currently rendered only in the dev mirror — promote
+# to production by changing `enabled` to True or by removing the with_voting
+# gate in regenerate_html. Remove the whole block when the trip is over.
+TRAVEL_NOTICE_HTML = """<div style="background:#fff7e0; border-left: 4px solid #d4a017; border-radius: 6px; padding: 14px 18px; margin: 16px 0 24px; font-size: 14px; line-height: 1.55; color: #3a3a3a;">
+  <strong>📅 Site on pause: classification resumes June 1, 2026.</strong>
+  <p style="margin: 8px 0 0;">I am traveling from <strong>May 22</strong> to <strong>May 31, 2026</strong>. New letters keep arriving in the docket and are being fetched automatically, but they will not appear on the site until I return and classify them. The current letter count and stance distribution reflect everything I had processed before I left.</p>
+</div>"""
 
 
 def load_regression_compare():
@@ -1972,6 +2238,10 @@ def regenerate_html(snapshot, asof_iso, records=None, with_voting=False):
     # Regression panel — three-spec stacked layout, numbers from _meta/regression_compare.json
     reg = load_regression_compare()
     html = html.replace("__REGRESSION_PANEL__", build_regression_panel(reg))
+    # Travel-notice banner — dev-only for now. Flip to "always show" by changing
+    # the condition below to `True`, or drop the placeholder block when the trip ends.
+    travel_html = TRAVEL_NOTICE_HTML if with_voting else ""
+    html = html.replace("__TRAVEL_NOTICE__", travel_html)
     stats = compute_method_stats(records or [])
     if stats:
         for k, v in stats.items():
@@ -2101,6 +2371,18 @@ def push_file_to_github(remote_path, local_path, token, commit_msg):
 
 # ---- Main ------------------------------------------------------------------
 
+def _dropbox_running():
+    """Best-effort detection of a live macOS Dropbox process. Returns False on
+    Linux / CI runners (no Dropbox there), so the Action is unaffected."""
+    import subprocess
+    try:
+        r = subprocess.run(["pgrep", "-x", "Dropbox"],
+                           capture_output=True, text=True, timeout=2)
+        return r.returncode == 0
+    except Exception:
+        return False
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--no-push", action="store_true",
@@ -2114,6 +2396,20 @@ def main():
 
     global BUILD_DEV_MIRROR
     BUILD_DEV_MIRROR = args.dev
+
+    # Dropbox-race warning. Issue a nudge to use push_safely.sh whenever Dropbox
+    # is alive on this host. Soft warning only — not a block — because the user
+    # may have just paused sync manually via the menu bar.
+    if _dropbox_running() and not args.no_push:
+        sys.stderr.write(
+            "\n[warn] Dropbox is running on this host. Bidirectional sync can "
+            "revert _meta/renumbered_records.json mid-build and result in a "
+            "stale push to GitHub.\n"
+            "       Recommended: bash _scripts/push_safely.sh  (auto-pauses "
+            "Dropbox for the build window).\n"
+            "       Or pause Dropbox manually via the menu bar before "
+            "continuing.\n\n"
+        )
 
     records, snapshot, asof = write_public_files()
 
