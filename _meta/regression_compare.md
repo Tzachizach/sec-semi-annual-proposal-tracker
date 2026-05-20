@@ -46,7 +46,7 @@ Under H0 (proportional odds holds), LR follows χ²(8). p = 0.3360 → do not re
 
 ## Notes on separation
 
-Binary specs (Logit, LPM): the same 4 entity buckets carry zero Support letters and are flagged separated — Accountant CPA, Issuer-former, Investment professional, Industry practitioner.
+Binary specs (Logit, LPM): 3 entity buckets carry zero Support letters and are flagged separated: ['Issuer-former', 'Investment prof.', 'Industry pract.'].
 Ordinal spec: separation is defined differently — a bucket with all letters in one ordinal class. 
 Buckets with single-class variation only: ['Investment prof.'].
 
