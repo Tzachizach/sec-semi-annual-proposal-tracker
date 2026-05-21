@@ -13889,43 +13889,62 @@
     "page": 1,
     "date": "2026-05-21",
     "name": "Mayra Rodriguez Valladares",
-    "role": "Managing Principal, MRV Associates (financial-regulation consultancy)",
+    "role": "Managing Principal, MRV Associates (financial-regulation consultancy); congressional witness",
     "entity": "Industry practitioner / technologist",
     "stance": "Oppose",
     "primary_stance": "Oppose",
     "literalist_stance": "Oppose",
-    "skeptic_stance": "Oppose",
+    "skeptic_stance": "Conditional",
     "majority_stance": "Oppose",
-    "agreement": "unanimous",
+    "agreement": "majority",
     "entity_primary": "Industry practitioner / technologist",
     "entity_selfdescribed": "Industry practitioner / technologist",
     "entity_letterhead": "Industry practitioner / technologist",
     "entity_majority": "Industry practitioner / technologist",
     "entity_agreement": "unanimous",
     "rationales": [
-      "IP"
+      "EX",
+      "IA",
+      "IP",
+      "MF",
+      "SG"
     ],
-    "rationale_evidence": "IP: disclosure/transparency for banks ('the hidden risk of less disclosure'); (Inc) IA, AU bank-supervision angle. Literalist NR: letter body itself states no in-text argument, only a link.",
+    "rationale_evidence": "SG: 'signaling trap' \u2014 opting into semiannual reads as a lower-transparency signal; stronger banks stay quarterly. MF: six months of deterioration lands as a single price shock. IA: information gap leaves analysts/lenders/investors unable to forecast accumulating risk. EX: SVB-style contagion to peer (esp. semiannual) banks. IP: 'information in banking is infrastructure'. (Inc adds RI: analyst/lender/credit-rating reliance.)",
     "rationales_primary": [
-      "IP"
+      "EX",
+      "IA",
+      "IP",
+      "MF",
+      "SG"
     ],
     "rationales_literalist": [
-      "NR"
+      "EX",
+      "IA",
+      "IP",
+      "MF",
+      "SG"
     ],
     "rationales_inclusive": [
-      "AU",
+      "EX",
       "IA",
-      "IP"
+      "IP",
+      "MF",
+      "RI",
+      "SG"
     ],
     "rationales_majority": [
-      "IP"
+      "EX",
+      "IA",
+      "IP",
+      "MF",
+      "SG"
     ],
-    "rationale_agreement": "split",
-    "summary": "Financial-regulation consultant (MRV Associates). Letter body links to her Forbes piece arguing banks need quarterly reporting; Oppose, bank-disclosure focus. FLAG: position carried by the cited article rather than in-text; entity Industry practitioner (consultant).",
+    "rationale_agreement": "majority",
+    "summary": "Financial-regulation consultant (MRV Associates). Her SEC letter links to her Forbes article; this is a summary of that article. Bank-specific Oppose: banking is a confidence business, so opacity is dangerous. Mid-sized regional banks ($20-150B) are the cohort most likely to opt into semiannual and exactly where transparency is most fragile. Semiannual compresses gradual deterioration into a single shock, inviting SVB-style runs and contagion among peer (especially semiannual) banks. And self-selection becomes a signaling trap that stratifies banks by perceived transparency.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-784827-2384554.html",
     "words": 42,
     "letter_id": "784827-2384554",
-    "stance_evidence": "Body links to her Forbes article 'Why Banks Need Quarterly Reporting'; position read from the cited piece (Oppose)."
+    "stance_evidence": "Bank-focused Oppose (via her linked Forbes article): 'Anything that increases opacity in banking weakens the system'; urges stakeholders to comment. Skeptic flips Conditional on the 'depending on how it is adopted' qualifier."
   },
   {
     "n": 296,
