@@ -10696,5 +10696,165 @@
       "IP",
       "MF"
     ]
+  },
+  {
+    "n": 286,
+    "page": 1,
+    "date": "2026-05-20",
+    "name": "Dan Jamieson",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-783887-2382854.html",
+    "words": 40,
+    "rationales": [
+      "RI"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "RI"
+    ],
+    "rationales_literalist": [
+      "RI"
+    ],
+    "rationales_inclusive": [
+      "RI"
+    ]
+  },
+  {
+    "n": 287,
+    "page": 1,
+    "date": "2026-05-20",
+    "name": "Michael Castleberry",
+    "role": "Former Chief Accounting Officer; active investor",
+    "entity": "Issuer / Corporate \u2014 former",
+    "entity_agreement": "majority",
+    "entity_primary": "Issuer / Corporate \u2014 former",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Issuer / Corporate \u2014 former",
+    "stance": "Conditional",
+    "primary": "Conditional",
+    "literalist": "Conditional",
+    "skeptic": "Conditional",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-783927-2383014.html",
+    "words": 104,
+    "rationales": [
+      "AL",
+      "CB"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "AL",
+      "CB"
+    ],
+    "rationales_literalist": [
+      "AL"
+    ],
+    "rationales_inclusive": [
+      "AL",
+      "CB"
+    ]
+  },
+  {
+    "n": 288,
+    "page": 1,
+    "date": "2026-05-20",
+    "name": "Mike Scherer",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-783827-2382734.html",
+    "words": 6,
+    "rationales": [
+      "IA"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IA"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
+      "IA"
+    ]
+  },
+  {
+    "n": 289,
+    "page": 1,
+    "date": "2026-05-19",
+    "name": "Marshal Shichtman",
+    "role": "Attorney (Marshal Shichtman & Associates, P.C.)",
+    "entity": "Industry practitioner / technologist",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Industry practitioner / technologist",
+    "entity_selfdescribed": "Industry practitioner / technologist",
+    "entity_letterhead": "Industry practitioner / technologist",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Conditional",
+    "agreement": "majority",
+    "url": "https://www.sec.gov/comments/S7-2026-18/s7202618-783247-2381574.pdf",
+    "words": 514,
+    "rationales": [
+      "AU",
+      "CB",
+      "CC",
+      "CMP",
+      "IP",
+      "LE",
+      "MF",
+      "US"
+    ],
+    "rationale_agreement": "split",
+    "rationales_primary": [
+      "AU",
+      "CB",
+      "CC",
+      "CMP",
+      "IP",
+      "LE",
+      "MF",
+      "US"
+    ],
+    "rationales_literalist": [
+      "AU",
+      "CB",
+      "CC",
+      "CMP",
+      "LE",
+      "MF",
+      "US"
+    ],
+    "rationales_inclusive": [
+      "AU",
+      "CB",
+      "CC",
+      "CMP",
+      "EX",
+      "IA",
+      "IP",
+      "LE",
+      "MF",
+      "US"
+    ]
   }
 ]
