@@ -1945,6 +1945,7 @@ def build_snapshot(records):
     out = []
     skipped_unclassified = 0
     skipped_offtopic = 0
+    skipped_noposition = 0
     for r in records:
         headline = r.get("majority_stance") or r.get("stance", "")
         if headline == "Unclassified":
@@ -1952,6 +1953,14 @@ def build_snapshot(records):
             continue
         if headline == "Off-topic":
             skipped_offtopic += 1
+            continue
+        if headline == "No position":
+            # On-topic but states no Support/Oppose/Conditional position on reporting
+            # frequency (research / procedural / endorse-by-reference). Kept in
+            # renumbered_records.json but excluded from the public split, rater stats,
+            # and regression — same treatment as Off-topic. (Category added 2026-05-21,
+            # carried over from the 2018 S7-26-18 mirror methodology.)
+            skipped_noposition += 1
             continue
         out.append({
             "n": r["n"],
@@ -1981,6 +1990,8 @@ def build_snapshot(records):
         print(f"[build] {skipped_unclassified} unclassified letter(s) held out of the public snapshot.")
     if skipped_offtopic:
         print(f"[build] {skipped_offtopic} off-topic letter(s) held out of the public snapshot.")
+    if skipped_noposition:
+        print(f"[build] {skipped_noposition} no-position letter(s) held out of the public snapshot.")
     return out
 
 
