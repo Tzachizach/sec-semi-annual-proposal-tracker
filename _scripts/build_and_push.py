@@ -2067,7 +2067,7 @@ REG_JSON_PATH = META_DIR / "regression_compare.json"
 SHOW_TRAVEL_NOTICE = True
 TRAVEL_NOTICE_HTML = """<div style="background:#fff7e0; border-left: 4px solid #d4a017; border-radius: 6px; padding: 14px 18px; margin: 16px 0 24px; font-size: 14px; line-height: 1.55; color: #3a3a3a;">
   <strong>📅 Site on pause: classification resumes June 1, 2026.</strong>
-  <p style="margin: 8px 0 0;">I am traveling from <strong>May 22</strong> to <strong>May 31, 2026</strong>. New letters keep arriving in the docket and are being fetched automatically, but they will not appear on the site until I return and classify them. The current letter count and stance distribution reflect everything I had processed before I left.</p>
+  <p style="margin: 8px 0 0;">I am traveling from <strong>May 22</strong> to <strong>May 31, 2026</strong>. New letters keep arriving in the docket, but they will not appear on the site until I return and classify them. The current letter count and stance distribution reflect everything I had processed before I left.</p>
 </div>"""
 
 
