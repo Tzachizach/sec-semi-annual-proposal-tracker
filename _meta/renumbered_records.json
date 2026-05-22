@@ -703,7 +703,18 @@
       "AL",
       "LE"
     ],
-    "rationale_agreement": "split"
+    "rationale_agreement": "split",
+    "rfc_questions": {
+      "engaged": [
+        1,
+        2,
+        14,
+        17,
+        32
+      ],
+      "cited_explicitly": true,
+      "note": "Law professor (Bainbridge). Names and answers Q1, Q2, Q14, Q17, Q32 with quoted question text."
+    }
   },
   {
     "n": 15,
@@ -4732,7 +4743,15 @@
       "AL",
       "IP"
     ],
-    "rationale_agreement": "majority"
+    "rationale_agreement": "majority",
+    "rfc_questions": {
+      "engaged": [
+        18,
+        26
+      ],
+      "cited_explicitly": true,
+      "note": "Quotes 'Request for Comment 18' and 'Request for Comment 26' verbatim and answers each."
+    }
   },
   {
     "n": 100,
@@ -11149,7 +11168,21 @@
     "summary": "Nine-page legal memo from Margaret Rosenfeld (Founder, Zukunft Advisory, LLC), a 27-year corporate/securities lawyer with partner experience at Freshfields, Paul Weiss, K&L Gates, Smith Anderson, and senior in-house CLO roles. Conditional: does not oppose but proposes a four-component operational framework + three specific recommendations to address the 'disclosure liability gap' the proposal creates for issuers that elect semiannual and continue quarterly market communications (the substantial majority, in her view). 11 rationale codes — new corpus record. Substantial LE invocation: cites Sections 302/906 SOX, Items 307/308 Regulation S-K, Section 18, Section 11, PCAOB AS 4105, AU-C 930, Rule 10b-5, Reg FD, Rule 10b5-1. Notable framing: bifurcation between large-cap quarterly filers (overwhelmingly non-electing) and smaller semiannual electors, and the 'on-ramp question' for emerging issuers — neither maps cleanly to existing codes.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-781927-2379414.pdf",
     "words": 2715,
-    "letter_id": "s7202615-781927-2379414.pdf"
+    "letter_id": "s7202615-781927-2379414.pdf",
+    "rfc_questions": {
+      "engaged": [
+        18,
+        22,
+        23,
+        26,
+        31,
+        32,
+        37,
+        57
+      ],
+      "cited_explicitly": false,
+      "note": "Securities lawyer (Rosenfeld). Section 'Responses to specific requests for comment' engages numbered RFCs by topic without citing numbers: voluntary quarterly disclosure (18/22), internal controls and review (23/26), insider trading (31/32), capital-markets access (37/57)."
+    }
   },
   {
     "n": 237,
@@ -14284,30 +14317,47 @@
     "page": 1,
     "date": "2026-05-21",
     "name": "Jeff Zehner",
-    "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "role": "Individual investor",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IP",
+      "US"
+    ],
+    "rationale_evidence": "IP/transparency: 'Regular transparency'; US: 'why the US stock market is appealing to the world... investors the world over will look to other markets'; (Inc) MF: 'too difficult to analyze' (price-discovery/analyzability).",
+    "rationales_primary": [
+      "IP",
+      "US"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "US"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "MF",
+      "US"
+    ],
+    "rationales_majority": [
+      "IP",
+      "US"
+    ],
+    "rationale_agreement": "majority",
+    "summary": "Retail Oppose on a US-competitiveness frame: regular quarterly transparency is what makes US markets attractive globally, and loosening it would push investors toward other markets.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-785207-2385154.html",
     "words": 49,
-    "letter_id": "785207-2385154"
+    "letter_id": "785207-2385154",
+    "stance_evidence": "'Please do not allow this rule to be passed... Keep it transparent quarterly!'"
   },
   {
     "n": 304,
@@ -14315,29 +14365,45 @@
     "date": "2026-05-21",
     "name": "Rebecca Lank",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "FR",
+      "IP"
+    ],
+    "rationale_evidence": "FR: 'a lot more corruptness'; IP/accountability: 'Filing 4 times a year keeps accountability much more contained'.",
+    "rationales_primary": [
+      "FR",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "FR",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "FR",
+      "IP"
+    ],
+    "rationales_majority": [
+      "FR",
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Short retail Oppose: twice-a-year filing invites more corruption; quarterly filing keeps accountability contained.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-785127-2385016.html",
     "words": 30,
-    "letter_id": "785127-2385016"
+    "letter_id": "785127-2385016",
+    "stance_evidence": "'This would allow a lot more corruptness if they only have to file twice a year. Not a good idea.'"
   },
   {
     "n": 305,
@@ -14345,29 +14411,46 @@
     "date": "2026-05-21",
     "name": "Robert Reed",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "FR",
+      "IP"
+    ],
+    "rationale_evidence": "FR: 'more fraud', 'bad actors will get away with their bad acts for longer'; IP/accountability: 'better for accountability to stakeholders'; (Inc) IA: 'investors holding the bag'.",
+    "rationales_primary": [
+      "FR",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "FR",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "FR",
+      "IA",
+      "IP"
+    ],
+    "rationales_majority": [
+      "FR",
+      "IP"
+    ],
+    "rationale_agreement": "majority",
+    "summary": "Retail Oppose: less frequent reporting means more fraud and lets bad actors run longer; quarterly reporting protects accountability and leaves investors less exposed.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-785227-2385214.html",
     "words": 39,
-    "letter_id": "785227-2385214"
+    "letter_id": "785227-2385214",
+    "stance_evidence": "'Less regulation will mean more fraud, plain and simple. Quarterly reporting is better for accountability to stakeholders.'"
   },
   {
     "n": 306,
@@ -14375,58 +14458,94 @@
     "date": "2026-05-20",
     "name": "John DiCintio",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "FR",
+      "IA"
+    ],
+    "rationale_evidence": "FR: 'shifts more power to the corrupt'; IA: 'not good for the average person' (disadvantages the ordinary investor). Literalist surface-codes only the explicit 'corrupt' (FR).",
+    "rationales_primary": [
+      "FR",
+      "IA"
+    ],
+    "rationales_literalist": [
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "FR",
+      "IA"
+    ],
+    "rationales_majority": [
+      "FR",
+      "IA"
+    ],
+    "rationale_agreement": "majority",
+    "summary": "Brief retail Oppose: the change disadvantages the average person and hands more power to the corrupt.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-784647-2383875.html",
     "words": 17,
-    "letter_id": "784647-2383875"
+    "letter_id": "784647-2383875",
+    "stance_evidence": "'I feel this is not good for the average person. It shifts more power to the corrupt.'"
   },
   {
     "n": 307,
     "page": 1,
     "date": "2026-05-20",
     "name": "Steve Carman",
-    "role": "Individual Investor",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "role": "Individual investor",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "FR",
+      "IA",
+      "MF"
+    ],
+    "rationale_evidence": "MF: 'The market is already manipulated and operating like the wild west', 'the casino'; FR: 'create more fraud'; IA: 'losses for the little guy'.",
+    "rationales_primary": [
+      "FR",
+      "IA",
+      "MF"
+    ],
+    "rationales_literalist": [
+      "FR",
+      "IA",
+      "MF"
+    ],
+    "rationales_inclusive": [
+      "FR",
+      "IA",
+      "MF"
+    ],
+    "rationales_majority": [
+      "FR",
+      "IA",
+      "MF"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Vehement retail Oppose: an already-manipulated market would see more fraud and losses for small investors under semiannual reporting; threatens to close his accounts if it passes.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-784487-2383614.html",
     "words": 49,
-    "letter_id": "784487-2383614"
+    "letter_id": "784487-2383614",
+    "stance_evidence": "'This is an incredibly bad idea... Lowering reporting to twice a year will just create more fraud and losses for the little guy.'"
   }
 ]
