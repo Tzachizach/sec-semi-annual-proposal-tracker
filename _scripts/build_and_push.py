@@ -2061,9 +2061,10 @@ def compute_method_stats(records):
 
 REG_JSON_PATH = META_DIR / "regression_compare.json"
 
-# Travel notice banner. Currently rendered only in the dev mirror — promote
-# to production by changing `enabled` to True or by removing the with_voting
-# gate in regenerate_html. Remove the whole block when the trip is over.
+# Travel notice banner. Set SHOW_TRAVEL_NOTICE = True to render it on the
+# PRODUCTION site as well as the dev mirror. Set it back to False (or remove
+# the block) when the trip is over — 2026-05-22 to 2026-05-31; off June 1.
+SHOW_TRAVEL_NOTICE = True
 TRAVEL_NOTICE_HTML = """<div style="background:#fff7e0; border-left: 4px solid #d4a017; border-radius: 6px; padding: 14px 18px; margin: 16px 0 24px; font-size: 14px; line-height: 1.55; color: #3a3a3a;">
   <strong>📅 Site on pause: classification resumes June 1, 2026.</strong>
   <p style="margin: 8px 0 0;">I am traveling from <strong>May 22</strong> to <strong>May 31, 2026</strong>. New letters keep arriving in the docket and are being fetched automatically, but they will not appear on the site until I return and classify them. The current letter count and stance distribution reflect everything I had processed before I left.</p>
@@ -2249,9 +2250,9 @@ def regenerate_html(snapshot, asof_iso, records=None, with_voting=False):
     # Regression panel — three-spec stacked layout, numbers from _meta/regression_compare.json
     reg = load_regression_compare()
     html = html.replace("__REGRESSION_PANEL__", build_regression_panel(reg))
-    # Travel-notice banner — dev-only for now. Flip to "always show" by changing
-    # the condition below to `True`, or drop the placeholder block when the trip ends.
-    travel_html = TRAVEL_NOTICE_HTML if with_voting else ""
+    # Travel-notice banner. Shows in the dev mirror, and in production when
+    # SHOW_TRAVEL_NOTICE is True. Set that flag back to False when the trip ends.
+    travel_html = TRAVEL_NOTICE_HTML if (with_voting or SHOW_TRAVEL_NOTICE) else ""
     html = html.replace("__TRAVEL_NOTICE__", travel_html)
     stats = compute_method_stats(records or [])
     if stats:
