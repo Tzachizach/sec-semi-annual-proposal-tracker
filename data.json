@@ -11273,5 +11273,190 @@
       "IA",
       "IP"
     ]
+  },
+  {
+    "n": 303,
+    "page": 1,
+    "date": "2026-05-21",
+    "name": "Jeff Zehner",
+    "role": "Individual investor",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-785207-2385154.html",
+    "words": 49,
+    "rationales": [
+      "IP",
+      "US"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IP",
+      "US"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "US"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "MF",
+      "US"
+    ]
+  },
+  {
+    "n": 304,
+    "page": 1,
+    "date": "2026-05-21",
+    "name": "Rebecca Lank",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-785127-2385016.html",
+    "words": 30,
+    "rationales": [
+      "FR",
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "FR",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "FR",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "FR",
+      "IP"
+    ]
+  },
+  {
+    "n": 305,
+    "page": 1,
+    "date": "2026-05-21",
+    "name": "Robert Reed",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-785227-2385214.html",
+    "words": 39,
+    "rationales": [
+      "FR",
+      "IP"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "FR",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "FR",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "FR",
+      "IA",
+      "IP"
+    ]
+  },
+  {
+    "n": 306,
+    "page": 1,
+    "date": "2026-05-20",
+    "name": "John DiCintio",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-784647-2383875.html",
+    "words": 17,
+    "rationales": [
+      "FR",
+      "IA"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "FR",
+      "IA"
+    ],
+    "rationales_literalist": [
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "FR",
+      "IA"
+    ]
+  },
+  {
+    "n": 307,
+    "page": 1,
+    "date": "2026-05-20",
+    "name": "Steve Carman",
+    "role": "Individual investor",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-784487-2383614.html",
+    "words": 49,
+    "rationales": [
+      "FR",
+      "IA",
+      "MF"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "FR",
+      "IA",
+      "MF"
+    ],
+    "rationales_literalist": [
+      "FR",
+      "IA",
+      "MF"
+    ],
+    "rationales_inclusive": [
+      "FR",
+      "IA",
+      "MF"
+    ]
   }
 ]
