@@ -1,6 +1,6 @@
 # SEC S7-2026-15 — regression spec comparison
 
-_Last run: 2026-05-22. Three specs on the same predictor set, different outcomes._
+_Last run: 2026-05-31. Three specs on the same predictor set, different outcomes._
 
 ## Specifications
 
@@ -18,11 +18,11 @@ Predictors in all three: 7 entity dummies (reference Individual) + log(words+1).
 |---|---:|---:|---:|---:|---:|---:|
 | Constant | -6.51 | 0.000 | -0.055 | 0.133 | — | — |
 | Accountant CPA | +1.35 | 0.242 | +0.062 | 0.475 | +1.44 | 0.047 |
-| Issuer-current | +1.62 | 0.193 | +0.151 | 0.433 | +1.97 | 0.003 |
-| Issuer-former | (sep.) | 0.927 | -0.034 | 0.015 | +1.36 | 0.116 |
-| Investment prof. | (sep.) | 0.963 | -0.037 | 0.028 | (sep.) | 0.929 |
-| Academic | +1.12 | 0.487 | +0.246 | 0.337 | +1.68 | 0.054 |
-| Industry pract. | (sep.) | 0.972 | -0.044 | 0.029 | -0.99 | 0.380 |
+| Issuer-current | +1.62 | 0.194 | +0.151 | 0.433 | +1.97 | 0.003 |
+| Issuer-former | (sep.) | 1.000 | -0.034 | 0.015 | +1.36 | 0.116 |
+| Investment prof. | (sep.) | 1.000 | -0.037 | 0.028 | (sep.) | 0.929 |
+| Academic | +1.11 | 0.491 | +0.246 | 0.337 | +1.68 | 0.054 |
+| Industry pract. | (sep.) | 0.998 | -0.044 | 0.029 | -0.99 | 0.380 |
 | Student | +3.42 | 0.031 | +0.459 | 0.223 | +3.21 | 0.098 |
 | log(words+1) | +0.66 | 0.032 | +0.021 | 0.063 | +0.69 | 0.000 |
 
