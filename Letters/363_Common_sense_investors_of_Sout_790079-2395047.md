@@ -1,10 +1,10 @@
 # Letter 363 — Common sense investors of Southern California
 
 - **Date:** 2026-05-27
-- **Role/Affiliation:** Individual
-- **Stance:** Unclassified
-- **Entity:** Unclassified
-- **Rationales:** 
+- **Role/Affiliation:** Investment club
+- **Stance:** Oppose
+- **Entity:** Individual
+- **Rationales:** IP
 - **Source:** https://www.sec.gov/comments/S7-2026-15/s7202615-790079-2395047.html
 
 ---

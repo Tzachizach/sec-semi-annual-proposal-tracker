@@ -1,10 +1,10 @@
 # Letter 341 — Mark Metzing
 
 - **Date:** 2026-05-27
-- **Role/Affiliation:** Individual
-- **Stance:** Unclassified
-- **Entity:** Unclassified
-- **Rationales:** 
+- **Role/Affiliation:** Small investor
+- **Stance:** Oppose
+- **Entity:** Individual
+- **Rationales:** IA, IP
 - **Source:** https://www.sec.gov/comments/S7-2026-15/s7202615-2395286.htm
 
 ---

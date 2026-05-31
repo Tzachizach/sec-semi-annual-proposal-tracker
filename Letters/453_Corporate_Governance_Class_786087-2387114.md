@@ -1,10 +1,10 @@
 # Letter 453 — Corporate Governance Class
 
 - **Date:** 2026-05-27
-- **Role/Affiliation:** David Schulte Adjunct Professor
-- **Stance:** Unclassified
-- **Entity:** Unclassified
-- **Rationales:** 
+- **Role/Affiliation:** Corporate Governance Class
+- **Stance:** Oppose
+- **Entity:** Student
+- **Rationales:** AU, IP
 - **Source:** https://www.sec.gov/comments/S7-2026-15/s7202615-786087-2387114.html
 
 ---

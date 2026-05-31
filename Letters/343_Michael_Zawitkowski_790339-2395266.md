@@ -1,10 +1,10 @@
 # Letter 343 — Michael Zawitkowski
 
 - **Date:** 2026-05-27
-- **Role/Affiliation:** NAIC
-- **Stance:** Unclassified
-- **Entity:** Unclassified
-- **Rationales:** 
+- **Role/Affiliation:** Individual investor (NAIC)
+- **Stance:** Oppose
+- **Entity:** Individual
+- **Rationales:** IP
 - **Source:** https://www.sec.gov/comments/S7-2026-15/s7202615-790339-2395266.html
 
 ---

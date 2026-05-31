@@ -1,10 +1,10 @@
 # Letter 331 — Ellen Burgeson
 
 - **Date:** 2026-05-27
-- **Role/Affiliation:** Individual
-- **Stance:** Unclassified
-- **Entity:** Unclassified
-- **Rationales:** 
+- **Role/Affiliation:** Individual / investment-club member
+- **Stance:** Oppose
+- **Entity:** Individual
+- **Rationales:** AU, IP
 - **Source:** https://www.sec.gov/comments/S7-2026-15/s7202615-2394666.htm
 
 ---

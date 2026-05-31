@@ -1962,6 +1962,14 @@ def build_snapshot(records):
             # carried over from the 2018 S7-26-18 mirror methodology.)
             skipped_noposition += 1
             continue
+        if headline == "Duplicate":
+            # Verbatim re-submission of another commenter's own letter (the SEC docket
+            # sometimes lists both a base and a "_0" variant of the same upload). Kept
+            # in renumbered_records.json so the fetch does not re-pull it, but excluded
+            # from the public split, rater stats, and regression so a single commenter
+            # is not double-counted. (Category added 2026-05-31.)
+            skipped_noposition += 1
+            continue
         out.append({
             "n": r["n"],
             "page": r.get("page", 0),
@@ -2064,7 +2072,7 @@ REG_JSON_PATH = META_DIR / "regression_compare.json"
 # Travel notice banner. Set SHOW_TRAVEL_NOTICE = True to render it on the
 # PRODUCTION site as well as the dev mirror. Set it back to False (or remove
 # the block) when the trip is over — 2026-05-22 to 2026-05-31; off June 1.
-SHOW_TRAVEL_NOTICE = True
+SHOW_TRAVEL_NOTICE = False
 TRAVEL_NOTICE_HTML = """<div style="background:#fff7e0; border-left: 4px solid #d4a017; border-radius: 6px; padding: 14px 18px; margin: 16px 0 24px; font-size: 14px; line-height: 1.55; color: #3a3a3a;">
   <strong>📅 Site on pause: classification resumes June 1, 2026.</strong>
   <p style="margin: 8px 0 0;">I am traveling from <strong>May 22</strong> to <strong>May 31, 2026</strong>. New letters keep arriving in the docket, but they will not appear on the site until I return and classify them. The current letter count and stance distribution reflect everything I had processed before I left.</p>
