@@ -509,11 +509,13 @@ add(461, OPP, IND, R(["IP"],["IP"],["IP","IA"]),
     "IP: investors, like patients on continuous vital-sign monitoring, need frequent reporting to make timely decisions; (Inc) IA: retired physician relying on his own monitoring.",
     "Retired-physician Oppose: investors, like a monitored surgical patient or a pilot watching the gauges, need frequent reporting; the SEC must not abrogate its duty to protect them.",
     role="Retired physician / individual investor")
-add(462, {"primary":"Duplicate","literalist":"Duplicate","skeptic":"Duplicate"}, IND,
-    R([],[],[]),
-    "Same docket submission as #99 Andrew Parker (shared doc-id 2367854; #99 is the HTML at submission 774528, #462 is the _2 PDF at submission 774547).",
-    "Held out as a duplicate of #99. Same author and same comment thread; #462 is an amended/expanded PDF (~60% longer, email redacted, chatgpt tracking stripped) but not a distinct commenter. #99 already carries the RFC 18 & 26 engagement.",
-    "Duplicate (amended re-submission) of #99 Andrew Parker — same doc-id 2367854, email redacted, expanded ICFR/SOX-404 detail. Held out of the count so Andrew Parker is not double-counted; RFC 18 & 26 engagement remains on #99.")
+add(462, {"primary":"Conditional","literalist":"Conditional","skeptic":"Conditional"}, IND,
+    R(["AU","FR","IP","IA","CMP","AL"],["AU","FR","IP","AL"],["AU","FR","IP","IA","CMP","AL","MF"]),
+    "'semiannual reporting should be restricted to mostly mature companies that have consistently avoided [material revisions / misstatements / ICFR failures]'; 'narrowing the scope of who will be eligible for semiannual reporting... will increase capital markets efficiency and decrease the administrative burden'; 'I would like to see conditions on the proposed semi-annual reporting rule'.",
+    "AL: the operative position is a carve-out — bar companies with recent material revisions/misstatements/ICFR period-end failures (and lingering significant deficiencies) from semiannual reporting for at least three years, while permitting it for mature, clean issuers; AU: ICFR / material-weakness detection (PCAOB AS 2201; the early-warning intent defeated in practice); FR: heightened risk that material misstatements due to error or fraud go undetected (RFC 26); IP: investor-protection concerns (RFC 18); IA: significant deficiencies 'disclosed exclusively to institutional investors'; CMP: he names decreased comparability/consistency as a cost; (Inc) MF. Cites EGC material-weakness rates and SOX-404 adverse-ICFR data.",
+    "Substantive Conditional (canonical Andrew Parker; this amended PDF replaces the original #99, which Tzachi held out as a duplicate). Same position as #99, expanded: he supports OPTIONAL semiannual reporting but only for mature, clean issuers, and would bar companies with recent ICFR/material-weakness conditions for three years and add disclosure conditions. Engages RFC 18 and RFC 26 with ICFR / SOX-404 detail. Tzachi's 2026-05-31 dedup call kept #462 over #99; the 3-rater stance stays Conditional (the amended letter is longer, not a different position).",
+    role="Individual",
+    rfc={"engaged":[18,26],"cited_explicitly":True,"note":"Andrew Parker amended PDF comment; replaces #99. Names and answers Request for Comment 18 (investor-protection concerns) and 26 (ICFR / timely detection of material misstatements and control deficiencies under semiannual reporting)."})
 
 
 def stance_agreement(s):

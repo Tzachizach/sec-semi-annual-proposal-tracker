@@ -3694,56 +3694,6 @@
     ]
   },
   {
-    "n": 99,
-    "page": 1,
-    "date": "2026-05-12",
-    "name": "Andrew Parker",
-    "role": "Individual",
-    "entity": "Individual",
-    "entity_agreement": "unanimous",
-    "entity_primary": "Individual",
-    "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Individual",
-    "stance": "Conditional",
-    "primary": "Conditional",
-    "literalist": "Conditional",
-    "skeptic": "Conditional",
-    "agreement": "unanimous",
-    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-774528-2367854.html",
-    "words": 1223,
-    "rationales": [
-      "IA",
-      "FR",
-      "AU",
-      "CMP",
-      "AL",
-      "IP"
-    ],
-    "rationale_agreement": "majority",
-    "rationales_primary": [
-      "AU",
-      "AL",
-      "IP",
-      "IA",
-      "FR",
-      "CMP"
-    ],
-    "rationales_literalist": [
-      "AU",
-      "AL",
-      "FR",
-      "IA"
-    ],
-    "rationales_inclusive": [
-      "AU",
-      "AL",
-      "FR",
-      "IA",
-      "IP",
-      "CMP"
-    ]
-  },
-  {
     "n": 100,
     "page": 1,
     "date": "2026-05-12",
@@ -16596,6 +16546,57 @@
     "rationales_inclusive": [
       "IA",
       "IP"
+    ]
+  },
+  {
+    "n": 462,
+    "page": 1,
+    "date": "2026-05-12",
+    "name": "Andrew Parker",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Conditional",
+    "primary": "Conditional",
+    "literalist": "Conditional",
+    "skeptic": "Conditional",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-774547-2367854_2.pdf",
+    "words": 3027,
+    "rationales": [
+      "AL",
+      "AU",
+      "CMP",
+      "FR",
+      "IA",
+      "IP"
+    ],
+    "rationale_agreement": "split",
+    "rationales_primary": [
+      "AL",
+      "AU",
+      "CMP",
+      "FR",
+      "IA",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "AL",
+      "AU",
+      "FR",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "AL",
+      "AU",
+      "CMP",
+      "FR",
+      "IA",
+      "IP",
+      "MF"
     ]
   }
 ]

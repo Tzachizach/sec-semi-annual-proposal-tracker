@@ -2,11 +2,11 @@
 
 - **Date:** 2026-05-12
 - **Role/Affiliation:** Individual
-- **Stance:** Duplicate
+- **Stance:** Conditional
 - **Entity:** Individual
-- **Rationales:**
+- **Rationales:** AL, AU, CMP, FR, IA, IP
 - **Source:** https://www.sec.gov/comments/S7-2026-15/s7202615-774547-2367854_2.pdf
-- **PDF:** _meta/pdf_letters/s7202615-774547-2367854_2.pdf
+- **PDF:** _meta/pdf_letters/462_Andrew_Parker.pdf
 
 ---
 

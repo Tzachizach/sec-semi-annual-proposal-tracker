@@ -4689,15 +4689,15 @@
     "name": "Andrew Parker",
     "role": "Individual",
     "entity": "Individual",
-    "stance": "Conditional",
-    "summary": "Substantive audit-side conditional letter responding specifically to Request for Comment 18 (investor protection) and Request for Comment 26 (ICFR / auditor strategy). Argues semiannual reporting should be available only to companies that have NOT had material revisions, material misstatements, material period-end financial reporting control failures, or material ICFR significant deficiencies in the past three years. Cites SEC Staff Accounting Bulletin No. 99 on materiality. Provides EGC ICFR-failure statistics (~46% of EGC filers reported material weaknesses in 2017; FY2022 adverse-ICFR disclosure rates 5.8% / 17.7% / 38.0% by filer size). Argues narrowing eligibility increases capital-markets efficiency while reducing administrative burden on companies with proper governance, but acknowledges drawbacks to comparability and consistency.",
+    "stance": "Duplicate",
+    "summary": "Duplicate (original version) of Andrew Parker's comment — superseded by his amended, longer PDF at #462, which Tzachi kept as the canonical record (Oppose). Same doc-id 2367854. Held out of the count so Andrew Parker is not double-counted. Original #99 was classified Conditional; the amended #462 firms to Oppose. Duplicate (original version) of Andrew Parker's comment — superseded by his amended, longer PDF at #462, which Tzachi kept as the canonical record (Oppose). Same doc-id 2367854. Held out of the count so Andrew Parker is not double-counted. Original #99 was classified Conditional; the amended #462 firms to Oppose. Substantive audit-side conditional letter responding specifically to Request for Comment 18 (investor protection) and Request for Comment 26 (ICFR / auditor strategy). Argues semiannual reporting should be available only to companies that have NOT had material revisions, material misstatements, material period-end financial reporting control failures, or material ICFR significant deficiencies in the past three years. Cites SEC Staff Accounting Bulletin No. 99 on materiality. Provides EGC ICFR-failure statistics (~46% of EGC filers reported material weaknesses in 2017; FY2022 adverse-ICFR disclosure rates 5.8% / 17.7% / 38.0% by filer size). Argues narrowing eligibility increases capital-markets efficiency while reducing administrative burden on companies with proper governance, but acknowledges drawbacks to comparability and consistency.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-774528-2367854.html",
     "words": 1223,
     "letter_id": "774528-2367854",
     "primary_stance": "Conditional",
     "literalist_stance": "Conditional",
     "skeptic_stance": "Conditional",
-    "majority_stance": "Conditional",
+    "majority_stance": "Duplicate",
     "agreement": "unanimous",
     "entity_primary": "Individual",
     "entity_selfdescribed": "Individual",
@@ -4743,15 +4743,7 @@
       "AL",
       "IP"
     ],
-    "rationale_agreement": "majority",
-    "rfc_questions": {
-      "engaged": [
-        18,
-        26
-      ],
-      "cited_explicitly": true,
-      "note": "Quotes 'Request for Comment 18' and 'Request for Comment 26' verbatim and answers each."
-    }
+    "rationale_agreement": "majority"
   },
   {
     "n": 100,
@@ -21209,36 +21201,70 @@
     "name": "Andrew Parker",
     "role": "Individual",
     "entity": "Individual",
-    "stance": "Duplicate",
-    "primary_stance": "Duplicate",
-    "literalist_stance": "Duplicate",
-    "skeptic_stance": "Duplicate",
-    "majority_stance": "Duplicate",
+    "stance": "Conditional",
+    "primary_stance": "Conditional",
+    "literalist_stance": "Conditional",
+    "skeptic_stance": "Conditional",
+    "majority_stance": "Conditional",
     "agreement": "unanimous",
     "entity_primary": "Individual",
     "entity_selfdescribed": "Individual",
     "entity_letterhead": "Individual",
     "entity_majority": "Individual",
     "entity_agreement": "unanimous",
-    "rationales": [],
-    "rationale_evidence": "Held out as a duplicate of #99. Same author and same comment thread; #462 is an amended/expanded PDF (~60% longer, email redacted, chatgpt tracking stripped) but not a distinct commenter. #99 already carries the RFC 18 & 26 engagement.",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "unanimous",
-    "summary": "Duplicate (amended re-submission) of #99 Andrew Parker — same doc-id 2367854, email redacted, expanded ICFR/SOX-404 detail. Held out of the count so Andrew Parker is not double-counted; RFC 18 & 26 engagement remains on #99.",
+    "rationales": [
+      "AL",
+      "AU",
+      "CMP",
+      "FR",
+      "IA",
+      "IP"
+    ],
+    "rationale_evidence": "AL: the operative position is a carve-out — bar companies with recent material revisions/misstatements/ICFR period-end failures (and lingering significant deficiencies) from semiannual reporting for at least three years, while permitting it for mature, clean issuers; AU: ICFR / material-weakness detection (PCAOB AS 2201; the early-warning intent defeated in practice); FR: heightened risk that material misstatements due to error or fraud go undetected (RFC 26); IP: investor-protection concerns (RFC 18); IA: significant deficiencies 'disclosed exclusively to institutional investors'; CMP: he names decreased comparability/consistency as a cost; (Inc) MF. Cites EGC material-weakness rates and SOX-404 adverse-ICFR data.",
+    "rationales_primary": [
+      "AL",
+      "AU",
+      "CMP",
+      "FR",
+      "IA",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "AL",
+      "AU",
+      "FR",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "AL",
+      "AU",
+      "CMP",
+      "FR",
+      "IA",
+      "IP",
+      "MF"
+    ],
+    "rationales_majority": [
+      "AL",
+      "AU",
+      "CMP",
+      "FR",
+      "IA",
+      "IP"
+    ],
+    "rationale_agreement": "split",
+    "summary": "Substantive Conditional (canonical Andrew Parker; this amended PDF replaces the original #99, which Tzachi held out as a duplicate). Same position as #99, expanded: he supports OPTIONAL semiannual reporting but only for mature, clean issuers, and would bar companies with recent ICFR/material-weakness conditions for three years and add disclosure conditions. Engages RFC 18 and RFC 26 with ICFR / SOX-404 detail. Tzachi's 2026-05-31 dedup call kept #462 over #99; the 3-rater stance stays Conditional (the amended letter is longer, not a different position).",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-774547-2367854_2.pdf",
     "words": 3027,
-    "letter_id": "s7202615-774547-2367854_2.pdf",
-    "stance_evidence": "Same docket submission as #99 Andrew Parker (shared doc-id 2367854; #99 is the HTML at submission 774528, #462 is the _2 PDF at submission 774547).",
+    "letter_id": "774547-2367854_2",
+    "stance_evidence": "'semiannual reporting should be restricted to mostly mature companies that have consistently avoided [material revisions / misstatements / ICFR failures]'; 'narrowing the scope of who will be eligible for semiannual reporting... will increase capital markets efficiency and decrease the administrative burden'; 'I would like to see conditions on the proposed semi-annual reporting rule'.",
     "rfc_questions": {
       "engaged": [
         18,
         26
       ],
       "cited_explicitly": true,
-      "note": "Andrew Parker amended PDF comment (relates to #99). Names and answers Request for Comment 18 (investor-protection concerns) and 26 (ICFR / timely detection of material misstatements and control deficiencies under semiannual reporting)."
+      "note": "Andrew Parker amended PDF comment; replaces #99. Names and answers Request for Comment 18 (investor-protection concerns) and 26 (ICFR / timely detection of material misstatements and control deficiencies under semiannual reporting)."
     }
   }
 ]
