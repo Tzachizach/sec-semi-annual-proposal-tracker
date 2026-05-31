@@ -1,6 +1,6 @@
 # Letter 363 — Common sense investors of Southern California
 
-- **Date:** 2026-05-27
+- **Date:** 2026-05-26
 - **Role/Affiliation:** Investment club
 - **Stance:** Oppose
 - **Entity:** Individual

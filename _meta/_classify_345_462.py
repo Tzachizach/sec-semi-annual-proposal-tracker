@@ -509,11 +509,11 @@ add(461, OPP, IND, R(["IP"],["IP"],["IP","IA"]),
     "IP: investors, like patients on continuous vital-sign monitoring, need frequent reporting to make timely decisions; (Inc) IA: retired physician relying on his own monitoring.",
     "Retired-physician Oppose: investors, like a monitored surgical patient or a pilot watching the gauges, need frequent reporting; the SEC must not abrogate its duty to protect them.",
     role="Retired physician / individual investor")
-add(462, OPP, IND, R(["AU","FR","IP"],["AU","FR"],["AU","FR","IP","MF"]),
-    "'I appreciate the opportunity to provide comments on the proposed rule... This comment responds specifically to Request for Comment 18 and Request for Comment 26.'",
-    "AU: the heart of the letter is internal control over financial reporting (ICFR) and the detection of material weaknesses; semiannual reporting delays auditor and management detection and communication of control deficiencies; FR: heightened risk that material misstatements due to error or fraud go undetected (RFC 26); IP: investor-protection concerns (RFC 18); (Inc) MF. Cites EGC material-weakness rates and SOX 404 adverse-ICFR data.",
-    "Substantive Oppose (amended comment; relates to #99 Andrew Parker): semiannual reporting delays detection of material weaknesses and misstatements in internal controls, raising undisclosed risk to investors; engages RFC 18 and RFC 26 with ICFR and SOX-404 data.",
-    rfc={"engaged":[18,26],"cited_explicitly":True,"note":"Andrew Parker amended PDF comment (relates to #99). Names and answers Request for Comment 18 (investor-protection concerns) and 26 (ICFR / timely detection of material misstatements and control deficiencies under semiannual reporting)."})
+add(462, {"primary":"Duplicate","literalist":"Duplicate","skeptic":"Duplicate"}, IND,
+    R([],[],[]),
+    "Same docket submission as #99 Andrew Parker (shared doc-id 2367854; #99 is the HTML at submission 774528, #462 is the _2 PDF at submission 774547).",
+    "Held out as a duplicate of #99. Same author and same comment thread; #462 is an amended/expanded PDF (~60% longer, email redacted, chatgpt tracking stripped) but not a distinct commenter. #99 already carries the RFC 18 & 26 engagement.",
+    "Duplicate (amended re-submission) of #99 Andrew Parker — same doc-id 2367854, email redacted, expanded ICFR/SOX-404 detail. Held out of the count so Andrew Parker is not double-counted; RFC 18 & 26 engagement remains on #99.")
 
 
 def stance_agreement(s):
