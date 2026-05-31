@@ -45,6 +45,14 @@ PROJECT_DIR = Path(__file__).resolve().parent.parent
 RECORDS = PROJECT_DIR / "_meta" / "renumbered_records.json"
 LETTERS_DIR = PROJECT_DIR / "Letters"
 PDF_DIR = PROJECT_DIR / "_meta" / "pdf_letters"
+# One-off harvest list (added 2026-05-31 when the docket's CloudFront pager went
+# stale and the index crawl below could only ever see page 1). When this file is
+# present and non-empty, main() fetches each listed letter URL directly — letter
+# documents are not subject to the index-page cache — before the normal crawl.
+URL_LIST = PROJECT_DIR / "_meta" / "_harvest" / "new_urls.txt"
+_MONTHS = r"(?:January|February|March|April|May|June|July|August|September|October|November|December)"
+_DATE_RE = re.compile(rf"\b{_MONTHS}\s+\d{{1,2}},\s+20\d{{2}}\b")
+URL_LIST_DEFAULT_DATE = "2026-05-27"
 
 # SEC docket index — Drupal-based comments page on sec.gov.
 # Pagination uses ?page=N (zero-indexed). Letter URLs in the table point at
@@ -210,6 +218,88 @@ def normalize_url(u):
     return u.strip().lower()
 
 
+def process_url_list(records, existing, next_n):
+    """Drain URL_LIST: fetch each not-yet-present letter URL directly and append a
+    placeholder record + Letters/*.md, mirroring the index-crawl append below.
+    Returns (next_n, appended, pdfs_saved). No-op if the file is absent/empty."""
+    if not URL_LIST.exists():
+        return next_n, 0, 0
+    urls = [l.strip() for l in URL_LIST.read_text().splitlines() if l.strip()]
+    if not urls:
+        return next_n, 0, 0
+    print(f"[urllist] {len(urls)} URL(s) in harvest list.")
+    PDF_DIR.mkdir(parents=True, exist_ok=True)
+    appended = pdfs_saved = 0
+    for url in urls:
+        nu = normalize_url(url)
+        if nu in existing:
+            continue
+        is_pdf = is_pdf_url(url)
+        try:
+            resp = fetch_response(url)
+        except Exception as e:
+            print(f"[warn] urllist fetch failed ({url}): {e}")
+            continue
+        if not is_pdf and is_pdf_response(resp):
+            is_pdf = True
+        date = URL_LIST_DEFAULT_DATE
+        if is_pdf:
+            pdf_filename = url.rsplit("/", 1)[-1].split("?")[0]
+            if not pdf_filename.lower().endswith(".pdf"):
+                pdf_filename += ".pdf"
+            (PDF_DIR / pdf_filename).write_bytes(resp.content)
+            pdfs_saved += 1
+            commenter, role, words = "Unknown", "Individual", 0
+            body = (f"(PDF letter — text extraction pending. PDF saved at "
+                    f"_meta/pdf_letters/{pdf_filename}. Open the PDF and replace this "
+                    f"body with the extracted text before the next classification pass.)")
+            print(f"[urllist][pdf] #{next_n} -> _meta/pdf_letters/{pdf_filename}")
+        else:
+            html = resp.text
+            commenter, body = parse_letter(html, url)
+            commenter, role = split_name_role(commenter)
+            words = len(body.split())
+            m = _DATE_RE.search(html if "From:" not in html else html[:8000])
+            mt = _DATE_RE.search(body[:1500])
+            if mt:
+                try:
+                    date = datetime.strptime(mt.group(0), "%B %d, %Y").strftime("%Y-%m-%d")
+                except ValueError:
+                    pass
+            print(f"[urllist] #{next_n} {commenter[:32]:32s} ({words}w, {date})")
+        rec = {
+            "n": next_n, "page": 1, "date": date, "name": commenter, "role": role,
+            "entity": "Unclassified", "stance": "Unclassified",
+            "primary_stance": "Unclassified", "literalist_stance": "Unclassified",
+            "skeptic_stance": "Unclassified", "majority_stance": "Unclassified", "agreement": "",
+            "entity_primary": "Unclassified", "entity_selfdescribed": "Unclassified",
+            "entity_letterhead": "Unclassified", "entity_majority": "Unclassified", "entity_agreement": "",
+            "rationales": [], "rationale_evidence": "", "rationales_primary": [],
+            "rationales_literalist": [], "rationales_inclusive": [], "rationales_majority": [],
+            "rationale_agreement": "",
+            "summary": "(PDF — awaiting manual processing.)" if is_pdf else "(Awaiting Claude classification.)",
+            "url": url, "words": words, "letter_id": lid(url),
+        }
+        records.append(rec)
+        slug = fname_safe(commenter)
+        pdf_tag = "_pdf" if is_pdf else ""
+        fpath = LETTERS_DIR / f"{rec['n']}_{slug}{pdf_tag}_{rec['letter_id']}.md"
+        header = (f"# Letter {rec['n']} — {commenter}\n\n"
+                  f"- **Date:** {rec['date']}\n- **Role/Affiliation:** {role}\n"
+                  f"- **Stance:** Unclassified\n- **Entity:** Unclassified\n"
+                  f"- **Rationales:** \n- **Source:** {url}\n")
+        if is_pdf:
+            header += f"- **PDF:** _meta/pdf_letters/{url.rsplit('/',1)[-1]}\n"
+        header += f"\n---\n\nSubject: File No. S7-2026-15\nFrom: {commenter}\n\n{body}\n"
+        fpath.write_text(header)
+        existing.add(nu)
+        next_n += 1
+        appended += 1
+        time.sleep(0.4)
+    print(f"[urllist] appended {appended} ({pdfs_saved} PDF) from harvest list.")
+    return next_n, appended, pdfs_saved
+
+
 def main():
     if not RECORDS.exists():
         print(f"[error] {RECORDS} not found.", file=sys.stderr)
@@ -224,6 +314,10 @@ def main():
         # also accept the case-flipped version of /s7-2026-15/ vs /S7-2026-15/
         existing.add(u.replace("/s7-2026-15/", "/S7-2026-15/").lower())
         existing.add(u.replace("/S7-2026-15/", "/s7-2026-15/").lower())
+
+    # URL-list drain first (one-off harvest path), then the normal index crawl.
+    next_n = max(r["n"] for r in records) + 1
+    next_n, ul_appended, ul_pdfs = process_url_list(records, existing, next_n)
 
     new_rows = []
     seen_urls = set()
@@ -246,11 +340,15 @@ def main():
         time.sleep(0.5)
 
     if not new_rows:
-        print("[done] No new letters.")
+        if ul_appended:
+            RECORDS.write_text(json.dumps(records, indent=2, ensure_ascii=False))
+            print(f"[done] No new index letters; wrote {ul_appended} from harvest "
+                  f"list ({ul_pdfs} PDF). {len(records)} total records.")
+        else:
+            print("[done] No new letters.")
         return 0
 
     print(f"[info] {len(new_rows)} new letter(s) to fetch.")
-    next_n = max(r["n"] for r in records) + 1
     appended = 0
     pdfs_saved = 0
     PDF_DIR.mkdir(parents=True, exist_ok=True)
@@ -379,7 +477,8 @@ def main():
         time.sleep(0.5)  # gentle on SEC
 
     RECORDS.write_text(json.dumps(records, indent=2, ensure_ascii=False))
-    print(f"[done] Appended {appended} letter(s). {len(records)} total records.")
+    print(f"[done] Appended {appended} index + {ul_appended} harvest = "
+          f"{appended + ul_appended} letter(s). {len(records)} total records.")
     if pdfs_saved:
         print(f"[done] Saved {pdfs_saved} PDF(s) to _meta/pdf_letters/.")
         print(f"[notice] PDF-pending letters need manual body extraction "
