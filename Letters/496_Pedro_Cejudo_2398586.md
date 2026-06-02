@@ -2,9 +2,9 @@
 
 - **Date:** 2026-05-28
 - **Role/Affiliation:** Individual
-- **Stance:** Unclassified
-- **Entity:** Unclassified
-- **Rationales:** 
+- **Stance:** No position
+- **Entity:** Individual
+- **Rationales:** NR
 - **Source:** https://www.sec.gov/comments/S7-2026-15/s7202615-2398586.htm
 
 ---

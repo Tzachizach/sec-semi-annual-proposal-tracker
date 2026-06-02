@@ -22492,28 +22492,44 @@
     "date": "2026-05-28",
     "name": "Leslie",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "Unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "Unanimous",
+    "rationales": [
+      "IA",
+      "IP"
+    ],
+    "rationale_evidence": "IA: 'CONSUMERS AND SMALL INVESTORS NEED QUARTERLY BUSINESS REPORTING TO OPTIMIZE THEIR INVESTMENT PORTFOLIOS'. IP: small-investor protection framing. (Inc) US: 'CONSUMERS' framing.",
+    "rationales_primary": [
+      "IA",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "IP",
+      "US"
+    ],
+    "rationales_majority": [
+      "IA",
+      "IP"
+    ],
+    "rationale_agreement": "2-of-3",
+    "summary": "All-caps retail Oppose from Leslie C. Moore: consumers and small investors need quarterly reporting to optimize their investment portfolios; opposes the bi-annual change.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2398566.htm",
-    "words": 27,
+    "words": 38,
     "letter_id": "2398566"
   },
   {
@@ -22522,59 +22538,99 @@
     "date": "2026-05-30",
     "name": "michael h kane",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Conditional",
+    "majority_stance": "Oppose",
+    "agreement": "2-of-3",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "Unanimous",
+    "rationales": [
+      "NR"
+    ],
+    "rationale_evidence": "No rationale supplied. Body is two words.",
+    "rationales_primary": [
+      "NR"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
+      "NR"
+    ],
+    "rationales_majority": [
+      "NR"
+    ],
+    "rationale_agreement": "Unanimous",
+    "summary": "Two-word retail Oppose ('Not interested'). Ambiguous brevity flips Skeptic to Conditional; Primary + Literalist stay Oppose.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2404271.htm",
-    "words": 6,
-    "letter_id": "2404271"
+    "words": 16,
+    "letter_id": "2404271",
+    "stance_note": "Two-word retail submission ('Not interested') in a SEC comment-portal context. Primary + Literalist read as default Oppose (no explicit endorsement of the proposal; brief refusal). Skeptic flips to Conditional on ambiguity. Majority Oppose (2-of-3)."
   },
   {
     "n": 492,
     "page": 1,
-    "date": "2026-05-27",
+    "date": "2026-05-28",
     "name": "Anthony Calime Jr.",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Conditional",
+    "majority_stance": "Oppose",
+    "agreement": "2-of-3",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "Unanimous",
+    "rationales": [
+      "CB",
+      "FR",
+      "IA",
+      "IP",
+      "MF"
+    ],
+    "rationale_evidence": "IA: 'rely on timely, standardized, and comparable company information to evaluate risks'. IP: 'individual investors typically rely heavily on public filings... may also reduce transparency for investors'. MF: 'each semiannual report could carry more surprise risk... sharper stock price reactions'. CB: 'rely on timely, standardized, and comparable company information' - standardization and comparability framing. FR: 'Less frequent reporting may make it easier for problems to remain hidden longer'.",
+    "rationales_primary": [
+      "IA",
+      "IP",
+      "MF",
+      "CB",
+      "FR"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "IP",
+      "MF"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "IP",
+      "MF",
+      "CB",
+      "FR"
+    ],
+    "rationales_majority": [
+      "CB",
+      "FR",
+      "IA",
+      "IP",
+      "MF"
+    ],
+    "rationale_agreement": "2-of-3",
+    "summary": "Substantive self-directed-investor Oppose: 401(k) + 529 retail investor argues quarterly reports give individual investors the only reliable checkpoint against six-month information gaps, increased information inequality, market-volatility surprise risk, harder portfolio rebalancing, and reduced management accountability. Recommends preserving quarterly reporting, with a fallback investor-protection package if semiannual is allowed.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-792600-2399467.html",
-    "words": 684,
-    "letter_id": "792600-2399467"
+    "words": 709,
+    "letter_id": "792600-2399467",
+    "stance_note": "Skeptic flips to Conditional on the fallback proposal 'If semiannual reporting is allowed, it should include strong investor protections, such as...' (timely quarterly financial updates, explanation requirement, prompt material-change disclosure, equal-access protection). Same hedge pattern as #486 Anderson. Primary + Literalist stay Oppose because the headline recommendation - 'preserve quarterly reporting requirements' - is unambiguous. Majority Oppose (2-of-3)."
   },
   {
     "n": 493,
@@ -22582,28 +22638,38 @@
     "date": "2026-05-28",
     "name": "Jay Richardson",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "Unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "Unanimous",
+    "rationales": [
+      "NR"
+    ],
+    "rationale_evidence": "Bare preservation request, no rationale supplied.",
+    "rationales_primary": [
+      "NR"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
+      "NR"
+    ],
+    "rationales_majority": [
+      "NR"
+    ],
+    "rationale_agreement": "Unanimous",
+    "summary": "Four-word retail Oppose: earnings should be quarterly.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2399626.htm",
-    "words": 8,
+    "words": 17,
     "letter_id": "2399626"
   },
   {
@@ -22612,28 +22678,38 @@
     "date": "2026-05-28",
     "name": "Jorge Lemus",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "Unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "Unanimous",
+    "rationales": [
+      "NR"
+    ],
+    "rationale_evidence": "Bare rejection request (plus heart emoji), no rationale supplied.",
+    "rationales_primary": [
+      "NR"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
+      "NR"
+    ],
+    "rationales_majority": [
+      "NR"
+    ],
+    "rationale_agreement": "Unanimous",
+    "summary": "Brief retail Oppose: please reject this proposal.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2398568.htm",
-    "words": 11,
+    "words": 22,
     "letter_id": "2398568"
   },
   {
@@ -22642,28 +22718,42 @@
     "date": "2026-05-28",
     "name": "Mark Murray",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "Unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "Unanimous",
+    "rationales": [
+      "IA",
+      "IP"
+    ],
+    "rationale_evidence": "IA: 'having this information provided quarterly is a requirement'. IP: retirement-account framing (investor protection through information access).",
+    "rationales_primary": [
+      "IA",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "IP"
+    ],
+    "rationales_majority": [
+      "IA",
+      "IP"
+    ],
+    "rationale_agreement": "2-of-3",
+    "summary": "One-line retail Oppose: retirement accounts heavily invested; quarterly information is a requirement.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2399486.htm",
-    "words": 22,
+    "words": 31,
     "letter_id": "2399486"
   },
   {
@@ -22672,28 +22762,39 @@
     "date": "2026-05-28",
     "name": "Pedro Cejudo",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "No position",
+    "primary_stance": "No position",
+    "literalist_stance": "No position",
+    "skeptic_stance": "No position",
+    "majority_stance": "No position",
+    "agreement": "Unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "Unanimous",
+    "rationales": [
+      "NR"
+    ],
+    "rationale_evidence": "Single-word Spanish affirmation; no engagement with the proposal.",
+    "rationales_primary": [
+      "NR"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
+      "NR"
+    ],
+    "rationales_majority": [
+      "NR"
+    ],
+    "rationale_agreement": "Unanimous",
+    "summary": "Single Spanish word 'Bueno' - does not substantively engage with the proposal. Held out as No position per the precedent set by #308 ('Thanks').",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2398586.htm",
-    "words": 5,
-    "letter_id": "2398586"
+    "words": 14,
+    "letter_id": "2398586",
+    "stance_note": "Matches the #308 Anonymous 'Thanks' and #293 Hunter precedents: single affirmation that does not substantively engage with the proposal merits. All three raters return No position. Held out of in-corpus."
   }
 ]
