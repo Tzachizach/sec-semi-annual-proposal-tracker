@@ -140,7 +140,7 @@ for n, calls in C.items():
     sv = Counter(calls["stance"].values()).most_common(1)[0][0]
     rec["majority_stance"] = sv
     rec["stance"] = sv
-    rec["agreement"] = "Unanimous" if len(set(calls["stance"].values())) == 1 else "2-of-3"
+    rec["agreement"] = "unanimous" if len(set(calls["stance"].values())) == 1 else "majority"
 
     rec["entity_primary"] = calls["entity"]["primary"]
     rec["entity_selfdescribed"] = calls["entity"]["selfdescribed"]
@@ -148,7 +148,7 @@ for n, calls in C.items():
     ev = Counter(calls["entity"].values()).most_common(1)[0][0]
     rec["entity_majority"] = ev
     rec["entity"] = ev
-    rec["entity_agreement"] = "Unanimous" if len(set(calls["entity"].values())) == 1 else "2-of-3"
+    rec["entity_agreement"] = "unanimous" if len(set(calls["entity"].values())) == 1 else "majority"
 
     rec["rationales_primary"] = calls["rationales"]["primary"]
     rec["rationales_literalist"] = calls["rationales"]["literalist"]
@@ -158,7 +158,7 @@ for n, calls in C.items():
     cats = [set(calls["rationales"]["primary"]),
             set(calls["rationales"]["literalist"]),
             set(calls["rationales"]["inclusive"])]
-    rec["rationale_agreement"] = "Unanimous" if cats[0] == cats[1] == cats[2] else "2-of-3"
+    rec["rationale_agreement"] = "unanimous" if cats[0] == cats[1] == cats[2] else "majority"
     rec["rationale_evidence"] = calls.get("rationale_evidence", "")
     rec["summary"] = calls.get("summary", rec.get("summary", ""))
 

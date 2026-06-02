@@ -21279,12 +21279,12 @@
     "literalist_stance": "Oppose",
     "skeptic_stance": "Oppose",
     "majority_stance": "Oppose",
-    "agreement": "Unanimous",
+    "agreement": "unanimous",
     "entity_primary": "Individual",
     "entity_selfdescribed": "Individual",
     "entity_letterhead": "Accountant (CPA)",
     "entity_majority": "Individual",
-    "entity_agreement": "2-of-3",
+    "entity_agreement": "majority",
     "rationales": [
       "IA",
       "IP"
@@ -21306,7 +21306,7 @@
       "IA",
       "IP"
     ],
-    "rationale_agreement": "2-of-3",
+    "rationale_agreement": "majority",
     "summary": "Retail Oppose from a stock-club member and retired CPA: she uses 10-Qs to evaluate companies and to update her holdings, and asks the Commission to preserve quarterly required disclosures.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-791779-2397246.html",
     "words": 88,
@@ -21325,12 +21325,12 @@
     "literalist_stance": "Oppose",
     "skeptic_stance": "Oppose",
     "majority_stance": "Oppose",
-    "agreement": "Unanimous",
+    "agreement": "unanimous",
     "entity_primary": "Individual",
     "entity_selfdescribed": "Individual",
     "entity_letterhead": "Individual",
     "entity_majority": "Individual",
-    "entity_agreement": "Unanimous",
+    "entity_agreement": "unanimous",
     "rationales": [
       "IP"
     ],
@@ -21349,7 +21349,7 @@
     "rationales_majority": [
       "IP"
     ],
-    "rationale_agreement": "2-of-3",
+    "rationale_agreement": "majority",
     "summary": "One-line retail Oppose: keep quarterly so big corporations stay accountable.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2397486.htm",
     "words": 24,
@@ -21368,12 +21368,12 @@
     "literalist_stance": "Oppose",
     "skeptic_stance": "Oppose",
     "majority_stance": "Oppose",
-    "agreement": "Unanimous",
+    "agreement": "unanimous",
     "entity_primary": "Individual",
     "entity_selfdescribed": "Individual",
     "entity_letterhead": "Accountant (CPA)",
     "entity_majority": "Individual",
-    "entity_agreement": "2-of-3",
+    "entity_agreement": "majority",
     "rationales": [
       "IA",
       "IP"
@@ -21395,7 +21395,7 @@
       "IA",
       "IP"
     ],
-    "rationale_agreement": "2-of-3",
+    "rationale_agreement": "majority",
     "summary": "Reasoned retail Oppose: individual investors rely on quarterly reports especially for small/mid-cap companies that lack Value Line and Morningstar analyst coverage; cutting to twice a year would severely limit retail knowledge.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-792219-2397906.html",
     "words": 115,
@@ -21414,12 +21414,12 @@
     "literalist_stance": "Oppose",
     "skeptic_stance": "Oppose",
     "majority_stance": "Oppose",
-    "agreement": "Unanimous",
+    "agreement": "unanimous",
     "entity_primary": "Individual",
     "entity_selfdescribed": "Individual",
     "entity_letterhead": "Individual",
     "entity_majority": "Individual",
-    "entity_agreement": "Unanimous",
+    "entity_agreement": "unanimous",
     "rationales": [
       "IP"
     ],
@@ -21437,7 +21437,7 @@
     "rationales_majority": [
       "IP"
     ],
-    "rationale_agreement": "2-of-3",
+    "rationale_agreement": "majority",
     "summary": "Three-sentence retail Oppose: financial decisions rest on these quarterly reports.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-791699-2397148.html",
     "words": 29,
@@ -21455,12 +21455,12 @@
     "literalist_stance": "Oppose",
     "skeptic_stance": "Oppose",
     "majority_stance": "Oppose",
-    "agreement": "Unanimous",
+    "agreement": "unanimous",
     "entity_primary": "Individual",
     "entity_selfdescribed": "Individual",
     "entity_letterhead": "Individual",
     "entity_majority": "Individual",
-    "entity_agreement": "Unanimous",
+    "entity_agreement": "unanimous",
     "rationales": [
       "AU",
       "IA",
@@ -21488,7 +21488,7 @@
       "IA",
       "IP"
     ],
-    "rationale_agreement": "2-of-3",
+    "rationale_agreement": "majority",
     "summary": "Substantive retail Oppose from a 31-year Investment Club member: he leans on the certified-10-Q-versus-voluntary-communications template (CEO + CFO sign and are legally accountable; the voluntary disclosures carry none of that) and on a club-level workflow that uses quarterly reports to time buys and sells.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2397506_1.htm",
     "words": 201,
@@ -21506,12 +21506,12 @@
     "literalist_stance": "Oppose",
     "skeptic_stance": "Oppose",
     "majority_stance": "Oppose",
-    "agreement": "Unanimous",
+    "agreement": "unanimous",
     "entity_primary": "Individual",
     "entity_selfdescribed": "Individual",
     "entity_letterhead": "Individual",
     "entity_majority": "Individual",
-    "entity_agreement": "Unanimous",
+    "entity_agreement": "unanimous",
     "rationales": [
       "IP"
     ],
@@ -21529,7 +21529,7 @@
     "rationales_majority": [
       "IP"
     ],
-    "rationale_agreement": "2-of-3",
+    "rationale_agreement": "majority",
     "summary": "One-line retail Oppose: he relies on quarterly disclosures to make informed decisions.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2397646.htm",
     "words": 28,
@@ -21547,12 +21547,12 @@
     "literalist_stance": "Oppose",
     "skeptic_stance": "Oppose",
     "majority_stance": "Oppose",
-    "agreement": "Unanimous",
+    "agreement": "unanimous",
     "entity_primary": "Individual",
     "entity_selfdescribed": "Individual",
     "entity_letterhead": "Individual",
     "entity_majority": "Individual",
-    "entity_agreement": "Unanimous",
+    "entity_agreement": "unanimous",
     "rationales": [
       "NR"
     ],
@@ -21569,7 +21569,7 @@
     "rationales_majority": [
       "NR"
     ],
-    "rationale_agreement": "Unanimous",
+    "rationale_agreement": "unanimous",
     "summary": "Two-line retail Oppose: he urges the Commission to withdraw the proposal, no rationale given.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2397726.htm",
     "words": 29,
@@ -21587,12 +21587,12 @@
     "literalist_stance": "Oppose",
     "skeptic_stance": "Oppose",
     "majority_stance": "Oppose",
-    "agreement": "Unanimous",
+    "agreement": "unanimous",
     "entity_primary": "Individual",
     "entity_selfdescribed": "Individual",
     "entity_letterhead": "Individual",
     "entity_majority": "Individual",
-    "entity_agreement": "Unanimous",
+    "entity_agreement": "unanimous",
     "rationales": [
       "AU",
       "FR",
@@ -21628,7 +21628,7 @@
       "IP",
       "MF"
     ],
-    "rationale_agreement": "2-of-3",
+    "rationale_agreement": "majority",
     "summary": "Substantive retail Oppose from an active individual investor and financial literacy coach. The letter (drafted in a paragraph-by-paragraph format, likely with AI assistance) frames the six-month gap as an information vacuum that degrades transparency, weakens C-suite accountability, opens the door to unethical behavior, and erodes market confidence.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-792079-2397607.html",
     "words": 341,
@@ -21646,12 +21646,12 @@
     "literalist_stance": "Oppose",
     "skeptic_stance": "Oppose",
     "majority_stance": "Oppose",
-    "agreement": "Unanimous",
+    "agreement": "unanimous",
     "entity_primary": "Individual",
     "entity_selfdescribed": "Individual",
     "entity_letterhead": "Individual",
     "entity_majority": "Individual",
-    "entity_agreement": "Unanimous",
+    "entity_agreement": "unanimous",
     "rationales": [
       "IA",
       "IP",
@@ -21678,7 +21678,7 @@
       "IP",
       "MF"
     ],
-    "rationale_agreement": "2-of-3",
+    "rationale_agreement": "majority",
     "summary": "Retail Oppose with a quietly sophisticated argument about calendar-cyclic businesses (seasonal variation reduces comparability of half-year reports), wrapped in a closing rhetorical sarcasm about abolishing the SEC. Argues investors need more reporting (every 2 months, even monthly), not less.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-791899-2397387.html",
     "words": 221,
@@ -21696,12 +21696,12 @@
     "literalist_stance": "Oppose",
     "skeptic_stance": "Oppose",
     "majority_stance": "Oppose",
-    "agreement": "Unanimous",
+    "agreement": "unanimous",
     "entity_primary": "Individual",
     "entity_selfdescribed": "Individual",
     "entity_letterhead": "Individual",
     "entity_majority": "Individual",
-    "entity_agreement": "Unanimous",
+    "entity_agreement": "unanimous",
     "rationales": [
       "NR"
     ],
@@ -21718,7 +21718,7 @@
     "rationales_majority": [
       "NR"
     ],
-    "rationale_agreement": "Unanimous",
+    "rationale_agreement": "unanimous",
     "summary": "One-line retail Oppose: strong opposition, no rationale given.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2397526.htm",
     "words": 29,
@@ -21736,12 +21736,12 @@
     "literalist_stance": "Oppose",
     "skeptic_stance": "Oppose",
     "majority_stance": "Oppose",
-    "agreement": "Unanimous",
+    "agreement": "unanimous",
     "entity_primary": "Individual",
     "entity_selfdescribed": "Individual",
     "entity_letterhead": "Individual",
     "entity_majority": "Individual",
-    "entity_agreement": "Unanimous",
+    "entity_agreement": "unanimous",
     "rationales": [
       "AU",
       "IA",
@@ -21769,7 +21769,7 @@
       "IA",
       "IP"
     ],
-    "rationale_agreement": "2-of-3",
+    "rationale_agreement": "majority",
     "summary": "Substantive retail Oppose from a retired teacher: deploys the certified-10-Q-vs-voluntary-communications template (CEO + CFO sign and are legally accountable), cites the 'individual investors own the majority of shares in smaller public companies' framing the SEC itself uses, and walks through the 2018-2019 record (CFA Institute, $4T Council of Institutional Investors, the empirical research) to argue the Commission has been here before.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-791979-2397466.html",
     "words": 168,
@@ -21787,12 +21787,12 @@
     "literalist_stance": "Oppose",
     "skeptic_stance": "Oppose",
     "majority_stance": "Oppose",
-    "agreement": "Unanimous",
+    "agreement": "unanimous",
     "entity_primary": "Individual",
     "entity_selfdescribed": "Individual",
     "entity_letterhead": "Individual",
     "entity_majority": "Individual",
-    "entity_agreement": "Unanimous",
+    "entity_agreement": "unanimous",
     "rationales": [
       "IP"
     ],
@@ -21810,7 +21810,7 @@
     "rationales_majority": [
       "IP"
     ],
-    "rationale_agreement": "2-of-3",
+    "rationale_agreement": "majority",
     "summary": "One-line retail Oppose: stop the vote, the proposal harms investors.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2397186.htm",
     "words": 22,
@@ -21828,12 +21828,12 @@
     "literalist_stance": "Oppose",
     "skeptic_stance": "Oppose",
     "majority_stance": "Oppose",
-    "agreement": "Unanimous",
+    "agreement": "unanimous",
     "entity_primary": "Individual",
     "entity_selfdescribed": "Individual",
     "entity_letterhead": "Individual",
     "entity_majority": "Individual",
-    "entity_agreement": "Unanimous",
+    "entity_agreement": "unanimous",
     "rationales": [
       "IP"
     ],
@@ -21850,7 +21850,7 @@
     "rationales_majority": [
       "IP"
     ],
-    "rationale_agreement": "Unanimous",
+    "rationale_agreement": "unanimous",
     "summary": "Two-line retail Oppose: the proposed rule weakens investor protection.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2397327.htm",
     "words": 23,
@@ -21868,12 +21868,12 @@
     "literalist_stance": "Oppose",
     "skeptic_stance": "Oppose",
     "majority_stance": "Oppose",
-    "agreement": "Unanimous",
+    "agreement": "unanimous",
     "entity_primary": "Individual",
     "entity_selfdescribed": "Individual",
     "entity_letterhead": "Individual",
     "entity_majority": "Individual",
-    "entity_agreement": "Unanimous",
+    "entity_agreement": "unanimous",
     "rationales": [
       "IA",
       "IP",
@@ -21900,7 +21900,7 @@
       "IP",
       "MF"
     ],
-    "rationale_agreement": "2-of-3",
+    "rationale_agreement": "majority",
     "summary": "80-year-old long-term investor Oppose: six months is too long for the release of pertinent and trade-sensitive financial information; investors rely on the every-3-month transparency.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2397390.htm",
     "words": 114,
@@ -21918,12 +21918,12 @@
     "literalist_stance": "Oppose",
     "skeptic_stance": "Oppose",
     "majority_stance": "Oppose",
-    "agreement": "Unanimous",
+    "agreement": "unanimous",
     "entity_primary": "Individual",
     "entity_selfdescribed": "Individual",
     "entity_letterhead": "Individual",
     "entity_majority": "Individual",
-    "entity_agreement": "Unanimous",
+    "entity_agreement": "unanimous",
     "rationales": [
       "NR"
     ],
@@ -21940,7 +21940,7 @@
     "rationales_majority": [
       "NR"
     ],
-    "rationale_agreement": "Unanimous",
+    "rationale_agreement": "unanimous",
     "summary": "One-line retail Oppose: keep quarterly reporting requirements in place.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2397666.htm",
     "words": 30,
@@ -21958,12 +21958,12 @@
     "literalist_stance": "Oppose",
     "skeptic_stance": "Oppose",
     "majority_stance": "Oppose",
-    "agreement": "Unanimous",
+    "agreement": "unanimous",
     "entity_primary": "Individual",
     "entity_selfdescribed": "Individual",
     "entity_letterhead": "Individual",
     "entity_majority": "Individual",
-    "entity_agreement": "Unanimous",
+    "entity_agreement": "unanimous",
     "rationales": [
       "NR"
     ],
@@ -21980,7 +21980,7 @@
     "rationales_majority": [
       "NR"
     ],
-    "rationale_agreement": "Unanimous",
+    "rationale_agreement": "unanimous",
     "summary": "Two-line retail Oppose: withdrawal request, no rationale given.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2397686.htm",
     "words": 27,
@@ -21998,12 +21998,12 @@
     "literalist_stance": "Oppose",
     "skeptic_stance": "Oppose",
     "majority_stance": "Oppose",
-    "agreement": "Unanimous",
+    "agreement": "unanimous",
     "entity_primary": "Individual",
     "entity_selfdescribed": "Individual",
     "entity_letterhead": "Individual",
     "entity_majority": "Individual",
-    "entity_agreement": "Unanimous",
+    "entity_agreement": "unanimous",
     "rationales": [
       "IP"
     ],
@@ -22020,7 +22020,7 @@
     "rationales_majority": [
       "IP"
     ],
-    "rationale_agreement": "Unanimous",
+    "rationale_agreement": "unanimous",
     "summary": "Two-line retail Oppose: the proposed rule weakens investor protection. Same one-line phrasing as #475 J9nes.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2397746.htm",
     "words": 36,
@@ -22038,12 +22038,12 @@
     "literalist_stance": "Oppose",
     "skeptic_stance": "Oppose",
     "majority_stance": "Oppose",
-    "agreement": "Unanimous",
+    "agreement": "unanimous",
     "entity_primary": "Individual",
     "entity_selfdescribed": "Individual",
     "entity_letterhead": "Individual",
     "entity_majority": "Individual",
-    "entity_agreement": "Unanimous",
+    "entity_agreement": "unanimous",
     "rationales": [
       "CMP",
       "IA",
@@ -22074,7 +22074,7 @@
       "IP",
       "US"
     ],
-    "rationale_agreement": "2-of-3",
+    "rationale_agreement": "majority",
     "summary": "Substantive retail Oppose with a divestment threat: a middle-aged professional invested almost exclusively in US companies and index funds threatens to reallocate to international funds if the proposal goes through, because six months of no news leaves him in the dark in a rapidly changing environment.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2397747.htm",
     "words": 167,
@@ -22092,12 +22092,12 @@
     "literalist_stance": "Oppose",
     "skeptic_stance": "Oppose",
     "majority_stance": "Oppose",
-    "agreement": "Unanimous",
+    "agreement": "unanimous",
     "entity_primary": "Individual",
     "entity_selfdescribed": "Individual",
     "entity_letterhead": "Individual",
     "entity_majority": "Individual",
-    "entity_agreement": "Unanimous",
+    "entity_agreement": "unanimous",
     "rationales": [
       "AU",
       "FR",
@@ -22130,7 +22130,7 @@
       "IA",
       "IP"
     ],
-    "rationale_agreement": "2-of-3",
+    "rationale_agreement": "majority",
     "summary": "Substantive retail Oppose from a self-directed private investor: he uses audited and certified quarterly filings as the only check on company-issued or brokerage-house statements; halving the filings opens the door to misleading or false press releases that retail investors cannot verify. Signed 'Gabriele Fleming' (same filer as the docket-named 'Michael Fleming').",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2397786.htm",
     "words": 177,
@@ -22148,12 +22148,12 @@
     "literalist_stance": "Oppose",
     "skeptic_stance": "Oppose",
     "majority_stance": "Oppose",
-    "agreement": "Unanimous",
+    "agreement": "unanimous",
     "entity_primary": "Individual",
     "entity_selfdescribed": "Individual",
     "entity_letterhead": "Individual",
     "entity_majority": "Individual",
-    "entity_agreement": "Unanimous",
+    "entity_agreement": "unanimous",
     "rationales": [
       "NR"
     ],
@@ -22170,7 +22170,7 @@
     "rationales_majority": [
       "NR"
     ],
-    "rationale_agreement": "Unanimous",
+    "rationale_agreement": "unanimous",
     "summary": "Two-line retail Oppose: no support for semiannual reporting, no rationale given.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2397886.htm",
     "words": 28,
@@ -22188,12 +22188,12 @@
     "literalist_stance": "Oppose",
     "skeptic_stance": "Oppose",
     "majority_stance": "Oppose",
-    "agreement": "Unanimous",
+    "agreement": "unanimous",
     "entity_primary": "Individual",
     "entity_selfdescribed": "Individual",
     "entity_letterhead": "Individual",
     "entity_majority": "Individual",
-    "entity_agreement": "Unanimous",
+    "entity_agreement": "unanimous",
     "rationales": [
       "CB",
       "MF"
@@ -22216,7 +22216,7 @@
       "CB",
       "MF"
     ],
-    "rationale_agreement": "2-of-3",
+    "rationale_agreement": "majority",
     "summary": "Brief but pointed retail Oppose: quarterly reports support transparency, and the regulatory-flexibility benefit the proposal claims is not supported by the research.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-791679-2397146.html",
     "words": 43,
@@ -22234,12 +22234,12 @@
     "literalist_stance": "Oppose",
     "skeptic_stance": "Oppose",
     "majority_stance": "Oppose",
-    "agreement": "Unanimous",
+    "agreement": "unanimous",
     "entity_primary": "Investment professional",
     "entity_selfdescribed": "Individual",
     "entity_letterhead": "Investment professional",
     "entity_majority": "Investment professional",
-    "entity_agreement": "2-of-3",
+    "entity_agreement": "majority",
     "rationales": [
       "IA",
       "MF"
@@ -22261,7 +22261,7 @@
       "IA",
       "MF"
     ],
-    "rationale_agreement": "2-of-3",
+    "rationale_agreement": "majority",
     "summary": "Brief Oppose from a Registered Investment Advisor and CFP: professionals and the public rely on mandated quarterly reports to keep their analyses up to date.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-791719-2397166.html",
     "words": 34,
@@ -22279,19 +22279,19 @@
     "literalist_stance": "Duplicate",
     "skeptic_stance": "Duplicate",
     "majority_stance": "Duplicate",
-    "agreement": "Unanimous",
+    "agreement": "unanimous",
     "entity_primary": "Individual",
     "entity_selfdescribed": "Individual",
     "entity_letterhead": "Individual",
     "entity_majority": "Individual",
-    "entity_agreement": "Unanimous",
+    "entity_agreement": "unanimous",
     "rationales": [],
     "rationale_evidence": "Held out as Duplicate per the standing rule.",
     "rationales_primary": [],
     "rationales_literalist": [],
     "rationales_inclusive": [],
     "rationales_majority": [],
-    "rationale_agreement": "Unanimous",
+    "rationale_agreement": "unanimous",
     "summary": "DUPLICATE (held out): verbatim re-submission of #474 Lori Carroll. Two distinct docket IDs but identical text; same author (capitalization difference only).",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-791739-2397187.html",
     "words": 18,
@@ -22309,12 +22309,12 @@
     "literalist_stance": "Oppose",
     "skeptic_stance": "Conditional",
     "majority_stance": "Oppose",
-    "agreement": "2-of-3",
+    "agreement": "majority",
     "entity_primary": "Individual",
     "entity_selfdescribed": "Individual",
     "entity_letterhead": "Individual",
     "entity_majority": "Individual",
-    "entity_agreement": "Unanimous",
+    "entity_agreement": "unanimous",
     "rationales": [
       "AL",
       "IA",
@@ -22342,7 +22342,7 @@
       "IA",
       "MF"
     ],
-    "rationale_agreement": "2-of-3",
+    "rationale_agreement": "majority",
     "summary": "Substantive long-term-investor Oppose with a built-in counter-proposal: rather than eliminating quarterly reporting, the Commission should leverage modern processing to make quarterly reports less burdensome to companies and more useful to investors. Closing line unambiguously rejects the semiannual structure.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-791759-2397206.html",
     "words": 174,
@@ -22361,12 +22361,12 @@
     "literalist_stance": "Oppose",
     "skeptic_stance": "Oppose",
     "majority_stance": "Oppose",
-    "agreement": "Unanimous",
+    "agreement": "unanimous",
     "entity_primary": "Individual",
     "entity_selfdescribed": "Individual",
     "entity_letterhead": "Individual",
     "entity_majority": "Individual",
-    "entity_agreement": "Unanimous",
+    "entity_agreement": "unanimous",
     "rationales": [
       "AU",
       "IA",
@@ -22394,7 +22394,7 @@
       "IA",
       "IP"
     ],
-    "rationale_agreement": "2-of-3",
+    "rationale_agreement": "majority",
     "summary": "Retail Oppose carrying the certified-10-Q-vs-voluntary-communications campaign template (CEO + CFO sign and are legally accountable; voluntary communications carry none of that); reiterates the 'small companies are the ones most likely to opt in, so investors in those companies lose the most' framing.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-791799-2397266.html",
     "words": 95,
@@ -22412,12 +22412,12 @@
     "literalist_stance": "Oppose",
     "skeptic_stance": "Oppose",
     "majority_stance": "Oppose",
-    "agreement": "Unanimous",
+    "agreement": "unanimous",
     "entity_primary": "Individual",
     "entity_selfdescribed": "Individual",
     "entity_letterhead": "Individual",
     "entity_majority": "Individual",
-    "entity_agreement": "Unanimous",
+    "entity_agreement": "unanimous",
     "rationales": [
       "IA",
       "MF"
@@ -22439,7 +22439,7 @@
       "IA",
       "MF"
     ],
-    "rationale_agreement": "2-of-3",
+    "rationale_agreement": "majority",
     "summary": "Brief retail Oppose: at the speed the economy is changing, six-month intervals are not enough to stay on top of things.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-791819-2397306.html",
     "words": 42,
@@ -22457,12 +22457,12 @@
     "literalist_stance": "Oppose",
     "skeptic_stance": "Oppose",
     "majority_stance": "Oppose",
-    "agreement": "Unanimous",
+    "agreement": "unanimous",
     "entity_primary": "Individual",
     "entity_selfdescribed": "Individual",
     "entity_letterhead": "Individual",
     "entity_majority": "Individual",
-    "entity_agreement": "Unanimous",
+    "entity_agreement": "unanimous",
     "rationales": [
       "IA"
     ],
@@ -22480,7 +22480,7 @@
     "rationales_majority": [
       "IA"
     ],
-    "rationale_agreement": "2-of-3",
+    "rationale_agreement": "majority",
     "summary": "Three-line retail Oppose that frames the proposal as the SEC siding with big companies, leaving investors with less information. PP-watch instance (regulatory-capture suspicion).",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-792239-2397926.html",
     "words": 34,
@@ -22498,12 +22498,12 @@
     "literalist_stance": "Oppose",
     "skeptic_stance": "Oppose",
     "majority_stance": "Oppose",
-    "agreement": "Unanimous",
+    "agreement": "unanimous",
     "entity_primary": "Individual",
     "entity_selfdescribed": "Individual",
     "entity_letterhead": "Individual",
     "entity_majority": "Individual",
-    "entity_agreement": "Unanimous",
+    "entity_agreement": "unanimous",
     "rationales": [
       "IA",
       "IP"
@@ -22526,7 +22526,7 @@
       "IA",
       "IP"
     ],
-    "rationale_agreement": "2-of-3",
+    "rationale_agreement": "majority",
     "summary": "All-caps retail Oppose from Leslie C. Moore: consumers and small investors need quarterly reporting to optimize their investment portfolios; opposes the bi-annual change.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2398566.htm",
     "words": 38,
@@ -22544,12 +22544,12 @@
     "literalist_stance": "Oppose",
     "skeptic_stance": "Conditional",
     "majority_stance": "Oppose",
-    "agreement": "2-of-3",
+    "agreement": "majority",
     "entity_primary": "Individual",
     "entity_selfdescribed": "Individual",
     "entity_letterhead": "Individual",
     "entity_majority": "Individual",
-    "entity_agreement": "Unanimous",
+    "entity_agreement": "unanimous",
     "rationales": [
       "NR"
     ],
@@ -22566,7 +22566,7 @@
     "rationales_majority": [
       "NR"
     ],
-    "rationale_agreement": "Unanimous",
+    "rationale_agreement": "unanimous",
     "summary": "Two-word retail Oppose ('Not interested'). Ambiguous brevity flips Skeptic to Conditional; Primary + Literalist stay Oppose.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2404271.htm",
     "words": 16,
@@ -22585,12 +22585,12 @@
     "literalist_stance": "Oppose",
     "skeptic_stance": "Conditional",
     "majority_stance": "Oppose",
-    "agreement": "2-of-3",
+    "agreement": "majority",
     "entity_primary": "Individual",
     "entity_selfdescribed": "Individual",
     "entity_letterhead": "Individual",
     "entity_majority": "Individual",
-    "entity_agreement": "Unanimous",
+    "entity_agreement": "unanimous",
     "rationales": [
       "CB",
       "FR",
@@ -22625,7 +22625,7 @@
       "IP",
       "MF"
     ],
-    "rationale_agreement": "2-of-3",
+    "rationale_agreement": "majority",
     "summary": "Substantive self-directed-investor Oppose: 401(k) + 529 retail investor argues quarterly reports give individual investors the only reliable checkpoint against six-month information gaps, increased information inequality, market-volatility surprise risk, harder portfolio rebalancing, and reduced management accountability. Recommends preserving quarterly reporting, with a fallback investor-protection package if semiannual is allowed.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-792600-2399467.html",
     "words": 709,
@@ -22644,12 +22644,12 @@
     "literalist_stance": "Oppose",
     "skeptic_stance": "Oppose",
     "majority_stance": "Oppose",
-    "agreement": "Unanimous",
+    "agreement": "unanimous",
     "entity_primary": "Individual",
     "entity_selfdescribed": "Individual",
     "entity_letterhead": "Individual",
     "entity_majority": "Individual",
-    "entity_agreement": "Unanimous",
+    "entity_agreement": "unanimous",
     "rationales": [
       "NR"
     ],
@@ -22666,7 +22666,7 @@
     "rationales_majority": [
       "NR"
     ],
-    "rationale_agreement": "Unanimous",
+    "rationale_agreement": "unanimous",
     "summary": "Four-word retail Oppose: earnings should be quarterly.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2399626.htm",
     "words": 17,
@@ -22684,12 +22684,12 @@
     "literalist_stance": "Oppose",
     "skeptic_stance": "Oppose",
     "majority_stance": "Oppose",
-    "agreement": "Unanimous",
+    "agreement": "unanimous",
     "entity_primary": "Individual",
     "entity_selfdescribed": "Individual",
     "entity_letterhead": "Individual",
     "entity_majority": "Individual",
-    "entity_agreement": "Unanimous",
+    "entity_agreement": "unanimous",
     "rationales": [
       "NR"
     ],
@@ -22706,7 +22706,7 @@
     "rationales_majority": [
       "NR"
     ],
-    "rationale_agreement": "Unanimous",
+    "rationale_agreement": "unanimous",
     "summary": "Brief retail Oppose: please reject this proposal.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2398568.htm",
     "words": 22,
@@ -22724,12 +22724,12 @@
     "literalist_stance": "Oppose",
     "skeptic_stance": "Oppose",
     "majority_stance": "Oppose",
-    "agreement": "Unanimous",
+    "agreement": "unanimous",
     "entity_primary": "Individual",
     "entity_selfdescribed": "Individual",
     "entity_letterhead": "Individual",
     "entity_majority": "Individual",
-    "entity_agreement": "Unanimous",
+    "entity_agreement": "unanimous",
     "rationales": [
       "IA",
       "IP"
@@ -22750,7 +22750,7 @@
       "IA",
       "IP"
     ],
-    "rationale_agreement": "2-of-3",
+    "rationale_agreement": "majority",
     "summary": "One-line retail Oppose: retirement accounts heavily invested; quarterly information is a requirement.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2399486.htm",
     "words": 31,
@@ -22768,12 +22768,12 @@
     "literalist_stance": "No position",
     "skeptic_stance": "No position",
     "majority_stance": "No position",
-    "agreement": "Unanimous",
+    "agreement": "unanimous",
     "entity_primary": "Individual",
     "entity_selfdescribed": "Individual",
     "entity_letterhead": "Individual",
     "entity_majority": "Individual",
-    "entity_agreement": "Unanimous",
+    "entity_agreement": "unanimous",
     "rationales": [
       "NR"
     ],
@@ -22790,7 +22790,7 @@
     "rationales_majority": [
       "NR"
     ],
-    "rationale_agreement": "Unanimous",
+    "rationale_agreement": "unanimous",
     "summary": "Single Spanish word 'Bueno' - does not substantively engage with the proposal. Held out as No position per the precedent set by #308 ('Thanks').",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2398586.htm",
     "words": 14,
