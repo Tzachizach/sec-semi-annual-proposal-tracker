@@ -126,6 +126,8 @@ h2 { font-size: 16px; font-weight: 500; margin: 0 0 12px; }
 table.full { width: 100%; border-collapse: collapse; font-size: 13px; }
 table.full th, table.full td { padding: 8px 10px; border-bottom: 0.5px solid rgba(0,0,0,0.1); text-align: left; vertical-align: top; }
 table.full th { font-weight: 500; color: #555; font-size: 12px; cursor: pointer; user-select: none; }
+/* Keep stance label + agreement badge on the same line. The badge needs ~50px after the stance word, so give the column enough room and disable wrap. */
+table.full th:nth-child(5), table.full td:nth-child(5) { white-space: nowrap; min-width: 130px; }
 table.full th.sorted { color: #1a1a1a; }
 table.full th.sorted::after { content: " ▾"; }
 table.full th.sorted.asc::after { content: " ▴"; }
