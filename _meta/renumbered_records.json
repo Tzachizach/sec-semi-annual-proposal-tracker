@@ -22803,28 +22803,47 @@
     "date": "2026-05-27",
     "name": "Ann Bucheck",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "CB",
+      "IA",
+      "IP"
+    ],
+    "rationale_evidence": "IA: 'depend on that information to make decisions on our investing'. IP: 'individual investor... not big institutions'. CB: 'not big institutions who get insider information' (institutional-vs-retail comparability).",
+    "rationales_primary": [
+      "IA",
+      "IP",
+      "CB"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "IP",
+      "CB"
+    ],
+    "rationales_majority": [
+      "CB",
+      "IA",
+      "IP"
+    ],
+    "rationale_agreement": "majority",
+    "summary": "Substantive retail Oppose: individual investor depends on quarterly information; small investors do not get the insider information big institutions do.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-792619-2399506.html",
-    "words": 66,
+    "words": 74,
     "letter_id": "792619-2399506"
   },
   {
@@ -22833,28 +22852,43 @@
     "date": "2026-05-27",
     "name": "Anonymous",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IA",
+      "IP"
+    ],
+    "rationale_evidence": "IA: prefers quarterly reporting. IP: retirement-account framing.",
+    "rationales_primary": [
+      "IA",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "IP"
+    ],
+    "rationales_majority": [
+      "IA",
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "One-line retail Oppose: individual investor prefers quarterly reporting to avoid losses to retirement account.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-792759-2399667.html",
-    "words": 15,
+    "words": 23,
     "letter_id": "792759-2399667"
   },
   {
@@ -22863,28 +22897,43 @@
     "date": "2026-05-28",
     "name": "Anonymous",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IA",
+      "IP"
+    ],
+    "rationale_evidence": "IA: transparency / 'in the dark' framing. (Inc) IP, FR. PP-watch frame: 'Who initiated this S7-2026-15? What do they want to hide?' - capture suspicion, not coded.",
+    "rationales_primary": [
+      "IA",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "IP",
+      "FR"
+    ],
+    "rationales_majority": [
+      "IA",
+      "IP"
+    ],
+    "rationale_agreement": "majority",
+    "summary": "Brief retail Oppose: every 3 months is fair, every 6 months keeps money in the dark; closes with a capture-suspicion question ('Who initiated this? What do they want to hide?').",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2398426.htm",
-    "words": 36,
+    "words": 47,
     "letter_id": "2398426"
   },
   {
@@ -22893,28 +22942,38 @@
     "date": "2026-05-28",
     "name": "Anonymous",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IP"
+    ],
+    "rationale_evidence": "IP: bare retail-investor-harm framing.",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IP"
+    ],
+    "rationales_majority": [
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Two-line retail Oppose: this proposal would harm retail investors.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2398386.htm",
-    "words": 14,
+    "words": 22,
     "letter_id": "2398386"
   },
   {
@@ -22923,28 +22982,38 @@
     "date": "2026-05-28",
     "name": "EUGENE BAILEY",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IP"
+    ],
+    "rationale_evidence": "IP: 'regular people's money' framing. Literalist sees no literal rubric language.",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
+      "IP"
+    ],
+    "rationales_majority": [
+      "IP"
+    ],
+    "rationale_agreement": "majority",
+    "summary": "Emotional retail Oppose: stop messing with regular people's money.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2398046.htm",
-    "words": 25,
+    "words": 35,
     "letter_id": "2398046"
   },
   {
@@ -22953,28 +23022,38 @@
     "date": "2026-05-28",
     "name": "James Young Jr.",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "NR"
+    ],
+    "rationale_evidence": "Bare preservation request, no rationale supplied.",
+    "rationales_primary": [
+      "NR"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
+      "NR"
+    ],
+    "rationales_majority": [
+      "NR"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Brief retail Oppose: quarterly reporting must be preserved (signed 'Jane').",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2398446.htm",
-    "words": 18,
+    "words": 28,
     "letter_id": "2398446"
   },
   {
@@ -22983,28 +23062,38 @@
     "date": "2026-05-28",
     "name": "JL",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "NR"
+    ],
+    "rationale_evidence": "Bare preservation request, no rationale supplied.",
+    "rationales_primary": [
+      "NR"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
+      "NR"
+    ],
+    "rationales_majority": [
+      "NR"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "One-line retail Oppose: keep quarterly reporting for all SEC companies.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2398146.htm",
-    "words": 12,
+    "words": 20,
     "letter_id": "2398146"
   },
   {
@@ -23013,28 +23102,38 @@
     "date": "2026-05-28",
     "name": "Kamal Passa",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IA"
+    ],
+    "rationale_evidence": "IA: transparency framing.",
+    "rationales_primary": [
+      "IA"
+    ],
+    "rationales_literalist": [
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "IA"
+    ],
+    "rationales_majority": [
+      "IA"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "One-line retail Oppose: semiannual reporting reduces transparency.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2398506.htm",
-    "words": 14,
+    "words": 23,
     "letter_id": "2398506"
   },
   {
@@ -23043,28 +23142,38 @@
     "date": "2026-05-28",
     "name": "Leeann Obanion",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "NR"
+    ],
+    "rationale_evidence": "Three-word preservation request, no rationale supplied.",
+    "rationales_primary": [
+      "NR"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
+      "NR"
+    ],
+    "rationales_majority": [
+      "NR"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Three-word retail Oppose: keep it quarterly.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2398547.htm",
-    "words": 7,
+    "words": 16,
     "letter_id": "2398547"
   },
   {
@@ -23073,28 +23182,38 @@
     "date": "2026-05-28",
     "name": "Lynda MORGAN",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "NR"
+    ],
+    "rationale_evidence": "Bare preservation request, no rationale supplied.",
+    "rationales_primary": [
+      "NR"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
+      "NR"
+    ],
+    "rationales_majority": [
+      "NR"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Brief retail Oppose: please keep quarterly reporting requirements in place.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2398509.htm",
-    "words": 14,
+    "words": 23,
     "letter_id": "2398509"
   },
   {
@@ -23103,28 +23222,47 @@
     "date": "2026-05-27",
     "name": "Harold Hoffman",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "CMP",
+      "IA",
+      "IP"
+    ],
+    "rationale_evidence": "IA: 'rely on frequent reports of financial performance'. IP: investor-protection frame. CMP: divestment threat - 'will also reduce the chance that I will invest in said company'.",
+    "rationales_primary": [
+      "IA",
+      "IP",
+      "CMP"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "IP",
+      "CMP"
+    ],
+    "rationales_majority": [
+      "CMP",
+      "IA",
+      "IP"
+    ],
+    "rationale_agreement": "majority",
+    "summary": "Retail Oppose with divestment threat: relies on frequent reports; will reduce his investment in companies that opt for semiannual.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-792359-2398207.html",
-    "words": 50,
+    "words": 61,
     "letter_id": "792359-2398207"
   },
   {
@@ -23133,28 +23271,51 @@
     "date": "2026-05-27",
     "name": "Jeremy Smith",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "AU",
+      "FR",
+      "IA",
+      "IP"
+    ],
+    "rationale_evidence": "IA: 'six months is too long to wait for an update'. IP. FR: 'danger in a bad actor being able to use a longer reporting period to conceal fundamental problems'. AU: 'accountability and transparency' framing applied to corporate management discipline.",
+    "rationales_primary": [
+      "IA",
+      "IP",
+      "FR",
+      "AU"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "IP",
+      "FR",
+      "AU"
+    ],
+    "rationales_majority": [
+      "AU",
+      "FR",
+      "IA",
+      "IP"
+    ],
+    "rationale_agreement": "majority",
+    "summary": "Substantive retail Oppose: quarterly reports ensure accountability; six months too long; technology makes compliance easy; bad actors can use a longer period to conceal fundamental problems.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2397946.htm",
-    "words": 71,
+    "words": 81,
     "letter_id": "2397946"
   },
   {
@@ -23163,28 +23324,38 @@
     "date": "2026-05-27",
     "name": "Jim Lohbeck",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "NR"
+    ],
+    "rationale_evidence": "Three-word preservation request, no rationale supplied.",
+    "rationales_primary": [
+      "NR"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
+      "NR"
+    ],
+    "rationales_majority": [
+      "NR"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Three-word retail Oppose: keep filings quarterly.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-791179-2396266.html",
-    "words": 3,
+    "words": 12,
     "letter_id": "791179-2396266"
   },
   {
@@ -23193,28 +23364,42 @@
     "date": "2026-05-27",
     "name": "Julie Meador - File Number S7-2026-15",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IA",
+      "IP"
+    ],
+    "rationale_evidence": "IA: '10-Q reports and other quarterly reports to make investment decisions every quarter'. IP: individual investor / BetterInvesting framing.",
+    "rationales_primary": [
+      "IA",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "IP"
+    ],
+    "rationales_majority": [
+      "IA",
+      "IP"
+    ],
+    "rationale_agreement": "majority",
+    "summary": "Retail Oppose from a 20-year BetterInvesting member: uses 10-Q reports to make investment decisions every quarter; do not let companies off.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-792319-2398166.html",
-    "words": 52,
+    "words": 69,
     "letter_id": "792319-2398166"
   },
   {
@@ -23223,28 +23408,38 @@
     "date": "2026-05-27",
     "name": "Kali Lawson",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IP"
+    ],
+    "rationale_evidence": "IP: insider-vs-ordinary-investor framing. PP-watch: capture-suspicion frame ('benefits insiders at the expense'), not yet a coded rationale.",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IP"
+    ],
+    "rationales_majority": [
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Two-line retail Oppose: this rule benefits insiders at the expense of ordinary investors. PP-watch instance.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2398026.htm",
-    "words": 20,
+    "words": 29,
     "letter_id": "2398026"
   },
   {
@@ -23253,28 +23448,47 @@
     "date": "2026-05-27",
     "name": "Karen Steige",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "CMP",
+      "IA",
+      "IP"
+    ],
+    "rationale_evidence": "IA: 'A lot can happen in a 3 month period'. IP: individual-investor portfolio framing. CMP: 'any business that is publicly traded has the automation and resources to continue quarterly SEC reporting' - the cost-burden argument cuts against the proposal.",
+    "rationales_primary": [
+      "IA",
+      "IP",
+      "CMP"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "IP",
+      "CMP"
+    ],
+    "rationales_majority": [
+      "CMP",
+      "IA",
+      "IP"
+    ],
+    "rationale_agreement": "majority",
+    "summary": "Retail Oppose: individual investor uses quarterly reports for portfolio decisions; publicly-traded companies have the automation and resources to continue quarterly, removing two reports per year is no significant burden relief.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-791319-2396466.html",
-    "words": 76,
+    "words": 86,
     "letter_id": "791319-2396466"
   },
   {
@@ -23283,28 +23497,49 @@
     "date": "2026-05-27",
     "name": "Lauren Gaunt",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "AU",
+      "IA",
+      "IP"
+    ],
+    "rationale_evidence": "AU: the recurring template - 'a 10-Q filing is reviewed by independent auditors, and the CEO and CFO sign it personally and can be held legally accountable for its contents. However, any voluntary corporate communications that would replace them carry none of that' (same wording as #331/#338/#344/#382/#467/#473/#487). IA: 'I would lose the most information'. IP: 'individual investors own the majority of shares in smaller public companies'. (Inc) MF.",
+    "rationales_primary": [
+      "AU",
+      "IA",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "AU",
+      "IA",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "AU",
+      "IA",
+      "IP",
+      "MF"
+    ],
+    "rationales_majority": [
+      "AU",
+      "IA",
+      "IP"
+    ],
+    "rationale_agreement": "majority",
+    "summary": "Retail Oppose carrying the certified-10-Q-vs-voluntary-communications campaign template (CEO + CFO sign and are legally accountable; voluntary communications carry none of that); cites SEC data that individual investors own the majority of shares in smaller public companies; cites the 2018-2019 SEC review where the empirical record opposed reducing reporting frequency.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-791100-2396247.html",
-    "words": 157,
+    "words": 169,
     "letter_id": "791100-2396247"
   },
   {
@@ -23313,28 +23548,42 @@
     "date": "2026-05-27",
     "name": "Marshall McDade Jr.",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IA",
+      "IP"
+    ],
+    "rationale_evidence": "IA: 'does not provide the investing public with timely and relevant information'. IP: 'further lessen the information available to the small investor compared to professional investors that have greater access'.",
+    "rationales_primary": [
+      "IA",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "IP"
+    ],
+    "rationales_majority": [
+      "IA",
+      "IP"
+    ],
+    "rationale_agreement": "majority",
+    "summary": "Retail Oppose: quarterly should remain; semi-annual would not provide timely information and would further widen the small-investor-vs-professional information gap.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-792419-2398486.html",
-    "words": 49,
+    "words": 60,
     "letter_id": "792419-2398486"
   },
   {
@@ -23343,28 +23592,42 @@
     "date": "2026-05-27",
     "name": "Patricia A McGarrity",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "FR",
+      "IA"
+    ],
+    "rationale_evidence": "IA: 'relied on quarterly reports for timely news'. FR: 'It gives the company or its officers six months to hide their shenanigans!!!!'",
+    "rationales_primary": [
+      "IA",
+      "FR"
+    ],
+    "rationales_literalist": [
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "FR"
+    ],
+    "rationales_majority": [
+      "FR",
+      "IA"
+    ],
+    "rationale_agreement": "majority",
+    "summary": "Retail Oppose from a long-time individual investor: semiannual reports do not cut it; six months gives company officers time to hide their shenanigans.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-791339-2396486.html",
-    "words": 43,
+    "words": 53,
     "letter_id": "791339-2396486"
   },
   {
@@ -23373,28 +23636,42 @@
     "date": "2026-05-27",
     "name": "Patricia Ann Murray",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IA",
+      "IP"
+    ],
+    "rationale_evidence": "IA: 'lose the most information about exactly the companies we own'. IP: hampers decision-making.",
+    "rationales_primary": [
+      "IA",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "IP"
+    ],
+    "rationales_majority": [
+      "IA",
+      "IP"
+    ],
+    "rationale_agreement": "majority",
+    "summary": "Retail Oppose: would lose the most information about exactly the companies the investor owns; hampers decision-making.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-791280-2396447.html",
-    "words": 36,
+    "words": 46,
     "letter_id": "791280-2396447"
   },
   {
@@ -23403,28 +23680,44 @@
     "date": "2026-05-27",
     "name": "Robert Hec",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IA",
+      "MF"
+    ],
+    "rationale_evidence": "IA: 'reporting is 30 to 60 days delayed... This would delay updates to 7 months'. MF: 'Justifying the daily actions in the market will suffer with this delay'. (Inc) AU: management accountability framing ('Keeping management accountable is critical to assessing turnarounds, strategic developments, and acquisitions in a timely factor').",
+    "rationales_primary": [
+      "IA",
+      "MF"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "MF"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "MF",
+      "AU"
+    ],
+    "rationales_majority": [
+      "IA",
+      "MF"
+    ],
+    "rationale_agreement": "majority",
+    "summary": "Retail Oppose: existing 30-60 day delay would extend to 7 months total; daily-action justification in the market would suffer; management accountability for turnarounds and strategic developments depends on timely reporting.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-791199-2396326.html",
-    "words": 71,
+    "words": 80,
     "letter_id": "791199-2396326"
   },
   {
@@ -23433,28 +23726,48 @@
     "date": "2026-05-27",
     "name": "Ronald Axler",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "AU",
+      "FR",
+      "IA"
+    ],
+    "rationale_evidence": "IA: 'keep others in the dark longer'. FR: 'serves to help those who want to deceive'. AU: 'officers of companies personally liable for misrepresentations. Fining companies doesn't affect those who cause the misdeeds'. (Inc) CMP: cost-of-reporting argument - 'super fast computers to help the process, so the burden have been greatly diminished'.",
+    "rationales_primary": [
+      "IA",
+      "FR",
+      "AU"
+    ],
+    "rationales_literalist": [
+      "FR",
+      "AU"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "FR",
+      "AU",
+      "CMP"
+    ],
+    "rationales_majority": [
+      "AU",
+      "FR",
+      "IA"
+    ],
+    "rationale_agreement": "majority",
+    "summary": "Substantive retail Oppose: decades-of-precedent argument plus a counter-proposal that the right fix is stronger personal liability for officers, not less-frequent reporting; computers have reduced the reporting burden, not increased it.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-791320-2396467.html",
-    "words": 85,
+    "words": 95,
     "letter_id": "791320-2396467"
   },
   {
@@ -23463,28 +23776,47 @@
     "date": "2026-05-27",
     "name": "Susan Kelty",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "FR",
+      "IA",
+      "IP"
+    ],
+    "rationale_evidence": "IA: 'crucial in looking up potential stocks or managing currently held stocks'. IP: investor protection through transparency. FR: 'Mistakes or bad decisions can be more evident and any correction... accomplished more quickly'.",
+    "rationales_primary": [
+      "IA",
+      "IP",
+      "FR"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "IP",
+      "FR"
+    ],
+    "rationales_majority": [
+      "FR",
+      "IA",
+      "IP"
+    ],
+    "rationale_agreement": "majority",
+    "summary": "Retail Oppose: quarterly reports are crucial for potential and currently-held stocks; mistakes and bad decisions become more evident; corrections happen faster.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-791101-2396248.html",
-    "words": 50,
+    "words": 60,
     "letter_id": "791101-2396248"
   },
   {
@@ -23493,28 +23825,60 @@
     "date": "2026-05-27",
     "name": "Vernon Ramsey",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "AU",
+      "CB",
+      "IA",
+      "IP",
+      "MF",
+      "US"
+    ],
+    "rationale_evidence": "AU: the recurring template - 'these documents, signed by the CEOs and CFOs eliminates plausible deniability of financial position'. IA: 'timely of investment trends... Canary-in-the-Coal Mine'. IP: extensive retirement-account framing across multiple account types. MF: market-stability framing. US: 'Nation's financial strength, stability'. CB: 2018-2019 SEC history + UK 2014 study ('where 90% of companies continued Reporting by choice').",
+    "rationales_primary": [
+      "AU",
+      "IA",
+      "IP",
+      "MF",
+      "US",
+      "CB"
+    ],
+    "rationales_literalist": [
+      "AU",
+      "IA",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "AU",
+      "IA",
+      "IP",
+      "MF",
+      "US",
+      "CB"
+    ],
+    "rationales_majority": [
+      "AU",
+      "CB",
+      "IA",
+      "IP",
+      "MF",
+      "US"
+    ],
+    "rationale_agreement": "majority",
+    "summary": "Substantive multi-paragraph retail Oppose with the AU template (CEO/CFO signatures eliminate plausible deniability) + 2018-2019 SEC history + UK 2014 90%-voluntary-continuance citation + TTM analysis + retirement-account framing across stock funds, 401(k), 457(b), Thrift Savings, Roth, 529, individual portfolios. One of the most substantive letters in the batch.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-792379-2398246.html",
-    "words": 252,
+    "words": 275,
     "letter_id": "792379-2398246"
   },
   {
@@ -23523,28 +23887,44 @@
     "date": "2026-05-28",
     "name": "Andrey F.",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "FR",
+      "IA"
+    ],
+    "rationale_evidence": "IA: transparency frame. FR: explicit fraud-risk frame.",
+    "rationales_primary": [
+      "IA",
+      "FR"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "FR",
+      "IP"
+    ],
+    "rationales_majority": [
+      "FR",
+      "IA"
+    ],
+    "rationale_agreement": "majority",
+    "summary": "One-line retail Oppose: more transparency, not less; less fraud, not more.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2398746.htm",
-    "words": 19,
+    "words": 29,
     "letter_id": "2398746"
   },
   {
@@ -23553,28 +23933,43 @@
     "date": "2026-05-28",
     "name": "Ann Johnson",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IA",
+      "IP"
+    ],
+    "rationale_evidence": "IA: stakeholder evaluation framing. IP.",
+    "rationales_primary": [
+      "IA",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "IP"
+    ],
+    "rationales_majority": [
+      "IA",
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "One-line retail Oppose: quarterly reporting is necessary for stakeholders to evaluate investments and assets.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2398646.htm",
-    "words": 15,
+    "words": 24,
     "letter_id": "2398646"
   },
   {
@@ -23583,28 +23978,38 @@
     "date": "2026-05-28",
     "name": "Jackelyn Ortega",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "NR"
+    ],
+    "rationale_evidence": "Brief preservation request, no rationale supplied.",
+    "rationales_primary": [
+      "NR"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
+      "NR"
+    ],
+    "rationales_majority": [
+      "NR"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Brief retail Oppose: keep quarterly reports; sharing is caring.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2398666.htm",
-    "words": 16,
+    "words": 26,
     "letter_id": "2398666"
   },
   {
@@ -23613,29 +24018,30 @@
     "date": "2026-05-28",
     "name": "James Young Jr.",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
+    "entity": "Duplicate",
+    "stance": "Duplicate",
+    "primary_stance": "Duplicate",
+    "literalist_stance": "Duplicate",
+    "skeptic_stance": "Duplicate",
+    "majority_stance": "Duplicate",
+    "agreement": "unanimous",
+    "entity_primary": "Duplicate",
+    "entity_selfdescribed": "Duplicate",
+    "entity_letterhead": "Duplicate",
+    "entity_majority": "Duplicate",
+    "entity_agreement": "unanimous",
     "rationales": [],
-    "rationale_evidence": "",
+    "rationale_evidence": "n/a - held out as Duplicate.",
     "rationales_primary": [],
     "rationales_literalist": [],
     "rationales_inclusive": [],
     "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationale_agreement": "unanimous",
+    "summary": "Verbatim duplicate of #502 James Young Jr. Held out as Duplicate per the standing rule.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2398446_0.htm",
-    "words": 17,
-    "letter_id": "2398446_0"
+    "words": 27,
+    "letter_id": "2398446_0",
+    "stance_note": "Held out as Duplicate. Same author, same text, two SEC docket entries on the same doc-id base (2398446 and 2398446_0). #502 is canonical."
   },
   {
     "n": 525,
@@ -23643,28 +24049,38 @@
     "date": "2026-05-28",
     "name": "Josephine Foote",
     "role": "Investor",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IA"
+    ],
+    "rationale_evidence": "IA: 'need timely information'.",
+    "rationales_primary": [
+      "IA"
+    ],
+    "rationales_literalist": [
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "IA"
+    ],
+    "rationales_majority": [
+      "IA"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Two-line retail Oppose: penny-wise pound-foolish; investors and businesses need timely information.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-792699-2399646.html",
-    "words": 13,
+    "words": 24,
     "letter_id": "792699-2399646"
   },
   {
@@ -23673,28 +24089,42 @@
     "date": "2026-05-28",
     "name": "Karen Markley",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IA",
+      "IP"
+    ],
+    "rationale_evidence": "IA: 'eliminate half of the timely information I receive'. IP: individual-investor framing.",
+    "rationales_primary": [
+      "IA",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "IP"
+    ],
+    "rationales_majority": [
+      "IA",
+      "IP"
+    ],
+    "rationale_agreement": "majority",
+    "summary": "Retail Oppose: individual investor relies on quarterly information; semiannual would eliminate half of the timely information.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-792459-2399246.html",
-    "words": 39,
+    "words": 48,
     "letter_id": "792459-2399246"
   },
   {
@@ -23703,28 +24133,38 @@
     "date": "2026-05-28",
     "name": "Margarito Aca",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "NR"
+    ],
+    "rationale_evidence": "Bare rejection request, no rationale supplied.",
+    "rationales_primary": [
+      "NR"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
+      "NR"
+    ],
+    "rationales_majority": [
+      "NR"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Brief retail Oppose: urges the SEC to reject S7-2026-15.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2398286.htm",
-    "words": 21,
+    "words": 32,
     "letter_id": "2398286"
   },
   {
@@ -23733,28 +24173,43 @@
     "date": "2026-05-28",
     "name": "Marie Mohn",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IA",
+      "IP"
+    ],
+    "rationale_evidence": "IA: integrity-and-transparency framing. IP: stakeholder evaluation.",
+    "rationales_primary": [
+      "IA",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "IP"
+    ],
+    "rationales_majority": [
+      "IA",
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Retail Oppose: quarterly reporting necessary for stakeholders to evaluate investments and assets; vital to the integrity and transparency of publicly traded companies.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-792439-2398686.html",
-    "words": 23,
+    "words": 32,
     "letter_id": "792439-2398686"
   },
   {
@@ -23763,28 +24218,42 @@
     "date": "2026-05-28",
     "name": "Paul R. Keith",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IA",
+      "IP"
+    ],
+    "rationale_evidence": "IA: 'rely on the quarterly financial reports'. IP: 50-year-investor framing.",
+    "rationales_primary": [
+      "IA",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "IP"
+    ],
+    "rationales_majority": [
+      "IA",
+      "IP"
+    ],
+    "rationale_agreement": "majority",
+    "summary": "Retail Oppose from a 50-year investor: relies on quarterly reports; delaying to 6 months reduces crucial financial data; if it ain't broken, don't fix it.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-793159-2400126.html",
-    "words": 60,
+    "words": 72,
     "letter_id": "793159-2400126"
   },
   {
@@ -23793,28 +24262,38 @@
     "date": "2026-05-28",
     "name": "Ramón Amaro Lopez",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IA"
+    ],
+    "rationale_evidence": "IA: transparency framing.",
+    "rationales_primary": [
+      "IA"
+    ],
+    "rationales_literalist": [
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "IA"
+    ],
+    "rationales_majority": [
+      "IA"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "One-line retail Oppose: semiannual reporting reduces transparency.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2398706.htm",
-    "words": 14,
+    "words": 24,
     "letter_id": "2398706"
   },
   {
@@ -23823,28 +24302,42 @@
     "date": "2026-05-28",
     "name": "Ruth",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IA",
+      "MF"
+    ],
+    "rationale_evidence": "MF: 'market integrity' framing. IA: implicit information-availability.",
+    "rationales_primary": [
+      "IA",
+      "MF"
+    ],
+    "rationales_literalist": [
+      "MF"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "MF"
+    ],
+    "rationales_majority": [
+      "IA",
+      "MF"
+    ],
+    "rationale_agreement": "majority",
+    "summary": "One-line retail Oppose: quarterly reports are essential to market integrity.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2398606.htm",
-    "words": 18,
+    "words": 26,
     "letter_id": "2398606"
   },
   {
@@ -23853,28 +24346,42 @@
     "date": "2026-05-28",
     "name": "Steven Casabona",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "CMP",
+      "IP"
+    ],
+    "rationale_evidence": "IP: 'retail investor AGAIN comes up with the short stick'. CMP: divestment threat - 'would not invest in a company that does not report quarterly'.",
+    "rationales_primary": [
+      "IP",
+      "CMP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "CMP"
+    ],
+    "rationales_majority": [
+      "CMP",
+      "IP"
+    ],
+    "rationale_agreement": "majority",
+    "summary": "Retail Oppose with divestment threat: retail investor again comes up with the short stick; would not invest in companies that opt for semiannual.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-792479-2399266.html",
-    "words": 29,
+    "words": 38,
     "letter_id": "792479-2399266"
   }
 ]
