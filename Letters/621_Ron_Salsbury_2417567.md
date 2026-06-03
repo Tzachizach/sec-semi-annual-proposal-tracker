@@ -1,10 +1,10 @@
 # Letter 621 — Ron Salsbury
 
-- **Date:** 2026-05-27
+- **Date:** 2026-06-03
 - **Role/Affiliation:** Individual
-- **Stance:** Unclassified
-- **Entity:** Unclassified
-- **Rationales:** 
+- **Stance:** Oppose
+- **Entity:** Individual
+- **Rationales:** IA, IP, MF
 - **Source:** https://www.sec.gov/comments/S7-2026-15/s7202615-2417567.htm
 
 ---

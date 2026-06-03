@@ -2,9 +2,9 @@
 
 - **Date:** 2026-05-29
 - **Role/Affiliation:** Individual
-- **Stance:** Unclassified
-- **Entity:** Unclassified
-- **Rationales:** 
+- **Stance:** Oppose
+- **Entity:** Individual
+- **Rationales:** IP
 - **Source:** https://www.sec.gov/comments/S7-2026-15/s7202615-2401146.htm
 
 ---

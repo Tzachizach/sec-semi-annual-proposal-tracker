@@ -1,10 +1,10 @@
 # Letter 586 — Donna Wakano - Valley Womens Investment Club
 
-- **Date:** 2026-05-27
+- **Date:** 2026-05-29
 - **Role/Affiliation:** Individual
-- **Stance:** Unclassified
-- **Entity:** Unclassified
-- **Rationales:** 
+- **Stance:** Oppose
+- **Entity:** Individual
+- **Rationales:** IA, IP
 - **Source:** https://www.sec.gov/comments/S7-2026-15/s7202615-794599-2402966.html
 
 ---

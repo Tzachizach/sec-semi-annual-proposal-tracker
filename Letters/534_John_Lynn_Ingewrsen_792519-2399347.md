@@ -1,10 +1,10 @@
 # Letter 534 — John & Lynn Ingewrsen
 
-- **Date:** 2026-05-27
+- **Date:** 2026-05-28
 - **Role/Affiliation:** Individual
-- **Stance:** Unclassified
-- **Entity:** Unclassified
-- **Rationales:** 
+- **Stance:** Oppose
+- **Entity:** Individual
+- **Rationales:** AU, IA, IP
 - **Source:** https://www.sec.gov/comments/S7-2026-15/s7202615-792519-2399347.html
 
 ---

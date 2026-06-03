@@ -1,10 +1,10 @@
 # Letter 622 — Patrick McCabe - McCabe Fine Woodworking
 
-- **Date:** 2026-05-27
+- **Date:** 2026-06-03
 - **Role/Affiliation:** Individual
-- **Stance:** Unclassified
-- **Entity:** Unclassified
-- **Rationales:** 
+- **Stance:** Oppose
+- **Entity:** Individual
+- **Rationales:** CMP, FR, IP
 - **Source:** https://www.sec.gov/comments/S7-2026-15/s7202615-2417787.htm
 
 ---

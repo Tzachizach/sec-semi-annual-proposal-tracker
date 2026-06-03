@@ -2,9 +2,9 @@
 
 - **Date:** 2026-05-30
 - **Role/Affiliation:** Individual
-- **Stance:** Unclassified
-- **Entity:** Unclassified
-- **Rationales:** 
+- **Stance:** Oppose
+- **Entity:** Individual
+- **Rationales:** AU, FR, IA, MF
 - **Source:** https://www.sec.gov/comments/s7202615-2406186.htm
 
 ---

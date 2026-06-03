@@ -2,9 +2,9 @@
 
 - **Date:** 2026-05-28
 - **Role/Affiliation:** Individual
-- **Stance:** Unclassified
-- **Entity:** Unclassified
-- **Rationales:** 
+- **Stance:** Oppose
+- **Entity:** Industry practitioner-technologist
+- **Rationales:** IA, IP, RI
 - **Source:** https://www.sec.gov/comments/S7-2026-15/s7202615-2399966.htm
 
 ---
