@@ -21270,7 +21270,7 @@
   {
     "n": 463,
     "page": 1,
-    "date": "2026-05-27",
+    "date": "2026-05-28",
     "name": "Eileen Sickler",
     "role": "Stock Club Member, CPA, Retired",
     "entity": "Individual",
@@ -22800,7 +22800,7 @@
   {
     "n": 497,
     "page": 1,
-    "date": "2026-05-27",
+    "date": "2026-05-28",
     "name": "Ann Bucheck",
     "role": "Individual",
     "entity": "Individual",
@@ -22849,7 +22849,7 @@
   {
     "n": 498,
     "page": 1,
-    "date": "2026-05-27",
+    "date": "2026-05-28",
     "name": "Anonymous",
     "role": "Individual",
     "entity": "Individual",
@@ -24390,28 +24390,38 @@
     "date": "2026-05-27",
     "name": "Bart Gardner",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
-    "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "NR"
+    ],
+    "rationale_evidence": "Bare opposition expression, no rationale supplied.",
+    "rationales_primary": [
+      "NR"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
+      "NR"
+    ],
+    "rationales_majority": [
+      "NR"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "One-line retail Oppose: vehemently opposes the change to reporting requirements.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-791099-2396246.html",
-    "words": 8,
+    "words": 17,
     "letter_id": "791099-2396246"
   }
 ]

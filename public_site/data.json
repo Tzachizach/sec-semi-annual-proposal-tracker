@@ -16602,7 +16602,7 @@
   {
     "n": 463,
     "page": 1,
-    "date": "2026-05-27",
+    "date": "2026-05-28",
     "name": "Eileen Sickler",
     "role": "Stock Club Member, CPA, Retired",
     "entity": "Individual",
@@ -17766,7 +17766,7 @@
   {
     "n": 497,
     "page": 1,
-    "date": "2026-05-27",
+    "date": "2026-05-28",
     "name": "Ann Bucheck",
     "role": "Individual",
     "entity": "Individual",
@@ -17805,7 +17805,7 @@
   {
     "n": 498,
     "page": 1,
-    "date": "2026-05-27",
+    "date": "2026-05-28",
     "name": "Anonymous",
     "role": "Individual",
     "entity": "Individual",
@@ -19003,6 +19003,38 @@
     "rationales_inclusive": [
       "IP",
       "CMP"
+    ]
+  },
+  {
+    "n": 533,
+    "page": 1,
+    "date": "2026-05-27",
+    "name": "Bart Gardner",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-791099-2396246.html",
+    "words": 17,
+    "rationales": [
+      "NR"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "NR"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
+      "NR"
     ]
   }
 ]
