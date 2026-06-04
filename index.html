@@ -372,7 +372,7 @@ details.lr-test .lr-body { font-size: 12px; color: #555; padding: 8px 0 4px; lin
 <details class="methodology">
   <summary>How <span class="kw-rationales">rationales</span> are classified <span class="accordion-meta">(argument taxonomy anchored on the SEC release; three-rater LLM ensemble)</span></summary>
   <div class="body">
-    Each letter can invoke one or more argument families. The taxonomy starts from the SEC's framing in the proposing release (Release Nos. 33-11414; 34-105368; File No. S7-2026-15). Four commenter-distinctive codes cover arguments the SEC does not engage as standalone justifications. <strong>21 codes total:</strong> 16 SEC-engaged (9 anti-proposal, 5 pro-proposal, 1 conditional, 1 procedural), 4 commenter-distinctive (<em>IP</em> investor protection; <em>US</em> capital-market leadership; <em>RI</em> investor reliance interests; <em>PP</em> political pressure / regulatory capture), and 1 "no substantive rationale" for letters that state a position without engaging an argument. <em>PP</em> was promoted from a §6.6 watch item to a coded rationale on 2026-06-04; the cross-model κ figures below describe the original 20-code validation set and do not include it.
+    Each letter can invoke one or more argument families. The taxonomy starts from the SEC's framing in the proposing release (Release Nos. 33-11414; 34-105368; File No. S7-2026-15). Four commenter-distinctive codes cover arguments the SEC does not engage as standalone justifications. <strong>22 codes total:</strong> 16 SEC-engaged (9 anti-proposal, 5 pro-proposal, 1 conditional, 1 procedural), 4 commenter-distinctive (<em>IP</em> investor protection; <em>US</em> capital-market leadership; <em>RI</em> investor reliance interests; <em>PP</em> political pressure / regulatory capture), 1 "no substantive rationale" for letters that state a position without engaging an argument, and <em>GU</em> (guidance vs reporting) carried from the 2018 (S7-26-18) rubric for cross-tracker consistency (not yet invoked in the 2026 corpus). <em>PP</em> was promoted from a §6.6 watch item to a coded rationale on 2026-06-04; the cross-model κ figures below describe the original 20-code validation set and do not include it.
 
     <p style="margin: 12px 0 0;">Anti-proposal codes use a red shade and pro-proposal codes a green shade, so the directional balance reads at a glance. Every SEC-engaged code carries a verbatim quote from the proposing release. The quote shows how the SEC itself frames the argument.</p>
 
@@ -513,7 +513,7 @@ details.lr-test .lr-body { font-size: 12px; color: #555; padding: 8px 0 4px; lin
 <!--DEV_ONLY:BEGIN-->
 <div class="section">
   <h2>Rationales cited</h2>
-  <p class="lede" style="margin: 0 0 12px;">Each letter can invoke zero or more argument families (multi-label). 21-code taxonomy anchored on the SEC's proposing release — see the <a href="rationale-taxonomy.html">argument taxonomy</a> for code definitions and verbatim SEC quotes.</p>
+  <p class="lede" style="margin: 0 0 12px;">Each letter can invoke zero or more argument families (multi-label). 22-code taxonomy anchored on the SEC's proposing release — see the <a href="rationale-taxonomy.html">argument taxonomy</a> for code definitions and verbatim SEC quotes.</p>
   <div class="chart-wrap" style="height: 420px;"><canvas id="rationaleChart"></canvas></div>
   <div style="display: flex; flex-wrap: wrap; gap: 14px; font-size: 11px; color: #555; margin-top: 10px;">
     <span style="display:inline-flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;background:#993c1d;border-radius:2px;"></span>Anti-proposal (red scale)</span>
@@ -865,7 +865,7 @@ if (HAS_CHART) new Chart(document.getElementById('entityLenChart'), {
 });
 
 /*DEV_ONLY:BEGIN*/
-// Rationale taxonomy — 21 codes (PP promoted from §6.6 watch item to a coded rationale 2026-06-04).
+// Rationale taxonomy — 22 codes (PP promoted 2026-06-04; GU carried from the 2018 S7-26-18 rubric).
 // Anti-proposal in the red scale, pro-proposal in the green scale.
 // US, RI, and PP (commenter-distinctive) are anti-proposal arguments and get muted-red shades.
 const RATIONALE_META = {
@@ -889,10 +889,11 @@ const RATIONALE_META = {
   OV:  ['Option value for non-switchers',             'pro',  '#6ba83c', 'Even firms that don’t switch benefit from having the option available — SEC argues the flexibility itself has value.'],
   ICs: ['Intl evidence — supportive',                 'pro',  '#2c5d22', 'UK / Singapore studies find little evidence that changes in reporting frequency materially affect real investment decisions.'],
   AL:  ['Alternative cadence / hybrid',               'cond', '#854f0b', 'Proposes a middle path: 4-month cadence, mandatory monthly revenue, scaled SRC-only relief, or mandatory quarterly earnings releases.'],
+  GU:  ['Guidance vs reporting',                      'cond', '#2a7d6f', 'The argument that quarterly earnings GUIDANCE (voluntary EPS forecasts), not quarterly REPORTING itself, drives short-termism — so the SEC should address guidance rather than reporting frequency (Buffett/Dimon, Larry Fink framing). A close cousin of ST. Central to the 2018 RFC (S7-26-18) and shared with that tracker; carried in the 2026 taxonomy for cross-rubric consistency, not yet invoked in the 2026 corpus.'],
   LE:  ['Legal / administrative-law',                 'proc', '#185fa5', 'APA, Loper-Bright (2024) deference framework, major-questions doctrine, §13(a) statutory text, State Farm, D.C. Circuit cost-benefit (Business Roundtable).'],
   NR:  ['No substantive rationale',                   'none', '#888780', 'Letter states a position without engaging any substantive argument — e.g. “This is a bad idea.”, “Keep it quarterly.”'],
 };
-const RATIONALE_ORDER = ['IP','IA','FR','MF','AU','ICc','EX','CMP','CC','SG','US','RI','PP','CB','ST','OP','OV','ICs','AL','LE','NR'];
+const RATIONALE_ORDER = ['IP','IA','FR','MF','AU','ICc','EX','CMP','CC','SG','US','RI','PP','CB','ST','OP','OV','ICs','AL','GU','LE','NR'];
 
 const rationaleCounts = {};
 RATIONALE_ORDER.forEach(c => rationaleCounts[c] = 0);
