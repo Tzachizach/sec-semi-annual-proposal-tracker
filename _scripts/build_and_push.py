@@ -526,13 +526,13 @@ __FORM_LETTER_PANEL__
     </dl>
 
     <div style="margin-top:14px; padding-top:12px; border-top: 0.5px solid rgba(0,0,0,0.08);">
-      <strong>Agreement across the three raters (N = 287):</strong>
+      <strong>Agreement across the three raters (N = METHOD_ENT_N):</strong>
       <ul style="margin: 6px 0 0; padding-left: 20px; color: #444;">
-        <li>Unanimous: 267 (93.0%)</li>
-        <li>2-of-3 majority: 20 (7.0%)</li>
-        <li>Fleiss' κ: 0.870</li>
+        <li>Unanimous: METHOD_ENT_UNANIMOUS_N (METHOD_ENT_UNANIMOUS_PCT%)</li>
+        <li>2-of-3 majority: METHOD_ENT_MAJORITY_N (METHOD_ENT_MAJORITY_PCT%)</li>
+        <li>Fleiss' κ: METHOD_ENT_FLEISS_K</li>
       </ul>
-      <p style="margin: 8px 0 0; color: #666; font-size: 12px;">Substantially higher agreement than the stance ensemble (κ = 0.590). Majority headline distribution: Individual 224 / Accountant (CPA) 13 / Industry practitioner 13 / Investment professional 11 / Issuer-current 10 / Academic researcher 7 / Issuer-former 7 / Student 2.</p>
+      <p style="margin: 8px 0 0; color: #666; font-size: 12px;">Substantially higher agreement than the stance ensemble (κ = METHOD_FLEISS_K). Majority headline distribution: METHOD_ENT_DIST.</p>
     </div>
 
     <div style="margin-top:14px; padding-top:12px; border-top: 0.5px solid rgba(0,0,0,0.08);">
@@ -555,7 +555,7 @@ __FORM_LETTER_PANEL__
 <details class="methodology">
   <summary>How <span class="kw-rationales">rationales</span> are classified <span class="accordion-meta">(argument taxonomy anchored on the SEC release; three-rater LLM ensemble)</span></summary>
   <div class="body">
-    Each letter can invoke one or more argument families. The taxonomy starts from the SEC's framing in the proposing release (Release Nos. 33-11414; 34-105368; File No. S7-2026-15). Three commenter-distinctive codes cover arguments the SEC does not engage as standalone justifications. <strong>20 codes total:</strong> 16 SEC-engaged (9 anti-proposal, 5 pro-proposal, 1 conditional, 1 procedural), 3 commenter-distinctive (<em>IP</em> investor protection; <em>US</em> capital-market leadership; <em>RI</em> investor reliance interests), and 1 "no substantive rationale" for letters that state a position without engaging an argument.
+    Each letter can invoke one or more argument families. The taxonomy starts from the SEC's framing in the proposing release (Release Nos. 33-11414; 34-105368; File No. S7-2026-15). Four commenter-distinctive codes cover arguments the SEC does not engage as standalone justifications. <strong>21 codes total:</strong> 16 SEC-engaged (9 anti-proposal, 5 pro-proposal, 1 conditional, 1 procedural), 4 commenter-distinctive (<em>IP</em> investor protection; <em>US</em> capital-market leadership; <em>RI</em> investor reliance interests; <em>PP</em> political pressure / regulatory capture), and 1 "no substantive rationale" for letters that state a position without engaging an argument. <em>PP</em> was promoted from a §6.6 watch item to a coded rationale on 2026-06-04; the cross-model κ figures below describe the original 20-code validation set and do not include it.
 
     <p style="margin: 12px 0 0;">Anti-proposal codes use a red shade and pro-proposal codes a green shade, so the directional balance reads at a glance. Every SEC-engaged code carries a verbatim quote from the proposing release. The quote shows how the SEC itself frames the argument.</p>
 
@@ -572,21 +572,21 @@ __FORM_LETTER_PANEL__
     </div>
 
     <div style="margin-top: 14px;">
-      <strong>Agreement across the three raters (N = 287):</strong>
+      <strong>Agreement across the three raters (N = METHOD_RAT_N):</strong>
       <ul style="margin: 6px 0 0; padding-left: 20px; color: #444;">
-        <li>Unanimous (all three raters produced identical code sets): 157 (54.7%)</li>
-        <li>2-of-3 majority: 110 (38.3%)</li>
-        <li>Split (three different code sets): 20 (7.0%)</li>
-        <li>Mean per-code Cohen's κ across pairs: <strong>0.844</strong>. Substantial agreement, in line with multi-prompt LLM-annotation benchmarks.</li>
+        <li>Unanimous (all three raters produced identical code sets): METHOD_RAT_UNANIMOUS_N (METHOD_RAT_UNANIMOUS_PCT%)</li>
+        <li>2-of-3 majority: METHOD_RAT_MAJORITY_N (METHOD_RAT_MAJORITY_PCT%)</li>
+        <li>Split (three different code sets): METHOD_RAT_SPLIT_N (METHOD_RAT_SPLIT_PCT%)</li>
+        <li>Mean per-code Cohen's κ across pairs: <strong>METHOD_RAT_MEAN_K</strong>. Substantial agreement, in line with multi-prompt LLM-annotation benchmarks.</li>
       </ul>
     </div>
 
     <div style="margin-top: 14px;">
       <strong>Per-code Cohen's κ</strong> (binary code-present vs absent, mean across the three pairwise comparisons). Surface-readable codes have high κ; inferential codes have lower κ. The methodology surfaces the structure of the taxonomy.
       <div style="margin: 8px 0 0; padding: 10px 12px; background: #f7f5ef; border-radius: 6px; font-size: 12px; line-height: 1.6; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; color: #2a2a2a;">
-        ICc&nbsp;1.00 · CC&nbsp;1.00 · ICs&nbsp;1.00 · US&nbsp;0.94 · FR&nbsp;0.93 · AL&nbsp;0.92 · OP&nbsp;0.92 · EX&nbsp;0.91 · ST&nbsp;0.91 · LE&nbsp;0.89 · CB&nbsp;0.87 · NR&nbsp;0.87 · MF&nbsp;0.86 · IP&nbsp;0.84 · CMP&nbsp;0.83 · IA&nbsp;0.83 · AU&nbsp;0.79 · RI&nbsp;0.70 · SG&nbsp;0.65 · OV&nbsp;0.22
+        METHOD_RAT_PERCODE
       </div>
-      <p style="margin: 8px 0 0; color: #666; font-size: 12px;">OV (option value) sits near the floor on only 2 invocations across the corpus. SG (signaling) also has only 2 invocations. CC (contractual constraints) has 3. The taxonomy's reliability scales with code frequency.</p>
+      <p style="margin: 8px 0 0; color: #666; font-size: 12px;">METHOD_RAT_FREQNOTE</p>
     </div>
 
     <div style="margin-top:14px; padding-top:12px; border-top: 0.5px solid rgba(0,0,0,0.08);">
@@ -649,7 +649,7 @@ __REGRESSION_PANEL__
 <!--DEV_ONLY:BEGIN-->
 <div class="section">
   <h2>Rationales cited</h2>
-  <p class="lede" style="margin: 0 0 12px;">Each letter can invoke zero or more argument families (multi-label). 20-code taxonomy anchored on the SEC's proposing release — see the <a href="rationale-taxonomy.html">argument taxonomy</a> for code definitions and verbatim SEC quotes.</p>
+  <p class="lede" style="margin: 0 0 12px;">Each letter can invoke zero or more argument families (multi-label). 21-code taxonomy anchored on the SEC's proposing release — see the <a href="rationale-taxonomy.html">argument taxonomy</a> for code definitions and verbatim SEC quotes.</p>
   <div class="chart-wrap" style="height: 420px;"><canvas id="rationaleChart"></canvas></div>
   <div style="display: flex; flex-wrap: wrap; gap: 14px; font-size: 11px; color: #555; margin-top: 10px;">
     <span style="display:inline-flex;align-items:center;gap:6px;"><span style="width:10px;height:10px;background:#993c1d;border-radius:2px;"></span>Anti-proposal (red scale)</span>
@@ -692,7 +692,7 @@ __REGRESSION_PANEL__
     Each letter is classified three times for stance, entity, and rationales, each time by a different Claude rubric. The small pill next to each value shows whether the three raters agreed: <strong>Unanimous</strong> (all three matched), <strong>2 of 3</strong> (majority match), or <strong>Split</strong> (all three differed, rationales only). See the methodology sections above for the rubric details.
   </p>
   <div class="search-row">
-    <div class="search"><input id="q" type="search" placeholder="Search by name, role, or stance…" /></div>
+    <div class="search"><input id="q" type="search" placeholder="Search by name, role, stance, or rationale code (e.g. PP, MF)…" /></div>
     <button id="expand-toggle" class="expand-toggle" type="button">Expand all</button>
   </div>
   <table class="full" id="full">
@@ -1104,8 +1104,9 @@ if (HAS_CHART) new Chart(document.getElementById('entityLenChart'), {
 });
 
 /*DEV_ONLY:BEGIN*/
-// Rationale taxonomy — 20 codes. Anti-proposal in the red scale, pro-proposal in the green scale.
-// US and RI (commenter-distinctive) are anti-proposal arguments and get muted-red shades.
+// Rationale taxonomy — 21 codes (PP promoted from §6.6 watch item to a coded rationale 2026-06-04).
+// Anti-proposal in the red scale, pro-proposal in the green scale.
+// US, RI, and PP (commenter-distinctive) are anti-proposal arguments and get muted-red shades.
 const RATIONALE_META = {
   // code: [long name, family group, color, short description]
   IP:  ['Investor protection / transparency',         'cd',   '#993c1d', 'Commenter-distinctive. Commenters argue the SEC’s investor-protection mandate weighs against reducing disclosure frequency. The release asserts IP won’t be undermined but does not engage the affirmative argument that it might be sacrificed.'],
@@ -1120,6 +1121,7 @@ const RATIONALE_META = {
   SG:  ['Signaling transparency',                     'anti', '#94483a', 'Continuing quarterly reporters may signal a transparency commitment that investors value — switching loses that signaling benefit.'],
   US:  ['US capital market leadership (commenter)',   'cd',   '#b85542', 'Quarterly reporting underpins global confidence in US markets; loosening it harms US competitiveness. Not engaged as a standalone argument in the SEC release.'],
   RI:  ['Reliance interests (commenter)',             'cd',   '#a8625a', 'Analysts, mutual-fund pricing, ETFs, credit committees, and rating agencies have built workflows around quarterly cadence. The SEC discusses switching costs for issuers but not reliance for investors.'],
+  PP:  ['Political pressure / regulatory capture',     'cd',   '#7a1f3d', 'Commenter-distinctive. The letter argues the rule itself is politically motivated or serves the powerful / captured regulators — attribution to political pressure, lobbying, donor influence, partisan/regime alignment, or regulatory capture. Promoted from a §6.6 watch item to a coded rationale on 2026-06-04. Narrow definition: generic concealment-suspicion, ordinary insiders-vs-retail framing, and generic motive-questioning do NOT qualify. Not part of the original 20-code cross-model κ validation.'],
   CB:  ['Compliance burden',                          'pro',  '#3b6d11', 'Quarterly reporting is expensive: SEC estimates ~$198,000/issuer/year savings if a company switches to semiannual.'],
   ST:  ['Short-termism / managerial focus',           'pro',  '#487a1a', 'Quarterly cadence pressures managers toward short-term targets; semiannual frees them to focus on long-term strategy.'],
   OP:  ['Optionality / flexibility',                  'pro',  '#559524', 'Companies should be able to choose the cadence appropriate to their size, industry, and investor base. The proposal is voluntary, not mandatory.'],
@@ -1129,7 +1131,7 @@ const RATIONALE_META = {
   LE:  ['Legal / administrative-law',                 'proc', '#185fa5', 'APA, Loper-Bright (2024) deference framework, major-questions doctrine, §13(a) statutory text, State Farm, D.C. Circuit cost-benefit (Business Roundtable).'],
   NR:  ['No substantive rationale',                   'none', '#888780', 'Letter states a position without engaging any substantive argument — e.g. “This is a bad idea.”, “Keep it quarterly.”'],
 };
-const RATIONALE_ORDER = ['IP','IA','FR','MF','AU','ICc','EX','CMP','CC','SG','US','RI','CB','ST','OP','OV','ICs','AL','LE','NR'];
+const RATIONALE_ORDER = ['IP','IA','FR','MF','AU','ICc','EX','CMP','CC','SG','US','RI','PP','CB','ST','OP','OV','ICs','AL','LE','NR'];
 
 const rationaleCounts = {};
 RATIONALE_ORDER.forEach(c => rationaleCounts[c] = 0);
@@ -1456,7 +1458,17 @@ function renderTable() {
   const q = (document.getElementById('q').value||'').toLowerCase().trim();
   const searching = q.length > 0;
   let rows = RECORDS.slice();
-  if (q) rows = rows.filter(r => (r.name+' '+r.role+' '+r.stance).toLowerCase().includes(q));
+  if (q) {
+    // If the query is exactly a rationale code (e.g. "PP", "MF", "ICc"), match on that code
+    // ONLY — exact membership in the letter's rationale set, not a substring of names/roles.
+    // Otherwise fall back to a name / role / stance substring search.
+    const codeMap = {};
+    RECORDS.forEach(r => (r.rationales || []).forEach(c => { codeMap[c.toUpperCase()] = c; }));
+    const codeHit = codeMap[q.toUpperCase()];
+    rows = rows.filter(r => codeHit
+      ? (r.rationales || []).includes(codeHit)
+      : (r.name + ' ' + r.role + ' ' + r.stance).toLowerCase().includes(q));
+  }
   rows.sort((a,b)=>{
     const av=a[sortKey], bv=b[sortKey];
     let cmp = 0;
@@ -2077,7 +2089,7 @@ def compute_method_stats(records):
         P_e = sum(p * p for p in p_j)
         return 1.0 if P_e == 1 else (P_bar - P_e) / (1 - P_e)
 
-    return {
+    out = {
         "n": n,
         "unanimous_n": unanimous,
         "unanimous_pct": f"{100 * unanimous / n:.1f}",
@@ -2088,6 +2100,124 @@ def compute_method_stats(records):
         "k_ps": f"{kappa('primary_stance', 'skeptic_stance'):.2f}",
         "k_ls": f"{kappa('literalist_stance', 'skeptic_stance'):.2f}",
     }
+
+    # --- Entity and rationale agreement, computed live over the in-corpus letters ---
+    # (Previously hardcoded at N=287; now tracks the corpus like the stance block above.)
+    HELD_SENTINELS = {"Duplicate", "Off-topic", "No position", "Unclassified"}
+
+    def held(r):
+        return (r.get("majority_stance") or r.get("stance", "")) in HELD_SENTINELS
+
+    # Canonicalize a few shorthand entity-label spellings to their full bucket name so
+    # punctuation variants do not register as rater disagreement or split the distribution.
+    ENTITY_CANON = {
+        "Industry practitioner-technologist": "Industry practitioner / technologist",
+        "Issuer-current": "Issuer / Corporate — current",
+        "Issuer-former": "Issuer / Corporate — former",
+    }
+    def ecanon(x):
+        return ENTITY_CANON.get(x, x)
+
+    # ----- Entity (commenter) agreement -----
+    ent = [r for r in records if not held(r)
+           and r.get("entity_primary") and r.get("entity_selfdescribed") and r.get("entity_letterhead")]
+    if ent:
+        en = len(ent)
+        e_uni = e_maj = 0
+        for r in ent:
+            vs = {ecanon(r["entity_primary"]), ecanon(r["entity_selfdescribed"]), ecanon(r["entity_letterhead"])}
+            if len(vs) == 1:
+                e_uni += 1
+            elif len(vs) == 2:
+                e_maj += 1
+        elabels = sorted({ecanon(r[k]) for r in ent
+                          for k in ("entity_primary", "entity_selfdescribed", "entity_letterhead")})
+
+        def efleiss():
+            rows = []
+            for r in ent:
+                row = [0] * len(elabels)
+                for v in (r["entity_primary"], r["entity_selfdescribed"], r["entity_letterhead"]):
+                    row[elabels.index(ecanon(v))] += 1
+                rows.append(row)
+            ni, nr = len(rows), 3
+            pj = [sum(row[j] for row in rows) / (ni * nr) for j in range(len(elabels))]
+            Pi = [(sum(c * c for c in row) - nr) / (nr * (nr - 1)) for row in rows]
+            Pbar = sum(Pi) / ni
+            Pe = sum(p * p for p in pj)
+            return 1.0 if Pe == 1 else (Pbar - Pe) / (1 - Pe)
+
+        ESHORT = {"Industry practitioner / technologist": "Industry practitioner",
+                  "Issuer / Corporate — current": "Issuer-current",
+                  "Issuer / Corporate — former": "Issuer-former"}
+        edist = Counter(ecanon(r["entity"]) for r in ent)
+        out.update({
+            "ent_n": en,
+            "ent_unanimous_n": e_uni,
+            "ent_unanimous_pct": f"{100 * e_uni / en:.1f}",
+            "ent_majority_n": e_maj,
+            "ent_majority_pct": f"{100 * e_maj / en:.1f}",
+            "ent_fleiss_k": f"{efleiss():.3f}",
+            "ent_dist": " / ".join(f"{ESHORT.get(k, k)} {v}" for k, v in edist.most_common()),
+        })
+
+    # ----- Rationale agreement (multi-label) -----
+    RAT = ("rationales_primary", "rationales_literalist", "rationales_inclusive")
+    rat = [r for r in records if not held(r) and all(isinstance(r.get(k), list) for k in RAT)]
+    if rat:
+        rn = len(rat)
+        r_uni = r_maj = r_split = 0
+        for r in rat:
+            sets = {frozenset(r["rationales_primary"]), frozenset(r["rationales_literalist"]),
+                    frozenset(r["rationales_inclusive"])}
+            if len(sets) == 1:
+                r_uni += 1
+            elif len(sets) == 2:
+                r_maj += 1
+            else:
+                r_split += 1
+        codes = sorted({c for r in rat for k in RAT for c in r[k]})
+
+        def kbin(a, b):
+            m = len(a)
+            po = sum(1 for x, y in zip(a, b) if x == y) / m
+            p1a, p1b = sum(a) / m, sum(b) / m
+            pe = p1a * p1b + (1 - p1a) * (1 - p1b)
+            return 1.0 if pe == 1 else (po - pe) / (1 - pe)
+
+        percode = {}
+        for c in codes:
+            pres = {k: [1 if c in r[k] else 0 for r in rat] for k in RAT}
+            ks = [kbin(pres[RAT[0]], pres[RAT[1]]), kbin(pres[RAT[0]], pres[RAT[2]]), kbin(pres[RAT[1]], pres[RAT[2]])]
+            percode[c] = sum(ks) / 3
+        ordered = sorted(percode, key=lambda c: -percode[c])
+        inv = Counter()
+        for r in rat:
+            for c in set(r.get("rationales") or []):
+                inv[c] += 1
+        CODE_NAMES = {"OV": "option value", "SG": "signaling", "RI": "reliance interests",
+                      "CMP": "comparability", "CC": "contractual constraints", "ICs": "intl evidence — supportive",
+                      "CB": "compliance burden", "US": "US market leadership", "PP": "political pressure"}
+        # Illustrate "reliability scales with frequency" using the rarest codes (lowest invocation
+        # count), not the lowest κ — some low-κ codes (e.g. RI) are not rare.
+        rarest = sorted(codes, key=lambda c: (inv.get(c, 0), c))[:3]
+        note = "; ".join(
+            f"{c} ({CODE_NAMES.get(c, c)}) on {inv.get(c, 0)} letter{'s' if inv.get(c, 0) != 1 else ''} (κ {percode[c]:.2f})"
+            for c in rarest)
+        out.update({
+            "rat_n": rn,
+            "rat_unanimous_n": r_uni,
+            "rat_unanimous_pct": f"{100 * r_uni / rn:.1f}",
+            "rat_majority_n": r_maj,
+            "rat_majority_pct": f"{100 * r_maj / rn:.1f}",
+            "rat_split_n": r_split,
+            "rat_split_pct": f"{100 * r_split / rn:.1f}",
+            "rat_mean_k": f"{sum(percode.values()) / len(percode):.3f}",
+            "rat_percode": " · ".join(f"{c}&nbsp;{percode[c]:.2f}" for c in ordered),
+            "rat_freqnote": f"Low-frequency codes have volatile κ (swinging to either extreme on a handful of calls): {note}. κ stabilizes as code frequency rises.",
+        })
+
+    return out
 
 
 REG_JSON_PATH = META_DIR / "regression_compare.json"
@@ -2400,7 +2530,14 @@ def regenerate_html(snapshot, asof_iso, records=None, with_voting=False):
     else:
         for tok in ["METHOD_N", "METHOD_UNANIMOUS_N", "METHOD_UNANIMOUS_PCT",
                     "METHOD_MAJORITY_N", "METHOD_MAJORITY_PCT",
-                    "METHOD_FLEISS_K", "METHOD_K_PL", "METHOD_K_PS", "METHOD_K_LS"]:
+                    "METHOD_FLEISS_K", "METHOD_K_PL", "METHOD_K_PS", "METHOD_K_LS",
+                    "METHOD_ENT_N", "METHOD_ENT_UNANIMOUS_N", "METHOD_ENT_UNANIMOUS_PCT",
+                    "METHOD_ENT_MAJORITY_N", "METHOD_ENT_MAJORITY_PCT", "METHOD_ENT_FLEISS_K",
+                    "METHOD_ENT_DIST",
+                    "METHOD_RAT_N", "METHOD_RAT_UNANIMOUS_N", "METHOD_RAT_UNANIMOUS_PCT",
+                    "METHOD_RAT_MAJORITY_N", "METHOD_RAT_MAJORITY_PCT",
+                    "METHOD_RAT_SPLIT_N", "METHOD_RAT_SPLIT_PCT",
+                    "METHOD_RAT_MEAN_K", "METHOD_RAT_PERCODE", "METHOD_RAT_FREQNOTE"]:
             html = html.replace(tok, "—")
     if with_voting:
         sb_url, sb_key = load_supabase_creds()

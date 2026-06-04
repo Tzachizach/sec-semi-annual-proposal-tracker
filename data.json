@@ -9586,17 +9586,21 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-782787-2380914.html",
     "words": 35,
     "rationales": [
-      "IP"
+      "IP",
+      "PP"
     ],
     "rationale_agreement": "unanimous",
     "rationales_primary": [
-      "IP"
+      "IP",
+      "PP"
     ],
     "rationales_literalist": [
-      "IP"
+      "IP",
+      "PP"
     ],
     "rationales_inclusive": [
-      "IP"
+      "IP",
+      "PP"
     ]
   },
   {
@@ -9674,24 +9678,28 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-782687-2380814.html",
     "words": 88,
     "rationales": [
-      "IP",
+      "CB",
       "FR",
-      "CB"
+      "IP",
+      "PP"
     ],
     "rationale_agreement": "majority",
     "rationales_primary": [
       "IP",
       "FR",
-      "CB"
+      "CB",
+      "PP"
     ],
     "rationales_literalist": [
       "IP",
-      "CB"
+      "CB",
+      "PP"
     ],
     "rationales_inclusive": [
       "IP",
       "FR",
-      "CB"
+      "CB",
+      "PP"
     ]
   },
   {
@@ -9713,17 +9721,21 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-782547-2380234.html",
     "words": 29,
     "rationales": [
-      "NR"
+      "NR",
+      "PP"
     ],
     "rationale_agreement": "unanimous",
     "rationales_primary": [
-      "NR"
+      "NR",
+      "PP"
     ],
     "rationales_literalist": [
-      "NR"
+      "NR",
+      "PP"
     ],
     "rationales_inclusive": [
-      "NR"
+      "NR",
+      "PP"
     ]
   },
   {
@@ -11460,18 +11472,22 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-785607-2386354.html",
     "words": 209,
     "rationales": [
-      "FR"
+      "FR",
+      "PP"
     ],
     "rationale_agreement": "majority",
     "rationales_primary": [
-      "FR"
+      "FR",
+      "PP"
     ],
     "rationales_literalist": [
-      "FR"
+      "FR",
+      "PP"
     ],
     "rationales_inclusive": [
       "FR",
-      "IA"
+      "IA",
+      "PP"
     ]
   },
   {
@@ -11602,23 +11618,27 @@
     "rationales": [
       "FR",
       "IA",
-      "IP"
+      "IP",
+      "PP"
     ],
-    "rationale_agreement": "split",
+    "rationale_agreement": "majority",
     "rationales_primary": [
       "FR",
       "IA",
-      "IP"
+      "IP",
+      "PP"
     ],
     "rationales_literalist": [
       "FR",
-      "IA"
+      "IA",
+      "PP"
     ],
     "rationales_inclusive": [
       "CB",
       "FR",
       "IA",
-      "IP"
+      "IP",
+      "PP"
     ]
   },
   {
@@ -12288,17 +12308,21 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-790219-2395146.html",
     "words": 20,
     "rationales": [
-      "NR"
+      "NR",
+      "PP"
     ],
     "rationale_agreement": "unanimous",
     "rationales_primary": [
-      "NR"
+      "NR",
+      "PP"
     ],
     "rationales_literalist": [
-      "NR"
+      "NR",
+      "PP"
     ],
     "rationales_inclusive": [
-      "NR"
+      "NR",
+      "PP"
     ]
   },
   {
@@ -12707,18 +12731,22 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2395446.htm",
     "words": 81,
     "rationales": [
-      "IP"
+      "IP",
+      "PP"
     ],
     "rationale_agreement": "majority",
     "rationales_primary": [
-      "IP"
+      "IP",
+      "PP"
     ],
     "rationales_literalist": [
-      "IP"
+      "IP",
+      "PP"
     ],
     "rationales_inclusive": [
       "IA",
-      "IP"
+      "IP",
+      "PP"
     ]
   },
   {
@@ -13116,20 +13144,24 @@
     "words": 53,
     "rationales": [
       "FR",
-      "IA"
+      "IA",
+      "PP"
     ],
     "rationale_agreement": "unanimous",
     "rationales_primary": [
       "FR",
-      "IA"
+      "IA",
+      "PP"
     ],
     "rationales_literalist": [
       "FR",
-      "IA"
+      "IA",
+      "PP"
     ],
     "rationales_inclusive": [
       "FR",
-      "IA"
+      "IA",
+      "PP"
     ]
   },
   {
@@ -13797,19 +13829,23 @@
     "words": 49,
     "rationales": [
       "FR",
-      "IP"
+      "IP",
+      "PP"
     ],
     "rationale_agreement": "majority",
     "rationales_primary": [
       "FR",
-      "IP"
+      "IP",
+      "PP"
     ],
     "rationales_literalist": [
-      "IP"
+      "IP",
+      "PP"
     ],
     "rationales_inclusive": [
       "FR",
-      "IP"
+      "IP",
+      "PP"
     ]
   },
   {
@@ -14436,17 +14472,21 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-788859-2393527.html",
     "words": 36,
     "rationales": [
-      "FR"
+      "FR",
+      "PP"
     ],
     "rationale_agreement": "unanimous",
     "rationales_primary": [
-      "FR"
+      "FR",
+      "PP"
     ],
     "rationales_literalist": [
-      "FR"
+      "FR",
+      "PP"
     ],
     "rationales_inclusive": [
-      "FR"
+      "FR",
+      "PP"
     ]
   },
   {
@@ -15356,17 +15396,21 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-787380-2390248.html",
     "words": 29,
     "rationales": [
-      "IA"
+      "IA",
+      "PP"
     ],
     "rationale_agreement": "majority",
     "rationales_primary": [
-      "IA"
+      "IA",
+      "PP"
     ],
     "rationales_literalist": [
-      "NR"
+      "NR",
+      "PP"
     ],
     "rationales_inclusive": [
-      "IA"
+      "IA",
+      "PP"
     ]
   },
   {
@@ -16195,17 +16239,21 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-786287-2387474_0.html",
     "words": 74,
     "rationales": [
-      "FR"
+      "FR",
+      "PP"
     ],
     "rationale_agreement": "unanimous",
     "rationales_primary": [
-      "FR"
+      "FR",
+      "PP"
     ],
     "rationales_literalist": [
-      "FR"
+      "FR",
+      "PP"
     ],
     "rationales_inclusive": [
-      "FR"
+      "FR",
+      "PP"
     ]
   },
   {
@@ -16433,18 +16481,22 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-786379-2387626.html",
     "words": 54,
     "rationales": [
-      "IP"
+      "IP",
+      "PP"
     ],
     "rationale_agreement": "majority",
     "rationales_primary": [
-      "IP"
+      "IP",
+      "PP"
     ],
     "rationales_literalist": [
-      "IP"
+      "IP",
+      "PP"
     ],
     "rationales_inclusive": [
       "FR",
-      "IP"
+      "IP",
+      "PP"
     ]
   },
   {
@@ -16502,17 +16554,21 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-780727-2376914.html",
     "words": 49,
     "rationales": [
-      "NR"
+      "NR",
+      "PP"
     ],
     "rationale_agreement": "unanimous",
     "rationales_primary": [
-      "NR"
+      "NR",
+      "PP"
     ],
     "rationales_literalist": [
-      "NR"
+      "NR",
+      "PP"
     ],
     "rationales_inclusive": [
-      "NR"
+      "NR",
+      "PP"
     ]
   },
   {
@@ -19466,11 +19522,11 @@
     "date": "2026-05-28",
     "name": "Aaron Becker",
     "role": "Individual",
-    "entity": "Industry practitioner-technologist",
+    "entity": "Industry practitioner / technologist",
     "entity_agreement": "unanimous",
-    "entity_primary": "Industry practitioner-technologist",
-    "entity_selfdescribed": "Industry practitioner-technologist",
-    "entity_letterhead": "Industry practitioner-technologist",
+    "entity_primary": "Industry practitioner / technologist",
+    "entity_selfdescribed": "Industry practitioner / technologist",
+    "entity_letterhead": "Industry practitioner / technologist",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -21226,11 +21282,11 @@
     "date": "2026-05-29",
     "name": "ELIZABETH BOLINT",
     "role": "Individual",
-    "entity": "Issuer-former",
+    "entity": "Issuer / Corporate \u2014 former",
     "entity_agreement": "unanimous",
-    "entity_primary": "Issuer-former",
-    "entity_selfdescribed": "Issuer-former",
-    "entity_letterhead": "Issuer-former",
+    "entity_primary": "Issuer / Corporate \u2014 former",
+    "entity_selfdescribed": "Issuer / Corporate \u2014 former",
+    "entity_letterhead": "Issuer / Corporate \u2014 former",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -21265,11 +21321,11 @@
     "date": "2026-05-28",
     "name": "Scott Miller",
     "role": "Individual",
-    "entity": "Industry practitioner-technologist",
+    "entity": "Industry practitioner / technologist",
     "entity_agreement": "unanimous",
-    "entity_primary": "Industry practitioner-technologist",
-    "entity_selfdescribed": "Industry practitioner-technologist",
-    "entity_letterhead": "Industry practitioner-technologist",
+    "entity_primary": "Industry practitioner / technologist",
+    "entity_selfdescribed": "Industry practitioner / technologist",
+    "entity_letterhead": "Industry practitioner / technologist",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",
@@ -21425,17 +21481,21 @@
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-795539-2404526.html",
     "words": 56,
     "rationales": [
-      "NR"
+      "NR",
+      "PP"
     ],
     "rationale_agreement": "unanimous",
     "rationales_primary": [
-      "NR"
+      "NR",
+      "PP"
     ],
     "rationales_literalist": [
-      "NR"
+      "NR",
+      "PP"
     ],
     "rationales_inclusive": [
-      "NR"
+      "NR",
+      "PP"
     ]
   },
   {
@@ -21628,19 +21688,23 @@
     "words": 54,
     "rationales": [
       "FR",
+      "PP",
       "US"
     ],
     "rationale_agreement": "majority",
     "rationales_primary": [
       "FR",
-      "US"
+      "US",
+      "PP"
     ],
     "rationales_literalist": [
-      "FR"
+      "FR",
+      "PP"
     ],
     "rationales_inclusive": [
       "FR",
-      "US"
+      "US",
+      "PP"
     ]
   },
   {
@@ -21932,19 +21996,23 @@
     "words": 90,
     "rationales": [
       "FR",
-      "MF"
+      "MF",
+      "PP"
     ],
     "rationale_agreement": "majority",
     "rationales_primary": [
       "FR",
-      "MF"
+      "MF",
+      "PP"
     ],
     "rationales_literalist": [
-      "FR"
+      "FR",
+      "PP"
     ],
     "rationales_inclusive": [
       "FR",
-      "MF"
+      "MF",
+      "PP"
     ]
   },
   {
@@ -21988,11 +22056,11 @@
     "date": "2026-06-02",
     "name": "Louis Lehot & Patrick Daugherty, Foley & Lardner LLP",
     "role": "Industry practitioner-technologist",
-    "entity": "Industry practitioner-technologist",
+    "entity": "Industry practitioner / technologist",
     "entity_agreement": "unanimous",
-    "entity_primary": "Industry practitioner-technologist",
-    "entity_selfdescribed": "Industry practitioner-technologist",
-    "entity_letterhead": "Industry practitioner-technologist",
+    "entity_primary": "Industry practitioner / technologist",
+    "entity_selfdescribed": "Industry practitioner / technologist",
+    "entity_letterhead": "Industry practitioner / technologist",
     "stance": "Support",
     "primary": "Support",
     "literalist": "Support",
@@ -22104,7 +22172,7 @@
     "entity_agreement": "majority",
     "entity_primary": "Individual",
     "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Issuer-current",
+    "entity_letterhead": "Issuer / Corporate \u2014 current",
     "stance": "Oppose",
     "primary": "Oppose",
     "literalist": "Oppose",

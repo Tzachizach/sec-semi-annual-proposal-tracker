@@ -12182,20 +12182,25 @@
     "entity_majority": "Industry practitioner / technologist",
     "entity_agreement": "majority",
     "rationales": [
-      "IP"
+      "IP",
+      "PP"
     ],
-    "rationale_evidence": "IP: 'cutting the window the general public has into Wall Street in half', '99% of Americans'. PP-watch (regulatory capture framing): 'Full blown corruption in broad daylight'.",
+    "rationale_evidence": "IP: 'cutting the window the general public has into Wall Street in half', '99% of Americans'. PP: 'Full blown corruption in broad daylight... hurtful to 99% of Americans.'",
     "rationales_primary": [
-      "IP"
+      "IP",
+      "PP"
     ],
     "rationales_literalist": [
-      "IP"
+      "IP",
+      "PP"
     ],
     "rationales_inclusive": [
-      "IP"
+      "IP",
+      "PP"
     ],
     "rationales_majority": [
-      "IP"
+      "IP",
+      "PP"
     ],
     "rationale_agreement": "unanimous",
     "summary": "Short profanity-laced Oppose from a Data Analyst writing in retail-public register. Entity contested: Primary reads personal voice as Individual; Self-described + Letterhead follow the role field. Substantive PP-watch invocation ('corruption in broad daylight').",
@@ -12292,29 +12297,34 @@
     "entity_majority": "Individual",
     "entity_agreement": "unanimous",
     "rationales": [
-      "IP",
+      "CB",
       "FR",
-      "CB"
+      "IP",
+      "PP"
     ],
-    "rationale_evidence": "IP: 'small guy', 'retirement funds', 'I rely on the fairness of the SEC'. FR: 'corporate manipulation and privileged executives'. CB: 'does very little to reduce costs' — direct CB rebuttal. PP-watch: 'corporate/government cronyism' — substantive capture framing.",
+    "rationale_evidence": "IP: 'small guy', 'retirement funds', 'I rely on the fairness of the SEC'. FR: 'corporate manipulation and privileged executives'. CB: 'does very little to reduce costs' — direct CB rebuttal. PP: 'this rule revision reflects corporate/government cronyism... I don't have powerful attorneys or lobbyists at my disposal.'",
     "rationales_primary": [
       "IP",
       "FR",
-      "CB"
+      "CB",
+      "PP"
     ],
     "rationales_literalist": [
       "IP",
-      "CB"
+      "CB",
+      "PP"
     ],
     "rationales_inclusive": [
       "IP",
       "FR",
-      "CB"
+      "CB",
+      "PP"
     ],
     "rationales_majority": [
-      "IP",
+      "CB",
       "FR",
-      "CB"
+      "IP",
+      "PP"
     ],
     "rationale_agreement": "majority",
     "summary": "Retiree Oppose with substantive 3-code engagement: investor protection, fraud/manipulation, CB rebuttal. Substantive PP-watch invocation ('corporate/government cronyism').",
@@ -12341,20 +12351,25 @@
     "entity_majority": "Individual",
     "entity_agreement": "unanimous",
     "rationales": [
-      "NR"
+      "NR",
+      "PP"
     ],
-    "rationale_evidence": "NR: no substantive rationale; pure venting. PP-watch (weak): 'corrupt this country'.",
+    "rationale_evidence": "NR: no substantive rationale; pure venting. PP: 'If the sec attempts to do this, it proves how corrupt this country really is!'",
     "rationales_primary": [
-      "NR"
+      "NR",
+      "PP"
     ],
     "rationales_literalist": [
-      "NR"
+      "NR",
+      "PP"
     ],
     "rationales_inclusive": [
-      "NR"
+      "NR",
+      "PP"
     ],
     "rationales_majority": [
-      "NR"
+      "NR",
+      "PP"
     ],
     "rationale_agreement": "unanimous",
     "summary": "Short Oppose, no substantive rationale. Venting register with 'corrupt this country' framing (weak PP-watch).",
@@ -14631,21 +14646,26 @@
     "entity_majority": "Individual",
     "entity_agreement": "unanimous",
     "rationales": [
-      "FR"
+      "FR",
+      "PP"
     ],
-    "rationale_evidence": "FR: fraud, 'bad actors', criminals shielded from the law; (Inc) IA: the 'predator class' / rich escape while ordinary people are harmed. Political content (Trump, capital punishment, capture allegation) not coded — capture claim is a PP-watch instance.",
+    "rationale_evidence": "FR: fraud, 'bad actors', criminals shielded from the law; (Inc) IA: the 'predator class' / rich escape while ordinary people are harmed. PP: 'those in charge of protecting us from bad actors, are receiving kickbacks from these same criminals while they point out new targets and shield them from the law.'",
     "rationales_primary": [
-      "FR"
+      "FR",
+      "PP"
     ],
     "rationales_literalist": [
-      "FR"
+      "FR",
+      "PP"
     ],
     "rationales_inclusive": [
       "FR",
-      "IA"
+      "IA",
+      "PP"
     ],
     "rationales_majority": [
-      "FR"
+      "FR",
+      "PP"
     ],
     "rationale_agreement": "majority",
     "summary": "Vehement, politically charged retail Oppose: argues lax compliance protects fraud and a 'predator class', alleging regulators are captured. On-topic core opposes weakening reporting; the rest is political venting (uncoded). FLAG: PP-watch (regulatory capture).",
@@ -14812,30 +14832,35 @@
     "rationales": [
       "FR",
       "IA",
-      "IP"
+      "IP",
+      "PP"
     ],
-    "rationale_evidence": "IA: retail investors 'blind for long stretches' while institutions/insiders keep timely info (paid research, alternative data, ad-hoc disclosures); FR: insiders 'trade ahead of bad news', 'fraud to grow undetected longer'; IP: 'weakening transparency would make accountability harder'; (Inc) CB: frames compliance savings as shifting to executives, not retail savers. Capture aside ('corruption to infiltrate institutions of justice') uncoded — PP-watch.",
+    "rationale_evidence": "IA: retail investors 'blind for long stretches' while institutions/insiders keep timely info (paid research, alternative data, ad-hoc disclosures); FR: insiders 'trade ahead of bad news', 'fraud to grow undetected longer'; IP: 'weakening transparency would make accountability harder'; (Inc) CB: frames compliance savings as shifting to executives, not retail savers. PP: 'We do not need further corruption to infiltrate our institutions of justice.'",
     "rationales_primary": [
       "FR",
       "IA",
-      "IP"
+      "IP",
+      "PP"
     ],
     "rationales_literalist": [
       "FR",
-      "IA"
+      "IA",
+      "PP"
     ],
     "rationales_inclusive": [
       "CB",
       "FR",
       "IA",
-      "IP"
+      "IP",
+      "PP"
     ],
     "rationales_majority": [
       "FR",
       "IA",
-      "IP"
+      "IP",
+      "PP"
     ],
-    "rationale_agreement": "split",
+    "rationale_agreement": "majority",
     "summary": "Substantive Oppose from an attorney: semiannual reporting widens the retail-vs-institutional information gap, lets insiders trade ahead and fraud fester, and shifts modest compliance savings to executives at retail savers' expense. Entity Industry practitioner (signs 'Attorney').",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-785267-2385255.html",
     "words": 104,
@@ -15687,20 +15712,25 @@
     "entity_majority": "Individual",
     "entity_agreement": "unanimous",
     "rationales": [
-      "NR"
+      "NR",
+      "PP"
     ],
-    "rationale_evidence": "NR: no substantive disclosure argument. The 'cop-out to the rich and influential' / 'Trump directed' framing is a regulatory-capture sentiment, uncoded and logged as a PP-watch instance.",
+    "rationale_evidence": "NR: no substantive disclosure argument. PP: 'Another Trump directed cop-out to the rich and influential!'",
     "rationales_primary": [
-      "NR"
+      "NR",
+      "PP"
     ],
     "rationales_literalist": [
-      "NR"
+      "NR",
+      "PP"
     ],
     "rationales_inclusive": [
-      "NR"
+      "NR",
+      "PP"
     ],
     "rationales_majority": [
-      "NR"
+      "NR",
+      "PP"
     ],
     "rationale_agreement": "unanimous",
     "summary": "Political retail Oppose: dismisses the proposal as a 'Trump directed cop-out to the rich and influential'. No substantive disclosure argument; FLAG: PP-watch (capture sentiment).",
@@ -16222,21 +16252,26 @@
     "entity_majority": "Individual",
     "entity_agreement": "unanimous",
     "rationales": [
-      "IP"
+      "IP",
+      "PP"
     ],
-    "rationale_evidence": "IP: keeping every investor current on company happenings; (Inc) IA: 'the biggest money always gets the biggest opportunities to change the rules' (capture sentiment, PP-watch).",
+    "rationale_evidence": "PP: 'the biggest money always gets the biggest opportunities to change the rules... Are you really considering opening a door that will allow corruption by rule and law?'",
     "rationales_primary": [
-      "IP"
+      "IP",
+      "PP"
     ],
     "rationales_literalist": [
-      "IP"
+      "IP",
+      "PP"
     ],
     "rationales_inclusive": [
       "IA",
-      "IP"
+      "IP",
+      "PP"
     ],
     "rationales_majority": [
-      "IP"
+      "IP",
+      "PP"
     ],
     "rationale_agreement": "majority",
     "summary": "Retail Oppose: a rule that fails to keep every investor current invites corruption; the biggest money should not get to change the rules. FLAG: PP-watch.",
@@ -16744,24 +16779,29 @@
     "entity_agreement": "unanimous",
     "rationales": [
       "FR",
-      "IA"
+      "IA",
+      "PP"
     ],
-    "rationale_evidence": "FR: the change 'will enable fraud and encourage insider trading'; IA: 'no benefit to investors or stakeholders who are not corporate insiders'. Capture aside ('corporate lobbyists') uncoded (PP-watch).",
+    "rationale_evidence": "FR: the change 'will enable fraud and encourage insider trading'; IA: 'no benefit to investors or stakeholders who are not corporate insiders'. PP: 'Be responsible to the public, not corporate lobbyists.'",
     "rationales_primary": [
       "FR",
-      "IA"
+      "IA",
+      "PP"
     ],
     "rationales_literalist": [
       "FR",
-      "IA"
+      "IA",
+      "PP"
     ],
     "rationales_inclusive": [
       "FR",
-      "IA"
+      "IA",
+      "PP"
     ],
     "rationales_majority": [
       "FR",
-      "IA"
+      "IA",
+      "PP"
     ],
     "rationale_agreement": "unanimous",
     "summary": "Retail Oppose: opting out of quarterly reporting benefits only insiders and enables fraud and insider trading at the public's expense. FLAG: PP-watch.",
@@ -17614,23 +17654,28 @@
     "entity_agreement": "unanimous",
     "rationales": [
       "FR",
-      "IP"
+      "IP",
+      "PP"
     ],
-    "rationale_evidence": "IP: leaves investors in the dark; (Inc) FR: increases corruption; 'Any corporation that doesn't want to report every three months shouldn't have the privilege of being listed'. PP-watch (corruption framing).",
+    "rationale_evidence": "IP: leaves investors in the dark; (Inc) FR: increases corruption; 'Any corporation that doesn't want to report every three months shouldn't have the privilege of being listed'. PP: 'The SEC should not take any action that increases corruption.'",
     "rationales_primary": [
       "FR",
-      "IP"
+      "IP",
+      "PP"
     ],
     "rationales_literalist": [
-      "IP"
+      "IP",
+      "PP"
     ],
     "rationales_inclusive": [
       "FR",
-      "IP"
+      "IP",
+      "PP"
     ],
     "rationales_majority": [
       "FR",
-      "IP"
+      "IP",
+      "PP"
     ],
     "rationale_agreement": "majority",
     "summary": "Retail Oppose: the proposal increases corruption and blinds investors; a company unwilling to report quarterly should not be listed. FLAG: PP-watch.",
@@ -18430,20 +18475,25 @@
     "entity_majority": "Individual",
     "entity_agreement": "unanimous",
     "rationales": [
-      "FR"
+      "FR",
+      "PP"
     ],
-    "rationale_evidence": "FR: the change gives corporations more chance to 'lie and cheat and cover up malfeasance'. Political framing (corruption) is PP-watch.",
+    "rationale_evidence": "FR: the change gives corporations more chance to 'lie and cheat and cover up malfeasance'. PP: 'In a time when corporate and political corruption is at its highest...'",
     "rationales_primary": [
-      "FR"
+      "FR",
+      "PP"
     ],
     "rationales_literalist": [
-      "FR"
+      "FR",
+      "PP"
     ],
     "rationales_inclusive": [
-      "FR"
+      "FR",
+      "PP"
     ],
     "rationales_majority": [
-      "FR"
+      "FR",
+      "PP"
     ],
     "rationale_agreement": "unanimous",
     "summary": "Vehement retail Oppose: the proposal hands corporations more room to lie, cheat, and cover up malfeasance. FLAG: PP-watch.",
@@ -19667,20 +19717,25 @@
     "entity_majority": "Individual",
     "entity_agreement": "unanimous",
     "rationales": [
-      "IA"
+      "IA",
+      "PP"
     ],
-    "rationale_evidence": "IA: frames the change as favoring the wealthy over private investors. Largely political (PP-watch); literalist reads it as NR.",
+    "rationale_evidence": "IA: frames the change as favoring the wealthy over private investors. PP: 'Rich keep getting richer. What about a government for the common people and not the 1%?'",
     "rationales_primary": [
-      "IA"
+      "IA",
+      "PP"
     ],
     "rationales_literalist": [
-      "NR"
+      "NR",
+      "PP"
     ],
     "rationales_inclusive": [
-      "IA"
+      "IA",
+      "PP"
     ],
     "rationales_majority": [
-      "IA"
+      "IA",
+      "PP"
     ],
     "rationale_agreement": "majority",
     "summary": "Political retail Oppose: the change favors the rich over ordinary private investors. FLAG: PP-watch.",
@@ -20738,20 +20793,25 @@
     "entity_majority": "Individual",
     "entity_agreement": "unanimous",
     "rationales": [
-      "FR"
+      "FR",
+      "PP"
     ],
-    "rationale_evidence": "FR: those in financial oversight and white-collar-crime investigation know the change invites financial malfeasance at scale. Political (corruption) framing is PP-watch.",
+    "rationale_evidence": "FR: those in financial oversight and white-collar-crime investigation know the change invites financial malfeasance at scale. PP: 'Reducing the reporting requirements is reckless at best, and flat out corrupt at worst... stand up for the American people instead of paving the way for financial malfeasance.'",
     "rationales_primary": [
-      "FR"
+      "FR",
+      "PP"
     ],
     "rationales_literalist": [
-      "FR"
+      "FR",
+      "PP"
     ],
     "rationales_inclusive": [
-      "FR"
+      "FR",
+      "PP"
     ],
     "rationales_majority": [
-      "FR"
+      "FR",
+      "PP"
     ],
     "rationale_agreement": "unanimous",
     "summary": "Retail Oppose: reducing reporting paves the way for financial malfeasance at scale. FLAG: PP-watch.",
@@ -21042,21 +21102,26 @@
     "entity_majority": "Individual",
     "entity_agreement": "unanimous",
     "rationales": [
-      "IP"
+      "IP",
+      "PP"
     ],
-    "rationale_evidence": "IP: investors deserve more information, not less; (Inc) FR: opens the door for more corruption. Political ('drain the swamp') framing is PP-watch.",
+    "rationale_evidence": "IP: investors deserve more information, not less; (Inc) FR: opens the door for more corruption. PP: 'You were hired to drain the swamp not facilitate it.'",
     "rationales_primary": [
-      "IP"
+      "IP",
+      "PP"
     ],
     "rationales_literalist": [
-      "IP"
+      "IP",
+      "PP"
     ],
     "rationales_inclusive": [
       "FR",
-      "IP"
+      "IP",
+      "PP"
     ],
     "rationales_majority": [
-      "IP"
+      "IP",
+      "PP"
     ],
     "rationale_agreement": "majority",
     "summary": "Retail Oppose: investors deserve more information, not less; increase reporting frequency rather than open the door to corruption. FLAG: PP-watch.",
@@ -21130,20 +21195,25 @@
     "entity_majority": "Individual",
     "entity_agreement": "unanimous",
     "rationales": [
-      "NR"
+      "NR",
+      "PP"
     ],
-    "rationale_evidence": "NR: an integrity/fairness appeal with no substantive disclosure argument. Political (favoritism) framing is PP-watch.",
+    "rationale_evidence": "NR: an integrity/fairness appeal with no substantive disclosure argument. PP: 'Stop showing favoritism.'",
     "rationales_primary": [
-      "NR"
+      "NR",
+      "PP"
     ],
     "rationales_literalist": [
-      "NR"
+      "NR",
+      "PP"
     ],
     "rationales_inclusive": [
-      "NR"
+      "NR",
+      "PP"
     ],
     "rationales_majority": [
-      "NR"
+      "NR",
+      "PP"
     ],
     "rationale_agreement": "unanimous",
     "summary": "Retail Oppose: an appeal to follow the existing rules with integrity and stop showing favoritism. FLAG: PP-watch.",
@@ -24960,17 +25030,17 @@
     "date": "2026-05-28",
     "name": "Aaron Becker",
     "role": "Individual",
-    "entity": "Industry practitioner-technologist",
+    "entity": "Industry practitioner / technologist",
     "stance": "Oppose",
     "primary_stance": "Oppose",
     "literalist_stance": "Oppose",
     "skeptic_stance": "Oppose",
     "majority_stance": "Oppose",
     "agreement": "unanimous",
-    "entity_primary": "Industry practitioner-technologist",
-    "entity_selfdescribed": "Industry practitioner-technologist",
-    "entity_letterhead": "Industry practitioner-technologist",
-    "entity_majority": "Industry practitioner-technologist",
+    "entity_primary": "Industry practitioner / technologist",
+    "entity_selfdescribed": "Industry practitioner / technologist",
+    "entity_letterhead": "Industry practitioner / technologist",
+    "entity_majority": "Industry practitioner / technologist",
     "entity_agreement": "unanimous",
     "rationales": [
       "IA",
@@ -27169,17 +27239,17 @@
     "date": "2026-05-29",
     "name": "ELIZABETH BOLINT",
     "role": "Individual",
-    "entity": "Issuer-former",
+    "entity": "Issuer / Corporate — former",
     "stance": "Oppose",
     "primary_stance": "Oppose",
     "literalist_stance": "Oppose",
     "skeptic_stance": "Oppose",
     "majority_stance": "Oppose",
     "agreement": "unanimous",
-    "entity_primary": "Issuer-former",
-    "entity_selfdescribed": "Issuer-former",
-    "entity_letterhead": "Issuer-former",
-    "entity_majority": "Issuer-former",
+    "entity_primary": "Issuer / Corporate — former",
+    "entity_selfdescribed": "Issuer / Corporate — former",
+    "entity_letterhead": "Issuer / Corporate — former",
+    "entity_majority": "Issuer / Corporate — former",
     "entity_agreement": "unanimous",
     "rationales": [
       "AU",
@@ -27218,17 +27288,17 @@
     "date": "2026-05-28",
     "name": "Scott Miller",
     "role": "Individual",
-    "entity": "Industry practitioner-technologist",
+    "entity": "Industry practitioner / technologist",
     "stance": "Oppose",
     "primary_stance": "Oppose",
     "literalist_stance": "Oppose",
     "skeptic_stance": "Oppose",
     "majority_stance": "Oppose",
     "agreement": "unanimous",
-    "entity_primary": "Industry practitioner-technologist",
-    "entity_selfdescribed": "Industry practitioner-technologist",
-    "entity_letterhead": "Industry practitioner-technologist",
-    "entity_majority": "Industry practitioner-technologist",
+    "entity_primary": "Industry practitioner / technologist",
+    "entity_selfdescribed": "Industry practitioner / technologist",
+    "entity_letterhead": "Industry practitioner / technologist",
+    "entity_majority": "Industry practitioner / technologist",
     "entity_agreement": "unanimous",
     "rationales": [
       "AU",
@@ -27416,20 +27486,25 @@
     "entity_majority": "Individual",
     "entity_agreement": "unanimous",
     "rationales": [
-      "NR"
+      "NR",
+      "PP"
     ],
-    "rationale_evidence": "No engaged rationale; the letter is an expression of outrage. PP-watch: explicit regulatory-capture attribution ('SEC wants to protect itself and other corrupt entities') qualifies as PP per the narrow definition.",
+    "rationale_evidence": "No engaged rationale; the letter is an expression of outrage. PP: 'we are dealing with the worst corruption ever and SEC wants to protect itself and other corrupt entities.'",
     "rationales_primary": [
-      "NR"
+      "NR",
+      "PP"
     ],
     "rationales_literalist": [
-      "NR"
+      "NR",
+      "PP"
     ],
     "rationales_inclusive": [
-      "NR"
+      "NR",
+      "PP"
     ],
     "rationales_majority": [
-      "NR"
+      "NR",
+      "PP"
     ],
     "rationale_agreement": "unanimous",
     "summary": "Brief retail Oppose: outrage at corruption; SEC wants to protect itself and other corrupt entities. PP-watch instance (capture attribution).",
@@ -27670,22 +27745,27 @@
     "entity_agreement": "unanimous",
     "rationales": [
       "FR",
+      "PP",
       "US"
     ],
-    "rationale_evidence": "FR: 'everywhere you see biannual reporting you will find fraud'. US: 'not a world standard'. PP-watch: explicit political attribution - 'at least under a republican administration' - qualifies as PP per the narrow definition.",
+    "rationale_evidence": "FR: 'everywhere you see biannual reporting you will find fraud'. US: 'not a world standard'. PP: 'everywhere you see biannual reporting you will find fraud but hey thats the United States way, right. Well at least under a republican administration.'",
     "rationales_primary": [
       "FR",
-      "US"
+      "US",
+      "PP"
     ],
     "rationales_literalist": [
-      "FR"
+      "FR",
+      "PP"
     ],
     "rationales_inclusive": [
       "FR",
-      "US"
+      "US",
+      "PP"
     ],
     "rationales_majority": [
       "FR",
+      "PP",
       "US"
     ],
     "rationale_agreement": "majority",
@@ -28051,23 +28131,28 @@
     "entity_agreement": "unanimous",
     "rationales": [
       "FR",
-      "MF"
+      "MF",
+      "PP"
     ],
-    "rationale_evidence": "FR: 'rug pull' / fraud framing. MF: 'economic crash like 2008'. PP-watch: 'The regime is already doing what they can to weaken the US economy, why would you guys volunteer to take the fall for them?' - explicit political-pressure / regime attribution, qualifies as PP per the narrow definition.",
+    "rationale_evidence": "FR: 'rug pull' / fraud framing. MF: 'economic crash like 2008'. PP: 'The regime is already doing what they can to weaken the US economy, why would you guys volunteer to take the fall for them??'",
     "rationales_primary": [
       "FR",
-      "MF"
+      "MF",
+      "PP"
     ],
     "rationales_literalist": [
-      "FR"
+      "FR",
+      "PP"
     ],
     "rationales_inclusive": [
       "FR",
-      "MF"
+      "MF",
+      "PP"
     ],
     "rationales_majority": [
       "FR",
-      "MF"
+      "MF",
+      "PP"
     ],
     "rationale_agreement": "majority",
     "summary": "Retail Oppose from a civil engineer: feckless CEOs will pull the same rug Elon is attempting with SpaceX; another 2008-style economic crash; the regime is weakening the US economy. PP-watch instance (regime attribution).",
@@ -28125,17 +28210,17 @@
     "date": "2026-06-02",
     "name": "Louis Lehot & Patrick Daugherty, Foley & Lardner LLP",
     "role": "Industry practitioner-technologist",
-    "entity": "Industry practitioner-technologist",
+    "entity": "Industry practitioner / technologist",
     "stance": "Support",
     "primary_stance": "Support",
     "literalist_stance": "Support",
     "skeptic_stance": "Support",
     "majority_stance": "Support",
     "agreement": "unanimous",
-    "entity_primary": "Industry practitioner-technologist",
-    "entity_selfdescribed": "Industry practitioner-technologist",
-    "entity_letterhead": "Industry practitioner-technologist",
-    "entity_majority": "Industry practitioner-technologist",
+    "entity_primary": "Industry practitioner / technologist",
+    "entity_selfdescribed": "Industry practitioner / technologist",
+    "entity_letterhead": "Industry practitioner / technologist",
+    "entity_majority": "Industry practitioner / technologist",
     "entity_agreement": "unanimous",
     "rationales": [
       "AL",
@@ -28276,7 +28361,7 @@
     "agreement": "unanimous",
     "entity_primary": "Individual",
     "entity_selfdescribed": "Individual",
-    "entity_letterhead": "Issuer-current",
+    "entity_letterhead": "Issuer / Corporate — current",
     "entity_majority": "Individual",
     "entity_agreement": "majority",
     "rationales": [
