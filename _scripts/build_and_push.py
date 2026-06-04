@@ -695,7 +695,7 @@ __REGRESSION_PANEL__
   <div class="search-row">
     <div class="search" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;">
       <select id="entsel" style="padding:7px 10px;border:0.5px solid rgba(0,0,0,0.2);border-radius:6px;font-size:13px;background:#fff;color:#1a1a1a;"></select>
-      <input id="q" type="search" placeholder="Search by name, role, stance, or rationale code (e.g. PP, MF)…" style="flex:1;min-width:200px;" />
+      <input id="q" type="search" placeholder="Search by name, role, stance, or rationale code (e.g. IP, IA, FR)…" style="flex:1;min-width:200px;" />
     </div>
     <button id="expand-toggle" class="expand-toggle" type="button">Expand all</button>
   </div>
