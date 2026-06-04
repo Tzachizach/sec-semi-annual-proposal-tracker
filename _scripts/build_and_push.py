@@ -37,6 +37,7 @@ PROJECT_DIR = SCRIPT_DIR.parent
 
 META_DIR = PROJECT_DIR / "_meta"
 RECORDS_PATH = META_DIR / "renumbered_records.json"
+FORM_LETTERS_PATH = META_DIR / "form_letters.json"
 TOKEN_PATH = META_DIR / ".github_token"
 SUPABASE_CREDS_PATH = META_DIR / ".supabase_credentials"
 GOATCOUNTER_PATH = META_DIR / ".goatcounter_code"
@@ -69,6 +70,9 @@ FILES_TO_PUSH = {
     "bodies.json": PUBLIC_BODIES,
     "rationale-taxonomy.html": PUBLIC_DIR / "rationale-taxonomy.html",
     "_meta/renumbered_records.json": RECORDS_PATH,
+    # SEC aggregate form-letter tally (template text + submitter counts). Held out of the
+    # 611 per-letter corpus and the regression; rendered as a separate side-by-side panel.
+    "_meta/form_letters.json": FORM_LETTERS_PATH,
     # Build scripts the GitHub Action runs. These MUST be pushed too, otherwise the
     # Action rebuilds the live site with a stale copy of build_and_push.py and reverts
     # local presentation work (amber Conditional color, longest-letters accordion,
@@ -77,6 +81,21 @@ FILES_TO_PUSH = {
     "_scripts/run_regression_compare.py": SCRIPT_DIR / "run_regression_compare.py",
     "_scripts/build_letters_for_models.py": SCRIPT_DIR / "build_letters_for_models.py",
 }
+
+
+def load_form_letters():
+    """Load _meta/form_letters.json — the SEC aggregate form-letter tally.
+
+    Returns the parsed dict, or None if the file is absent (in which case the
+    site renders without the form-letter panel). These are held out of the
+    per-letter corpus and the regression; see _meta/_classify_form_letters.py.
+    """
+    if not FORM_LETTERS_PATH.exists():
+        return None
+    try:
+        return json.loads(FORM_LETTERS_PATH.read_text())
+    except (ValueError, OSError):
+        return None
 
 
 def load_supabase_creds():
@@ -417,6 +436,8 @@ __TRAVEL_NOTICE__
 <p class="meta" id="meta">Loading…</p>
 
 <div class="cards" id="cards"></div>
+
+__FORM_LETTER_PANEL__
 
 <details class="methodology">
   <summary>Thanks</summary>
@@ -2254,9 +2275,117 @@ def _strip_voting_blocks(html):
     return html
 
 
+def build_form_letter_panel(fl, corpus_counts=None):
+    """Render the SEC aggregate form-letter tally as a static panel.
+
+    Reported SIDE BY SIDE with the per-letter corpus, never summed into the headline:
+    the submitter counts are anonymous aggregates that may overlap with named letters.
+    The panel does show a clearly-labeled hypothetical combined line (docketed + form
+    letters) at Tzachi's request, computed dynamically from `corpus_counts` so it stays
+    correct as the corpus grows. Returns "" when there is no form-letter data.
+
+    corpus_counts: optional dict {"total": int, "Oppose": int, "Conditional": int,
+    "Support": int} for the in-corpus snapshot. When absent, the combined line is omitted.
+    """
+    import html as _html
+    if not fl or not fl.get("types"):
+        return ""
+    total = fl.get("total_submitters", sum(t.get("submitter_count", 0) for t in fl["types"]))
+    n_types = fl.get("n_types", len(fl["types"]))
+    asof = fl.get("asof", "")
+    summ = fl.get("stance_summary", {}) or {}
+    # Stance one-liner: list only non-zero buckets so future Support/Conditional types show.
+    order = [("Oppose", "#993c1d"), ("Conditional", "#a8830d"), ("Support", "#3b6d11")]
+    parts = [f'<span style="color:{c};font-weight:600;">{summ.get(s,0)} {s}</span>'
+             for s, c in order if summ.get(s, 0)]
+    stance_line = ", ".join(parts) if parts else "—"
+
+    # Hypothetical combined line: docketed corpus + form-letter submitters, percentages
+    # recomputed against the combined total. Labeled as a hypothetical; the headline cards
+    # above stay at the docketed count.
+    combined_html = ""
+    if corpus_counts and corpus_counts.get("total"):
+        c_total = corpus_counts["total"]
+        comb_total = c_total + total
+        seg = []
+        for s, color in order:
+            c_n = corpus_counts.get(s, 0)
+            f_n = summ.get(s, 0)
+            comb = c_n + f_n
+            if comb == 0:
+                continue
+            pct = (comb / comb_total * 100) if comb_total else 0
+            add = f" ({c_n} + {f_n})" if f_n else ""
+            seg.append(
+                f'<span style="color:{color};font-weight:600;">{comb} {s}</span>'
+                f'<span style="color:#777;">{add} = {pct:.1f}%</span>'
+            )
+        combined_html = (
+            '<p style="margin:10px 0 0;font-size:13px;color:#444;line-height:1.5;'
+            'border-top:1px dashed #e0dacf;padding-top:10px;">'
+            '<strong>If the form-letter submitters are added to the docketed letters</strong> '
+            f'(hypothetical, not the headline count): <strong>{comb_total}</strong> total '
+            f'({c_total} + {total}) — ' + ", ".join(seg) + '. '
+            '<span style="color:#777;">Shown for scale only; the two tallies are reported separately '
+            'above because the form-letter submitters are anonymous and may overlap with named letters.</span>'
+            '</p>'
+        )
+
+    rows = []
+    for t in fl["types"]:
+        text_html = _html.escape(t.get("text", "")).replace("\n", "<br>")
+        stance = t.get("stance", "")
+        scolor = dict(order).get(stance, "#555")
+        rows.append(
+            '<tr>'
+            f'<td style="padding:6px 10px;font-weight:600;white-space:nowrap;">Type {_html.escape(t.get("type",""))}</td>'
+            f'<td style="padding:6px 10px;text-align:right;font-variant-numeric:tabular-nums;">{t.get("submitter_count",0)}</td>'
+            f'<td style="padding:6px 10px;"><span style="color:{scolor};font-weight:600;">{_html.escape(stance)}</span></td>'
+            f'<td style="padding:6px 10px;color:#444;font-style:italic;">&ldquo;{text_html}&rdquo;</td>'
+            '</tr>'
+        )
+    rows_html = "\n".join(rows)
+
+    return f'''<section id="form-letters" style="margin:14px 0 4px;border:1px solid #e6e1d8;border-radius:10px;background:#faf8f4;padding:16px 18px;">
+  <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 14px;">
+    <h2 style="margin:0;font-size:16px;">SEC form letters <span style="color:#777;font-weight:400;font-size:14px;">(aggregated)</span></h2>
+    <span style="font-size:13px;color:#555;">{total} submitters across {n_types} template types · {stance_line}</span>
+  </div>
+  <p style="margin:8px 0 0;font-size:13px;color:#555;line-height:1.5;">
+    The SEC posts campaign / form letters as a template text plus a submitter count, without docketing the individual
+    submissions. These are tracked separately from the <strong>{{CORPUS_N}}</strong> individually-classified letters above
+    and are <strong>not summed</strong> with them: the submitter counts are anonymous and may overlap with named letters.
+    Held out of the classification statistics and the regression. As reported by the SEC as of {asof}.
+  </p>
+  <table style="margin:12px 0 0;border-collapse:collapse;font-size:13px;width:100%;">
+    <thead>
+      <tr style="text-align:left;color:#777;border-bottom:1px solid #e0dacf;">
+        <th style="padding:4px 10px;font-weight:600;">Type</th>
+        <th style="padding:4px 10px;font-weight:600;text-align:right;">Submitters</th>
+        <th style="padding:4px 10px;font-weight:600;">Stance</th>
+        <th style="padding:4px 10px;font-weight:600;">Template text</th>
+      </tr>
+    </thead>
+    <tbody>
+{rows_html}
+    </tbody>
+  </table>
+  {combined_html}
+</section>'''
+
+
 def regenerate_html(snapshot, asof_iso, records=None, with_voting=False):
     snapshot_js = json.dumps(snapshot, ensure_ascii=False)
     html = HTML_TEMPLATE.replace("__RECORDS__", snapshot_js).replace("__ASOF__", asof_iso)
+    # SEC aggregate form-letter panel (side by side with the per-letter corpus, never summed
+    # in the headline; the panel shows a labeled hypothetical combined line).
+    fl = load_form_letters()
+    corpus_n = len(snapshot)
+    corpus_counts = {"total": corpus_n}
+    for s in ("Oppose", "Conditional", "Support"):
+        corpus_counts[s] = sum(1 for r in snapshot if r.get("stance") == s)
+    html = html.replace("__FORM_LETTER_PANEL__",
+                        build_form_letter_panel(fl, corpus_counts).replace("{CORPUS_N}", str(corpus_n)))
     # Regression panel — three-spec stacked layout, numbers from _meta/regression_compare.json
     reg = load_regression_compare()
     html = html.replace("__REGRESSION_PANEL__", build_regression_panel(reg))

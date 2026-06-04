@@ -1,0 +1,73 @@
+{
+  "asof": "2026-06-04",
+  "source": "SEC.gov docket S7-2026-15 — aggregate form-letter postings",
+  "source_url": "https://www.sec.gov/rules-regulations/public-comments/s7-2026-15",
+  "note": "SEC form / campaign letters are posted as a template text plus a submitter count; the individual submissions are not separately docketed. These are held out of the per-letter corpus and the regression, and reported as a separate opposition tally. Submitter counts are anonymous aggregates and may overlap with named corpus letters, so this tally is reported side by side with the 611 individually-classified letters and is not summed with them.",
+  "n_types": 3,
+  "total_submitters": 28,
+  "stance_summary": {
+    "Oppose": 28,
+    "Conditional": 0,
+    "Support": 0
+  },
+  "generated": "2026-06-04",
+  "types": [
+    {
+      "type": "A",
+      "submitter_count": 18,
+      "text": "Dear Commissioners,\nPlease keep quarterly reporting requirements in place.\nThanks,",
+      "primary_stance": "Oppose",
+      "literalist_stance": "Oppose",
+      "skeptic_stance": "Oppose",
+      "stance": "Oppose",
+      "agreement": "unanimous",
+      "entity": "NR",
+      "entity_agreement": "unanimous",
+      "rationales": [],
+      "rationale_agreement": "unanimous",
+      "rater_notes": {
+        "primary": "Oppose — a request to keep quarterly reporting in place is opposition to the move to optional semiannual (Form 10-S).",
+        "literalist": "Oppose — explicit instruction to retain the existing quarterly requirement; status-quo preservation is opposition to the change.",
+        "skeptic": "Oppose — no qualification, concession, or alternative cadence; nothing to flip to Conditional."
+      }
+    },
+    {
+      "type": "B",
+      "submitter_count": 6,
+      "text": "Dear SEC Officials,\nAs an investor, I oppose this rule change.\nRegards,",
+      "primary_stance": "Oppose",
+      "literalist_stance": "Oppose",
+      "skeptic_stance": "Oppose",
+      "stance": "Oppose",
+      "agreement": "unanimous",
+      "entity": "NR",
+      "entity_agreement": "unanimous",
+      "rationales": [],
+      "rationale_agreement": "unanimous",
+      "rater_notes": {
+        "primary": "Oppose — explicit 'I oppose this rule change.'",
+        "literalist": "Oppose — verbatim opposition language.",
+        "skeptic": "Oppose — unconditional; no hedge."
+      }
+    },
+    {
+      "type": "C",
+      "submitter_count": 4,
+      "text": "I strongly oppose moving to semiannual reporting.",
+      "primary_stance": "Oppose",
+      "literalist_stance": "Oppose",
+      "skeptic_stance": "Oppose",
+      "stance": "Oppose",
+      "agreement": "unanimous",
+      "entity": "NR",
+      "entity_agreement": "unanimous",
+      "rationales": [],
+      "rationale_agreement": "unanimous",
+      "rater_notes": {
+        "primary": "Oppose — explicit 'strongly oppose.'",
+        "literalist": "Oppose — verbatim opposition language.",
+        "skeptic": "Oppose — unconditional; no hedge."
+      }
+    }
+  ]
+}
