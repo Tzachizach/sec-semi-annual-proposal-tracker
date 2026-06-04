@@ -49,6 +49,7 @@ ENTITY_ORDER = [
     "Investment professional",
     "Academic researcher",
     "Industry practitioner / technologist",
+    "Legal practitioner",
     "Student",
 ]
 REF = "Individual"
@@ -73,6 +74,7 @@ def short(entity):
     if entity == "Investment professional": return "Investment prof."
     if entity == "Academic researcher": return "Academic"
     if entity == "Industry practitioner / technologist": return "Industry pract."
+    if entity == "Legal practitioner": return "Legal pract."
     if entity == "Student": return "Student"
     return entity
 
