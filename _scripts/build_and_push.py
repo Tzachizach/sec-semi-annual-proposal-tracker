@@ -693,7 +693,10 @@ __REGRESSION_PANEL__
     Each letter is classified three times for stance, entity, and rationales, each time by a different Claude rubric. The small pill next to each value shows whether the three raters agreed: <strong>Unanimous</strong> (all three matched), <strong>2 of 3</strong> (majority match), or <strong>Split</strong> (all three differed, rationales only). See the methodology sections above for the rubric details.
   </p>
   <div class="search-row">
-    <div class="search"><input id="q" type="search" placeholder="Search by name, role, stance, or rationale code (e.g. PP, MF)…" /></div>
+    <div class="search" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;">
+      <select id="entsel" style="padding:7px 10px;border:0.5px solid rgba(0,0,0,0.2);border-radius:6px;font-size:13px;background:#fff;color:#1a1a1a;"></select>
+      <input id="q" type="search" placeholder="Search by name, role, stance, or rationale code (e.g. PP, MF)…" style="flex:1;min-width:200px;" />
+    </div>
     <button id="expand-toggle" class="expand-toggle" type="button">Expand all</button>
   </div>
   <table class="full" id="full">
@@ -1458,18 +1461,20 @@ function fmtFullDate(iso) {
 
 function renderTable() {
   const q = (document.getElementById('q').value||'').toLowerCase().trim();
+  const entSel = (document.getElementById('entsel')||{}).value || '';
   const searching = q.length > 0;
   let rows = RECORDS.slice();
+  if (entSel) rows = rows.filter(r => (r.entity || '') === entSel);
   if (q) {
     // If the query is exactly a rationale code (e.g. "PP", "MF", "ICc"), match on that code
     // ONLY — exact membership in the letter's rationale set, not a substring of names/roles.
-    // Otherwise fall back to a name / role / stance substring search.
+    // Otherwise fall back to a name / role / entity / stance substring search.
     const codeMap = {};
     RECORDS.forEach(r => (r.rationales || []).forEach(c => { codeMap[c.toUpperCase()] = c; }));
     const codeHit = codeMap[q.toUpperCase()];
     rows = rows.filter(r => codeHit
       ? (r.rationales || []).includes(codeHit)
-      : (r.name + ' ' + r.role + ' ' + r.stance).toLowerCase().includes(q));
+      : (r.name + ' ' + r.role + ' ' + r.entity + ' ' + r.stance).toLowerCase().includes(q));
   }
   rows.sort((a,b)=>{
     const av=a[sortKey], bv=b[sortKey];
@@ -1547,6 +1552,18 @@ document.querySelectorAll('table.full th').forEach(th => {
     renderTable();
   });
 });
+// Populate the commenter-type (entity) filter dropdown from the data, ordered by count.
+(function(){
+  const sel = document.getElementById('entsel');
+  if (!sel) return;
+  const c = {};
+  RECORDS.forEach(r => { const e = r.entity || 'Other'; c[e] = (c[e]||0) + 1; });
+  const order = Object.keys(c).sort((a,b) => c[b] - c[a]);
+  const escAttr = s => String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;');
+  sel.innerHTML = '<option value="">All commenter types (' + RECORDS.length + ')</option>' +
+    order.map(e => '<option value="' + escAttr(e) + '">' + escAttr(e) + ' (' + c[e] + ')</option>').join('');
+  sel.addEventListener('change', renderTable);
+})();
 document.getElementById('q').addEventListener('input', renderTable);
 
 // Click a date-header row → toggle that group
