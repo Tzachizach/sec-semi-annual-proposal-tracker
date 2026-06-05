@@ -2505,7 +2505,7 @@ def build_form_letter_panel(fl, corpus_counts=None):
 
     plain_stances = ", ".join(f"{summ.get(s, 0)} {s}" for s, _ in order if summ.get(s, 0))
     return f'''<details class="methodology" id="form-letters" style="margin:14px 0 18px;">
-  <summary>SEC <span style="color:#993c1d;">form letters</span> — aggregated templates <span class="accordion-meta">({total} submitters · {plain_stances} · not counted)</span></summary>
+  <summary><span style="flex:1 1 auto;min-width:0;">SEC <span style="color:#993c1d;">form letters</span> — aggregated templates <span class="accordion-meta">({total} submitters · {plain_stances} · not counted)</span></span></summary>
   <div class="body">
   <p style="margin:4px 0 0;font-size:13px;color:#555;">{total} submitters across {n_types} template types · {stance_line}</p>
   <p style="margin:8px 0 0;font-size:13px;color:#555;line-height:1.5;">
@@ -2583,7 +2583,7 @@ def build_nopos_panel(records):
         )
     n = len(nopos)
     return f'''<details class="methodology" id="no-position">
-  <summary>No-position <span style="color:#888780;">letters</span> — filed, but take no stance <span class="accordion-meta">({n} letters: one formal extension request, the rest one-liners · listed, not counted)</span></summary>
+  <summary><span style="flex:1 1 auto;min-width:0;">No-position <span style="color:#888780;">letters</span> <span class="accordion-meta">({n} — from Better Markets&rsquo; extension request to &ldquo;Sounds cool&rdquo; · listed, not counted)</span></span></summary>
   <div class="body">
     <p style="margin:8px 0 0;font-size:13px;color:#555;line-height:1.5;">
       These letters were filed on the docket but state no Support / Oppose / Conditional position on reporting
