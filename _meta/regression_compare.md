@@ -1,6 +1,6 @@
 # SEC S7-2026-15 — regression spec comparison
 
-_Last run: 2026-06-04. Three specs on the same predictor set, different outcomes._
+_Last run: 2026-06-05. Three specs on the same predictor set, different outcomes._
 
 ## Specifications
 
