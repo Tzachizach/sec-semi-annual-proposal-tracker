@@ -16,17 +16,17 @@ Predictors in all three: 7 entity dummies (reference Individual) + log(words+1).
 
 | Variable | Logit β | Logit p | LPM β | LPM p | Ord. β | Ord. p |
 |---|---:|---:|---:|---:|---:|---:|
-| Constant | -6.92 | nan | -0.025 | 0.250 | — | — |
-| Accountant CPA | +1.55 | nan | +0.051 | 0.434 | +1.73 | nan |
-| Issuer-current | +2.46 | nan | +0.178 | 0.337 | +2.74 | nan |
-| Issuer-former | (sep.) | nan | -0.016 | 0.014 | +2.03 | nan |
-| Investment prof. | (sep.) | nan | -0.017 | 0.022 | (sep.) | nan |
-| Academic | +1.84 | nan | +0.214 | 0.304 | +2.17 | nan |
-| Industry pract. | (sep.) | nan | -0.019 | 0.029 | -0.28 | nan |
-| Legal pract. | (sep.) | nan | +0.991 | 0.000 | (sep.) | nan |
-| Trade assoc. | +0.00 | nan | +0.000 | 0.534 | +0.00 | nan |
-| Student | +3.37 | nan | +0.314 | 0.263 | +2.59 | nan |
-| log(words+1) | +0.59 | nan | +0.009 | 0.128 | +0.73 | nan |
+| Constant | -6.92 | 0.000 | -0.025 | 0.250 | — | — |
+| Accountant CPA | +1.55 | 0.167 | +0.051 | 0.434 | +1.73 | nan |
+| Issuer-current | +2.46 | 0.047 | +0.178 | 0.337 | +2.74 | nan |
+| Issuer-former | (sep.) | 0.926 | -0.016 | 0.014 | +2.03 | nan |
+| Investment prof. | (sep.) | 0.979 | -0.017 | 0.022 | (sep.) | nan |
+| Academic | +1.84 | 0.222 | +0.214 | 0.304 | +2.17 | nan |
+| Industry pract. | (sep.) | 0.987 | -0.019 | 0.029 | -0.28 | nan |
+| Legal pract. | (sep.) | 1.000 | +0.991 | 0.000 | (sep.) | nan |
+| Trade assoc. | +0.00 | 1.000 | -0.000 | 0.009 | +0.00 | nan |
+| Student | +3.37 | 0.011 | +0.314 | 0.263 | +2.59 | nan |
+| log(words+1) | +0.59 | 0.052 | +0.009 | 0.128 | +0.73 | nan |
 
 ## Fit statistics
 
