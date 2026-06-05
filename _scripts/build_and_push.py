@@ -214,6 +214,7 @@ h2 { font-size: 16px; font-weight: 500; margin: 0 0 12px; }
 .pill.Support { background: #EAF3DE; color: #27500A; }
 .pill.Conditional { background: #fcf2c0; color: #6b4f0a; }
 .pill.PDF { background: #F1EFE8; color: #444441; }
+.pill.NoPosition { background: #F1EFE8; color: #444441; }
 .longest-row { display: grid; grid-template-columns: 36px 70px 1.2fr 100px 56px 1.4fr;
   align-items: baseline; gap: 12px; padding: 10px 12px;
   border: 0.5px solid rgba(0,0,0,0.1); border-radius: 8px; font-size: 13px;
@@ -438,6 +439,8 @@ __TRAVEL_NOTICE__
 <div class="cards" id="cards"></div>
 
 __FORM_LETTER_PANEL__
+
+__NOPOS_PANEL__
 
 <details class="methodology">
   <summary>Thanks</summary>
@@ -786,6 +789,10 @@ __REGRESSION_PANEL__
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.js"></script>
 <script>
 const RECORDS = __RECORDS__;
+// No-position letters: on-topic letters that take no Support/Oppose/Conditional stance
+// (procedural comments, extension requests, research). Shown in the table and search,
+// NOT counted in the cards, charts, or regression.
+const NOPOS = __NOPOS_RECORDS__;
 
 /*VOTING:BEGIN*/
 // These constants must be declared BEFORE renderTable() runs, since voteButton() reads them.
@@ -819,7 +826,7 @@ const STANCE_COLORS = { 'Oppose':'#993c1d', 'Support':'#3b6d11', 'Conditional':'
 const STANCE_ORDER = ['Oppose','Conditional','Support','PDF — not parsed'];
 
 function pct(n,t) { return t===0?'0%':Math.round(n/t*100)+'%'; }
-function pillClass(s) { return s==='PDF — not parsed' ? 'PDF' : s; }
+function pillClass(s) { return s==='PDF — not parsed' ? 'PDF' : s==='No position' ? 'NoPosition' : s; }
 function fmtMonthDay(d) {
   const m = d.match(/^(\d{4})-(\d{2})-(\d{2})$/);
   if (!m) return d;
@@ -1464,14 +1471,14 @@ function renderTable() {
   const q = (document.getElementById('q').value||'').toLowerCase().trim();
   const entSel = (document.getElementById('entsel')||{}).value || '';
   const searching = q.length > 0;
-  let rows = RECORDS.slice();
+  let rows = RECORDS.concat(NOPOS);   // table + search include No-position letters
   if (entSel) rows = rows.filter(r => (r.entity || '') === entSel);
   if (q) {
     // If the query is exactly a rationale code (e.g. "PP", "MF", "ICc"), match on that code
     // ONLY — exact membership in the letter's rationale set, not a substring of names/roles.
     // Otherwise fall back to a name / role / entity / stance substring search.
     const codeMap = {};
-    RECORDS.forEach(r => (r.rationales || []).forEach(c => { codeMap[c.toUpperCase()] = c; }));
+    RECORDS.concat(NOPOS).forEach(r => (r.rationales || []).forEach(c => { codeMap[c.toUpperCase()] = c; }));
     const codeHit = codeMap[q.toUpperCase()];
     rows = rows.filter(r => codeHit
       ? (r.rationales || []).includes(codeHit)
@@ -1558,10 +1565,10 @@ document.querySelectorAll('table.full th').forEach(th => {
   const sel = document.getElementById('entsel');
   if (!sel) return;
   const c = {};
-  RECORDS.forEach(r => { const e = r.entity || 'Other'; c[e] = (c[e]||0) + 1; });
+  RECORDS.concat(NOPOS).forEach(r => { const e = r.entity || 'Other'; c[e] = (c[e]||0) + 1; });
   const order = Object.keys(c).sort((a,b) => c[b] - c[a]);
   const escAttr = s => String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;');
-  sel.innerHTML = '<option value="">All commenter types (' + RECORDS.length + ')</option>' +
+  sel.innerHTML = '<option value="">All commenter types (' + (RECORDS.length + NOPOS.length) + ')</option>' +
     order.map(e => '<option value="' + escAttr(e) + '">' + escAttr(e) + ' (' + c[e] + ')</option>').join('');
   sel.addEventListener('change', renderTable);
 })();
@@ -2496,11 +2503,9 @@ def build_form_letter_panel(fl, corpus_counts=None):
         )
     rows_html = "\n".join(rows)
 
-    return f'''<section id="form-letters" style="margin:14px 0 4px;border:1px solid #e6e1d8;border-radius:10px;background:#faf8f4;padding:16px 18px;">
-  <div style="display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 14px;">
-    <h2 style="margin:0;font-size:16px;">SEC form letters <span style="color:#777;font-weight:400;font-size:14px;">(aggregated)</span></h2>
-    <span style="font-size:13px;color:#555;">{total} submitters across {n_types} template types · {stance_line}</span>
-  </div>
+    return f'''<details class="methodology" id="form-letters" style="margin:14px 0 4px;">
+  <summary>SEC <span style="color:#993c1d;">form letters</span> — aggregated campaign templates <span class="accordion-meta">({total} submitters across {n_types} types · {stance_line} · tracked separately, not in the letter counts)</span></summary>
+  <div class="body">
   <p style="margin:8px 0 0;font-size:13px;color:#555;line-height:1.5;">
     The SEC posts campaign / form letters as a template text plus a submitter count, without docketing the individual
     submissions. These are tracked separately from the <strong>{{CORPUS_N}}</strong> individually-classified letters above
@@ -2521,7 +2526,81 @@ def build_form_letter_panel(fl, corpus_counts=None):
     </tbody>
   </table>
   {combined_html}
-</section>'''
+  </div>
+</details>'''
+
+
+def build_nopos_snapshot(records):
+    """Compress the No-position letters with the same fields as the main snapshot so the
+    All-letters table and search can render them. They stay OUT of data.json, the stance
+    cards, the charts, the rater stats, and the regression."""
+    out = []
+    for r in records:
+        if (r.get("majority_stance") or r.get("stance", "")) != "No position":
+            continue
+        out.append({
+            "n": r["n"], "page": r.get("page", 0), "date": r.get("date", ""),
+            "name": r.get("name", ""), "role": (r.get("role", "") or "")[:120],
+            "entity": r.get("entity", ""), "entity_agreement": r.get("entity_agreement", ""),
+            "entity_primary": r.get("entity_primary", ""), "entity_selfdescribed": r.get("entity_selfdescribed", ""),
+            "entity_letterhead": r.get("entity_letterhead", ""),
+            "stance": "No position", "primary": r.get("primary_stance", ""),
+            "literalist": r.get("literalist_stance", ""), "skeptic": r.get("skeptic_stance", ""),
+            "agreement": r.get("agreement", ""), "url": r.get("url", ""), "words": r.get("words", 0),
+            "rationales": r.get("rationales", []), "rationale_agreement": r.get("rationale_agreement", ""),
+            "rationales_primary": r.get("rationales_primary", []),
+            "rationales_literalist": r.get("rationales_literalist", []),
+            "rationales_inclusive": r.get("rationales_inclusive", []),
+        })
+    return out
+
+
+def build_nopos_panel(records):
+    """Accordion (next to the form-letter accordion) listing the No-position letters:
+    on-topic letters that take no Support/Oppose/Conditional stance — procedural comments,
+    extension requests, research submissions. Listed and searchable, never counted."""
+    import html as _html
+    nopos = [r for r in records if (r.get("majority_stance") or r.get("stance", "")) == "No position"]
+    if not nopos:
+        return ""
+    nopos.sort(key=lambda r: (r.get("date", ""), r.get("n", 0)), reverse=True)
+    rows = []
+    for r in nopos:
+        nm = _html.escape(r.get("name", ""))
+        if r.get("url"):
+            nm = f'<a href="{_html.escape(r["url"])}" target="_blank" rel="noopener" style="color:#1a1a1a;font-weight:500;text-decoration:none;">{nm}</a>'
+        summ = _html.escape((r.get("summary", "") or "")[:220])
+        rows.append(
+            '<tr>'
+            f'<td style="padding:6px 8px;color:#888;">#{r["n"]}</td>'
+            f'<td style="padding:6px 8px;white-space:nowrap;">{_html.escape(r.get("date",""))}</td>'
+            f'<td style="padding:6px 8px;">{nm}<div style="color:#888;font-size:11px;">{_html.escape((r.get("role","") or "")[:90])}</div></td>'
+            f'<td style="padding:6px 8px;color:#666;">{_html.escape(r.get("entity",""))}</td>'
+            f'<td style="padding:6px 8px;color:#444;">{summ}</td>'
+            '</tr>'
+        )
+    n = len(nopos)
+    return f'''<details class="methodology" id="no-position" style="margin:4px 0 4px;">
+  <summary>No-position letters — on-topic, but take no stance <span class="accordion-meta">({n} letters: procedural comments, extension requests, research · listed here and in the table below, not counted in the totals)</span></summary>
+  <div class="body">
+    <p style="margin:8px 0 0;font-size:13px;color:#555;line-height:1.5;">
+      These letters address File No. S7-2026-15 but state no Support / Oppose / Conditional position on reporting
+      frequency — comment-period extension requests, procedural notes, and research submissions. They are excluded
+      from the stance totals, the charts, the rater statistics, and the regression, but appear in the All-letters
+      table and the search so they remain findable.
+    </p>
+    <table style="margin:12px 0 0;border-collapse:collapse;font-size:12.5px;width:100%;">
+      <thead><tr style="text-align:left;color:#777;border-bottom:1px solid #e0dacf;">
+        <th style="padding:4px 8px;font-weight:600;">#</th><th style="padding:4px 8px;font-weight:600;">Date</th>
+        <th style="padding:4px 8px;font-weight:600;">Commenter</th><th style="padding:4px 8px;font-weight:600;">Type</th>
+        <th style="padding:4px 8px;font-weight:600;">What it is</th>
+      </tr></thead>
+      <tbody>
+{chr(10).join(rows)}
+      </tbody>
+    </table>
+  </div>
+</details>'''
 
 
 def regenerate_html(snapshot, asof_iso, records=None, with_voting=False):
@@ -2536,6 +2615,9 @@ def regenerate_html(snapshot, asof_iso, records=None, with_voting=False):
         corpus_counts[s] = sum(1 for r in snapshot if r.get("stance") == s)
     html = html.replace("__FORM_LETTER_PANEL__",
                         build_form_letter_panel(fl, corpus_counts).replace("{CORPUS_N}", str(corpus_n)))
+    # No-position letters: accordion next to the form letters + injected for the table/search.
+    html = html.replace("__NOPOS_PANEL__", build_nopos_panel(records or []))
+    html = html.replace("__NOPOS_RECORDS__", json.dumps(build_nopos_snapshot(records or []), ensure_ascii=False))
     # Regression panel — three-spec stacked layout, numbers from _meta/regression_compare.json
     reg = load_regression_compare()
     html = html.replace("__REGRESSION_PANEL__", build_regression_panel(reg))
