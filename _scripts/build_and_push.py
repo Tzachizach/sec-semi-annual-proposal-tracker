@@ -2503,9 +2503,11 @@ def build_form_letter_panel(fl, corpus_counts=None):
         )
     rows_html = "\n".join(rows)
 
-    return f'''<details class="methodology" id="form-letters" style="margin:14px 0 4px;">
-  <summary>SEC <span style="color:#993c1d;">form letters</span> — aggregated campaign templates <span class="accordion-meta">({total} submitters across {n_types} types · {stance_line} · tracked separately, not in the letter counts)</span></summary>
+    plain_stances = ", ".join(f"{summ.get(s, 0)} {s}" for s, _ in order if summ.get(s, 0))
+    return f'''<details class="methodology" id="form-letters" style="margin:14px 0 18px;">
+  <summary>SEC <span style="color:#993c1d;">form letters</span> — aggregated templates <span class="accordion-meta">({total} submitters · {plain_stances} · not counted)</span></summary>
   <div class="body">
+  <p style="margin:4px 0 0;font-size:13px;color:#555;">{total} submitters across {n_types} template types · {stance_line}</p>
   <p style="margin:8px 0 0;font-size:13px;color:#555;line-height:1.5;">
     The SEC posts campaign / form letters as a template text plus a submitter count, without docketing the individual
     submissions. These are tracked separately from the <strong>{{CORPUS_N}}</strong> individually-classified letters above
@@ -2569,7 +2571,7 @@ def build_nopos_panel(records):
         nm = _html.escape(r.get("name", ""))
         if r.get("url"):
             nm = f'<a href="{_html.escape(r["url"])}" target="_blank" rel="noopener" style="color:#1a1a1a;font-weight:500;text-decoration:none;">{nm}</a>'
-        summ = _html.escape((r.get("summary", "") or "")[:220])
+        summ = _html.escape(r.get("summary", "") or "")
         rows.append(
             '<tr>'
             f'<td style="padding:6px 8px;color:#888;">#{r["n"]}</td>'
@@ -2580,8 +2582,8 @@ def build_nopos_panel(records):
             '</tr>'
         )
     n = len(nopos)
-    return f'''<details class="methodology" id="no-position" style="margin:4px 0 4px;">
-  <summary>No-position letters — on-topic, but take no stance <span class="accordion-meta">({n} letters: procedural comments, extension requests, research · listed here and in the table below, not counted in the totals)</span></summary>
+    return f'''<details class="methodology" id="no-position">
+  <summary>No-position <span style="color:#888780;">letters</span> — on-topic, no stance <span class="accordion-meta">({n} letters · listed, not counted)</span></summary>
   <div class="body">
     <p style="margin:8px 0 0;font-size:13px;color:#555;line-height:1.5;">
       These letters address File No. S7-2026-15 but state no Support / Oppose / Conditional position on reporting
