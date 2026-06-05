@@ -502,9 +502,9 @@ __FORM_LETTER_PANEL__
 <details class="methodology">
   <summary>How <span class="kw-commenters">commenters</span> <span class="accordion-meta">(entity)</span> are classified <span class="accordion-meta">(three-rater LLM ensemble)</span></summary>
   <div class="body">
-    Letters fall into one of nine buckets by <strong>who is writing</strong>. As with stance, three rubrics classify each letter independently, and the headline bucket is the <strong>majority of three</strong>. A colleague with FASB comment-letter experience helped refine the taxonomy.
+    Letters fall into one of ten buckets by <strong>who is writing</strong>. As with stance, three rubrics classify each letter independently, and the headline bucket is the <strong>majority of three</strong>. A colleague with FASB comment-letter experience helped refine the taxonomy.
 
-    <div style="margin-top: 10px;"><strong>The nine buckets:</strong></div>
+    <div style="margin-top: 10px;"><strong>The ten buckets:</strong></div>
     <ol style="margin: 6px 0 14px 18px; padding: 0; color: #444;">
       <li><strong>Individual</strong> — default dump bucket. We use "Individual" (not "Individual investor").</li>
       <li><strong>Accountant (CPA)</strong> — CPA or chartered accountant credential, speaking from that professional lens.</li>
@@ -514,6 +514,7 @@ __FORM_LETTER_PANEL__
       <li><strong>Academic researcher</strong> — university faculty appointment.</li>
       <li><strong>Industry practitioner / technologist</strong> — non-academic professional roles outside corporate-issuer / investment-firm worlds (CISSP, software developer, IT auditor, compliance professional, etc.).</li>
       <li><strong>Legal practitioner</strong> — law firms, securities/corporate attorneys, and bar-association committees writing in a legal capacity (added 2026-06-04, carried over from the 2018 S7-26-18 rubric).</li>
+      <li><strong>Trade association / advocacy organization</strong> — non-profit advocacy groups, trade associations, and investor-education/investment-club bodies writing on behalf of an organization (added 2026-06-05, carried over from the 2018 S7-26-18 rubric).</li>
       <li><strong>Student</strong> — currently enrolled student.</li>
     </ol>
 
@@ -962,7 +963,7 @@ document.getElementById('stance-list').innerHTML = sLabels.map((s,i)=>
   '<span class="num"><strong>'+sData[i]+'</strong> · '+pct(sData[i], agg.total)+'</span></li>'
 ).join('');
 
-const ENTITY_ORDER = ['Individual','Accountant (CPA)','Issuer / Corporate — current','Issuer / Corporate — former','Investment professional','Academic researcher','Industry practitioner / technologist','Legal practitioner','Student','Other / Anonymous'];
+const ENTITY_ORDER = ['Individual','Accountant (CPA)','Issuer / Corporate — current','Issuer / Corporate — former','Investment professional','Academic researcher','Industry practitioner / technologist','Legal practitioner','Trade association / advocacy organization','Student','Other / Anonymous'];
 const entityCounts = STANCE_ORDER.map(s => ENTITY_ORDER.map(_ => 0));
 for (const r of RECORDS) {
   const i = ENTITY_ORDER.indexOf(r.entity || '');
@@ -1055,7 +1056,7 @@ if (HAS_CHART) new Chart(document.getElementById('bucketChart'), {
 
 const LEN_COLORS = ['#B5D4F4','#85B7EB','#378ADD','#185FA5','#0C447C'];
 const LEN_LABELS = BUCKETS.map(b => b.name + 'w');
-const ENTITY_ORDER_CT = ['Individual','Accountant (CPA)','Issuer / Corporate — current','Issuer / Corporate — former','Investment professional','Academic researcher','Industry practitioner / technologist','Legal practitioner','Student','Other / Anonymous'];
+const ENTITY_ORDER_CT = ['Individual','Accountant (CPA)','Issuer / Corporate — current','Issuer / Corporate — former','Investment professional','Academic researcher','Industry practitioner / technologist','Legal practitioner','Trade association / advocacy organization','Student','Other / Anonymous'];
 const ctCounts = LEN_LABELS.map(_ => ENTITY_ORDER_CT.map(__ => 0));
 const ctWords = ENTITY_ORDER_CT.map(_ => []);
 for (const r of RECORDS) {
