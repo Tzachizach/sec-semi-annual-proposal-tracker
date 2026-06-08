@@ -1,6 +1,6 @@
 # SEC S7-2026-15 — regression spec comparison
 
-_Last run: 2026-06-05. Three specs on the same predictor set, different outcomes._
+_Last run: 2026-06-08. Three specs on the same predictor set, different outcomes._
 
 ## Specifications
 
@@ -24,7 +24,7 @@ Predictors in all three: 7 entity dummies (reference Individual) + log(words+1).
 | Academic | +1.85 | nan | +0.214 | 0.302 | +2.19 | nan |
 | Industry pract. | (sep.) | nan | -0.019 | 0.030 | -0.26 | nan |
 | Legal pract. | (sep.) | nan | +0.991 | 0.000 | (sep.) | nan |
-| Trade assoc. | +0.00 | nan | -0.000 | 0.050 | +0.00 | nan |
+| Trade assoc. | +0.00 | nan | +0.000 | 0.182 | +0.00 | nan |
 | Student | +3.40 | nan | +0.314 | 0.262 | +2.62 | nan |
 | log(words+1) | +0.60 | nan | +0.009 | 0.128 | +0.74 | nan |
 
