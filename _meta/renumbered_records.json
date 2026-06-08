@@ -33879,26 +33879,36 @@
     "date": "2026-05-27",
     "name": "Christopher Babayans",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "NR"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "NR"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
+      "NR"
+    ],
+    "rationales_majority": [
+      "NR"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Christopher Babayans — retail/individual letter; rationale NR.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2409606.htm",
     "words": 19,
     "letter_id": "2409606"
@@ -33909,26 +33919,36 @@
     "date": "2026-05-27",
     "name": "Christopher Fisher",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IP"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IP"
+    ],
+    "rationales_majority": [
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Christopher Fisher — retail/individual letter; rationale IP.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2409546.htm",
     "words": 24,
     "letter_id": "2409546"
@@ -33939,26 +33959,36 @@
     "date": "2026-05-27",
     "name": "D",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IP"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IP"
+    ],
+    "rationales_majority": [
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: D — retail/individual letter; rationale IP.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2409506.htm",
     "words": 44,
     "letter_id": "2409506"
@@ -33969,26 +33999,41 @@
     "date": "2026-05-27",
     "name": "Derek Martin",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "FR",
+      "IP"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "FR",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "FR",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "FR",
+      "IP"
+    ],
+    "rationales_majority": [
+      "FR",
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Derek Martin — retail/individual letter; rationale FR,IP.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2409646.htm",
     "words": 24,
     "letter_id": "2409646"
@@ -33999,26 +34044,41 @@
     "date": "2026-05-27",
     "name": "JAVIER KATO",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IA",
+      "MF"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "IA",
+      "MF"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "MF"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "MF"
+    ],
+    "rationales_majority": [
+      "IA",
+      "MF"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: JAVIER KATO — retail/individual letter; rationale IA,MF.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2409586.htm",
     "words": 37,
     "letter_id": "2409586"
@@ -34029,26 +34089,36 @@
     "date": "2026-05-27",
     "name": "jeff kaps",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "MF"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "MF"
+    ],
+    "rationales_literalist": [
+      "MF"
+    ],
+    "rationales_inclusive": [
+      "MF"
+    ],
+    "rationales_majority": [
+      "MF"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: jeff kaps — retail/individual letter; rationale MF.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2409647.htm",
     "words": 30,
     "letter_id": "2409647"
@@ -34059,26 +34129,36 @@
     "date": "2026-05-27",
     "name": "Paul Swirski",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IA"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "IA"
+    ],
+    "rationales_literalist": [
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "IA"
+    ],
+    "rationales_majority": [
+      "IA"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Paul Swirski — retail/individual letter; rationale IA.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2409466.htm",
     "words": 26,
     "letter_id": "2409466"
@@ -34089,26 +34169,41 @@
     "date": "2026-05-31",
     "name": "Ahulani",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IP",
+      "FR"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "IP",
+      "FR"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "FR"
+    ],
+    "rationales_majority": [
+      "IP",
+      "FR"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Ahulani — retail/individual letter; rationale IP,FR.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2408586.htm",
     "words": 88,
     "letter_id": "2408586"
@@ -34119,26 +34214,36 @@
     "date": "2026-05-31",
     "name": "ALAN HART",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "MF"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "MF"
+    ],
+    "rationales_literalist": [
+      "MF"
+    ],
+    "rationales_inclusive": [
+      "MF"
+    ],
+    "rationales_majority": [
+      "MF"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: ALAN HART — retail/individual letter; rationale MF.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2408688.htm",
     "words": 37,
     "letter_id": "2408688"
@@ -34149,26 +34254,36 @@
     "date": "2026-05-31",
     "name": "Alexis R.",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "MF"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "MF"
+    ],
+    "rationales_literalist": [
+      "MF"
+    ],
+    "rationales_inclusive": [
+      "MF"
+    ],
+    "rationales_majority": [
+      "MF"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Alexis R. — retail/individual letter; rationale MF.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2407746.htm",
     "words": 21,
     "letter_id": "2407746"
@@ -34179,26 +34294,41 @@
     "date": "2026-05-31",
     "name": "Alyssa Zacarias",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Student",
+    "entity_majority": "Individual",
+    "entity_agreement": "majority",
+    "rationales": [
+      "MF",
+      "FR"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "MF",
+      "FR"
+    ],
+    "rationales_literalist": [
+      "MF",
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "MF",
+      "FR"
+    ],
+    "rationales_majority": [
+      "MF",
+      "FR"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Alyssa Zacarias — Individual; rationale MF,FR.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2408966.htm",
     "words": 61,
     "letter_id": "2408966"
@@ -34209,26 +34339,36 @@
     "date": "2026-05-31",
     "name": "Anne Handy",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "NR"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "NR"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
+      "NR"
+    ],
+    "rationales_majority": [
+      "NR"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Anne Handy — retail/individual letter; rationale NR.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2407146.htm",
     "words": 14,
     "letter_id": "2407146"
@@ -34239,26 +34379,36 @@
     "date": "2026-05-31",
     "name": "Anonymous",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "FR"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "FR"
+    ],
+    "rationales_literalist": [
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "FR"
+    ],
+    "rationales_majority": [
+      "FR"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Anonymous — retail/individual letter; rationale FR.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2407406.htm",
     "words": 42,
     "letter_id": "2407406"
@@ -34269,26 +34419,45 @@
     "date": "2026-05-31",
     "name": "Anonymous",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Conditional",
+    "majority_stance": "Oppose",
+    "agreement": "majority",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IP",
+      "FR",
+      "ST"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "IP",
+      "FR",
+      "ST"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "FR",
+      "ST"
+    ],
+    "rationales_majority": [
+      "IP",
+      "FR",
+      "ST"
+    ],
+    "rationale_agreement": "majority",
+    "summary": "Oppose: Anonymous — retail/individual letter; rationale IP,FR,ST.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2407627.htm",
     "words": 81,
     "letter_id": "2407627"
@@ -34299,26 +34468,36 @@
     "date": "2026-05-31",
     "name": "Anonymous",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "FR"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "FR"
+    ],
+    "rationales_literalist": [
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "FR"
+    ],
+    "rationales_majority": [
+      "FR"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Anonymous — retail/individual letter; rationale FR.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2408506.htm",
     "words": 43,
     "letter_id": "2408506"
@@ -34329,26 +34508,41 @@
     "date": "2026-05-31",
     "name": "Anonymous",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IA",
+      "FR"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "IA",
+      "FR"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "FR"
+    ],
+    "rationales_majority": [
+      "IA",
+      "FR"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Anonymous — retail/individual letter; rationale IA,FR.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2407987.htm",
     "words": 39,
     "letter_id": "2407987"
@@ -34359,26 +34553,36 @@
     "date": "2026-05-31",
     "name": "Billy Welch",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IA"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "IA"
+    ],
+    "rationales_literalist": [
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "IA"
+    ],
+    "rationales_majority": [
+      "IA"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Billy Welch — retail/individual letter; rationale IA.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2407346.htm",
     "words": 81,
     "letter_id": "2407346"
@@ -34389,26 +34593,36 @@
     "date": "2026-05-31",
     "name": "BJ Mitchell",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Industry practitioner / technologist",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Industry practitioner / technologist",
+    "entity_selfdescribed": "Industry practitioner / technologist",
+    "entity_letterhead": "Industry practitioner / technologist",
+    "entity_majority": "Industry practitioner / technologist",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "MF"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "MF"
+    ],
+    "rationales_literalist": [
+      "MF"
+    ],
+    "rationales_inclusive": [
+      "MF"
+    ],
+    "rationales_majority": [
+      "MF"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: BJ Mitchell — Industry practitioner / technologist; rationale MF.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2407966.htm",
     "words": 83,
     "letter_id": "2407966"
@@ -34419,26 +34633,36 @@
     "date": "2026-05-31",
     "name": "Brandon Mitchell",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "FR"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "FR"
+    ],
+    "rationales_literalist": [
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "FR"
+    ],
+    "rationales_majority": [
+      "FR"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Brandon Mitchell — retail/individual letter; rationale FR.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2407986.htm",
     "words": 40,
     "letter_id": "2407986"
@@ -34449,26 +34673,41 @@
     "date": "2026-05-31",
     "name": "Chayce Horton",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "MF",
+      "IP"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "MF",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "MF",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "MF",
+      "IP"
+    ],
+    "rationales_majority": [
+      "MF",
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Chayce Horton — retail/individual letter; rationale MF,IP.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2407486.htm",
     "words": 41,
     "letter_id": "2407486"
@@ -34479,26 +34718,36 @@
     "date": "2026-05-27",
     "name": "Christina Anne Burnham",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "NR"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "NR"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
+      "NR"
+    ],
+    "rationales_majority": [
+      "NR"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Christina Anne Burnham — retail/individual letter; rationale NR.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-796459-2407266.html",
     "words": 32,
     "letter_id": "796459-2407266"
@@ -34509,26 +34758,41 @@
     "date": "2026-05-31",
     "name": "Christopher Janik",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "FR",
+      "IA"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "FR",
+      "IA"
+    ],
+    "rationales_literalist": [
+      "FR",
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "FR",
+      "IA"
+    ],
+    "rationales_majority": [
+      "FR",
+      "IA"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Christopher Janik — retail/individual letter; rationale FR,IA.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2408806.htm",
     "words": 75,
     "letter_id": "2408806"
@@ -34539,26 +34803,41 @@
     "date": "2026-05-31",
     "name": "Christopher Kortlever",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IA",
+      "IP"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "IA",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "IP"
+    ],
+    "rationales_majority": [
+      "IA",
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Christopher Kortlever — retail/individual letter; rationale IA,IP.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2407907.htm",
     "words": 43,
     "letter_id": "2407907"
@@ -34569,26 +34848,36 @@
     "date": "2026-05-31",
     "name": "Christopher Smith",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "FR"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "FR"
+    ],
+    "rationales_literalist": [
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "FR"
+    ],
+    "rationales_majority": [
+      "FR"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Christopher Smith — retail/individual letter; rationale FR.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2408046.htm",
     "words": 22,
     "letter_id": "2408046"
@@ -34599,26 +34888,45 @@
     "date": "2026-05-27",
     "name": "Edward Delana",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IP",
+      "FR",
+      "CB"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "IP",
+      "FR",
+      "CB"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "FR",
+      "CB"
+    ],
+    "rationales_majority": [
+      "IP",
+      "FR",
+      "CB"
+    ],
+    "rationale_agreement": "majority",
+    "summary": "Oppose: Edward Delana — retail/individual letter; rationale IP,FR,CB.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-796539-2408206.html",
     "words": 87,
     "letter_id": "796539-2408206"
@@ -34629,26 +34937,49 @@
     "date": "2026-05-31",
     "name": "Eric Patterson",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "FR",
+      "IA",
+      "EX",
+      "CB"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "FR",
+      "IA",
+      "EX",
+      "CB"
+    ],
+    "rationales_literalist": [
+      "FR",
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "FR",
+      "IA",
+      "EX",
+      "CB"
+    ],
+    "rationales_majority": [
+      "FR",
+      "IA",
+      "EX",
+      "CB"
+    ],
+    "rationale_agreement": "majority",
+    "summary": "Oppose: Eric Patterson — retail/individual letter; rationale FR,IA,EX,CB.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2408426.htm",
     "words": 286,
     "letter_id": "2408426"
@@ -34659,26 +34990,41 @@
     "date": "2026-05-31",
     "name": "Fred Boll",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "FR",
+      "IA"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "FR",
+      "IA"
+    ],
+    "rationales_literalist": [
+      "FR",
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "FR",
+      "IA"
+    ],
+    "rationales_majority": [
+      "FR",
+      "IA"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Fred Boll — retail/individual letter; rationale FR,IA.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2407726.htm",
     "words": 45,
     "letter_id": "2407726"
@@ -34689,26 +35035,36 @@
     "date": "2026-05-31",
     "name": "Gary Boni",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IA"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "IA"
+    ],
+    "rationales_literalist": [
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "IA"
+    ],
+    "rationales_majority": [
+      "IA"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Gary Boni — retail/individual letter; rationale IA.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2407246.htm",
     "words": 19,
     "letter_id": "2407246"
@@ -34719,26 +35075,36 @@
     "date": "2026-05-31",
     "name": "Henry Han",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "FR"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "FR"
+    ],
+    "rationales_literalist": [
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "FR"
+    ],
+    "rationales_majority": [
+      "FR"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Henry Han — retail/individual letter; rationale FR.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2408567.htm",
     "words": 27,
     "letter_id": "2408567"
@@ -34749,26 +35115,41 @@
     "date": "2026-05-27",
     "name": "Huy H.",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IA",
+      "IP"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "IA",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "IP"
+    ],
+    "rationales_majority": [
+      "IA",
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Huy H. — retail/individual letter; rationale IA,IP.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-796799-2409733.html",
     "words": 37,
     "letter_id": "796799-2409733"
@@ -34779,26 +35160,36 @@
     "date": "2026-05-27",
     "name": "Jackie Callahan",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "AU"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "AU"
+    ],
+    "rationales_literalist": [
+      "AU"
+    ],
+    "rationales_inclusive": [
+      "AU"
+    ],
+    "rationales_majority": [
+      "AU"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Jackie Callahan — retail/individual letter; rationale AU.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-796519-2408106.html",
     "words": 28,
     "letter_id": "796519-2408106"
@@ -34809,26 +35200,41 @@
     "date": "2026-05-31",
     "name": "Jeff Laufenberg",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Industry practitioner / technologist",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Industry practitioner / technologist",
+    "entity_selfdescribed": "Industry practitioner / technologist",
+    "entity_letterhead": "Industry practitioner / technologist",
+    "entity_majority": "Industry practitioner / technologist",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IA",
+      "FR"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "IA",
+      "FR"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "FR"
+    ],
+    "rationales_majority": [
+      "IA",
+      "FR"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Jeff Laufenberg — Industry practitioner / technologist; rationale IA,FR.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2408726.htm",
     "words": 64,
     "letter_id": "2408726"
@@ -34839,26 +35245,36 @@
     "date": "2026-05-31",
     "name": "266 Jeremy",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "NR"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "NR"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
+      "NR"
+    ],
+    "rationales_majority": [
+      "NR"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: 266 Jeremy — retail/individual letter; rationale NR.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2407906.htm",
     "words": 23,
     "letter_id": "2407906"
@@ -34869,26 +35285,45 @@
     "date": "2026-05-31",
     "name": "Jim Casey",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Conditional",
+    "majority_stance": "Oppose",
+    "agreement": "majority",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "CB",
+      "US",
+      "MF"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "CB",
+      "US",
+      "MF"
+    ],
+    "rationales_literalist": [
+      "CB",
+      "US"
+    ],
+    "rationales_inclusive": [
+      "CB",
+      "US",
+      "MF"
+    ],
+    "rationales_majority": [
+      "CB",
+      "US",
+      "MF"
+    ],
+    "rationale_agreement": "majority",
+    "summary": "Oppose: Jim Casey — retail/individual letter; rationale CB,US,MF.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2407566.htm",
     "words": 104,
     "letter_id": "2407566"
@@ -34899,26 +35334,36 @@
     "date": "2026-05-31",
     "name": "Jim Dionne",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IP"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IP"
+    ],
+    "rationales_majority": [
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Jim Dionne — retail/individual letter; rationale IP.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2407706.htm",
     "words": 11,
     "letter_id": "2407706"
@@ -34929,26 +35374,36 @@
     "date": "2026-05-31",
     "name": "Jim Roberts",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IA"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "IA"
+    ],
+    "rationales_literalist": [
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "IA"
+    ],
+    "rationales_majority": [
+      "IA"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Jim Roberts — retail/individual letter; rationale IA.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2408066.htm",
     "words": 27,
     "letter_id": "2408066"
@@ -34959,26 +35414,36 @@
     "date": "2026-05-31",
     "name": "Jordan Porter",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IP"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IP"
+    ],
+    "rationales_majority": [
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Jordan Porter — retail/individual letter; rationale IP.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2408826.htm",
     "words": 47,
     "letter_id": "2408826"
@@ -34989,26 +35454,36 @@
     "date": "2026-05-31",
     "name": "Josh Seifferlein",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Issuer / Corporate — current",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Industry practitioner / technologist",
+    "entity_selfdescribed": "Issuer / Corporate — current",
+    "entity_letterhead": "Issuer / Corporate — current",
+    "entity_majority": "Issuer / Corporate — current",
+    "entity_agreement": "majority",
+    "rationales": [
+      "IA"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "IA"
+    ],
+    "rationales_literalist": [
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "IA"
+    ],
+    "rationales_majority": [
+      "IA"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Josh Seifferlein — Issuer / Corporate — current; rationale IA.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2407946.htm",
     "words": 66,
     "letter_id": "2407946"
@@ -35019,26 +35494,41 @@
     "date": "2026-05-31",
     "name": "Justin Bull",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IP",
+      "FR"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "IP",
+      "FR"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "FR"
+    ],
+    "rationales_majority": [
+      "IP",
+      "FR"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Justin Bull — retail/individual letter; rationale IP,FR.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2407386.htm",
     "words": 39,
     "letter_id": "2407386"
@@ -35049,26 +35539,36 @@
     "date": "2026-05-31",
     "name": "Karen Taylor",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IA"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "IA"
+    ],
+    "rationales_literalist": [
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "IA"
+    ],
+    "rationales_majority": [
+      "IA"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Karen Taylor — retail/individual letter; rationale IA.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2407306.htm",
     "words": 77,
     "letter_id": "2407306"
@@ -35079,26 +35579,36 @@
     "date": "2026-05-31",
     "name": "Luis Rengifo",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "MF"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "MF"
+    ],
+    "rationales_literalist": [
+      "MF"
+    ],
+    "rationales_inclusive": [
+      "MF"
+    ],
+    "rationales_majority": [
+      "MF"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Luis Rengifo — retail/individual letter; rationale MF.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2407646.htm",
     "words": 26,
     "letter_id": "2407646"
@@ -35109,26 +35619,41 @@
     "date": "2026-05-31",
     "name": "Lynda Seymour",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Industry practitioner / technologist",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Industry practitioner / technologist",
+    "entity_letterhead": "Industry practitioner / technologist",
+    "entity_majority": "Industry practitioner / technologist",
+    "entity_agreement": "majority",
+    "rationales": [
+      "FR",
+      "IA"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "FR",
+      "IA"
+    ],
+    "rationales_literalist": [
+      "FR",
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "FR",
+      "IA"
+    ],
+    "rationales_majority": [
+      "FR",
+      "IA"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Lynda Seymour — Industry practitioner / technologist; rationale FR,IA.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2408166.htm",
     "words": 158,
     "letter_id": "2408166"
@@ -35139,26 +35664,41 @@
     "date": "2026-05-31",
     "name": "Martijn Vels",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IA",
+      "FR"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "IA",
+      "FR"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "FR"
+    ],
+    "rationales_majority": [
+      "IA",
+      "FR"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Martijn Vels — retail/individual letter; rationale IA,FR.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2407267.htm",
     "words": 26,
     "letter_id": "2407267"
@@ -35169,26 +35709,36 @@
     "date": "2026-05-31",
     "name": "Michael McIntosh",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IA"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "IA"
+    ],
+    "rationales_literalist": [
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "IA"
+    ],
+    "rationales_majority": [
+      "IA"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Michael McIntosh — retail/individual letter; rationale IA.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2408646.htm",
     "words": 149,
     "letter_id": "2408646"
@@ -35199,26 +35749,36 @@
     "date": "2026-05-31",
     "name": "Michael Vangeli",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Industry practitioner / technologist",
+    "entity_majority": "Individual",
+    "entity_agreement": "majority",
+    "rationales": [
+      "IA"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "IA"
+    ],
+    "rationales_literalist": [
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "IA"
+    ],
+    "rationales_majority": [
+      "IA"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Michael Vangeli — Individual; rationale IA.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2407466.htm",
     "words": 27,
     "letter_id": "2407466"
@@ -35229,26 +35789,45 @@
     "date": "2026-05-31",
     "name": "Michael Wayland",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Conditional",
+    "majority_stance": "Oppose",
+    "agreement": "majority",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IA",
+      "MF",
+      "FR"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "IA",
+      "MF",
+      "FR"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "MF"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "MF",
+      "FR"
+    ],
+    "rationales_majority": [
+      "IA",
+      "MF",
+      "FR"
+    ],
+    "rationale_agreement": "majority",
+    "summary": "Oppose: Michael Wayland — retail/individual letter; rationale IA,MF,FR.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2407446.htm",
     "words": 110,
     "letter_id": "2407446"
@@ -35259,26 +35838,41 @@
     "date": "2026-05-31",
     "name": "Mike Lucas",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "MF",
+      "IA"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "MF",
+      "IA"
+    ],
+    "rationales_literalist": [
+      "MF",
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "MF",
+      "IA"
+    ],
+    "rationales_majority": [
+      "MF",
+      "IA"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Mike Lucas — retail/individual letter; rationale MF,IA.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2408526.htm",
     "words": 55,
     "letter_id": "2408526"
@@ -35289,26 +35883,36 @@
     "date": "2026-05-31",
     "name": "Mitch Hughes",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IP"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IP"
+    ],
+    "rationales_majority": [
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Mitch Hughes — retail/individual letter; rationale IP.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2408987.htm",
     "words": 70,
     "letter_id": "2408987"
@@ -35319,26 +35923,36 @@
     "date": "2026-05-31",
     "name": "Mohit Deopujari",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Industry practitioner / technologist",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Industry practitioner / technologist",
+    "entity_selfdescribed": "Industry practitioner / technologist",
+    "entity_letterhead": "Industry practitioner / technologist",
+    "entity_majority": "Industry practitioner / technologist",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IP"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IP"
+    ],
+    "rationales_majority": [
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Mohit Deopujari — Industry practitioner / technologist; rationale IP.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2408689.htm",
     "words": 33,
     "letter_id": "2408689"
@@ -35349,26 +35963,36 @@
     "date": "2026-05-31",
     "name": "Nick McCally",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "FR"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "FR"
+    ],
+    "rationales_literalist": [
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "FR"
+    ],
+    "rationales_majority": [
+      "FR"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Nick McCally — retail/individual letter; rationale FR.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2408547.htm",
     "words": 43,
     "letter_id": "2408547"
@@ -35379,26 +36003,41 @@
     "date": "2026-05-31",
     "name": "Nicole Arnold",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IP",
+      "IA"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "IP",
+      "IA"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "IA"
+    ],
+    "rationales_majority": [
+      "IP",
+      "IA"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Nicole Arnold — retail/individual letter; rationale IP,IA.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2407786.htm",
     "words": 24,
     "letter_id": "2407786"
@@ -35409,26 +36048,36 @@
     "date": "2026-05-31",
     "name": "Pramod Hansdak",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "NR"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "NR"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
+      "NR"
+    ],
+    "rationales_majority": [
+      "NR"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Pramod Hansdak — retail/individual letter; rationale NR.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2407587.htm",
     "words": 30,
     "letter_id": "2407587"
@@ -35439,26 +36088,36 @@
     "date": "2026-05-31",
     "name": "Rachel E. Hanson",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IP"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IP"
+    ],
+    "rationales_majority": [
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Rachel E. Hanson — retail/individual letter; rationale IP.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2407886.htm",
     "words": 32,
     "letter_id": "2407886"
@@ -35469,26 +36128,36 @@
     "date": "2026-05-31",
     "name": "Rich Rasulis Jr",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IP"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IP"
+    ],
+    "rationales_majority": [
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Rich Rasulis Jr — retail/individual letter; rationale IP.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2408846.htm",
     "words": 52,
     "letter_id": "2408846"
@@ -35499,26 +36168,41 @@
     "date": "2026-05-27",
     "name": "Roy Johnaon",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "US",
+      "MF"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "US",
+      "MF"
+    ],
+    "rationales_literalist": [
+      "US",
+      "MF"
+    ],
+    "rationales_inclusive": [
+      "US",
+      "MF"
+    ],
+    "rationales_majority": [
+      "US",
+      "MF"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Roy Johnaon — retail/individual letter; rationale US,MF.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-796499-2407926.html",
     "words": 39,
     "letter_id": "796499-2407926"
@@ -35529,26 +36213,36 @@
     "date": "2026-05-31",
     "name": "S",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IP"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IP"
+    ],
+    "rationales_majority": [
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: S — retail/individual letter; rationale IP.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2407866.htm",
     "words": 24,
     "letter_id": "2407866"
@@ -35559,26 +36253,36 @@
     "date": "2026-05-31",
     "name": "Sherif Bates",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IA"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "IA"
+    ],
+    "rationales_literalist": [
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "IA"
+    ],
+    "rationales_majority": [
+      "IA"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Sherif Bates — retail/individual letter; rationale IA.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2408546.htm",
     "words": 48,
     "letter_id": "2408546"
@@ -35589,26 +36293,41 @@
     "date": "2026-05-31",
     "name": "Sophie Latterno",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "FR",
+      "IA"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "FR",
+      "IA"
+    ],
+    "rationales_literalist": [
+      "FR",
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "FR",
+      "IA"
+    ],
+    "rationales_majority": [
+      "FR",
+      "IA"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Sophie Latterno — retail/individual letter; rationale FR,IA.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2407928.htm",
     "words": 43,
     "letter_id": "2407928"
@@ -35619,26 +36338,41 @@
     "date": "2026-05-31",
     "name": "Tbianchi",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IA",
+      "FR"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "IA",
+      "FR"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "FR"
+    ],
+    "rationales_majority": [
+      "IA",
+      "FR"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Tbianchi — retail/individual letter; rationale IA,FR.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2407626.htm",
     "words": 32,
     "letter_id": "2407626"
@@ -35649,26 +36383,41 @@
     "date": "2026-05-31",
     "name": "Tim Klein",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "FR",
+      "IA"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "FR",
+      "IA"
+    ],
+    "rationales_literalist": [
+      "FR",
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "FR",
+      "IA"
+    ],
+    "rationales_majority": [
+      "FR",
+      "IA"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Tim Klein — retail/individual letter; rationale FR,IA.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2407506.htm",
     "words": 28,
     "letter_id": "2407506"
@@ -35679,26 +36428,41 @@
     "date": "2026-05-31",
     "name": "Tom Bargsley",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Accountant (CPA)",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Accountant (CPA)",
+    "entity_selfdescribed": "Accountant (CPA)",
+    "entity_letterhead": "Accountant (CPA)",
+    "entity_majority": "Accountant (CPA)",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "MF",
+      "IP"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "MF",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "MF",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "MF",
+      "IP"
+    ],
+    "rationales_majority": [
+      "MF",
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Tom Bargsley — Accountant (CPA); rationale MF,IP.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2407366.htm",
     "words": 70,
     "letter_id": "2407366"
@@ -35709,26 +36473,36 @@
     "date": "2026-05-31",
     "name": "Tom Bromaeus",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IA"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "IA"
+    ],
+    "rationales_literalist": [
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "IA"
+    ],
+    "rationales_majority": [
+      "IA"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Tom Bromaeus — retail/individual letter; rationale IA.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2408086.htm",
     "words": 22,
     "letter_id": "2408086"
@@ -35739,26 +36513,36 @@
     "date": "2026-05-31",
     "name": "Troy Winfrey",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Industry practitioner / technologist",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Industry practitioner / technologist",
+    "entity_letterhead": "Industry practitioner / technologist",
+    "entity_majority": "Industry practitioner / technologist",
+    "entity_agreement": "majority",
+    "rationales": [
+      "IP"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IP"
+    ],
+    "rationales_majority": [
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Troy Winfrey — Industry practitioner / technologist; rationale IP.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2408786.htm",
     "words": 32,
     "letter_id": "2408786"
@@ -35769,26 +36553,41 @@
     "date": "2026-05-31",
     "name": "Vern Horstman",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IP",
+      "FR"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "IP",
+      "FR"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "FR"
+    ],
+    "rationales_majority": [
+      "IP",
+      "FR"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Vern Horstman — retail/individual letter; rationale IP,FR.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2408566.htm",
     "words": 19,
     "letter_id": "2408566"
@@ -35799,26 +36598,41 @@
     "date": "2026-05-31",
     "name": "Virginia R. Stark",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "MF",
+      "FR"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "MF",
+      "FR"
+    ],
+    "rationales_literalist": [
+      "MF",
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "MF",
+      "FR"
+    ],
+    "rationales_majority": [
+      "MF",
+      "FR"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Virginia R. Stark — retail/individual letter; rationale MF,FR.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2406807.htm",
     "words": 78,
     "letter_id": "2406807"
@@ -35829,26 +36643,49 @@
     "date": "2026-05-31",
     "name": "VJ Rife",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "MF",
+      "IA",
+      "EX",
+      "CB"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "MF",
+      "IA",
+      "EX",
+      "CB"
+    ],
+    "rationales_literalist": [
+      "MF",
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "MF",
+      "IA",
+      "EX",
+      "CB"
+    ],
+    "rationales_majority": [
+      "MF",
+      "IA",
+      "EX",
+      "CB"
+    ],
+    "rationale_agreement": "majority",
+    "summary": "Oppose: VJ Rife — retail/individual letter; rationale MF,IA,EX,CB.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2407806.htm",
     "words": 80,
     "letter_id": "2407806"
@@ -35859,26 +36696,36 @@
     "date": "2026-05-31",
     "name": "William Lopez",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IP"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IP"
+    ],
+    "rationales_majority": [
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: William Lopez — retail/individual letter; rationale IP.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2408666.htm",
     "words": 33,
     "letter_id": "2408666"
@@ -35889,26 +36736,41 @@
     "date": "2026-05-31",
     "name": "Zackery Alvarez",
     "role": "Individual",
-    "entity": "Unclassified",
-    "stance": "Unclassified",
-    "primary_stance": "Unclassified",
-    "literalist_stance": "Unclassified",
-    "skeptic_stance": "Unclassified",
-    "majority_stance": "Unclassified",
-    "agreement": "",
-    "entity_primary": "Unclassified",
-    "entity_selfdescribed": "Unclassified",
-    "entity_letterhead": "Unclassified",
-    "entity_majority": "Unclassified",
-    "entity_agreement": "",
-    "rationales": [],
+    "entity": "Individual",
+    "stance": "Oppose",
+    "primary_stance": "Oppose",
+    "literalist_stance": "Oppose",
+    "skeptic_stance": "Oppose",
+    "majority_stance": "Oppose",
+    "agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "entity_majority": "Individual",
+    "entity_agreement": "unanimous",
+    "rationales": [
+      "IA",
+      "FR"
+    ],
     "rationale_evidence": "",
-    "rationales_primary": [],
-    "rationales_literalist": [],
-    "rationales_inclusive": [],
-    "rationales_majority": [],
-    "rationale_agreement": "",
-    "summary": "(Awaiting Claude classification.)",
+    "rationales_primary": [
+      "IA",
+      "FR"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "FR"
+    ],
+    "rationales_majority": [
+      "IA",
+      "FR"
+    ],
+    "rationale_agreement": "unanimous",
+    "summary": "Oppose: Zackery Alvarez — retail/individual letter; rationale IA,FR.",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2408486_0.htm",
     "words": 38,
     "letter_id": "2408486_0"
