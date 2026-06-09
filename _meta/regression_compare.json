@@ -2,56 +2,56 @@
   "as_of": "2026-06-09",
   "n_records": 845,
   "logit": {
-    "n": 778,
-    "ll": -47.650253915449206,
-    "mcfadden": 0.23106074099446494,
+    "n": 803,
+    "ll": -47.896638920574674,
+    "mcfadden": 0.2318256821642074,
     "n_support": 12,
-    "n_oppose": 766,
+    "n_oppose": 791,
     "by_var": {
       "const": {
-        "coef": -7.253623730277715,
+        "coef": -7.298622567493564,
         "se": NaN,
         "p": NaN,
         "separated": false
       },
       "ent_Accountant_CPA": {
-        "coef": 1.5839980493130967,
+        "coef": 1.622845169518278,
         "se": NaN,
         "p": NaN,
         "separated": false
       },
       "ent_Issuer_Corporate_\u2014_current": {
-        "coef": 2.381799436277203,
+        "coef": 2.4119599514514003,
         "se": NaN,
         "p": NaN,
         "separated": false
       },
       "ent_Issuer_Corporate_\u2014_former": {
-        "coef": -5.59895544543608,
+        "coef": -5.994749011881483,
         "se": NaN,
         "p": NaN,
         "separated": true
       },
       "ent_Investment_professional": {
-        "coef": -11.329564170760403,
+        "coef": -12.144238583584421,
         "se": NaN,
         "p": NaN,
         "separated": true
       },
       "ent_Academic_researcher": {
-        "coef": 1.8234659147965624,
+        "coef": 1.849653295369759,
         "se": NaN,
         "p": NaN,
         "separated": false
       },
       "ent_Industry_practitioner_technologist": {
-        "coef": -13.234951004112029,
+        "coef": -14.273909238228764,
         "se": NaN,
         "p": NaN,
         "separated": true
       },
       "ent_Legal_practitioner": {
-        "coef": 46.8154785484375,
+        "coef": 50.929382348067485,
         "se": NaN,
         "p": NaN,
         "separated": true
@@ -63,13 +63,13 @@
         "separated": false
       },
       "ent_Student": {
-        "coef": 3.454805493679187,
+        "coef": 3.485674696934229,
         "se": NaN,
         "p": NaN,
         "separated": false
       },
       "log_words": {
-        "coef": 0.636732860334001,
+        "coef": 0.6388914880915854,
         "se": NaN,
         "p": NaN,
         "separated": false
@@ -77,171 +77,171 @@
     }
   },
   "lpm": {
-    "n": 778,
-    "r2": 0.14897797976035898,
-    "adj_r2": 0.1390050654606757,
+    "n": 803,
+    "r2": 0.14902886345682154,
+    "adj_r2": 0.13937093126402367,
     "cov_type": "HC1",
     "by_var": {
       "const": {
-        "coef": -0.025959814314190005,
-        "se": 0.020750150594712143,
-        "p": 0.21091028618529162,
+        "coef": -0.025435906483819392,
+        "se": 0.020379338786442696,
+        "p": 0.21198628574852318,
         "separated": false
       },
       "ent_Accountant_CPA": {
-        "coef": 0.0478401323719859,
-        "se": 0.06076439073726653,
-        "p": 0.4311031149534501,
+        "coef": 0.04834567930145687,
+        "se": 0.06074443047003165,
+        "p": 0.4260979402808234,
         "separated": false
       },
       "ent_Issuer_Corporate_\u2014_current": {
-        "coef": 0.14694353710327468,
-        "se": 0.1568758106014272,
-        "p": 0.34891956981630623,
+        "coef": 0.14757740603947847,
+        "se": 0.15674114908218503,
+        "p": 0.3464303428247206,
         "separated": false
       },
       "ent_Issuer_Corporate_\u2014_former": {
-        "coef": -0.014674736875227613,
-        "se": 0.0060204648165399395,
-        "p": 0.014790207013090657,
+        "coef": -0.014168813103383542,
+        "se": 0.005817821650496938,
+        "p": 0.014874697782052781,
         "separated": true
       },
       "ent_Investment_professional": {
-        "coef": -0.015534073748994695,
-        "se": 0.006797943872429374,
-        "p": 0.02230616967853018,
+        "coef": -0.015006371164695482,
+        "se": 0.006579337143593815,
+        "p": 0.022558313830165554,
         "separated": true
       },
       "ent_Academic_researcher": {
-        "coef": 0.21508761120358774,
-        "se": 0.20768528573987516,
-        "p": 0.3003691755325143,
+        "coef": 0.21610643281466102,
+        "se": 0.2078603976760374,
+        "p": 0.29849276638550903,
         "separated": false
       },
       "ent_Industry_practitioner_technologist": {
-        "coef": -0.016536183112348675,
-        "se": 0.007360033775477715,
-        "p": 0.024655772283476127,
+        "coef": -0.015831530710305755,
+        "se": 0.00701948418765656,
+        "p": 0.024110144027865706,
         "separated": true
       },
       "ent_Legal_practitioner": {
-        "coef": 0.9919272882707809,
-        "se": 0.003218308821819122,
+        "coef": 0.9922658920173182,
+        "se": 0.003100932715742411,
         "p": 0.0,
         "separated": true
       },
       "ent_Trade_association_advocacy_organization": {
-        "coef": 8.204184955699285e-17,
-        "se": 1.848471875156741e-17,
-        "p": 9.064661353871498e-06,
+        "coef": -8.940124981811636e-17,
+        "se": 7.795362140570384e-17,
+        "p": 0.2514428827155316,
         "separated": false
       },
       "ent_Student": {
-        "coef": 0.3149843000346353,
-        "se": 0.27970197268474767,
-        "p": 0.2601051750757538,
+        "coef": 0.3155833442289294,
+        "se": 0.279494484371056,
+        "p": 0.2588464125252803,
         "separated": false
       },
       "log_words": {
-        "coef": 0.009289464551352392,
-        "se": 0.005864869213337989,
-        "p": 0.11321266638322779,
+        "coef": 0.009054034753738926,
+        "se": 0.005741593121968374,
+        "p": 0.11481386471700106,
         "separated": false
       }
     }
   },
   "ordinal": {
-    "n": 803,
-    "ll": -128.13781194160723,
-    "mcfadden": 0.2606546051912648,
-    "n_oppose": 766,
+    "n": 828,
+    "ll": -128.7583959885723,
+    "mcfadden": 0.2620171421823686,
+    "n_oppose": 791,
     "n_conditional": 25,
     "n_support": 12,
     "cutpoints": [
-      7.004692544071911,
-      8.490055990328495
+      7.063279833653511,
+      8.548376111553203
     ],
     "by_var": {
       "ent_Accountant_CPA": {
-        "coef": 1.7648895663396138,
-        "se": NaN,
-        "p": NaN,
+        "coef": 1.797046659686866,
+        "se": 0.6975441699408625,
+        "p": 0.009987902722537807,
         "separated": false
       },
       "ent_Issuer_Corporate_\u2014_current": {
-        "coef": 2.6970482482231013,
-        "se": NaN,
-        "p": NaN,
+        "coef": 2.725850656041884,
+        "se": 0.6434729545511066,
+        "p": 2.273806605979646e-05,
         "separated": false
       },
       "ent_Issuer_Corporate_\u2014_former": {
-        "coef": 2.129015222927763,
-        "se": NaN,
-        "p": NaN,
+        "coef": 2.161668027163594,
+        "se": 0.8459915027068982,
+        "p": 0.010613020967975038,
         "separated": false
       },
       "ent_Investment_professional": {
-        "coef": -9.875265752549966,
-        "se": NaN,
-        "p": NaN,
+        "coef": -13.884759016054229,
+        "se": 1242.2318677988471,
+        "p": 0.9910820157919481,
         "separated": true
       },
       "ent_Academic_researcher": {
-        "coef": 2.155524495853131,
-        "se": NaN,
-        "p": NaN,
+        "coef": 2.17672794000731,
+        "se": 0.8307230062550764,
+        "p": 0.008785726840258483,
         "separated": false
       },
       "ent_Industry_practitioner_technologist": {
-        "coef": -0.36918801542282903,
-        "se": NaN,
-        "p": NaN,
+        "coef": -0.3725025753315661,
+        "se": 1.1143660745776716,
+        "p": 0.7381735054464325,
         "separated": false
       },
       "ent_Legal_practitioner": {
-        "coef": 33.110067287682675,
-        "se": NaN,
-        "p": NaN,
+        "coef": 48.334296476504164,
+        "se": 105014496.64604028,
+        "p": 0.9999996327631885,
         "separated": true
       },
       "ent_Trade_association_advocacy_organization": {
         "coef": 0.0,
-        "se": NaN,
-        "p": NaN,
+        "se": 115307885.03050573,
+        "p": 1.0,
         "separated": false
       },
       "ent_Student": {
-        "coef": 2.6783090277442914,
-        "se": NaN,
-        "p": NaN,
+        "coef": 2.70919831648976,
+        "se": 1.40282107860006,
+        "p": 0.05345213385270558,
         "separated": false
       },
       "log_words": {
-        "coef": 0.7841492355774251,
-        "se": NaN,
-        "p": NaN,
+        "coef": 0.7894262989370733,
+        "se": 0.17725124861119781,
+        "p": 8.439765825911331e-06,
         "separated": false
       },
       "0/1": {
-        "coef": 7.004692544071911,
-        "se": NaN,
-        "p": NaN,
+        "coef": 7.063279833653511,
+        "se": 0.8636401626744509,
+        "p": 2.874024162683362e-16,
         "separated": false
       },
       "1/2": {
-        "coef": 0.39565948726343075,
-        "se": NaN,
-        "p": NaN,
+        "coef": 0.3954796037555424,
+        "se": 0.20165807735421187,
+        "p": 0.049862762002413206,
         "separated": false
       }
     }
   },
   "po_lr_test": {
-    "lr": 12.626838910255401,
+    "lr": 12.665168479350228,
     "df": 10,
-    "p": 0.24529024446278969,
-    "ordinal_ll": -128.13781194160723,
-    "multinomial_ll": -121.82439248647952
+    "p": 0.2429996861363659,
+    "ordinal_ll": -128.7583959885723,
+    "multinomial_ll": -122.42581174889717
   },
   "var_order": [
     "const",
