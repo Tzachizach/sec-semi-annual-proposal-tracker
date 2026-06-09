@@ -7,7 +7,6 @@ STATUS.md                              # internal working doc, plans, decisions 
 # --- Credentials and tokens (defense in depth; these are also in _meta/.* paths) ---
 _meta/.github_token
 _meta/.supabase_credentials
-_meta/.goatcounter_code
 _meta/.env
 *_token
 *_credentials
