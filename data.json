@@ -29677,5 +29677,1327 @@
       "IA",
       "PP"
     ]
+  },
+  {
+    "n": 846,
+    "page": 1,
+    "date": "2026-06-08",
+    "name": "Deborah Craycroft",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2448554.htm",
+    "words": 88,
+    "rationales": [
+      "NR"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "NR"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
+      "NR"
+    ]
+  },
+  {
+    "n": 847,
+    "page": 1,
+    "date": "2026-06-08",
+    "name": "John Fleck",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2448546.htm",
+    "words": 64,
+    "rationales": [
+      "IA"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IA"
+    ],
+    "rationales_literalist": [
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "IP"
+    ]
+  },
+  {
+    "n": 848,
+    "page": 1,
+    "date": "2026-06-08",
+    "name": "Kat Kingsley",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2448568.htm",
+    "words": 341,
+    "rationales": [
+      "IP"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "IA"
+    ]
+  },
+  {
+    "n": 849,
+    "page": 1,
+    "date": "2026-06-08",
+    "name": "Kriz Family Mark",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2448553.htm",
+    "words": 52,
+    "rationales": [
+      "MF"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "MF"
+    ],
+    "rationales_literalist": [
+      "MF"
+    ],
+    "rationales_inclusive": [
+      "MF"
+    ]
+  },
+  {
+    "n": 850,
+    "page": 1,
+    "date": "2026-06-08",
+    "name": "Norman Gremore",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2448550.htm",
+    "words": 54,
+    "rationales": [
+      "IP"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "ICc"
+    ]
+  },
+  {
+    "n": 851,
+    "page": 1,
+    "date": "2026-06-08",
+    "name": "Paul Buelow",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2448566.htm",
+    "words": 60,
+    "rationales": [
+      "IP",
+      "FR"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "FR",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "FR",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "FR",
+      "IP"
+    ]
+  },
+  {
+    "n": 852,
+    "page": 1,
+    "date": "2026-06-08",
+    "name": "Sarah Miller",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2448552.htm",
+    "words": 124,
+    "rationales": [
+      "IP",
+      "MF"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "MF",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "MF",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "MF",
+      "IP",
+      "CB"
+    ]
+  },
+  {
+    "n": 853,
+    "page": 1,
+    "date": "2026-06-08",
+    "name": "SUN Camulos",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2448551.htm",
+    "words": 44,
+    "rationales": [
+      "MF"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "MF"
+    ],
+    "rationales_literalist": [
+      "MF"
+    ],
+    "rationales_inclusive": [
+      "MF"
+    ]
+  },
+  {
+    "n": 854,
+    "page": 1,
+    "date": "2026-06-08",
+    "name": "Tim Colborn",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2448113.htm",
+    "words": 98,
+    "rationales": [
+      "IA",
+      "MF",
+      "PP"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "MF",
+      "IA",
+      "PP"
+    ],
+    "rationales_literalist": [
+      "MF",
+      "PP"
+    ],
+    "rationales_inclusive": [
+      "MF",
+      "IA",
+      "PP"
+    ]
+  },
+  {
+    "n": 855,
+    "page": 1,
+    "date": "2026-06-07",
+    "name": "Anonymous",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2439308.htm",
+    "words": 99,
+    "rationales": [
+      "IP",
+      "FR"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP",
+      "FR"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "FR"
+    ]
+  },
+  {
+    "n": 856,
+    "page": 1,
+    "date": "2026-06-06",
+    "name": "Carol Smouse",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2432868.htm",
+    "words": 251,
+    "rationales": [
+      "IA",
+      "FR"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "FR",
+      "IA"
+    ],
+    "rationales_literalist": [
+      "FR",
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "FR",
+      "IA"
+    ]
+  },
+  {
+    "n": 857,
+    "page": 1,
+    "date": "2026-06-01",
+    "name": "Adam Nash",
+    "role": "Accountant (CPA)",
+    "entity": "Accountant (CPA)",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Accountant (CPA)",
+    "entity_selfdescribed": "Accountant (CPA)",
+    "entity_letterhead": "Accountant (CPA)",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Conditional",
+    "agreement": "majority",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2410146.htm",
+    "words": 66,
+    "rationales": [
+      "IA",
+      "FR",
+      "ST"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "ST",
+      "FR",
+      "IA"
+    ],
+    "rationales_literalist": [
+      "FR",
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "ST",
+      "FR",
+      "IA"
+    ]
+  },
+  {
+    "n": 858,
+    "page": 1,
+    "date": "2026-06-01",
+    "name": "Alan Birmingham",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-796919-2410306.html",
+    "words": 155,
+    "rationales": [
+      "IA",
+      "CB"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IA",
+      "CB"
+    ],
+    "rationales_literalist": [
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "CB"
+    ]
+  },
+  {
+    "n": 859,
+    "page": 1,
+    "date": "2026-06-01",
+    "name": "Andrew Weinstein",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2410066.htm",
+    "words": 65,
+    "rationales": [
+      "IP",
+      "FR"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IP",
+      "FR"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "FR"
+    ]
+  },
+  {
+    "n": 860,
+    "page": 1,
+    "date": "2026-06-01",
+    "name": "Austin Franks",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2410490.htm",
+    "words": 43,
+    "rationales": [
+      "NR"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "NR"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
+      "NR"
+    ]
+  },
+  {
+    "n": 861,
+    "page": 1,
+    "date": "2026-06-01",
+    "name": "Ben Barber",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2410446.htm",
+    "words": 24,
+    "rationales": [
+      "IA"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IA"
+    ],
+    "rationales_literalist": [
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "IA"
+    ]
+  },
+  {
+    "n": 862,
+    "page": 1,
+    "date": "2026-06-01",
+    "name": "Bernard Zhang",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Conditional",
+    "agreement": "majority",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-796840-2410067.html",
+    "words": 74,
+    "rationales": [
+      "FR",
+      "EX"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "FR",
+      "EX"
+    ],
+    "rationales_literalist": [
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "FR",
+      "EX"
+    ]
+  },
+  {
+    "n": 863,
+    "page": 1,
+    "date": "2026-06-01",
+    "name": "Bill Sweeney",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2409766.htm",
+    "words": 168,
+    "rationales": [
+      "IA",
+      "MF"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IA",
+      "MF"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "MF"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "MF",
+      "FR"
+    ]
+  },
+  {
+    "n": 864,
+    "page": 1,
+    "date": "2026-06-01",
+    "name": "Christian Bordelon",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2410546.htm",
+    "words": 65,
+    "rationales": [
+      "IA",
+      "FR"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IA",
+      "FR"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "FR"
+    ]
+  },
+  {
+    "n": 865,
+    "page": 1,
+    "date": "2026-06-01",
+    "name": "Devon Golde",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2409732.htm",
+    "words": 83,
+    "rationales": [
+      "IP",
+      "LE"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IP",
+      "LE"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "LE"
+    ]
+  },
+  {
+    "n": 866,
+    "page": 1,
+    "date": "2026-06-01",
+    "name": "Donald R. Sacca",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Conditional",
+    "agreement": "majority",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-796859-2410186.html",
+    "words": 328,
+    "rationales": [
+      "IP",
+      "MF",
+      "CB",
+      "AL"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "MF",
+      "IP",
+      "CB",
+      "AL"
+    ],
+    "rationales_literalist": [
+      "MF",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "MF",
+      "IP",
+      "CB",
+      "AL"
+    ]
+  },
+  {
+    "n": 867,
+    "page": 1,
+    "date": "2026-06-01",
+    "name": "JAMIE KOEHL",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2409887.htm",
+    "words": 30,
+    "rationales": [
+      "IP"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "FR"
+    ]
+  },
+  {
+    "n": 868,
+    "page": 1,
+    "date": "2026-06-01",
+    "name": "Kelly Durand",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2410606.htm",
+    "words": 43,
+    "rationales": [
+      "MF"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "MF"
+    ],
+    "rationales_literalist": [
+      "MF"
+    ],
+    "rationales_inclusive": [
+      "MF",
+      "IP"
+    ]
+  },
+  {
+    "n": 869,
+    "page": 1,
+    "date": "2026-06-01",
+    "name": "Kenneth Dobrowolski",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2410007.htm",
+    "words": 96,
+    "rationales": [
+      "IP",
+      "MF"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IP",
+      "MF"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "MF"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "MF",
+      "AU"
+    ]
+  },
+  {
+    "n": 870,
+    "page": 1,
+    "date": "2026-06-01",
+    "name": "Kristy Johnson",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2409866_0.htm",
+    "words": 34,
+    "rationales": [
+      "FR"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "FR"
+    ],
+    "rationales_literalist": [
+      "FR"
+    ],
+    "rationales_inclusive": [
+      "FR"
+    ]
+  },
+  {
+    "n": 871,
+    "page": 1,
+    "date": "2026-06-01",
+    "name": "Michael Edwards",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-796819-2409848.html",
+    "words": 27,
+    "rationales": [
+      "MF"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "MF"
+    ],
+    "rationales_literalist": [
+      "MF"
+    ],
+    "rationales_inclusive": [
+      "MF"
+    ]
+  },
+  {
+    "n": 872,
+    "page": 1,
+    "date": "2026-06-01",
+    "name": "Michelle Cardona",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2410508.htm",
+    "words": 115,
+    "rationales": [
+      "IA"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IA"
+    ],
+    "rationales_literalist": [
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "IA"
+    ]
+  },
+  {
+    "n": 873,
+    "page": 1,
+    "date": "2026-06-01",
+    "name": "Nicholas Miller",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2410126.htm",
+    "words": 63,
+    "rationales": [
+      "IP",
+      "MF"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "MF",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "MF",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "MF",
+      "IP"
+    ]
+  },
+  {
+    "n": 874,
+    "page": 1,
+    "date": "2026-06-01",
+    "name": "Quentin Rykard",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2409986.htm",
+    "words": 69,
+    "rationales": [
+      "IA",
+      "PP"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IA",
+      "PP"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "PP"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "PP",
+      "FR"
+    ]
+  },
+  {
+    "n": 875,
+    "page": 1,
+    "date": "2026-06-01",
+    "name": "Randal Works",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2410447.htm",
+    "words": 77,
+    "rationales": [
+      "IP",
+      "IA"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IP",
+      "IA"
+    ],
+    "rationales_literalist": [
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "IA"
+    ]
+  },
+  {
+    "n": 876,
+    "page": 1,
+    "date": "2026-06-01",
+    "name": "Rick",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2409666.htm",
+    "words": 59,
+    "rationales": [
+      "MF"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "MF"
+    ],
+    "rationales_literalist": [
+      "MF"
+    ],
+    "rationales_inclusive": [
+      "MF"
+    ]
+  },
+  {
+    "n": 877,
+    "page": 1,
+    "date": "2026-06-01",
+    "name": "Seren Barz",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2409987.htm",
+    "words": 38,
+    "rationales": [
+      "IA"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IA"
+    ],
+    "rationales_literalist": [
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "FR"
+    ]
+  },
+  {
+    "n": 878,
+    "page": 1,
+    "date": "2026-06-01",
+    "name": "Thomas",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2409729.htm",
+    "words": 19,
+    "rationales": [
+      "NR"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "NR"
+    ],
+    "rationales_literalist": [
+      "NR"
+    ],
+    "rationales_inclusive": [
+      "NR"
+    ]
+  },
+  {
+    "n": 879,
+    "page": 1,
+    "date": "2026-06-01",
+    "name": "Tim Parker",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2410087.htm",
+    "words": 68,
+    "rationales": [
+      "MF"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "MF"
+    ],
+    "rationales_literalist": [
+      "MF"
+    ],
+    "rationales_inclusive": [
+      "MF",
+      "US"
+    ]
+  },
+  {
+    "n": 880,
+    "page": 1,
+    "date": "2026-06-01",
+    "name": "Wilson Cabarcas",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2409888.htm",
+    "words": 322,
+    "rationales": [
+      "IP",
+      "IA",
+      "MF",
+      "CMP"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "MF",
+      "IP",
+      "CMP",
+      "IA"
+    ],
+    "rationales_literalist": [
+      "MF",
+      "IP",
+      "CMP"
+    ],
+    "rationales_inclusive": [
+      "MF",
+      "IP",
+      "CMP",
+      "IA"
+    ]
+  },
+  {
+    "n": 881,
+    "page": 1,
+    "date": "2026-05-29",
+    "name": "George Schrems",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-795559-2404546.html",
+    "words": 52,
+    "rationales": [
+      "IA",
+      "MF"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "MF",
+      "IA"
+    ],
+    "rationales_literalist": [
+      "MF",
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "MF",
+      "IA"
+    ]
+  },
+  {
+    "n": 882,
+    "page": 1,
+    "date": "2026-05-29",
+    "name": "Youth Benefit Corp. 129/ Joseph R Kaiser",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-795599-2404746.html",
+    "words": 18,
+    "rationales": [
+      "IA"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IA"
+    ],
+    "rationales_literalist": [
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "IA"
+    ]
+  },
+  {
+    "n": 883,
+    "page": 1,
+    "date": "2026-05-28",
+    "name": "Kory Hill",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2398206.htm",
+    "words": 194,
+    "rationales": [
+      "MF",
+      "AU"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "AU",
+      "MF"
+    ],
+    "rationales_literalist": [
+      "AU",
+      "MF"
+    ],
+    "rationales_inclusive": [
+      "AU",
+      "MF"
+    ]
   }
 ]
