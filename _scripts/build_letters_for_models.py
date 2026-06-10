@@ -49,7 +49,10 @@ def main() -> int:
 
     md_files = sorted(f for f in os.listdir(SRC) if f.endswith(".md"))
     n_letters = len(md_files)
-    dst_name = f"Letters_{n_letters}_for_models"
+    # Fixed single-folder name (set 2026-06-10): always overwrite ONE folder rather than
+    # emitting a new dated Letters_<N>_for_models/ each run — the snapshots were cumulative
+    # (each contained every prior letter), so per-poll folders were pure duplication.
+    dst_name = "Letters_for_models"
     dst = os.path.join(PROJECT_ROOT, dst_name)
     zip_path = os.path.join(PROJECT_ROOT, f"{dst_name}.zip")
 
