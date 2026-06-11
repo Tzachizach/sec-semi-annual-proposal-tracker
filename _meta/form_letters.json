@@ -4,9 +4,9 @@
  "source_url": "https://www.sec.gov/rules-regulations/public-comments/s7-2026-15",
  "note": "SEC form / campaign letters are posted as a template text plus a submitter count; the individual submissions are not separately docketed. These are held out of the per-letter corpus and the regression, and reported as a separate opposition tally. Submitter counts are anonymous aggregates and may overlap with named corpus letters, so this tally is reported side by side with the 611 individually-classified letters and is not summed with them.",
  "n_types": 3,
- "total_submitters": 1085,
+ "total_submitters": 1579,
  "stance_summary": {
-  "Oppose": 1085,
+  "Oppose": 1579,
   "Conditional": 0,
   "Support": 0
  },
@@ -14,7 +14,7 @@
  "types": [
   {
    "type": "A",
-   "submitter_count": 802,
+   "submitter_count": 1296,
    "text": "Dear Commissioners,\nPlease keep quarterly reporting requirements in place.\nThanks,",
    "primary_stance": "Oppose",
    "literalist_stance": "Oppose",
