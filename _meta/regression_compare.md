@@ -1,6 +1,6 @@
 # SEC S7-2026-15 — regression spec comparison
 
-_Last run: 2026-06-10. Three specs on the same predictor set, different outcomes._
+_Last run: 2026-06-11. Three specs on the same predictor set, different outcomes._
 
 ## Specifications
 
@@ -17,16 +17,16 @@ Predictors in all three: 7 entity dummies (reference Individual) + log(words+1).
 | Variable | Logit β | Logit p | LPM β | LPM p | Ord. β | Ord. p |
 |---|---:|---:|---:|---:|---:|---:|
 | Constant | -7.34 | nan | -0.024 | 0.219 | — | — |
-| Accountant CPA | +1.63 | nan | +0.046 | 0.425 | +1.81 | 0.009 |
-| Issuer-current | +2.48 | nan | +0.149 | 0.342 | +2.79 | 0.000 |
-| Issuer-former | (sep.) | nan | -0.013 | 0.015 | +2.23 | 0.008 |
-| Investment prof. | (sep.) | nan | -0.014 | 0.023 | (sep.) | 0.884 |
-| Academic | +1.93 | nan | +0.218 | 0.295 | +2.24 | 0.007 |
-| Industry pract. | (sep.) | nan | -0.015 | 0.024 | -0.29 | 0.790 |
-| Legal pract. | (sep.) | nan | +0.993 | 0.000 | (sep.) | 0.999 |
-| Trade assoc. | +0.00 | nan | -0.000 | 0.727 | +0.00 | 1.000 |
-| Student | +3.55 | nan | +0.317 | 0.257 | +2.75 | 0.050 |
-| log(words+1) | +0.63 | nan | +0.009 | 0.120 | +0.79 | 0.000 |
+| Accountant CPA | +1.63 | nan | +0.046 | 0.425 | +1.81 | nan |
+| Issuer-current | +2.48 | nan | +0.149 | 0.342 | +2.79 | nan |
+| Issuer-former | (sep.) | nan | -0.013 | 0.015 | +2.23 | nan |
+| Investment prof. | (sep.) | nan | -0.014 | 0.023 | (sep.) | nan |
+| Academic | +1.93 | nan | +0.218 | 0.295 | +2.24 | nan |
+| Industry pract. | (sep.) | nan | -0.015 | 0.024 | -0.29 | nan |
+| Legal pract. | (sep.) | nan | +0.993 | 0.000 | (sep.) | nan |
+| Trade assoc. | +0.00 | nan | -0.000 | 0.055 | +0.00 | nan |
+| Student | +3.55 | nan | +0.317 | 0.257 | +2.75 | nan |
+| log(words+1) | +0.63 | nan | +0.009 | 0.120 | +0.79 | nan |
 
 ## Fit statistics
 
