@@ -6,9 +6,9 @@ _Last run: 2026-06-12. Three specs on the same predictor set, different outcomes
 
 | Spec | Outcome | Sample | Estimator |
 |---|---|---|---|
-| Logit (baseline) | Support=1 / Oppose=0 | N=967 | MLE logit |
-| LPM (OLS) | Support=1 / Oppose=0 | N=967 | OLS, HC1 robust SE |
-| Ordinal logit | Oppose=0 < Conditional=1 < Support=2 | N=998 | proportional-odds logit |
+| Logit (baseline) | Support=1 / Oppose=0 | N=1014 | MLE logit |
+| LPM (OLS) | Support=1 / Oppose=0 | N=1014 | OLS, HC1 robust SE |
+| Ordinal logit | Oppose=0 < Conditional=1 < Support=2 | N=1045 | proportional-odds logit |
 
 Predictors in all three: 7 entity dummies (reference Individual) + log(words+1).
 
@@ -16,41 +16,41 @@ Predictors in all three: 7 entity dummies (reference Individual) + log(words+1).
 
 | Variable | Logit β | Logit p | LPM β | LPM p | Ord. β | Ord. p |
 |---|---:|---:|---:|---:|---:|---:|
-| Constant | -7.41 | nan | -0.025 | 0.170 | — | — |
-| Accountant CPA | +1.67 | nan | +0.041 | 0.426 | +1.60 | 0.018 |
-| Issuer-current | +2.31 | nan | +0.097 | 0.367 | +2.49 | 0.000 |
-| Issuer-former | (sep.) | nan | -0.011 | 0.013 | +2.23 | 0.001 |
-| Investment prof. | (sep.) | nan | -0.013 | 0.022 | (sep.) | 0.999 |
-| Academic | +2.07 | nan | +0.219 | 0.293 | +2.24 | 0.006 |
-| Industry pract. | +1.16 | nan | +0.024 | 0.513 | +0.38 | 0.639 |
-| Legal pract. | (sep.) | nan | +0.994 | 0.000 | (sep.) | 1.000 |
-| Trade assoc. | (sep.) | nan | -0.020 | 0.030 | (sep.) | 0.924 |
-| Student | +3.68 | nan | +0.318 | 0.255 | +2.66 | 0.057 |
-| log(words+1) | +0.62 | nan | +0.008 | 0.095 | +0.74 | 0.000 |
+| Constant | -7.13 | 0.000 | -0.020 | 0.252 | — | — |
+| Accountant CPA | +1.71 | 0.121 | +0.039 | 0.421 | +1.60 | 0.017 |
+| Issuer-current | +2.39 | 0.040 | +0.098 | 0.359 | +2.55 | 0.000 |
+| Issuer-former | (sep.) | 0.998 | -0.010 | 0.015 | +2.22 | 0.001 |
+| Investment prof. | (sep.) | 1.000 | -0.012 | 0.028 | (sep.) | 0.966 |
+| Academic | +1.82 | 0.235 | +0.171 | 0.322 | +1.99 | 0.013 |
+| Industry pract. | +1.25 | 0.266 | +0.025 | 0.493 | +0.46 | 0.569 |
+| Legal pract. | +4.80 | 0.001 | +0.490 | 0.172 | +4.39 | 0.008 |
+| Trade assoc. | (sep.) | 0.956 | -0.018 | 0.046 | (sep.) | 0.907 |
+| Student | +3.35 | 0.007 | +0.236 | 0.287 | +2.20 | 0.077 |
+| log(words+1) | +0.55 | 0.063 | +0.007 | 0.146 | +0.70 | 0.000 |
 
 ## Fit statistics
 
 | Spec | N | LL | McFadden R² / R² |
 |---|---:|---:|---:|
-| Logit | 967 | -54.04 | 0.216 |
-| LPM   | 967   | (OLS) | R²=0.134, adj-R²=0.125 |
-| Ordinal logit | 998 | -161.24 | 0.221 |
+| Logit | 1014 | -56.91 | 0.182 |
+| LPM   | 1014   | (OLS) | R²=0.084, adj-R²=0.075 |
+| Ordinal logit | 1045 | -167.15 | 0.201 |
 
 ## Proportional-odds assumption (LR test)
 
 Compared the ordinal logit (restricted, single slope vector) against an unrestricted multinomial logit with the same predictors.
 
-- Ordinal logit LL: -161.24
-- Multinomial logit LL: -155.73
-- LR = 2 × (-155.73 − -161.24) = 11.01, df = 10, p = 0.3564
+- Ordinal logit LL: -167.15
+- Multinomial logit LL: -161.01
+- LR = 2 × (-161.01 − -167.15) = 12.28, df = 10, p = 0.2668
 
-Under H0 (proportional odds holds), LR follows χ²(10). p = 0.3564 → do not reject proportional-odds. Note: small-N artifact warning — the LR test has low power with the current Support count.
+Under H0 (proportional odds holds), LR follows χ²(10). p = 0.2668 → do not reject proportional-odds. Note: small-N artifact warning — the LR test has low power with the current Support count.
 
 ## Notes on separation
 
-Binary specs (Logit, LPM): 4 entity buckets carry zero Support letters and are flagged separated: ['Issuer-former', 'Investment prof.', 'Legal pract.', 'Trade assoc.'].
+Binary specs (Logit, LPM): 3 entity buckets carry zero Support letters and are flagged separated: ['Issuer-former', 'Investment prof.', 'Trade assoc.'].
 Ordinal spec: separation is defined differently — a bucket with all letters in one ordinal class. 
-Buckets with single-class variation only: ['Investment prof.', 'Legal pract.', 'Trade assoc.'].
+Buckets with single-class variation only: ['Investment prof.', 'Trade assoc.'].
 
 ## Reproducibility
 
