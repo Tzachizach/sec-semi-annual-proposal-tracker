@@ -6,9 +6,9 @@ _Last run: 2026-06-12. Three specs on the same predictor set, different outcomes
 
 | Spec | Outcome | Sample | Estimator |
 |---|---|---|---|
-| Logit (baseline) | Support=1 / Oppose=0 | N=1015 | MLE logit |
-| LPM (OLS) | Support=1 / Oppose=0 | N=1015 | OLS, HC1 robust SE |
-| Ordinal logit | Oppose=0 < Conditional=1 < Support=2 | N=1046 | proportional-odds logit |
+| Logit (baseline) | Support=1 / Oppose=0 | N=1077 | MLE logit |
+| LPM (OLS) | Support=1 / Oppose=0 | N=1077 | OLS, HC1 robust SE |
+| Ordinal logit | Oppose=0 < Conditional=1 < Support=2 | N=1109 | proportional-odds logit |
 
 Predictors in all three: 7 entity dummies (reference Individual) + log(words+1).
 
@@ -16,35 +16,35 @@ Predictors in all three: 7 entity dummies (reference Individual) + log(words+1).
 
 | Variable | Logit β | Logit p | LPM β | LPM p | Ord. β | Ord. p |
 |---|---:|---:|---:|---:|---:|---:|
-| Constant | -7.14 | 0.000 | -0.020 | 0.252 | — | — |
-| Accountant CPA | +1.70 | 0.123 | +0.039 | 0.421 | +1.61 | 0.017 |
-| Issuer-current | +2.40 | 0.038 | +0.098 | 0.359 | +2.55 | 0.000 |
-| Issuer-former | (sep.) | 1.000 | -0.010 | 0.015 | +2.23 | 0.001 |
-| Investment prof. | (sep.) | 1.000 | -0.012 | 0.028 | (sep.) | 0.966 |
-| Academic | +1.81 | 0.238 | +0.171 | 0.322 | +1.99 | 0.013 |
-| Industry pract. | +1.26 | 0.261 | +0.025 | 0.493 | +0.46 | 0.569 |
-| Legal pract. | +4.81 | 0.001 | +0.490 | 0.172 | +4.39 | 0.008 |
-| Trade assoc. | (sep.) | 1.000 | -0.017 | 0.046 | (sep.) | 0.907 |
-| Student | +3.34 | 0.008 | +0.236 | 0.287 | +2.20 | 0.077 |
-| log(words+1) | +0.55 | 0.063 | +0.007 | 0.146 | +0.70 | 0.000 |
+| Constant | -6.75 | 0.000 | -0.019 | 0.272 | — | — |
+| Accountant CPA | +1.47 | 0.175 | +0.035 | 0.451 | +1.47 | 0.027 |
+| Issuer-current | +2.14 | 0.059 | +0.086 | 0.375 | +2.41 | 0.000 |
+| Issuer-former | (sep.) | 0.999 | -0.011 | 0.006 | +2.14 | 0.002 |
+| Investment prof. | (sep.) | 1.000 | -0.014 | 0.012 | (sep.) | 0.952 |
+| Academic | +1.75 | 0.237 | +0.169 | 0.327 | +1.92 | 0.016 |
+| Industry pract. | +1.04 | 0.346 | +0.022 | 0.535 | +0.36 | 0.657 |
+| Legal pract. | +4.60 | 0.002 | +0.488 | 0.173 | +4.26 | 0.009 |
+| Trade assoc. | (sep.) | 0.959 | -0.019 | 0.026 | (sep.) | 0.896 |
+| Student | +3.18 | 0.010 | +0.234 | 0.290 | +2.13 | 0.085 |
+| log(words+1) | +0.51 | 0.067 | +0.007 | 0.131 | +0.69 | 0.000 |
 
 ## Fit statistics
 
 | Spec | N | LL | McFadden R² / R² |
 |---|---:|---:|---:|
-| Logit | 1015 | -56.91 | 0.182 |
-| LPM   | 1015   | (OLS) | R²=0.084, adj-R²=0.075 |
-| Ordinal logit | 1046 | -167.17 | 0.201 |
+| Logit | 1077 | -67.20 | 0.149 |
+| LPM   | 1077   | (OLS) | R²=0.071, adj-R²=0.063 |
+| Ordinal logit | 1109 | -183.12 | 0.182 |
 
 ## Proportional-odds assumption (LR test)
 
 Compared the ordinal logit (restricted, single slope vector) against an unrestricted multinomial logit with the same predictors.
 
-- Ordinal logit LL: -167.17
-- Multinomial logit LL: -161.03
-- LR = 2 × (-161.03 − -167.17) = 12.28, df = 10, p = 0.2666
+- Ordinal logit LL: -183.12
+- Multinomial logit LL: -176.46
+- LR = 2 × (-176.46 − -183.12) = 13.32, df = 10, p = 0.2061
 
-Under H0 (proportional odds holds), LR follows χ²(10). p = 0.2666 → do not reject proportional-odds. Note: small-N artifact warning — the LR test has low power with the current Support count.
+Under H0 (proportional odds holds), LR follows χ²(10). p = 0.2061 → do not reject proportional-odds. Note: small-N artifact warning — the LR test has low power with the current Support count.
 
 ## Notes on separation
 
