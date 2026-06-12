@@ -1,20 +1,20 @@
 {
- "asof": "2026-06-10",
+ "asof": "2026-06-12",
  "source": "SEC.gov docket S7-2026-15 — aggregate form-letter postings",
  "source_url": "https://www.sec.gov/rules-regulations/public-comments/s7-2026-15",
  "note": "SEC form / campaign letters are posted as a template text plus a submitter count; the individual submissions are not separately docketed. These are held out of the per-letter corpus and the regression, and reported as a separate opposition tally. Submitter counts are anonymous aggregates and may overlap with named corpus letters, so this tally is reported side by side with the 611 individually-classified letters and is not summed with them.",
  "n_types": 3,
- "total_submitters": 1579,
+ "total_submitters": 1869,
  "stance_summary": {
-  "Oppose": 1579,
+  "Oppose": 1869,
   "Conditional": 0,
   "Support": 0
  },
- "generated": "2026-06-10",
+ "generated": "2026-06-12",
  "types": [
   {
    "type": "A",
-   "submitter_count": 1296,
+   "submitter_count": 1586,
    "text": "Dear Commissioners,\nPlease keep quarterly reporting requirements in place.\nThanks,",
    "primary_stance": "Oppose",
    "literalist_stance": "Oppose",
