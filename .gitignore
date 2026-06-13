@@ -21,10 +21,8 @@ _backups/                              # snapshot tarballs from backup_snapshot.
 public_site_dev/                       # dev mirror with voting widget — local preview only
 .~*
 
-# --- Coding sheets and outputs that are personal-use ---
-_meta/expert_coding_sheet.md           # gold-standard coding sheet (in progress)
-_meta/expert_coding_form.html          # interactive coding form
-_meta/expert_coding_*.json             # exported coding answers
+# --- Expert manual coding (personal-use gold standard; consolidated 2026-06-12) ---
+_meta/expert_manual_coding/            # form, sheet, rater JSONs, analysis, email
 
 # --- Internal docket-lag tracking (never public) ---
 _meta/docket_lag_log.json
