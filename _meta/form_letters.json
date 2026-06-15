@@ -1,20 +1,20 @@
 {
- "asof": "2026-06-12",
- "source": "SEC.gov docket S7-2026-15 — aggregate form-letter postings",
+ "asof": "2026-06-15",
+ "source": "SEC.gov docket S7-2026-15 \u2014 aggregate form-letter postings",
  "source_url": "https://www.sec.gov/rules-regulations/public-comments/s7-2026-15",
  "note": "SEC form / campaign letters are posted as a template text plus a submitter count; the individual submissions are not separately docketed. These are held out of the per-letter corpus and the regression, and reported as a separate opposition tally. Submitter counts are anonymous aggregates and may overlap with named corpus letters, so this tally is reported side by side with the 611 individually-classified letters and is not summed with them.",
  "n_types": 3,
- "total_submitters": 2017,
+ "total_submitters": 3166,
  "stance_summary": {
-  "Oppose": 2017,
+  "Oppose": 3166,
   "Conditional": 0,
   "Support": 0
  },
- "generated": "2026-06-12",
+ "generated": "2026-06-15",
  "types": [
   {
    "type": "A",
-   "submitter_count": 1675,
+   "submitter_count": 2824,
    "text": "Dear Commissioners,\nPlease keep quarterly reporting requirements in place.\nThanks,",
    "primary_stance": "Oppose",
    "literalist_stance": "Oppose",
@@ -26,9 +26,9 @@
    "rationales": [],
    "rationale_agreement": "unanimous",
    "rater_notes": {
-    "primary": "Oppose — a request to keep quarterly reporting in place is opposition to the move to optional semiannual (Form 10-S).",
-    "literalist": "Oppose — explicit instruction to retain the existing quarterly requirement; status-quo preservation is opposition to the change.",
-    "skeptic": "Oppose — no qualification, concession, or alternative cadence; nothing to flip to Conditional."
+    "primary": "Oppose \u2014 a request to keep quarterly reporting in place is opposition to the move to optional semiannual (Form 10-S).",
+    "literalist": "Oppose \u2014 explicit instruction to retain the existing quarterly requirement; status-quo preservation is opposition to the change.",
+    "skeptic": "Oppose \u2014 no qualification, concession, or alternative cadence; nothing to flip to Conditional."
    }
   },
   {
@@ -45,9 +45,9 @@
    "rationales": [],
    "rationale_agreement": "unanimous",
    "rater_notes": {
-    "primary": "Oppose — explicit 'I oppose this rule change.'",
-    "literalist": "Oppose — verbatim opposition language.",
-    "skeptic": "Oppose — unconditional; no hedge."
+    "primary": "Oppose \u2014 explicit 'I oppose this rule change.'",
+    "literalist": "Oppose \u2014 verbatim opposition language.",
+    "skeptic": "Oppose \u2014 unconditional; no hedge."
    }
   },
   {
@@ -64,9 +64,9 @@
    "rationales": [],
    "rationale_agreement": "unanimous",
    "rater_notes": {
-    "primary": "Oppose — explicit 'strongly oppose.'",
-    "literalist": "Oppose — verbatim opposition language.",
-    "skeptic": "Oppose — unconditional; no hedge."
+    "primary": "Oppose \u2014 explicit 'strongly oppose.'",
+    "literalist": "Oppose \u2014 verbatim opposition language.",
+    "skeptic": "Oppose \u2014 unconditional; no hedge."
    }
   }
  ]
