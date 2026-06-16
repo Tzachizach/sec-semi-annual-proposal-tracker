@@ -3,10 +3,10 @@
  "source": "SEC.gov docket S7-2026-15 \u2014 aggregate form-letter postings",
  "source_url": "https://www.sec.gov/rules-regulations/public-comments/s7-2026-15",
  "note": "SEC form / campaign letters are posted as a template text plus a submitter count; the individual submissions are not separately docketed. These are held out of the per-letter corpus and the regression, and reported as a separate opposition tally. Submitter counts are anonymous aggregates and may overlap with named corpus letters, so this tally is reported side by side with the 611 individually-classified letters and is not summed with them.",
- "n_types": 3,
- "total_submitters": 3166,
+ "n_types": 4,
+ "total_submitters": 4863,
  "stance_summary": {
-  "Oppose": 3166,
+  "Oppose": 4863,
   "Conditional": 0,
   "Support": 0
  },
@@ -67,6 +67,25 @@
     "primary": "Oppose \u2014 explicit 'strongly oppose.'",
     "literalist": "Oppose \u2014 verbatim opposition language.",
     "skeptic": "Oppose \u2014 unconditional; no hedge."
+   }
+  },
+  {
+   "type": "F",
+   "submitter_count": 1697,
+   "text": "Dear SEC, I oppose the SEC proposal because it prevents investors like me from accessing information about companies; lets companies hide behind closed doors; and allows fraud to fester.\n\nSincerely,",
+   "primary_stance": "Oppose",
+   "literalist_stance": "Oppose",
+   "skeptic_stance": "Oppose",
+   "stance": "Oppose",
+   "agreement": "unanimous",
+   "entity": "NR",
+   "entity_agreement": "unanimous",
+   "rationales": [],
+   "rationale_agreement": "unanimous",
+   "rater_notes": {
+    "primary": "Oppose \u2014 explicit 'I oppose the SEC proposal'; carries the retail info-access / concealment / fraud argument (IA/FR/IP in substance).",
+    "literalist": "Oppose \u2014 verbatim 'I oppose.'",
+    "skeptic": "Oppose \u2014 unconditional; no hedge or alternative cadence."
    }
   }
  ]
