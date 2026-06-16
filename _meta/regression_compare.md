@@ -24,7 +24,7 @@ Predictors in all three: 7 entity dummies (reference Individual) + log(words+1).
 | Academic | +1.78 | 0.222 | +0.171 | 0.324 | +1.86 | 0.018 |
 | Industry pract. | +1.00 | 0.355 | +0.021 | 0.541 | +0.30 | 0.708 |
 | Legal pract. | +3.49 | 0.004 | +0.238 | 0.276 | +2.66 | 0.028 |
-| Trade assoc. | (sep.) | 0.999 | -0.019 | 0.015 | (sep.) | 0.918 |
+| Trade assoc. | (sep.) | 1.000 | -0.019 | 0.015 | (sep.) | 0.918 |
 | Student | +3.00 | 0.011 | +0.186 | 0.306 | +1.96 | 0.098 |
 | log(words+1) | +0.50 | 0.061 | +0.007 | 0.110 | +0.71 | 0.000 |
 
