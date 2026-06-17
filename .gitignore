@@ -28,3 +28,9 @@ _meta/expert_manual_coding/            # form, sheet, rater JSONs, analysis, ema
 _meta/docket_lag_log.json
 _meta/docket_lag_log.md
 _meta/docket_lag_*.png
+
+# --- Model-mirror exports (Dropbox-only; never needed on GitHub) ---
+Letters_for_models/
+Letters_for_models.zip
+Letters_for_models_*/
+Letters_for_models_*.zip
