@@ -1,16 +1,16 @@
 {
-  "asof": "2026-06-16",
+  "asof": "2026-06-17",
   "source": "SEC.gov docket S7-2026-15 — aggregate form-letter postings",
   "source_url": "https://www.sec.gov/rules-regulations/public-comments/s7-2026-15",
   "note": "SEC form / campaign letters are posted as a template text plus a submitter count; the individual submissions are not separately docketed. These are held out of the per-letter corpus and the regression, and reported as a separate opposition tally. Submitter counts are anonymous aggregates and may overlap with named corpus letters, so this tally is reported side by side with the 611 individually-classified letters and is not summed with them.",
   "n_types": 4,
-  "total_submitters": 9062,
+  "total_submitters": 9542,
   "stance_summary": {
-    "Oppose": 9062,
+    "Oppose": 9542,
     "Conditional": 0,
     "Support": 0
   },
-  "generated": "2026-06-16",
+  "generated": "2026-06-17",
   "types": [
     {
       "type": "A",
@@ -71,7 +71,7 @@
     },
     {
       "type": "F",
-      "submitter_count": 5846,
+      "submitter_count": 6326,
       "text": "Dear SEC, I oppose the SEC proposal because it prevents investors like me from accessing information about companies; lets companies hide behind closed doors; and allows fraud to fester.\n\nSincerely,",
       "primary_stance": "Oppose",
       "literalist_stance": "Oppose",
