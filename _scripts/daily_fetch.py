@@ -50,8 +50,8 @@ PDF_DIR = PROJECT_DIR / "_meta" / "pdf_letters"
 # present and non-empty, main() fetches each listed letter URL directly — letter
 # documents are not subject to the index-page cache — before the normal crawl.
 URL_LIST = PROJECT_DIR / "_meta" / "_harvest" / "new_urls.txt"
-_MONTHS = r"(?:January|February|March|April|May|June|July|August|September|October|November|December)"
-_DATE_RE = re.compile(rf"\b{_MONTHS}\s+\d{{1,2}},\s+20\d{{2}}\b")
+_MONTHS = r"(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:t)?(?:ember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)"
+_DATE_RE = re.compile(rf"\b{_MONTHS}\.?\s+\d{{1,2}},\s+20\d{{2}}\b")
 URL_LIST_DEFAULT_DATE = "2026-05-27"
 
 # SEC docket index — Drupal-based comments page on sec.gov.
@@ -155,10 +155,12 @@ def parse_index(html, base_url):
 
 
 def normalize_date(date_str):
-    """Convert 'May 16, 2026' to '2026-05-16'. Fall through unchanged on parse error."""
+    """Convert 'May 16, 2026' or abbreviated 'Jun. 7, 2026' to '2026-05-16'.
+    Falls through unchanged on parse error (e.g. an already-ISO date)."""
+    s = date_str.strip().replace(".", "")
     for fmt in ("%B %d, %Y", "%b %d, %Y"):
         try:
-            return datetime.strptime(date_str, fmt).strftime("%Y-%m-%d")
+            return datetime.strptime(s, fmt).strftime("%Y-%m-%d")
         except ValueError:
             continue
     return date_str
@@ -224,13 +226,22 @@ def process_url_list(records, existing, next_n):
     Returns (next_n, appended, pdfs_saved). No-op if the file is absent/empty."""
     if not URL_LIST.exists():
         return next_n, 0, 0
-    urls = [l.strip() for l in URL_LIST.read_text().splitlines() if l.strip()]
-    if not urls:
+    lines = [l.strip() for l in URL_LIST.read_text().splitlines() if l.strip()]
+    if not lines:
         return next_n, 0, 0
-    print(f"[urllist] {len(urls)} URL(s) in harvest list.")
+    print(f"[urllist] {len(lines)} URL(s) in harvest list.")
     PDF_DIR.mkdir(parents=True, exist_ok=True)
     appended = pdfs_saved = 0
-    for url in urls:
+    for line in lines:
+        # Queue lines are "url" or "url | docket_date"; the queued docket date,
+        # when present, is authoritative (avoids the body-date-parser fallback).
+        parts = [p.strip() for p in line.split("|")]
+        url = parts[0]
+        queued_date = None
+        if len(parts) > 1 and parts[1]:
+            nd = normalize_date(parts[1])
+            if re.match(r"20\d\d-\d\d-\d\d$", nd):
+                queued_date = nd
         nu = normalize_url(url)
         if nu in existing:
             continue
@@ -242,7 +253,7 @@ def process_url_list(records, existing, next_n):
             continue
         if not is_pdf and is_pdf_response(resp):
             is_pdf = True
-        date = URL_LIST_DEFAULT_DATE
+        date = queued_date or URL_LIST_DEFAULT_DATE
         if is_pdf:
             pdf_filename = url.rsplit("/", 1)[-1].split("?")[0]
             if not pdf_filename.lower().endswith(".pdf"):
@@ -259,13 +270,13 @@ def process_url_list(records, existing, next_n):
             commenter, body = parse_letter(html, url)
             commenter, role = split_name_role(commenter)
             words = len(body.split())
-            m = _DATE_RE.search(html if "From:" not in html else html[:8000])
-            mt = _DATE_RE.search(body[:1500])
-            if mt:
-                try:
-                    date = datetime.strptime(mt.group(0), "%B %d, %Y").strftime("%Y-%m-%d")
-                except ValueError:
-                    pass
+            # Fall back to the body-printed date only if no docket date was queued.
+            if not queued_date:
+                mt = _DATE_RE.search(body[:1500])
+                if mt:
+                    nd = normalize_date(mt.group(0))
+                    if re.match(r"20\d\d-\d\d-\d\d$", nd):
+                        date = nd
             print(f"[urllist] #{next_n} {commenter[:32]:32s} ({words}w, {date})")
         rec = {
             "n": next_n, "page": 1, "date": date, "name": commenter, "role": role,
