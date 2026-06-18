@@ -1,6 +1,6 @@
 # SEC S7-2026-15 — regression spec comparison
 
-_Last run: 2026-06-17. Three specs on the same predictor set, different outcomes._
+_Last run: 2026-06-18. Three specs on the same predictor set, different outcomes._
 
 ## Specifications
 
@@ -19,7 +19,7 @@ Predictors in all three: 7 entity dummies (reference Individual) + log(words+1).
 | Constant | -6.98 | 0.000 | -0.020 | 0.148 | — | — |
 | Accountant CPA | +1.22 | 0.257 | +0.026 | 0.486 | +1.31 | 0.044 |
 | Issuer-current | +2.12 | 0.056 | +0.078 | 0.377 | +2.48 | 0.000 |
-| Issuer-former | (sep.) | 0.998 | -0.011 | 0.001 | +2.19 | 0.001 |
+| Issuer-former | (sep.) | 0.999 | -0.011 | 0.001 | +2.19 | 0.001 |
 | Investment prof. | (sep.) | 1.000 | -0.013 | 0.002 | +0.09 | 0.931 |
 | Academic | +1.70 | 0.233 | +0.170 | 0.326 | +2.07 | 0.007 |
 | Industry pract. | +0.96 | 0.370 | +0.019 | 0.552 | +0.86 | 0.201 |
