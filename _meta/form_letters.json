@@ -1,92 +1,258 @@
 {
-  "asof": "2026-06-17",
-  "source": "SEC.gov docket S7-2026-15 — aggregate form-letter postings",
-  "source_url": "https://www.sec.gov/rules-regulations/public-comments/s7-2026-15",
-  "note": "SEC form / campaign letters are posted as a template text plus a submitter count; the individual submissions are not separately docketed. These are held out of the per-letter corpus and the regression, and reported as a separate opposition tally. Submitter counts are anonymous aggregates and may overlap with named corpus letters, so this tally is reported side by side with the 611 individually-classified letters and is not summed with them.",
-  "n_types": 4,
-  "total_submitters": 9542,
-  "stance_summary": {
-    "Oppose": 9542,
-    "Conditional": 0,
-    "Support": 0
+ "asof": "2026-06-18",
+ "source": "SEC.gov docket S7-2026-15 — aggregate form-letter postings",
+ "source_url": "https://www.sec.gov/rules-regulations/public-comments/s7-2026-15",
+ "note": "SEC form / campaign letters are posted as a template text plus a submitter count; the individual submissions are not separately docketed. These are held out of the per-letter corpus and the regression, and reported as a separate opposition tally, side by side with the individually-classified corpus and never summed with it (anonymous aggregate counts may overlap with named corpus letters). 2026-06-18: counts refreshed and two new substantive templates promoted live — Type E (Oppose; IA/IP/CMP/MF/AL) and Type D (Oppose; IA/MF/IP/CMP) — bringing the panel to 6 types. Types D, E, and F carry coded rationales; A/B/C are bare opposition.",
+ "n_types": 6,
+ "total_submitters": 18136,
+ "stance_summary": {
+  "Oppose": 18136,
+  "Conditional": 0,
+  "Support": 0
+ },
+ "generated": "2026-06-18",
+ "types": [
+  {
+   "type": "A",
+   "submitter_count": 5405,
+   "text": "Dear Commissioners,\nPlease keep quarterly reporting requirements in place.\nThanks,",
+   "primary_stance": "Oppose",
+   "literalist_stance": "Oppose",
+   "skeptic_stance": "Oppose",
+   "stance": "Oppose",
+   "agreement": "unanimous",
+   "entity": "NR",
+   "entity_agreement": "unanimous",
+   "rationales": [],
+   "rationale_agreement": "unanimous",
+   "rater_notes": {
+    "primary": "Oppose — a request to keep quarterly reporting in place is opposition to the move to optional semiannual (Form 10-S).",
+    "literalist": "Oppose — explicit instruction to retain the existing quarterly requirement; status-quo preservation is opposition to the change.",
+    "skeptic": "Oppose — no qualification, concession, or alternative cadence; nothing to flip to Conditional."
+   }
   },
-  "generated": "2026-06-17",
-  "types": [
-    {
-      "type": "A",
-      "submitter_count": 2874,
-      "text": "Dear Commissioners,\nPlease keep quarterly reporting requirements in place.\nThanks,",
-      "primary_stance": "Oppose",
-      "literalist_stance": "Oppose",
-      "skeptic_stance": "Oppose",
-      "stance": "Oppose",
-      "agreement": "unanimous",
-      "entity": "NR",
-      "entity_agreement": "unanimous",
-      "rationales": [],
-      "rationale_agreement": "unanimous",
-      "rater_notes": {
-        "primary": "Oppose — a request to keep quarterly reporting in place is opposition to the move to optional semiannual (Form 10-S).",
-        "literalist": "Oppose — explicit instruction to retain the existing quarterly requirement; status-quo preservation is opposition to the change.",
-        "skeptic": "Oppose — no qualification, concession, or alternative cadence; nothing to flip to Conditional."
-      }
-    },
-    {
-      "type": "B",
-      "submitter_count": 210,
-      "text": "Dear SEC Officials,\nAs an investor, I oppose this rule change.\nRegards,",
-      "primary_stance": "Oppose",
-      "literalist_stance": "Oppose",
-      "skeptic_stance": "Oppose",
-      "stance": "Oppose",
-      "agreement": "unanimous",
-      "entity": "NR",
-      "entity_agreement": "unanimous",
-      "rationales": [],
-      "rationale_agreement": "unanimous",
-      "rater_notes": {
-        "primary": "Oppose — explicit 'I oppose this rule change.'",
-        "literalist": "Oppose — verbatim opposition language.",
-        "skeptic": "Oppose — unconditional; no hedge."
-      }
-    },
-    {
-      "type": "C",
-      "submitter_count": 132,
-      "text": "I strongly oppose moving to semiannual reporting.",
-      "primary_stance": "Oppose",
-      "literalist_stance": "Oppose",
-      "skeptic_stance": "Oppose",
-      "stance": "Oppose",
-      "agreement": "unanimous",
-      "entity": "NR",
-      "entity_agreement": "unanimous",
-      "rationales": [],
-      "rationale_agreement": "unanimous",
-      "rater_notes": {
-        "primary": "Oppose — explicit 'strongly oppose.'",
-        "literalist": "Oppose — verbatim opposition language.",
-        "skeptic": "Oppose — unconditional; no hedge."
-      }
-    },
-    {
-      "type": "F",
-      "submitter_count": 6326,
-      "text": "Dear SEC, I oppose the SEC proposal because it prevents investors like me from accessing information about companies; lets companies hide behind closed doors; and allows fraud to fester.\n\nSincerely,",
-      "primary_stance": "Oppose",
-      "literalist_stance": "Oppose",
-      "skeptic_stance": "Oppose",
-      "stance": "Oppose",
-      "agreement": "unanimous",
-      "entity": "NR",
-      "entity_agreement": "unanimous",
-      "rationales": [],
-      "rationale_agreement": "unanimous",
-      "rater_notes": {
-        "primary": "Oppose — explicit 'I oppose the SEC proposal'; carries the retail info-access / concealment / fraud argument (IA/FR/IP in substance).",
-        "literalist": "Oppose — verbatim 'I oppose.'",
-        "skeptic": "Oppose — unconditional; no hedge or alternative cadence."
-      }
-    }
-  ]
+  {
+   "type": "B",
+   "submitter_count": 212,
+   "text": "Dear SEC Officials,\nAs an investor, I oppose this rule change.\nRegards,",
+   "primary_stance": "Oppose",
+   "literalist_stance": "Oppose",
+   "skeptic_stance": "Oppose",
+   "stance": "Oppose",
+   "agreement": "unanimous",
+   "entity": "NR",
+   "entity_agreement": "unanimous",
+   "rationales": [],
+   "rationale_agreement": "unanimous",
+   "rater_notes": {
+    "primary": "Oppose — explicit 'I oppose this rule change.'",
+    "literalist": "Oppose — verbatim opposition language.",
+    "skeptic": "Oppose — unconditional; no hedge."
+   }
+  },
+  {
+   "type": "C",
+   "submitter_count": 139,
+   "text": "I strongly oppose moving to semiannual reporting.",
+   "primary_stance": "Oppose",
+   "literalist_stance": "Oppose",
+   "skeptic_stance": "Oppose",
+   "stance": "Oppose",
+   "agreement": "unanimous",
+   "entity": "NR",
+   "entity_agreement": "unanimous",
+   "rationales": [],
+   "rationale_agreement": "unanimous",
+   "rater_notes": {
+    "primary": "Oppose — explicit 'strongly oppose.'",
+    "literalist": "Oppose — verbatim opposition language.",
+    "skeptic": "Oppose — unconditional; no hedge."
+   }
+  },
+  {
+   "type": "D",
+   "submitter_count": 150,
+   "text": "Dear Secretary,\nI am writing to express my strong opposition to the Securities and Exchange Commission's proposed rule that would allow public companies to opt out of quarterly reporting (Form 10-Q) in favor of semiannual reporting on the proposed Form 10-S. While the Commission frames this as a measure to reduce regulatory burdens and curb corporate \"short-termism,\" the actual consequence will be a severe erosion of market transparency that disproportionately harms retail investors while providing an unfair advantage to institutional \"big fish.\"\nThe proposed rule undermines the core mission of the SEC—to protect investors and maintain fair, orderly, and efficient markets—in the following ways:\n\n### 1. Widening the Information Asymmetry Gap\nThe public markets are supposed to operate on the principle of a level playing field. Moving from a 90-day reporting cadence to a 180-day cadence creates a massive data vacuum. Six months is an eternity in the modern economy; supply chain disruptions, shifts in consumer demand, and sudden fiscal pressures can fundamentally alter a company's financial health in a fraction of that time.\nWhile everyday investors rely heavily on public periodic filings to evaluate their holdings, institutional investors, hedge funds, and large private equity firms do not. \"Big fish\" possess the capital and resources to bridge a six-month information gap by purchasing alternative data streams, hiring private research firms, utilizing satellite tracking, and maintaining direct lines of communication with corporate management. Retail investors will be left entirely in the dark, forced to make decisions using stale financial data while Wall Street operates with near-real-time insights.\n\n### 2. Over-Reliance on Form 8-K and the Failure of Regulation FD\nThe proposal suggests that event-driven disclosures (Form 8-K) and Regulation FD will adequately protect investors between semiannual reports. This is a flawed assumption. Form 8-K is triggered by specific, discrete material events (e.g., bankruptcy, executive turnover, major acquisitions). It does not capture the slow, cumulative erosion of profit margins, rising inventory costs, or deteriorating cash flows that are meticulously detailed in a Form 10-Q. Without granular quarterly financial statements, retail investors will lack the tools to diagnose structural corporate decline until it is too late.\n\n### 3. Increased Market Volatility and Risk\nFewer reporting intervals mean that when financial data is finally disclosed every six months, the market reactions will be significantly more volatile. Instead of adjusting stock prices incrementally based on quarterly performance, the market will endure massive, unpredictable swings as six months of accumulated, unpriced operational realities are dumped onto the public at once. Retail investors, who generally lack the sophisticated hedging strategies and algorithmic execution speeds of institutional traders, will bear the brunt of this heightened volatility.\n\n### Conclusion\nReducing corporate compliance costs should never come at the expense of market integrity and investor protection. If adopted, this rule will effectively re-privatize public market information, pricing out the everyday investor and turning back the clock on decades of transparency reforms.\nI strongly urge the Commission to withdraw this proposal and maintain mandatory quarterly reporting on Form 10-Q. The health of our public markets depends on equal, timely access to information for all participants, not just the wealthiest institutions.\nSincerely,",
+   "primary_stance": "Oppose",
+   "literalist_stance": "Oppose",
+   "skeptic_stance": "Oppose",
+   "stance": "Oppose",
+   "agreement": "unanimous",
+   "entity": "NR",
+   "entity_agreement": "unanimous",
+   "rationales": [
+    "IA",
+    "MF",
+    "IP",
+    "CMP"
+   ],
+   "rationales_primary": [
+    "IA",
+    "MF",
+    "IP",
+    "CMP"
+   ],
+   "rationales_literalist": [
+    "IA",
+    "MF",
+    "IP",
+    "CMP"
+   ],
+   "rationales_inclusive": [
+    "IA",
+    "MF",
+    "IP",
+    "CMP",
+    "RI",
+    "CB"
+   ],
+   "rationales_majority": [
+    "IA",
+    "MF",
+    "IP",
+    "CMP"
+   ],
+   "rationale_agreement": "majority",
+   "rationale_evidence": {
+    "IA": "Widening the Information Asymmetry Gap — 'big fish' bridge the six-month gap with alternative data/satellite/management access while retail are left in the dark with stale data",
+    "MF": "data vacuum + massive, unpredictable price swings as six months of unpriced operational realities are dumped at once (price discovery / volatility)",
+    "IP": "undermines the SEC's core mission to protect investors; 're-privatize public market information', turning back decades of transparency reforms",
+    "CMP": "granular quarterly financial statements — Form 8-K captures discrete events but not the slow erosion of margins, inventory, cash flows detailed in a 10-Q"
+   },
+   "rater_notes": {
+    "primary": "Oppose — 'strong opposition'; structured three-pillar argument (information asymmetry, 8-K/Reg-FD inadequacy, volatility) and a withdraw demand.",
+    "literalist": "Oppose — 'I strongly urge the Commission to withdraw this proposal and maintain mandatory quarterly reporting.'",
+    "skeptic": "Oppose — engages the Commission's burden/short-termism framing only to rebut it; NO concession, alternative cadence, or hedge — nothing to flip to Conditional (contrast Type E).",
+    "rationale": "Substantive template; codes IA (big-fish vs retail), MF (data vacuum/volatility/price discovery), IP (investor-protection mission / re-privatization), CMP (granularity — 8-K vs 10-Q detail). RI (reliance on periodic filings) + CB (compliance-cost framing, rebutted) inclusive-only."
+   },
+   "render_spec": {
+    "panel": "Same A/B/C/F form-letter table.",
+    "text_cell": "Long template — link out to the SEC 'typed' aggregate URL (s7202615-typed.htm) instead of inlining (same as E).",
+    "rationale_column": "D shows IA/MF/IP/CMP badges.",
+    "source": "Tzachi directive 2026-06-18 (354pm)."
+   },
+   "staged": "2026-06-18 — classified; held in pending_types until the docket 'typed' aggregate count posts. On promotion: move to types[], set submitter_count, bump n_types, add to total_submitters + stance_summary.Oppose, rebuild panel."
+  },
+  {
+   "type": "E",
+   "submitter_count": 75,
+   "text": "Dear SEC Officials,\nI am writing to oppose the proposed rule that would allow public companies to replace quarterly Form 10-Q reporting with semiannual reporting on Form 10-S.\nI understand the concern that quarterly reporting can contribute to short-termism, managerial distraction, compliance costs, and an unhealthy culture of earnings theater. Those concerns should be taken seriously. I also recognize that not every company is situated identically. Smaller companies, pre-revenue companies, long-horizon companies, and companies in highly cyclical industries may experience quarterly reporting differently than large, mature issuers.\nI would support a serious effort to reduce unnecessary reporting burden and short-term earnings pressure, especially for smaller issuers, so long as that effort preserves timely, standardized public information. But reducing standardized public disclosure from quarterly to semiannual reporting is too blunt a remedy.\nThe problem is not simply how often companies report. The deeper question is who has access to reliable information, when they receive it, and whether the public market remains a genuinely public field of visibility.\nQuarterly reporting is not a perfect solution to the deeper problems of financialized capitalism. It does not by itself create justice, shared flourishing, or democratic accountability. But in a market system in which ordinary people's retirement savings, pensions, public institutions, and communities are already deeply entangled, timely standardized disclosure remains an important accountability structure.\nIf required reporting moves from quarterly to semiannual, the period between official public financial updates doubles. During that longer gap, material business realities may develop well before ordinary investors receive a full public accounting. Insiders, large institutions, and professional market participants may still have access to alternative data, management access, analyst networks, industry intelligence, and other channels. Ordinary investors are more dependent on standardized public filings.\nReducing quarterly disclosure does not eliminate information. It risks redistributing informational advantage toward those already best positioned to obtain it.\nThe Commission should therefore distinguish between factual quarterly reporting and the unhealthy practices sometimes associated with quarterly capitalism. Quarterly earnings guidance, short-term compensation incentives, analyst pressure, and performative earnings management may all deserve scrutiny. But the remedy for those problems should not be to dim one of the few standardized sources of public information available to all investors at the same time.\nIf the Commission believes quarterly reporting is too burdensome, it should consider narrower reforms: simplifying Form 10-Q where appropriate, scaling requirements for smaller issuers, discouraging or regulating quarterly earnings guidance, improving material-event disclosure, or addressing incentive structures that reward short-termism. Those approaches would target the problem more directly while preserving the public transparency floor that ordinary investors rely on.\nI am also concerned about comparability. If some companies report quarterly while others report semiannually, investors may find it harder to compare companies within the same sector, assess risk in real time, and distinguish genuine long-term strategy from avoidable opacity. Market discipline may not be sufficient to protect ordinary investors, because sophisticated actors can price and navigate reduced disclosure more effectively than retail investors can.\nThe burden should therefore rest on proponents of the proposed change to show that ordinary investors will not be harmed, that market transparency will not be meaningfully reduced, that liquidity and price discovery will not suffer, and that any compliance savings outweigh the public cost of less frequent standardized disclosure.\nI urge the Commission not to adopt the proposed rule as written. At minimum, the Commission should preserve quarterly factual reporting as the default public transparency floor unless it can demonstrate, with strong evidence, that any alternative reporting regime will protect ordinary investors, preserve comparability, maintain timely access to material information, and avoid widening the gap between insiders and the public.\nTransparency will not solve the deeper inequities of public markets. But reducing standardized public disclosure would increase the risk of informational domination. The Commission should not make public markets darker for the people least able to see through them.",
+   "primary_stance": "Oppose",
+   "literalist_stance": "Oppose",
+   "skeptic_stance": "Conditional",
+   "stance": "Oppose",
+   "agreement": "majority",
+   "entity": "NR",
+   "entity_agreement": "unanimous",
+   "rationales": [
+    "IA",
+    "IP",
+    "CMP",
+    "MF",
+    "AL"
+   ],
+   "rationales_primary": [
+    "IA",
+    "IP",
+    "CMP",
+    "MF",
+    "AL"
+   ],
+   "rationales_literalist": [
+    "IA",
+    "IP",
+    "CMP",
+    "MF",
+    "AL"
+   ],
+   "rationales_inclusive": [
+    "IA",
+    "IP",
+    "CMP",
+    "MF",
+    "AL",
+    "ST",
+    "CB"
+   ],
+   "rationales_majority": [
+    "IA",
+    "IP",
+    "CMP",
+    "MF",
+    "AL"
+   ],
+   "rationale_agreement": "majority",
+   "rationale_evidence": {
+    "IA": "redistributing informational advantage toward those already best positioned; insiders/large institutions have alternative data while ordinary investors depend on standardized public filings",
+    "IP": "preserve quarterly factual reporting as the default public transparency floor that ordinary investors rely on",
+    "CMP": "harder to compare companies within the same sector if some report quarterly and others semiannually",
+    "MF": "liquidity and price discovery will not suffer; assess risk in real time",
+    "AL": "narrower reforms instead — simplify Form 10-Q, scale requirements for smaller issuers, regulate quarterly earnings guidance"
+   },
+   "rater_notes": {
+    "primary": "Oppose — dominant, repeated position is opposition to the rule as written ('I urge the Commission not to adopt'); the narrower-reform suggestions are substitute remedies, not conditional acceptance of semiannual.",
+    "literalist": "Oppose — explicit 'I am writing to oppose' and 'I urge the Commission not to adopt the proposed rule as written.'",
+    "skeptic": "Conditional — heavily concessive ('those concerns should be taken seriously', 'I would support a serious effort... so long as...', scaling for smaller issuers, 'unless it can demonstrate with strong evidence'); the alternative-reform framing is exactly the pattern that flips Skeptic to Conditional. Majority still Oppose.",
+    "rationale": "Richest form letter to date and the FIRST with coded rationales: IA (informational domination/redistribution), IP (public transparency floor), CMP (comparability across issuers — rare among retail), MF (liquidity/price discovery/real-time risk), AL (narrower-reform alternatives). ST and short-termism + CB compliance-burden are acknowledged as pro-side concerns to take seriously but are conceded, not the commenter's own Oppose rationale (inclusive-only)."
+   },
+   "staged": "2026-06-18 — classified; held in pending_types until the docket 'typee' aggregate count posts (expected next pull). On promotion: move to types[], set submitter_count, bump n_types 4->5, add count to total_submitters + stance_summary.Oppose, rebuild form-letter panel.",
+   "render_spec": {
+    "panel": "Same form-letter table/panel as A/B/C/F (not the per-letter corpus).",
+    "text_cell": "For E, do NOT inline the long template text — render a LINK in the text/template column to the SEC docket aggregate page (s7202615-typee.htm, the typef-style URL). A/B/C/F keep their short inline template text.",
+    "rationale_column": "Add a Rationale column. E shows IA/IP/CMP/MF/AL; F shows IA/FR/IP (coded 2026-06-18); A/B/C show 'no rationale' (blank/—).",
+    "badges": "Render E's and F's rationale codes as the same badge chips ('little boxes') used on individual letter cards; reuse existing badge styling/legend from build_and_push.py.",
+    "source": "Tzachi directive 2026-06-18."
+   }
+  },
+  {
+   "type": "F",
+   "submitter_count": 12155,
+   "text": "Dear SEC, I oppose the SEC proposal because it prevents investors like me from accessing information about companies; lets companies hide behind closed doors; and allows fraud to fester.\n\nSincerely,",
+   "primary_stance": "Oppose",
+   "literalist_stance": "Oppose",
+   "skeptic_stance": "Oppose",
+   "stance": "Oppose",
+   "agreement": "unanimous",
+   "entity": "NR",
+   "entity_agreement": "unanimous",
+   "rationales": [
+    "IA",
+    "FR",
+    "IP"
+   ],
+   "rationale_agreement": "unanimous",
+   "rater_notes": {
+    "primary": "Oppose — explicit 'I oppose the SEC proposal'; argues retail info-access (IA), concealment/transparency (IP), and fraud (FR).",
+    "literalist": "Oppose — verbatim 'I oppose.' Codes IA/IP/FR all surface-explicit ('accessing information', 'hide behind closed doors', 'fraud to fester').",
+    "skeptic": "Oppose — unconditional; no hedge or alternative cadence.",
+    "rationale": "Coded 2026-06-18 per Tzachi (previously logged 'in substance' only): IA (retail access), FR (fraud), IP (concealment/transparency). Unanimous across raters."
+   },
+   "rationales_primary": [
+    "IA",
+    "FR",
+    "IP"
+   ],
+   "rationales_literalist": [
+    "IA",
+    "FR",
+    "IP"
+   ],
+   "rationales_inclusive": [
+    "IA",
+    "FR",
+    "IP"
+   ],
+   "rationales_majority": [
+    "IA",
+    "FR",
+    "IP"
+   ],
+   "rationale_evidence": {
+    "IA": "prevents investors like me from accessing information about companies (retail access disadvantage vs better-positioned actors)",
+    "FR": "allows fraud to fester",
+    "IP": "lets companies hide behind closed doors (loss of public transparency)"
+   }
+  }
+ ],
+ "pending_types": []
 }

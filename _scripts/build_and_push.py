@@ -2489,17 +2489,45 @@ def build_form_letter_panel(fl, corpus_counts=None):
             '</p>'
         )
 
+    # Server-side rationale-badge colors (mirror of the dev-only JS RATIONALE_META scale;
+    # the form-letter panel is static HTML and cannot read that JS object).
+    RAT_COLORS = {
+        'IP':'#993c1d','IA':'#ad4624','FR':'#c1502b','MF':'#d55a32','AU':'#b06037',
+        'ICc':'#7a2a14','EX':'#8a3320','CMP':'#c97058','CC':'#663020','SG':'#94483a',
+        'US':'#b85542','RI':'#a8625a','PP':'#7a1f3d','CB':'#3b6d11','ST':'#487a1a',
+        'OP':'#559524','OV':'#6ba83c','ICs':'#2c5d22','AL':'#854f0b','GU':'#2a7d6f',
+        'LE':'#185fa5','NR':'#888780',
+    }
+    def _rat_cell(codes):
+        if not codes:
+            return '<span style="color:#999;">&mdash;</span>'
+        return ' '.join(
+            f'<span class="rat-badge" data-rat-code="{c}" '
+            f'style="background:{RAT_COLORS.get(c, "#888780")}; color:#fff;">{_html.escape(c)}</span>'
+            for c in codes
+        )
+    # Long templates (D, E) link out to the SEC aggregate page instead of inlining the full
+    # text; short templates (A/B/C/F) stay inline. Per Tzachi render spec 2026-06-18.
+    def _text_cell(t):
+        txt = t.get("text", "")
+        if len(txt) > 600:
+            letter = t.get("type", "").lower()
+            url = f"https://www.sec.gov/comments/S7-2026-15/s7202615-type{letter}.htm"
+            return (f'<a href="{url}" target="_blank" rel="noopener" style="color:#993c1d;">'
+                    f'View full template on SEC.gov &rarr;</a>')
+        return f'<span style="color:#444;font-style:italic;">&ldquo;{_html.escape(txt).replace(chr(10), "<br>")}&rdquo;</span>'
+
     rows = []
     for t in fl["types"]:
-        text_html = _html.escape(t.get("text", "")).replace("\n", "<br>")
         stance = t.get("stance", "")
         scolor = dict(order).get(stance, "#555")
         rows.append(
             '<tr>'
-            f'<td style="padding:6px 10px;font-weight:600;white-space:nowrap;">Type {_html.escape(t.get("type",""))}</td>'
-            f'<td style="padding:6px 10px;text-align:right;font-variant-numeric:tabular-nums;">{t.get("submitter_count",0)}</td>'
-            f'<td style="padding:6px 10px;"><span style="color:{scolor};font-weight:600;">{_html.escape(stance)}</span></td>'
-            f'<td style="padding:6px 10px;color:#444;font-style:italic;">&ldquo;{text_html}&rdquo;</td>'
+            f'<td style="padding:6px 10px;font-weight:600;white-space:nowrap;vertical-align:top;">Type {_html.escape(t.get("type",""))}</td>'
+            f'<td style="padding:6px 10px;text-align:right;font-variant-numeric:tabular-nums;vertical-align:top;">{t.get("submitter_count",0)}</td>'
+            f'<td style="padding:6px 10px;vertical-align:top;"><span style="color:{scolor};font-weight:600;">{_html.escape(stance)}</span></td>'
+            f'<td style="padding:6px 10px;vertical-align:top;">{_rat_cell(t.get("rationales") or [])}</td>'
+            f'<td style="padding:6px 10px;vertical-align:top;max-width:420px;">{_text_cell(t)}</td>'
             '</tr>'
         )
     rows_html = "\n".join(rows)
@@ -2521,6 +2549,7 @@ def build_form_letter_panel(fl, corpus_counts=None):
         <th style="padding:4px 10px;font-weight:600;">Type</th>
         <th style="padding:4px 10px;font-weight:600;text-align:right;">Submitters</th>
         <th style="padding:4px 10px;font-weight:600;">Stance</th>
+        <th style="padding:4px 10px;font-weight:600;">Rationale</th>
         <th style="padding:4px 10px;font-weight:600;">Template text</th>
       </tr>
     </thead>
