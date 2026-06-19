@@ -34,3 +34,4 @@ Letters_for_models/
 Letters_for_models.zip
 Letters_for_models_*/
 Letters_for_models_*.zip
+__pycache__/
