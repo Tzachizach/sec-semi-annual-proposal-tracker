@@ -1,16 +1,16 @@
 {
- "asof": "2026-06-18",
+ "asof": "2026-06-22",
  "source": "SEC.gov docket S7-2026-15 — aggregate form-letter postings",
  "source_url": "https://www.sec.gov/rules-regulations/public-comments/s7-2026-15",
  "note": "SEC form / campaign letters are posted as a template text plus a submitter count; the individual submissions are not separately docketed. These are held out of the per-letter corpus and the regression, and reported as a separate opposition tally, side by side with the individually-classified corpus and never summed with it (anonymous aggregate counts may overlap with named corpus letters). 2026-06-18: counts refreshed and two new substantive templates promoted live — Type E (Oppose; IA/IP/CMP/MF/AL) and Type D (Oppose; IA/MF/IP/CMP) — bringing the panel to 6 types. Types D, E, and F carry coded rationales; A/B/C are bare opposition.",
- "n_types": 6,
- "total_submitters": 18136,
+ "n_types": 7,
+ "total_submitters": 18191,
  "stance_summary": {
-  "Oppose": 18136,
+  "Oppose": 18191,
   "Conditional": 0,
   "Support": 0
  },
- "generated": "2026-06-18",
+ "generated": "2026-06-22",
  "types": [
   {
    "type": "A",
@@ -251,6 +251,71 @@
     "IA": "prevents investors like me from accessing information about companies (retail access disadvantage vs better-positioned actors)",
     "FR": "allows fraud to fester",
     "IP": "lets companies hide behind closed doors (loss of public transparency)"
+   }
+  },
+  {
+   "type": "G",
+   "submitter_count": 55,
+   "text": "The proposal to abandon quarterly reporting in favor of semiannual reports should NOT move forward. The proposal rests on the theory that quarterly reporting causes short-termism among corporate managers. Whatever the merits of that argument as applied to the C-suite, it has the relationship to retail investors exactly backward. Quarterly reports are the single most important leveling mechanism between retail and institutional investors in U.S. equity markets. Institutional investors have expert networks, channel checks, alternative data, satellite imagery of retailer parking lots, credit card panel data, and direct management access through conferences and one-on-one meetings that cost more than most of our portfolios. We have the 10-Q.\nThere are several issues:\nQuarterly reporting protects individual investors. Semiannual reporting doubles the information gap between insiders and ordinary shareholders. That gap is where volatility, uncertainty, and mistrust grow.\nThe short-termism diagnosis doesn't justify this remedy. Research from the CFA Institute, which studied this exact maneuver in the U.K. market, shows that reporting frequency has no measurable effect on corporate investment behavior. The SEC is accepting a real cost – less transparency for individual investors – for a benefit that the evidence says simply won't materialize.\nThe companies most likely to opt out are the ones where oversight matters most. Smaller, less-covered businesses operate with less scrutiny. Reducing their reporting requirements makes them harder to monitor, not easier to own.\nThis is the wrong direction. Reg FD moved toward a more level playing field. This proposal moves away from it.\nWhat, exactly, is the problem? As the WallStreetBets comment letter put it: \"The companies we trade are not being held back from greatness by the obligation to file four reports a year. ... The entire S&P 500 files a 10-Q every quarter, and the S&P 500 is at an all-time high. If quarterly reporting is crushing American capitalism, American capitalism is hiding it well.\"\nSimply put, the proposed amendment should NOT be allowed to advance.",
+   "primary_stance": "Oppose",
+   "literalist_stance": "Oppose",
+   "skeptic_stance": "Oppose",
+   "stance": "Oppose",
+   "agreement": "unanimous",
+   "entity": "NR",
+   "entity_agreement": "unanimous",
+   "rationales": [
+    "IA",
+    "IP",
+    "FR",
+    "MF",
+    "ICc"
+   ],
+   "rationales_primary": [
+    "IA",
+    "IP",
+    "FR",
+    "MF",
+    "ICc"
+   ],
+   "rationales_literalist": [
+    "IA",
+    "IP",
+    "MF"
+   ],
+   "rationales_inclusive": [
+    "IA",
+    "IP",
+    "FR",
+    "MF",
+    "ICc"
+   ],
+   "rationales_majority": [
+    "IA",
+    "IP",
+    "FR",
+    "MF",
+    "ICc"
+   ],
+   "rationale_agreement": "majority",
+   "rationale_evidence": {
+    "IA": "Quarterly reports are the single most important leveling mechanism between retail and institutional investors; semiannual doubles the information gap between insiders and ordinary shareholders. Institutions have expert networks, channel checks, alternative data, satellite imagery, credit-card panels, and management access; retail has the 10-Q.",
+    "IP": "Quarterly reporting protects individual investors.",
+    "FR": "The companies most likely to opt out are smaller, less-covered businesses where oversight matters most; reducing their reporting makes them harder to monitor.",
+    "MF": "The widened information gap is where volatility, uncertainty, and mistrust grow.",
+    "ICc": "CFA Institute study of the U.K. market shows reporting frequency has no measurable effect on corporate investment behavior — the short-termism remedy's benefit will not materialize."
+   },
+   "rater_notes": {
+    "primary": "Oppose — flat rejection ('should NOT move forward', 'should NOT be allowed to advance'); the retail-vs-institutional leveling argument is the spine, with a UK-evidence rebuttal of the short-termism premise.",
+    "literalist": "Oppose — explicit 'should NOT move forward' / 'should NOT be allowed to advance.'",
+    "skeptic": "Oppose — the 'whatever the merits... as applied to the C-suite' line is a rhetorical concession, not a conditional; NO alternative cadence or 'so long as' structure (contrast Type E). Nothing to flip to Conditional.",
+    "rationale": "Substantive template; codes IA (retail-vs-institutional leveling / information gap — central), IP (protects individual investors), ICc (CFA/UK evidence that frequency has no effect on investment — rebuts short-termism), FR (smaller, less-covered companies harder to monitor), MF (volatility/uncertainty from the data gap). Literalist omits FR ('harder to monitor', not explicit fraud) and ICc (UK citation framed as a no-effect rebuttal rather than the code's cautionary-hides-problems framing) -> majority, not unanimous."
+   },
+   "render_spec": {
+    "panel": "Same A/B/C/F form-letter table.",
+    "text_cell": "Long template — link out to the SEC 'typeg' aggregate URL (s7202615-typeg.htm) instead of inlining (same as D/E).",
+    "rationale_column": "G shows IA/IP/FR/MF/ICc badges.",
+    "source": "Tzachi paste 2026-06-22."
    }
   }
  ],

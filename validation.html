@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>How reliable are these labels? — SEC S7-2026-15</title>
+<meta name="description" content="Validation of the SEC S7-2026-15 tracker's classifications against a human expert gold standard and a 13-model benchmark. Open-weight models tie the commercial frontier on stance." />
+<style>
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 24px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  background: #ffffff; color: #1a1a1a; line-height: 1.55; font-size: 14px;
+  max-width: 920px; margin-left: auto; margin-right: auto;
+}
+h1 { font-size: 24px; font-weight: 500; margin: 0 0 4px; }
+.lede { color: #555; font-size: 13px; margin: 0 0 18px; }
+.back { font-size: 12px; color: #185fa5; text-decoration: none; }
+.back:hover { text-decoration: underline; }
+.section { margin-top: 18px; padding-top: 14px; border-top: 0.5px solid rgba(0,0,0,0.08); }
+.section > strong { font-size: 15px; }
+.footer { font-size: 12px; color: #888; margin-top: 32px; padding-top: 16px; border-top: 0.5px solid rgba(0,0,0,0.1); }
+a { color: #185fa5; }
+</style>
+<script data-goatcounter="https://s7-2026-15.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+
+<p><a class="back" href="./">← Back to the tracker</a></p>
+
+<h1>How reliable are these labels?</h1>
+<p class="lede">Validation against human experts and a 13-model benchmark.</p>
+
+<div class="body">
+  Throughout this site, a <strong>label</strong> means a <strong>classification</strong> the model assigns to a letter. Each letter gets three of them: its <strong>stance</strong>: whether the letter <em>opposes</em>, <em>supports</em>, or gives <em>conditional</em> backing to the proposal; its <strong>entity</strong>: who is writing, e.g. an individual, an accountant (CPA), an academic, an issuer, or a trade association; and its <strong>rationale</strong>: which economic arguments the letter actually makes (investor protection, market function, fraud risk, compliance burden, and so on), drawn from a fixed list of codes. Those three labels populate the charts and the table on the main page, and they are produced by a language model reading each letter.
+
+  <p style="margin: 10px 0 0;"><strong>How far can we trust the ability of large language models to classify text like this?</strong></p>
+
+  <div class="section">
+    <strong>How I assess it.</strong>
+    <p style="margin: 6px 0 0;">Reliability is built into the pipeline first. Every label here is a <strong>majority vote of a three-rater ensemble</strong> (the primary / literalist / skeptic lenses described on the <a href="./">main methodology page</a>), so a single erratic read cannot move the headline. Early on I also <strong>cross-checked ~137 letters against a different model family</strong> (ChatGPT-5.5) to see whether the calls held up outside one vendor, which is the cross-model section on the <a href="./">main methodology page</a>. Those are internal consistency checks. To go further, I ran a separate <strong>validation study</strong> that measures the classifier against two external standards: a human expert gold standard, and a broad benchmark of other models. The study is ongoing; what follows is a preliminary report on a small expert-coded set, and the numbers will firm up as the coded sample grows.</p>
+  </div>
+
+  <div class="section">
+    <strong>A human expert gold standard.</strong>
+    <p style="margin: 6px 0 0;">Three experts (myself and two colleagues with accounting and comment-letter experience) independently coded the same stratified sample of 20 letters under the full rubric. Expert-versus-expert agreement sets the realistic ceiling. Even trained readers disagree, especially on entity.</p>
+    <p style="margin: 10px 0 0;">A word on how I measure agreement, since every number below uses it: a statistic called <strong>kappa (κ)</strong>. The intuition: picture two people independently sorting the same letters into bins. Some of their answers will line up purely by luck, especially when one bin ("Oppose") is very common to begin with. Kappa is the agreement that is <em>left over</em> after you subtract out that lucky overlap: <strong>κ = 1</strong> means they agree every time, <strong>κ = 0</strong> means they agree no more than two people labeling at random would, and the closer to 1, the more the agreement reflects genuine shared judgment rather than coincidence. By convention, above ~0.8 reads as "near-perfect" and 0.6–0.8 as "substantial." <strong>Fleiss' κ</strong> is the same idea applied to a whole panel of raters at once (three or more) instead of a single pair, and it summarizes how well the three experts agree together.</p>
+    <p style="margin: 10px 0 0;">On <strong>stance</strong>, agreement among the three experts is <strong>quite high (Fleiss' κ = 0.82)</strong>: trained readers largely converge on whether a letter opposes, supports, or conditionally backs the proposal. On <strong>entity</strong> (who is writing) it is <strong>noticeably lower, Fleiss' κ = 0.67</strong>, because deciding whether a letter speaks "as a CPA" or "as an individual" is a genuine judgment call the experts themselves split on. That lower figure is the true ceiling for the harder task. We would not ordinarily expect a model to agree with the experts more closely than the experts agree among themselves, although that remains possible. Human agreement is the yardstick we benchmark the models against.</p>
+    <p style="margin: 10px 0 0; color: #666; font-size: 12px;">This human comparison is a development-stage validation on a small sample with three coders so far, and I am expanding both the coded set and the coder pool. Treat the human-anchored numbers as encouraging but preliminary.</p>
+  </div>
+
+  <div class="section">
+    <strong>A 13-model benchmark on the same letters.</strong>
+    <p style="margin: 6px 0 4px;">Thirteen models classified those letters from the letter text alone. I deliberately spanned a range within each family rather than relying on a single model: three Claude tiers (Haiku, Sonnet, Opus); three GPT models reaching back across generations (the 2023-era GPT-3.5 up to today's GPT-5.5); three Gemini tiers (Pro, Flash, Flash-Lite); and four open-weight models. By <strong>"frontier"</strong> I mean the newest flagship in each family: Opus 4.8, GPT-5.5, Gemini Pro. Two findings:</p>
+    <ul style="margin: 0; padding-left: 20px; color: #444;">
+      <li><strong>Stance:</strong> the strongest models agree with the human experts about as well as the experts agree with each other (Cohen's κ ≈ 0.85–0.92 against individual coders, versus the 0.82 three-rater ceiling). On stance, a frontier model is about as reliable a rater as adding another human expert.</li>
+      <li><strong>Entity (who is writing):</strong> every model falls below the human ceiling (κ ≈ 0.34–0.59), a harder call than stance for people and machines alike, since the experts themselves slip here (rationale, below, is harder still). The telling detail is that the models miss in the <em>same</em> places: open and frontier alike read a corporate writer as a private individual, or a student as an individual.</li>
+    </ul>
+    <p style="margin: 10px 0 0;">A note on coverage, and on the open models specifically. The agreement figures above come from the 20-letter expert set, the only letters with human labels, and that holds for every model open and closed. The open-weight models are not uniformly strong: against the human gold, phi-4 and Mistral reach Cohen's κ 0.85 on stance and gemma 0.84, all tying the commercial frontier and sitting at the 0.82 human ceiling, while Qwen, a 0.5-billion-parameter model included as a deliberate floor, reaches only κ 0.30. The four open models were additionally run over the full corpus of every letter on the site, so the stance result does not rest on the small sample alone.</p>
+  </div>
+
+  <div class="section">
+    <strong>Rationale: the hardest dimension of all.</strong>
+    <p style="margin: 6px 0 0;">Stance is one pick out of three and entity one out of ten, but rationale is a <em>set</em>: a single letter can invoke several economic arguments at once, chosen from a couple dozen codes. There is no one right answer to match against, so agreement here is measured as how much two readers' <em>sets</em> of codes overlap rather than by kappa, and it is the lowest-agreement dimension of the three, for humans and models alike.</p>
+    <p style="margin: 10px 0 0;"><strong>On the human side</strong>, the experts overlap on rationale only about half the time, well below their stance agreement. Much of that reflects <em>coding depth</em>: readers differ in how many arguments they record per letter. One expert codes inclusively, around three per letter; another codes minimally, closer to one or two.</p>
+    <p style="margin: 10px 0 0;"><strong>On the cross-model side</strong>, the models divide their emphasis differently from the people. They reach for specific economic-mechanism arguments (fraud and insider risk, market function, information asymmetry) two to three times as often as the human coders do, while leaning less on the single broad argument the humans use most, investor protection. The models and the humans read the same letters; they apportion the <em>why</em> differently.</p>
+    <p style="margin: 10px 0 0;">The upshot: rationale is where I would trust the labels least, and where the method still needs the most work: fixing a consistent coding depth before these overlap numbers are fully comparable. Stance is solid, entity is harder, and rationale is the challenge.</p>
+  </div>
+
+  <div class="section">
+    <strong>It is not a Claude-specific result.</strong>
+    <p style="margin: 6px 0 0;">The finding does not depend on any one vendor. Measured against the human gold standard on the expert set, three open-weight models that anyone can download and run for free (a 14B, a 24B, and a 27B) reach Cohen's κ of 0.84 to 0.85 on stance: the same band as Opus 4.8, GPT-5.5, and Gemini Pro, and at the 0.82 three-rater human ceiling. On stance, a free model rates the letters about as reliably as the commercial frontier and about as well as adding another human expert. The strongest closed models also re-derive the stance labels published on this site almost perfectly; several agree on 100% of the validation letters. (Entity and rationale reproduce less well, as expected since they are the harder dimensions.)</p>
+  </div>
+
+</div>
+
+<p class="footer">
+Methodology context: <a href="./">tracker home</a>.
+Argument codes: <a href="rationale-taxonomy.html">rationale taxonomy</a>.
+Built by <a href="https://fisher.osu.edu/people/zach.7" target="_blank" rel="noopener">Tzachi Zach</a> (OSU Fisher).
+</p>
+
+</body>
+</html>

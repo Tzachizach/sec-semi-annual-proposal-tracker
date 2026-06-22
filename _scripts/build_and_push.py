@@ -69,6 +69,9 @@ FILES_TO_PUSH = {
     "data.json": PUBLIC_JSON,
     "bodies.json": PUBLIC_BODIES,
     "rationale-taxonomy.html": PUBLIC_DIR / "rationale-taxonomy.html",
+    # Standalone validation page ("How reliable are these labels?"): human expert
+    # gold standard + 13-model benchmark. Linked from the stance methodology accordion.
+    "validation.html": PUBLIC_DIR / "validation.html",
     "_meta/renumbered_records.json": RECORDS_PATH,
     # SEC aggregate form-letter tally (template text + submitter counts). Held out of the
     # 611 per-letter corpus and the regression; rendered as a separate side-by-side panel.
@@ -475,18 +478,30 @@ __NOPOS_PANEL__
     </div>
 
     <div style="margin-top:14px; padding-top:12px; border-top: 0.5px solid rgba(0,0,0,0.08);">
-      <strong>Cross-model validation (ChatGPT-5.5, n = 137 overlap).</strong>
+      <strong>Cross-model validation (ChatGPT-5.5, n = 142 overlap).</strong>
       <p style="margin: 6px 0 0;">I then ran the same 3 rubric prompts through ChatGPT-5.5 as an independent second ensemble. The question I wanted to answer: would the stance calls hold up under a different model family? Carlson &amp; Burbano (<em>SMJ</em> 2026) recommend this kind of cross-model check where feasible.</p>
-      <p style="margin: 10px 0 0;"><strong>GPT-Majority vs Claude-Majority: 132 / 137 = 96.4% raw, Cohen's κ = 0.886.</strong> Substantial cross-model agreement on the aggregated label.</p>
+      <p style="margin: 10px 0 0;"><strong>GPT-Majority vs Claude-Majority: 136 / 142 = 96% raw, Cohen's κ = 0.86.</strong> Substantial cross-model agreement on the aggregated label.</p>
       <p style="margin: 10px 0 4px;">Per-rubric agreement varies:</p>
       <ul style="margin: 0 0 0; padding-left: 20px; color: #444;">
-        <li>GPT-Primary vs Claude-Primary: κ = 0.816 (substantial)</li>
-        <li>GPT-Literalist vs Claude-Literalist: κ = 0.635 (moderate-substantial)</li>
-        <li>GPT-Skeptic vs Claude-Skeptic: κ = 0.400 (moderate)</li>
+        <li>GPT-Primary vs Claude-Primary: κ = 0.81 (substantial)</li>
+        <li>GPT-Literalist vs Claude-Literalist: κ = 0.62 (moderate-substantial)</li>
+        <li>GPT-Skeptic vs Claude-Skeptic: κ = 0.40 (moderate)</li>
       </ul>
-      <p style="margin: 10px 0 0;">The Skeptic divergence reflects a rubric-conditioning effect. The same "default to Conditional unless unambiguous" instruction yielded 83 Conditional calls in GPT-5.5 versus 36 in Claude Opus 4.7. Same prompt, different operationalization across model families. Aggregate agreement on the majority vote holds; per-rubric agreement is more model-dependent.</p>
-      <p style="margin: 10px 0 0;">5 letters fall outside the cross-model majority match: #2 Fardeen Irani, #13 Skyler Mathis, #43 Steven A. Collazo, #80 Bayo Olabisi, #122 Tal Madison. All 5 push from Claude's Support or Oppose call into GPT's Conditional call. 4 of the 5 already had at least one Claude rater calling Conditional, so the cross-model disagreement concentrates on the hedge-boundary letters Claude's own ensemble was already split on.</p>
-      <p style="margin: 10px 0 0;">I read all 5 of these letters by hand. On every one, Claude-Majority is the call I would have made; GPT-Majority is not. The uniform GPT failure mode: it treats any structural alternative or rhetorical hedge in the letter body as evidence of conditionality, even when the author's stated position is unambiguous. Five letters is a small validation set, but the direction is one-sided.</p>
+      <p style="margin: 10px 0 0;">The Skeptic divergence reflects a rubric-conditioning effect. The same "default to Conditional unless unambiguous" instruction yielded 86 Conditional calls in GPT-5.5 versus 37 in Claude Opus 4.7. Same prompt, different operationalization across model families. Aggregate agreement on the majority vote holds; per-rubric agreement is more model-dependent.</p>
+      <p style="margin: 10px 0 0;">6 letters fall outside the cross-model majority match: #2 Fardeen Irani, #3 Anonymous, #13 Skyler Mathis, #43 Steven A. Collazo, #80 Bayo Olabisi, #122 Tal Madison. All 6 push from Claude's Support or Oppose call into GPT's Conditional call. 4 of the 6 already had at least one Claude rater calling Conditional, so the cross-model disagreement concentrates on the hedge-boundary letters Claude's own ensemble was already split on.</p>
+      <p style="margin: 10px 0 0;">I read all 6 of these letters by hand. On every one, Claude-Majority is the call I would have made; GPT-Majority is not. The uniform GPT failure mode: it treats any structural alternative or rhetorical hedge in the letter body as evidence of conditionality, even when the author's stated position is unambiguous. Six letters is a small validation set, but the direction is one-sided.</p>
+    </div>
+
+    <div style="margin-top:14px; padding-top:12px; border-top: 0.5px solid rgba(0,0,0,0.08);">
+      <strong>Open-weight cross-check (same letters, vs the labels published here).</strong>
+      <p style="margin: 6px 0 0;">I ran those same comment letters through four open-weight models that anyone can download and run for free, and compared each model's majority stance call to the label shown on this site.</p>
+      <ul style="margin: 8px 0 0; padding-left: 20px; color: #444;">
+        <li>phi-4 (14B): 95% raw, Cohen's κ = 0.80</li>
+        <li>gemma-3 (27B): 96% raw, κ = 0.84</li>
+        <li>Mistral-Small (24B): 97% raw, κ = 0.90</li>
+        <li>Qwen2.5 (0.5B, deliberate floor): 70% raw, κ = 0.20</li>
+      </ul>
+      <p style="margin: 10px 0 0;">On the same letters where ChatGPT-5.5 reaches κ = 0.86, the three capable open models land in the same band (κ = 0.80 to 0.90), and a free 24-billion-parameter model edges the commercial system. Across the full docket of 1,898 letters the capable models reproduce the site's stance label on 93 to 98 percent. Kappa runs lower on the full docket because it is roughly 97 percent Oppose, so agreement by chance is high and the metric is pushed down even when raw agreement is near-perfect; the 142-letter sample above is less skewed. Qwen, kept as a deliberate floor, is the one that breaks down.</p>
     </div>
 
     <div style="margin-top:14px;">
@@ -499,6 +514,12 @@ __NOPOS_PANEL__
         <dt><span class="dot" style="background:#a8830d"></span>Conditional <span style="color:#777; font-weight:400;">(in-between / mixed)</span></dt>
         <dd>Author wants modifications or alternatives (e.g. enhanced auditor assurance, monthly revenue disclosure, every-4-months cadence, qualifying-criteria framework). Would not vote yes on the rule as written.</dd>
       </dl>
+    </div>
+
+    <div style="margin-top:14px; padding-top:12px; border-top: 0.5px solid rgba(0,0,0,0.08);">
+      <strong>How reliable are these labels?</strong>
+      <p style="margin: 6px 0 8px;">I validated these classifications against a human expert gold standard and a 13-model benchmark spanning Claude, GPT, Gemini, and four open-weight models. Stance is where the labels are most reliable; entity and rationale are harder, for people and machines both.</p>
+      <a href="validation.html" style="display: inline-block; padding: 7px 14px; background: #1a1a1a; color: #fff; border-radius: 8px; text-decoration: none; font-size: 13px;">How reliable are these labels? &rarr;</a>
     </div>
   </div>
 </details>
@@ -542,18 +563,36 @@ __NOPOS_PANEL__
     </div>
 
     <div style="margin-top:14px; padding-top:12px; border-top: 0.5px solid rgba(0,0,0,0.08);">
-      <strong>Cross-model validation (ChatGPT-5.5, n = 137 overlap).</strong>
+      <strong>Cross-model validation (ChatGPT-5.5, n = 142 overlap).</strong>
       <p style="margin: 6px 0 0;">The same 3 rubric prompts ran through ChatGPT-5.5 as an independent second ensemble.</p>
-      <p style="margin: 10px 0 0;"><strong>GPT-Majority vs Claude-Majority: 114 / 137 = 83.2%, Cohen's κ = 0.621.</strong> Moderate cross-model agreement on the aggregated label.</p>
+      <p style="margin: 10px 0 0;"><strong>GPT-Majority vs Claude-Majority: 120 / 142 = 85%, Cohen's κ = 0.63.</strong> Moderate cross-model agreement on the aggregated label.</p>
       <p style="margin: 10px 0 4px;">Per-rubric agreement:</p>
       <ul style="margin: 0 0 0; padding-left: 20px; color: #444;">
-        <li>GPT-Primary vs Claude-Primary: κ = 0.657 (substantial)</li>
-        <li>GPT-Self-described vs Claude-Self-described: κ = 0.593 (moderate-substantial)</li>
-        <li>GPT-Letterhead vs Claude-Letterhead: κ = 0.584 (moderate-substantial)</li>
+        <li>GPT-Primary vs Claude-Primary: κ = 0.68 (substantial)</li>
+        <li>GPT-Self-described vs Claude-Self-described: κ = 0.63 (substantial)</li>
+        <li>GPT-Letterhead vs Claude-Letterhead: κ = 0.62 (substantial)</li>
       </ul>
       <p style="margin: 10px 0 0;">The pattern is systematic. GPT-5.5 has a stronger "Individual" prior than Claude Opus 4.7 across all three rubrics. The biggest split is on writers who sign as "CFO, ACME Corp" or similar institutional role but write in a personal register engaging investor-protection concerns rather than issuer-specific concerns: GPT-Primary classifies as Individual; Claude-Primary classifies as Issuer-current. Both readings are defensible under the rubric. The rubric requires a "speaking-as" judgment, and the two model families weight surface role vs register differently.</p>
-      <p style="margin: 10px 0 0;">Intra-model Fleiss κ is 0.880 for Claude and 0.775 for GPT. Within-model agreement holds for both ensembles; the divergence is across model families.</p>
-      <p style="margin: 10px 0 0;">23 letters fall outside the cross-model majority match. 18 of 23 flow into GPT-Individual from a more specific Claude bucket. 6 of these 23 are already on the contested-letters list internal to Claude's own three-rater ensemble.</p>
+      <p style="margin: 10px 0 0;">Intra-model Fleiss κ is 0.87 for Claude and 0.78 for GPT. Within-model agreement holds for both ensembles; the divergence is across model families.</p>
+      <p style="margin: 10px 0 0;">22 letters fall outside the cross-model majority match. 17 of 22 flow into GPT-Individual from a more specific Claude bucket. 11 of these 22 are already on the contested-letters list internal to Claude's own three-rater ensemble.</p>
+    </div>
+
+    <div style="margin-top:14px; padding-top:12px; border-top: 0.5px solid rgba(0,0,0,0.08);">
+      <strong>Open-weight cross-check (same letters, vs the labels published here).</strong>
+      <p style="margin: 6px 0 0;">The same four open-weight models, scored against the entity bucket shown on this site:</p>
+      <ul style="margin: 8px 0 0; padding-left: 20px; color: #444;">
+        <li>phi-4 (14B): 81% raw, Cohen's κ = 0.55</li>
+        <li>gemma-3 (27B): 78% raw, κ = 0.51</li>
+        <li>Mistral-Small (24B): 79% raw, κ = 0.51</li>
+        <li>Qwen2.5 (0.5B, deliberate floor): 65% raw, κ = 0.00</li>
+      </ul>
+      <p style="margin: 10px 0 0;">Entity is the harder call for every model. The capable open models (κ = 0.51 to 0.55) sit just behind ChatGPT-5.5 (κ = 0.63) and well above the Qwen floor, the same ordering as on stance. Who is writing is a genuine judgment call, and the open and commercial models miss it in the same places.</p>
+    </div>
+
+    <div style="margin-top:14px; padding-top:12px; border-top: 0.5px solid rgba(0,0,0,0.08);">
+      <strong>How reliable are these labels?</strong>
+      <p style="margin: 6px 0 8px;">I validated these classifications against a human expert gold standard and a 13-model benchmark spanning Claude, GPT, Gemini, and four open-weight models. Stance is where the labels are most reliable; entity and rationale are harder, for people and machines both.</p>
+      <a href="validation.html" style="display: inline-block; padding: 7px 14px; background: #1a1a1a; color: #fff; border-radius: 8px; text-decoration: none; font-size: 13px;">How reliable are these labels? &rarr;</a>
     </div>
   </div>
 </details>
@@ -596,9 +635,9 @@ __NOPOS_PANEL__
     </div>
 
     <div style="margin-top:14px; padding-top:12px; border-top: 0.5px solid rgba(0,0,0,0.08);">
-      <strong>Cross-model validation (ChatGPT-5.5, n = 137 overlap).</strong>
+      <strong>Cross-model validation (ChatGPT-5.5, n = 142 overlap).</strong>
       <p style="margin: 6px 0 0;">The same 3 rubric prompts ran through ChatGPT-5.5 as an independent second ensemble.</p>
-      <p style="margin: 10px 0 0;"><strong>GPT-Majority vs Claude-Majority: mean per-code Cohen's κ = 0.477.</strong> Moderate cross-model agreement, lower than the stance ensemble (κ = 0.886) and the entity ensemble (κ = 0.621). The ranking is consistent with rationale being the most inferential and multi-label of the three ensembles. Set-level exact match (GPT majority code set identical to Claude majority code set): 34 of 137 letters, 24.8%. Mean Jaccard similarity between the two majority sets: 0.52.</p>
+      <p style="margin: 10px 0 0;"><strong>GPT-Majority vs Claude-Majority: mean per-code Cohen's κ = 0.44.</strong> Moderate cross-model agreement, lower than the stance ensemble (κ = 0.86) and the entity ensemble (κ = 0.63). The ranking is consistent with rationale being the most inferential and multi-label of the three ensembles. Set-level exact match (GPT majority code set identical to Claude majority code set): 37 of 142 letters, 26%. Mean Jaccard similarity between the two majority sets: 0.53.</p>
       <p style="margin: 10px 0 4px;">Per-rubric mean κ across the 20 codes:</p>
       <ul style="margin: 0 0 0; padding-left: 20px; color: #444;">
         <li>GPT-Primary vs Claude-Primary: κ = 0.483</li>
@@ -612,6 +651,12 @@ __NOPOS_PANEL__
     <p style="margin: 14px 0 0;">
       <a href="rationale-taxonomy.html" style="display: inline-block; padding: 7px 14px; background: #1a1a1a; color: #fff; border-radius: 8px; text-decoration: none; font-size: 13px;">Full argument taxonomy with SEC quotes &rarr;</a>
     </p>
+
+    <div style="margin-top:14px; padding-top:12px; border-top: 0.5px solid rgba(0,0,0,0.08);">
+      <strong>How reliable are these labels?</strong>
+      <p style="margin: 6px 0 8px;">I validated these classifications against a human expert gold standard and a 13-model benchmark spanning Claude, GPT, Gemini, and four open-weight models. Stance is where the labels are most reliable; entity and rationale are harder, for people and machines both.</p>
+      <a href="validation.html" style="display: inline-block; padding: 7px 14px; background: #1a1a1a; color: #fff; border-radius: 8px; text-decoration: none; font-size: 13px;">How reliable are these labels? &rarr;</a>
+    </div>
   </div>
 </details>
 
@@ -2730,6 +2775,10 @@ def write_public_files():
             (PUBLIC_DEV_DIR / "rationale-taxonomy.html").write_text(taxonomy_dev_src.read_text())
         elif taxonomy_prod_src.exists():
             (PUBLIC_DEV_DIR / "rationale-taxonomy.html").write_text(taxonomy_prod_src.read_text())
+        # Mirror the standalone validation page into the dev preview too.
+        validation_prod_src = PUBLIC_DIR / "validation.html"
+        if validation_prod_src.exists():
+            (PUBLIC_DEV_DIR / "validation.html").write_text(validation_prod_src.read_text())
         print(f"[build:dev] Wrote {PUBLIC_DEV_HTML.relative_to(PROJECT_DIR)} (with voting widget — preview only, NOT pushed)")
 
     print(f"[build] Wrote {PUBLIC_HTML.relative_to(PROJECT_DIR)}  ({len(snapshot)} letters, asof {asof})")
