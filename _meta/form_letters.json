@@ -1,20 +1,20 @@
 {
- "asof": "2026-06-22",
+ "asof": "2026-06-23",
  "source": "SEC.gov docket S7-2026-15 — aggregate form-letter postings",
  "source_url": "https://www.sec.gov/rules-regulations/public-comments/s7-2026-15",
  "note": "SEC form / campaign letters are posted as a template text plus a submitter count; the individual submissions are not separately docketed. These are held out of the per-letter corpus and the regression, and reported as a separate opposition tally, side by side with the individually-classified corpus and never summed with it (anonymous aggregate counts may overlap with named corpus letters). 2026-06-18: counts refreshed and two new substantive templates promoted live — Type E (Oppose; IA/IP/CMP/MF/AL) and Type D (Oppose; IA/MF/IP/CMP) — bringing the panel to 6 types. Types D, E, and F carry coded rationales; A/B/C are bare opposition.",
  "n_types": 7,
- "total_submitters": 26266,
+ "total_submitters": 27533,
  "stance_summary": {
-  "Oppose": 26266,
+  "Oppose": 27533,
   "Conditional": 0,
   "Support": 0
  },
- "generated": "2026-06-22",
+ "generated": "2026-06-23",
  "types": [
   {
    "type": "A",
-   "submitter_count": 7696,
+   "submitter_count": 8600,
    "text": "Dear Commissioners,\nPlease keep quarterly reporting requirements in place.\nThanks,",
    "primary_stance": "Oppose",
    "literalist_stance": "Oppose",
@@ -206,7 +206,7 @@
   },
   {
    "type": "F",
-   "submitter_count": 17939,
+   "submitter_count": 18302,
    "text": "Dear SEC, I oppose the SEC proposal because it prevents investors like me from accessing information about companies; lets companies hide behind closed doors; and allows fraud to fester.\n\nSincerely,",
    "primary_stance": "Oppose",
    "literalist_stance": "Oppose",
