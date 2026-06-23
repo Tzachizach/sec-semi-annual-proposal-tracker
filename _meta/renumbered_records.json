@@ -626,7 +626,7 @@
   "summary": "Substantive scholarly support letter from William D. Warren Distinguished Professor of Law at UCLA (writing in individual capacity), based on decades of research on corporate governance and the mandatory-disclosure system. Supports the optional 10-S framework. Core arguments: (1) the theoretical foundation for mandatory quarterly reporting is weak — the public-goods, externalities, and information-asymmetry rationales are all contested; (2) market and reputational forces produce substantial voluntary disclosure even without mandates (private placements, foreign issuers); (3) the Adyen case demonstrates that companies whose investors genuinely want quarterly information will provide it voluntarily — investor pressure forced Adyen back from semi-annual to quarterly updates without any mandate; (4) a universal semi-annual mandate would override that market signal and impose investor welfare losses; (5) European semi-annual experience does not show the stigma or adverse-selection signaling effect critics warn about; (6) optionality functions as a useful natural experiment for the Commission to observe.",
   "page": 1,
   "old_n": 44,
-  "words": 6962,
+  "words": 7183,
   "entity": "Academic researcher",
   "primary_stance": "Support",
   "literalist_stance": "Support",
@@ -1886,7 +1886,7 @@
   "n": 40,
   "page": 2,
   "old_n": "P2N",
-  "words": 494,
+  "words": 506,
   "entity": "Academic researcher",
   "primary_stance": "Oppose",
   "literalist_stance": "Oppose",
@@ -5734,7 +5734,7 @@
   "stance": "Oppose",
   "summary": "Six-page lawyer-quality letter arguing the proposal will not survive judicial review. Four problems: (1) post-Loper Bright (2024), the SEC bears the full interpretive burden under §13(a) and cannot rely on Chevron deference — the statutory text references 'quarterly reports' in the alternative, posing a serious textual problem; (2) the major-questions doctrine (West Virginia v. EPA; Biden v. Nebraska) applies because eliminating quarterly disclosure is a structural change to ~4,000 reporting companies' information environment, not a technical adjustment; (3) under State Farm and Regents, the Commission has not provided a reasoned explanation for departing from the 1970 quarterly regime, has not credited the contested academic literature on short-termism, and has not catalogued investor reliance interests; (4) the cost-benefit analysis fails the D.C. Circuit standard (Chamber of Commerce v. SEC; Business Roundtable v. SEC) — must quantify issuer savings and investor costs, address bid-ask spreads and cost of equity capital, and consider less restrictive alternatives. Concludes the SEC has not carried the interpretive, statutory, or administrative-law burden required to finalize the rule as proposed.",
   "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-775207-2368474.pdf",
-  "words": 1818,
+  "words": 1780,
   "letter_id": "775207-2368474",
   "primary_stance": "Oppose",
   "literalist_stance": "Oppose",
@@ -6201,7 +6201,7 @@
   "stance": "Conditional",
   "summary": "Submitted as the comment letter is a 28-page December 2018 Brown University undergraduate thesis (authors Theodore Rosen, Ethan Shire, Benjamin Winston; primary advisor Lawrence A. Rand; secondary advisor David Weil). The paper recommends a bifurcated reporting system in which smaller companies would be allowed to report on a semiannual basis while mid- and large-cap companies continue quarterly disclosure — explicitly endorsing the SEC's scaled-relief alternative rather than the proposal's universal optionality. The paper also recommends companies issuing earnings guidance consider ending the practice. Acknowledges the transparency and cost-of-capital benefits of quarterly reporting (Stanford / Arif-De George spillover evidence; Reg FD; Fu-Kraft-Zhang cost-of-equity findings) but argues these are outweighed for small caps by short-termism (Nooyi, Musk, Shaich, Fink, Lutz) and disproportionate compliance costs ($541 vs $3,345 per $1M revenue audit-fee disparity from Audit Analytics; ~4.5 days to close per PwC). Cites Pozen's UK study as evidence that frequency change did not materially affect reinvestment, but flags Pozen's concern that bifurcation could reduce small-cap liquidity. Concludes a one-size-fits-all rule is suboptimal and that scaled relief based on annual revenue (per JOBS Act framework) is the most defensible structure.",
   "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-776308-2370196.pdf",
-  "words": 7800,
+  "words": 1000,
   "letter_id": "776308-2370196",
   "primary_stance": "Conditional",
   "literalist_stance": "Conditional",
@@ -21325,7 +21325,7 @@
   "rationale_agreement": "split",
   "summary": "Substantive Conditional (canonical Andrew Parker; this amended PDF replaces the original #99, which Tzachi held out as a duplicate). Same position as #99, expanded: he supports OPTIONAL semiannual reporting but only for mature, clean issuers, and would bar companies with recent ICFR/material-weakness conditions for three years and add disclosure conditions. Engages RFC 18 and RFC 26 with ICFR / SOX-404 detail. Tzachi's 2026-05-31 dedup call kept #462 over #99; the 3-rater stance stays Conditional (the amended letter is longer, not a different position).",
   "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-774547-2367854_2.pdf",
-  "words": 3027,
+  "words": 3034,
   "letter_id": "774547-2367854_2",
   "stance_evidence": "'semiannual reporting should be restricted to mostly mature companies that have consistently avoided [material revisions / misstatements / ICFR failures]'; 'narrowing the scope of who will be eligible for semiannual reporting... will increase capital markets efficiency and decrease the administrative burden'; 'I would like to see conditions on the proposed semi-annual reporting rule'.",
   "rfc_questions": {
@@ -47078,7 +47078,7 @@
   "rationale_agreement": "majority",
   "summary": "Columbia accounting professor Shivaram Rajgopal submits a detailed opposition arguing the release's economic analysis is structurally incomplete, the UK natural experiment refutes the short-termism rationale, the relieved cost is immaterial, and the correct reform is to streamline the 10-Q's contents rather than halve its frequency.",
   "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-799759-2420026.pdf",
-  "words": 3144,
+  "words": 3154,
   "letter_id": "s7202615-799759-2420026.pdf"
  },
  {
@@ -60739,7 +60739,7 @@
   "rationale_agreement": "majority",
   "summary": "Three asset-management associations request a 60-day extension of the comment period, taking no substantive position on the proposal itself.",
   "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-827941-2533647.pdf",
-  "words": 1118,
+  "words": 1489,
   "letter_id": "s7202615-827941-2533647.pdf"
  },
  {
@@ -60797,7 +60797,7 @@
   "rationale_agreement": "majority",
   "summary": "BetterInvesting, a nonprofit investor-education organization, opposes the proposal, arguing it would widen retail-institutional information asymmetry and strip interim filings of auditor review and certification, with the empirical short-termism literature failing to support it.",
   "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-817899-2492407.pdf",
-  "words": 1283,
+  "words": 2771,
   "letter_id": "s7202615-817899-2492407.pdf"
  },
  {
@@ -60849,7 +60849,7 @@
   "rationale_agreement": "majority",
   "summary": "ICAN, a nonprofit public-interest law firm, supports the proposal as an additive expansion of investor choice that does not foreclose quarterly reporting and counters the short-termism of quarterly guidance.",
   "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-806639-2452306.pdf",
-  "words": 1224,
+  "words": 2726,
   "letter_id": "s7202615-806639-2452306.pdf"
  },
  {
@@ -81976,7 +81976,7 @@
   "rationale_agreement": "majority",
   "summary": "A CPA opposes in detail, arguing the optional structure widens the retail/institutional information gap, that furnished earnings releases are not equivalent to filed reviewed 10-Qs, that insider information windows lengthen, and that the FPI analogy fails.",
   "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-803379-2438728.pdf",
-  "words": 1287,
+  "words": 2859,
   "letter_id": "s7202615-803379-2438728.pdf"
  },
  {

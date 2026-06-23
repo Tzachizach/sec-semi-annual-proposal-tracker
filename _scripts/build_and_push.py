@@ -2744,6 +2744,29 @@ def write_public_files():
         sys.exit(2)
 
     records = json.loads(RECORDS_PATH.read_text())
+
+    # Keep PDF letters' word counts in sync with their backfilled bodies.
+    # PDF letters land as "(PDF letter — text extraction pending …)" placeholders
+    # with words=0; once the real text is backfilled into Letters/NN_*.md the stored
+    # `words` must be refreshed or the card/table/modal show a stale or zero count
+    # (the site displays the stored field, it does not recompute). Recompute `words`
+    # from the real body for any PDF record whose body is no longer a placeholder,
+    # and persist so run_regression_compare.py (which reads `words`) stays consistent.
+    _word_bodies = load_letter_bodies()
+    _wc_changed = 0
+    for _r in records:
+        if not str(_r.get("url", "")).lower().endswith(".pdf"):
+            continue
+        _body = _word_bodies.get(_r["n"]) or _word_bodies.get(str(_r["n"])) or ""
+        if _body.strip() and "extraction pending" not in _body.lower():
+            _w = len(_body.split())
+            if _r.get("words") != _w:
+                _r["words"] = _w
+                _wc_changed += 1
+    if _wc_changed:
+        RECORDS_PATH.write_text(json.dumps(records, ensure_ascii=False, indent=1))
+        print(f"[build] refreshed word count for {_wc_changed} backfilled PDF letter(s)")
+
     snapshot = build_snapshot(records)
     asof = datetime.date.today().isoformat()
 
