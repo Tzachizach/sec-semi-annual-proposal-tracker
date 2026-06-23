@@ -6860,7 +6860,7 @@
     "skeptic": "Conditional",
     "agreement": "majority",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-779387-2374754.pdf",
-    "words": 0,
+    "words": 14398,
     "rationales": [
       "AL",
       "CB",
@@ -7191,7 +7191,7 @@
     "skeptic": "Conditional",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-779067-2374374.pdf",
-    "words": 681,
+    "words": 674,
     "rationales": [
       "AL",
       "AU",
@@ -7367,7 +7367,7 @@
     "skeptic": "Conditional",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778927-2374294.pdf",
-    "words": 513,
+    "words": 519,
     "rationales": [
       "AL",
       "AU",
@@ -8727,7 +8727,7 @@
     "skeptic": "Conditional",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-781927-2379414.pdf",
-    "words": 2715,
+    "words": 5099,
     "rationales": [
       "AL",
       "AU",
@@ -9377,7 +9377,7 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-782827-2380954.pdf",
-    "words": 450,
+    "words": 588,
     "rationales": [
       "IA",
       "MF",
@@ -10402,7 +10402,7 @@
     "skeptic": "Oppose",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-783747-2382634.pdf",
-    "words": 410,
+    "words": 439,
     "rationales": [
       "FR",
       "IA",
@@ -10775,7 +10775,7 @@
     "skeptic": "Conditional",
     "agreement": "majority",
     "url": "https://www.sec.gov/comments/S7-2026-18/s7202618-783247-2381574.pdf",
-    "words": 514,
+    "words": 630,
     "rationales": [
       "AU",
       "CB",
@@ -22067,7 +22067,7 @@
     "skeptic": "Support",
     "agreement": "unanimous",
     "url": "https://www.sec.gov/comments/S7-2026-18/s7202618-797899-2413426.pdf",
-    "words": 38,
+    "words": 5364,
     "rationales": [
       "AL",
       "MF",

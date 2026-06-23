@@ -8737,7 +8737,7 @@
   "rationale_agreement": "majority",
   "summary": "Academic finance letter from Cai (Drexel), Demers and Nguyen (Waterloo) attaching their working paper. Central evidence: quarterly earnings announcements generate net peer-firm information spillovers of 70-99% — a 'semi-public good' externality the SEC's economic analysis understates. Recommends scaled relief for smaller firms only (AL).",
   "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-779387-2374754.pdf",
-  "words": 0,
+  "words": 14398,
   "letter_id": "s7202615-779387-2374754.pdf"
  },
  {
@@ -8848,7 +8848,7 @@
   "rationale_agreement": "",
   "summary": "OFF-TOPIC: letter addresses 'Docket No. SEC-2026-2839-0001 - Technical Comments on Proposed Amendments to Regulation S-T and Form 10-K'. It does not engage S7-2026-15 (semiannual reporting). Filed under the S7-2026-15 docket by submission error. Excluded from public site, regression, and rater statistics.",
   "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-779127-2374474.pdf",
-  "words": 0,
+  "words": 1053,
   "letter_id": "s7202615-779127-2374474.pdf"
  },
  {
@@ -9206,7 +9206,7 @@
   "rationale_agreement": "majority",
   "summary": "Substantive 800-word governance-executive letter supporting flexibility with explicit gate-keeping eligibility (no recent ICFR material weaknesses, timely filing history, independent Audit Committee, etc.). Conditional unanimous, 10-code letter — the most rationale-rich letter in the corpus.",
   "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-779067-2374374.pdf",
-  "words": 681,
+  "words": 674,
   "letter_id": "s7202615-779067-2374374.pdf"
  },
  {
@@ -9417,7 +9417,7 @@
   "rationale_agreement": "majority",
   "summary": "First NYSE-listed public-issuer letter in the corpus. Bausch Health Companies (NYSE:BHC) supports the flexibility goal but argues the proposal as drafted will not deliver meaningful cost savings — investor expectations, lender requirements, Board oversight, and peer comparability will keep quarterly close cycles intact. Calls for extended filing deadlines + streamlined reporting (European-style) as the real reform. First substantive ICs invocation in the corpus.",
   "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-778927-2374294.pdf",
-  "words": 513,
+  "words": 519,
   "letter_id": "s7202615-778927-2374294.pdf"
  },
  {
@@ -11159,7 +11159,7 @@
   "rationale_agreement": "split",
   "summary": "Nine-page legal memo from Margaret Rosenfeld (Founder, Zukunft Advisory, LLC), a 27-year corporate/securities lawyer with partner experience at Freshfields, Paul Weiss, K&L Gates, Smith Anderson, and senior in-house CLO roles. Conditional: does not oppose but proposes a four-component operational framework + three specific recommendations to address the 'disclosure liability gap' the proposal creates for issuers that elect semiannual and continue quarterly market communications (the substantial majority, in her view). 11 rationale codes — new corpus record. Substantial LE invocation: cites Sections 302/906 SOX, Items 307/308 Regulation S-K, Section 18, Section 11, PCAOB AS 4105, AU-C 930, Rule 10b-5, Reg FD, Rule 10b5-1. Notable framing: bifurcation between large-cap quarterly filers (overwhelmingly non-electing) and smaller semiannual electors, and the 'on-ramp question' for emerging issuers — neither maps cleanly to existing codes.",
   "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-781927-2379414.pdf",
-  "words": 2715,
+  "words": 5099,
   "letter_id": "s7202615-781927-2379414.pdf",
   "rfc_questions": {
    "engaged": [
@@ -11976,7 +11976,7 @@
   "rationale_agreement": "unanimous",
   "summary": "Substantive Oppose PDF from a self-described Individual Investor. 6-vector technical argument (US gold standard, operational risks, IA, price discovery, Form 8-K critique, agency costs). Structurally near-identical template to #259 Rei Takashi (coordinated advocacy). 8 rationale codes — among the most rationale-rich letters in the corpus.",
   "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-782827-2380954.pdf",
-  "words": 450,
+  "words": 588,
   "letter_id": "782827-2380954"
  },
  {
@@ -13239,7 +13239,7 @@
   "rationale_agreement": "majority",
   "summary": "Substantive 410-word retail Oppose (PDF). Four points: institutional-vs-retail information asymmetry, delayed-bad-news / six-month MNPI blackout, options-market liquidity dependence on quarterly data, and corporate-convenience-over-investor-protection. Signs from Charlotte, NC with no institutional affiliation.",
   "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-783747-2382634.pdf",
-  "words": 410,
+  "words": 439,
   "letter_id": "s7202615-783747-2382634.pdf"
  },
  {
@@ -13723,7 +13723,7 @@
   "rationale_agreement": "split",
   "summary": "Substantive 514-word Oppose from a securities attorney (Marshal Shichtman & Associates, P.C.; NY bar + England & Wales solicitor). Eight rationale codes: efficiency/orderly markets, US competitiveness, cost-savings skepticism, lost auditor reviews, apples-to-apples uniformity, debt-covenant/Rule-144/listing mechanics, and investor confidence. Skeptic flips Conditional on the 'not insurmountable' concession; majority Oppose. NOTE: PDF filed under docket S7-2026-18 URL but engages our Form 10-S proposal directly.",
   "url": "https://www.sec.gov/comments/S7-2026-18/s7202618-783247-2381574.pdf",
-  "words": 514,
+  "words": 630,
   "letter_id": "s7202618-783247-2381574.pdf"
  },
  {
@@ -28250,7 +28250,7 @@
   "rationale_agreement": "majority",
   "summary": "Substantive Support from Louis Lehot and Patrick Daugherty (Foley & Lardner LLP, Silicon Valley + Chicago, capital-formation lawyers with 70+ combined years advising founders, boards, underwriters, and investors); explicit OP/AL/MF framing - choice should rest with boards, audit committees, investors; cutting two reports could raise cost of capital, but that is a business judgment, not a regulatory one; expect few to elect semiannual in the near term; cross-filed with S7-2026-17, S7-2026-18, CLL-16.",
   "url": "https://www.sec.gov/comments/S7-2026-18/s7202618-797899-2413426.pdf",
-  "words": 38,
+  "words": 5364,
   "letter_id": "s7202618-797899-2413426.pdf",
   "stance_note": "Cross-filed at S7-2026-18 docket URL but addresses S7-2026-15 substantively in Part I.C. The 8-bucket entity taxonomy does not yet have a Trade-association / Advocacy or Legal-practitioner bucket; coded as Industry practitioner-technologist for now. Re-bucket after the 2018 rubric fold-in ships."
  },
@@ -31746,7 +31746,7 @@
   "rationale_agreement": "unanimous",
   "summary": "Better Markets (Dennis Kelleher, Cofounder/President/CEO; Benjamin Schiffrin, Director of Securities Policy) — a non-profit financial-reform advocacy organization — requests a 60-day extension of the comment period (to 120 days total), arguing the 279-page, 58-RFC proposal needs more time and that the far shorter 2018 request got 90 days. It defers its substantive position to a later filing. Classified No position (procedural extension request); entity Trade association / advocacy organization.",
   "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-800759-2424828.pdf",
-  "words": 0,
+  "words": 1050,
   "letter_id": "s7202615-800759-2424828.pdf",
   "stance_note": "Procedural comment-period extension request; defers a substantive stance. Held out as No position. First letter in the Trade-association / advocacy entity bucket."
  },
@@ -33364,7 +33364,7 @@
   "rationale_agreement": "unanimous",
   "summary": "SIFMA (Joseph Corcoran, MD & Associate General Counsel) and SIFMA AMG (Raymond Mosca, AVP) — the leading broker-dealer/asset-manager trade association — request a 60-day extension of the comment period, citing the proposal's complexity (underwriter due diligence, investor-information timeliness, comparability), two overlapping offering-reform proposals, and the July 6 deadline's collision with the U.S. semiquincentennial. The second formal extension request on the docket (after Better Markets #701). Classified No position (procedural); entity Trade association / advocacy organization.",
   "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-800679-2424566.pdf",
-  "words": 0,
+  "words": 801,
   "letter_id": "s7202615-800679-2424566.pdf",
   "stance_note": "Second comment-period extension request (after Better Markets). Held out as No position; Trade-association bucket."
  },
@@ -56405,7 +56405,7 @@
   "rationale_agreement": "unanimous",
   "summary": "Duplicate of #739 — same SIFMA/SIFMA AMG 60-day comment-period extension request (Corcoran & Mosca), re-listed under a second doc-id. Held out.",
   "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-801179-2428627.pdf",
-  "words": 0,
+  "words": 801,
   "letter_id": "s7202615-801179-2428627.pdf"
  },
  {
