@@ -1,20 +1,20 @@
 {
- "asof": "2026-06-23",
+ "asof": "2026-06-24",
  "source": "SEC.gov docket S7-2026-15 — aggregate form-letter postings",
  "source_url": "https://www.sec.gov/rules-regulations/public-comments/s7-2026-15",
- "note": "SEC form / campaign letters are posted as a template text plus a submitter count; the individual submissions are not separately docketed. These are held out of the per-letter corpus and the regression, and reported as a separate opposition tally, side by side with the individually-classified corpus and never summed with it (anonymous aggregate counts may overlap with named corpus letters). 2026-06-18: counts refreshed and two new substantive templates promoted live — Type E (Oppose; IA/IP/CMP/MF/AL) and Type D (Oppose; IA/MF/IP/CMP) — bringing the panel to 6 types. Types D, E, and F carry coded rationales; A/B/C are bare opposition.",
- "n_types": 7,
- "total_submitters": 27533,
+ "note": "SEC form / campaign letters are posted as a template text plus a submitter count; the individual submissions are not separately docketed. These are held out of the per-letter corpus and the regression, and reported as a separate opposition tally, side by side with the individually-classified corpus and never summed with it (anonymous aggregate counts may overlap with named corpus letters). 2026-06-18: Types D and E promoted. 2026-06-22: Type G added. 2026-06-24: Type H promoted (56) and new Type I added (800); A refreshed 8,600->16,352 and F 18,302->19,077; total -> 36,533...",
+ "n_types": 9,
+ "total_submitters": 36916,
  "stance_summary": {
-  "Oppose": 27533,
+  "Oppose": 36916,
   "Conditional": 0,
   "Support": 0
  },
- "generated": "2026-06-23",
+ "generated": "2026-06-24",
  "types": [
   {
    "type": "A",
-   "submitter_count": 8600,
+   "submitter_count": 16352,
    "text": "Dear Commissioners,\nPlease keep quarterly reporting requirements in place.\nThanks,",
    "primary_stance": "Oppose",
    "literalist_stance": "Oppose",
@@ -206,7 +206,7 @@
   },
   {
    "type": "F",
-   "submitter_count": 18302,
+   "submitter_count": 19077,
    "text": "Dear SEC, I oppose the SEC proposal because it prevents investors like me from accessing information about companies; lets companies hide behind closed doors; and allows fraud to fester.\n\nSincerely,",
    "primary_stance": "Oppose",
    "literalist_stance": "Oppose",
@@ -316,6 +316,141 @@
     "text_cell": "Long template — link out to the SEC 'typeg' aggregate URL (s7202615-typeg.htm) instead of inlining (same as D/E).",
     "rationale_column": "G shows IA/IP/FR/MF/ICc badges.",
     "source": "Tzachi paste 2026-06-22."
+   }
+  },
+  {
+   "type": "H",
+   "submitter_count": 56,
+   "text": "I am writing to express my strong opposition to the Commission's proposal to make quarterly reporting optional and allow public companies to switch to a semiannual schedule via Form 10-S.\n\nReducing disclosure frequency will severely damage the transparency, efficiency, and fairness of the U.S. capital markets. I urge the Commission to reject this change based on three critical concerns:\n\nIncreased Information Asymmetry: A six-month reporting gap is far too long in today's fast-moving markets. Depriving investors of timely data will widen the gap between corporate insiders and the public, fueling market speculation, rumors, and heightened volatility.\n\nThe Inadequacy of Voluntary Releases: Unstructured, voluntary quarterly press releases on Form 8-K are no substitute for Form 10-Q. They often lack essential financial statements and MD&A disclosures. Furthermore, allowing companies to choose different reporting schedules creates a fragmentation of disclosure quality, destroying industry comparability for analysts and investors.\n\nNo Material Cost Savings or Strategic Benefits: The administrative savings for companies are highly speculative, as lenders and debt covenants will still require quarterly financial tracking. Additionally, there is no empirical evidence that reducing transparency cures corporate \"short-termism.\" Short-termism is a governance issue, not a disclosure issue, and it should not be solved by withholding vital data from the public.\n\nThe SEC's core mandate is investor protection. Moving to optional semiannual reporting directly compromises this mission and undermines investor confidence. Please withdraw this proposal and maintain the mandatory quarterly reporting framework.",
+   "primary_stance": "Oppose",
+   "literalist_stance": "Oppose",
+   "skeptic_stance": "Oppose",
+   "stance": "Oppose",
+   "agreement": "unanimous",
+   "entity": "NR",
+   "entity_agreement": "unanimous",
+   "rationales": [
+    "IA",
+    "MF",
+    "CMP",
+    "CC",
+    "IP"
+   ],
+   "rationales_primary": [
+    "IA",
+    "MF",
+    "CMP",
+    "CC",
+    "IP"
+   ],
+   "rationales_literalist": [
+    "IA",
+    "MF",
+    "CMP",
+    "CC",
+    "IP"
+   ],
+   "rationales_inclusive": [
+    "IA",
+    "MF",
+    "CMP",
+    "CC",
+    "IP",
+    "ST",
+    "CB",
+    "RI"
+   ],
+   "rationales_majority": [
+    "IA",
+    "MF",
+    "CMP",
+    "CC",
+    "IP"
+   ],
+   "rationale_agreement": "majority",
+   "rationale_evidence": {
+    "IA": "A six-month reporting gap will widen the gap between corporate insiders and the public; depriving investors of timely data.",
+    "MF": "Stale data fuels market speculation, rumors, and heightened volatility (price discovery / market quality harm).",
+    "CMP": "Voluntary 8-K press releases lack essential financial statements and MD&A; allowing different reporting schedules creates fragmentation of disclosure quality, destroying industry comparability for analysts and investors.",
+    "CC": "Lenders and debt covenants will still require quarterly financial tracking, so the administrative savings are illusory (contractual constraints).",
+    "IP": "The SEC's core mandate is investor protection; the proposal directly compromises this mission and undermines investor confidence."
+   },
+   "rater_notes": {
+    "primary": "Oppose - 'strong opposition'; structured three-concern argument (information asymmetry, inadequacy of voluntary 8-K releases, no real cost savings) and an explicit withdraw demand.",
+    "literalist": "Oppose - explicit 'strong opposition', 'I urge the Commission to reject this change', 'Please withdraw this proposal and maintain the mandatory quarterly reporting framework.'",
+    "skeptic": "Oppose - one-directional; the short-termism and cost-savings lines are rebuttals of the pro-side, NOT concessions. No 'so long as', no alternative cadence, no hedge - nothing to flip to Conditional (contrast Type E).",
+    "rationale": "Substantive template; codes IA (insider-vs-public gap), MF (speculation/volatility from stale data), CMP (8-K lacks 10-Q/MD&A granularity + fragmentation destroys comparability), CC (debt covenants still require quarterly tracking - savings illusory), IP (investor-protection mandate). ST (short-termism) and CB (compliance-cost savings) are pro-side arguments raised only to rebut them, and RI (analyst reliance) - all inclusive-only, so majority not unanimous."
+   },
+   "render_spec": {
+    "panel": "Same A/B/C/F form-letter table.",
+    "text_cell": "Medium template (~330 words) - link out to the SEC 'typeh' aggregate URL (s7202615-typeh.htm).",
+    "rationale_column": "H shows IA/MF/CMP/CC/IP badges.",
+    "source": "Tzachi paste 2026-06-24; count posted 2026-06-24."
+   }
+  },
+  {
+   "type": "I",
+   "submitter_count": 800,
+   "text": "Four reasons this is bad for every investor.\n\n01 You'd be flying blind for six months. A lot can go wrong in half a year. Failed product launches, ballooning debt, lawsuits, vanishing customers. Today the law forces companies to surface that information every quarter. Under the new rule, they can sit on it for six months at a stretch. Plenty of time for insiders to quietly sell their shares to you (or your ETF) before the bad news tanks the stock.\n\n02 More time for fraud to grow. Enron. WorldCom. Madoff. The run-up to 2008. Every major modern accounting scandal was enabled by gaps and opacity in financial disclosure. Quarterly filings don't prevent fraud, but they dramatically shorten the window in which it can fester before someone outside the company can see it. What if Enron only had to cook their books twice a year?\n\n03 \"Optional\" is a trick. The framing is voluntary, but the dynamics aren't. Once large companies start filing twice a year, smaller competitors face pressure to follow. They can't justify \"more compliance than the bigger guy.\" Investor expectations adjust downward. What started as a choice quietly becomes the new normal. Almost no rule like this stays optional for long.\n\n04 The supposed savings are tiny, and they don't go to you. Companies still have to keep their books. They still have to brief their boards. The actual savings from skipping a public filing are modest legal and accounting fees, and those savings flow to the company and its executives. The cost of worse information falls on you, the person whose 401(k), IRA, or college fund holds the stock. That's a bad trade for ordinary investors.",
+   "primary_stance": "Oppose",
+   "literalist_stance": "Oppose",
+   "skeptic_stance": "Oppose",
+   "stance": "Oppose",
+   "agreement": "unanimous",
+   "entity": "NR",
+   "entity_agreement": "unanimous",
+   "rationales": [
+    "FR",
+    "IA",
+    "EX",
+    "CB"
+   ],
+   "rationales_primary": [
+    "FR",
+    "IA",
+    "EX",
+    "CB"
+   ],
+   "rationales_literalist": [
+    "FR",
+    "IA",
+    "EX",
+    "CB"
+   ],
+   "rationales_inclusive": [
+    "FR",
+    "IA",
+    "EX",
+    "CB",
+    "MF",
+    "IP",
+    "RI",
+    "OP"
+   ],
+   "rationales_majority": [
+    "FR",
+    "IA",
+    "EX",
+    "CB"
+   ],
+   "rationale_agreement": "majority",
+   "rationale_evidence": {
+    "FR": "'More time for fraud to grow' - Enron, WorldCom, Madoff, the run-up to 2008; quarterly filings shorten the window in which fraud can fester. Also insiders quietly selling shares before bad news tanks the stock.",
+    "IA": "'Flying blind for six months' while insiders sell their shares to you (or your ETF) before the bad news - the insider-vs-retail information gap.",
+    "EX": "'Optional is a trick' - once large companies file twice a year, smaller competitors face pressure to follow and it becomes the new normal (spillover/externality).",
+    "CB": "'The supposed savings are tiny, and they don't go to you' - modest legal/accounting fees that flow to the company and its executives while the cost of worse information falls on ordinary investors' 401(k)/IRA."
+   },
+   "rater_notes": {
+    "primary": "Oppose - 'Four reasons this is bad for every investor'; a flat four-point case (flying blind, fraud window, optional-is-a-trick, savings are tiny) ending 'a bad trade for ordinary investors.'",
+    "literalist": "Oppose - entirely anti-proposal framing ('bad for every investor', 'bad trade for ordinary investors'); no endorsement language.",
+    "skeptic": "Oppose - one-directional; four reasons it is bad with no concession, no hybrid/alternative cadence, no 'so long as' - nothing to flip to Conditional.",
+    "rationale": "Reasons map cleanly: 01 -> IA + FR (flying blind; insiders sell ahead of bad news), 02 -> FR (Enron/WorldCom/Madoff fraud window), 03 -> EX (smaller competitors pressured to follow; new normal), 04 -> CB (savings tiny/flow to execs/cost on retail). MF (price impact), IP (investor-protection umbrella / 401k harm), RI (reliance), and OP (rebutted optionality framing) are inclusive-only -> majority not unanimous."
+   },
+   "render_spec": {
+    "panel": "Same A/B/C/F form-letter table.",
+    "text_cell": "Medium template (~330 words, 4 numbered reasons) - link out to the SEC 'typei' aggregate URL (s7202615-typei.htm).",
+    "rationale_column": "I shows FR/IA/EX/CB badges.",
+    "source": "Tzachi paste 2026-06-24; template fetched from s7202615-typei.htm and classified 2026-06-24."
    }
   }
  ],
