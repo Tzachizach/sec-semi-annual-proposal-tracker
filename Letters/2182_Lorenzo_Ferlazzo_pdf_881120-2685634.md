@@ -6,7 +6,7 @@
 - **Entity:** Investment professional
 - **Rationales:** IA, MF, FR, SG, ICc
 - **Source:** https://www.sec.gov/comments/S7-2026-15/s7202615-881120-2685634.pdf
-- **PDF:** _meta/pdf_letters/s7202615-881120-2685634.pdf
+- **PDF:** _meta/pdf_letters/2182_Lorenzo_Ferlazzo_Acquaequity.pdf
 
 ---
 

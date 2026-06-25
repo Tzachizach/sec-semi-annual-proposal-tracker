@@ -6,7 +6,7 @@
 - **Entity:** Academic researcher
 - **Rationales:** IA, MF, AU, CMP, SG
 - **Source:** https://www.sec.gov/comments/S7-2026-15/s7202615-881340-2686030.pdf
-- **PDF:** _meta/pdf_letters/s7202615-881340-2686030.pdf
+- **PDF:** _meta/pdf_letters/2181_AAA_Auditing_Standards_Committee.pdf
 
 ---
 

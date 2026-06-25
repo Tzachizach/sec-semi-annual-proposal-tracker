@@ -6,7 +6,7 @@
 - **Entity:** Investment professional
 - **Rationales:** IA, IP, MF, RI
 - **Source:** https://www.sec.gov/comments/S7-2026-15/s7202615-846960-2596033.pdf
-- **PDF:** _meta/pdf_letters/s7202615-846960-2596033.pdf
+- **PDF:** _meta/pdf_letters/2187_William_Quinn.pdf
 
 ---
 
