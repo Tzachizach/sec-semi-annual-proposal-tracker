@@ -96527,5 +96527,575 @@
   "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-803519-2439126.html",
   "words": 71,
   "letter_id": "s7202615-803519-2439126.html"
+ },
+ {
+  "n": 2181,
+  "page": 1,
+  "date": "2026-06-24",
+  "name": "Auditing Standards Committee of the Auditing Section of the American Accounting Association",
+  "role": "Academic researcher (accounting professors' committee)",
+  "entity": "Academic researcher",
+  "stance": "Oppose",
+  "primary_stance": "Oppose",
+  "literalist_stance": "Oppose",
+  "skeptic_stance": "Conditional",
+  "majority_stance": "Oppose",
+  "agreement": "majority",
+  "entity_primary": "Academic researcher",
+  "entity_selfdescribed": "Academic researcher",
+  "entity_letterhead": "Academic researcher",
+  "entity_majority": "Academic researcher",
+  "entity_agreement": "unanimous",
+  "rationales": [
+   "IA",
+   "MF",
+   "AU",
+   "CMP",
+   "SG"
+  ],
+  "rationale_evidence": "Quarterly info is decision-useful (strong, growing market reaction) and auditor-reviewed (AU); semiannual cuts timeliness (FASB QC), comparability + XBRL machine-readable data (CMP), raises information asymmetry and cost of equity (IA), creates adverse signaling for electing firms (SG), and harms the audit market (EX inclusive). ST premise critiqued (rebutted).",
+  "rationales_primary": [
+   "IA",
+   "MF",
+   "AU",
+   "CMP",
+   "SG"
+  ],
+  "rationales_literalist": [
+   "IA",
+   "MF",
+   "AU",
+   "CMP"
+  ],
+  "rationales_inclusive": [
+   "IA",
+   "MF",
+   "AU",
+   "CMP",
+   "SG",
+   "EX"
+  ],
+  "rationales_majority": [
+   "IA",
+   "MF",
+   "AU",
+   "CMP",
+   "SG"
+  ],
+  "rationale_agreement": "majority",
+  "summary": "Accounting-academic committee opposes: quarterly reports are decision-useful and auditor-reviewed; semiannual reduces timeliness, comparability/XBRL data, and review discipline, while raising information asymmetry, adverse signaling, and audit-market harms.",
+  "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-881340-2686030.pdf",
+  "words": 4476,
+  "letter_id": "881340-2686030.pdf"
+ },
+ {
+  "n": 2182,
+  "page": 1,
+  "date": "2026-06-24",
+  "name": "Lorenzo Ferlazzo, Acquaequity",
+  "role": "Acquaequity (market-intelligence / research; AI-assisted assessment)",
+  "entity": "Investment professional",
+  "stance": "Oppose",
+  "primary_stance": "Oppose",
+  "literalist_stance": "Oppose",
+  "skeptic_stance": "Conditional",
+  "majority_stance": "Oppose",
+  "agreement": "majority",
+  "entity_primary": "Investment professional",
+  "entity_selfdescribed": "Industry practitioner / technologist",
+  "entity_letterhead": "Investment professional",
+  "entity_majority": "Investment professional",
+  "entity_agreement": "majority",
+  "rationales": [
+   "IA",
+   "MF",
+   "FR",
+   "SG",
+   "ICc"
+  ],
+  "rationale_evidence": "AI-assisted (NotebookLM) risk-assessment deck endorsing the IAC keep-10-Q recommendation: information asymmetry spikes (IA), liquidity/valuation erraticism and passive-investing pricing-efficiency harm (MF), a widened insider-trading window (FR), voluntary-reporting adverse selection 'Boasters vs Hiders' (SG), and EU/UK 'going dark' evidence (ICc). $198k savings dismissed as negligible (CB rebutted).",
+  "rationales_primary": [
+   "IA",
+   "MF",
+   "FR",
+   "SG",
+   "ICc"
+  ],
+  "rationales_literalist": [
+   "IA",
+   "MF",
+   "FR",
+   "ICc"
+  ],
+  "rationales_inclusive": [
+   "IA",
+   "MF",
+   "FR",
+   "SG",
+   "ICc",
+   "EX"
+  ],
+  "rationales_majority": [
+   "IA",
+   "MF",
+   "FR",
+   "SG",
+   "ICc"
+  ],
+  "rationale_agreement": "majority",
+  "summary": "AI-assisted 'systemic risk assessment' deck endorsing the IAC's keep-10-Q recommendation; argues adverse selection, a wider insider-trading window, information asymmetry, mispricing/liquidity loss, passive-investing free-riding, and EU/UK 'going dark' evidence. Verdict: retain mandatory quarterly reporting.",
+  "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-881120-2685634.pdf",
+  "words": 1195,
+  "letter_id": "881120-2685634.pdf"
+ },
+ {
+  "n": 2183,
+  "page": 1,
+  "date": "2026-06-24",
+  "name": "Neil A. Hansen, Senior Vice President and Chief Financial Officer, Exxon Mobil Corporation",
+  "role": "SVP & CFO, Exxon Mobil Corporation",
+  "entity": "Issuer / Corporate — current",
+  "stance": "Support",
+  "primary_stance": "Support",
+  "literalist_stance": "Support",
+  "skeptic_stance": "Conditional",
+  "majority_stance": "Support",
+  "agreement": "majority",
+  "entity_primary": "Issuer / Corporate — current",
+  "entity_selfdescribed": "Issuer / Corporate — current",
+  "entity_letterhead": "Issuer / Corporate — current",
+  "entity_majority": "Issuer / Corporate — current",
+  "entity_agreement": "unanimous",
+  "rationales": [
+   "CB",
+   "OP",
+   "AL"
+  ],
+  "rationale_evidence": "ExxonMobil supports as modernization: reduced preparation time/cost (CB), principles-based scalable optionality rejecting one-size-fits-all (OP), and a recommended new optional Form 8-K Item 8.02 for 1Q/3Q financial statements as a hybrid path (AL). Argues 8-K/Reg FD/earnings releases already carry material info (rebuts IA/MF harm).",
+  "rationales_primary": [
+   "CB",
+   "OP",
+   "AL"
+  ],
+  "rationales_literalist": [
+   "CB",
+   "OP"
+  ],
+  "rationales_inclusive": [
+   "CB",
+   "OP",
+   "AL"
+  ],
+  "rationales_majority": [
+   "CB",
+   "OP",
+   "AL"
+  ],
+  "rationale_agreement": "majority",
+  "summary": "ExxonMobil's CFO supports optional semiannual reporting as modernization that cuts cost/burden while 8-K, Reg FD, and earnings releases preserve material-information flow; recommends a new optional Form 8-K Item 8.02 for 1Q/3Q financials and broader disclosure modernization.",
+  "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-881139-2685767.pdf",
+  "words": 4567,
+  "letter_id": "881139-2685767.pdf"
+ },
+ {
+  "n": 2184,
+  "page": 1,
+  "date": "2026-06-23",
+  "name": "Yigal M. Rechtman, Managing Partner, Rechtman Consulting LLC",
+  "role": "CPA/CFE forensic accountant; Managing Partner, Rechtman Consulting",
+  "entity": "Accountant (CPA)",
+  "stance": "Oppose",
+  "primary_stance": "Oppose",
+  "literalist_stance": "Oppose",
+  "skeptic_stance": "Conditional",
+  "majority_stance": "Oppose",
+  "agreement": "majority",
+  "entity_primary": "Accountant (CPA)",
+  "entity_selfdescribed": "Accountant (CPA)",
+  "entity_letterhead": "Accountant (CPA)",
+  "entity_majority": "Accountant (CPA)",
+  "entity_agreement": "unanimous",
+  "rationales": [
+   "IP",
+   "IA",
+   "MF",
+   "AU"
+  ],
+  "rationale_evidence": "Grounds opposition in the FASB Conceptual Framework (relevance/timeliness/decision-usefulness): semiannual increases investor information risk and the management-shareholder gap (IP, IA), reduces timeliness/relevance for continuous decisions (MF), and cuts interim reporting + review discipline on management/audit committees/auditors (AU). If adopted: preserve quarterly for accelerated filers + investor approval (fallback conditions).",
+  "rationales_primary": [
+   "IP",
+   "IA",
+   "MF",
+   "AU"
+  ],
+  "rationales_literalist": [
+   "IP",
+   "IA",
+   "AU"
+  ],
+  "rationales_inclusive": [
+   "IP",
+   "IA",
+   "MF",
+   "AU",
+   "CMP"
+  ],
+  "rationales_majority": [
+   "IP",
+   "IA",
+   "MF",
+   "AU"
+  ],
+  "rationale_agreement": "majority",
+  "summary": "Forensic CPA opposes via the FASB Conceptual Framework: semiannual raises investor information risk, widens the management-shareholder gap, and reduces interim review discipline; urges retaining quarterly, or, if adopted, preserving it for accelerated filers with investor approval and core quarterly disclosure.",
+  "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-872939-2672858.pdf",
+  "words": 1241,
+  "letter_id": "872939-2672858.pdf"
+ },
+ {
+  "n": 2185,
+  "page": 1,
+  "date": "2026-06-22",
+  "name": "Jack T. Ciesielski, President, R.G. Associates, Inc.",
+  "role": "CPA, CFA; President, R.G. Associates (investment research/management); 'The Accounting Observer'",
+  "entity": "Investment professional",
+  "stance": "Oppose",
+  "primary_stance": "Oppose",
+  "literalist_stance": "Oppose",
+  "skeptic_stance": "Conditional",
+  "majority_stance": "Oppose",
+  "agreement": "majority",
+  "entity_primary": "Investment professional",
+  "entity_selfdescribed": "Investment professional",
+  "entity_letterhead": "Investment professional",
+  "entity_majority": "Investment professional",
+  "entity_agreement": "unanimous",
+  "rationales": [
+   "IA",
+   "MF",
+   "IP",
+   "AU",
+   "CC",
+   "RI",
+   "ICc"
+  ],
+  "rationale_evidence": "'Fool's gold': widens insider/institutional info advantage over retail (IA); degrades market quality, spreads, price discovery, volatility concentration (MF); undermines the SEC three-part investor-protection mandate (IP); keeps auditors out of the quarterly cycle, harming audits (AU); lenders craft debt covenants on quarterly data (CC); investors built valuation/risk systems on quarterly cadence, cites CalPERS + Calcbench/Ghai (RI); China maintains quarterly (ICc). Cites Rajgopal (ST rebutted); savings illusory (CB rebutted).",
+  "rationales_primary": [
+   "IA",
+   "MF",
+   "IP",
+   "AU",
+   "CC",
+   "RI",
+   "ICc"
+  ],
+  "rationales_literalist": [
+   "IA",
+   "MF",
+   "AU",
+   "CC",
+   "RI",
+   "ICc"
+  ],
+  "rationales_inclusive": [
+   "IA",
+   "MF",
+   "IP",
+   "AU",
+   "CC",
+   "RI",
+   "ICc",
+   "US",
+   "CMP"
+  ],
+  "rationales_majority": [
+   "IA",
+   "MF",
+   "IP",
+   "AU",
+   "CC",
+   "RI",
+   "ICc"
+  ],
+  "rationale_agreement": "majority",
+  "summary": "Veteran accounting analyst opposes ('fool's gold'): quarterly underpins valuation/risk models, debt covenants, audit head-starts, and narrows the insider/institutional info advantage; cites Rajgopal on short-termism, China's quarterly regime, Progressive's monthly reporting, CalPERS and Calcbench; expected savings likely illusory as firms still produce quarterly data privately.",
+  "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-860019-2650527.pdf",
+  "words": 1271,
+  "letter_id": "860019-2650527.pdf"
+ },
+ {
+  "n": 2186,
+  "page": 1,
+  "date": "2026-06-22",
+  "name": "Justine Tobin, Executive Representative and Founder, Tobin & Company Securities",
+  "role": "Founder & CCO, Tobin & Company Securities LLC (broker-dealer)",
+  "entity": "Investment professional",
+  "stance": "Oppose",
+  "primary_stance": "Oppose",
+  "literalist_stance": "Oppose",
+  "skeptic_stance": "Conditional",
+  "majority_stance": "Oppose",
+  "agreement": "majority",
+  "entity_primary": "Investment professional",
+  "entity_selfdescribed": "Investment professional",
+  "entity_letterhead": "Investment professional",
+  "entity_majority": "Investment professional",
+  "entity_agreement": "unanimous",
+  "rationales": [
+   "IA",
+   "MF",
+   "IP"
+  ],
+  "rationale_evidence": "Broker-dealer founder/CCO: retail investors (herself included) lack institutional access, so less frequent reporting widens the info gap (IA); a six-month cycle is too long as material changes emerge quickly (MF); quarterly reporting supports investor protection, market discipline, sound governance (IP). Supports cutting genuinely wasteful compliance and fixing EDGAR but not reporting frequency; short-termism cured by board discipline not less disclosure (ST/CB rebutted).",
+  "rationales_primary": [
+   "IA",
+   "MF",
+   "IP"
+  ],
+  "rationales_literalist": [
+   "IA",
+   "MF",
+   "IP"
+  ],
+  "rationales_inclusive": [
+   "IA",
+   "MF",
+   "IP",
+   "ST"
+  ],
+  "rationales_majority": [
+   "IA",
+   "MF",
+   "IP"
+  ],
+  "rationale_agreement": "unanimous",
+  "summary": "Broker-dealer founder/CCO opposes: retail investors rely on quarterly reports lacking institutional access; the six-month cadence is too long as material changes emerge quickly; she supports cutting wasteful compliance and fixing EDGAR, but not reporting frequency, and says short-termism is addressed by board discipline, not less disclosure.",
+  "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-860039-2650576.pdf",
+  "words": 676,
+  "letter_id": "860039-2650576.pdf"
+ },
+ {
+  "n": 2187,
+  "page": 1,
+  "date": "2026-06-19",
+  "name": "William E. Quinn Jr., Executive Director, Ohio Association of Professional Fire Fighters 457 Plan",
+  "role": "Executive Director, OAPFF Deferred Compensation 457(b) Plan (public pension fiduciary)",
+  "entity": "Investment professional",
+  "stance": "Oppose",
+  "primary_stance": "Oppose",
+  "literalist_stance": "Oppose",
+  "skeptic_stance": "Conditional",
+  "majority_stance": "Oppose",
+  "agreement": "majority",
+  "entity_primary": "Investment professional",
+  "entity_selfdescribed": "Investment professional",
+  "entity_letterhead": "Investment professional",
+  "entity_majority": "Investment professional",
+  "entity_agreement": "majority",
+  "rationales": [
+   "IA",
+   "IP",
+   "MF",
+   "RI"
+  ],
+  "rationale_evidence": "Public-pension fiduciary for 14,000+ firefighters: a six-month gap blinds fiduciaries' ongoing due diligence and forces decisions on stale data (RI); treats public servants as second-class to institutions with private data access (IA); jeopardizes retirement security/investor protection (IP); creates 180-day 'blind spots' and gap-down pricing events (MF). 'Cost savings' illusory as semiannual filers face higher cost of capital (CB rebutted).",
+  "rationales_primary": [
+   "IA",
+   "IP",
+   "MF",
+   "RI"
+  ],
+  "rationales_literalist": [
+   "IA",
+   "IP",
+   "RI"
+  ],
+  "rationales_inclusive": [
+   "IA",
+   "IP",
+   "MF",
+   "RI",
+   "CB"
+  ],
+  "rationales_majority": [
+   "IA",
+   "IP",
+   "MF",
+   "RI"
+  ],
+  "rationale_agreement": "majority",
+  "summary": "Public-safety pension fiduciary (14,000+ Ohio firefighters' 457 plan) opposes: a six-month gap blinds fiduciaries' ongoing due diligence, treats public servants as second-class to institutions, creates 180-day 'blind spots' and gap-down risk, and the 'cost savings' are illusory as semiannual filers face higher cost of capital.",
+  "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-846960-2596033.pdf",
+  "words": 760,
+  "letter_id": "846960-2596033.pdf"
+ },
+ {
+  "n": 2188,
+  "page": 1,
+  "date": "2026-06-17",
+  "name": "Jeff Martinez, Founder and Financial Advisor, Treveri Capital LLC",
+  "role": "CRPC; Founder & Financial Advisor (RIA), Treveri Capital LLC (independent fiduciary)",
+  "entity": "Investment professional",
+  "stance": "Support",
+  "primary_stance": "Support",
+  "literalist_stance": "Support",
+  "skeptic_stance": "Conditional",
+  "majority_stance": "Support",
+  "agreement": "majority",
+  "entity_primary": "Investment professional",
+  "entity_selfdescribed": "Investment professional",
+  "entity_letterhead": "Investment professional",
+  "entity_majority": "Investment professional",
+  "entity_agreement": "unanimous",
+  "rationales": [
+   "OP",
+   "CB",
+   "ST",
+   "ICs"
+  ],
+  "rationale_evidence": "Independent fiduciary advisor supports: returns the cadence decision to issuers and investors (OP); lowers fixed compliance cost (~330k vs 132k; ~394M aggregate) that bears hardest on small/new issuers (CB); relieves quarterly short-term pressure (ST; Graham/Harvey/Rajgopal, Gigler et al.); UK 2014 evidence that only ~9% dropped quarterly (ICs). Concedes info-gap (IA) is real but bounded and self-correcting under the elective design.",
+  "rationales_primary": [
+   "OP",
+   "CB",
+   "ST",
+   "ICs"
+  ],
+  "rationales_literalist": [
+   "OP",
+   "CB",
+   "ST",
+   "ICs"
+  ],
+  "rationales_inclusive": [
+   "OP",
+   "CB",
+   "ST",
+   "ICs"
+  ],
+  "rationales_majority": [
+   "OP",
+   "CB",
+   "ST",
+   "ICs"
+  ],
+  "rationale_agreement": "unanimous",
+  "summary": "Independent fiduciary advisor supports optional semiannual reporting as issuer choice that lowers fixed costs hitting small/new issuers, relieves quarterly short-term pressure, and (per the UK, where only ~9% dropped quarterly) is self-correcting; he calls the info-gap concern real but bounded and mitigated by 8-K/Reg FD and the elective design.",
+  "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-839159-2565650.pdf",
+  "words": 2493,
+  "letter_id": "839159-2565650.pdf"
+ },
+ {
+  "n": 2189,
+  "page": 1,
+  "date": "2026-06-16",
+  "name": "Sarah Keohane Williamson, Chief Executive Officer, FCLTGlobal",
+  "role": "CEO, FCLTGlobal (nonprofit long-term-capital advocacy/research org)",
+  "entity": "Trade association / advocacy organization",
+  "stance": "Support",
+  "primary_stance": "Support",
+  "literalist_stance": "Support",
+  "skeptic_stance": "Conditional",
+  "majority_stance": "Support",
+  "agreement": "majority",
+  "entity_primary": "Trade association / advocacy organization",
+  "entity_selfdescribed": "Academic researcher",
+  "entity_letterhead": "Trade association / advocacy organization",
+  "entity_majority": "Trade association / advocacy organization",
+  "entity_agreement": "majority",
+  "rationales": [
+   "ST",
+   "OP",
+   "CB",
+   "ICs",
+   "AL"
+  ],
+  "rationale_evidence": "Long-term-investing advocacy nonprofit supports as a step against structural short-termism (ST; own + McKinsey/Japan/EU research, quarterly EPS guidance as the real driver); endorses the opt-in design (OP); reduces reporting burden vs private-market asymmetry (CB); UK/EU lower-frequency experience without transparency loss (ICs); but urges pairing with robust 8-K material-event disclosure and permitting YTD/TTM formats (AL). Addresses IA via framework design (rebutted).",
+  "rationales_primary": [
+   "ST",
+   "OP",
+   "CB",
+   "ICs",
+   "AL"
+  ],
+  "rationales_literalist": [
+   "ST",
+   "OP",
+   "ICs"
+  ],
+  "rationales_inclusive": [
+   "ST",
+   "OP",
+   "CB",
+   "ICs",
+   "AL"
+  ],
+  "rationales_majority": [
+   "ST",
+   "OP",
+   "CB",
+   "ICs",
+   "AL"
+  ],
+  "rationale_agreement": "majority",
+  "summary": "Long-term-investing advocacy nonprofit supports optional semiannual reporting as a step against structural short-termism (citing its own and McKinsey/Japan/EU research), with private-market asymmetry pulling firms from public markets; it backs the opt-in design but urges pairing it with robust 8-K material-event disclosure, separating reporting from quarterly EPS guidance, and allowing YTD/TTM formats.",
+  "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-832081-2545286.pdf",
+  "words": 1647,
+  "letter_id": "832081-2545286.pdf"
+ },
+ {
+  "n": 2190,
+  "page": 1,
+  "date": "2026-06-15",
+  "name": "Joe Kirchner, CFO, Kirchner CFO Services",
+  "role": "CFO, Kirchner CFO Services (fractional/outsourced CFO firm)",
+  "entity": "Industry practitioner / technologist",
+  "stance": "Oppose",
+  "primary_stance": "Oppose",
+  "literalist_stance": "Oppose",
+  "skeptic_stance": "Conditional",
+  "majority_stance": "Oppose",
+  "agreement": "majority",
+  "entity_primary": "Industry practitioner / technologist",
+  "entity_selfdescribed": "Industry practitioner / technologist",
+  "entity_letterhead": "Issuer / Corporate — current",
+  "entity_majority": "Industry practitioner / technologist",
+  "entity_agreement": "majority",
+  "rationales": [
+   "IA",
+   "MF",
+   "IP",
+   "CMP"
+  ],
+  "rationale_evidence": "Outsourced-CFO practitioner: semiannual doubles the period investors decide without comprehensive info, widening insider-investor asymmetry (IA); 8-K is an inadequate event-driven substitute for the integrated financial picture, harming price integrity/market efficiency (MF, IP); optional cadence fragments the market into quarterly vs semiannual filers, undermining comparability (CMP); relaxed Reg S-X staleness compounds the harm. UK evidence shows weak short-termism gains with reduced coverage/liquidity (ST rebutted).",
+  "rationales_primary": [
+   "IA",
+   "MF",
+   "IP",
+   "CMP"
+  ],
+  "rationales_literalist": [
+   "IA",
+   "MF",
+   "CMP"
+  ],
+  "rationales_inclusive": [
+   "IA",
+   "MF",
+   "IP",
+   "CMP",
+   "ST",
+   "RI"
+  ],
+  "rationales_majority": [
+   "IA",
+   "MF",
+   "IP",
+   "CMP"
+  ],
+  "rationale_agreement": "majority",
+  "summary": "Outsourced-CFO practitioner opposes: semiannual doubles the information gap, 8-K is an inadequate event-driven substitute, the UK evidence shows weak short-termism gains with reduced coverage/liquidity, optional cadence fragments comparability, and relaxed Reg S-X staleness compounds the harm; if adopted, limit the election and backstop with expanded current reporting.",
+  "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-826120-2529351.pdf",
+  "words": 836,
+  "letter_id": "826120-2529351.pdf"
  }
 ]

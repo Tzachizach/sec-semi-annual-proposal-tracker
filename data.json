@@ -75054,5 +75054,461 @@
       "IP",
       "MF"
     ]
+  },
+  {
+    "n": 2181,
+    "page": 1,
+    "date": "2026-06-24",
+    "name": "Auditing Standards Committee of the Auditing Section of the American Accounting Association",
+    "role": "Academic researcher (accounting professors' committee)",
+    "entity": "Academic researcher",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Academic researcher",
+    "entity_selfdescribed": "Academic researcher",
+    "entity_letterhead": "Academic researcher",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Conditional",
+    "agreement": "majority",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-881340-2686030.pdf",
+    "words": 4476,
+    "rationales": [
+      "IA",
+      "MF",
+      "AU",
+      "CMP",
+      "SG"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IA",
+      "MF",
+      "AU",
+      "CMP",
+      "SG"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "MF",
+      "AU",
+      "CMP"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "MF",
+      "AU",
+      "CMP",
+      "SG",
+      "EX"
+    ]
+  },
+  {
+    "n": 2182,
+    "page": 1,
+    "date": "2026-06-24",
+    "name": "Lorenzo Ferlazzo, Acquaequity",
+    "role": "Acquaequity (market-intelligence / research; AI-assisted assessment)",
+    "entity": "Investment professional",
+    "entity_agreement": "majority",
+    "entity_primary": "Investment professional",
+    "entity_selfdescribed": "Industry practitioner / technologist",
+    "entity_letterhead": "Investment professional",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Conditional",
+    "agreement": "majority",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-881120-2685634.pdf",
+    "words": 1195,
+    "rationales": [
+      "IA",
+      "MF",
+      "FR",
+      "SG",
+      "ICc"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IA",
+      "MF",
+      "FR",
+      "SG",
+      "ICc"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "MF",
+      "FR",
+      "ICc"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "MF",
+      "FR",
+      "SG",
+      "ICc",
+      "EX"
+    ]
+  },
+  {
+    "n": 2183,
+    "page": 1,
+    "date": "2026-06-24",
+    "name": "Neil A. Hansen, Senior Vice President and Chief Financial Officer, Exxon Mobil Corporation",
+    "role": "SVP & CFO, Exxon Mobil Corporation",
+    "entity": "Issuer / Corporate \u2014 current",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Issuer / Corporate \u2014 current",
+    "entity_selfdescribed": "Issuer / Corporate \u2014 current",
+    "entity_letterhead": "Issuer / Corporate \u2014 current",
+    "stance": "Support",
+    "primary": "Support",
+    "literalist": "Support",
+    "skeptic": "Conditional",
+    "agreement": "majority",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-881139-2685767.pdf",
+    "words": 4567,
+    "rationales": [
+      "CB",
+      "OP",
+      "AL"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "CB",
+      "OP",
+      "AL"
+    ],
+    "rationales_literalist": [
+      "CB",
+      "OP"
+    ],
+    "rationales_inclusive": [
+      "CB",
+      "OP",
+      "AL"
+    ]
+  },
+  {
+    "n": 2184,
+    "page": 1,
+    "date": "2026-06-23",
+    "name": "Yigal M. Rechtman, Managing Partner, Rechtman Consulting LLC",
+    "role": "CPA/CFE forensic accountant; Managing Partner, Rechtman Consulting",
+    "entity": "Accountant (CPA)",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Accountant (CPA)",
+    "entity_selfdescribed": "Accountant (CPA)",
+    "entity_letterhead": "Accountant (CPA)",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Conditional",
+    "agreement": "majority",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-872939-2672858.pdf",
+    "words": 1241,
+    "rationales": [
+      "IP",
+      "IA",
+      "MF",
+      "AU"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IP",
+      "IA",
+      "MF",
+      "AU"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "IA",
+      "AU"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "IA",
+      "MF",
+      "AU",
+      "CMP"
+    ]
+  },
+  {
+    "n": 2185,
+    "page": 1,
+    "date": "2026-06-22",
+    "name": "Jack T. Ciesielski, President, R.G. Associates, Inc.",
+    "role": "CPA, CFA; President, R.G. Associates (investment research/management); 'The Accounting Observer'",
+    "entity": "Investment professional",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Investment professional",
+    "entity_selfdescribed": "Investment professional",
+    "entity_letterhead": "Investment professional",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Conditional",
+    "agreement": "majority",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-860019-2650527.pdf",
+    "words": 1271,
+    "rationales": [
+      "IA",
+      "MF",
+      "IP",
+      "AU",
+      "CC",
+      "RI",
+      "ICc"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IA",
+      "MF",
+      "IP",
+      "AU",
+      "CC",
+      "RI",
+      "ICc"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "MF",
+      "AU",
+      "CC",
+      "RI",
+      "ICc"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "MF",
+      "IP",
+      "AU",
+      "CC",
+      "RI",
+      "ICc",
+      "US",
+      "CMP"
+    ]
+  },
+  {
+    "n": 2186,
+    "page": 1,
+    "date": "2026-06-22",
+    "name": "Justine Tobin, Executive Representative and Founder, Tobin & Company Securities",
+    "role": "Founder & CCO, Tobin & Company Securities LLC (broker-dealer)",
+    "entity": "Investment professional",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Investment professional",
+    "entity_selfdescribed": "Investment professional",
+    "entity_letterhead": "Investment professional",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Conditional",
+    "agreement": "majority",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-860039-2650576.pdf",
+    "words": 676,
+    "rationales": [
+      "IA",
+      "MF",
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "IA",
+      "MF",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "MF",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "MF",
+      "IP",
+      "ST"
+    ]
+  },
+  {
+    "n": 2187,
+    "page": 1,
+    "date": "2026-06-19",
+    "name": "William E. Quinn Jr., Executive Director, Ohio Association of Professional Fire Fighters 457 Plan",
+    "role": "Executive Director, OAPFF Deferred Compensation 457(b) Plan (public pension fiduciary)",
+    "entity": "Investment professional",
+    "entity_agreement": "majority",
+    "entity_primary": "Investment professional",
+    "entity_selfdescribed": "Investment professional",
+    "entity_letterhead": "Investment professional",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Conditional",
+    "agreement": "majority",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-846960-2596033.pdf",
+    "words": 760,
+    "rationales": [
+      "IA",
+      "IP",
+      "MF",
+      "RI"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IA",
+      "IP",
+      "MF",
+      "RI"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "IP",
+      "RI"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "IP",
+      "MF",
+      "RI",
+      "CB"
+    ]
+  },
+  {
+    "n": 2188,
+    "page": 1,
+    "date": "2026-06-17",
+    "name": "Jeff Martinez, Founder and Financial Advisor, Treveri Capital LLC",
+    "role": "CRPC; Founder & Financial Advisor (RIA), Treveri Capital LLC (independent fiduciary)",
+    "entity": "Investment professional",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Investment professional",
+    "entity_selfdescribed": "Investment professional",
+    "entity_letterhead": "Investment professional",
+    "stance": "Support",
+    "primary": "Support",
+    "literalist": "Support",
+    "skeptic": "Conditional",
+    "agreement": "majority",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-839159-2565650.pdf",
+    "words": 2493,
+    "rationales": [
+      "OP",
+      "CB",
+      "ST",
+      "ICs"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "OP",
+      "CB",
+      "ST",
+      "ICs"
+    ],
+    "rationales_literalist": [
+      "OP",
+      "CB",
+      "ST",
+      "ICs"
+    ],
+    "rationales_inclusive": [
+      "OP",
+      "CB",
+      "ST",
+      "ICs"
+    ]
+  },
+  {
+    "n": 2189,
+    "page": 1,
+    "date": "2026-06-16",
+    "name": "Sarah Keohane Williamson, Chief Executive Officer, FCLTGlobal",
+    "role": "CEO, FCLTGlobal (nonprofit long-term-capital advocacy/research org)",
+    "entity": "Trade association / advocacy organization",
+    "entity_agreement": "majority",
+    "entity_primary": "Trade association / advocacy organization",
+    "entity_selfdescribed": "Academic researcher",
+    "entity_letterhead": "Trade association / advocacy organization",
+    "stance": "Support",
+    "primary": "Support",
+    "literalist": "Support",
+    "skeptic": "Conditional",
+    "agreement": "majority",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-832081-2545286.pdf",
+    "words": 1647,
+    "rationales": [
+      "ST",
+      "OP",
+      "CB",
+      "ICs",
+      "AL"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "ST",
+      "OP",
+      "CB",
+      "ICs",
+      "AL"
+    ],
+    "rationales_literalist": [
+      "ST",
+      "OP",
+      "ICs"
+    ],
+    "rationales_inclusive": [
+      "ST",
+      "OP",
+      "CB",
+      "ICs",
+      "AL"
+    ]
+  },
+  {
+    "n": 2190,
+    "page": 1,
+    "date": "2026-06-15",
+    "name": "Joe Kirchner, CFO, Kirchner CFO Services",
+    "role": "CFO, Kirchner CFO Services (fractional/outsourced CFO firm)",
+    "entity": "Industry practitioner / technologist",
+    "entity_agreement": "majority",
+    "entity_primary": "Industry practitioner / technologist",
+    "entity_selfdescribed": "Industry practitioner / technologist",
+    "entity_letterhead": "Issuer / Corporate \u2014 current",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Conditional",
+    "agreement": "majority",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-826120-2529351.pdf",
+    "words": 836,
+    "rationales": [
+      "IA",
+      "MF",
+      "IP",
+      "CMP"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IA",
+      "MF",
+      "IP",
+      "CMP"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "MF",
+      "CMP"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "MF",
+      "IP",
+      "CMP",
+      "ST",
+      "RI"
+    ]
   }
 ]

@@ -1,12 +1,12 @@
 {
- "asof": "2026-06-24",
+ "asof": "2026-06-25",
  "source": "SEC.gov docket S7-2026-15 — aggregate form-letter postings",
  "source_url": "https://www.sec.gov/rules-regulations/public-comments/s7-2026-15",
  "note": "SEC form / campaign letters are posted as a template text plus a submitter count; the individual submissions are not separately docketed. These are held out of the per-letter corpus and the regression, and reported as a separate opposition tally, side by side with the individually-classified corpus and never summed with it (anonymous aggregate counts may overlap with named corpus letters). 2026-06-18: Types D and E promoted. 2026-06-22: Type G added. 2026-06-24: Type H promoted (56) and new Type I added (800); A refreshed 8,600->16,352 and F 18,302->19,077; total -> 36,533...",
- "n_types": 9,
- "total_submitters": 36916,
+ "n_types": 10,
+ "total_submitters": 37096,
  "stance_summary": {
-  "Oppose": 36916,
+  "Oppose": 37096,
   "Conditional": 0,
   "Support": 0
  },
@@ -452,6 +452,42 @@
     "rationale_column": "I shows FR/IA/EX/CB badges.",
     "source": "Tzachi paste 2026-06-24; template fetched from s7202615-typei.htm and classified 2026-06-24."
    }
+  },
+  {
+   "type": "J",
+   "submitter_count": 180,
+   "text": "To Whom it May Concern:\n\nFor more than half a century, publicly traded companies in the United States have been required to report their financial performance every quarter. This system has become a cornerstone of market transparency, helping ensure that investors have regular access to accurate and timely information. Proposals to reduce reporting frequency may appear attractive to corporations seeking fewer regulatory requirements, but doing so would ultimately weaken transparency, reduce accountability, and disadvantage ordinary investors.\n\nOne of the primary benefits of quarterly reporting is that it promotes equal access to information. Large institutional investors often have teams of analysts, industry contacts, and extensive resources to evaluate companies. Individual investors, by contrast, rely heavily on publicly available information when making investment decisions. Regular quarterly reports help level the playing field by ensuring that all investors receive important financial updates on a predictable schedule. Without these reports, information gaps between professional investors and the general public could widen significantly.\n\nQuarterly reporting also strengthens transparency. Investors deserve to know how the companies they own are performing, especially when their retirement savings, pensions, and investment accounts depend on those companies' success. Quarterly reports provide critical information about revenue, profits, debt, cash flow, and business risks. More frequent reporting allows investors to identify emerging problems sooner and make informed decisions based on current facts rather than outdated information.\n\nIn addition, quarterly reporting improves market efficiency. Financial markets function best when participants have access to timely and reliable information. If companies were permitted to go six months or longer without providing comprehensive financial updates, investors would be forced to rely more heavily on speculation, rumors, and incomplete data. This uncertainty can increase market volatility and reduce confidence in the fairness of the marketplace.\n\nRegular reporting also promotes corporate accountability. Public companies benefit enormously from access to public capital markets. In return, they have an obligation to provide shareholders with meaningful information about their performance.\n\nQuarterly reporting allows investors to evaluate whether management is delivering on its promises and whether a company's strategy is producing results. Less frequent reporting would reduce opportunities for shareholders to monitor management and hold executives accountable.\n\nSupporters of reducing reporting requirements often argue that quarterly reports encourage short-term thinking. While concerns about excessive focus on quarterly earnings are valid, reducing transparency is not the solution. Investors can and do evaluate companies based on long-term performance while still benefiting from regular financial disclosures.\n\nCompanies should be encouraged to pursue long-term growth strategies, but that goal should not come at the expense of providing investors with timely information.\n\nThe United States has (until recently due to questionable acts by those in power) long been recognized for having some of the most transparent and trusted capital markets in the world. Quarterly reporting has played an important role in building that trust. Reducing reporting frequency would provide less information to ordinary investors, weaken accountability, and increase the advantages enjoyed by insiders and large institutions. For these reasons, quarterly reporting should be preserved as an essential safeguard for transparency, fairness, and investor confidence.",
+   "primary_stance": "Oppose",
+   "literalist_stance": "Oppose",
+   "skeptic_stance": "Conditional",
+   "stance": "Oppose",
+   "agreement": "majority",
+   "entity": "NR",
+   "entity_agreement": "unanimous",
+   "rationales": [
+    "IA",
+    "IP",
+    "MF",
+    "US"
+   ],
+   "rationale_agreement": "unanimous",
+   "rationale_evidence": {
+    "IA": "'promotes equal access to information... level the playing field'; warns 'information gaps between professional investors and the general public could widen' and decries 'advantages enjoyed by insiders and large institutions.'",
+    "IP": "'strengthens transparency... Investors deserve to know how the companies they own are performing'; ties to retirement savings/pensions; 'monitor management and hold executives accountable.'",
+    "MF": "'improves market efficiency... markets function best when participants have access to timely and reliable information'; without it investors 'rely more heavily on speculation, rumors' raising 'market volatility.'",
+    "US": "'the United States has... long been recognized for having some of the most transparent and trusted capital markets in the world.'",
+    "ST_rebutted": "Acknowledges 'concerns about excessive focus on quarterly earnings are valid' but rejects reducing transparency as the solution -- ST engaged as rebuttal, not coded."
+   },
+   "render_spec": "link-out",
+   "render_url": "https://www.sec.gov/comments/s7-2026-15/s7202615-typej.htm",
+   "rater_notes": {
+    "primary": "Oppose -- argues to preserve quarterly reporting; no substantive modification/condition proposed (acknowledge-and-rebut of short-termism, not a conditional offer).",
+    "literalist": "Oppose -- explicit 'quarterly reporting should be preserved as an essential safeguard'; status-quo preservation is opposition to the optional-semiannual change.",
+    "skeptic": "Conditional -- contains concessions to the other side ('While concerns... are valid'; 'Companies should be encouraged to pursue long-term growth strategies, but...'), which under the aggressive skeptic rule flip it off unanimous; matches the corpus's 62 Oppose/majority acknowledge-and-rebut letters.",
+    "entity": "NR -- anonymous aggregate form-letter template.",
+    "rationale": "IA + IP + MF + US all surface-explicit and unanimous; ST present only as a rebutted pro-proposal premise (not coded). No FR (no fraud/insider-trading language) and no RI (no analyst/workflow-reliance claim)."
+   },
+   "_staged_note": "Classified 2026-06-25 (3-rater ensemble). Awaiting submitter count to post on the docket; promote into types[] then (set submitter_count, bump n_types, add to total_submitters + stance_summary.Oppose)."
   }
  ],
  "pending_types": []
