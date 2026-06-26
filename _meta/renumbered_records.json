@@ -96586,7 +96586,17 @@
   "summary": "Accounting-academic committee opposes: quarterly reports are decision-useful and auditor-reviewed; semiannual reduces timeliness, comparability/XBRL data, and review discipline, while raising information asymmetry, adverse signaling, and audit-market harms.",
   "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-881340-2686030.pdf",
   "words": 4476,
-  "letter_id": "881340-2686030.pdf"
+  "letter_id": "881340-2686030.pdf",
+  "rfc_questions": {
+   "engaged": [
+    20,
+    24,
+    25,
+    26
+   ],
+   "cited_explicitly": true,
+   "note": "AAA Auditing Standards Committee. Section 'IV. Responses to Selected Questions' answers the audit-focused RFCs: Q20 (new auditor-involvement requirement), Q24 (nature/extent of independent-accountant procedures), Q25 (whether semiannual electors retain their auditor), Q26 (ICFR / review implications)."
+  }
  },
  {
   "n": 2182,
@@ -96695,7 +96705,12 @@
   "summary": "ExxonMobil's CFO supports optional semiannual reporting as modernization that cuts cost/burden while 8-K, Reg FD, and earnings releases preserve material-information flow; recommends a new optional Form 8-K Item 8.02 for 1Q/3Q financials and broader disclosure modernization.",
   "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-881139-2685767.pdf",
   "words": 4567,
-  "letter_id": "881139-2685767.pdf"
+  "letter_id": "881139-2685767.pdf",
+  "rfc_questions": {
+   "engaged": [],
+   "cited_explicitly": false,
+   "note": "ExxonMobil. Explicitly DECLINED a question-by-question response ('Rather than responding... on a question-by-question basis, we structured our feedback around overarching themes'). Thematic recommendations (new optional Form 8-K Item 8.02 for 1Q/3Q financials) relate to the Q18-20 voluntary-release area but no numbered RFCs are answered."
+  }
  },
  {
   "n": 2184,
@@ -97097,5 +97112,284 @@
   "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-826120-2529351.pdf",
   "words": 836,
   "letter_id": "826120-2529351.pdf"
+ },
+ {
+  "n": 2191,
+  "page": 1,
+  "date": "2026-06-26",
+  "name": "Gwendolen Blair, Financial Advisor, Empire Financial Architects",
+  "role": "CLU; Financial Advisor, Empire Financial Architects (NYLIFE Securities reg. rep / Eagle Strategies RIA)",
+  "entity": "Investment professional",
+  "stance": "Oppose",
+  "primary_stance": "Oppose",
+  "literalist_stance": "Oppose",
+  "skeptic_stance": "Conditional",
+  "majority_stance": "Oppose",
+  "agreement": "majority",
+  "entity_primary": "Investment professional",
+  "entity_selfdescribed": "Investment professional",
+  "entity_letterhead": "Investment professional",
+  "entity_majority": "Investment professional",
+  "entity_agreement": "unanimous",
+  "rationales": [
+   "IA",
+   "MF",
+   "IP",
+   "US"
+  ],
+  "rationale_evidence": "Financial advisor: less frequent reporting widens retail-vs-institutional information asymmetry (IA); price discovery less efficient and volatility clusters around fewer reporting dates (MF); quarterly gives timely, standardized, legally accountable information central to fair markets/investor protection (IP); US markets long the global transparency standard (US). Short-termism driven by comp/incentives not cadence (ST rebutted); suggests simplifying 10-Q / scaling for smaller issuers instead (CB rebutted).",
+  "rationales_primary": [
+   "IA",
+   "MF",
+   "IP",
+   "US"
+  ],
+  "rationales_literalist": [
+   "IA",
+   "MF",
+   "IP"
+  ],
+  "rationales_inclusive": [
+   "IA",
+   "MF",
+   "IP",
+   "US",
+   "ST",
+   "CB"
+  ],
+  "rationales_majority": [
+   "IA",
+   "MF",
+   "IP",
+   "US"
+  ],
+  "rationale_agreement": "majority",
+  "summary": "Financial advisor (Empire Financial Architects) opposes: a six-month gap widens retail-vs-institutional asymmetry, degrades price discovery, and concentrates volatility; she argues short-termism stems from compensation not cadence and urges targeted reforms (simplify Form 10-Q, scale for smaller issuers) rather than cutting reporting frequency.",
+  "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-895479-2718772.pdf",
+  "words": 502,
+  "letter_id": "895479-2718772.pdf"
+ },
+ {
+  "n": 2192,
+  "page": 1,
+  "date": "2026-06-26",
+  "name": "John C. Coates, John C. Coffee Jr., James D. Cox, Merritt B. Fox, Joel Seligman (Shadow SEC)",
+  "role": "Securities-law professors (Harvard / Columbia / Duke / WashU); the Shadow SEC",
+  "entity": "Academic researcher",
+  "stance": "Oppose",
+  "primary_stance": "Oppose",
+  "literalist_stance": "Oppose",
+  "skeptic_stance": "Conditional",
+  "majority_stance": "Oppose",
+  "agreement": "majority",
+  "entity_primary": "Academic researcher",
+  "entity_selfdescribed": "Academic researcher",
+  "entity_letterhead": "Legal practitioner",
+  "entity_majority": "Academic researcher",
+  "entity_agreement": "majority",
+  "rationales": [
+   "IA",
+   "FR",
+   "MF",
+   "CMP",
+   "LE",
+   "ICc",
+   "PP",
+   "US"
+  ],
+  "rationale_evidence": "Shadow SEC (5 securities-law professors): maintain mandatory quarterly; an optional regime risks a lower disclosure equilibrium and lost comparability (CMP, IA); the release underweights fraud deterrence (FR; Enron/WorldCom/FTX) and cannot reasonably quantify net costs/benefits, with an arbitrary 20% adoption assumption from one Nasdaq survey -- an inadequate, 'hiding-the-ball' economic analysis vulnerable to court challenge (LE); incomplete synthesis of UK/Israel evidence (ICc); higher cost of capital / weaker markets vs the 'envy of the world' (MF, US). PP (narrow): explicitly attributes the proposal to a one-party 3-0 Republican Commission and 'proposals that emanate from the White House' under President Trump, with reduced internal review. If adopted, urges a shareholder (Rule 14a-8) vote before a firm drops quarterly.",
+  "rationales_primary": [
+   "IA",
+   "FR",
+   "MF",
+   "CMP",
+   "LE",
+   "ICc",
+   "PP",
+   "US"
+  ],
+  "rationales_literalist": [
+   "FR",
+   "MF",
+   "CMP",
+   "LE",
+   "ICc",
+   "US"
+  ],
+  "rationales_inclusive": [
+   "IA",
+   "FR",
+   "MF",
+   "CMP",
+   "LE",
+   "ICc",
+   "PP",
+   "US",
+   "AL"
+  ],
+  "rationales_majority": [
+   "IA",
+   "FR",
+   "MF",
+   "CMP",
+   "LE",
+   "ICc",
+   "PP",
+   "US"
+  ],
+  "rationale_agreement": "majority",
+  "summary": "The Shadow SEC (Coates, Coffee, Cox, Fox, Seligman) opposes: mandatory quarterly should stand; an optional regime risks a lower-disclosure equilibrium and lost comparability, the release underweights fraud deterrence and cannot quantify net costs (arbitrary 20% adoption from one Nasdaq survey), and -- explicitly attributing the proposal to a one-party Republican Commission acting on White House preferences -- it is procedurally vulnerable. If adopted, they urge a shareholder vote before a firm drops quarterly.",
+  "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-896059-2720140.pdf",
+  "words": 2321,
+  "letter_id": "896059-2720140.pdf",
+  "rfc_questions": {
+   "engaged": [],
+   "cited_explicitly": false,
+   "note": "Shadow SEC (Coates et al.). Critiques the Proposing Release's Economic Analysis (econ-section Q48-58) thematically -- the arbitrary 20% adoption assumption, unquantifiable net costs, incomplete UK/Israel synthesis -- and the fraud/comparability treatment, but does not answer numbered RFCs question-by-question."
+  }
+ },
+ {
+  "n": 2193,
+  "page": 1,
+  "date": "2026-06-26",
+  "name": "Nell Minow, Chair, ValueEdge Advisors",
+  "role": "Chair, ValueEdge Advisors (corporate-governance advisory)",
+  "entity": "Investment professional",
+  "stance": "Oppose",
+  "primary_stance": "Oppose",
+  "literalist_stance": "Oppose",
+  "skeptic_stance": "Oppose",
+  "majority_stance": "Oppose",
+  "agreement": "unanimous",
+  "entity_primary": "Investment professional",
+  "entity_selfdescribed": "Investment professional",
+  "entity_letterhead": "Trade association / advocacy organization",
+  "entity_majority": "Investment professional",
+  "entity_agreement": "majority",
+  "rationales": [
+   "IP",
+   "IA",
+   "FR",
+   "MF",
+   "US",
+   "PP",
+   "LE"
+  ],
+  "rationale_evidence": "Governance advocate (the 'investor's advocate' framing): disclosure/accountability resolves the inherent insider-vs-investor conflict in investors' favor (IP); agency costs/conflicts of interest where insiders prefer limited transparency (IA); quarterly deters embezzlement/fraud (FR); reduced transparency raises cost of capital and capital outflows, efficient markets 'run on information and trust' (MF); US markets the 'envy of the world' (US); litigation/Loper-Bright de novo vulnerability of a one-party Commission (LE). PP (narrow): explicitly attributes cost claims to corporate-funded 'sock puppets' posing as think tanks and flags the one-party Commission as contrary to the independent-agency design.",
+  "rationales_primary": [
+   "IP",
+   "IA",
+   "FR",
+   "MF",
+   "US",
+   "PP",
+   "LE"
+  ],
+  "rationales_literalist": [
+   "IP",
+   "IA",
+   "FR",
+   "MF",
+   "US"
+  ],
+  "rationales_inclusive": [
+   "IP",
+   "IA",
+   "FR",
+   "MF",
+   "US",
+   "PP",
+   "LE"
+  ],
+  "rationales_majority": [
+   "IP",
+   "IA",
+   "FR",
+   "MF",
+   "US",
+   "PP",
+   "LE"
+  ],
+  "rationale_agreement": "majority",
+  "summary": "Corporate-governance advocate Nell Minow strongly opposes: disclosure and accountability exist to resolve the insider-vs-investor conflict in investors' favor; quarterly reports deter fraud and underpin the cost of capital; she dismisses the cost-savings case as exaggerated by corporate-funded 'sock puppet' think tanks, and flags the one-party Commission as legally vulnerable. (Notes the letter was written without AI/LLM aid.)",
+  "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-894759-2715986.pdf",
+  "words": 1229,
+  "letter_id": "894759-2715986.pdf"
+ },
+ {
+  "n": 2194,
+  "page": 1,
+  "date": "2026-06-24",
+  "name": "Min Shen, K. Ramesh, Edward Li, Donal Byard (academics)",
+  "role": "Accounting professors (George Mason, Rice, Baruch College–CUNY)",
+  "entity": "Academic researcher",
+  "stance": "Support",
+  "primary_stance": "Support",
+  "literalist_stance": "Support",
+  "skeptic_stance": "Conditional",
+  "majority_stance": "Support",
+  "agreement": "majority",
+  "entity_primary": "Academic researcher",
+  "entity_selfdescribed": "Academic researcher",
+  "entity_letterhead": "Academic researcher",
+  "entity_majority": "Academic researcher",
+  "entity_agreement": "unanimous",
+  "rationales": [
+   "OP",
+   "MF",
+   "CMP",
+   "AL"
+  ],
+  "rationale_evidence": "Four accounting researchers support the OPTIONAL/'regulated choice' approach (OP): no optimal reporting frequency applies to all heterogeneous firms. Their own work (Li & Ramesh 2009; Barron/Byard/Kim 2002; D'Souza/Ramesh/Shen 2010) shows earnings announcements, not 10-Q filings, are the primary vehicle for earnings news and analyst revisions, so the 10-Q's incremental market reaction is often limited (MF). They stress preserving across-firm comparability and standardized-filing discipline as a safeguard (CMP), endorsing a regulated-choice regime with continued safeguards rather than elimination (AL).",
+  "rationales_primary": [
+   "OP",
+   "MF",
+   "CMP",
+   "AL"
+  ],
+  "rationales_literalist": [
+   "OP",
+   "AL"
+  ],
+  "rationales_inclusive": [
+   "OP",
+   "MF",
+   "CMP",
+   "AL",
+   "ST",
+   "CB"
+  ],
+  "rationales_majority": [
+   "OP",
+   "MF",
+   "CMP",
+   "AL"
+  ],
+  "rationale_agreement": "majority",
+  "summary": "Four accounting professors (Shen, Ramesh, Li, Byard) support the optional approach as a 'regulated choice regime': their own research shows earnings announcements, not 10-Q filings, are the primary vehicle for earnings news, so the 10-Q's incremental value varies by firm; they back firm-level flexibility while urging safeguards that preserve comparability and standardized-filing discipline.",
+  "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-886579-2692832.pdf",
+  "words": 7078,
+  "letter_id": "886579-2692832.pdf",
+  "rfc_questions": {
+   "engaged": [
+    1,
+    2,
+    3,
+    14,
+    15,
+    18,
+    19,
+    20,
+    22,
+    30,
+    46,
+    52,
+    56,
+    57,
+    58
+   ],
+   "cited_explicitly": true,
+   "note": "Academics (Shen/Ramesh/Li/Byard). Dedicated section 'IX. Responses to Selected Questions' names and answers Q1-2 (optional not mandatory), Q3 (broad availability), Q14-15 (10-S comparable to 10-Q; keep iXBRL/auditor review/MD&A/certs), Q18-20 (do not impose filing/review on voluntary 1Q/3Q releases), Q22 (preserve 8-K/Reg FD), Q30 (period disaggregation in 10-K), Q46 (timely disclosure of accounting changes/errors), Q52/Q56-58 (post-adoption monitoring of adoption, coverage, liquidity, spreads, capital-raising)."
+  }
  }
 ]

@@ -75510,5 +75510,207 @@
       "ST",
       "RI"
     ]
+  },
+  {
+    "n": 2191,
+    "page": 1,
+    "date": "2026-06-26",
+    "name": "Gwendolen Blair, Financial Advisor, Empire Financial Architects",
+    "role": "CLU; Financial Advisor, Empire Financial Architects (NYLIFE Securities reg. rep / Eagle Strategies RIA)",
+    "entity": "Investment professional",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Investment professional",
+    "entity_selfdescribed": "Investment professional",
+    "entity_letterhead": "Investment professional",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Conditional",
+    "agreement": "majority",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-895479-2718772.pdf",
+    "words": 502,
+    "rationales": [
+      "IA",
+      "MF",
+      "IP",
+      "US"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IA",
+      "MF",
+      "IP",
+      "US"
+    ],
+    "rationales_literalist": [
+      "IA",
+      "MF",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "MF",
+      "IP",
+      "US",
+      "ST",
+      "CB"
+    ]
+  },
+  {
+    "n": 2192,
+    "page": 1,
+    "date": "2026-06-26",
+    "name": "John C. Coates, John C. Coffee Jr., James D. Cox, Merritt B. Fox, Joel Seligman (Shadow SEC)",
+    "role": "Securities-law professors (Harvard / Columbia / Duke / WashU); the Shadow SEC",
+    "entity": "Academic researcher",
+    "entity_agreement": "majority",
+    "entity_primary": "Academic researcher",
+    "entity_selfdescribed": "Academic researcher",
+    "entity_letterhead": "Legal practitioner",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Conditional",
+    "agreement": "majority",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-896059-2720140.pdf",
+    "words": 2321,
+    "rationales": [
+      "IA",
+      "FR",
+      "MF",
+      "CMP",
+      "LE",
+      "ICc",
+      "PP",
+      "US"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IA",
+      "FR",
+      "MF",
+      "CMP",
+      "LE",
+      "ICc",
+      "PP",
+      "US"
+    ],
+    "rationales_literalist": [
+      "FR",
+      "MF",
+      "CMP",
+      "LE",
+      "ICc",
+      "US"
+    ],
+    "rationales_inclusive": [
+      "IA",
+      "FR",
+      "MF",
+      "CMP",
+      "LE",
+      "ICc",
+      "PP",
+      "US",
+      "AL"
+    ]
+  },
+  {
+    "n": 2193,
+    "page": 1,
+    "date": "2026-06-26",
+    "name": "Nell Minow, Chair, ValueEdge Advisors",
+    "role": "Chair, ValueEdge Advisors (corporate-governance advisory)",
+    "entity": "Investment professional",
+    "entity_agreement": "majority",
+    "entity_primary": "Investment professional",
+    "entity_selfdescribed": "Investment professional",
+    "entity_letterhead": "Trade association / advocacy organization",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-894759-2715986.pdf",
+    "words": 1229,
+    "rationales": [
+      "IP",
+      "IA",
+      "FR",
+      "MF",
+      "US",
+      "PP",
+      "LE"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "IP",
+      "IA",
+      "FR",
+      "MF",
+      "US",
+      "PP",
+      "LE"
+    ],
+    "rationales_literalist": [
+      "IP",
+      "IA",
+      "FR",
+      "MF",
+      "US"
+    ],
+    "rationales_inclusive": [
+      "IP",
+      "IA",
+      "FR",
+      "MF",
+      "US",
+      "PP",
+      "LE"
+    ]
+  },
+  {
+    "n": 2194,
+    "page": 1,
+    "date": "2026-06-24",
+    "name": "Min Shen, K. Ramesh, Edward Li, Donal Byard (academics)",
+    "role": "Accounting professors (George Mason, Rice, Baruch College\u2013CUNY)",
+    "entity": "Academic researcher",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Academic researcher",
+    "entity_selfdescribed": "Academic researcher",
+    "entity_letterhead": "Academic researcher",
+    "stance": "Support",
+    "primary": "Support",
+    "literalist": "Support",
+    "skeptic": "Conditional",
+    "agreement": "majority",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-886579-2692832.pdf",
+    "words": 7078,
+    "rationales": [
+      "OP",
+      "MF",
+      "CMP",
+      "AL"
+    ],
+    "rationale_agreement": "majority",
+    "rationales_primary": [
+      "OP",
+      "MF",
+      "CMP",
+      "AL"
+    ],
+    "rationales_literalist": [
+      "OP",
+      "AL"
+    ],
+    "rationales_inclusive": [
+      "OP",
+      "MF",
+      "CMP",
+      "AL",
+      "ST",
+      "CB"
+    ]
   }
 ]
