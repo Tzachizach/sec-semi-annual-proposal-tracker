@@ -97391,5 +97391,118 @@
    "cited_explicitly": true,
    "note": "Academics (Shen/Ramesh/Li/Byard). Dedicated section 'IX. Responses to Selected Questions' names and answers Q1-2 (optional not mandatory), Q3 (broad availability), Q14-15 (10-S comparable to 10-Q; keep iXBRL/auditor review/MD&A/certs), Q18-20 (do not impose filing/review on voluntary 1Q/3Q releases), Q22 (preserve 8-K/Reg FD), Q30 (period disaggregation in 10-K), Q46 (timely disclosure of accounting changes/errors), Q52/Q56-58 (post-adoption monitoring of adoption, coverage, liquidity, spreads, capital-raising)."
   }
+ },
+ {
+  "n": 2195,
+  "page": 1,
+  "date": "2026-06-11",
+  "name": "John M. Tracy II",
+  "role": "Individual (retail shareholder)",
+  "entity": "Individual",
+  "stance": "Oppose",
+  "primary_stance": "Oppose",
+  "literalist_stance": "Oppose",
+  "skeptic_stance": "Oppose",
+  "majority_stance": "Oppose",
+  "agreement": "unanimous",
+  "entity_primary": "Individual",
+  "entity_selfdescribed": "Individual",
+  "entity_letterhead": "Individual",
+  "entity_majority": "Individual",
+  "entity_agreement": "unanimous",
+  "rationales": [
+   "IP"
+  ],
+  "rationale_evidence": "Retail shareholder: 'completely against changing the mandatory quarterly reporting'; wants 'full disclosure of earnings and losses on a quarterly basis' and will divest from companies that do not (IP, transparency).",
+  "rationales_primary": [
+   "IP"
+  ],
+  "rationales_literalist": [
+   "IP"
+  ],
+  "rationales_inclusive": [
+   "IP"
+  ],
+  "rationales_majority": [
+   "IP"
+  ],
+  "rationale_agreement": "unanimous",
+  "summary": "Retail shareholder flatly opposes; wants full quarterly disclosure of earnings and losses and will divest from companies that report less often.",
+  "url": "https://www.sec.gov/comments/S7-2026-18/s7202618-812459-2474667.html",
+  "words": 64,
+  "letter_id": "812459-2474667.html",
+  "cross_docket": {
+   "from_file": "S7-2026-18",
+   "orig_n": 16
+  }
+ },
+ {
+  "n": 2196,
+  "page": 1,
+  "date": "2026-06-24",
+  "name": "Lawrence J. Trautman",
+  "role": "Professor of Business Law & Ethics (Prairie View A&M; Texas A&M Law); veteran corporate director; former investment banker; past president NACD NY & DC chapters",
+  "entity": "Academic researcher",
+  "stance": "Oppose",
+  "primary_stance": "Oppose",
+  "literalist_stance": "Oppose",
+  "skeptic_stance": "Conditional",
+  "majority_stance": "Oppose",
+  "agreement": "majority",
+  "entity_primary": "Academic researcher",
+  "entity_selfdescribed": "Investment professional",
+  "entity_letterhead": "Academic researcher",
+  "entity_majority": "Academic researcher",
+  "entity_agreement": "majority",
+  "rationales": [
+   "MF",
+   "IP",
+   "AU",
+   "RI"
+  ],
+  "rationale_evidence": "Law professor / veteran director: the pace of business is accelerating (AI, 2026 tariffs and their reversal, mid-East war, crypto scams), so investors need more information faster, not less (MF); urges a regime that 'requires more disclosure, faster, not less transparency' (IP); engages the audit/review consequences in Q24/25 and analyst-coverage / underwriter comfort-letter / PCAOB questions in Q27 (AU, RI). Presents the support case (citing Bainbridge) before rebutting it.",
+  "rationales_primary": [
+   "MF",
+   "IP",
+   "AU",
+   "RI"
+  ],
+  "rationales_literalist": [
+   "MF",
+   "IP",
+   "AU"
+  ],
+  "rationales_inclusive": [
+   "MF",
+   "IP",
+   "AU",
+   "RI",
+   "FR",
+   "US"
+  ],
+  "rationales_majority": [
+   "MF",
+   "IP",
+   "AU",
+   "RI"
+  ],
+  "rationale_agreement": "majority",
+  "summary": "Law professor and veteran corporate director opposes: the accelerating pace of business (AI, tariffs, war, crypto) argues for more timely disclosure, not less; he answers the audit-review and analyst-coverage RFC questions and urges the Commission to require more disclosure, faster.",
+  "url": "https://www.sec.gov/comments/S7-2026-18/s7202618-882500-2687494.pdf",
+  "words": 8850,
+  "letter_id": "882500-2687494.pdf",
+  "cross_docket": {
+   "from_file": "S7-2026-18",
+   "orig_n": 23
+  },
+  "rfc_questions": {
+   "engaged": [
+    24,
+    25,
+    27
+   ],
+   "cited_explicitly": true,
+   "note": "Cross-posted S7-2026-15 comment. Names and answers Question 24 (whether review procedures differ for a semiannual vs quarterly period), Question 25 (whether semiannual electors keep a quarterly auditor review), and Question 27 (reduced analyst coverage; underwriter comfort letters; PCAOB AS 6101 changes). On 24/25 he defers to accounting/finance 'front-line' thought leaders."
+  }
  }
 ]

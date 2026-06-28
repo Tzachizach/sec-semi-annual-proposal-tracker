@@ -210,6 +210,14 @@ h2 { font-size: 16px; font-weight: 500; margin: 0 0 12px; }
 .row .date { color: #666; font-variant-numeric: tabular-nums; }
 .row .name a { color: #1a1a1a; font-weight: 500; text-decoration: none; }
 .row .name a:hover { text-decoration: underline; }
+.xbadge { display: inline-block; margin-left: 6px; font-size: 10px; font-weight: 600; letter-spacing: .02em;
+  color: #1f5c99; background: #eaf1f8; border: 1px solid #cfe0f0; border-radius: 10px; padding: 0 7px; line-height: 16px;
+  cursor: help; position: relative; vertical-align: middle; white-space: nowrap; }
+.xtip { display: none; position: absolute; left: 0; top: 150%; z-index: 60; width: 264px;
+  background: #1a2b3c; color: #fff; font-size: 11.5px; font-weight: 400; letter-spacing: 0; line-height: 1.45;
+  padding: 9px 11px; border-radius: 7px; box-shadow: 0 6px 18px rgba(0,0,0,.20); white-space: normal; }
+.xtip::after { content: ""; position: absolute; left: 14px; bottom: 100%; border: 6px solid transparent; border-bottom-color: #1a2b3c; }
+.xbadge:hover .xtip, .xbadge:focus .xtip { display: block; }
 .row .role { color: #777; font-size: 12px; display: block; margin-top: 2px; }
 .row .words { color: #555; font-variant-numeric: tabular-nums; font-size: 12px; text-align: right; }
 .row .pill { font-size: 11px; padding: 2px 8px; border-radius: 999px; text-align: center; font-weight: 500; white-space: nowrap; }
@@ -1461,7 +1469,7 @@ const longestRow = r => (
   '<div class="longest-row">' +
     '<span class="num">#'+r.n+'</span>' +
     '<span class="date">'+fmtMonthDay(r.date)+'</span>' +
-    '<span><span class="name">'+(r.url ? '<a href="'+escape(r.url)+'" target="_blank" rel="noopener">'+escape(r.name)+'</a>' : escape(r.name))+'</span><span class="role">'+escape(r.role||'')+'</span></span>' +
+    '<span><span class="name">'+(r.url ? '<a href="'+escape(r.url)+'" target="_blank" rel="noopener">'+escape(r.name)+'</a>' : escape(r.name))+'</span>'+crossBadge(r)+'<span class="role">'+escape(r.role||'')+'</span></span>' +
     '<span class="pill '+pillClass(r.stance)+'">'+r.stance+'</span>' +
     '<span class="words">'+(r.words||0).toLocaleString()+'w</span>' +
     '<span class="rat-cell">'+rationaleCell(r)+'</span>' +
@@ -1490,12 +1498,19 @@ let expandAll = false;             // user-toggled via "Expand all" button
 const collapsedGroups = new Set(); // explicitly-collapsed dates when not in expandAll
 const openedGroups = new Set();    // explicitly-opened dates when not in expandAll
 
+function crossBadge(r) {
+  if (!r.cross_docket) return '';
+  const c = r.cross_docket;
+  const tip = 'Cross-filed comment. This is an on-topic comment on this proposal (S7-2026-15) that the submitter posted under the SEC&rsquo;s ' + escape(c.from_file) + ' docket (a different proposal), where it was comment #' + c.orig_n + '. Because it was filed there, it did not surface in this docket&rsquo;s normal review. It has been moved here and classified on the same basis as every other letter.';
+  return '<span class="xbadge" tabindex="0">cross-filed<span class="xtip">' + tip + '</span></span>';
+}
+
 function rowHtml(r, groupKey) {
   return (
     '<tr data-group="'+(groupKey||'')+'">' +
       '<td class="num">'+r.n+'</td>' +
       '<td class="num">'+fmtMonthDay(r.date)+'</td>' +
-      '<td>'+(r.url ? '<a href="'+escape(r.url)+'" target="_blank" rel="noopener">'+escape(r.name)+'</a>' : escape(r.name))+'</td>' +
+      '<td>'+(r.url ? '<a href="'+escape(r.url)+'" target="_blank" rel="noopener">'+escape(r.name)+'</a>' : escape(r.name))+crossBadge(r)+'</td>' +
       '<td>'+roleCell(r)+'</td>' +
       '<td>'+stanceCell(r)+'</td>' +
       '<td class="num right">'+(r.words||0).toLocaleString()+'</td>' +
@@ -2101,6 +2116,7 @@ def build_snapshot(records):
             "rationales_primary": r.get("rationales_primary", []),
             "rationales_literalist": r.get("rationales_literalist", []),
             "rationales_inclusive": r.get("rationales_inclusive", []),
+            "cross_docket": r.get("cross_docket"),
         })
     if skipped_unclassified:
         print(f"[build] {skipped_unclassified} unclassified letter(s) held out of the public snapshot.")
