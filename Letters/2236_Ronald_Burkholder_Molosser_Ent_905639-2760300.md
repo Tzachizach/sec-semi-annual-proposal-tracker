@@ -2,9 +2,9 @@
 
 - **Date:** 2026-06-28
 - **Role/Affiliation:** Individual
-- **Stance:** Unclassified
-- **Entity:** Unclassified
-- **Rationales:** 
+- **Stance:** Oppose (unanimous)
+- **Entity:** Individual
+- **Rationales:** IP, IA
 - **Source:** https://www.sec.gov/comments/S7-2026-15/s7202615-905639-2760300.html
 
 ---
