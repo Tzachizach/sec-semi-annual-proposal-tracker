@@ -1,6 +1,6 @@
 # SEC S7-2026-15 — regression spec comparison
 
-_Last run: 2026-06-30. Three specs on the same predictor set, different outcomes._
+_Last run: 2026-07-01. Three specs on the same predictor set, different outcomes._
 
 ## Specifications
 
@@ -17,10 +17,10 @@ Predictors in all three: 7 entity dummies (reference Individual) + log(words+1).
 | Variable | Logit β | Logit p | LPM β | LPM p | Ord. β | Ord. p |
 |---|---:|---:|---:|---:|---:|---:|
 | Constant | -8.66 | 0.000 | -0.051 | 0.004 | — | — |
-| Accountant CPA | +0.62 | 0.586 | +0.017 | 0.611 | +1.28 | 0.026 |
+| Accountant CPA | +0.62 | 0.586 | +0.017 | 0.611 | +1.27 | 0.027 |
 | Issuer-current | +2.16 | 0.024 | +0.123 | 0.179 | +2.36 | 0.000 |
 | Issuer-former | (sep.) | 1.000 | -0.014 | 0.001 | +2.13 | 0.002 |
-| Investment prof. | -0.13 | 0.905 | +0.000 | 0.989 | -0.18 | 0.816 |
+| Investment prof. | -0.13 | 0.905 | +0.000 | 0.989 | -0.18 | 0.817 |
 | Academic | +0.09 | 0.940 | +0.122 | 0.271 | +0.53 | 0.461 |
 | Industry pract. | +0.36 | 0.740 | +0.007 | 0.791 | +0.31 | 0.659 |
 | Legal pract. | +1.19 | 0.375 | +0.083 | 0.393 | +0.69 | 0.551 |
@@ -41,10 +41,10 @@ Predictors in all three: 7 entity dummies (reference Individual) + log(words+1).
 Compared the ordinal logit (restricted, single slope vector) against an unrestricted multinomial logit with the same predictors.
 
 - Ordinal logit LL: -287.80
-- Multinomial logit LL: -280.54
-- LR = 2 × (-280.54 − -287.80) = 14.53, df = 10, p = 0.1503
+- Multinomial logit LL: -280.53
+- LR = 2 × (-280.53 − -287.80) = 14.53, df = 10, p = 0.1501
 
-Under H0 (proportional odds holds), LR follows χ²(10). p = 0.1503 → do not reject proportional-odds. Note: small-N artifact warning — the LR test has low power with the current Support count.
+Under H0 (proportional odds holds), LR follows χ²(10). p = 0.1501 → do not reject proportional-odds. Note: small-N artifact warning — the LR test has low power with the current Support count.
 
 ## Notes on separation
 
