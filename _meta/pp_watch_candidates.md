@@ -22,3 +22,10 @@ Political-grievance language present but no explicit attribution of THIS rule to
 - #2149 Mike Moran — "blackout on information is a clear push to hide grift"
 - #2150 Naomi Altman — "insiders ala trump and his minions... rape and pillage"
 Verdict: generic political grievance / concealment-suspicion → NOT PP. Coded as FR/IA per content.
+
+## 2026-07-01 poll (#2247-2274)
+- #2260 Ignaz Gyulai — CODED PP (majority). "Only an administration fully colluding with the worst intentions of corporate America could have dreamt this up." Explicit political-collusion/capture attribution to the rule.
+- #2264 Christopher Haag — PP candidate (inclusive-only, not majority). "protect...investors...NOT to cater to the lobbying interests of...corporations." Lobbying-capture framing; borderline (normative-duty phrasing).
+- #2263 Cheryl Boggs Savage — PP candidate (inclusive-only). "political favoritism being bought and paid for...we've basically LEGALIZED bribing our pols." General money-in-politics capture; not tied narrowly to this rule's motivation.
+- #2252 Lisa Hubbs — NOT coded. "protects the rich few in power." Generic insiders/rich-vs-retail framing — fails the narrow PP test.
+- #2266 James M. Collins — NOT coded. "only interests served...are...the corporate elite." Generic elite-vs-ordinary; fails narrow test.

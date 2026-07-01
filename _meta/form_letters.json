@@ -1,20 +1,20 @@
 {
- "asof": "2026-06-25",
+ "asof": "2026-07-01",
  "source": "SEC.gov docket S7-2026-15 — aggregate form-letter postings",
  "source_url": "https://www.sec.gov/rules-regulations/public-comments/s7-2026-15",
- "note": "SEC form / campaign letters are posted as a template text plus a submitter count; the individual submissions are not separately docketed. These are held out of the per-letter corpus and the regression, and reported as a separate opposition tally, side by side with the individually-classified corpus and never summed with it (anonymous aggregate counts may overlap with named corpus letters). 2026-06-18: Types D and E promoted. 2026-06-22: Type G added. 2026-06-24: Type H promoted (56) and new Type I added (800); A refreshed 8,600->16,352 and F 18,302->19,077; total -> 36,533...",
+ "note": "SEC form / campaign letters are posted as a template text plus a submitter count; the individual submissions are not separately docketed. These are held out of the per-letter corpus and the regression, and reported as a separate opposition tally, side by side with the individually-classified corpus and never summed with it (anonymous aggregate counts may overlap with named corpus letters). 2026-07-01: SEC re-tallied/re-bucketed form-letter counts (net +22,876 to 59,972); D/E/I DECLINED (re-count, text unchanged), A/F surged. Type H docket slot REPLACED with a different template — old H archived as H0 in retired_types, new template classified as H1 (active). Pre-retally counts saved in count_history.",
  "n_types": 10,
- "total_submitters": 37096,
+ "total_submitters": 59972,
  "stance_summary": {
-  "Oppose": 37096,
+  "Oppose": 59972,
   "Conditional": 0,
   "Support": 0
  },
- "generated": "2026-06-24",
+ "generated": "2026-07-01",
  "types": [
   {
    "type": "A",
-   "submitter_count": 16352,
+   "submitter_count": 23786,
    "text": "Dear Commissioners,\nPlease keep quarterly reporting requirements in place.\nThanks,",
    "primary_stance": "Oppose",
    "literalist_stance": "Oppose",
@@ -29,7 +29,8 @@
     "primary": "Oppose — a request to keep quarterly reporting in place is opposition to the move to optional semiannual (Form 10-S).",
     "literalist": "Oppose — explicit instruction to retain the existing quarterly requirement; status-quo preservation is opposition to the change.",
     "skeptic": "Oppose — no qualification, concession, or alternative cadence; nothing to flip to Conditional."
-   }
+   },
+   "previous_submitter_count": 16352
   },
   {
    "type": "B",
@@ -48,11 +49,12 @@
     "primary": "Oppose — explicit 'I oppose this rule change.'",
     "literalist": "Oppose — verbatim opposition language.",
     "skeptic": "Oppose — unconditional; no hedge."
-   }
+   },
+   "previous_submitter_count": 212
   },
   {
    "type": "C",
-   "submitter_count": 139,
+   "submitter_count": 142,
    "text": "I strongly oppose moving to semiannual reporting.",
    "primary_stance": "Oppose",
    "literalist_stance": "Oppose",
@@ -67,11 +69,12 @@
     "primary": "Oppose — explicit 'strongly oppose.'",
     "literalist": "Oppose — verbatim opposition language.",
     "skeptic": "Oppose — unconditional; no hedge."
-   }
+   },
+   "previous_submitter_count": 139
   },
   {
    "type": "D",
-   "submitter_count": 150,
+   "submitter_count": 7,
    "text": "Dear Secretary,\nI am writing to express my strong opposition to the Securities and Exchange Commission's proposed rule that would allow public companies to opt out of quarterly reporting (Form 10-Q) in favor of semiannual reporting on the proposed Form 10-S. While the Commission frames this as a measure to reduce regulatory burdens and curb corporate \"short-termism,\" the actual consequence will be a severe erosion of market transparency that disproportionately harms retail investors while providing an unfair advantage to institutional \"big fish.\"\nThe proposed rule undermines the core mission of the SEC—to protect investors and maintain fair, orderly, and efficient markets—in the following ways:\n\n### 1. Widening the Information Asymmetry Gap\nThe public markets are supposed to operate on the principle of a level playing field. Moving from a 90-day reporting cadence to a 180-day cadence creates a massive data vacuum. Six months is an eternity in the modern economy; supply chain disruptions, shifts in consumer demand, and sudden fiscal pressures can fundamentally alter a company's financial health in a fraction of that time.\nWhile everyday investors rely heavily on public periodic filings to evaluate their holdings, institutional investors, hedge funds, and large private equity firms do not. \"Big fish\" possess the capital and resources to bridge a six-month information gap by purchasing alternative data streams, hiring private research firms, utilizing satellite tracking, and maintaining direct lines of communication with corporate management. Retail investors will be left entirely in the dark, forced to make decisions using stale financial data while Wall Street operates with near-real-time insights.\n\n### 2. Over-Reliance on Form 8-K and the Failure of Regulation FD\nThe proposal suggests that event-driven disclosures (Form 8-K) and Regulation FD will adequately protect investors between semiannual reports. This is a flawed assumption. Form 8-K is triggered by specific, discrete material events (e.g., bankruptcy, executive turnover, major acquisitions). It does not capture the slow, cumulative erosion of profit margins, rising inventory costs, or deteriorating cash flows that are meticulously detailed in a Form 10-Q. Without granular quarterly financial statements, retail investors will lack the tools to diagnose structural corporate decline until it is too late.\n\n### 3. Increased Market Volatility and Risk\nFewer reporting intervals mean that when financial data is finally disclosed every six months, the market reactions will be significantly more volatile. Instead of adjusting stock prices incrementally based on quarterly performance, the market will endure massive, unpredictable swings as six months of accumulated, unpriced operational realities are dumped onto the public at once. Retail investors, who generally lack the sophisticated hedging strategies and algorithmic execution speeds of institutional traders, will bear the brunt of this heightened volatility.\n\n### Conclusion\nReducing corporate compliance costs should never come at the expense of market integrity and investor protection. If adopted, this rule will effectively re-privatize public market information, pricing out the everyday investor and turning back the clock on decades of transparency reforms.\nI strongly urge the Commission to withdraw this proposal and maintain mandatory quarterly reporting on Form 10-Q. The health of our public markets depends on equal, timely access to information for all participants, not just the wealthiest institutions.\nSincerely,",
    "primary_stance": "Oppose",
    "literalist_stance": "Oppose",
@@ -131,11 +134,12 @@
     "rationale_column": "D shows IA/MF/IP/CMP badges.",
     "source": "Tzachi directive 2026-06-18 (354pm)."
    },
-   "staged": "2026-06-18 — classified; held in pending_types until the docket 'typed' aggregate count posts. On promotion: move to types[], set submitter_count, bump n_types, add to total_submitters + stance_summary.Oppose, rebuild panel."
+   "staged": "2026-06-18 — classified; held in pending_types until the docket 'typed' aggregate count posts. On promotion: move to types[], set submitter_count, bump n_types, add to total_submitters + stance_summary.Oppose, rebuild panel.",
+   "previous_submitter_count": 150
   },
   {
    "type": "E",
-   "submitter_count": 75,
+   "submitter_count": 43,
    "text": "Dear SEC Officials,\nI am writing to oppose the proposed rule that would allow public companies to replace quarterly Form 10-Q reporting with semiannual reporting on Form 10-S.\nI understand the concern that quarterly reporting can contribute to short-termism, managerial distraction, compliance costs, and an unhealthy culture of earnings theater. Those concerns should be taken seriously. I also recognize that not every company is situated identically. Smaller companies, pre-revenue companies, long-horizon companies, and companies in highly cyclical industries may experience quarterly reporting differently than large, mature issuers.\nI would support a serious effort to reduce unnecessary reporting burden and short-term earnings pressure, especially for smaller issuers, so long as that effort preserves timely, standardized public information. But reducing standardized public disclosure from quarterly to semiannual reporting is too blunt a remedy.\nThe problem is not simply how often companies report. The deeper question is who has access to reliable information, when they receive it, and whether the public market remains a genuinely public field of visibility.\nQuarterly reporting is not a perfect solution to the deeper problems of financialized capitalism. It does not by itself create justice, shared flourishing, or democratic accountability. But in a market system in which ordinary people's retirement savings, pensions, public institutions, and communities are already deeply entangled, timely standardized disclosure remains an important accountability structure.\nIf required reporting moves from quarterly to semiannual, the period between official public financial updates doubles. During that longer gap, material business realities may develop well before ordinary investors receive a full public accounting. Insiders, large institutions, and professional market participants may still have access to alternative data, management access, analyst networks, industry intelligence, and other channels. Ordinary investors are more dependent on standardized public filings.\nReducing quarterly disclosure does not eliminate information. It risks redistributing informational advantage toward those already best positioned to obtain it.\nThe Commission should therefore distinguish between factual quarterly reporting and the unhealthy practices sometimes associated with quarterly capitalism. Quarterly earnings guidance, short-term compensation incentives, analyst pressure, and performative earnings management may all deserve scrutiny. But the remedy for those problems should not be to dim one of the few standardized sources of public information available to all investors at the same time.\nIf the Commission believes quarterly reporting is too burdensome, it should consider narrower reforms: simplifying Form 10-Q where appropriate, scaling requirements for smaller issuers, discouraging or regulating quarterly earnings guidance, improving material-event disclosure, or addressing incentive structures that reward short-termism. Those approaches would target the problem more directly while preserving the public transparency floor that ordinary investors rely on.\nI am also concerned about comparability. If some companies report quarterly while others report semiannually, investors may find it harder to compare companies within the same sector, assess risk in real time, and distinguish genuine long-term strategy from avoidable opacity. Market discipline may not be sufficient to protect ordinary investors, because sophisticated actors can price and navigate reduced disclosure more effectively than retail investors can.\nThe burden should therefore rest on proponents of the proposed change to show that ordinary investors will not be harmed, that market transparency will not be meaningfully reduced, that liquidity and price discovery will not suffer, and that any compliance savings outweigh the public cost of less frequent standardized disclosure.\nI urge the Commission not to adopt the proposed rule as written. At minimum, the Commission should preserve quarterly factual reporting as the default public transparency floor unless it can demonstrate, with strong evidence, that any alternative reporting regime will protect ordinary investors, preserve comparability, maintain timely access to material information, and avoid widening the gap between insiders and the public.\nTransparency will not solve the deeper inequities of public markets. But reducing standardized public disclosure would increase the risk of informational domination. The Commission should not make public markets darker for the people least able to see through them.",
    "primary_stance": "Oppose",
    "literalist_stance": "Oppose",
@@ -202,11 +206,12 @@
     "rationale_column": "Add a Rationale column. E shows IA/IP/CMP/MF/AL; F shows IA/FR/IP (coded 2026-06-18); A/B/C show 'no rationale' (blank/—).",
     "badges": "Render E's and F's rationale codes as the same badge chips ('little boxes') used on individual letter cards; reuse existing badge styling/legend from build_and_push.py.",
     "source": "Tzachi directive 2026-06-18."
-   }
+   },
+   "previous_submitter_count": 75
   },
   {
    "type": "F",
-   "submitter_count": 19077,
+   "submitter_count": 35105,
    "text": "Dear SEC, I oppose the SEC proposal because it prevents investors like me from accessing information about companies; lets companies hide behind closed doors; and allows fraud to fester.\n\nSincerely,",
    "primary_stance": "Oppose",
    "literalist_stance": "Oppose",
@@ -251,11 +256,12 @@
     "IA": "prevents investors like me from accessing information about companies (retail access disadvantage vs better-positioned actors)",
     "FR": "allows fraud to fester",
     "IP": "lets companies hide behind closed doors (loss of public transparency)"
-   }
+   },
+   "previous_submitter_count": 19077
   },
   {
    "type": "G",
-   "submitter_count": 55,
+   "submitter_count": 73,
    "text": "The proposal to abandon quarterly reporting in favor of semiannual reports should NOT move forward. The proposal rests on the theory that quarterly reporting causes short-termism among corporate managers. Whatever the merits of that argument as applied to the C-suite, it has the relationship to retail investors exactly backward. Quarterly reports are the single most important leveling mechanism between retail and institutional investors in U.S. equity markets. Institutional investors have expert networks, channel checks, alternative data, satellite imagery of retailer parking lots, credit card panel data, and direct management access through conferences and one-on-one meetings that cost more than most of our portfolios. We have the 10-Q.\nThere are several issues:\nQuarterly reporting protects individual investors. Semiannual reporting doubles the information gap between insiders and ordinary shareholders. That gap is where volatility, uncertainty, and mistrust grow.\nThe short-termism diagnosis doesn't justify this remedy. Research from the CFA Institute, which studied this exact maneuver in the U.K. market, shows that reporting frequency has no measurable effect on corporate investment behavior. The SEC is accepting a real cost – less transparency for individual investors – for a benefit that the evidence says simply won't materialize.\nThe companies most likely to opt out are the ones where oversight matters most. Smaller, less-covered businesses operate with less scrutiny. Reducing their reporting requirements makes them harder to monitor, not easier to own.\nThis is the wrong direction. Reg FD moved toward a more level playing field. This proposal moves away from it.\nWhat, exactly, is the problem? As the WallStreetBets comment letter put it: \"The companies we trade are not being held back from greatness by the obligation to file four reports a year. ... The entire S&P 500 files a 10-Q every quarter, and the S&P 500 is at an all-time high. If quarterly reporting is crushing American capitalism, American capitalism is hiding it well.\"\nSimply put, the proposed amendment should NOT be allowed to advance.",
    "primary_stance": "Oppose",
    "literalist_stance": "Oppose",
@@ -316,8 +322,215 @@
     "text_cell": "Long template — link out to the SEC 'typeg' aggregate URL (s7202615-typeg.htm) instead of inlining (same as D/E).",
     "rationale_column": "G shows IA/IP/FR/MF/ICc badges.",
     "source": "Tzachi paste 2026-06-22."
-   }
+   },
+   "previous_submitter_count": 55
   },
+  {
+   "type": "H",
+   "variant_id": "H1",
+   "supersedes": "H0",
+   "submitter_count": 59,
+   "previous_submitter_count": 56,
+   "text": "Vanessa A. Countryman, Secretary\nU.S. Securities and Exchange Commission\n100 F Street, NE\nWashington, DC 20549-1090\n\nRe: Proposed Amendments to Exchange Act Rules 13a-13 and 15d-13 — Optional Semi-annual Reporting in Lieu of Quarterly Reports on Form 10-Q [File No. S7-XX-XX]\n\nDear Ms. Countryman:\n\nI am writing to express my strong opposition to the Commission’s proposal to permit companies to file semiannual reports on new Form 10-S in lieu of quarterly reports on Form 10-Q, as well as the accompanying changes to simplify Regulation S-X regarding the age of financial statements. While the Commission’s intent may be to reduce the compliance burden and curb \"short-termism\" in corporate governance, the proposed rules present structural risks that outweigh these hypothetical benefits.\n\nDecreasing the frequency of mandatory disclosures will degrade market efficiency, severely harm retail investors, increase capital costs, and create a highly fragmented reporting environment. I urge the Commission to withdraw this proposal based on the following critical technical grounds.\n\n1. Severe Degradation of Market Efficiency and Pricing Accuracy\n\nThe modern U.S. public market relies heavily on a continuous flow of highly standardized, periodic financial data. Extending the reporting window from 90 days to 180 days fundamentally breaks this continuity..\n\nDelayed Price Discovery: Quarterly reporting ensures that asset prices dynamically reflect reality. Forcing investors to wait six months for updated, structured financial statement data will lead to massive informational gaps.\nEarnings-Release Volatility Spikes: Instead of minor, incremental price corrections every 90 days, markets will experience massive, destabilizing price swings when data is finally released on Form 10-S..\n\nIneffectiveness of Form 8-K as a Substitute: Proponents may suggest that material event disclosures via Form 8-K will fill the gaps. However, Form 8-K lacks the comprehensive structure, balance sheet data, and mandatory MD&A (Management's Discussion and Analysis) overview that investors require to model long-term corporate health.\n\n2. Heightened Informational Asymmetry and Harm to Retail Investors\n\nThe elimination of mandatory Form 10-Q filings does not stop information from being generated; it simply restricts who has access to it.\nInstitutional Disadvantage for Retail Investors: Large institutional investors have the capital and clout to schedule direct meetings with corporate executives, leverage alternative data streams (e.g., satellite imagery, credit card tracking), and use private channels to evaluate a company mid-year. Retail investors do not have this access. They rely heavily on the democratic nature of EDGAR-filed Form 10-Qs to level the playing field.\nThe Regulation FD Loophole: While Regulation FD prevents selective disclosure of material non-public information, executives interacting with institutional analysts will inevitably drop \"mosaic\" pieces of information that build a clearer picture for sophisticated firms, leaving retail investors completely in the dark.\n\n3. The Proliferation of Non-GAAP and Unchecked Earnings Releases\n\nIf companies are not required to file a structured, SEC-reviewed Form 10-Q, they will not stop communicating with the market. Instead, they will shift toward highly customized, unregulated channels.\n\nRise of Fragmented PR Guidance: Issuers will likely substitute Form 10-Q with voluntary, unstructured press releases packed with bespoke, non-GAAP metrics designed to frame performance in the most flattering light possible.\nWeakened Internal Controls over Financial Reporting (ICFR): Under Sarbanes-Oxley Section 404, management must evaluate material changes to internal controls on a quarterly basis. Moving to a semiannual cadence relaxes this discipline, allowing financial irregularities, accounting errors, or structural control weaknesses to persist unchecked for twice as long.\n\n4.. Unintended Increase in the Cost of Capital\n\nA foundational tenet of corporate finance is that higher information risk demands a higher risk premium.\nThe Lemon Problem: When corporate transparency decreases, investors naturally assume the worst regarding unstated data. This heightened uncertainty will cause investors to discount stock values and demand higher yields on debt issuances.\nA Net Loss for Cost Savings: Any compliance cost savings derived from skipping two Form 10-Q filings per year will be utterly wiped out by the increased cost of capital driven by the market's information-risk premium.\n\n5. Market Fragmentation and \"Negative Signaling\"\n\nBecause the proposal makes Form 10-S optional rather than mandatory, it creates a dual-track market ecosystem that will confuse participants.\nA Two-Tiered Market: High-quality, transparent companies will likely continue filing Form 10-Qs voluntarily to maintain investor trust. Conversely, companies facing financial distress, transitioning business models, or seeking to obscure poor performance will eagerly opt into Form 10-S.\nThe Signaling Trap: Opting into Form 10-S will immediately be viewed by the market as a negative signal (i.e., \"the company has something to hide\"), triggering an immediate adverse market reaction for any firm attempting to utilize the new rule.\n\n6. Opposition to Relaxing Regulation S-X Financial Statement Age Rules\n\nThe proposal to relax Regulation S-X rules regarding the age of financial statements in registration statements poses an unnecessary threat to capital-formation integrity. Allowing companies to market securities using financial statements that are up to 180 days old means investors in public offerings will be risking capital on completely stale data—especially in fast-moving tech, biotech, or highly cyclical sectors.\n\nConclusion\n\nThe quarterly reporting framework under the Securities Exchange Act of 1934 has been a cornerstone of the integrity of the U.S. capital markets for over half a century. Short-termism is a cultural and corporate governance issue driven by executive compensation structures and market trading dynamics; it cannot be cured by blinding investors.\n\nThe creation of Form 10-S will diminish corporate accountability, punish everyday retail investors, and inject systematic opacity into the market. I strongly urge the Commission to reject these amendments and retain the mandatory quarterly reporting framework on Form 10-Q.",
+   "primary_stance": "Oppose",
+   "literalist_stance": "Oppose",
+   "skeptic_stance": "Oppose",
+   "stance": "Oppose",
+   "agreement": "unanimous",
+   "entity": "NR",
+   "entity_agreement": "unanimous",
+   "rationales": [
+    "IA",
+    "MF",
+    "CMP",
+    "FR",
+    "SG",
+    "IP"
+   ],
+   "rationales_primary": [
+    "IA",
+    "MF",
+    "CMP",
+    "FR",
+    "SG",
+    "IP"
+   ],
+   "rationales_literalist": [
+    "IA",
+    "MF",
+    "CMP",
+    "SG",
+    "IP"
+   ],
+   "rationales_inclusive": [
+    "IA",
+    "MF",
+    "CMP",
+    "FR",
+    "SG",
+    "IP",
+    "CB",
+    "AU",
+    "US",
+    "RI"
+   ],
+   "rationales_majority": [
+    "IA",
+    "MF",
+    "CMP",
+    "FR",
+    "SG",
+    "IP"
+   ],
+   "rationale_agreement": "majority",
+   "rationale_evidence": {
+    "IA": "Sec 2 'Heightened Informational Asymmetry': institutions get direct exec meetings, alternative data (satellite, credit-card), and the Reg FD 'mosaic' loophole; retail rely on EDGAR-filed 10-Qs to level the playing field.",
+    "MF": "Sec 1 'Severe Degradation of Market Efficiency and Pricing Accuracy' — delayed price discovery, earnings-release volatility spikes; Sec 4 higher cost of capital / information-risk premium ('Lemon Problem'); Sec 6 stale (180-day-old) financials in offerings.",
+    "CMP": "Sec 1 Form 8-K lacks comprehensive structure, balance-sheet data and mandatory MD&A; Sec 3 shift to bespoke non-GAAP PR guidance; Sec 5 dual-track two-tiered market fragments comparability.",
+    "FR": "Sec 3 weakened ICFR (SOX 404 quarterly control evaluation) lets 'financial irregularities, accounting errors, or structural control weaknesses persist unchecked for twice as long.'",
+    "SG": "Sec 5 'Negative Signaling' / 'Signaling Trap' — opting into Form 10-S is read as 'the company has something to hide,' triggering adverse market reaction.",
+    "IP": "Conclusion: the rule will 'diminish corporate accountability, punish everyday retail investors, and inject systematic opacity into the market'; urges retaining mandatory quarterly reporting."
+   },
+   "rater_notes": {
+    "primary": "Oppose — 'strong opposition'; six-part technical brief (market efficiency, info asymmetry, non-GAAP/ICFR, cost of capital, negative signaling, Reg S-X age) ending 'strongly urge the Commission to reject these amendments and retain the mandatory quarterly reporting framework.'",
+    "literalist": "Oppose — explicit 'strong opposition', 'I urge the Commission to withdraw this proposal', 'reject these amendments and retain the mandatory quarterly reporting framework.'",
+    "skeptic": "Oppose — the short-termism/compliance-burden lines are dismissed as 'hypothetical benefits' (rebuttal, not concession); no 'so long as', no alternative cadence, one-directional — nothing to flip to Conditional.",
+    "rationale": "Rich technical template. Majority: IA (institutional vs retail, Reg FD mosaic), MF (price discovery/volatility/cost of capital/stale data), CMP (8-K vs 10-Q granularity + non-GAAP + two-tier fragmentation), SG (negative-signaling trap), IP (accountability/opacity/retail harm), FR (ICFR/irregularities persist unchecked — primary+inclusive, literalist omits as framed via controls not explicit fraud). Inclusive-only: CB (savings wiped out by cost of capital — rebutted), AU (SOX 404 ICFR), US (half-century market integrity), RI (retail reliance on EDGAR 10-Qs)."
+   },
+   "render_spec": {
+    "panel": "Same A/B/C/F form-letter table.",
+    "text_cell": "Long template (~1,000 words, 6 numbered sections) — link out to the SEC 'typeh' aggregate URL (s7202615-typeh.htm / typeh_0.htm).",
+    "rationale_column": "H shows IA/MF/CMP/FR/SG/IP badges.",
+    "source": "Docket re-tally 2026-07-01; typeh slot replaced (old template archived as H0). Reclassified by 3-rater ensemble 2026-07-01."
+   },
+   "reclassified": "2026-07-01"
+  },
+  {
+   "type": "I",
+   "submitter_count": 365,
+   "text": "Four reasons this is bad for every investor.\n\n01 You'd be flying blind for six months. A lot can go wrong in half a year. Failed product launches, ballooning debt, lawsuits, vanishing customers. Today the law forces companies to surface that information every quarter. Under the new rule, they can sit on it for six months at a stretch. Plenty of time for insiders to quietly sell their shares to you (or your ETF) before the bad news tanks the stock.\n\n02 More time for fraud to grow. Enron. WorldCom. Madoff. The run-up to 2008. Every major modern accounting scandal was enabled by gaps and opacity in financial disclosure. Quarterly filings don't prevent fraud, but they dramatically shorten the window in which it can fester before someone outside the company can see it. What if Enron only had to cook their books twice a year?\n\n03 \"Optional\" is a trick. The framing is voluntary, but the dynamics aren't. Once large companies start filing twice a year, smaller competitors face pressure to follow. They can't justify \"more compliance than the bigger guy.\" Investor expectations adjust downward. What started as a choice quietly becomes the new normal. Almost no rule like this stays optional for long.\n\n04 The supposed savings are tiny, and they don't go to you. Companies still have to keep their books. They still have to brief their boards. The actual savings from skipping a public filing are modest legal and accounting fees, and those savings flow to the company and its executives. The cost of worse information falls on you, the person whose 401(k), IRA, or college fund holds the stock. That's a bad trade for ordinary investors.",
+   "primary_stance": "Oppose",
+   "literalist_stance": "Oppose",
+   "skeptic_stance": "Oppose",
+   "stance": "Oppose",
+   "agreement": "unanimous",
+   "entity": "NR",
+   "entity_agreement": "unanimous",
+   "rationales": [
+    "FR",
+    "IA",
+    "EX",
+    "CB"
+   ],
+   "rationales_primary": [
+    "FR",
+    "IA",
+    "EX",
+    "CB"
+   ],
+   "rationales_literalist": [
+    "FR",
+    "IA",
+    "EX",
+    "CB"
+   ],
+   "rationales_inclusive": [
+    "FR",
+    "IA",
+    "EX",
+    "CB",
+    "MF",
+    "IP",
+    "RI",
+    "OP"
+   ],
+   "rationales_majority": [
+    "FR",
+    "IA",
+    "EX",
+    "CB"
+   ],
+   "rationale_agreement": "majority",
+   "rationale_evidence": {
+    "FR": "'More time for fraud to grow' - Enron, WorldCom, Madoff, the run-up to 2008; quarterly filings shorten the window in which fraud can fester. Also insiders quietly selling shares before bad news tanks the stock.",
+    "IA": "'Flying blind for six months' while insiders sell their shares to you (or your ETF) before the bad news - the insider-vs-retail information gap.",
+    "EX": "'Optional is a trick' - once large companies file twice a year, smaller competitors face pressure to follow and it becomes the new normal (spillover/externality).",
+    "CB": "'The supposed savings are tiny, and they don't go to you' - modest legal/accounting fees that flow to the company and its executives while the cost of worse information falls on ordinary investors' 401(k)/IRA."
+   },
+   "rater_notes": {
+    "primary": "Oppose - 'Four reasons this is bad for every investor'; a flat four-point case (flying blind, fraud window, optional-is-a-trick, savings are tiny) ending 'a bad trade for ordinary investors.'",
+    "literalist": "Oppose - entirely anti-proposal framing ('bad for every investor', 'bad trade for ordinary investors'); no endorsement language.",
+    "skeptic": "Oppose - one-directional; four reasons it is bad with no concession, no hybrid/alternative cadence, no 'so long as' - nothing to flip to Conditional.",
+    "rationale": "Reasons map cleanly: 01 -> IA + FR (flying blind; insiders sell ahead of bad news), 02 -> FR (Enron/WorldCom/Madoff fraud window), 03 -> EX (smaller competitors pressured to follow; new normal), 04 -> CB (savings tiny/flow to execs/cost on retail). MF (price impact), IP (investor-protection umbrella / 401k harm), RI (reliance), and OP (rebutted optionality framing) are inclusive-only -> majority not unanimous."
+   },
+   "render_spec": {
+    "panel": "Same A/B/C/F form-letter table.",
+    "text_cell": "Medium template (~330 words, 4 numbered reasons) - link out to the SEC 'typei' aggregate URL (s7202615-typei.htm).",
+    "rationale_column": "I shows FR/IA/EX/CB badges.",
+    "source": "Tzachi paste 2026-06-24; template fetched from s7202615-typei.htm and classified 2026-06-24."
+   },
+   "previous_submitter_count": 800
+  },
+  {
+   "type": "J",
+   "submitter_count": 180,
+   "text": "To Whom it May Concern:\n\nFor more than half a century, publicly traded companies in the United States have been required to report their financial performance every quarter. This system has become a cornerstone of market transparency, helping ensure that investors have regular access to accurate and timely information. Proposals to reduce reporting frequency may appear attractive to corporations seeking fewer regulatory requirements, but doing so would ultimately weaken transparency, reduce accountability, and disadvantage ordinary investors.\n\nOne of the primary benefits of quarterly reporting is that it promotes equal access to information. Large institutional investors often have teams of analysts, industry contacts, and extensive resources to evaluate companies. Individual investors, by contrast, rely heavily on publicly available information when making investment decisions. Regular quarterly reports help level the playing field by ensuring that all investors receive important financial updates on a predictable schedule. Without these reports, information gaps between professional investors and the general public could widen significantly.\n\nQuarterly reporting also strengthens transparency. Investors deserve to know how the companies they own are performing, especially when their retirement savings, pensions, and investment accounts depend on those companies' success. Quarterly reports provide critical information about revenue, profits, debt, cash flow, and business risks. More frequent reporting allows investors to identify emerging problems sooner and make informed decisions based on current facts rather than outdated information.\n\nIn addition, quarterly reporting improves market efficiency. Financial markets function best when participants have access to timely and reliable information. If companies were permitted to go six months or longer without providing comprehensive financial updates, investors would be forced to rely more heavily on speculation, rumors, and incomplete data. This uncertainty can increase market volatility and reduce confidence in the fairness of the marketplace.\n\nRegular reporting also promotes corporate accountability. Public companies benefit enormously from access to public capital markets. In return, they have an obligation to provide shareholders with meaningful information about their performance.\n\nQuarterly reporting allows investors to evaluate whether management is delivering on its promises and whether a company's strategy is producing results. Less frequent reporting would reduce opportunities for shareholders to monitor management and hold executives accountable.\n\nSupporters of reducing reporting requirements often argue that quarterly reports encourage short-term thinking. While concerns about excessive focus on quarterly earnings are valid, reducing transparency is not the solution. Investors can and do evaluate companies based on long-term performance while still benefiting from regular financial disclosures.\n\nCompanies should be encouraged to pursue long-term growth strategies, but that goal should not come at the expense of providing investors with timely information.\n\nThe United States has (until recently due to questionable acts by those in power) long been recognized for having some of the most transparent and trusted capital markets in the world. Quarterly reporting has played an important role in building that trust. Reducing reporting frequency would provide less information to ordinary investors, weaken accountability, and increase the advantages enjoyed by insiders and large institutions. For these reasons, quarterly reporting should be preserved as an essential safeguard for transparency, fairness, and investor confidence.",
+   "primary_stance": "Oppose",
+   "literalist_stance": "Oppose",
+   "skeptic_stance": "Conditional",
+   "stance": "Oppose",
+   "agreement": "majority",
+   "entity": "NR",
+   "entity_agreement": "unanimous",
+   "rationales": [
+    "IA",
+    "IP",
+    "MF",
+    "US"
+   ],
+   "rationale_agreement": "unanimous",
+   "rationale_evidence": {
+    "IA": "'promotes equal access to information... level the playing field'; warns 'information gaps between professional investors and the general public could widen' and decries 'advantages enjoyed by insiders and large institutions.'",
+    "IP": "'strengthens transparency... Investors deserve to know how the companies they own are performing'; ties to retirement savings/pensions; 'monitor management and hold executives accountable.'",
+    "MF": "'improves market efficiency... markets function best when participants have access to timely and reliable information'; without it investors 'rely more heavily on speculation, rumors' raising 'market volatility.'",
+    "US": "'the United States has... long been recognized for having some of the most transparent and trusted capital markets in the world.'",
+    "ST_rebutted": "Acknowledges 'concerns about excessive focus on quarterly earnings are valid' but rejects reducing transparency as the solution -- ST engaged as rebuttal, not coded."
+   },
+   "render_spec": "link-out",
+   "render_url": "https://www.sec.gov/comments/s7-2026-15/s7202615-typej.htm",
+   "rater_notes": {
+    "primary": "Oppose -- argues to preserve quarterly reporting; no substantive modification/condition proposed (acknowledge-and-rebut of short-termism, not a conditional offer).",
+    "literalist": "Oppose -- explicit 'quarterly reporting should be preserved as an essential safeguard'; status-quo preservation is opposition to the optional-semiannual change.",
+    "skeptic": "Conditional -- contains concessions to the other side ('While concerns... are valid'; 'Companies should be encouraged to pursue long-term growth strategies, but...'), which under the aggressive skeptic rule flip it off unanimous; matches the corpus's 62 Oppose/majority acknowledge-and-rebut letters.",
+    "entity": "NR -- anonymous aggregate form-letter template.",
+    "rationale": "IA + IP + MF + US all surface-explicit and unanimous; ST present only as a rebutted pro-proposal premise (not coded). No FR (no fraud/insider-trading language) and no RI (no analyst/workflow-reliance claim)."
+   },
+   "_staged_note": "Classified 2026-06-25 (3-rater ensemble). Awaiting submitter count to post on the docket; promote into types[] then (set submitter_count, bump n_types, add to total_submitters + stance_summary.Oppose).",
+   "previous_submitter_count": 180
+  }
+ ],
+ "pending_types": [],
+ "count_history": [
+  {
+   "asof": "2026-06-25 (pre-retally)",
+   "recorded": "2026-07-01",
+   "counts": {
+    "A": 16352,
+    "B": 212,
+    "C": 139,
+    "D": 150,
+    "E": 75,
+    "F": 19077,
+    "G": 55,
+    "H": 56,
+    "I": 800,
+    "J": 180
+   },
+   "total": 37096,
+   "note": "Counts before the SEC's 2026-07-01 form-letter re-tally/re-bucketing. Declines seen in D (150->7), E (75->43), I (800->365) while A (+7434) and F (+16028) surged; net +22876. Template text unchanged for all types EXCEPT H, whose docket slot was replaced (old=H0, new=H1)."
+  }
+ ],
+ "retired_types": [
   {
    "type": "H",
    "submitter_count": 56,
@@ -386,109 +599,10 @@
     "text_cell": "Medium template (~330 words) - link out to the SEC 'typeh' aggregate URL (s7202615-typeh.htm).",
     "rationale_column": "H shows IA/MF/CMP/CC/IP badges.",
     "source": "Tzachi paste 2026-06-24; count posted 2026-06-24."
-   }
-  },
-  {
-   "type": "I",
-   "submitter_count": 800,
-   "text": "Four reasons this is bad for every investor.\n\n01 You'd be flying blind for six months. A lot can go wrong in half a year. Failed product launches, ballooning debt, lawsuits, vanishing customers. Today the law forces companies to surface that information every quarter. Under the new rule, they can sit on it for six months at a stretch. Plenty of time for insiders to quietly sell their shares to you (or your ETF) before the bad news tanks the stock.\n\n02 More time for fraud to grow. Enron. WorldCom. Madoff. The run-up to 2008. Every major modern accounting scandal was enabled by gaps and opacity in financial disclosure. Quarterly filings don't prevent fraud, but they dramatically shorten the window in which it can fester before someone outside the company can see it. What if Enron only had to cook their books twice a year?\n\n03 \"Optional\" is a trick. The framing is voluntary, but the dynamics aren't. Once large companies start filing twice a year, smaller competitors face pressure to follow. They can't justify \"more compliance than the bigger guy.\" Investor expectations adjust downward. What started as a choice quietly becomes the new normal. Almost no rule like this stays optional for long.\n\n04 The supposed savings are tiny, and they don't go to you. Companies still have to keep their books. They still have to brief their boards. The actual savings from skipping a public filing are modest legal and accounting fees, and those savings flow to the company and its executives. The cost of worse information falls on you, the person whose 401(k), IRA, or college fund holds the stock. That's a bad trade for ordinary investors.",
-   "primary_stance": "Oppose",
-   "literalist_stance": "Oppose",
-   "skeptic_stance": "Oppose",
-   "stance": "Oppose",
-   "agreement": "unanimous",
-   "entity": "NR",
-   "entity_agreement": "unanimous",
-   "rationales": [
-    "FR",
-    "IA",
-    "EX",
-    "CB"
-   ],
-   "rationales_primary": [
-    "FR",
-    "IA",
-    "EX",
-    "CB"
-   ],
-   "rationales_literalist": [
-    "FR",
-    "IA",
-    "EX",
-    "CB"
-   ],
-   "rationales_inclusive": [
-    "FR",
-    "IA",
-    "EX",
-    "CB",
-    "MF",
-    "IP",
-    "RI",
-    "OP"
-   ],
-   "rationales_majority": [
-    "FR",
-    "IA",
-    "EX",
-    "CB"
-   ],
-   "rationale_agreement": "majority",
-   "rationale_evidence": {
-    "FR": "'More time for fraud to grow' - Enron, WorldCom, Madoff, the run-up to 2008; quarterly filings shorten the window in which fraud can fester. Also insiders quietly selling shares before bad news tanks the stock.",
-    "IA": "'Flying blind for six months' while insiders sell their shares to you (or your ETF) before the bad news - the insider-vs-retail information gap.",
-    "EX": "'Optional is a trick' - once large companies file twice a year, smaller competitors face pressure to follow and it becomes the new normal (spillover/externality).",
-    "CB": "'The supposed savings are tiny, and they don't go to you' - modest legal/accounting fees that flow to the company and its executives while the cost of worse information falls on ordinary investors' 401(k)/IRA."
    },
-   "rater_notes": {
-    "primary": "Oppose - 'Four reasons this is bad for every investor'; a flat four-point case (flying blind, fraud window, optional-is-a-trick, savings are tiny) ending 'a bad trade for ordinary investors.'",
-    "literalist": "Oppose - entirely anti-proposal framing ('bad for every investor', 'bad trade for ordinary investors'); no endorsement language.",
-    "skeptic": "Oppose - one-directional; four reasons it is bad with no concession, no hybrid/alternative cadence, no 'so long as' - nothing to flip to Conditional.",
-    "rationale": "Reasons map cleanly: 01 -> IA + FR (flying blind; insiders sell ahead of bad news), 02 -> FR (Enron/WorldCom/Madoff fraud window), 03 -> EX (smaller competitors pressured to follow; new normal), 04 -> CB (savings tiny/flow to execs/cost on retail). MF (price impact), IP (investor-protection umbrella / 401k harm), RI (reliance), and OP (rebutted optionality framing) are inclusive-only -> majority not unanimous."
-   },
-   "render_spec": {
-    "panel": "Same A/B/C/F form-letter table.",
-    "text_cell": "Medium template (~330 words, 4 numbered reasons) - link out to the SEC 'typei' aggregate URL (s7202615-typei.htm).",
-    "rationale_column": "I shows FR/IA/EX/CB badges.",
-    "source": "Tzachi paste 2026-06-24; template fetched from s7202615-typei.htm and classified 2026-06-24."
-   }
-  },
-  {
-   "type": "J",
-   "submitter_count": 180,
-   "text": "To Whom it May Concern:\n\nFor more than half a century, publicly traded companies in the United States have been required to report their financial performance every quarter. This system has become a cornerstone of market transparency, helping ensure that investors have regular access to accurate and timely information. Proposals to reduce reporting frequency may appear attractive to corporations seeking fewer regulatory requirements, but doing so would ultimately weaken transparency, reduce accountability, and disadvantage ordinary investors.\n\nOne of the primary benefits of quarterly reporting is that it promotes equal access to information. Large institutional investors often have teams of analysts, industry contacts, and extensive resources to evaluate companies. Individual investors, by contrast, rely heavily on publicly available information when making investment decisions. Regular quarterly reports help level the playing field by ensuring that all investors receive important financial updates on a predictable schedule. Without these reports, information gaps between professional investors and the general public could widen significantly.\n\nQuarterly reporting also strengthens transparency. Investors deserve to know how the companies they own are performing, especially when their retirement savings, pensions, and investment accounts depend on those companies' success. Quarterly reports provide critical information about revenue, profits, debt, cash flow, and business risks. More frequent reporting allows investors to identify emerging problems sooner and make informed decisions based on current facts rather than outdated information.\n\nIn addition, quarterly reporting improves market efficiency. Financial markets function best when participants have access to timely and reliable information. If companies were permitted to go six months or longer without providing comprehensive financial updates, investors would be forced to rely more heavily on speculation, rumors, and incomplete data. This uncertainty can increase market volatility and reduce confidence in the fairness of the marketplace.\n\nRegular reporting also promotes corporate accountability. Public companies benefit enormously from access to public capital markets. In return, they have an obligation to provide shareholders with meaningful information about their performance.\n\nQuarterly reporting allows investors to evaluate whether management is delivering on its promises and whether a company's strategy is producing results. Less frequent reporting would reduce opportunities for shareholders to monitor management and hold executives accountable.\n\nSupporters of reducing reporting requirements often argue that quarterly reports encourage short-term thinking. While concerns about excessive focus on quarterly earnings are valid, reducing transparency is not the solution. Investors can and do evaluate companies based on long-term performance while still benefiting from regular financial disclosures.\n\nCompanies should be encouraged to pursue long-term growth strategies, but that goal should not come at the expense of providing investors with timely information.\n\nThe United States has (until recently due to questionable acts by those in power) long been recognized for having some of the most transparent and trusted capital markets in the world. Quarterly reporting has played an important role in building that trust. Reducing reporting frequency would provide less information to ordinary investors, weaken accountability, and increase the advantages enjoyed by insiders and large institutions. For these reasons, quarterly reporting should be preserved as an essential safeguard for transparency, fairness, and investor confidence.",
-   "primary_stance": "Oppose",
-   "literalist_stance": "Oppose",
-   "skeptic_stance": "Conditional",
-   "stance": "Oppose",
-   "agreement": "majority",
-   "entity": "NR",
-   "entity_agreement": "unanimous",
-   "rationales": [
-    "IA",
-    "IP",
-    "MF",
-    "US"
-   ],
-   "rationale_agreement": "unanimous",
-   "rationale_evidence": {
-    "IA": "'promotes equal access to information... level the playing field'; warns 'information gaps between professional investors and the general public could widen' and decries 'advantages enjoyed by insiders and large institutions.'",
-    "IP": "'strengthens transparency... Investors deserve to know how the companies they own are performing'; ties to retirement savings/pensions; 'monitor management and hold executives accountable.'",
-    "MF": "'improves market efficiency... markets function best when participants have access to timely and reliable information'; without it investors 'rely more heavily on speculation, rumors' raising 'market volatility.'",
-    "US": "'the United States has... long been recognized for having some of the most transparent and trusted capital markets in the world.'",
-    "ST_rebutted": "Acknowledges 'concerns about excessive focus on quarterly earnings are valid' but rejects reducing transparency as the solution -- ST engaged as rebuttal, not coded."
-   },
-   "render_spec": "link-out",
-   "render_url": "https://www.sec.gov/comments/s7-2026-15/s7202615-typej.htm",
-   "rater_notes": {
-    "primary": "Oppose -- argues to preserve quarterly reporting; no substantive modification/condition proposed (acknowledge-and-rebut of short-termism, not a conditional offer).",
-    "literalist": "Oppose -- explicit 'quarterly reporting should be preserved as an essential safeguard'; status-quo preservation is opposition to the optional-semiannual change.",
-    "skeptic": "Conditional -- contains concessions to the other side ('While concerns... are valid'; 'Companies should be encouraged to pursue long-term growth strategies, but...'), which under the aggressive skeptic rule flip it off unanimous; matches the corpus's 62 Oppose/majority acknowledge-and-rebut letters.",
-    "entity": "NR -- anonymous aggregate form-letter template.",
-    "rationale": "IA + IP + MF + US all surface-explicit and unanimous; ST present only as a rebutted pro-proposal premise (not coded). No FR (no fraud/insider-trading language) and no RI (no analyst/workflow-reliance claim)."
-   },
-   "_staged_note": "Classified 2026-06-25 (3-rater ensemble). Awaiting submitter count to post on the docket; promote into types[] then (set submitter_count, bump n_types, add to total_submitters + stance_summary.Oppose)."
+   "variant_id": "H0",
+   "retired": "2026-07-01 — docket typeh.htm/typeh_0.htm slot replaced with a different template (now H1). Retained in case the old template returns.",
+   "last_submitter_count": 56
   }
- ],
- "pending_types": []
+ ]
 }
