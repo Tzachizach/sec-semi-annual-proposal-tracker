@@ -79796,5 +79796,128 @@
       "IP"
     ],
     "cross_docket": null
+  },
+  {
+    "n": 2244,
+    "page": 1,
+    "date": "2026-06-01",
+    "name": "Pete",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2411988.htm",
+    "words": 43,
+    "rationales": [
+      "FR",
+      "IA"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "FR",
+      "IA"
+    ],
+    "rationales_literalist": [
+      "FR",
+      "IA"
+    ],
+    "rationales_inclusive": [
+      "FR",
+      "IA"
+    ],
+    "cross_docket": null
+  },
+  {
+    "n": 2245,
+    "page": 1,
+    "date": "2026-06-04",
+    "name": "M G",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-2424088.htm",
+    "words": 190,
+    "rationales": [
+      "FR",
+      "IA",
+      "MF",
+      "IP"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "FR",
+      "IA",
+      "MF",
+      "IP"
+    ],
+    "rationales_literalist": [
+      "FR",
+      "IA",
+      "MF",
+      "IP"
+    ],
+    "rationales_inclusive": [
+      "FR",
+      "IA",
+      "MF",
+      "IP"
+    ],
+    "cross_docket": null
+  },
+  {
+    "n": 2246,
+    "page": 1,
+    "date": "2026-06-04",
+    "name": "Juliet DiGiovanni",
+    "role": "Individual",
+    "entity": "Individual",
+    "entity_agreement": "unanimous",
+    "entity_primary": "Individual",
+    "entity_selfdescribed": "Individual",
+    "entity_letterhead": "Individual",
+    "stance": "Oppose",
+    "primary": "Oppose",
+    "literalist": "Oppose",
+    "skeptic": "Oppose",
+    "agreement": "unanimous",
+    "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-800799-2425446.html",
+    "words": 131,
+    "rationales": [
+      "AU",
+      "IP",
+      "MF"
+    ],
+    "rationale_agreement": "unanimous",
+    "rationales_primary": [
+      "AU",
+      "IP",
+      "MF"
+    ],
+    "rationales_literalist": [
+      "AU",
+      "IP",
+      "MF"
+    ],
+    "rationales_inclusive": [
+      "AU",
+      "IP",
+      "MF"
+    ],
+    "cross_docket": null
   }
 ]
