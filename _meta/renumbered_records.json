@@ -97653,7 +97653,18 @@
   "summary": "Baker Tilly (auditor): supports optionality/burden relief but flags hybrid-reporting reliability risk and urges study of reducing disclosure content vs frequency.",
   "url": "https://www.sec.gov/comments/S7-2026-15/s7202615-913699-2800729.pdf",
   "words": 1125,
-  "letter_id": "s7202615-913699-2800729.pdf"
+  "letter_id": "s7202615-913699-2800729.pdf",
+  "rfc_questions": {
+   "engaged": [
+    1,
+    14,
+    24,
+    26,
+    27
+   ],
+   "cited_explicitly": false,
+   "note": "Baker Tilly US, LLP (public-company auditor). Engages by topic without citing question numbers: supports optional annual election to file semiannual (Q1); suggests the Commission study revising the EXTENT of interim disclosure requirements rather than frequency (Q14); observes auditors may be asked to perform AS 4105-type review procedures over interim info that is not a full set of interim financial statements (Q24) and flags increased reliability risk for hybrid reporting / audit strategy (Q26); and addresses underwriter comfort letters under PCAOB AS 6101 (Q27)."
+  }
  },
  {
   "n": 2200,
